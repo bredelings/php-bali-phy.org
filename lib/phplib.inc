@@ -192,7 +192,7 @@ class Menu {
   function AddEntry($entry,$parents_id) {
     /* Attatch to parents */
     $parent =& $this->get_entry($parents_id);
-    array_push($parent->children,&$entry);
+    array_push($parent->children,$entry);
     $entry->parent =& $parent;
 
     /* Insert into name hash */
@@ -289,7 +289,7 @@ class Menu {
     $path = array(&$entry);
     while (isset($entry->parent)) {
       $entry =& $entry->parent;
-      array_unshift($path,&$entry);
+      array_unshift($path,$entry);
     }
     return $path;
   }
