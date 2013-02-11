@@ -1,0 +1,288 @@
+# Loading trees from '1.trees'...
+# n_trees = 90001   n_topologies = 9048
+# [ seed = 3897912886    pseudocount = 0    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | HbI-Lucina HbII-Lucina 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | cyto-fish cyto-human 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hemo-tunicate-1 hemo-tunicate-3 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hagfish lamprey 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | leghemo-pea leghemo-rice 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark | hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish  [ HbA-blood_clam HbI-Lucina HbII-Lucina hemo-tunicate-1 hemo-tunicate-3 myo-Dolabella myo-snail ]
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | myo-human myo-shark 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle honeybee  [ drosophila midge-8 ]
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail | neuro-human neuro-zebrafish 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark 
+   PP0 = 1.000  in  (1.000,1.000)        (1=90001  0=0)  [0 !!!]
+
+  LOD0 = inf  in  (inf,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey myo-human myo-shark 
+   PP0 = 1.000  in  (1.000,1.000)        (1=89998  0=3)  [2 !!!]
+
+  LOD0 = 4.477  in  (4.051,inf)
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | drosophila midge-8 
+   PP0 = 1.000  in  (1.000,1.000)        (1=89991  0=10)  [8 !!]     sigma = 0.000
+
+  LOD0 = 3.954  in  (3.653,4.477)       ACT = 1.799          Ne = 50016.180
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hemo-beta-human hemo-beta-shark 
+   PP0 = 1.000  in  (0.999,1.000)        (1=89979  0=22)  [10 !!]     sigma = 0.000
+
+  LOD0 = 3.612  in  (3.282,4.176)       ACT = 5.723          Ne = 15726.839
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle drosophila honeybee midge-8  [ hemo-tunicate-1 hemo-tunicate-3 ]
+   PP0 = 0.999  in  (0.999,1.000)        (1=89936  0=65)  [41]     sigma = 0.000
+
+  LOD0 = 3.141  in  (2.908,3.463)       ACT = 6.379          Ne = 14108.128
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle drosophila honeybee midge-8 
+   PP0 = 0.998  in  (0.997,0.999)        (1=89825  0=176)  [79]     sigma = 0.001
+
+  LOD0 = 2.708  in  (2.490,2.990)       ACT = 14.828          Ne = 6069.648
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish  [ hemo-tunicate-1 hemo-tunicate-3 ]
+   PP0 = 0.996  in  (0.994,0.997)        (1=89632  0=369)  [148]     sigma = 0.001
+
+  LOD0 = 2.385  in  (2.255,2.546)       ACT = 12.813          Ne = 7024.240
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hemo-alpha-human hemo-alpha-shark 
+   PP0 = 0.996  in  (0.994,0.997)        (1=89614  0=387)  [312]     sigma = 0.001
+
+  LOD0 = 2.365  in  (2.214,2.545)       ACT = 12.066          Ne = 7458.923
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle honeybee 
+   PP0 = 0.996  in  (0.995,0.996)        (1=89597  0=404)  [290]     sigma = 0.000
+
+  LOD0 = 2.346  in  (2.281,2.415)       ACT = 2.423          Ne = 37137.596
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 myo-polychaete  [ neuro-human neuro-zebrafish ]
+   PP0 = 0.995  in  (0.993,0.997)        (1=89540  0=461)  [173]     sigma = 0.001
+
+  LOD0 = 2.288  in  (2.127,2.489)       ACT = 22.911          Ne = 3928.373
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-shark myo-snail neuro-human neuro-zebrafish | hemo-polychaete-4 myo-polychaete 
+   PP0 = 0.992  in  (0.989,0.995)        (1=89281  0=720)  [144]     sigma = 0.002
+
+  LOD0 = 2.093  in  (1.939,2.283)       ACT = 33.103          Ne = 2718.853
+
+
+HbI-Lucina HbII-Lucina myo-Dolabella myo-snail | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark  [ HbA-blood_clam hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish ]
+   PP0 = 0.975  in  (0.972,0.978)        (1=87767  0=2234)  [1370]     sigma = 0.001
+
+  LOD0 = 1.594  in  (1.542,1.642)       ACT = 7.463          Ne = 12060.011
+
+
+HbI-Lucina HbII-Lucina myo-Dolabella myo-snail | hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish  [ HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark ]
+   PP0 = 0.969  in  (0.964,0.973)        (1=87179  0=2822)  [1334]     sigma = 0.002
+
+  LOD0 = 1.490  in  (1.428,1.552)       ACT = 9.634          Ne = 9341.974
+
+
+HbI-Lucina HbII-Lucina myo-Dolabella myo-snail | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish  [ HbA-blood_clam ]
+   PP0 = 0.943  in  (0.938,0.948)        (1=84891  0=5110)  [2633]     sigma = 0.003
+
+  LOD0 = 1.220  in  (1.178,1.260)       ACT = 8.220          Ne = 10949.634
+
+
+HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish | myo-Dolabella myo-snail  [ HbI-Lucina HbII-Lucina ]
+   PP0 = 0.939  in  (0.928,0.949)        (1=84476  0=5525)  [1478]     sigma = 0.005
+
+  LOD0 = 1.184  in  (1.113,1.273)       ACT = 41.220          Ne = 2183.417
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 myo-polychaete neuro-human neuro-zebrafish  [ leghemo-pea leghemo-rice ]
+   PP0 = 0.918  in  (0.913,0.923)        (1=82630  0=7371)  [4146]     sigma = 0.003
+
+  LOD0 = 1.050  in  (1.021,1.078)       ACT = 5.290          Ne = 17013.515
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish | myo-Dolabella myo-snail 
+   PP0 = 0.906  in  (0.893,0.921)        (1=81546  0=8455)  [943]     sigma = 0.007
+
+  LOD0 = 0.984  in  (0.920,1.065)       ACT = 50.335          Ne = 1788.046
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish 
+   PP0 = 0.872  in  (0.864,0.880)        (1=78491  0=11510)  [4986]     sigma = 0.004
+
+  LOD0 = 0.834  in  (0.802,0.864)       ACT = 10.622          Ne = 8473.011
+
+
+beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark | hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish  [ HbA-blood_clam HbI-Lucina HbII-Lucina myo-Dolabella myo-snail ]
+   PP0 = 0.823  in  (0.800,0.840)        (1=74051  0=15950)  [5967]     sigma = 0.010
+
+  LOD0 = 0.667  in  (0.602,0.719)       ACT = 119.646          Ne = 752.228
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | cyto-fish cyto-human hagfish lamprey  [ hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark ]
+   PP0 = 0.768  in  (0.750,0.789)        (1=69161  0=20840)  [6953]     sigma = 0.010
+
+  LOD0 = 0.521  in  (0.478,0.572)       ACT = 57.478          Ne = 1565.839
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish 
+   PP0 = 0.722  in  (0.697,0.741)        (1=64940  0=25061)  [5549]     sigma = 0.011
+
+  LOD0 = 0.414  in  (0.362,0.458)       ACT = 76.373          Ne = 1178.441
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina myo-Dolabella myo-snail | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish 
+   PP0 = 0.680  in  (0.652,0.703)        (1=61225  0=28776)  [4123]     sigma = 0.013
+
+  LOD0 = 0.328  in  (0.272,0.374)       ACT = 78.409          Ne = 1147.841
+
+
+cyto-fish cyto-human hagfish lamprey | hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark myo-human myo-shark  [ HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish ]
+   PP0 = 0.615  in  (0.596,0.635)        (1=55341  0=34660)  [9069]     sigma = 0.010
+
+  LOD0 = 0.203  in  (0.169,0.241)       ACT = 31.533          Ne = 2854.167
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey 
+   PP0 = 0.511  in  (0.479,0.544)        (1=46022  0=43979)  [4688]     sigma = 0.017
+
+  LOD0 = 0.020  in  (-0.037,0.077)       ACT = 114.142          Ne = 788.501
+
+
+HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish | HbI-Lucina HbII-Lucina myo-Dolabella myo-snail 
+   PP0 = 0.487  in  (0.473,0.503)        (1=43845  0=46156)  [12311]     sigma = 0.008
+
+  LOD0 = -0.022  in  (-0.047,0.005)       ACT = 15.356          Ne = 5860.914
+
+
+HbI-Lucina HbII-Lucina hemo-polychaete-4 leghemo-pea leghemo-rice myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark  [ HbA-blood_clam hemo-tunicate-1 hemo-tunicate-3 ]
+   PP0 = 0.472  in  (0.454,0.491)        (1=42452  0=47549)  [12107]     sigma = 0.009
+
+  LOD0 = -0.049  in  (-0.080,-0.015)       ACT = 23.677          Ne = 3801.275
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | cyto-fish cyto-human hagfish lamprey 
+   PP0 = 0.457  in  (0.443,0.474)        (1=41132  0=48869)  [12861]     sigma = 0.008
+
+  LOD0 = -0.075  in  (-0.099,-0.046)       ACT = 20.479          Ne = 4394.824
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila honeybee midge-8 myo-Dolabella myo-snail | cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish 
+   PP0 = 0.438  in  (0.420,0.455)        (1=39404  0=50597)  [12662]     sigma = 0.009
+
+  LOD0 = -0.109  in  (-0.140,-0.079)       ACT = 18.729          Ne = 4805.510
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP0 = 0.401  in  (0.384,0.417)        (1=36100  0=53901)  [10580]     sigma = 0.008
+
+  LOD0 = -0.174  in  (-0.205,-0.145)       ACT = 18.208          Ne = 4942.860
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark myo-human myo-shark 
+   PP0 = 0.398  in  (0.368,0.428)        (1=35796  0=54205)  [3484]     sigma = 0.015
+
+  LOD0 = -0.180  in  (-0.234,-0.127)       ACT = 89.035          Ne = 1010.851
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail | leghemo-pea leghemo-rice neuro-human neuro-zebrafish 
+   PP0 = 0.396  in  (0.387,0.404)        (1=35671  0=54330)  [16958]     sigma = 0.004
+
+  LOD0 = -0.183  in  (-0.199,-0.168)       ACT = 5.408          Ne = 16641.312
+
+
+HbI-Lucina HbII-Lucina hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark  [ HbA-blood_clam ]
+   PP0 = 0.338  in  (0.326,0.350)        (1=30428  0=59573)  [13812]     sigma = 0.006
+
+  LOD0 = -0.292  in  (-0.316,-0.269)       ACT = 8.470          Ne = 10625.943
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-shark myo-snail | hemo-polychaete-4 myo-polychaete neuro-human neuro-zebrafish 
+   PP0 = 0.312  in  (0.304,0.322)        (1=28051  0=61950)  [16511]     sigma = 0.005
+
+  LOD0 = -0.344  in  (-0.360,-0.324)       ACT = 8.358          Ne = 10768.062
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina hemo-polychaete-4 leghemo-pea leghemo-rice myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark  [ hemo-tunicate-1 hemo-tunicate-3 ]
+   PP0 = 0.282  in  (0.270,0.292)        (1=25373  0=64628)  [14622]     sigma = 0.006
+
+  LOD0 = -0.406  in  (-0.433,-0.385)       ACT = 6.943          Ne = 12962.221
+
+
+HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark | HbI-Lucina HbII-Lucina hemo-polychaete-4 leghemo-pea leghemo-rice myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish  [ hemo-tunicate-1 hemo-tunicate-3 ]
+   PP0 = 0.266  in  (0.245,0.291)        (1=23910  0=66091)  [3339]     sigma = 0.012
+
+  LOD0 = -0.442  in  (-0.490,-0.386)       ACT = 72.799          Ne = 1236.295
+
+
+HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish | hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey 
+   PP0 = 0.265  in  (0.250,0.281)        (1=23890  0=66111)  [10132]     sigma = 0.008
+
+  LOD0 = -0.442  in  (-0.478,-0.408)       ACT = 24.311          Ne = 3702.058
+
+
+hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete | hemo-tunicate-1 hemo-tunicate-3 neuro-human neuro-zebrafish  [ HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail ]
+   PP0 = 0.260  in  (0.254,0.264)        (1=23356  0=66645)  [15235]     sigma = 0.003
+
+  LOD0 = -0.455  in  (-0.468,-0.444)       ACT = 2.800          Ne = 32148.344
+
+

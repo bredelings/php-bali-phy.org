@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<title>BAli-Phy: MCMC Post-hoc Analysis: 25 sequences</title>
+    <style type="text/css">
+      ol li {padding-bottom:0.5em}
+
+      td {padding: 0.1em;}
+      td {padding-left: 0.3em;}
+      td {padding-right: 0.3em;}
+
+      .backlit td {background: rgb(220,220,220);}
+
+      h1 {font-size: 150%;}
+      h2 {font-size: 130%; margin-bottom: 0.2em;}
+      h3 {font-size: 110%; margin-top: 0.3em ; margin-bottom: 0.2em}
+
+      ul {margin-top: 0.4em;}
+
+      *[title] {cursor:help;}
+      a[title] {vertical-align:top;color:#00f;font-size:70%; border-bottom:1px dotted;}
+    </style><h1>MCMC Post-hoc Analysis: 25 sequences</h2>
+<p>Samples were created by the following command line:<p><b>command line:</b> /home/bdredeli/local-2.0/bin/bali-phy /home/bdredeli/local/share/bali-phy/examples/5S-rRNA/25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</p>
+<p><b>directory:</b> /brc_share/brc/bdredeli/bdredeli/5S</p>
+<h2 name="data">Data</h2>
+<table class="backlit">
+<tr><th>Partition</th><th>Sequences</th><th>Lengths</th><th>Substitution&nbsp;Model</th><th>Indel&nbsp;Model</th></tr>
+<tr>
+ <td>1</td>
+ <td>~/local/share/bali-phy/examples/5S-rRNA/25-muscle.fasta</td>
+ <td>111 - 131 RNA nucleotides</td>
+ <td>[GTR * pi] + rate~LogNormal(8)</td>
+ <td>fragment-based indels + T [HMM]</td>
+</tr>
+</table>
+<h2 name="analysis">Analysis</h2>
+<table style="width:100%;"><tr>
+<td>burn-in = 39999 samples</td>
+<td>after burnin = 360001 samples</td>
+</tr><tr>
+<td>P(data|M) = -2731.434    +- 0.220
+</td>
+</tr><tr>
+<td>Complete sample: 311134
+ topologies</td>
+<td>95% Bayesian credible interval: 293134 topologies</td>
+</tr></table>
+<h2 name="topology">Phylogeny Distribution</h2>
+  </head>
+  <body>
+<table style="width:100%;"><tr>
+<td>Partition support: <a href="consensus">Summary</a></td>
+<td><span title="How many partitions are supported at each level of Posterior Log Odds (LOD)?">Partition support graph:</span> <a href="c-levels.svg">SVG</a></td>
+</tr></table>
+<table>
+<tr><td>50% consensus</td><td><a href="c50.topology">topology</a></td><td><a href="c50.tree">tree</a></td><td><a href="c50.mtree">mtree</a></td><td><a href="c50-tree.pdf">PDF</a></td><td><a href="c50-tree.svg">SVG</a></td><td><a href="c50-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c50-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>66% consensus</td><td><a href="c66.topology">topology</a></td><td><a href="c66.tree">tree</a></td><td><a href="c66.mtree">mtree</a></td><td><a href="c66-tree.pdf">PDF</a></td><td><a href="c66-tree.svg">SVG</a></td><td><a href="c66-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c66-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>80% consensus</td><td><a href="c80.topology">topology</a></td><td><a href="c80.tree">tree</a></td><td><a href="c80.mtree">mtree</a></td><td><a href="c80-tree.pdf">PDF</a></td><td><a href="c80-tree.svg">SVG</a></td><td><a href="c80-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c80-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>90% consensus</td><td><a href="c90.topology">topology</a></td><td><a href="c90.tree">tree</a></td><td><a href="c90.mtree">mtree</a></td><td><a href="c90-tree.pdf">PDF</a></td><td><a href="c90-tree.svg">SVG</a></td><td><a href="c90-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c90-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>95% consensus</td><td><a href="c95.topology">topology</a></td><td><a href="c95.tree">tree</a></td><td><a href="c95.mtree">mtree</a></td><td><a href="c95-tree.pdf">PDF</a></td><td><a href="c95-tree.svg">SVG</a></td><td><a href="c95-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c95-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>99% consensus</td><td><a href="c99.topology">topology</a></td><td><a href="c99.tree">tree</a></td><td><a href="c99.mtree">mtree</a></td><td><a href="c99-tree.pdf">PDF</a></td><td><a href="c99-tree.svg">SVG</a></td><td><a href="c99-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c99-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>100% consensus</td><td><a href="c100.topology">topology</a></td><td><a href="c100.tree">tree</a></td><td><a href="c100.mtree">mtree</a></td><td><a href="c100-tree.pdf">PDF</a></td><td><a href="c100-tree.svg">SVG</a></td><td><a href="c100-mctree.pdf">MC Tree (PDF)</a></td><td><a href="c100-mctree.svg">MC Tree (SVG)</a></td></tr><tr><td>MAP</td><td><a href="MAP.topology">topology</a></td><td><a href="MAP.tree">tree</a></td><td></td><td><a href="MAP-tree.pdf">PDF</a></td><td><a href="MAP-tree.svg">SVG</a></td><td></td><td></td></tr></table>
+<h2 name="alignment">Alignment Distribution</h2>
+<h3>Partition 1</h3>
+<table>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th title="Comparison of this alignment (top) to the WPD alignment (bottom)">Diff</th>
+<th></th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Percent identity of the most dissimilar sequences">Min. %identity</th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Number of columns in the alignment"># Sites</th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Number of invariant columns">Constant</th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Number of variant columns">Variable</th>
+<th title="Number of parsiomny-informative columns.">Parsimony-Informative</th>
+</tr>
+<tr>
+<td>Initial</td>
+<td><a href="P1-initial.fasta">FASTA</a></td>
+<td><a href="P1-initial.html">HTML</a></td>
+<td><a href="P1-initial-diff.html">Diff</a></td>
+<td></td>
+<td style="text-align: center">33.9%</td>
+<td style="text-align: center">135</td>
+<td style="text-align: center">8 (5.93%)</td>
+<td style="text-align: center">127 (94.1%)</td>
+<td style="text-align: center">113 (83.7%)</td>
+</tr>
+<tr>
+<td>Best (WPD)</td>
+<td><a href="P1-max.fasta">FASTA</a></td>
+<td><a href="P1-max.html">HTML</a></td>
+<td></td>
+<td><a href="P1-max-AU.html">AU</a></td>
+<td style="text-align: center">32.2%</td>
+<td style="text-align: center">171</td>
+<td style="text-align: center">11 (6.43%)</td>
+<td style="text-align: center">160 (93.6%)</td>
+<td style="text-align: center">125 (73.1%)</td>
+</tr>
+<tr>
+<td>10% consensus</td>
+<td><a href="P1-consensus-10.fasta">FASTA</a></td>
+<td><a href="P1-consensus-10.html">HTML</a></td>
+<td><a href="P1-consensus-10-diff.html">Diff</a></td>
+<td><a href="P1-consensus-10-AU.html">AU</a></td>
+<td style="text-align: center">30.6%</td>
+<td style="text-align: center">182</td>
+<td style="text-align: center">11 (6.04%)</td>
+<td style="text-align: center">171 (94%)</td>
+<td style="text-align: center">124 (68.1%)</td>
+</tr>
+<tr>
+<td>25% consensus</td>
+<td><a href="P1-consensus-25.fasta">FASTA</a></td>
+<td><a href="P1-consensus-25.html">HTML</a></td>
+<td><a href="P1-consensus-25-diff.html">Diff</a></td>
+<td></td>
+<td style="text-align: center">33.1%</td>
+<td style="text-align: center">182</td>
+<td style="text-align: center">14 (7.69%)</td>
+<td style="text-align: center">168 (92.3%)</td>
+<td style="text-align: center">124 (68.1%)</td>
+</tr>
+<tr>
+<td>50% consensus</td>
+<td><a href="P1-consensus-50.fasta">FASTA</a></td>
+<td><a href="P1-consensus-50.html">HTML</a></td>
+<td><a href="P1-consensus-50-diff.html">Diff</a></td>
+<td></td>
+<td style="text-align: center">34.7%</td>
+<td style="text-align: center">202</td>
+<td style="text-align: center">32 (15.8%)</td>
+<td style="text-align: center">170 (84.2%)</td>
+<td style="text-align: center">121 (59.9%)</td>
+</tr>
+<tr>
+<td>75% consensus</td>
+<td><a href="P1-consensus-75.fasta">FASTA</a></td>
+<td><a href="P1-consensus-75.html">HTML</a></td>
+<td><a href="P1-consensus-75-diff.html">Diff</a></td>
+<td></td>
+<td style="text-align: center">56.2%</td>
+<td style="text-align: center">349</td>
+<td style="text-align: center">182 (52.1%)</td>
+<td style="text-align: center">167 (47.9%)</td>
+<td style="text-align: center">120 (34.4%)</td>
+</tr>
+</table>
+<h2 name="topology-mixing">Mixing: Topologies</h2>
+<ol>
+<li><a href="partitions.bs">Partition uncertainty</a></li>
+<li><a href="partitions.SRQ.png">SRQ plot: partitions</a></li>
+<li><a href="c50.SRQ.png">SRQ plot: c50</a></li>
+</ol>
+<h2 name="parameters">Scalar variables</h2>
+<table>
+<tr><th>Statistic</th><th>Median</th><th title="95% Bayesian Credible Interval">95% BCI</th><th title="Auto-Correlation Time">ACT</th><th title="Effective Sample Size">Ne</th></tr>
+<tr>
+<td>prior</td>
+<td>-491.4 </td>
+<td>(-552.9,-442.4)</td>
+<td>39.06  </td>
+<td >9217</td>
+<td><a href="1.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>likelihood</td>
+<td>-2701 </td>
+<td>(-2730,-2672)</td>
+<td>46.91  </td>
+<td >7674</td>
+<td><a href="2.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>logp</td>
+<td>-3193 </td>
+<td>(-3246,-3152)</td>
+<td>22.44  </td>
+<td >1.604e+04</td>
+<td><a href="3.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>beta</td>
+<td>1</td>
+<td></td><td></td><td></td><td></td></tr>
+<tr>
+<td>mu</td>
+<td>0.3658 </td>
+<td>(0.227,0.6527)</td>
+<td>10.01  </td>
+<td >3.595e+04</td>
+<td><a href="5.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::AG</td>
+<td>0.189 </td>
+<td>(0.1423,0.242)</td>
+<td>5.492  </td>
+<td >6.555e+04</td>
+<td><a href="6.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::AT</td>
+<td>0.2166 </td>
+<td>(0.1601,0.2899)</td>
+<td>4.784  </td>
+<td >7.525e+04</td>
+<td><a href="7.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::AC</td>
+<td>0.05357 </td>
+<td>(0.02506,0.09062)</td>
+<td>4.146  </td>
+<td >8.683e+04</td>
+<td><a href="8.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::GT</td>
+<td>0.08516 </td>
+<td>(0.04954,0.1275)</td>
+<td>22.65  </td>
+<td >1.589e+04</td>
+<td><a href="9.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::GC</td>
+<td>0.09054 </td>
+<td>(0.05231,0.1364)</td>
+<td>20.33  </td>
+<td >1.771e+04</td>
+<td><a href="10.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>GTR::TC</td>
+<td>0.3586 </td>
+<td>(0.296,0.4261)</td>
+<td>9.806  </td>
+<td >3.671e+04</td>
+<td><a href="11.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>f</td>
+<td>0.2502 </td>
+<td>(0.009917,0.8946)</td>
+<td>2.398  </td>
+<td >1.501e+05</td>
+<td><a href="12.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>piA</td>
+<td>0.2022 </td>
+<td>(0.168,0.2433)</td>
+<td>9.735  </td>
+<td >3.698e+04</td>
+<td><a href="13.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>piG</td>
+<td>0.32 </td>
+<td>(0.2741,0.3687)</td>
+<td>6.496  </td>
+<td >5.542e+04</td>
+<td><a href="14.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>piU</td>
+<td>0.1875 </td>
+<td>(0.1597,0.2197)</td>
+<td>26.63  </td>
+<td >1.352e+04</td>
+<td><a href="15.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>piC</td>
+<td>0.288 </td>
+<td>(0.2487,0.3306)</td>
+<td>13.42  </td>
+<td >2.684e+04</td>
+<td><a href="16.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>log-normal::sigma/mu</td>
+<td>2.202 </td>
+<td>(1.44,3.855)</td>
+<td>10.41  </td>
+<td >3.458e+04</td>
+<td><a href="17.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>lambda</td>
+<td>-4.24 </td>
+<td>(-4.83,-3.746)</td>
+<td>10.71  </td>
+<td >3.361e+04</td>
+<td><a href="18.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>epsilon</td>
+<td>-0.6314 </td>
+<td>(-0.8774,-0.4343)</td>
+<td>72.31  </td>
+<td >4979</td>
+<td><a href="19.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>invariant</td>
+<td>0.0265 </td>
+<td>(0.0009775,0.1324)</td>
+<td>1.131  </td>
+<td >3.184e+05</td>
+<td><a href="20.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>lambda::prior_median</td>
+<td>-5</td>
+<td></td><td></td><td></td><td></td></tr>
+<tr>
+<td>lambda::prior_stddev</td>
+<td>1.5</td>
+<td></td><td></td><td></td><td></td></tr>
+<tr>
+<td>epsilon::prior_length</td>
+<td>5</td>
+<td></td><td></td><td></td><td></td></tr>
+<tr>
+<td>|A|</td>
+<td>172 </td>
+<td>(161,195)</td>
+<td>485.2  </td>
+<td  style="color:red">742</td>
+<td><a href="24.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>#indels</td>
+<td>57 </td>
+<td>(50,67)</td>
+<td>34.14  </td>
+<td >1.055e+04</td>
+<td><a href="25.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>|indels|</td>
+<td>118 </td>
+<td>(101,146)</td>
+<td>153  </td>
+<td >2352</td>
+<td><a href="26.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>#substs</td>
+<td>711 </td>
+<td>(693,728)</td>
+<td>107.2  </td>
+<td >3359</td>
+<td><a href="27.trace.png">Trace</a></td>
+</tr>
+<tr>
+<td>|T|</td>
+<td>16.71 </td>
+<td>(11.45,28.02)</td>
+<td>13.06  </td>
+<td >2.756e+04</td>
+<td><a href="28.trace.png">Trace</a></td>
+</tr>
+</table>
+  </body>
+</html>

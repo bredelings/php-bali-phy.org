@@ -1,0 +1,2012 @@
+# n_trees = 360001   n_topologies = 311134
+
+Topology support: 
+
+MAP-0 = (Agrobacterium,(Escherichia,(Thermotoga,Thermus)),(Campylobacter,((Bacillus,Flavobacterium),(Methanothermobacter,(Methanospirillum,(((Thermoplasma,(Pyrobaculum,Sulfolobus)),(Nanoarchaeum,(Methanococcus,Thermococcus))),(Halorubrum,(Candida,(Euglena,((Caenorhabditis,Dictyostelium),(Homo,(Drosophila,(Cryptosporidium,(Nosema,Zea))))))))))))));
+   PP = 0.001       LOD = -3.291
+
+95% credible set contains 293134 topologies.
+
+
+Partition support: 
+
+   PP = 1.000       LOD = 4.954       ratio = 2.315       pi = Agrobacterium Bacillus Escherichia Flavobacterium Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Campylobacter ]
+
+
+   PP = 1.000       LOD = 4.653       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea 
+
+
+   PP = 0.999       LOD = 3.049       ratio = 0.410       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Methanothermobacter ]
+
+
+   PP = 0.999       LOD = 2.910       ratio = 0.188       pi = Caenorhabditis Dictyostelium Drosophila Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.998       LOD = 2.722       ratio = 1.182       pi = Caenorhabditis Dictyostelium Drosophila Euglena Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.998       LOD = 2.718       ratio = 0.804       pi = Agrobacterium Escherichia Thermotoga Thermus | Bacillus Flavobacterium  [ Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea ]
+
+
+   PP = 0.998       LOD = 2.639       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+
+
+   PP = 0.991       LOD = 2.060       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermococcus Thermoplasma Thermotoga Thermus Zea | Pyrobaculum Sulfolobus 
+
+
+   PP = 0.990       LOD = 2.018       ratio = 0.322       pi = Caenorhabditis Dictyostelium | Drosophila Homo  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+
+
+   PP = 0.988       LOD = 1.914       ratio = 1.546       pi = Agrobacterium Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Campylobacter ]
+
+
+   PP = 0.982       LOD = 1.737       ratio = 0.197       pi = Cryptosporidium Nosema Zea | Drosophila Homo  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.980       LOD = 1.695       ratio = 0.754       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium  [ Candida ]
+
+
+   PP = 0.972       LOD = 1.540       ratio = 1.156       pi = Caenorhabditis Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.958       LOD = 1.356       ratio = 1.224       pi = Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus  [ Campylobacter ]
+
+
+   PP = 0.942       LOD = 1.207       ratio = 0.199       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Thermococcus Thermotoga Thermus ]
+
+
+   PP = 0.916       LOD = 1.036       ratio = 0.252       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea  [ Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+
+
+   PP = 0.911       LOD = 1.008       ratio = 0.224       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Thermococcus Thermotoga Thermus ]
+
+
+   PP = 0.903       LOD = 0.968       ratio = 0.468       pi = Agrobacterium Campylobacter Escherichia Thermotoga Thermus | Bacillus Flavobacterium  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea ]
+
+
+   PP = 0.897       LOD = 0.941       pi = Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium 
+
+
+   PP = 0.882       LOD = 0.874       ratio = 0.379       pi = Caenorhabditis Cryptosporidium Dictyostelium Drosophila Euglena Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.864       LOD = 0.802       ratio = 0.219       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanothermobacter Nanoarchaeum Nosema Thermococcus Zea ]
+
+
+   PP = 0.859       LOD = 0.784       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea 
+
+
+   PP = 0.856       LOD = 0.776       ratio = 0.294       pi = Methanococcus Thermococcus | Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermotoga Thermus Zea ]
+
+
+   PP = 0.837       LOD = 0.712       ratio = 0.217       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Candida Cryptosporidium ]
+
+
+   PP = 0.793       LOD = 0.584       ratio = 0.218       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Thermococcus Zea ]
+
+
+   PP = 0.783       LOD = 0.558       ratio = 0.227       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanothermobacter Nosema Thermococcus Zea ]
+
+
+   PP = 0.782       LOD = 0.554       ratio = 0.320       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Cryptosporidium Dictyostelium Euglena Nosema Zea ]
+
+
+   PP = 0.770       LOD = 0.524       ratio = 0.308       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Caenorhabditis Cryptosporidium Dictyostelium Drosophila Euglena Homo ]
+
+
+   PP = 0.764       LOD = 0.509       ratio = 0.276       pi = Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Nosema Zea ]
+
+
+   PP = 0.760       LOD = 0.500       pi = Agrobacterium Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Bacillus Flavobacterium 
+
+
+   PP = 0.757       LOD = 0.495       ratio = 0.278       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Candida ]
+
+
+   PP = 0.752       LOD = 0.482       ratio = 0.238       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea | Methanococcus Thermococcus  [ Nanoarchaeum ]
+
+
+   PP = 0.752       LOD = 0.482       ratio = 0.515       pi = Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Escherichia Thermotoga Thermus  [ Campylobacter ]
+
+
+   PP = 0.708       LOD = 0.384       ratio = 0.279       pi = Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.700       LOD = 0.368       pi = Agrobacterium Campylobacter Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+
+
+   PP = 0.699       LOD = 0.366       ratio = 0.413       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea | Pyrobaculum Sulfolobus Thermoplasma  [ Methanococcus Nanoarchaeum Thermococcus ]
+
+
+   PP = 0.695       LOD = 0.358       ratio = 0.212       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nosema Zea  [ Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+
+
+   PP = 0.682       LOD = 0.332       ratio = 0.379       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nosema Thermococcus Zea ]
+
+
+   PP = 0.669       LOD = 0.305       ratio = 0.352       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanothermobacter Nosema Zea ]
+
+
+   PP = 0.637       LOD = 0.243       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea | Methanococcus Thermococcus 
+
+
+   PP = 0.633       LOD = 0.236       ratio = 0.179       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Drosophila Homo  [ Caenorhabditis Candida Dictyostelium Euglena ]
+
+
+   PP = 0.631       LOD = 0.234       ratio = 0.340       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Cryptosporidium Dictyostelium Nosema Zea ]
+
+
+   PP = 0.630       LOD = 0.232       ratio = 0.362       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Drosophila Homo  [ Cryptosporidium Euglena Nosema Zea ]
+
+
+   PP = 0.627       LOD = 0.226       ratio = 0.371       pi = Methanococcus Nanoarchaeum Thermococcus | Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea ]
+
+
+   PP = 0.624       LOD = 0.220       ratio = 0.336       pi = Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Drosophila Homo  [ Candida Cryptosporidium Nosema Zea ]
+
+
+   PP = 0.622       LOD = 0.217       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea 
+
+
+   PP = 0.614       LOD = 0.202       ratio = 0.332       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Euglena Homo  [ Caenorhabditis Cryptosporidium Dictyostelium Nosema Zea ]
+
+
+   PP = 0.613       LOD = 0.200       ratio = 0.247       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Nosema Thermotoga Thermus Zea | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Methanococcus Methanothermobacter Thermococcus ]
+
+
+   PP = 0.602       LOD = 0.179       ratio = 0.309       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Euglena  [ Cryptosporidium Drosophila Homo Nosema Zea ]
+
+
+   PP = 0.596       LOD = 0.169       ratio = 0.217       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Methanococcus Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea ]
+
+
+   PP = 0.583       LOD = 0.146       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+
+
+   PP = 0.575       LOD = 0.132       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus 
+
+
+   PP = 0.574       LOD = 0.130       ratio = 0.237       pi = Caenorhabditis Candida Dictyostelium | Drosophila Homo  [ Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+
+
+   PP = 0.574       LOD = 0.129       ratio = 0.177       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Nosema Thermotoga Thermus Zea | Methanococcus Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Methanothermobacter Nanoarchaeum ]
+
+
+   PP = 0.560       LOD = 0.105       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Cryptosporidium Nosema Zea 
+
+
+   PP = 0.556       LOD = 0.097       ratio = 0.217       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea  [ Methanococcus Methanothermobacter Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+
+
+   PP = 0.533       LOD = 0.058       ratio = 0.188       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Cryptosporidium Drosophila Homo  [ Caenorhabditis Dictyostelium Euglena Nosema Zea ]
+
+
+   PP = 0.533       LOD = 0.057       ratio = 0.346       pi = Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Drosophila Homo  [ Caenorhabditis Dictyostelium Euglena ]
+
+
+   PP = 0.521       LOD = 0.037       pi = Agrobacterium Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+
+
+   PP = 0.481       LOD = -0.033       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Escherichia Thermotoga Thermus 
+
+
+   PP = 0.473       LOD = -0.047       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma 
+
+
+   PP = 0.460       LOD = -0.069       ratio = 0.366       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Drosophila Euglena Homo  [ Candida ]
+
+
+   PP = 0.457       LOD = -0.075       ratio = 0.192       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Thermococcus Thermotoga Thermus | Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea ]
+
+
+   PP = 0.456       LOD = -0.077       ratio = 0.190       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Nanoarchaeum Thermotoga Thermus | Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nosema Thermococcus Zea ]
+
+
+   PP = 0.450       LOD = -0.087       ratio = 0.180       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Nanoarchaeum Nosema Thermotoga Thermus Zea | Pyrobaculum Sulfolobus Thermoplasma  [ Methanococcus Methanothermobacter Thermococcus ]
+
+
+   PP = 0.446       LOD = -0.095       ratio = 0.194       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Drosophila Homo  [ Caenorhabditis Candida Dictyostelium ]
+
+
+   PP = 0.439       LOD = -0.107       ratio = 0.182       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Cryptosporidium Nosema Zea ]
+
+
+   PP = 0.434       LOD = -0.116       ratio = 0.297       pi = Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Cryptosporidium Dictyostelium Drosophila Homo Nosema Zea  [ Candida ]
+
+
+   PP = 0.431       LOD = -0.120       ratio = 0.306       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Methanothermobacter ]
+
+
+   PP = 0.426       LOD = -0.130       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea 
+
+
+   PP = 0.423       LOD = -0.135       ratio = 0.300       pi = Caenorhabditis Dictyostelium Drosophila Homo | Candida Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.417       LOD = -0.145       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea | Methanococcus Nanoarchaeum Thermococcus 
+
+
+   PP = 0.409       LOD = -0.160       pi = Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Campylobacter Thermotoga Thermus 
+
+
+   PP = 0.406       LOD = -0.166       ratio = 0.247       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Drosophila Homo  [ Cryptosporidium Nosema Zea ]
+
+
+   PP = 0.402       LOD = -0.172       ratio = 0.254       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea  [ Methanococcus Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+
+
+   PP = 0.398       LOD = -0.180       ratio = 0.255       pi = Candida Cryptosporidium Nosema Zea | Drosophila Euglena Homo  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.395       LOD = -0.185       pi = Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermus Zea | Campylobacter Thermotoga 
+
+
+   PP = 0.391       LOD = -0.193       ratio = 0.259       pi = Caenorhabditis Dictyostelium Euglena Homo | Cryptosporidium Drosophila Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.377       LOD = -0.218       ratio = 0.217       pi = Caenorhabditis Dictyostelium Drosophila Euglena Homo | Candida Nosema Zea  [ Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.372       LOD = -0.227       ratio = 0.186       pi = Candida Euglena | Cryptosporidium Drosophila Homo  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+
+
+   PP = 0.356       LOD = -0.258       ratio = 0.177       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Drosophila Homo  [ Cryptosporidium Euglena ]
+
+
+   PP = 0.352       LOD = -0.264       ratio = 0.207       pi = Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Dictyostelium  [ Cryptosporidium Drosophila Homo Nosema Zea ]
+
+
+   PP = 0.351       LOD = -0.267       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermococcus Thermotoga Thermus Zea | Pyrobaculum Sulfolobus Thermoplasma 
+
+
+   PP = 0.340       LOD = -0.289       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Drosophila Homo 
+
+
+   PP = 0.318       LOD = -0.332       ratio = 5.224       pi = Caenorhabditis Candida Dictyostelium | Cryptosporidium Drosophila Homo Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.309       LOD = -0.349       ratio = 5.207       pi = Caenorhabditis Candida Dictyostelium | Drosophila Euglena Homo  [ Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+
+
+   PP = 0.289       LOD = -0.391       pi = Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Campylobacter Escherichia Thermotoga Thermus 
+
+
+   PP = 0.282       LOD = -0.406       ratio = 5.151       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nosema Thermococcus Zea ]
+
+
+   PP = 0.279       LOD = -0.411       ratio = 5.145       pi = Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Homo  [ Drosophila ]
+
+
+   PP = 0.279       LOD = -0.413       pi = Agrobacterium Bacillus Campylobacter Candida Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Cryptosporidium Dictyostelium Drosophila Homo Nosema Zea 
+
+
+   PP = 0.276       LOD = -0.419       ratio = 5.138       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nosema Zea | Methanococcus Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus ]
+
+
+   PP = 0.275       LOD = -0.421       ratio = 5.135       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Homo  [ Candida Euglena ]
+
+
+   PP = 0.273       LOD = -0.426       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+
+
+   PP = 0.270       LOD = -0.433       ratio = 5.123       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo  [ Nosema Zea ]
+
+
+   PP = 0.269       LOD = -0.435       pi = Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Drosophila Euglena Homo 
+
+
+   PP = 0.268       LOD = -0.435       ratio = 5.121       pi = Caenorhabditis Cryptosporidium Dictyostelium Drosophila Euglena Homo | Candida Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.268       LOD = -0.436       ratio = 5.120       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Thermoplasma Zea | Nanoarchaeum Pyrobaculum Sulfolobus  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Thermococcus Thermotoga Thermus ]
+
+
+   PP = 0.267       LOD = -0.438       ratio = 5.118       pi = Methanospirillum Thermoplasma | Nanoarchaeum Pyrobaculum Sulfolobus  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanothermobacter Nosema Thermococcus Thermotoga Thermus Zea ]
+
+
+   PP = 0.266       LOD = -0.441       ratio = 5.115       pi = Methanococcus Pyrobaculum Sulfolobus Thermococcus | Methanospirillum Thermoplasma  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanothermobacter Nanoarchaeum Nosema Thermotoga Thermus Zea ]
+
+
+   PP = 0.263       LOD = -0.448       ratio = 5.108       pi = Caenorhabditis Dictyostelium Homo | Candida Cryptosporidium Drosophila Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.262       LOD = -0.449       ratio = 5.107       pi = Caenorhabditis Candida Dictyostelium Homo | Cryptosporidium Drosophila Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.261       LOD = -0.452       ratio = 5.104       pi = Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Cryptosporidium Drosophila Nosema Zea  [ Candida ]
+
+
+   PP = 0.255       LOD = -0.465       ratio = 5.091       pi = Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Methanococcus Methanothermobacter Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea ]
+
+
+   PP = 0.255       LOD = -0.467       ratio = 5.090       pi = Caenorhabditis Candida Dictyostelium Euglena Homo | Cryptosporidium Drosophila  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+
+
+   PP = 0.254       LOD = -0.468       ratio = 5.088       pi = Candida Euglena Homo | Cryptosporidium Drosophila Nosema Zea  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   PP = 0.253       LOD = -0.469       ratio = 5.087       pi = Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Drosophila Homo  [ Candida ]
+
+
+   PP = 0.253       LOD = -0.471       ratio = 5.085       pi = Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Dictyostelium Drosophila Homo  [ Cryptosporidium Nosema Zea ]
+
+
+   PP = 0.252       LOD = -0.473       ratio = 5.083       pi = Caenorhabditis Dictyostelium Euglena | Cryptosporidium Drosophila Homo Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+
+
+Consensus levels:
+
+   level = 25   LOD = -0.4771   full = 25   sub = 45
+
+   level = 25.18   LOD = -0.4729   full = 25   sub = 45
+
+   level = 25.18   LOD = -0.4729   full = 25   sub = 46
+
+   level = 25.22   LOD = -0.472   full = 25   sub = 46
+
+   level = 25.22   LOD = -0.472   full = 25   sub = 45
+
+   level = 25.25   LOD = -0.4713   full = 25   sub = 45
+
+   level = 25.25   LOD = -0.4713   full = 25   sub = 46
+
+   level = 25.35   LOD = -0.4691   full = 25   sub = 46
+
+   level = 25.35   LOD = -0.4691   full = 25   sub = 48
+
+   level = 25.4   LOD = -0.4679   full = 25   sub = 48
+
+   level = 25.4   LOD = -0.4679   full = 25   sub = 47
+
+   level = 25.46   LOD = -0.4665   full = 25   sub = 47
+
+   level = 25.46   LOD = -0.4665   full = 25   sub = 47
+
+   level = 25.53   LOD = -0.465   full = 25   sub = 47
+
+   level = 25.53   LOD = -0.465   full = 25   sub = 47
+
+   level = 25.6   LOD = -0.4634   full = 25   sub = 47
+
+   level = 25.6   LOD = -0.4634   full = 25   sub = 46
+
+   level = 25.67   LOD = -0.4618   full = 25   sub = 46
+
+   level = 25.67   LOD = -0.4618   full = 25   sub = 45
+
+   level = 25.72   LOD = -0.4607   full = 25   sub = 45
+
+   level = 25.72   LOD = -0.4607   full = 25   sub = 44
+
+   level = 26.11   LOD = -0.4519   full = 25   sub = 44
+
+   level = 26.11   LOD = -0.4518   full = 25   sub = 48
+
+   level = 26.14   LOD = -0.4511   full = 25   sub = 48
+
+   level = 26.14   LOD = -0.4511   full = 25   sub = 47
+
+   level = 26.15   LOD = -0.4508   full = 25   sub = 47
+
+   level = 26.15   LOD = -0.4508   full = 25   sub = 46
+
+   level = 26.18   LOD = -0.4502   full = 25   sub = 46
+
+   level = 26.18   LOD = -0.4502   full = 25   sub = 45
+
+   level = 26.23   LOD = -0.4491   full = 25   sub = 45
+
+   level = 26.23   LOD = -0.4491   full = 25   sub = 46
+
+   level = 26.26   LOD = -0.4484   full = 25   sub = 46
+
+   level = 26.26   LOD = -0.4484   full = 25   sub = 46
+
+   level = 26.31   LOD = -0.4473   full = 25   sub = 46
+
+   level = 26.31   LOD = -0.4473   full = 25   sub = 46
+
+   level = 26.33   LOD = -0.4468   full = 25   sub = 46
+
+   level = 26.33   LOD = -0.4468   full = 25   sub = 46
+
+   level = 26.34   LOD = -0.4465   full = 25   sub = 46
+
+   level = 26.34   LOD = -0.4465   full = 25   sub = 47
+
+   level = 26.38   LOD = -0.4457   full = 25   sub = 47
+
+   level = 26.38   LOD = -0.4457   full = 25   sub = 46
+
+   level = 26.58   LOD = -0.4413   full = 25   sub = 46
+
+   level = 26.58   LOD = -0.4413   full = 25   sub = 45
+
+   level = 26.62   LOD = -0.4404   full = 25   sub = 45
+
+   level = 26.62   LOD = -0.4403   full = 25   sub = 44
+
+   level = 26.65   LOD = -0.4397   full = 25   sub = 44
+
+   level = 26.65   LOD = -0.4397   full = 25   sub = 43
+
+   level = 26.71   LOD = -0.4384   full = 25   sub = 43
+
+   level = 26.71   LOD = -0.4384   full = 25   sub = 42
+
+   level = 26.79   LOD = -0.4365   full = 25   sub = 42
+
+   level = 26.79   LOD = -0.4365   full = 25   sub = 41
+
+   level = 26.84   LOD = -0.4355   full = 25   sub = 41
+
+   level = 26.84   LOD = -0.4355   full = 25   sub = 41
+
+   level = 26.86   LOD = -0.435   full = 25   sub = 41
+
+   level = 26.86   LOD = -0.435   full = 24   sub = 47
+
+   level = 26.91   LOD = -0.4339   full = 24   sub = 47
+
+   level = 26.91   LOD = -0.4339   full = 24   sub = 46
+
+   level = 26.94   LOD = -0.4333   full = 24   sub = 46
+
+   level = 26.94   LOD = -0.4333   full = 24   sub = 46
+
+   level = 26.95   LOD = -0.433   full = 24   sub = 46
+
+   level = 26.95   LOD = -0.433   full = 24   sub = 45
+
+   level = 26.96   LOD = -0.4329   full = 24   sub = 45
+
+   level = 26.96   LOD = -0.4329   full = 24   sub = 45
+
+   level = 26.97   LOD = -0.4326   full = 24   sub = 45
+
+   level = 26.97   LOD = -0.4326   full = 24   sub = 45
+
+   level = 26.98   LOD = -0.4324   full = 24   sub = 45
+
+   level = 26.98   LOD = -0.4324   full = 24   sub = 45
+
+   level = 27.03   LOD = -0.4313   full = 24   sub = 45
+
+   level = 27.03   LOD = -0.4313   full = 24   sub = 44
+
+   level = 27.24   LOD = -0.4267   full = 24   sub = 44
+
+   level = 27.24   LOD = -0.4267   full = 24   sub = 43
+
+   level = 27.26   LOD = -0.4262   full = 24   sub = 43
+
+   level = 27.26   LOD = -0.4262   full = 23   sub = 51
+
+   level = 27.32   LOD = -0.4248   full = 23   sub = 51
+
+   level = 27.32   LOD = -0.4248   full = 23   sub = 50
+
+   level = 27.4   LOD = -0.4232   full = 23   sub = 50
+
+   level = 27.4   LOD = -0.4232   full = 23   sub = 49
+
+   level = 27.45   LOD = -0.4222   full = 23   sub = 49
+
+   level = 27.45   LOD = -0.4222   full = 23   sub = 48
+
+   level = 27.49   LOD = -0.4213   full = 23   sub = 48
+
+   level = 27.49   LOD = -0.4213   full = 23   sub = 48
+
+   level = 27.49   LOD = -0.4211   full = 23   sub = 48
+
+   level = 27.5   LOD = -0.4211   full = 23   sub = 47
+
+   level = 27.59   LOD = -0.419   full = 23   sub = 47
+
+   level = 27.59   LOD = -0.419   full = 23   sub = 47
+
+   level = 27.61   LOD = -0.4186   full = 23   sub = 47
+
+   level = 27.61   LOD = -0.4186   full = 23   sub = 46
+
+   level = 27.61   LOD = -0.4185   full = 23   sub = 46
+
+   level = 27.61   LOD = -0.4185   full = 23   sub = 45
+
+   level = 27.62   LOD = -0.4184   full = 23   sub = 45
+
+   level = 27.62   LOD = -0.4184   full = 23   sub = 45
+
+   level = 27.72   LOD = -0.4163   full = 23   sub = 45
+
+   level = 27.72   LOD = -0.4163   full = 23   sub = 44
+
+   level = 27.85   LOD = -0.4133   full = 23   sub = 44
+
+   level = 27.85   LOD = -0.4133   full = 23   sub = 44
+
+   level = 27.87   LOD = -0.413   full = 23   sub = 44
+
+   level = 27.87   LOD = -0.413   full = 22   sub = 49
+
+   level = 27.88   LOD = -0.4128   full = 22   sub = 49
+
+   level = 27.88   LOD = -0.4128   full = 22   sub = 48
+
+   level = 27.92   LOD = -0.412   full = 22   sub = 48
+
+   level = 27.92   LOD = -0.412   full = 22   sub = 48
+
+   level = 27.95   LOD = -0.4113   full = 22   sub = 48
+
+   level = 27.95   LOD = -0.4113   full = 22   sub = 47
+
+   level = 28.07   LOD = -0.4088   full = 22   sub = 47
+
+   level = 28.07   LOD = -0.4088   full = 22   sub = 47
+
+   level = 28.11   LOD = -0.4079   full = 22   sub = 47
+
+   level = 28.11   LOD = -0.4079   full = 22   sub = 46
+
+   level = 28.15   LOD = -0.4069   full = 22   sub = 46
+
+   level = 28.15   LOD = -0.4069   full = 22   sub = 45
+
+   level = 28.21   LOD = -0.4057   full = 22   sub = 45
+
+   level = 28.21   LOD = -0.4057   full = 22   sub = 46
+
+   level = 28.23   LOD = -0.4052   full = 22   sub = 46
+
+   level = 28.23   LOD = -0.4052   full = 22   sub = 46
+
+   level = 28.44   LOD = -0.4007   full = 22   sub = 46
+
+   level = 28.44   LOD = -0.4007   full = 22   sub = 46
+
+   level = 28.48   LOD = -0.4   full = 22   sub = 46
+
+   level = 28.48   LOD = -0.4   full = 22   sub = 47
+
+   level = 28.5   LOD = -0.3995   full = 22   sub = 47
+
+   level = 28.5   LOD = -0.3995   full = 22   sub = 47
+
+   level = 28.59   LOD = -0.3976   full = 22   sub = 47
+
+   level = 28.59   LOD = -0.3976   full = 22   sub = 46
+
+   level = 28.67   LOD = -0.3959   full = 22   sub = 46
+
+   level = 28.67   LOD = -0.3959   full = 22   sub = 45
+
+   level = 28.69   LOD = -0.3954   full = 22   sub = 45
+
+   level = 28.69   LOD = -0.3954   full = 22   sub = 44
+
+   level = 28.7   LOD = -0.3952   full = 22   sub = 44
+
+   level = 28.7   LOD = -0.3952   full = 22   sub = 43
+
+   level = 28.78   LOD = -0.3935   full = 22   sub = 43
+
+   level = 28.78   LOD = -0.3935   full = 22   sub = 42
+
+   level = 28.87   LOD = -0.3916   full = 22   sub = 42
+
+   level = 28.87   LOD = -0.3916   full = 22   sub = 41
+
+   level = 28.89   LOD = -0.3912   full = 22   sub = 41
+
+   level = 28.89   LOD = -0.3912   full = 21   sub = 43
+
+   level = 28.92   LOD = -0.3906   full = 21   sub = 43
+
+   level = 28.92   LOD = -0.3906   full = 21   sub = 43
+
+   level = 29.01   LOD = -0.3886   full = 21   sub = 43
+
+   level = 29.01   LOD = -0.3886   full = 21   sub = 42
+
+   level = 29.03   LOD = -0.3882   full = 21   sub = 42
+
+   level = 29.03   LOD = -0.3882   full = 21   sub = 41
+
+   level = 29.1   LOD = -0.3868   full = 21   sub = 41
+
+   level = 29.1   LOD = -0.3868   full = 21   sub = 40
+
+   level = 29.13   LOD = -0.3861   full = 21   sub = 40
+
+   level = 29.13   LOD = -0.3861   full = 21   sub = 39
+
+   level = 29.3   LOD = -0.3825   full = 21   sub = 39
+
+   level = 29.3   LOD = -0.3825   full = 21   sub = 39
+
+   level = 29.35   LOD = -0.3816   full = 21   sub = 39
+
+   level = 29.35   LOD = -0.3816   full = 21   sub = 38
+
+   level = 29.36   LOD = -0.3813   full = 21   sub = 38
+
+   level = 29.36   LOD = -0.3813   full = 21   sub = 38
+
+   level = 29.43   LOD = -0.3798   full = 21   sub = 38
+
+   level = 29.43   LOD = -0.3798   full = 21   sub = 38
+
+   level = 29.53   LOD = -0.3777   full = 21   sub = 38
+
+   level = 29.53   LOD = -0.3777   full = 21   sub = 37
+
+   level = 29.61   LOD = -0.376   full = 21   sub = 37
+
+   level = 29.61   LOD = -0.376   full = 21   sub = 36
+
+   level = 29.76   LOD = -0.373   full = 21   sub = 36
+
+   level = 29.76   LOD = -0.373   full = 21   sub = 35
+
+   level = 29.99   LOD = -0.3682   full = 21   sub = 35
+
+   level = 29.99   LOD = -0.3682   full = 21   sub = 35
+
+   level = 30.4   LOD = -0.3597   full = 21   sub = 35
+
+   level = 30.4   LOD = -0.3597   full = 21   sub = 34
+
+   level = 30.92   LOD = -0.3491   full = 21   sub = 34
+
+   level = 30.92   LOD = -0.3491   full = 21   sub = 33
+
+   level = 31.02   LOD = -0.347   full = 21   sub = 33
+
+   level = 31.02   LOD = -0.347   full = 21   sub = 32
+
+   level = 31.41   LOD = -0.3392   full = 21   sub = 32
+
+   level = 31.41   LOD = -0.3392   full = 21   sub = 33
+
+   level = 31.77   LOD = -0.3319   full = 21   sub = 33
+
+   level = 31.77   LOD = -0.3319   full = 21   sub = 33
+
+   level = 32.03   LOD = -0.3267   full = 21   sub = 33
+
+   level = 32.03   LOD = -0.3267   full = 21   sub = 32
+
+   level = 32.72   LOD = -0.313   full = 21   sub = 32
+
+   level = 32.72   LOD = -0.313   full = 21   sub = 33
+
+   level = 33.11   LOD = -0.3054   full = 21   sub = 33
+
+   level = 33.11   LOD = -0.3054   full = 21   sub = 32
+
+   level = 33.83   LOD = -0.2913   full = 21   sub = 32
+
+   level = 33.83   LOD = -0.2913   full = 21   sub = 31
+
+   level = 33.96   LOD = -0.2889   full = 21   sub = 31
+
+   level = 33.96   LOD = -0.2889   full = 20   sub = 35
+
+   level = 34.12   LOD = -0.2857   full = 20   sub = 35
+
+   level = 34.12   LOD = -0.2856   full = 20   sub = 34
+
+   level = 34.24   LOD = -0.2834   full = 20   sub = 34
+
+   level = 34.24   LOD = -0.2834   full = 20   sub = 35
+
+   level = 34.31   LOD = -0.282   full = 20   sub = 35
+
+   level = 34.31   LOD = -0.282   full = 20   sub = 35
+
+   level = 34.49   LOD = -0.2786   full = 20   sub = 35
+
+   level = 34.49   LOD = -0.2786   full = 20   sub = 34
+
+   level = 34.55   LOD = -0.2775   full = 20   sub = 34
+
+   level = 34.55   LOD = -0.2775   full = 20   sub = 35
+
+   level = 34.68   LOD = -0.2751   full = 20   sub = 35
+
+   level = 34.68   LOD = -0.275   full = 20   sub = 35
+
+   level = 34.84   LOD = -0.272   full = 20   sub = 35
+
+   level = 34.84   LOD = -0.272   full = 20   sub = 34
+
+   level = 34.95   LOD = -0.2698   full = 20   sub = 34
+
+   level = 34.95   LOD = -0.2698   full = 20   sub = 35
+
+   level = 34.97   LOD = -0.2693   full = 20   sub = 35
+
+   level = 34.97   LOD = -0.2693   full = 20   sub = 34
+
+   level = 35.07   LOD = -0.2674   full = 20   sub = 34
+
+   level = 35.07   LOD = -0.2674   full = 19   sub = 40
+
+   level = 35.13   LOD = -0.2663   full = 19   sub = 40
+
+   level = 35.13   LOD = -0.2663   full = 19   sub = 39
+
+   level = 35.23   LOD = -0.2644   full = 19   sub = 39
+
+   level = 35.23   LOD = -0.2644   full = 19   sub = 38
+
+   level = 35.31   LOD = -0.2629   full = 19   sub = 38
+
+   level = 35.31   LOD = -0.2629   full = 19   sub = 37
+
+   level = 35.38   LOD = -0.2615   full = 19   sub = 37
+
+   level = 35.38   LOD = -0.2615   full = 19   sub = 36
+
+   level = 35.44   LOD = -0.2605   full = 19   sub = 36
+
+   level = 35.44   LOD = -0.2605   full = 19   sub = 38
+
+   level = 35.56   LOD = -0.2582   full = 19   sub = 38
+
+   level = 35.56   LOD = -0.2582   full = 19   sub = 37
+
+   level = 35.65   LOD = -0.2564   full = 19   sub = 37
+
+   level = 35.65   LOD = -0.2564   full = 19   sub = 37
+
+   level = 35.69   LOD = -0.2557   full = 19   sub = 37
+
+   level = 35.69   LOD = -0.2557   full = 19   sub = 36
+
+   level = 36.11   LOD = -0.2479   full = 19   sub = 36
+
+   level = 36.11   LOD = -0.2479   full = 19   sub = 38
+
+   level = 36.42   LOD = -0.2419   full = 19   sub = 38
+
+   level = 36.42   LOD = -0.2419   full = 19   sub = 38
+
+   level = 36.58   LOD = -0.2389   full = 19   sub = 38
+
+   level = 36.58   LOD = -0.2389   full = 19   sub = 37
+
+   level = 36.8   LOD = -0.2348   full = 19   sub = 37
+
+   level = 36.81   LOD = -0.2348   full = 19   sub = 37
+
+   level = 36.82   LOD = -0.2346   full = 19   sub = 37
+
+   level = 36.82   LOD = -0.2346   full = 19   sub = 37
+
+   level = 37.21   LOD = -0.2272   full = 19   sub = 37
+
+   level = 37.21   LOD = -0.2272   full = 19   sub = 36
+
+   level = 37.27   LOD = -0.2262   full = 19   sub = 36
+
+   level = 37.27   LOD = -0.2262   full = 19   sub = 37
+
+   level = 37.29   LOD = -0.2257   full = 19   sub = 37
+
+   level = 37.29   LOD = -0.2257   full = 19   sub = 36
+
+   level = 37.42   LOD = -0.2234   full = 19   sub = 36
+
+   level = 37.42   LOD = -0.2233   full = 19   sub = 36
+
+   level = 37.66   LOD = -0.2189   full = 19   sub = 36
+
+   level = 37.66   LOD = -0.2189   full = 19   sub = 36
+
+   level = 37.67   LOD = -0.2186   full = 19   sub = 36
+
+   level = 37.68   LOD = -0.2186   full = 19   sub = 36
+
+   level = 37.69   LOD = -0.2183   full = 19   sub = 36
+
+   level = 37.69   LOD = -0.2183   full = 19   sub = 35
+
+   level = 38.16   LOD = -0.2097   full = 19   sub = 35
+
+   level = 38.16   LOD = -0.2097   full = 19   sub = 34
+
+   level = 38.52   LOD = -0.2031   full = 19   sub = 34
+
+   level = 38.52   LOD = -0.2031   full = 19   sub = 34
+
+   level = 38.75   LOD = -0.1988   full = 19   sub = 34
+
+   level = 38.75   LOD = -0.1988   full = 19   sub = 33
+
+   level = 38.92   LOD = -0.1957   full = 19   sub = 33
+
+   level = 38.92   LOD = -0.1957   full = 19   sub = 32
+
+   level = 39.09   LOD = -0.1926   full = 19   sub = 32
+
+   level = 39.09   LOD = -0.1926   full = 19   sub = 35
+
+   level = 39.15   LOD = -0.1916   full = 19   sub = 35
+
+   level = 39.15   LOD = -0.1916   full = 19   sub = 34
+
+   level = 39.22   LOD = -0.1903   full = 19   sub = 34
+
+   level = 39.22   LOD = -0.1903   full = 19   sub = 35
+
+   level = 39.48   LOD = -0.1854   full = 19   sub = 35
+
+   level = 39.48   LOD = -0.1854   full = 18   sub = 35
+
+   level = 39.51   LOD = -0.185   full = 18   sub = 35
+
+   level = 39.51   LOD = -0.185   full = 18   sub = 36
+
+   level = 39.55   LOD = -0.1842   full = 18   sub = 36
+
+   level = 39.55   LOD = -0.1842   full = 18   sub = 35
+
+   level = 39.67   LOD = -0.1822   full = 18   sub = 35
+
+   level = 39.67   LOD = -0.1821   full = 18   sub = 34
+
+   level = 39.78   LOD = -0.1801   full = 18   sub = 34
+
+   level = 39.78   LOD = -0.1801   full = 18   sub = 34
+
+   level = 39.87   LOD = -0.1784   full = 18   sub = 34
+
+   level = 39.87   LOD = -0.1784   full = 18   sub = 34
+
+   level = 39.92   LOD = -0.1776   full = 18   sub = 34
+
+   level = 39.92   LOD = -0.1776   full = 18   sub = 33
+
+   level = 40.08   LOD = -0.1746   full = 18   sub = 33
+
+   level = 40.08   LOD = -0.1746   full = 18   sub = 32
+
+   level = 40.23   LOD = -0.1719   full = 18   sub = 32
+
+   level = 40.23   LOD = -0.1719   full = 18   sub = 31
+
+   level = 40.42   LOD = -0.1686   full = 18   sub = 31
+
+   level = 40.42   LOD = -0.1686   full = 18   sub = 30
+
+   level = 40.57   LOD = -0.1658   full = 18   sub = 30
+
+   level = 40.57   LOD = -0.1658   full = 18   sub = 30
+
+   level = 40.9   LOD = -0.1599   full = 18   sub = 30
+
+   level = 40.9   LOD = -0.1599   full = 17   sub = 33
+
+   level = 41.03   LOD = -0.1576   full = 17   sub = 33
+
+   level = 41.03   LOD = -0.1576   full = 17   sub = 36
+
+   level = 41.17   LOD = -0.155   full = 17   sub = 36
+
+   level = 41.17   LOD = -0.155   full = 17   sub = 35
+
+   level = 41.3   LOD = -0.1526   full = 17   sub = 35
+
+   level = 41.3   LOD = -0.1526   full = 17   sub = 34
+
+   level = 41.43   LOD = -0.1503   full = 17   sub = 34
+
+   level = 41.43   LOD = -0.1503   full = 17   sub = 34
+
+   level = 41.65   LOD = -0.1463   full = 17   sub = 34
+
+   level = 41.65   LOD = -0.1463   full = 17   sub = 33
+
+   level = 41.72   LOD = -0.1452   full = 17   sub = 33
+
+   level = 41.72   LOD = -0.1452   full = 16   sub = 40
+
+   level = 41.8   LOD = -0.1437   full = 16   sub = 40
+
+   level = 41.8   LOD = -0.1437   full = 16   sub = 39
+
+   level = 41.81   LOD = -0.1436   full = 16   sub = 39
+
+   level = 41.81   LOD = -0.1435   full = 16   sub = 38
+
+   level = 41.92   LOD = -0.1416   full = 16   sub = 38
+
+   level = 41.92   LOD = -0.1415   full = 16   sub = 38
+
+   level = 42.02   LOD = -0.1398   full = 16   sub = 38
+
+   level = 42.02   LOD = -0.1398   full = 16   sub = 37
+
+   level = 42.06   LOD = -0.1391   full = 16   sub = 37
+
+   level = 42.06   LOD = -0.1391   full = 16   sub = 36
+
+   level = 42.13   LOD = -0.1379   full = 16   sub = 36
+
+   level = 42.13   LOD = -0.1379   full = 16   sub = 36
+
+   level = 42.26   LOD = -0.1356   full = 16   sub = 36
+
+   level = 42.26   LOD = -0.1356   full = 16   sub = 35
+
+   level = 42.28   LOD = -0.1353   full = 16   sub = 35
+
+   level = 42.28   LOD = -0.1353   full = 16   sub = 35
+
+   level = 42.44   LOD = -0.1323   full = 16   sub = 35
+
+   level = 42.44   LOD = -0.1323   full = 16   sub = 34
+
+   level = 42.57   LOD = -0.13   full = 16   sub = 34
+
+   level = 42.57   LOD = -0.13   full = 15   sub = 37
+
+   level = 42.65   LOD = -0.1285   full = 15   sub = 37
+
+   level = 42.65   LOD = -0.1285   full = 15   sub = 37
+
+   level = 42.67   LOD = -0.1283   full = 15   sub = 37
+
+   level = 42.67   LOD = -0.1283   full = 15   sub = 38
+
+   level = 42.68   LOD = -0.1281   full = 15   sub = 38
+
+   level = 42.68   LOD = -0.1281   full = 15   sub = 37
+
+   level = 42.73   LOD = -0.1272   full = 15   sub = 37
+
+   level = 42.73   LOD = -0.1272   full = 15   sub = 37
+
+   level = 42.88   LOD = -0.1245   full = 15   sub = 37
+
+   level = 42.88   LOD = -0.1245   full = 15   sub = 37
+
+   level = 43   LOD = -0.1223   full = 15   sub = 37
+
+   level = 43   LOD = -0.1223   full = 15   sub = 37
+
+   level = 43   LOD = -0.1223   full = 15   sub = 37
+
+   level = 43   LOD = -0.1223   full = 15   sub = 36
+
+   level = 43.07   LOD = -0.1211   full = 15   sub = 36
+
+   level = 43.07   LOD = -0.1211   full = 15   sub = 35
+
+   level = 43.12   LOD = -0.1202   full = 15   sub = 35
+
+   level = 43.12   LOD = -0.1202   full = 15   sub = 36
+
+   level = 43.38   LOD = -0.1157   full = 15   sub = 36
+
+   level = 43.38   LOD = -0.1157   full = 15   sub = 38
+
+   level = 43.42   LOD = -0.1149   full = 15   sub = 38
+
+   level = 43.42   LOD = -0.1149   full = 15   sub = 37
+
+   level = 43.49   LOD = -0.1137   full = 15   sub = 37
+
+   level = 43.49   LOD = -0.1137   full = 15   sub = 36
+
+   level = 43.53   LOD = -0.113   full = 15   sub = 36
+
+   level = 43.53   LOD = -0.113   full = 15   sub = 36
+
+   level = 43.72   LOD = -0.1096   full = 15   sub = 36
+
+   level = 43.72   LOD = -0.1096   full = 15   sub = 35
+
+   level = 43.73   LOD = -0.1095   full = 15   sub = 35
+
+   level = 43.73   LOD = -0.1095   full = 15   sub = 34
+
+   level = 43.74   LOD = -0.1093   full = 15   sub = 34
+
+   level = 43.74   LOD = -0.1093   full = 15   sub = 33
+
+   level = 43.78   LOD = -0.1085   full = 15   sub = 33
+
+   level = 43.78   LOD = -0.1085   full = 15   sub = 33
+
+   level = 43.87   LOD = -0.107   full = 15   sub = 33
+
+   level = 43.87   LOD = -0.107   full = 15   sub = 34
+
+   level = 43.9   LOD = -0.1065   full = 15   sub = 34
+
+   level = 43.9   LOD = -0.1065   full = 15   sub = 37
+
+   level = 43.94   LOD = -0.1058   full = 15   sub = 37
+
+   level = 43.94   LOD = -0.1058   full = 15   sub = 36
+
+   level = 44.3   LOD = -0.09949   full = 15   sub = 36
+
+   level = 44.3   LOD = -0.09948   full = 15   sub = 35
+
+   level = 44.56   LOD = -0.09484   full = 15   sub = 35
+
+   level = 44.56   LOD = -0.09483   full = 15   sub = 35
+
+   level = 44.85   LOD = -0.08981   full = 15   sub = 35
+
+   level = 44.85   LOD = -0.0898   full = 15   sub = 34
+
+   level = 44.92   LOD = -0.08855   full = 15   sub = 34
+
+   level = 44.92   LOD = -0.08855   full = 15   sub = 33
+
+   level = 44.95   LOD = -0.08806   full = 15   sub = 33
+
+   level = 44.95   LOD = -0.08806   full = 15   sub = 33
+
+   level = 45.01   LOD = -0.08701   full = 15   sub = 33
+
+   level = 45.01   LOD = -0.08701   full = 15   sub = 33
+
+   level = 45.02   LOD = -0.08684   full = 15   sub = 33
+
+   level = 45.02   LOD = -0.08684   full = 15   sub = 32
+
+   level = 45.38   LOD = -0.08056   full = 15   sub = 32
+
+   level = 45.38   LOD = -0.08056   full = 15   sub = 32
+
+   level = 45.51   LOD = -0.07821   full = 15   sub = 32
+
+   level = 45.51   LOD = -0.07821   full = 15   sub = 31
+
+   level = 45.57   LOD = -0.07719   full = 15   sub = 31
+
+   level = 45.57   LOD = -0.07719   full = 15   sub = 31
+
+   level = 45.63   LOD = -0.07616   full = 15   sub = 31
+
+   level = 45.63   LOD = -0.07615   full = 15   sub = 30
+
+   level = 45.67   LOD = -0.07543   full = 15   sub = 30
+
+   level = 45.67   LOD = -0.07542   full = 15   sub = 30
+
+   level = 45.68   LOD = -0.07521   full = 15   sub = 30
+
+   level = 45.68   LOD = -0.0752   full = 15   sub = 30
+
+   level = 46.03   LOD = -0.06907   full = 15   sub = 30
+
+   level = 46.03   LOD = -0.06906   full = 15   sub = 33
+
+   level = 46.2   LOD = -0.06622   full = 15   sub = 33
+
+   level = 46.2   LOD = -0.06622   full = 15   sub = 32
+
+   level = 46.66   LOD = -0.05803   full = 15   sub = 32
+
+   level = 46.66   LOD = -0.05803   full = 15   sub = 31
+
+   level = 46.79   LOD = -0.05575   full = 15   sub = 31
+
+   level = 46.8   LOD = -0.05575   full = 15   sub = 31
+
+   level = 46.83   LOD = -0.05511   full = 15   sub = 31
+
+   level = 46.83   LOD = -0.05511   full = 15   sub = 31
+
+   level = 46.88   LOD = -0.05433   full = 15   sub = 31
+
+   level = 46.88   LOD = -0.05432   full = 15   sub = 30
+
+   level = 46.92   LOD = -0.05359   full = 15   sub = 30
+
+   level = 46.92   LOD = -0.05359   full = 15   sub = 31
+
+   level = 46.97   LOD = -0.05264   full = 15   sub = 31
+
+   level = 46.97   LOD = -0.05264   full = 15   sub = 30
+
+   level = 46.99   LOD = -0.05228   full = 15   sub = 30
+
+   level = 46.99   LOD = -0.05227   full = 15   sub = 31
+
+   level = 47.15   LOD = -0.04957   full = 15   sub = 31
+
+   level = 47.15   LOD = -0.04957   full = 15   sub = 30
+
+   level = 47.27   LOD = -0.04747   full = 15   sub = 30
+
+   level = 47.27   LOD = -0.04747   full = 14   sub = 38
+
+   level = 47.31   LOD = -0.04681   full = 14   sub = 38
+
+   level = 47.31   LOD = -0.0468   full = 14   sub = 37
+
+   level = 47.33   LOD = -0.04648   full = 14   sub = 37
+
+   level = 47.33   LOD = -0.04647   full = 14   sub = 36
+
+   level = 47.35   LOD = -0.04605   full = 14   sub = 36
+
+   level = 47.35   LOD = -0.04604   full = 14   sub = 36
+
+   level = 47.42   LOD = -0.04488   full = 14   sub = 36
+
+   level = 47.42   LOD = -0.04487   full = 14   sub = 36
+
+   level = 47.43   LOD = -0.04465   full = 14   sub = 36
+
+   level = 47.43   LOD = -0.04465   full = 14   sub = 35
+
+   level = 47.47   LOD = -0.04406   full = 14   sub = 35
+
+   level = 47.47   LOD = -0.04405   full = 14   sub = 34
+
+   level = 47.91   LOD = -0.03626   full = 14   sub = 34
+
+   level = 47.91   LOD = -0.03625   full = 14   sub = 33
+
+   level = 48.02   LOD = -0.03449   full = 14   sub = 33
+
+   level = 48.02   LOD = -0.03448   full = 14   sub = 32
+
+   level = 48.1   LOD = -0.03296   full = 14   sub = 32
+
+   level = 48.1   LOD = -0.03295   full = 13   sub = 34
+
+   level = 48.27   LOD = -0.03015   full = 13   sub = 34
+
+   level = 48.27   LOD = -0.03014   full = 13   sub = 36
+
+   level = 48.35   LOD = -0.02859   full = 13   sub = 36
+
+   level = 48.36   LOD = -0.02858   full = 13   sub = 35
+
+   level = 48.43   LOD = -0.02729   full = 13   sub = 35
+
+   level = 48.43   LOD = -0.02729   full = 13   sub = 35
+
+   level = 48.74   LOD = -0.02185   full = 13   sub = 35
+
+   level = 48.74   LOD = -0.02185   full = 13   sub = 34
+
+   level = 48.83   LOD = -0.02032   full = 13   sub = 34
+
+   level = 48.83   LOD = -0.02032   full = 13   sub = 33
+
+   level = 49.54   LOD = -0.008056   full = 13   sub = 33
+
+   level = 49.54   LOD = -0.008052   full = 13   sub = 33
+
+   level = 49.59   LOD = -0.007101   full = 13   sub = 33
+
+   level = 49.59   LOD = -0.007096   full = 13   sub = 32
+
+   level = 49.63   LOD = -0.006377   full = 13   sub = 32
+
+   level = 49.63   LOD = -0.006372   full = 13   sub = 31
+
+   level = 49.64   LOD = -0.006184   full = 13   sub = 31
+
+   level = 49.64   LOD = -0.006179   full = 13   sub = 32
+
+ 50-consensus = (Agrobacterium,Escherichia,(Thermotoga,Thermus),(Campylobacter,((Bacillus,Flavobacterium),(Methanothermobacter,(Methanospirillum,Nanoarchaeum,Thermoplasma,(Pyrobaculum,Sulfolobus),(Methanococcus,Thermococcus),(Halorubrum,(Candida,Drosophila,Euglena,Homo,(Caenorhabditis,Dictyostelium),(Cryptosporidium,(Nosema,Zea)))))))));
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea ]
+Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Drosophila Euglena Homo  [ Cryptosporidium Nosema Zea ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea | Methanococcus Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Nanoarchaeum ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Nosema Thermotoga Thermus Zea | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Methanothermobacter ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanothermobacter Nosema Thermotoga Thermus Zea | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Methanospirillum ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea | Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Methanococcus ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Escherichia Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Bacillus Campylobacter Candida Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Cryptosporidium Dictyostelium Nosema Zea ]
+Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Cryptosporidium Dictyostelium Drosophila Homo  [ Euglena Nosema Zea ]
+Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Drosophila Homo  [ Caenorhabditis Dictyostelium Euglena ]
+Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium Drosophila Homo  [ Candida Euglena ]
+Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium Drosophila Homo  [ Candida Cryptosporidium Nosema Zea ]
+Methanococcus Nanoarchaeum Thermococcus | Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea ]
+Caenorhabditis Dictyostelium Euglena | Drosophila Homo  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+Caenorhabditis Candida Dictyostelium | Drosophila Homo  [ Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Candida Cryptosporidium Euglena Nosema Zea ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Pyrobaculum Sulfolobus Thermoplasma Zea  [ Methanococcus Methanothermobacter Nanoarchaeum Thermococcus ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea  [ Methanococcus Methanothermobacter Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Zea | Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Thermococcus Thermotoga Thermus ]
+
+
+   level = 50.33   LOD = 0.00573   full = 13   sub = 32
+
+   level = 50.33   LOD = 0.005735   full = 13   sub = 31
+
+   level = 50.36   LOD = 0.006227   full = 13   sub = 31
+
+   level = 50.36   LOD = 0.006232   full = 13   sub = 30
+
+   level = 50.69   LOD = 0.01203   full = 13   sub = 30
+
+   level = 50.69   LOD = 0.01204   full = 13   sub = 30
+
+   level = 50.9   LOD = 0.0156   full = 13   sub = 30
+
+   level = 50.9   LOD = 0.01561   full = 13   sub = 29
+
+   level = 51.53   LOD = 0.02654   full = 13   sub = 29
+
+   level = 51.53   LOD = 0.02655   full = 13   sub = 28
+
+   level = 51.8   LOD = 0.0313   full = 13   sub = 28
+
+   level = 51.8   LOD = 0.03131   full = 13   sub = 28
+
+   level = 52.15   LOD = 0.03733   full = 13   sub = 28
+
+   level = 52.15   LOD = 0.03734   full = 12   sub = 32
+
+   level = 52.29   LOD = 0.03985   full = 12   sub = 32
+
+   level = 52.29   LOD = 0.03985   full = 12   sub = 31
+
+   level = 52.37   LOD = 0.04124   full = 12   sub = 31
+
+   level = 52.37   LOD = 0.04124   full = 12   sub = 30
+
+   level = 52.54   LOD = 0.0441   full = 12   sub = 30
+
+   level = 52.54   LOD = 0.0441   full = 12   sub = 29
+
+   level = 52.64   LOD = 0.04593   full = 12   sub = 29
+
+   level = 52.64   LOD = 0.04594   full = 12   sub = 30
+
+   level = 53.15   LOD = 0.05471   full = 12   sub = 30
+
+   level = 53.15   LOD = 0.05471   full = 12   sub = 29
+
+   level = 53.28   LOD = 0.05707   full = 12   sub = 29
+
+   level = 53.28   LOD = 0.05708   full = 12   sub = 30
+
+   level = 53.32   LOD = 0.05774   full = 12   sub = 30
+
+   level = 53.32   LOD = 0.05774   full = 12   sub = 29
+
+   level = 53.5   LOD = 0.06082   full = 12   sub = 29
+
+   level = 53.5   LOD = 0.06082   full = 12   sub = 29
+
+   level = 54   LOD = 0.06966   full = 12   sub = 29
+
+   level = 54   LOD = 0.06967   full = 12   sub = 28
+
+   level = 54.05   LOD = 0.07057   full = 12   sub = 28
+
+   level = 54.05   LOD = 0.07058   full = 12   sub = 30
+
+   level = 54.07   LOD = 0.07087   full = 12   sub = 30
+
+   level = 54.07   LOD = 0.07087   full = 12   sub = 29
+
+   level = 54.89   LOD = 0.08515   full = 12   sub = 29
+
+   level = 54.89   LOD = 0.08516   full = 12   sub = 28
+
+   level = 55.02   LOD = 0.08742   full = 12   sub = 28
+
+   level = 55.02   LOD = 0.08742   full = 12   sub = 27
+
+   level = 55.23   LOD = 0.09126   full = 12   sub = 27
+
+   level = 55.23   LOD = 0.09127   full = 12   sub = 28
+
+   level = 55.57   LOD = 0.09724   full = 12   sub = 28
+
+   level = 55.57   LOD = 0.09725   full = 12   sub = 27
+
+   level = 55.96   LOD = 0.104   full = 12   sub = 27
+
+   level = 55.96   LOD = 0.104   full = 12   sub = 26
+
+   level = 55.99   LOD = 0.1045   full = 12   sub = 26
+
+   level = 55.99   LOD = 0.1045   full = 11   sub = 30
+
+   level = 56.1   LOD = 0.1065   full = 11   sub = 30
+
+   level = 56.1   LOD = 0.1065   full = 11   sub = 30
+
+   level = 56.32   LOD = 0.1104   full = 11   sub = 30
+
+   level = 56.32   LOD = 0.1104   full = 11   sub = 32
+
+   level = 56.65   LOD = 0.1162   full = 11   sub = 32
+
+   level = 56.65   LOD = 0.1162   full = 11   sub = 31
+
+   level = 56.79   LOD = 0.1188   full = 11   sub = 31
+
+   level = 56.8   LOD = 0.1188   full = 11   sub = 30
+
+   level = 57.39   LOD = 0.1293   full = 11   sub = 30
+
+   level = 57.39   LOD = 0.1293   full = 11   sub = 29
+
+   level = 57.43   LOD = 0.1301   full = 11   sub = 29
+
+   level = 57.43   LOD = 0.1301   full = 11   sub = 28
+
+   level = 57.55   LOD = 0.1321   full = 11   sub = 28
+
+   level = 57.55   LOD = 0.1321   full = 10   sub = 29
+
+   level = 58.23   LOD = 0.1442   full = 10   sub = 29
+
+   level = 58.23   LOD = 0.1442   full = 10   sub = 31
+
+   level = 58.26   LOD = 0.1448   full = 10   sub = 31
+
+   level = 58.26   LOD = 0.1448   full = 10   sub = 31
+
+   level = 58.33   LOD = 0.1461   full = 10   sub = 31
+
+   level = 58.33   LOD = 0.1461   full = 9   sub = 34
+
+   level = 58.43   LOD = 0.1478   full = 9   sub = 34
+
+   level = 58.43   LOD = 0.1478   full = 9   sub = 34
+
+   level = 58.71   LOD = 0.1529   full = 9   sub = 34
+
+   level = 58.71   LOD = 0.1529   full = 9   sub = 33
+
+   level = 59.23   LOD = 0.1621   full = 9   sub = 33
+
+   level = 59.23   LOD = 0.1621   full = 9   sub = 33
+
+   level = 59.61   LOD = 0.1691   full = 9   sub = 33
+
+   level = 59.61   LOD = 0.1691   full = 9   sub = 32
+
+   level = 59.75   LOD = 0.1716   full = 9   sub = 32
+
+   level = 59.75   LOD = 0.1716   full = 9   sub = 32
+
+   level = 59.76   LOD = 0.1718   full = 9   sub = 32
+
+   level = 59.76   LOD = 0.1718   full = 9   sub = 32
+
+   level = 59.92   LOD = 0.1747   full = 9   sub = 32
+
+   level = 59.92   LOD = 0.1747   full = 9   sub = 31
+
+   level = 60.08   LOD = 0.1776   full = 9   sub = 31
+
+   level = 60.08   LOD = 0.1776   full = 9   sub = 30
+
+   level = 60.18   LOD = 0.1794   full = 9   sub = 30
+
+   level = 60.18   LOD = 0.1794   full = 9   sub = 29
+
+   level = 60.36   LOD = 0.1827   full = 9   sub = 29
+
+   level = 60.36   LOD = 0.1827   full = 9   sub = 29
+
+   level = 60.52   LOD = 0.1855   full = 9   sub = 29
+
+   level = 60.52   LOD = 0.1855   full = 9   sub = 28
+
+   level = 61.31   LOD = 0.1999   full = 9   sub = 28
+
+   level = 61.31   LOD = 0.1999   full = 9   sub = 28
+
+   level = 61.35   LOD = 0.2007   full = 9   sub = 28
+
+   level = 61.35   LOD = 0.2007   full = 9   sub = 27
+
+   level = 61.43   LOD = 0.2022   full = 9   sub = 27
+
+   level = 61.43   LOD = 0.2022   full = 9   sub = 26
+
+   level = 62.21   LOD = 0.2166   full = 9   sub = 26
+
+   level = 62.21   LOD = 0.2166   full = 8   sub = 28
+
+   level = 62.4   LOD = 0.2201   full = 8   sub = 28
+
+   level = 62.4   LOD = 0.2201   full = 8   sub = 27
+
+   level = 62.74   LOD = 0.2262   full = 8   sub = 27
+
+   level = 62.74   LOD = 0.2263   full = 8   sub = 26
+
+   level = 62.81   LOD = 0.2277   full = 8   sub = 26
+
+   level = 62.81   LOD = 0.2277   full = 8   sub = 25
+
+   level = 63.04   LOD = 0.2318   full = 8   sub = 25
+
+   level = 63.04   LOD = 0.2318   full = 8   sub = 24
+
+   level = 63.11   LOD = 0.2331   full = 8   sub = 24
+
+   level = 63.11   LOD = 0.2331   full = 8   sub = 23
+
+   level = 63.14   LOD = 0.2338   full = 8   sub = 23
+
+   level = 63.14   LOD = 0.2338   full = 8   sub = 25
+
+   level = 63.25   LOD = 0.2358   full = 8   sub = 25
+
+   level = 63.25   LOD = 0.2358   full = 8   sub = 26
+
+   level = 63.65   LOD = 0.2433   full = 8   sub = 26
+
+   level = 63.65   LOD = 0.2433   full = 7   sub = 31
+
+   level = 63.74   LOD = 0.2449   full = 7   sub = 31
+
+   level = 63.74   LOD = 0.2449   full = 7   sub = 30
+
+   level = 63.75   LOD = 0.2452   full = 7   sub = 30
+
+   level = 63.75   LOD = 0.2452   full = 7   sub = 29
+
+   level = 63.75   LOD = 0.2452   full = 7   sub = 28
+
+   level = 63.95   LOD = 0.2489   full = 7   sub = 28
+
+   level = 63.95   LOD = 0.2489   full = 7   sub = 28
+
+   level = 64.07   LOD = 0.2512   full = 7   sub = 28
+
+   level = 64.07   LOD = 0.2512   full = 7   sub = 27
+
+   level = 64.27   LOD = 0.2549   full = 7   sub = 27
+
+   level = 64.27   LOD = 0.2549   full = 7   sub = 26
+
+   level = 64.44   LOD = 0.2581   full = 7   sub = 26
+
+   level = 64.44   LOD = 0.2581   full = 7   sub = 27
+
+   level = 64.55   LOD = 0.2602   full = 7   sub = 27
+
+   level = 64.55   LOD = 0.2602   full = 7   sub = 26
+
+   level = 64.66   LOD = 0.2623   full = 7   sub = 26
+
+   level = 64.66   LOD = 0.2623   full = 7   sub = 25
+
+   level = 64.67   LOD = 0.2626   full = 7   sub = 25
+
+   level = 64.67   LOD = 0.2626   full = 7   sub = 24
+
+   level = 64.88   LOD = 0.2666   full = 7   sub = 24
+
+   level = 64.88   LOD = 0.2666   full = 7   sub = 26
+
+   level = 65.11   LOD = 0.271   full = 7   sub = 26
+
+   level = 65.11   LOD = 0.271   full = 7   sub = 25
+
+   level = 65.3   LOD = 0.2746   full = 7   sub = 25
+
+   level = 65.3   LOD = 0.2746   full = 7   sub = 24
+
+   level = 65.38   LOD = 0.2761   full = 7   sub = 24
+
+   level = 65.38   LOD = 0.2761   full = 7   sub = 23
+
+   level = 65.54   LOD = 0.2792   full = 7   sub = 23
+
+   level = 65.54   LOD = 0.2793   full = 7   sub = 23
+
+   level = 65.95   LOD = 0.2872   full = 7   sub = 23
+
+   level = 65.95   LOD = 0.2872   full = 7   sub = 22
+
+ 66-consensus = (Agrobacterium,Campylobacter,Escherichia,Thermotoga,Thermus,((Bacillus,Flavobacterium),(Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Thermococcus,Thermoplasma,(Pyrobaculum,Sulfolobus),(Halorubrum,(Candida,Cryptosporidium,Drosophila,Euglena,Homo,Nosema,Zea,(Caenorhabditis,Dictyostelium))))));
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Zea | Methanococcus Thermococcus  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea | Methanococcus Thermococcus  [ Nanoarchaeum ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Cryptosporidium ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Candida ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Escherichia Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus | Methanospirillum Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nosema Thermococcus Zea ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nosema Thermococcus Zea ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanothermobacter Nosema Zea ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea | Pyrobaculum Sulfolobus Thermoplasma  [ Methanococcus Nanoarchaeum Thermococcus ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nosema Zea  [ Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Cryptosporidium Dictyostelium Euglena Nosema Zea ]
+Agrobacterium Bacillus Campylobacter Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Drosophila Homo  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Nosema Zea ]
+
+
+   level = 66.12   LOD = 0.2904   full = 7   sub = 22
+
+   level = 66.12   LOD = 0.2904   full = 7   sub = 23
+
+   level = 66.41   LOD = 0.296   full = 7   sub = 23
+
+   level = 66.41   LOD = 0.296   full = 7   sub = 22
+
+   level = 66.86   LOD = 0.3049   full = 7   sub = 22
+
+   level = 66.86   LOD = 0.3049   full = 7   sub = 22
+
+   level = 66.93   LOD = 0.3063   full = 7   sub = 22
+
+   level = 66.94   LOD = 0.3063   full = 7   sub = 21
+
+   level = 67.48   LOD = 0.317   full = 7   sub = 21
+
+   level = 67.48   LOD = 0.317   full = 7   sub = 20
+
+   level = 68.07   LOD = 0.3287   full = 7   sub = 20
+
+   level = 68.07   LOD = 0.3288   full = 7   sub = 21
+
+   level = 68.21   LOD = 0.3316   full = 7   sub = 21
+
+   level = 68.21   LOD = 0.3316   full = 7   sub = 21
+
+   level = 68.49   LOD = 0.3372   full = 7   sub = 21
+
+   level = 68.49   LOD = 0.3372   full = 7   sub = 20
+
+   level = 69.04   LOD = 0.3483   full = 7   sub = 20
+
+   level = 69.04   LOD = 0.3483   full = 7   sub = 20
+
+   level = 69.54   LOD = 0.3584   full = 7   sub = 20
+
+   level = 69.54   LOD = 0.3584   full = 7   sub = 19
+
+   level = 69.73   LOD = 0.3625   full = 7   sub = 19
+
+   level = 69.73   LOD = 0.3625   full = 7   sub = 19
+
+   level = 69.88   LOD = 0.3656   full = 7   sub = 19
+
+   level = 69.88   LOD = 0.3656   full = 7   sub = 20
+
+   level = 69.95   LOD = 0.367   full = 7   sub = 20
+
+   level = 69.95   LOD = 0.367   full = 7   sub = 19
+
+   level = 69.98   LOD = 0.3675   full = 7   sub = 19
+
+   level = 69.98   LOD = 0.3676   full = 6   sub = 23
+
+   level = 70.09   LOD = 0.3698   full = 6   sub = 23
+
+   level = 70.09   LOD = 0.3698   full = 6   sub = 22
+
+   level = 70.25   LOD = 0.3731   full = 6   sub = 22
+
+   level = 70.25   LOD = 0.3731   full = 6   sub = 21
+
+   level = 70.76   LOD = 0.3839   full = 6   sub = 21
+
+   level = 70.76   LOD = 0.3839   full = 6   sub = 23
+
+   level = 70.81   LOD = 0.3848   full = 6   sub = 23
+
+   level = 70.81   LOD = 0.3849   full = 6   sub = 22
+
+   level = 70.84   LOD = 0.3854   full = 6   sub = 22
+
+   level = 70.84   LOD = 0.3855   full = 6   sub = 21
+
+   level = 70.96   LOD = 0.388   full = 6   sub = 21
+
+   level = 70.96   LOD = 0.388   full = 6   sub = 20
+
+   level = 71.23   LOD = 0.3938   full = 6   sub = 20
+
+   level = 71.24   LOD = 0.3938   full = 6   sub = 19
+
+   level = 74.63   LOD = 0.4686   full = 6   sub = 19
+
+   level = 74.63   LOD = 0.4686   full = 6   sub = 19
+
+   level = 75.2   LOD = 0.4817   full = 6   sub = 19
+
+   level = 75.2   LOD = 0.4817   full = 6   sub = 19
+
+   level = 75.2   LOD = 0.4818   full = 6   sub = 19
+
+   level = 75.2   LOD = 0.4818   full = 6   sub = 21
+
+   level = 75.29   LOD = 0.4838   full = 6   sub = 21
+
+   level = 75.29   LOD = 0.4838   full = 6   sub = 20
+
+   level = 75.45   LOD = 0.4877   full = 6   sub = 20
+
+   level = 75.45   LOD = 0.4877   full = 6   sub = 19
+
+   level = 75.74   LOD = 0.4945   full = 6   sub = 19
+
+   level = 75.74   LOD = 0.4945   full = 6   sub = 21
+
+   level = 75.97   LOD = 0.5   full = 6   sub = 21
+
+   level = 75.97   LOD = 0.5   full = 5   sub = 23
+
+   level = 76.01   LOD = 0.5009   full = 5   sub = 23
+
+   level = 76.01   LOD = 0.5009   full = 5   sub = 24
+
+   level = 76.28   LOD = 0.5073   full = 5   sub = 24
+
+   level = 76.28   LOD = 0.5073   full = 5   sub = 23
+
+   level = 76.31   LOD = 0.5081   full = 5   sub = 23
+
+   level = 76.31   LOD = 0.5081   full = 5   sub = 22
+
+   level = 76.37   LOD = 0.5095   full = 5   sub = 22
+
+   level = 76.37   LOD = 0.5095   full = 5   sub = 21
+
+   level = 76.98   LOD = 0.5242   full = 5   sub = 21
+
+   level = 76.98   LOD = 0.5242   full = 5   sub = 20
+
+   level = 77.02   LOD = 0.5252   full = 5   sub = 20
+
+   level = 77.02   LOD = 0.5252   full = 5   sub = 19
+
+   level = 77.13   LOD = 0.5279   full = 5   sub = 19
+
+   level = 77.13   LOD = 0.5279   full = 5   sub = 18
+
+   level = 77.22   LOD = 0.5301   full = 5   sub = 18
+
+   level = 77.22   LOD = 0.5301   full = 5   sub = 17
+
+   level = 78.18   LOD = 0.5542   full = 5   sub = 17
+
+   level = 78.18   LOD = 0.5542   full = 5   sub = 16
+
+   level = 78.33   LOD = 0.5582   full = 5   sub = 16
+
+   level = 78.33   LOD = 0.5582   full = 5   sub = 15
+
+   level = 79.11   LOD = 0.5783   full = 5   sub = 15
+
+   level = 79.11   LOD = 0.5783   full = 5   sub = 15
+
+   level = 79.31   LOD = 0.5835   full = 5   sub = 15
+
+   level = 79.31   LOD = 0.5835   full = 5   sub = 15
+
+ 80-consensus = (Agrobacterium,Bacillus,Campylobacter,Escherichia,Flavobacterium,Thermotoga,Thermus,(Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Thermococcus,Thermoplasma,(Pyrobaculum,Sulfolobus),(Halorubrum,(Candida,Cryptosporidium,Drosophila,Euglena,Homo,Nosema,Zea,(Caenorhabditis,Dictyostelium)))));
+Agrobacterium Campylobacter Escherichia Thermotoga Thermus | Bacillus Flavobacterium  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea ]
+Agrobacterium Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Bacillus Flavobacterium  [ Campylobacter ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Campylobacter ]
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nosema Pyrobaculum Sulfolobus Thermoplasma Zea | Methanococcus Thermococcus  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Nanoarchaeum Thermotoga Thermus ]
+Caenorhabditis Cryptosporidium Dictyostelium Drosophila Euglena Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+Caenorhabditis Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+Agrobacterium Bacillus Caenorhabditis Campylobacter Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Nosema Zea  [ Candida Cryptosporidium ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Thermotoga Thermus | Pyrobaculum Sulfolobus Thermoplasma  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanothermobacter Nanoarchaeum Nosema Thermococcus Zea ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Methanococcus Thermococcus  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Zea ]
+
+
+   level = 80.18   LOD = 0.607   full = 5   sub = 15
+
+   level = 80.18   LOD = 0.607   full = 5   sub = 15
+
+   level = 80.27   LOD = 0.6095   full = 5   sub = 15
+
+   level = 80.27   LOD = 0.6095   full = 5   sub = 14
+
+   level = 81.02   LOD = 0.6303   full = 5   sub = 14
+
+   level = 81.02   LOD = 0.6303   full = 5   sub = 13
+
+   level = 81.36   LOD = 0.64   full = 5   sub = 13
+
+   level = 81.36   LOD = 0.64   full = 5   sub = 13
+
+   level = 83.74   LOD = 0.7119   full = 5   sub = 13
+
+   level = 83.74   LOD = 0.7119   full = 5   sub = 12
+
+   level = 85.64   LOD = 0.7756   full = 5   sub = 12
+
+   level = 85.64   LOD = 0.7756   full = 5   sub = 11
+
+   level = 85.88   LOD = 0.7841   full = 5   sub = 11
+
+   level = 85.88   LOD = 0.7841   full = 4   sub = 16
+
+   level = 85.97   LOD = 0.7872   full = 4   sub = 16
+
+   level = 85.97   LOD = 0.7872   full = 4   sub = 15
+
+   level = 86.01   LOD = 0.7888   full = 4   sub = 15
+
+   level = 86.01   LOD = 0.7888   full = 4   sub = 14
+
+   level = 86.08   LOD = 0.7913   full = 4   sub = 14
+
+   level = 86.08   LOD = 0.7913   full = 4   sub = 14
+
+   level = 86.09   LOD = 0.7916   full = 4   sub = 14
+
+   level = 86.09   LOD = 0.7917   full = 4   sub = 15
+
+   level = 86.22   LOD = 0.7965   full = 4   sub = 15
+
+   level = 86.22   LOD = 0.7965   full = 4   sub = 14
+
+   level = 86.23   LOD = 0.7968   full = 4   sub = 14
+
+   level = 86.23   LOD = 0.7968   full = 4   sub = 14
+
+   level = 86.38   LOD = 0.8023   full = 4   sub = 14
+
+   level = 86.38   LOD = 0.8023   full = 4   sub = 13
+
+   level = 86.42   LOD = 0.8036   full = 4   sub = 13
+
+   level = 86.42   LOD = 0.8036   full = 4   sub = 13
+
+   level = 86.62   LOD = 0.8111   full = 4   sub = 13
+
+   level = 86.62   LOD = 0.8111   full = 4   sub = 12
+
+   level = 86.65   LOD = 0.8124   full = 4   sub = 12
+
+   level = 86.65   LOD = 0.8124   full = 4   sub = 11
+
+   level = 86.75   LOD = 0.816   full = 4   sub = 11
+
+   level = 86.75   LOD = 0.816   full = 4   sub = 12
+
+   level = 87.01   LOD = 0.8261   full = 4   sub = 12
+
+   level = 87.01   LOD = 0.8261   full = 4   sub = 14
+
+   level = 87.15   LOD = 0.8313   full = 4   sub = 14
+
+   level = 87.15   LOD = 0.8313   full = 4   sub = 14
+
+   level = 87.26   LOD = 0.8355   full = 4   sub = 14
+
+   level = 87.26   LOD = 0.8356   full = 4   sub = 14
+
+   level = 87.27   LOD = 0.8358   full = 4   sub = 14
+
+   level = 87.27   LOD = 0.8359   full = 4   sub = 14
+
+   level = 87.41   LOD = 0.8413   full = 4   sub = 14
+
+   level = 87.41   LOD = 0.8414   full = 4   sub = 13
+
+   level = 87.78   LOD = 0.8562   full = 4   sub = 13
+
+   level = 87.78   LOD = 0.8562   full = 4   sub = 12
+
+   level = 87.94   LOD = 0.8628   full = 4   sub = 12
+
+   level = 87.94   LOD = 0.8628   full = 4   sub = 12
+
+   level = 88.21   LOD = 0.874   full = 4   sub = 12
+
+   level = 88.21   LOD = 0.874   full = 4   sub = 12
+
+   level = 88.22   LOD = 0.8743   full = 4   sub = 12
+
+   level = 88.22   LOD = 0.8743   full = 4   sub = 11
+
+   level = 88.41   LOD = 0.8826   full = 4   sub = 11
+
+   level = 88.41   LOD = 0.8826   full = 4   sub = 11
+
+   level = 88.68   LOD = 0.894   full = 4   sub = 11
+
+   level = 88.68   LOD = 0.894   full = 4   sub = 10
+
+   level = 89.73   LOD = 0.9412   full = 4   sub = 10
+
+   level = 89.73   LOD = 0.9412   full = 3   sub = 12
+
+   level = 89.76   LOD = 0.943   full = 3   sub = 12
+
+   level = 89.76   LOD = 0.943   full = 3   sub = 12
+
+   level = 89.82   LOD = 0.9455   full = 3   sub = 12
+
+   level = 89.82   LOD = 0.9455   full = 3   sub = 11
+
+   level = 89.93   LOD = 0.9507   full = 3   sub = 11
+
+   level = 89.93   LOD = 0.9507   full = 3   sub = 11
+
+ 90-consensus = (Agrobacterium,Bacillus,Campylobacter,Escherichia,Flavobacterium,Thermotoga,Thermus,(Halorubrum,Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Thermococcus,Thermoplasma,(Pyrobaculum,Sulfolobus),(Caenorhabditis,Candida,Cryptosporidium,Dictyostelium,Drosophila,Euglena,Homo,Nosema,Zea)));
+Agrobacterium Campylobacter Escherichia Thermotoga Thermus | Bacillus Flavobacterium  [ Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea ]
+Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium  [ Candida ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Campylobacter ]
+Caenorhabditis Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea  [ Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma ]
+Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Dictyostelium  [ Cryptosporidium Drosophila Euglena Homo Nosema Zea ]
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Nanoarchaeum Pyrobaculum Sulfolobus Thermoplasma  [ Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Thermococcus Thermotoga Thermus ]
+
+
+   level = 90.27   LOD = 0.9676   full = 3   sub = 11
+
+   level = 90.27   LOD = 0.9676   full = 3   sub = 10
+
+   level = 90.71   LOD = 0.9896   full = 3   sub = 10
+
+   level = 90.71   LOD = 0.9896   full = 3   sub = 9
+
+   level = 91.06   LOD = 1.008   full = 3   sub = 9
+
+   level = 91.06   LOD = 1.008   full = 3   sub = 9
+
+   level = 91.57   LOD = 1.036   full = 3   sub = 9
+
+   level = 91.58   LOD = 1.036   full = 3   sub = 9
+
+   level = 93.82   LOD = 1.181   full = 3   sub = 9
+
+   level = 93.82   LOD = 1.181   full = 3   sub = 8
+
+   level = 94.16   LOD = 1.207   full = 3   sub = 8
+
+   level = 94.16   LOD = 1.207   full = 3   sub = 7
+
+ 95-consensus = (Agrobacterium,Bacillus,Campylobacter,Escherichia,Flavobacterium,Thermotoga,Thermus,(Halorubrum,Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Thermococcus,Thermoplasma,(Pyrobaculum,Sulfolobus),(Caenorhabditis,Candida,Cryptosporidium,Dictyostelium,Drosophila,Euglena,Homo,Nosema,Zea)));
+Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea | Caenorhabditis Dictyostelium  [ Candida ]
+Agrobacterium Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Thermotoga Thermus  [ Campylobacter ]
+Agrobacterium Escherichia Thermotoga Thermus | Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea  [ Campylobacter ]
+Caenorhabditis Dictyostelium Drosophila Euglena Homo | Cryptosporidium Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   level = 95.78   LOD = 1.356   full = 3   sub = 7
+
+   level = 95.78   LOD = 1.356   full = 3   sub = 7
+
+   level = 96.37   LOD = 1.423   full = 3   sub = 7
+
+   level = 96.37   LOD = 1.423   full = 3   sub = 6
+
+   level = 97.2   LOD = 1.54   full = 3   sub = 6
+
+   level = 97.2   LOD = 1.54   full = 3   sub = 8
+
+   level = 97.32   LOD = 1.56   full = 3   sub = 8
+
+   level = 97.32   LOD = 1.56   full = 3   sub = 7
+
+   level = 97.56   LOD = 1.602   full = 3   sub = 7
+
+   level = 97.56   LOD = 1.602   full = 3   sub = 7
+
+   level = 98.02   LOD = 1.695   full = 3   sub = 7
+
+   level = 98.02   LOD = 1.695   full = 3   sub = 10
+
+   level = 98.13   LOD = 1.719   full = 3   sub = 10
+
+   level = 98.13   LOD = 1.719   full = 3   sub = 10
+
+   level = 98.19   LOD = 1.735   full = 3   sub = 10
+
+   level = 98.19   LOD = 1.735   full = 3   sub = 9
+
+   level = 98.2   LOD = 1.737   full = 3   sub = 9
+
+   level = 98.2   LOD = 1.737   full = 3   sub = 8
+
+   level = 98.21   LOD = 1.739   full = 3   sub = 8
+
+   level = 98.21   LOD = 1.739   full = 3   sub = 7
+
+   level = 98.31   LOD = 1.763   full = 3   sub = 7
+
+   level = 98.31   LOD = 1.763   full = 3   sub = 7
+
+   level = 98.48   LOD = 1.812   full = 3   sub = 7
+
+   level = 98.48   LOD = 1.812   full = 3   sub = 6
+
+   level = 98.8   LOD = 1.914   full = 3   sub = 6
+
+   level = 98.8   LOD = 1.914   full = 3   sub = 7
+
+   level = 98.95   LOD = 1.973   full = 3   sub = 7
+
+   level = 98.95   LOD = 1.973   full = 3   sub = 6
+
+ 99-consensus = (Agrobacterium,Bacillus,Campylobacter,Escherichia,Flavobacterium,Thermotoga,Thermus,(Halorubrum,Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Thermococcus,Thermoplasma,(Pyrobaculum,Sulfolobus),(Caenorhabditis,Candida,Cryptosporidium,Dictyostelium,Drosophila,Euglena,Homo,Nosema,Zea)));
+Agrobacterium Escherichia Thermotoga Thermus | Bacillus Flavobacterium  [ Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea ]
+Caenorhabditis Dictyostelium | Drosophila Homo  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea ]
+Caenorhabditis Dictyostelium Drosophila Euglena Homo | Nosema Zea  [ Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus ]
+
+
+   level = 99.05   LOD = 2.018   full = 3   sub = 6
+
+   level = 99.05   LOD = 2.018   full = 3   sub = 5
+
+   level = 99.14   LOD = 2.06   full = 3   sub = 5
+
+   level = 99.14   LOD = 2.06   full = 2   sub = 9
+
+   level = 99.26   LOD = 2.126   full = 2   sub = 9
+
+   level = 99.26   LOD = 2.126   full = 2   sub = 8
+
+   level = 99.27   LOD = 2.133   full = 2   sub = 8
+
+   level = 99.27   LOD = 2.133   full = 2   sub = 7
+
+   level = 99.28   LOD = 2.141   full = 2   sub = 7
+
+   level = 99.28   LOD = 2.141   full = 2   sub = 7
+
+   level = 99.28   LOD = 2.142   full = 2   sub = 7
+
+   level = 99.28   LOD = 2.142   full = 2   sub = 6
+
+   level = 99.3   LOD = 2.149   full = 2   sub = 6
+
+   level = 99.3   LOD = 2.149   full = 2   sub = 5
+
+   level = 99.37   LOD = 2.2   full = 2   sub = 5
+
+   level = 99.37   LOD = 2.2   full = 2   sub = 4
+
+   level = 99.77   LOD = 2.639   full = 2   sub = 4
+
+   level = 99.77   LOD = 2.64   full = 1   sub = 5
+
+   level = 99.81   LOD = 2.718   full = 1   sub = 5
+
+   level = 99.81   LOD = 2.719   full = 1   sub = 4
+
+   level = 99.81   LOD = 2.722   full = 1   sub = 4
+
+   level = 99.81   LOD = 2.723   full = 1   sub = 4
+
+   level = 99.88   LOD = 2.91   full = 1   sub = 4
+
+   level = 99.88   LOD = 2.911   full = 1   sub = 3
+
+   level = 99.91   LOD = 3.049   full = 1   sub = 3
+
+   level = 99.91   LOD = 3.051   full = 1   sub = 2
+
+   level = 100   LOD = 4.653   full = 1   sub = 2
+
+   level = 100   LOD = 4.711   full = 0   sub = 1
+
+   level = 100   LOD = 4.954   full = 0   sub = 1
+
+   level = 100   LOD = 5.079   full = 0   sub = 1
+
+   level = 100   LOD = 5.255   full = 0   sub = 1
+
+   level = 100   LOD = 5.556   full = 0   sub = 0
+
+ 100-consensus = (Agrobacterium,Bacillus,Caenorhabditis,Campylobacter,Candida,Cryptosporidium,Dictyostelium,Drosophila,Escherichia,Euglena,Flavobacterium,Halorubrum,Homo,Methanococcus,Methanospirillum,Methanothermobacter,Nanoarchaeum,Nosema,Pyrobaculum,Sulfolobus,Thermococcus,Thermoplasma,Thermotoga,Thermus,Zea);
+
+

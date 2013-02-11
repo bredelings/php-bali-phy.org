@@ -1,0 +1,33 @@
+div.AU { 
+  margin: 0.5em;
+  padding: 0.5em;
+  background: rgb(230,230,230);
+  font-size: 10pt;
+  font-family: helvitica;
+}
+
+div.AU TABLE {
+   border: none;
+   border-collapse: collapse;
+   border-spacing: 0;
+   margin-top: 0.4em;
+}
+
+.sequences TD { 
+   padding: 0.01em;
+   margin: 0;
+
+   font-size: 10pt;
+   font-weight: bold;
+   font-family: monospace;
+}
+
+.sequences TD.sequencename 
+{
+   padding-right: 1em;
+
+   font-weight: normal;
+   font-style: italic;
+   font-family: sans-serif;
+}
+

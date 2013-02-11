@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for i in *.ltree ; do
+    draw-tree $i.mtree --out=$tree-mctree --output=svg
+    draw-tree $i.mtree --out=$tree-mctree
+do 

@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <?php $page='News'; ?>
+    <?php require('lib/phplib.inc') ?>
+    <?php baliphy_head(); ?>
+    <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
+    <style type="text/css">
+ul.changelog li {font-weight: bold; color: blue}
+ul.changelog li li {font-weight: normal; color: black}
+    </style>
+  </head>
+  <body>
+    <?php baliphy_header(); ?>
+
+    <table class="layout">
+      <tr>
+	<?php dirtree(); ?>
+	<td class="center" valign="top">
+	  <?php navbar(); ?>
+	  <div class="main">
+	  <h2><a name="news">News</a></h2>
+
+	  <h3><a name="2.1.1">Version 2.1.1 (02/03/11)</a></h3>
+
+	  <p>Version 2.1.1 fixes bugs and is easier to use.</p>
+
+	  <ul class="changelog">
+	    <li>Bug fixes
+	      <ul>
+	        <li>Fixed: 2.1.0 would sometimes crash randomly during long runs.</li>
+		<li>Fixed: Windows binaries used the same random seed every time.</li>
+		<li>Fixed: Broken M0 and M7 model priors.</li>
+	      </ul>
+	    </li>
+	    <li>Usability
+ 	      <ul>
+	        <li>Read files in old macintosh format on UNIX and Windows.</li>
+	      </ul>
+	    </li>
+	    <li>Build
+	      <ul>
+	         <li>Fix build from source with system BOOST libraries.</li>
+              </ul>
+	    </li>
+	  </ul>
+
+	  <h3><a name="2.1.0">Version 2.1.0 (07/07/10)</a></h3>
+
+	  <p>Version 2.1.0 adds some major new features:</p>
+
+	  <ul class="changelog">
+	    <li>Major new features.
+	    <ol>
+	      <li>Allow multiple separate genes (i.e. data partitions).
+  	      <ul>
+	        <li>The alignment of each gene may be either fixed or variable.</li>
+	      </ul>	      
+	      </li>
+	      <li>Improve mixing when the tree has many tips (for MCMC)</li>
+	      <li>Improve initial search when the tree has many tips (for estimation)</li>
+	      <li>Use much less RAM.</li>
+	    </ol>
+	    </li>
+
+	    <li>MCMC Speed and reliability
+	    <ul>
+	      <li>Use slice sampling for continous parameters -- automatically detect step-size.</li>
+	      <li>Allow SPR moves to intelligently propose attachment sites.</li>
+	      <li>Improve CPU efficiency when the alignment is constrained.</li>
+	      <li>Spend more time resampling topology and alignment, versus substitution parameters.</li>
+	    </ul>
+	    </li>
+
+	    <li>Models
+	    <ul>
+	      <li>Default to more conservative gamma prior for branch
+	      lengths.</li>
+	      <li>New substitution models: C10 and C20.</li>
+	    </ul>
+	    </li>
+
+	    <li>Usability
+	    <ul>
+	      <li>Stop requiring --data-dir option: the information is now internal.</li>
+	      <li>Handle amino-acid code <b>J</b>.</li>
+	      <li>Warn on illegal characters.</li>
+	      <li>New analysis script <em>bp-analyze.pl</em> replaces GNUmakefile.</li>
+	    </ul>
+	    </li>
+
+	    <li>Summarization tools
+	      <ul>
+		<li>Report the maximum posterior decoding alignment.</li>
+		<li>Simplify computing the consensus tree and other
+		summaries.</li>
+		<li>Check mixing and effective sample sizes by
+		comparing multiple runs.</li>
+	      </ul>
+	    </li>
+
+	  </ul>
+
+	  <h3><a name="2.0.2">Version 2.0.2 (02/03/09)</a></h3>
+
+	  <p>Version 2.0.2 fixes some bugs and updates the auxiliary tools to be more
+	  similar to the development version.  It also has some
+	  speedups when the alignment is partially fixed (constrained).</p>
+
+	  <ul class="changelog">
+	    <li>General
+	    <ul>
+	      <li>Make alignment constraints work again.</li>
+	      <li>Represent stop codons as "*" instead of "!".</li>
+	    </ul>
+	    </li>
+
+	    <li>Executables
+	    <ul>
+	      <li>Compile windows executables with an up-to-date compiler</li>
+	    </ul>
+	    </li>
+
+	    <li>Don't crash...
+	    <ul>
+	      <li>Don't crash in MCMC when using the gamma distribution. (really)</li>
+	    </ul>
+	    </li>
+
+	    <li>Useability
+	    <ul>
+	      <li>Capitalize model names WAG, PAM, JTT, etc.</li>
+	      <li>Improve checks for illegal characters in sequence names.</li>
+	      <li>Improve checks for illegal characters in alignment.</li>
+	      <li>Generate correct colors for DNA AU plots</li>
+	      <li>In case of errors in the post hoc analysis, give useful error messages.</li>
+	    </ul>
+	  </li>
+
+	  <li>Experimental...
+	  <ul>
+	    <li>alignment-align: align two alignments to compare them.</li>
+	    <li>alignment-max: generate a representative alignment.</li>
+
+	  </ul>
+	  </li>
+	  </ul>
+
+
+
+	  <h3><a name="2.0.1">Version 2.0.1 (12/11/07)</a></h3>
+
+	  <p>Version 2.0.1 fixes several bugs.  In order to ensure stability, no major features were added in this release.</p>
+
+	  <p>This release fixes a bug that affected results in
+	  default gap model, and so we recommend that all users
+	  upgrade to this release.  This bug previously resulted in
+	  under-estimates of the mean gap length. </p>
+
+	  <ul class="changelog">
+	    <li>Correctness
+	    <ul>
+	      <li style="color:red">Fix sampling of the mean gap length (epsilon) under the (default) RS07 model.</li>
+	    </ul></li>
+
+	    <li>Executables
+	    <ul>
+	      <li>Make Macintosh executables run  correctly (static linkage)</li>
+	    </ul>
+	    </li>
+
+	    <li>Don't crash...
+	    <ul>
+	      <li>Don't crash in MCMC when changing branch lengths.</li>
+	      <li>Don't crash in MCMC when using the gamma distribution.</li>
+	      <li>Don't crash on --show-only.</li>
+	      <li>Don't crash analyzing collection of FastA alignments.</li>
+	    </ul>
+	    </li>
+	      
+	    <li>Usability
+	    <ul>
+	      <li>Don't quit reading a FastA file on blank lines.</li>
+	      <li>Generate better consensus alignment.</li>
+	      <li>[configure] Correctly check for GSL version 1.8 of higher.</li>
+	      <li>[configure] Don't blame GSL for bad compiler flags for cpu architecture.</li>
+	      <!-- li>Documentation update: how to set PATH.</li>
+	      <li>Documentation update: running the post-hoc analysis
+	      under csh.</li -->
+	    </ul>
+	    </li>
+
+
+	  </ul>
+
+	  <h3><a name="2.0.0">Version 2.0.0 (08/10/07)</a></h3>
+
+	  <p>In version 2.0.0 I have added a few new features and fixed many bugs.  I have made <strong>bali-phy</strong> much simpler and easier to use.  Several new features and improvements are listed below:</p>
+
+	  <ul class="changelog">
+	    <li>Variables
+	    <ul>
+	      <li style="color:red">Use <em>Tracer</em> to visualize MCMC runs.</li>
+	      <li>Unified handling of variables including frequencies, mu (branch length mean), etc.</li>
+	      <li>Variables can all be monitored with Tracer, and can be fixed.</li>
+	    </ul>
+	    </li>
+	    <li>Data
+	    <ul>
+	      <li style="color:red">Use information in ambiguous letters (below).</li>
+	      <li>Handle {R, Y, W, S} in codon alphabets.</li>
+	      <li>Handle {B, Z} in amino acid alphabets.</li>
+	      <li>Allow non-standard genetic codes.</li>
+	    </ul>
+	    </li>
+	    <li>New Substitution Models
+	    <ul>
+	      <li style="color:red">GTR  (nucleotides)</li>
+	      <li>HKYx3 / TNx3 / GTRx3 (triplets)</li>
+	      <li>rates ~ log-normal[n]</li>
+	    </ul>
+	    </li>
+	    <li>MCMC improvements
+	    <ul>
+	      <li>Topology constraints.</li>
+	      <li>Fix the alignment along a branch.</li>
+	      <li>Improve proposals: use Cauchy and safe-Dirichlet proposals.</li>
+	      <li>Tunable proposals: new parameters for tuning the size of jumps.</li>
+	      <li>Smarter tree/alignment SPR proposals.</li>
+	      </ul>
+	    </li>
+	    <li>Alignment Uncertainty (Au) Plots
+	    <ul>
+	      <li>Color by certainty (Rainbow) or by certainty+type (AA+fade).</li>
+	      <li>Prettier/cleaner HTML output.</li>
+	    </ul>
+	    </li>
+	    <li>Easier to compile/install
+	    <ul>
+	      <li style="color:red">Use autoconf for compilation.</li>
+	      <li>Don't require external BOOST library.</li>
+	      <li>Expanded description in <em>User's Guide</em>.</li>
+	    </ul>
+	    </li>
+	    <li>Easier to use
+	    <ul>
+	      <li style="color:red">Windows version much improved.</li>
+	      <li>Read configuration file <em>~/.bali-phy</em></li>
+	      <li>Give helpful messages when errors occur.</li>
+	      <li>Expanded <em>User's Guide</em>.</li>
+	      <li>[workstations] Don't die when the user logs out.</li>
+	      <li>[workstations] Don't die after 20 minutes when (soft) CPU limit expires.</li>
+	    </ul>
+	    </li>
+	  </ul>
+	  <hr/>
+
+	  <h2><a name="old">Older News</a></h2>
+
+	  <ul>
+	    <li>10/25/05: <strong>version 1.9.8 released.</strong>
+	    <ul>
+	      <li>Documentation improvements.</li>
+	      <li>Analysis phase: usability improvements.</li>
+	      <li>Analysis phase: better handle partial partitions. (n-taxon statements)</li>
+	      <li>FIX mistranslation of 3 codons.</li>
+	      <li>FIX compilation on Mac OS X.</li>
+	      <li>FIX crash with wildcards.</li>
+	      <li>Print N or X for wildcard instead of *.</li>
+	      <li>Allow user to specify alphabet more specifically.</li>
+	      <li>Add alphabets for including STOP codon and amino acid.</li>
+	    </ul>
+	    </li>
+	    
+	    <li>07/19/05: <strong>version 1.9.7 released.</strong>
+	    <ul>
+	      <li>Some speed/memory improvements.</li>
+	      <li>FIX prior on mu.</li>
+	      <li>FIX branch length proposals to include effect on alignment prior.</li>
+	      <li>FIX Codon models - correctly find nucleotides inside codons.</li>
+	      <li>FIX Codon models - scale branch lengths to match singlet models.</li>
+	      <li>FIX Codon model YangM2</li>
+	      <li>NEW indel model "fragments" that is time-independant</li>
+	      <li>NEW asymmetric NNI and SPR proposals.</li>
+	      <li>NEW documentation in HTML from docbook.</li>
+	      <li>NEW statistics for transition kernels.</li>
+	      <li>NEW tool: alignment-consensus.</li>
+	      <li>NEW parameters for transition kernels.</li>
+	    </ul>
+	    </li>
+
+	    <li>04/14/05: <strong>version 1.9.6 released.</strong>
+	    <ul>
+	      <li> SPEED improvements!</li>
+	      <li> FIX Alignment constraints should work.</li>
+	      <li> FIX Codon models to work again.  YangM2 Codon model fixed. </li>
+	      <li> NEW drawing schemes in alignment-draw...</li>
+	      <li> NEW command line help availabe with "--help".</li>
+	      <li> The form of arguments has changed to "--option arg" from "option=arg"</li>
+	      <li> Setting/fixing/unfixing parameters works better now</li>
+	      <li> Alignment format defaults to FASTA now </li>
+	      <li> <em>FASTA files should not contain blank lines between sequences!</em></li>
+	    </ul>
+	    </li>
+	    
+	    <li>01/24/05: <strong>version 1.9.4 (BETA) released.</strong>
+	    <ul>
+	      <li>this release "should work" (many bugs fixed!).</li>
+	      <li>use new indel model by default.</li>
+	      <li>update tools to compile and work in new framework.</li>
+	      <li>use less  memory for conditional likelihoods.</li>
+	      <li>initial support for multifurcating trees.</li>
+	      <li>add invariant fraction to indel model.</li>
+	      <li>add more color schemes to alignment-draw (needs more work).</li>
+	      <li>speed up tree-dist-compare, print out M[l] consensus tree.</li>
+	      <li>speed up alignment-gild: both I/O, and processing time.</li>
+	      <li>speed up output (use buffered I/O).</li>
+	      <li>speed up likelihood calculation, slightly.</li>
+	      <li>speed up conditional likelihood calculations for DP.</li>
+	      <li>fix fixing of parameters on command line.</li>
+	      <li>put compiled tools in build/bin directory.</li>
+	    </ul>
+	    </li>
+
+	    <li>12/23/04: <strong>version 1.9.3 (BETA) released.</strong>
+	    <ul>
+	      <li>fixed many bugs - but several remain.</li>
+	      <li>removed internal copy of uBLAS matrix library. (use BOOST version).</li>
+	      <li>started to update tools to match new tree code (not done).</li>
+	      <li>started re-writing alignment-draw for more color-schemes (not done).</li>
+	      <li>started dealing with std::bad_alloc() exception.</li>
+	    </ul>
+	    </li>
+
+	    <li>11/27/04: <strong>version 1.9.2 (BETA) released.</strong>
+	    <ul>
+	      <li>improved indel model</li>
+	      <li>alignment constraints</li>
+	      <li>likelihood-caching to speed up likelihood calculation.</li>
+	    </ul>
+	    </li>
+
+	    <li>09/16/04: <strong>version 1.8.24 released.</strong></li>
+
+	    <li>06/28/04: <strong>version 1.8.14 developed (release notes)</strong>
+	    <ul>
+	      <li>Began version control (SubVersion)</li>
+	      <li>No longer need uBlas "bindings"</li>
+	    </ul>
+	    </li>
+
+	    <li>6/9/04: <strong>version 1.8.10 developed (release notes)</strong></li>
+	  </ul>
+
+	</div>
+	  </td>	      
+      </tr>
+    </table>
+    
+    <?php baliphy_footer(); ?>
+  </body>
+</html>

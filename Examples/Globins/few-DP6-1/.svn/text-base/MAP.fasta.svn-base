@@ -1,0 +1,57 @@
+>hemo-tunicate-1   AJ548500 Ciona intestinalis mRNA for globin (hb1 gene)
+----M--------------------------------P--------------------------------------------------------------FTDEELKLLRDSWDEVK--KLGMK---EVGLHIFTGLLNAAPSLRTLFYT-I--DLPDEE---EL-TIDVMRENKKVVAHATRIANAISKFIKFL---DQ-PDEL---EKLLTSLGESH-ARR---QV-DPESFEYVAPVILSVIG-GH---LKLP--SNSPTLQAWVKA----YGVLRNGIV--SA-MEA--------------------------------------------------
+>hemo-tunicate-3   AJ548502 Ciona intestinalis mRNA for globin (hb3 gene)
+----M--------------------------------S--------------------------------------------------------------LTSEQVVLLRSSWQTIG--KLGMS---NVGLAVLHRLFNDVPETLPFFHS-V--LSPTQQ---T--EIEVLKSNAKVVRHASRVGLSIDKIINLL---DN-GEEL---VKYLLFLGQVH-VKR---SI-PRKYFSAMGPVLLSVIS-AV---LEKD--LDAPVMQAWATA----YGVIEQGII--DG-M----------------------------------------------------
+>hemo-polychaete-4   AAA29162 hemoglobin IV.
+----M--------------------------------G--------------------------------------------------------------LSAAQRQVVASTWKDIAGSDNG-A---GVGKECFTKFLSAHHDIAAVFG--F--S----G---A--S------DPGVADLGAKVLAQIGVAVSHL---GD-EGKM---VAEMKAVGVRH-KGYGYKHI-KAEYFEPLGASLLSAME-HR---IGGK--MTAAAKDAWAAA----YADISGALI--SG-L------QS--------------------------------------------
+>myo-polychaete   AAC47259 nerve myoglobin.
+----M---------------------A----------G--------------------------------------------------------------LSGADIAVIRSTWAKVQGSGSA-T---DIGRSIFIKFFELDPAAQNEFP--C--K----G---E--SLAALKTNVLLGQHGAKFMEYITTAVNGL---DDYAGKA---HGPLTELGSRH-KTR---GT-TPANFGKAGEALLAILA-SV---VGGD--FTPAAKDAWTKV----YNTISSTMQ--AA-L----------------------------------------------------
+>leghemo-pea   BAA31157 leghemoglobin [Pisum sativum].
+----M--------------------------------G--------------------------------------------------------------FTEKQEALVNSSWELFK--QNP-S---Y-SVLFYTIILKKAPAAKGMFS--F--L----K---D--S-AEVVDSPKLQAHAEKVFGMVHDSAIQL---RA-SGEVVLGDATL---GAIH-IQK---GV-VDPHFVVVKEALLETIK-EA---SGEK--WSEELSTAWEVA----YEGLASAIK--KA-M------------------------------------------------N---
+>leghemo-rice   O04986 Non-symbiotic hemoglobin 1 (rHb1) (ORYsa GLB1a).
+----M--------------------------------A---------------------------------------------------LVEDNNAVAVSFSEEQEALVLKSWAILK--KDS-A---NIALRFFLKIFEVAPSASQMFS--F--L----R---N--SDVPLEKNPKLKTHAMSVFVMTCEAAAQL---RK-AGKVTVRDTTLKRLGATH-LKY---GV-GDAHFEVVKFALLDTIKEEV---PADM--WSPAMKSAWSEA----YDHLVAAIK--QE-M------------------------------------------------KPAE
+>neuro-human   NM_021257 Homo sapiens neuroglobin (NGB)
+----M-------------------------------ER-----------------------------------------------------------------PEPELIRQSWRAVS--RSP-L---EHGTVLFARLFALEPDLLPLFQ--Y--N----CRQFS--SPEDCLSSPEFLDHIRKVMLVIDAAVTNV---ED-LSSL---EEYLASLGRKH-RAV---GV-KLSSFSTVGESLLYMLE-KC---LGPA--FTPATRAAWSQL----YGAVVQAMS--RG-W---------------------------------------DGE----------
+>neuro-zebrafish   NM_13185 Danio rerio neuroglobin (ngb)
+----M-------------------------------EK--------------------------------------------------------------LSEKDKGLIRDSWESLG--KNK-V---PHGIVLFTRLFELDPALLTLFS--YSTN----C---G--DAPECLSSPEFLEHVTKVMLVIDAAVSHL---DD-LHTL---EDFLLNLGRKH-QAV---GV-NTQSFALVGESLLYMLQ-SS---LGPA--YTTSLRQAWLTM----YSIVVSAMT--RG-W---------------------------------------AKNGEHKSN----
+>HbA-blood_clam   BAA09966 alpha chain of the tetrameric hemoglobin (intracellular) [Barbatia lima].
+----M--------------------------------ADEEQIAKAVFKEAKALC---------------------------------------------DSDAAKENLRSSFKILA--NDI-E---SSGLQLMKNLFTSHPDTLGYFAR-F--K----D---V--SLG--KQNWQLRGHAITLMYALMNFVDAL---DE-PDRL---KCVVLKFAVNH-NNR---SI-SPQVFGKINGPMDLLLK-QR---MGKY--YNRETANAWKQL----VGVVQAALT--TP-N----------------------------------------------------
+>HbI-Lucina   P41260 Hemoglobin-1 (Hemoglobin I) (Hb I) (HbI) (Sulfide-reactive hemoglobin).
+----M--------------------------------S--------------------------------------------------------------LSAAQKDNVKSSWAKAS--AAW-G---TAGPEFFMALFDAHDDVFAKFSGLF--K----G---A--AKGTVKNTPEMAAQAQSFKGLVSNWVDNL---DN-AGAL---EGQCKTFAANH-KAR---GI-SAGQLEAAFKVLAGFMK--S---YGGD-------EGAWTAV----AGALMGMIR--PN-M----------------------------------------------------
+>HbII-Lucina   P41261 Hemoglobin-2 (Hemoglobin II) (Hb II) (HbII).
+----T--------------------------------T--------------------------------------------------------------LTNPQKAAIRSSWSKFM--DNG-V---SNGQGFYMDLFKAHPETLTPFKSLF--G----G---L--TLAQLQDNPKMKAQSLVFCNGMSSFVDHL---DD-NM-L---VVLIQKMAKLH-NNR---GI-RASDLRTAYDILIHYME-DHNHMVGGA-------KDAWEVF----VGFICKTLG--DY-M--KELS----------------------------------------------
+>myo-Dolabella   P09965 Globin (Myoglobin).
+-------------------------------------A--------------------------------------------------------------LSAAEAEVVAKSWGPVF--ANK-D---ANGDNFLIALFEAYPDSPNFFAD-F--K----G---K--SIADIRASPKLRNVSSRIVSRLNEFVSSA---AD-AGKM---AAMLDQFSKEH-AGF---GV-GSQQFQNVSAMFPGFVA-SI---AAPP----AGADAAWGKL----FGLIIDAMK--KAGK----------------------------------------------------
+>myo-snail   P02215 Globin (Myoglobin).  [Cerithidea rhizophorarum (water snail)]
+-------------------------------------S--------------------------------------------------------------LQPASKSALASSWKTLA--KDA-ATIQNNGATLFSLLFKQFPDTRNYFTH-F--G----N---M--SDAEMKTTGVGKAHSMAVFAGIGSMIDSM---DD-ADCM---NGLALKLSRNH-IQR---KI-GASRFGEMRQVFPNFLD-EA---LGGG--ASGDVKGAWDAL----LAYLQDNKQ--AQAL----------------------------------------------------
+>drosophila   CAB52584 globin [Drosophila melanogaster].
+----M------------------------------------------------------------------------------------------------NSDEVQLIKKTWEIPV--ATP-T---DSGAAILTQFFNRFPSNLEKFP--F--R----D---V--PLEELSGNARFRAHAGRIIRVFDESIQVLGQDGD-LEKL---DEIWTKIAVSH-IPR---TV-SKESYNQLKGVILDVLT-AA---CSLD--ESQAAT--WAKLVDHVYAIIFKAIDDDGN-A----------------------------------------------------
+>midge-8   P02227 Globin CTT-VIII.
+AVTPM------------------------------------------------------------------------------------------------SADQLALFKSSWNTVK--H--------NEVDILYAVFKANPDIQAKFPQ-F--A----G---K--DLDSIKDSADFAVHSGRIVGFFSEVIGLIGNPEN-RPAL---KTLIDGLASSH-KAR---GI-EKAQFEEFRASLVDYLS-HH---LDWN--DTMKST--WDLALNNMFFYILHALE--VA-Q----------------------------------------------------
+>honeybee   CAJ43388 globin 1 [Apis mellifera].
+----MGTFLRFLGISSSDDNRIDQAT-----------G--------------------------------------------------------------LTERQKKLVQNTWAVVR--KDE-V---ASGIAVMTAFFKKYPEYQRYFTA-F--M----D---T--PLNELPANKRFQAHCAGVITALNNVIDFL---HD-PGLM---EASLIGLVERH-KKR---GQ-TKEEFQNLKEVMLEVLR-QA---LGKQ--YTPEVAEAWNKTLDMMFGKIYQVFA--S-------------------------------------------------------
+>beetle   XP_974723 PREDICTED: similar to CG9734-PB, isoform B [Tribolium castaneum].
+----MGQLISLYKYYTTRTDDPDPLT-----------T--------------------------------------------------------------LTSREVFLVQSSWDPIK--KDL-T---GYGVQLLLFLFKKYPEEQQNFP--F--R----D---M--PFEELGASKKFHAHCSNVMYAVDSIIDSL---KD-GELL---VNILEKIGRNH-HRN---TV-KPISFWHVKETMLEFFK-KM---M------NDETLKAWDKALQVAFGVVAKELD--KK-N----------------------------------------------------
+>cyto-beetle   XP_974703 PREDICTED: similar to Cytoglobin [Tribolium castaneum].
+----MGIITSTLSYYMTKTNDPDPIT-----------G--------------------------------------------------------------LTSRDRYVIQTSWAPVK--KDL-T---GNGVALLLLYFEKFPATKNYFV--F--K----D---V--PNEKLKTDKKFHAHCNSVMVTLDSLIANL---ND-GELI---VSLLEKLGKNH-KRH---GI-KDDAYDQLKETVIELFS-SF---M------TKEELETWDKLLKVAFSVIIKYL-----------------------------------------------------------
+>myo-human   NP_976312 myoglobin [Homo sapiens].
+----M--------------------------------G--------------------------------------------------------------LSDGEWQLVLNVWGKVE--ADI-P---GHGQEVLIRLFKGHPETLEKFDK-F--K----H---L-KSEDEMKASEDLKKHGATVLTALGGILKKK---GH----H---EAEIKPLAQSHATKH---KI-PVKYLEFISECIIQVLQ-SK---HPGD--FGADAQGAMNKA----LELFRKDMA--SN-Y--------------------------------KELGFQG-------------
+>myo-shark   Myoglobin.
+-------------------------------------------------------------------------------------------------------VDWEKVNSVWSAVE--SDL-T---AIGQNILLRLFEQYPESQNHFPK-F--K--------N-KSLGELKDTADIKAQADTVLSALGNIVKKK---GS----H---SQPVKALAATHITTH---KI-PPHYFTKITTIAVDVLS-EM---YPSE--MNAQVQAAFSGA----FKIICSDIE--KE-Y--------------------------------KAANFQG-------------
+>cyto-fish   AJ63523 Tetraodon nigroviridis mRNA for cytoglobin-2 (cygb-2 gene)
+----M--------------------------------S-----------------------HREPPPPQLAVQRRDVDGQDGPERAEP------------LSDTEREMIRDAWGHVY--KNC-E---DVGVSILIRFFVNFPSAKQYFSQ-F--Q----D---M-EEPEEMERSSQLRHHACRVMNALNTVVENL---HD-PEKV---SSVLAVVGRAHAVKH---KV-EPMYFKILSGVILEVLC-ED---FPEF--FTADVQLVWSKL----MATVYWHVT--GA-Y--------TDVGWLQ-----------VSSSAV--------------------
+>cyto-human   NM_134268 Homo sapiens cytoglobin (CYGB)
+----M--------------------------------E--------------------------KVPGEMEIERR--------ERSEE------------LSEAERKAVQAMWARLY--ANC-E---DVGVAILVRFFVNFPSAKQYFSQ-F--K----H---M-EDPLEMERSPQLRKHACRVMGALNTVVENL---HD-PDKV---SSVLALVGKAHALKH---KV-EPVYFKILSGVILEVVA-EE---FASD--FPPETQRAWAKL----RGLIYSHVT--AA-Y--------KEVGWVQQVPNATTPPATLPSSGP--------------------
+>hagfish   AAD40480 hemoglobin [Myxine glutinosa].
+----M--------------------------------S-----------------AHGIAR---------------------------------------TTEGERAAVRASWAVLM--KDY-E---HAGVQILDKFFKANPAAKPFFTK-M--K----D---L-HTLEDLASSADARWHVERIIQAVNFAVINI---ED-REKL---SNKFVKLSQDHIEEF---HVTDPQYFMILSQTILDEV-------EKRNGGLSGEGKSGWHKV----MTIICKMLK--SK-Y----------------------------------------------------
+>lamprey   P09967 Globin-1 (Globin I). GLB1_PETMA [Petromyzon marinus (sea lamprey)]
+----M----------------------PIVDSGSVP-A--------------------------------------------------------------LTAAEKATIRTAWAPVY--AKY-Q---STGVDILIKFFTSNPAAQAFFPK-F--Q----G---L-TSADQLKKSMDVRWHAERIINAVNDAVVAM---DD-TEKM---SLKLRELSGKHAKSF---QV-DPQYFKVLAAVIVDTV-------LPGDAGL--------EKL----MSMICILLR--SS-Y----------------------------------------------------
+>hemo-alpha-human   {NP_000508,NP_000509} alpha {1,2} globin [Homo sapiens].
+----M--------------------------------V--------------------------------------------------------------LSPADKTNVKAAWGKVG--AHA-G---EYGAEALERMFLSFPTTKTYFPH-F-------D---L-SH-----GSAQVKGHGKKVADALTNAVAHV---DD----M---PNALSALSDLHAHKL---RV-DPVNFKLLSHCLLVTLA-AH---LPAE--FTPAVHASLDKF----LASVSTVLT--SK-Y--------------------------------R-------------------
+>hemo-alpha-shark   P07408 Hemoglobin subunit alpha (Hemoglobin alpha chain) (Alpha-globin).
+-------------------------------------V--------------------------------------------------------------LSAADKTAIKHLTGSLR--TNA-E---AWGAESLARMFATTPSTKTYFSK-F--T----D---F-SA-----NGKRVKAHGGKVLNAVADATDHL---DN----V---AGHLDPLAVLHGTTL---CV-DPHNFPLLTQCILVTLA-AH---L-TE--LKPETHCALDKF----LCEVATALG--SH-Y--------------------------------R-------------------
+>hemo-beta-human   NP_000509 beta globin [Homo sapiens].
+----M--------------------------------V--------------------------------------------------H-----------LTPEEKSAVTALWGKV----NV-D---EVGGEALGRLLVVYPWTQRFFES-F--G----D---L-STPDAVMGNPKVKAHGKKVLGAFSDGLAHL---DN----L---KGTFATLSELHCDKL---HV-DPENFRLLGNVLVCVLA-HH---FGKE--FTPPVQAAYQKV----VAGVANALA--HK-Y--------------------------------H-------------------
+>hemo-beta-shark   P07409 Hemoglobin subunit beta (Hemoglobin beta chain) (Beta-globin).
+-------------------------------------V--------------------------------------------------H-----------WTGEEKALVNAVWTKT----DH-Q---AVVAKALERLFVVYPWTKTYFVK-F--N----G---K-FHA----SDSTVQTHAGKVVSALTVAYNHI---DD----V---KPHFVELSKKHYEEL---HV-DPENFKLLANCLEVELG-HA---LHKE--FTPEVQAAWSKF----SNVVVDALS--KG-Y--------------------------------H-------------------
+

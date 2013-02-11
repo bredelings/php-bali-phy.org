@@ -1,0 +1,88 @@
+body { 
+ margin: 0;
+ padding: 0; 
+}
+
+body > h1  { padding-left: 0.2em; margin-left: 0.2em }
+body > h2  { padding-left: 0.2em; margin-left: 0.2em }
+
+table.layout { 
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+table.layout > tr > td
+{ 
+  vertical-align: top;
+}
+
+.sidebar { 
+   text-align: left;
+
+   font-size: 90%;
+   margin: 0em; 
+   padding: 0.4em 0.4em 0.4em 0.0em;  
+}
+
+
+.sidebar ul {  
+   margin-top: 0;
+   padding-left: 0.7em;
+   margin-left: 0.7em;
+
+   list-style-image: none;
+}
+
+.sidebar ul ul {
+/* generic properties for .sidebar ul */
+   padding-left: 0.8em;
+   margin-left: 0.8em;
+}
+
+.sidemenu > ul {
+  list-style-type: none;
+  margin-left:0.1em;
+  padding-left:0.1em;
+}
+
+.center { 
+  padding: 0;
+  margin: 0;
+}
+
+.menubar {  
+  padding: 0.4em;
+}
+
+.navbar .navitem { 
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+tr { 
+
+
+}
+
+.navitem a {
+   color: rgb(60,130,210); 
+   font-weight: bold;
+}
+
+.sidemenu > ul > li {
+   padding: 0.05em;
+   padding-bottom: 0.6em;
+}
+
+.sidemenu > ul > li > a {
+   color: rgb(60,130,210); 
+   font-size: 120%;
+}
+
+.main { 
+   margin: 0.5em;
+}
+
