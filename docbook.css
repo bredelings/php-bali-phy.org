@@ -1,8 +1,23 @@
 .filename {
-	font-family: courier, monospace;
+    font-family: courier, monospace;
+    color: #007a00;
 }
 
-span.guibutton, span.guiicon, span.guilabel, span.guimenu
+/* See, for example, 
+https://github.com/GNOME/gimp-help-2/blob/master/stylesheets/gimp-help-screen.css
+http://svnweb.freebsd.org/doc/head/share/misc/docbook.css?view=markup
+ */
+
+.guibutton,.guiicon 
+{
+  color: inherit;
+  background-color: transparent;
+  font-style: italic;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.guimenu, .guisubmenu, .guimenuitem, .guilabel
 {
    font-family: sans-serif;
     font-style: italic;
@@ -22,14 +37,17 @@ span.guibutton, span.guiicon, span.guilabel, span.guimenu
 	padding-right: 15px;
 }
 
-pre.programlisting {
-	background-color: #F0F0F0;
-	padding: 6px;
+
+.programlisting {
+    padding: 1ex;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    line-height: 1.1;
 }
 
-pre.screen {
-	background-color: #F0F0F0;
-	padding: 6px;
+.screen {
+    background-color: #F0F0F0;
+    padding: 1ex;
 }
 
 .application {
@@ -72,10 +90,53 @@ td > p { margin: 0; padding:0;}
 
 p + p { margin-top: 0.8em; }
 
-div.example { 
-              border: solid; 
-              border-width: 1px;
-              background-color: #E0F0FF;
-              padding-left: 10px;
-              padding-right: 10px;
+
+blockquote, .example, .programlisting {
+    border-radius: 6px;
+}
+
+blockquote {
+    padding: 0 2ex;
+}
+
+blockquote.note {
+    color: #222;
+    background: #eee;
+    border: 1px solid #ccc;
+    width: 85%;
+}
+
+blockquote.tip {
+    color: #004F00;
+    background: #d8ecd6;
+    border: 1px solid green;
+    width: 85%;
+}
+
+blockquote.important {
+    font-style:italic;
+    border: 1px solid #a00;
+    border-left: 12px solid #c00;
+}
+
+blockquote.warning {
+    color: #9F1313;
+    background: #f8e8e8;
+    border: 1px solid #e59595;
+    width: 85%;
+}
+
+blockquote.caution {
+    color: #3E3535;
+    background: #FFC;
+    border: 1px solid #e59595;
+    width: 85%;
+}
+
+.example { 
+    background: #fefde6;
+    border: 1px solid #f1bb16;
+    margin: 1em 0;
+    padding: 0.2em 2em;
+    width: 90%;
 }
