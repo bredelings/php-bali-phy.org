@@ -2,6 +2,14 @@
 	font-family: courier, monospace;
 }
 
+span.guibutton, span.guiicon, span.guilabel, span.guimenu
+{
+   font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #238b22;    /* Forest green */
+}
+
 .command, .prompt {
 	font-weight: bold;
 }
@@ -24,7 +32,11 @@ pre.screen {
 	padding: 6px;
 }
 
-.application {font-family: Courier New; font-variant: small-caps;}
+.application {
+    font-family: sans-serif;
+    font-style: italic;
+/*    font-variant: small-caps; */
+}
 
 tr { margin: 0.2em; padding: 0.2em; }
  
