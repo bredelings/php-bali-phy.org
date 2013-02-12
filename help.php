@@ -33,9 +33,9 @@ h4 {clear: both;}
 
 	    <h4><a href="README.html">Table of Contents</a></h4>
 	    <ol>
-	      <li><a href="README.html#pre-requisites">Pre-requisites</a></li>
-	      <li><a href="README.html#compilation">Compiling BAli-Phy</a></li>
+	      <li><a href="README.html#intro">Introduction</a></li>
 	      <li><a href="README.html#installation">Installation</a></li>
+	      <li><a href="README.html#compilation">Compiling BAli-Phy</a></li>
 	      <li><a href="README.html#running">Running the program</a></li>
 	      <li><a href="README.html#input">Input</a></li>
 	      <li><a href="README.html#output">Output</a></li>
