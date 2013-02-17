@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>BAli-Phy Tutorial</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="BAli-Phy Tutorial"><div class="titlepage"><div><div><h2 class="title"><a name="idp192"></a><span class="application">BAli-Phy</span> Tutorial</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="#intro">1. Introduction</a></span></dt><dt><span class="section"><a href="#work_directory">2. Setting up the <code class="filename">~/Work</code> directory</a></span></dt><dt><span class="section"><a href="#command_line_options">3. Command line options</a></span></dt><dd><dl><dt><span class="section"><a href="#idp37120">3.1. RNA</a></span></dt><dt><span class="section"><a href="#idp45904">3.2. Amino Acids</a></span></dt><dt><span class="section"><a href="#idp48320">3.3. Codons</a></span></dt></dl></dd><dt><span class="section"><a href="#idp52912">4. Output</a></span></dt><dd><dl><dt><span class="section"><a href="#idp58320">4.1. Inspecting output files</a></span></dt><dt><span class="section"><a href="#idp69040">4.2. Summarizing the output</a></span></dt></dl></dd><dt><span class="section"><a href="#idp85152">5. Multi-gene analyses</a></span></dt></dl></div>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>BAli-Phy Tutorial</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="BAli-Phy Tutorial"><div class="titlepage"><div><div><h2 class="title"><a name="idp192"></a><span class="application">BAli-Phy</span> Tutorial</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="#intro">1. Introduction</a></span></dt><dt><span class="section"><a href="#work_directory">2. Setting up the <code class="filename">~/Work</code> directory</a></span></dt><dt><span class="section"><a href="#command_line_options">3. Command line options</a></span></dt><dd><dl><dt><span class="section"><a href="#idp37984">3.1. RNA</a></span></dt><dt><span class="section"><a href="#idp46768">3.2. Amino Acids</a></span></dt><dt><span class="section"><a href="#idp49216">3.3. Codons</a></span></dt></dl></dd><dt><span class="section"><a href="#idp54032">4. Output</a></span></dt><dd><dl><dt><span class="section"><a href="#idp59440">4.1. Inspecting output files</a></span></dt><dt><span class="section"><a href="#idp70160">4.2. Summarizing the output</a></span></dt></dl></dd><dt><span class="section"><a href="#idp86592">5. Multi-gene analyses</a></span></dt></dl></div>
   
     
   <div class="section" title="1. Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="intro"></a>1. Introduction</h2></div></div></div>
@@ -37,7 +37,7 @@ What version of bali-phy are you running?  When was it compiled?  Which compiler
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -h | less</code></strong>
 </pre>
 
-<div class="section" title="3.1. RNA"><div class="titlepage"><div><div><h3 class="title"><a name="idp37120"></a>3.1. RNA</h3></div></div></div>
+<div class="section" title="3.1. RNA"><div class="titlepage"><div><div><h3 class="title"><a name="idp37984"></a>3.1. RNA</h3></div></div></div>
 <p>
 Analyze a data set, but don't begin MCMC.  (This is useful to know if the analysis works, what model will be used,
 compute likelihoods, etc.)
@@ -56,14 +56,14 @@ Defaults are used if you don't specify.
 </pre>
 </div>
 
-<div class="section" title="3.2. Amino Acids"><div class="titlepage"><div><div><h3 class="title"><a name="idp45904"></a>3.2. Amino Acids</h3></div></div></div>
+<div class="section" title="3.2. Amino Acids"><div class="titlepage"><div><div><h3 class="title"><a name="idp46768"></a>3.2. Amino Acids</h3></div></div></div>
 <p>
 When the data set contains amino acids, the default is amino acids:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy examples/EF-Tu/12d.fasta --iterations=10</code></strong>
 </pre>
 </div>
 
-<div class="section" title="3.3. Codons"><div class="titlepage"><div><div><h3 class="title"><a name="idp48320"></a>3.3. Codons</h3></div></div></div>
+<div class="section" title="3.3. Codons"><div class="titlepage"><div><div><h3 class="title"><a name="idp49216"></a>3.3. Codons</h3></div></div></div>
 <p>
 What alphabet is used here?  What substitution model?
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy examples/HIV/chain-2005/env-clustal-codons.fasta --show-only</code></strong>
@@ -76,7 +76,7 @@ What alphabet is used here?  What substitution model?
   </div>
 
 
-<div class="section" title="4. Output"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp52912"></a>4. Output</h2></div></div></div>
+<div class="section" title="4. Output"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp54032"></a>4. Output</h2></div></div></div>
 <p>
 See <a class="ulink" href="http://www.bali-phy.org/README.html#output" target="_top">Section 6: Output</a> of the manual for more information about this section.
 </p>
@@ -88,7 +88,7 @@ Try running an analysis with a few more iterations.  The &amp; makes the command
 </pre><p>You can take a look at your running jobs:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>jobs</code></strong>
 </pre>
-<div class="section" title="4.1. Inspecting output files"><div class="titlepage"><div><div><h3 class="title"><a name="idp58320"></a>4.1. Inspecting output files</h3></div></div></div>
+<div class="section" title="4.1. Inspecting output files"><div class="titlepage"><div><div><h3 class="title"><a name="idp59440"></a>4.1. Inspecting output files</h3></div></div></div>
 <p>
 Look at the directories that were created to store the output files:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>ls</code></strong>
@@ -120,7 +120,7 @@ What insertion/deletion model was used to analyze the file?
 </pre>
 </div>
 
-<div class="section" title="4.2. Summarizing the output"><div class="titlepage"><div><div><h3 class="title"><a name="idp69040"></a>4.2. Summarizing the output</h3></div></div></div>
+<div class="section" title="4.2. Summarizing the output"><div class="titlepage"><div><div><h3 class="title"><a name="idp70160"></a>4.2. Summarizing the output</h3></div></div></div>
 <p>
 Try summarizing the sampled numerical parameters (e.g. not trees and alignments):
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>statreport --help</code></strong>
@@ -148,8 +148,8 @@ Now lets use the analysis script to run all the summaries and make a report:
 </div>
 </div>
 
-<div class="section" title="5. Multi-gene analyses"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp85152"></a>5. Multi-gene analyses</h2></div></div></div>
-<p>Not done yet.</p>
+<div class="section" title="5. Multi-gene analyses"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp86592"></a>5. Multi-gene analyses</h2></div></div></div>
+<p>See section 4.3 of the <a class="ulink" href="http://www.bali-phy.org/README.html" target="_top">manual</a>.</p>
 </div>
 
 </div></body></html>
