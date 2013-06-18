@@ -8,8 +8,7 @@
     <style type="text/css">
     ul.floatlist {float: left; padding-top: 0; margin-top: 0; }
     ul.floatlist li {float: left; padding-right: 4em; }
-h3 {clear: both;}
-h4 {clear: both;}
+h1,h2,h3,h4 {clear: both;}
     </style>
   </head>
   <body>
@@ -46,6 +45,15 @@ h4 {clear: both;}
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
 		      
+	    <h2><a name="usersguide">Tutorial</a></h2>
+
+	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+	    <ul class="floatlist">
+	      <li><a href="Tutorial2.html">HTML</a></li>
+	      <li><a href="Tutorial2.xhtml">XHTML</a> (shows math)</li>
+	      <li><?php track_link("Tutorial2.pdf","PDF")?></li>
+	    </ul>
+
             <h2><a name="lists">Mailing Lists</a></h2>
             <h3>bali-phy-announce</h3>
             <p><a href="http://groups.google.com/group/bali-phy-announce/">bali-phy-announce</a> is a low-volume mailing list for announcements of new BAli-Phy versions.  Subscribe if you want to be notified when a new version is released.</p>
