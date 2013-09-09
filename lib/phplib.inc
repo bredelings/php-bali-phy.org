@@ -348,6 +348,7 @@ $menutree->add_children('Download',
 
 $menutree->add_children('Help',
 			array('Users Guide::help.php#usersguide',
+			      'Tutorial::Tutorial2.html',
                               'Mailing lists::help.php#lists')
 			);
 		 
