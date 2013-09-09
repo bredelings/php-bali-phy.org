@@ -28,7 +28,7 @@ ol li {padding-bottom:0.5em}
 	    
 	    <div style="margin-left:1em">
 
-	      <p>09/01/13: <strong>Submitted Manuscript "Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection"</strong></br>
+	      <p>09/01/13: Submitted manuscript <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong></br>
 	      <a href="https://github.com/bredelings/BAli-Phy">Source code</a> available on github, needs gcc 4.8 to compile.
 
 	      <p>06/23/12: <strong>Branch-site model for positive 
