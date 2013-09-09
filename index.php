@@ -27,10 +27,14 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 	    
 	    <div style="margin-left:1em">
-	      <p>09/01/13: <strong>Branch-site model for positive 
+
+	      <p>09/01/13: <strong>Submitted Manuscript "Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection"</strong></br>
+	      <a href="https://github.com/bredelings/BAli-Phy">Source code</a> available on github, needs gcc 4.8 to compile.
+
+	      <p>06/23/12: <strong>Branch-site model for positive 
 selection</strong></br>
 		Unreleased version successfully accounts for alignment 
-uncertainty in testing for (diversifying) positive selection. Submitted <a href="branch-site-article.pdf">manuscript</a>.  Source code available on github.
+uncertainty in testing for (diversifying) positive selection. Presented at SMBE.
 	      <p>05/01/11: <strong>Success with large 68-taxon 
 tree!</strong></br> 
 	      See <a 
