@@ -54,7 +54,7 @@ al (2011) </a> for information on models and convergence criteria.</p>
 	    </div>
 
 	    <p><strong>BAli-Phy</strong> is MCMC software developed by <a
-	    href="http://www4.ncsu.edu/~bdredeli">Ben Redelings</a>
+	    href="http://people.duke.edu/~br51/research.html">Ben Redelings</a>
 	    with <a href="http://www.biomath.ucla.edu/msuchard">Marc
 	    Suchard</a> for simultaneous Bayesian estimation of
 	    alignment and phylogeny (and other parameters).  [See the
