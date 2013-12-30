@@ -25,99 +25,59 @@
 	will post these as well. 
 	Some <a href="#req">additional software</a> may be required.</p>
 
-	<h3>Stable Release</h3>
+	<h3>Current Release</h3>
+	<ul>
+	  <li style="padding-bottom:1em"><b>2.2.0</b>: <?php track_link("bali-phy-2.2.0.tar.gz","source") ?>  (4.5M) - <a href="news.php#2.2.0">What's new?</a>
+	    <ul>
+	      <li>Linux
+		<ul>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-linux32.tar.gz","Pentium4 (43M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.2.0-linux64.tar.gz","Intel (41M)") ?></li>
+		</ul>
+	      </li>
+	      <li>Mac OS 10.8 and up
+		<ul>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-mac32-intel.tar.gz","Intel (17M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.2.0-mac64-intel.tar.gz","Intel (55M)") ?></li>
+		  <!-- li><a href="http://www.macports.org">MacPorts</a>: not ready yet. -->
+		</ul>
+	      </li>
+	      <li>Windows (Vista, XP, 7, 8)
+		<ul>
+		  <li>32-bit: <?php track_link("bali-phy-2.2.0-mingw32-p4.tar.gz","Intel (51M)") ?></li>
+		  <li>62-bit: <?php track_link("bali-phy-2.2.0-mingw32-64.tar.gz","Intel (59M)") ?></li>
+		</ul>
+	      </li>
+	    </ul>
+	  </li>
+	</ul>
+
+	<h3>Previous Release</h3>
 	<ul>
 	  <li style="padding-bottom:1em"><b>2.1.1</b>: <?php track_link("bali-phy-2.1.1.tar.gz","source") ?>  (11M) - <a href="news.php#2.1.1">What's new?</a>
-	  <ul>
-	    <li>Linux - old kernels
 	    <ul>
-	      <li>32-bit: not available yet<!-- ?php 
-track_link("bali-phy-2.1.1-linux32-oldkernel.tar.gz","Pentium4 (74M)") 
-?  --></li>
+	      <li>Linux 2.6.18+
+		<ul>
+		  <li>32-bit: <?php track_link("bali-phy-2.1.1-linux32.tar.gz","Pentium4 (43M)") ?></li>
+		  <li>64-bit: <?php track_link("bali-phy-2.1.1-linux64.tar.gz","Intel (50M)") ?></li>
+		</ul>
+	      </li>
+	      <li>Mac OS 10.4 and up
+		<ul>
+		  <li>32-bit: <?php track_link("bali-phy-2.1.1-mac32-intel.tar.gz","Intel (17M)") ?></li>
+		  <li>64-bit: <?php track_link("bali-phy-2.1.1-mac64-intel.tar.gz","Intel (18M)") ?></li>
+		</ul>
+	      </li>
+	      <li>Windows (7, Vista, XP)
+		<ul>
+		  <li>32-bit: <?php track_link("bali-phy-2.1.1-mingw32-p4.tar.gz","Pentium 4 (29M)") ?></li>
+		  <li>64-bit: not available yet.</li>
+		</ul>
+	      </li>
 	    </ul>
-	    </li>
-	    <li>Linux 2.6.18+
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.1-linux32.tar.gz","Pentium4 (43M)") ?></li>
-	      <li>64-bit: <?php track_link("bali-phy-2.1.1-linux64.tar.gz","Intel (50M)") ?></li>
-	    </ul>
-	    </li>
-	    <li>Mac OS 10.4 and up
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.1-mac32-intel.tar.gz","Intel (17M)") ?></li>
-	      <li>64-bit: <?php track_link("bali-phy-2.1.1-mac64-intel.tar.gz","Intel (18M)") ?></li>
-              <li><a href="http://www.macports.org">MacPorts</a>: not ready yet.
-	    </ul>
-	    </li>
-	    <li>Windows (7, Vista, XP)
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.1-mingw32-p4.tar.gz","Pentium 4 (29M)") ?></li>
-	      <li>64-bit: not available yet.</li>
-	    </ul>
-	    </li>
-	  </ul>
-	  </li>
-	  <li style="padding-bottom:1em"><b>2.1.0</b>: <?php track_link("bali-phy-2.1.0.tar.gz","source") ?>  (11M) - <a href="news.php#2.1.0">What's new?</a>
-	  <ul>
-	    <li>Linux - old kernels
-	    <ul>
-	      <li>32-bit: <?php 
-track_link("bali-phy-2.1.0-linux32-oldkernel.tar.gz","Pentium4 (74M)") 
-?></li>
-	    </ul>
-	    </li>
-	    <li>Linux 2.6.18+
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.0-linux32-p4.tar.gz","Pentium4 (43M)") ?></li>
-	      <li>64-bit: <?php track_link("bali-phy-2.1.0-linux64.tar.gz","Intel (50M)") ?></li>
-	    </ul>
-	    </li>
-	    <li>Mac OS 10.4 and up
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.0-mac32-intel.tar.gz","Intel (17M)") ?></li>
-	      <li>64-bit: <?php track_link("bali-phy-2.1.0-mac64-intel.tar.gz","Intel (18M)") ?></li>
-              <li>Alternatively, you can install bali-phy using <a href="http://www.macports.org">MacPorts</a>.
-	    </ul>
-	    </li>
-	    <li>Windows (7, Vista, XP)
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.1.0-mingw32-p4.tar.gz","Pentium 4 (29M)") ?></li>
-	      <li>64-bit: not available yet.</li>
-	    </ul>
-	    </li>
-	  </ul>
 	  </li>
 	</ul>
-
-	<h3>Old Stable Release</h3>
-	<ul>
-	  <li style="padding-bottom:1em"><b>2.0.2</b>: <?php track_link("bali-phy-2.0.2.tar.gz","source") ?>  (5.8M) - <a href="news.php#2.0.2">What's new?</a>
-	  <ul>
-	    <li>Linux
-	    <ul>
-	      <li>32-bit: <?php track_link("bali-phy-2.0.2-linux32-p4.tar.gz","Pentium4 (31M)") ?></li>
-	      <li>64-bit: <?php track_link("bali-phy-2.0.2-linux64.tar.gz","Intel (36M)") ?></li>
-	    </ul>
-	    </li>
-	    <li>Mac OS X
-	    <ul>
-	      <li>32-bit 10.4/5 (and 10.3.9): <?php 
-track_link("bali-phy-2.0.2-mac10.4-G4.tar.gz","G4 (12M)") ?> | <?php track_link("bali-phy-2.0.2-mac10.4-G5.tar.gz","G5 (13M)") ?>
-	      | <?php track_link("bali-phy-2.0.2-mac32-intel.tar.gz","Intel (11M)") ?></li>
-	      <li>64-bit 10.4/5: <?php track_link("bali-phy-2.0.2-mac64-intel.tar.gz","Intel (11M)") ?></li>
-
-	    </ul>
-	    </li>
-	    <li>Windows
-	    <ul>
-	      <li>Cygwin32: <?php track_link("bali-phy-2.0.2-cygwin32-p4.tar.gz","Pentium 4 (41M)") ?></li>
-	      <li>Mingw32: <?php track_link("bali-phy-2.0.2-mingw32-p4.tar.gz","Pentium 4 (73M)") ?></li>
-	    </ul>
-	    </li>
-	  </ul>
-	  </li>
-	</ul>
-
+	
 
 
 	<!-- p>Mac OS X users note: some browsers may automatically append a '.gtar' to the end of these files.  Uncompression tool 'tar' will still recognize and uncompress these files.</p -->
