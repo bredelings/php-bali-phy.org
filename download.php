@@ -88,16 +88,18 @@
 	system, including Linux, Windows, and Mac OS X.  Some
 	additional software must be installed, such as <a
 	href="http://www.cygwin.com">cygwin</a> on Windows.
-	To see the requirements in detail, view this sections in the
+	To see the requirements in detail, view the section in the <a href="help.php#usersguide.php">User's Guide</a> on installation:</p>
 	Users Guide:</p> 
 
-	<h3><a href="README.html#installation">2. Pre-requisites</a></h3>
+	<ul>
+	  <li><a href="README.html#installation">2. Installation</a></li>
+	</ul>
 
 	<h3><a name="compilation">Compilation</a></h3>
 	<p>Note that most people won't need to compile BAli-Phy - you can just use the precompiled binaries posted above.</p>
 	<p>To compile BAli-Phy, first download the source code posted above.  Then see the section in the <a href="help.php#usersguide.php">User's Guide</a> on compilation:</p>
 	<ul>
-	<li><a href="README.html#compilation">3. Compiling BAli-Phy</a></li>
+	  <li><a href="README.html#compilation">3. Compiling BAli-Phy</a></li>
 	</ul>
 	<h3><a name="sourcecode">"Live" Source Code</a></h3>
 
