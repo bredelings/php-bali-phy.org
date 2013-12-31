@@ -87,11 +87,11 @@ ol.references li {padding-bottom:0.6em}
 
 	  <h2><a name="software">Software</a></h2>
 	  <ul>
-	    <li><a href="http://www.biomath.ucla.edu/msuchard/bali-phy">BAli-Phy</a>: <u>B</u>ayesian <u>Ali</u>gnment and <u>Phy</u>logeny Estimation</li>
+	    <li><a href="http://statalign.github.io/">StatAlign</a>: Statistical Alignment in Java</li>
 	    <li><a href="http://biowiki.org/HandelPackage">Handel</a>: evolutionary alignment & reconstruction with string transducers</li>
-	    <li><a href="http://phylogeny-cafe.elte.hu/StatAlign/">StatAlign</a>: Statistical Alignment in Java</li>
-	    <li><a href="http://www.cibiv.at/software/alifritz/">Alifritz</a>: Simultaneous Statistical Multiple Alignment and Phylogeny Reconstruction</li> 
-	    <li><a href="http://beast.bio.ed.ac.uk/Main_Page">BEAST</a>: <u>B</u>ayesian <u>E</u>volutionary <u>A</u>nalysis <u>S</u>ampling <u>T</u>rees</li>
+	    <li><a href="http://www.bali-phy.org">BAli-Phy</a>: <u>B</u>ayesian <u>Ali</u>gnment and <u>Phy</u>logeny Estimation</li>
+	    <!-- li><a href="http://www.cibiv.at/software/alifritz/">Alifritz</a>: Simultaneous Statistical Multiple Alignment and Phylogeny Reconstruction</li> 
+	    <li><a href="http://beast.bio.ed.ac.uk/Main_Page">BEAST</a>: <u>B</u>ayesian <u>E</u>volutionary <u>A</u>nalysis <u>S</u>ampling <u>T</u>rees</li -->
 	  </ul>
 
 	  <hr/>
