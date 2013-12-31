@@ -35,7 +35,7 @@
 		  <li>64-bit: <?php track_link("bali-phy-2.2.0-linux64.tar.gz","Intel (41M)") ?></li>
 		</ul>
 	      </li>
-	      <li>Mac OS 10.8 and up
+	      <li>Mac OS (10.8 and up)
 		<ul>
 		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-mac32.tar.gz","Intel (??M)") ?></li -->
 		  <li>64-bit: <?php track_link("bali-phy-2.2.0-mac64.tar.gz","Intel (55M)") ?></li>
