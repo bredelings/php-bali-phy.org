@@ -138,7 +138,11 @@ P8.
 	    </li>
 	    <li>Summarization tools
 	      <ul>
-		<li>alignment-cat: improved ability to select, reorder, strip gaps, and reverse the input sequences.</li>
+		<li>alignment-cat: improved ability to select,
+		reorder, strip gaps, and reverse the input
+		sequences.</li>
+		<li>trees-consensus: can now read trees with attribute
+		labels, labels for internal nodes, and quoted labels.</li>
 	      </ul>
 	    </li>
 	    <li>Build
