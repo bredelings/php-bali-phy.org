@@ -109,10 +109,10 @@ P8.
 	  <ul class="changelog">
 	    <li>Models
 	      <ul>
-		<li>site-dependent codon models: M1a, M2a, M2a_Test</li>
-		<li>branch and site-dependent codon models: branch-site</li>
-		<li>codon frequency models: F1x4, F3x4, MG94, MG94w9, F61</li>
-		<li>frequency models: +F, +gwF</li>
+		<li>site-dependent codon models: <strong>M1a</strong>, <strong>M2a</strong>, <strong>M2a_Test</strong>.</li>
+		<li>branch and site-dependent codon models: <strong>branch-site.</strong></li>
+		<li>codon frequency models: <strong>F1x4</strong>, <strong>F3x4</strong>, <strong>MG94</strong>, <strong>MG94w9</strong>, <strong>F61</strong>.</li>
+		<li>frequency models: <strong>+F</strong>, <strong>+gwF</strong>.</li>
 	      </ul>
 	    </li>
 	    <li>Various bug fixes</li>
@@ -123,16 +123,16 @@ P8.
 	    </li>
 	    <li>Input
 	    <ul>
-	      <li>Substitution models may now take arguments like branch-site[2,HKY,F3x4]</li>
+	      <li>Substitution models may now take arguments like branch-site[2,HKY,F3x4].</li>
 	    </ul>
 	    </li>
 	    <li>Output
 	      <ul>
 		<li>Inference of ancestral sequences at internal nodes is now an option.</li>
-		<li>Trees are written with names for internal nodes</li>
+		<li>Trees are written with names for internal nodes.</li>
 		<li>Allow computing Rao-Blackwellized expectations for some variables.</li>
 		<li>Branch lengths are now reported as parameters.</li>
-		<li>'lambda' renamed to logLambda</li>
+		<li>'lambda' renamed to logLambda.</li>
 		<li>'epsilon' replaced with meanIndelLengthMinusOne.</li>
 	      </ul>
 	    </li>
@@ -144,7 +144,7 @@ P8.
 	    <li>Build
 	      <ul>
 		<li>Stop depending on the GSL library.</li>
-		<li>Switch to C++11 dialect</li>
+		<li>Switch to C++11.</li>
 	      </ul>
 	    </li>
 	  </ul>
