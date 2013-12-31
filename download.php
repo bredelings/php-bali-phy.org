@@ -88,33 +88,16 @@
 	system, including Linux, Windows, and Mac OS X.  Some
 	additional software must be installed, such as <a
 	href="http://www.cygwin.com">cygwin</a> on Windows.
-	To see the requirements in detail, view these sections in the
+	To see the requirements in detail, view this sections in the
 	Users Guide:</p> 
 
-	<h4><a href="README.html#pre-requisites">1. Pre-requisites</a></h4>
-	<ol>
-	  <li><a href="README.html#hardware_requirements">Hardware Requirements</a></li>
-	  <li><a href="README.html#os_requirements">Operating System requirements</a>
-	  <ol>
-	    <li>Linux and Unix</li>
-	    <li>Windows</li>
-	    <li>Mac OS X</li>
-	  </ol>
-	  </li>
-	  <li><a href="README.html#software_req">Software Requirements</a>
-	  <ol>
-	    <li>Compilation Requirements</li>
-	    <li>Requirements for analyzing BAli-Phy Output</li>
-	    <li>Recommendations for analysis and documentation</li>
-	  </ol>
-	  </li>
-	</ol>
+	<h3><a href="README.html#installation">2. Pre-requisites</a></h3>
 
 	<h3><a name="compilation">Compilation</a></h3>
 	<p>Note that most people won't need to compile BAli-Phy - you can just use the precompiled binaries posted above.</p>
 	<p>To compile BAli-Phy, first download the source code posted above.  Then see the section in the <a href="help.php#usersguide.php">User's Guide</a> on compilation:</p>
 	<ul>
-	<li><a href="README.html#compilation">2. Compiling BAli-Phy</a></li>
+	<li><a href="README.html#compilation">3. Compiling BAli-Phy</a></li>
 	</ul>
 	<h3><a name="sourcecode">"Live" Source Code</a></h3>
 
