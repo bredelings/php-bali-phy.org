@@ -27,6 +27,10 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 	    
 	    <div style="margin-left:1em">
+	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
+		This release use the branch-site model which accounting for alignment uncertainty.  (<a href="news.php#2.2.0">What else is new?</a>)
+	      </div>
+	    <div style="margin-left:1em">
 
 	      <p>09/01/13: Submitted manuscript <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong></br>
 	      <a href="https://github.com/bredelings/BAli-Phy">Source code</a> available on github, needs gcc 4.8 to compile.
