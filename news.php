@@ -128,7 +128,7 @@ P8.
 	    </li>
 	    <li>Output
 	      <ul>
-		<li>Inference of ancestral sequences at internal nodes is now an option.</li>
+		<li>Inference of ancestral sequences at internal nodes (optional).</li>
 		<li>Trees are written with names for internal nodes.</li>
 		<li>Allow computing Rao-Blackwellized expectations for some variables.</li>
 		<li>Branch lengths are now reported as parameters.</li>
