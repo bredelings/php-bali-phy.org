@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <?php $page='Help'; ?>
   <?php require('lib/phplib.inc') ?>
@@ -38,9 +38,10 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#running">Running the program</a></li>
 	      <li><a href="README.html#input">Input</a></li>
 	      <li><a href="README.html#output">Output</a></li>
-	      <li><a href="README.html#models">Models</a></li>
+	      <li><a href="README.html#subst_models">Substitution models</a></li>
+	      <li><a href="README.html#indel_models">Insertion/deletion models</a></li>
+	      <li><a href="README.html#alignment_constraints">Alignment constaintsInsertion/deletion models</a></li>
 	      <li><a href="README.html#mixing_and_convergence">Convergence and Mixing: Is it done yet?</a></li>
-	      <li><a href="README.html#tuning_the_markov_chain">Tuning the Markov Chain</a></li>
 	      <li><a href="README.html#auxiliary_tools">Auxiliary tools</a></li>
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
