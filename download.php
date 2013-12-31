@@ -89,7 +89,6 @@
 	additional software must be installed, such as <a
 	href="http://www.cygwin.com">cygwin</a> on Windows.
 	To see the requirements in detail, view the section in the <a href="help.php#usersguide.php">User's Guide</a> on installation:</p>
-	Users Guide:</p> 
 
 	<ul>
 	  <li><a href="README.html#installation">2. Installation</a></li>
@@ -103,16 +102,9 @@
 	</ul>
 	<h3><a name="sourcecode">"Live" Source Code</a></h3>
 
-	<p>Snapshots of current unreleased BAli-Phy source code including recent changes can be 
-obtained using <a href="http://git-scm.com/">git</a>.  Git is a free source-code management system, as are CVS and subversion.  However, Git is a distributed instead of centralized.  You can <a href="http://github.com/bredelings/BAli-Phy">view the source code</a> online.
-	</p>
-	<ul>
-	  <li><strong>Public repository:</strong> git://github.com/bredelings/BAli-Phy.git</li>
-          <li><strong>Development:</strong> "master" branch. (version 2.1 - next version)
-          <li><strong>Stable:</strong> "2.0" branch. (version 2.0 - current version)
-	</ul>
+	<p>The BAli-Phy source code is available on GitHub at <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
 
-<p>You can type "git clone git://github.com/bredelings/BAli-Phy.git" to download a local copy.</p>
+	<p>If you have git installed, you can type "git clone git://github.com/bredelings/BAli-Phy.git" to download a local copy of the source code.</p>
 
       </div>
       </td>  
