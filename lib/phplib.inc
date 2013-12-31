@@ -55,7 +55,7 @@ function baliphy_header()
   baliphy_page_scripts();
 
   print"<h1 style=\"display:table-cell;padding:0.5em;padding-right:2em;\">";
-  include 'baliphy-logo.html';
+  include 'bali-phy-logo.html';
   print"</h1>\n";
 
   print "<h2 style=\"display:table-cell\">";
