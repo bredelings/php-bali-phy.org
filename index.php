@@ -29,11 +29,8 @@ ol li {padding-bottom:0.5em}
 	    <div style="margin-left:1em">
 	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
 		This release use the branch-site model which accounting for alignment uncertainty.  (<a href="news.php#2.2.0">What else is new?</a>)
-	      </div>
-	    <div style="margin-left:1em">
 
 	      <p>09/01/13: Submitted manuscript <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong></br>
-	      <a href="https://github.com/bredelings/BAli-Phy">Source code</a> available on github, needs gcc 4.8 to compile.
 
 	      <p>06/23/12: <strong>Branch-site model for positive 
 selection</strong></br>
@@ -45,16 +42,7 @@ tree!</strong></br>
 href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
 al (2011) </a> for information on models and convergence criteria.</p>
 	      <p>02/03/11: <strong>BAli-Phy 2.1.1 released</strong><br/>
-	      This release fixes a few bugs. (<a href="news.php#2.1.1">What else is new?</a>) 	    </div>
-
-	    <div style="margin-left:1em">
-	      <p>08/06/10: <strong>BAli-Phy 2.1.0 now available via MacPorts</strong><br/>
-	You can now install BAli-Phy for Mac using 
-	<a href="http://www.macports.org">MacPorts</a> -- thanks to 
-        Andrew Fernandes!</p>
-
-	      <p>07/07/10: <strong>BAli-Phy 2.1.0 released</strong><br/>
-	      This release can handle multiple separate genes.  (<a href="news.php#2.1.0">What else is new?</a>)
+	      This release fixes a few bugs. (<a href="news.php#2.1.1">What else is new?</a>)
 	    </div>
 
 	    <p><strong>BAli-Phy</strong> is MCMC software developed by <a
