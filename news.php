@@ -115,18 +115,6 @@ P8.
 		<li>frequency models: <strong>+F</strong>, <strong>+gwF</strong>.</li>
 	      </ul>
 	    </li>
-	    <li>Various bug fixes</li>
-	    <li>Speed
-	      <ul>
-		<li>Lazily calculate eigensystems for substitution rate matrices.</li>
-	      </ul>
-	    </li>
-	    <li>Input
-	    <ul>
-	      <li>Substitution models may now take multiple arguments:
-	      <strong>branch-site[2,HKY,F3x4]</strong>.</li>
-	    </ul>
-	    </li>
 	    <li>Output
 	      <ul>
 		<li>Inference of ancestral sequences at internal nodes (optional).</li>
@@ -135,6 +123,17 @@ P8.
 		<li>Branch lengths are now reported as parameters.</li>
 		<li>'lambda' renamed to logLambda.</li>
 		<li>'epsilon' replaced with meanIndelLengthMinusOne.</li>
+	      </ul>
+	    </li>
+	    <li>Input
+	    <ul>
+	      <li>Substitution models may now take multiple arguments:
+	      <strong>branch-site[2,HKY,F3x4]</strong>.</li>
+	    </ul>
+	    </li>
+	    <li>Speed
+	      <ul>
+		<li>Lazily calculate eigensystems for substitution rate matrices.</li>
 	      </ul>
 	    </li>
 	    <li>Summarization tools
@@ -148,6 +147,7 @@ P8.
 		<li>Switch to C++11.</li>
 	      </ul>
 	    </li>
+	    <li>Various bug fixes</li>
 	  </ul>
 
 	  <h3><a name="2.1.1">Version 2.1.1 (02/03/11)</a></h3>
