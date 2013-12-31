@@ -123,7 +123,8 @@ P8.
 	    </li>
 	    <li>Input
 	    <ul>
-	      <li>Substitution models may now take arguments like branch-site[2,HKY,F3x4].</li>
+	      <li>Substitution models may now take multiple arguments:
+	      <strong>branch-site[2,HKY,F3x4]</strong>.</li>
 	    </ul>
 	    </li>
 	    <li>Output
