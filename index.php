@@ -28,14 +28,13 @@ ol li {padding-bottom:0.5em}
 	    
 	    <div style="margin-left:1em">
 	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
-		This release use the branch-site model which accounting for alignment uncertainty.  (<a href="news.php#2.2.0">What else is new?</a>)
+		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">What else is new?</a>)
 
 	      <p>09/01/13: Submitted manuscript <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong></br>
 
 	      <p>06/23/12: <strong>Branch-site model for positive 
-selection</strong></br>
-		Unreleased version successfully accounts for alignment 
-uncertainty in testing for (diversifying) positive selection. Presented at SMBE.
+selection</strong> - presented at SMBE2012</br>
+
 	      <p>05/01/11: <strong>Success with large 68-taxon 
 tree!</strong></br> 
 	      See <a 
