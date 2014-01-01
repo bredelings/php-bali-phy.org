@@ -48,7 +48,7 @@ function full_path_name(name)
 
 function register_download(name)
 {
-  urchinTracker(full_path_name(name));
+  ga("send","pageview",full_path_name(name));
 }
 </script>
 ';
