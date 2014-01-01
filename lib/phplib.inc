@@ -4,18 +4,22 @@ function baliphy_footer() {
 
    echo  "<div style=\"font-size:70%;\">\n";
    echo "<hr>\n";
-   echo "<strong>comments and suggestions:</strong> bredelin * ucla + edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>";
+   echo "<strong>comments and suggestions:</strong> benjamin . redelings * duke + edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>";
 //   echo "Last revised: ".Date("M d g:i:s, Y",getLastMod())."<br>";
    print "</div>\n\n";
 };
 
 function baliphy_page_scripts()
 {
-   print '<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+   print '<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<script type="text/javascript">
-_uacct = "UA-2250540-1";
-urchinTracker();
+  ga("create", "UA-46786781-1", "bali-phy.org");
+  ga("send", "pageview");
+
 </script>
 
 <script type="text/javascript">
