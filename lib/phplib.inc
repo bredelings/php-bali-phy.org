@@ -49,6 +49,7 @@ function full_path_name(name)
 function register_download(name)
 {
   ga("send","pageview",full_path_name(name));
+  ga("send","event","link", "download", full_path_name(name), 1);
 }
 </script>
 ';
