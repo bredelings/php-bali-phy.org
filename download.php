@@ -40,7 +40,7 @@
 		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-mac32.tar.gz","Intel (??M)") ?></li -->
 		  <li>64-bit: <?php track_link("bali-phy-2.2.0-mac64.tar.gz","Intel (55M)") ?></li>
 		  <!-- li><a href="http://www.macports.org">MacPorts</a>: not ready yet. -->
-                  <li>You can <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
+                  <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
