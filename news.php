@@ -21,6 +21,10 @@ ul.changelog li li {font-weight: normal; color: black}
 	  <div class="main">
 	  <h2><a name="news">News</a></h2>
 
+	  <h3><a name="2.2.1">Version 2.2.1 (3/20/14)</a></h3>
+
+	  <p>Make post-processing accept line endings in Linux/Mac/Windows format.</p>
+
 	  <h3><a name="2.2.0">Version 2.2.0 (12/30/13)</a></h3>
 
 	  <p>Version 2.2.0 adds branch-site codon models.  Internal

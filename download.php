@@ -27,26 +27,26 @@
 
 	<h3>Current Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.2.0</b>: <?php track_link("bali-phy-2.2.0.tar.gz","source") ?>  (4.5M) - <a href="news.php#2.2.0">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.2.1</b>: <?php track_link("bali-phy-2.2.1.tar.gz","source") ?>  (4.5M) - <a href="news.php#2.2.1">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-linux32.tar.gz","Pentium4 (43M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.2.0-linux64.tar.gz","Intel (41M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.1-linux32.tar.gz","Pentium4 (43M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.2.1-linux64.tar.gz","Intel (41M)") ?></li>
 		</ul>
 	      </li>
 	      <li>Mac OS (10.8 and up)
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.0-mac32.tar.gz","Intel (??M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.2.0-mac64.tar.gz","Intel (55M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.2.1-mac32.tar.gz","Intel (??M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.2.1-mac64.tar.gz","Intel (55M)") ?></li>
 		  <!-- li><a href="http://www.macports.org">MacPorts</a>: not ready yet. -->
                   <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.2.0-win32.tar.gz","Intel (51M)") ?></li>
-		  <li>62-bit: <?php track_link("bali-phy-2.2.0-win64.tar.gz","Intel (59M)") ?></li>
+		  <li>32-bit: <?php track_link("bali-phy-2.2.1-win32.tar.gz","Intel (51M)") ?></li>
+		  <li>62-bit: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
