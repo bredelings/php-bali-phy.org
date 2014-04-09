@@ -27,7 +27,7 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 	    
 	    <div style="margin-left:1em">
-	      <p>04/08/14: Submitted revised manuscript <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">link</a>)</br>
+	      <p>04/08/14: Submitted revised manuscript:<br/> <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">PDF</a>)</br>
 
 	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
 		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">What else is new?</a>)
