@@ -19,13 +19,13 @@
 	    
 	  <h2><a name="examples">Examples</a></h2>
 
-	<h3>Large Examples</h3>
+	<!-- h3>Large Examples</h3 -->
 
 	<ol>
-	  <li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li>
-	  <li><a href="Examples/5S/25-muscle-x4">
-  	5S rRNA - 25 sequences (4 runs)</a><br/>% bali-phy 25-muscle.fasta --smodel DP[4] --iterations 100000</li>
-	  <li><a href="Examples/Globins/few-DP6-1">Globins - 28 sequences</a></li>
+	  <!-- li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li -->
+	  <li><a href="Examples/5S/25-GTR-DP4">5S rRNA - 25 sequences</a><br/>
+	    % bali-phy 25.fasta --smodel GTR+DP[4]</li>
+	  <!-- li><a href="Examples/Globins/few-DP6-1">Globins - 28 sequences</a></li -->
 	</ol>
       </div>
       </td>  

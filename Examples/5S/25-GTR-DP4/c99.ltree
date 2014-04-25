@@ -1,0 +1,7 @@
+('Agrobacterium':0.317131,'Bacillus':0.305981,'Campylobacter':0.956406,'Escherichia':0.364030,'Flavobacterium':0.374620,'Thermotoga':0.512787,'Thermus':0.095768,('Halorubrum':0.300468,'Methanococcus':0.430232,'Methanospirillum':0.526979,'Methanothermobacter':0.423602,'Nanoarchaeum':0.466613,'Pyrobaculum':0.406247,'Sulfolobus':0.493415,'Thermococcus':0.238109,'Thermoplasma':0.413241,('Caenorhabditis':0.090810,'Candida':0.709457,'Cryptosporidium':0.272725,'Dictyostelium':0.442776,'Drosophila':0.194261,'Euglena':0.221612,'Homo':0.099908,'Nosema':0.372180,'Zea':0.204548):0.491588):0.216108);
+node 0.524108
+Agrobacterium | Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+node 0.705672
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea 
+node 0.864886
+Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus | Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
