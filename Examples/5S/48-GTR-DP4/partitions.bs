@@ -1,0 +1,894 @@
+# Loading trees from '48-fsa-6//C1.trees'...
+# Loading trees from '48-fsa-7//C1.trees'...
+# Loading trees from '48-fsa-8//C1.trees'...
+# Loading trees from '48-fsa-9//C1.trees'...
+# [ seed = 8682000972391199093    pseudocount = 1    blocksize = 68 ]
+
+Support for the different predicates: 
+
+1/52:
+Amoebidium Archeoglobus Caenorhabditis Candida Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Sulfolobus Thermococcus Thermoplasma Xenopus Zea | Agrobacterium Aquifex Bacillus Campylobacter Chlamydia Escherichia Flavobacterium Geobacillus Spirochaeta Streptomyces Thermotoga Thermus 
+   PP1-1 = 1.000       (1=3390  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=4120  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=3548  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=4290  0=0)  [0 !!!]
+   PP1   = 1.000       (1=15348  0=0)  [0 !!!]
+
+  LOD1-1 = 3.530
+  LOD1-2 = 3.615
+  LOD1-3 = 3.550
+  LOD1-4 = 3.633
+  LOD1   = 3.584
+
+  RNe1 = -nan
+
+
+2/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Cryptosporidium Dictyostelium Drosophila Euglena Gelidium Homo Nosema Physarum Saccharomyces Xenopus Zea | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Desulfurococcus Escherichia Flavobacterium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 1.000       (1=3390  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=4120  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=3548  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=4290  0=0)  [0 !!!]
+   PP1   = 1.000       (1=15348  0=0)  [0 !!!]
+
+  LOD1-1 = 3.530
+  LOD1-2 = 3.615
+  LOD1-3 = 3.550
+  LOD1-4 = 3.633
+  LOD1   = 3.584
+
+  RNe1 = -nan
+
+
+3/52:
+Methanococcus Methanothermococcus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 1.000       (1=3390  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=4120  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=3548  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=4290  0=0)  [0 !!!]
+   PP1   = 1.000       (1=15348  0=0)  [0 !!!]
+
+  LOD1-1 = 3.530
+  LOD1-2 = 3.615
+  LOD1-3 = 3.550
+  LOD1-4 = 3.633
+  LOD1   = 3.584
+
+  RNe1 = -nan
+
+
+4/52:
+Candida Saccharomyces | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 1.000       (1=3390  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=4120  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=3548  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=4290  0=0)  [0 !!!]
+   PP1   = 1.000       (1=15348  0=0)  [0 !!!]
+
+  LOD1-1 = 3.530
+  LOD1-2 = 3.615
+  LOD1-3 = 3.550
+  LOD1-4 = 3.633
+  LOD1   = 3.584
+
+  RNe1 = -nan
+
+
+5/52:
+Desulfurococcus Sulfolobus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 1.000       (1=3390  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=4120  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=3548  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=4290  0=0)  [0 !!!]
+   PP1   = 1.000       (1=15348  0=0)  [0 !!!]
+
+  LOD1-1 = 3.530
+  LOD1-2 = 3.615
+  LOD1-3 = 3.550
+  LOD1-4 = 3.633
+  LOD1   = 3.584
+
+  RNe1 = -nan
+
+
+6/52:
+Methanosarcina Methanosarcina.v | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.999       (1=3386  0=4)  [4 !!]
+   PP1-2 = 0.998       (1=4113  0=7)  [7 !!]
+   PP1-3 = 0.998       (1=3542  0=6)  [6 !!]
+   PP1-4 = 0.999       (1=4288  0=2)  [2 !!!]
+   PP1   = 0.999       (1=15329  0=19)  [19 !]
+
+  LOD1-1 = 2.831
+  LOD1-2 = 2.711       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = 2.704
+  LOD1-4 = 3.155
+  LOD1   = 2.824       ACT = 1.000          Ne = 15348.000
+
+  RNe1 = inf
+
+
+7/52:
+Cryptobranchus Homo Xenopus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.989       (1=3352  0=38)  [23 !]
+   PP1-2 = 0.995       (1=4102  0=18)  [15 !]
+   PP1-3 = 0.995       (1=3532  0=16)  [13 !]
+   PP1-4 = 0.997       (1=4280  0=10)  [10 !!]
+   PP1   = 0.994       (1=15266  0=82)  [61]
+
+  LOD1-1 = 1.934       ACT = 3.726          Ne = 909.917
+  LOD1-2 = 2.334       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = 2.318       ACT = 1.852          Ne = 1915.583
+  LOD1-4 = 2.590       ACT = 1.000          Ne = 4290.000
+  LOD1   = 2.249       ACT = 2.546          Ne = 6027.123
+
+  RNe1 = inf
+
+
+8/52:
+Amoebidium Candida Saccharomyces | Agrobacterium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.994       (1=3369  0=21)  [21 !]
+   PP1-2 = 0.994       (1=4096  0=24)  [24 !]
+   PP1-3 = 0.994       (1=3528  0=20)  [20 !]
+   PP1-4 = 0.993       (1=4262  0=28)  [28]
+   PP1   = 0.994       (1=15255  0=93)  [93]
+
+  LOD1-1 = 2.185       ACT = 1.000          Ne = 3390.000
+  LOD1-2 = 2.215       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = 2.225       ACT = 1.000          Ne = 3548.000
+  LOD1-4 = 2.167       ACT = 1.000          Ne = 4290.000
+  LOD1   = 2.197       ACT = 1.000          Ne = 15348.000
+
+  RNe1 = inf
+
+
+9/52:
+Desulfurococcus Pyrobaculum Sulfolobus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrococcus Saccharomyces Spirochaeta Streptomyces Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.976       (1=3310  0=80)  [21 !]
+   PP1-2 = 0.993       (1=4091  0=29)  [20 !]
+   PP1-3 = 0.991       (1=3517  0=31)  [23 !]
+   PP1-4 = 0.995       (1=4271  0=19)  [19 !]
+   PP1   = 0.989       (1=15189  0=159)  [83]
+
+  LOD1-1 = 1.611       ACT = 8.511          Ne = 398.313
+  LOD1-2 = 2.135       ACT = 2.527          Ne = 1630.174
+  LOD1-3 = 2.041       ACT = 1.889          Ne = 1878.728
+  LOD1-4 = 2.330       ACT = 1.000          Ne = 4290.000
+  LOD1   = 1.969       ACT = 5.550          Ne = 2765.343
+
+  RNe1 = inf
+
+
+10/52:
+Bacillus Geobacillus | Agrobacterium Amoebidium Aquifex Archeoglobus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.988       (1=3350  0=40)  [32]
+   PP1-2 = 0.986       (1=4065  0=55)  [44]
+   PP1-3 = 0.979       (1=3473  0=75)  [61]
+   PP1-4 = 0.985       (1=4226  0=64)  [48]
+   PP1   = 0.985       (1=15114  0=234)  [185]
+
+  LOD1-1 = 1.912       ACT = 1.381          Ne = 2454.741
+  LOD1-2 = 1.861       ACT = 1.536          Ne = 2682.784
+  LOD1-3 = 1.660       ACT = 1.865          Ne = 1902.743
+  LOD1-4 = 1.813       ACT = 1.893          Ne = 2266.427
+  LOD1   = 1.803       ACT = 1.636          Ne = 9380.163
+
+  RNe1 = inf
+
+
+11/52:
+Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Xenopus Zea | Agrobacterium Escherichia Thermus 
+   PP1-1 = 0.954       (1=3235  0=155)  [91]
+   PP1-2 = 0.955       (1=3936  0=184)  [87]
+   PP1-3 = 0.963       (1=3416  0=132)  [79]
+   PP1-4 = 0.947       (1=4064  0=226)  [103]
+   PP1   = 0.954       (1=14651  0=697)  [360]
+
+  LOD1-1 = 1.317       ACT = 2.846          Ne = 1191.155
+  LOD1-2 = 1.328       ACT = 5.235          Ne = 787.053
+  LOD1-3 = 1.410       ACT = 3.697          Ne = 959.714
+  LOD1-4 = 1.253       ACT = 4.990          Ne = 859.793
+  LOD1   = 1.320       ACT = 4.770          Ne = 3217.724
+
+  RNe1 = inf
+
+
+12/52:
+Cryptobranchus Homo | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.932       (1=3161  0=229)  [199]
+   PP1-2 = 0.932       (1=3840  0=280)  [256]
+   PP1-3 = 0.929       (1=3296  0=252)  [225]
+   PP1-4 = 0.922       (1=3955  0=335)  [289]
+   PP1   = 0.928       (1=14252  0=1096)  [969]
+
+  LOD1-1 = 1.138       ACT = 1.424          Ne = 2380.745
+  LOD1-2 = 1.136       ACT = 1.348          Ne = 3056.587
+  LOD1-3 = 1.115       ACT = 1.216          Ne = 2917.681
+  LOD1-4 = 1.071       ACT = 1.309          Ne = 3278.189
+  LOD1   = 1.113       ACT = 1.474          Ne = 10412.468
+
+  RNe1 = inf
+
+
+13/52:
+Cryptosporidium Nosema Zea | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus 
+   PP1-1 = 0.885       (1=3002  0=388)  [313]
+   PP1-2 = 0.889       (1=3665  0=455)  [371]
+   PP1-3 = 0.897       (1=3183  0=365)  [300]
+   PP1-4 = 0.898       (1=3854  0=436)  [353]
+   PP1   = 0.893       (1=13704  0=1644)  [1337]
+
+  LOD1-1 = 0.888       ACT = 1.222          Ne = 2773.890
+  LOD1-2 = 0.905       ACT = 1.246          Ne = 3307.654
+  LOD1-3 = 0.939       ACT = 1.195          Ne = 2969.745
+  LOD1-4 = 0.946       ACT = 1.403          Ne = 3057.358
+  LOD1   = 0.920       ACT = 1.229          Ne = 12492.216
+
+  RNe1 = inf
+
+
+14/52:
+Nosema Zea | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus 
+   PP1-1 = 0.892       (1=3026  0=364)  [323]
+   PP1-2 = 0.891       (1=3673  0=447)  [397]
+   PP1-3 = 0.890       (1=3159  0=389)  [338]
+   PP1-4 = 0.885       (1=3797  0=493)  [434]
+   PP1   = 0.889       (1=13655  0=1693)  [1493]
+
+  LOD1-1 = 0.919       ACT = 1.012          Ne = 3350.716
+  LOD1-2 = 0.914       ACT = 1.008          Ne = 4087.184
+  LOD1-3 = 0.909       ACT = 1.085          Ne = 3271.380
+  LOD1-4 = 0.886       ACT = 1.011          Ne = 4244.619
+  LOD1   = 0.906       ACT = 1.018          Ne = 15082.881
+
+  RNe1 = inf
+
+
+15/52:
+Caenorhabditis Cryptobranchus Drosophila Homo Xenopus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Campylobacter Candida Chlamydia Cryptosporidium Desulfurococcus Dictyostelium Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.885       (1=3001  0=389)  [195]
+   PP1-2 = 0.877       (1=3616  0=504)  [224]
+   PP1-3 = 0.880       (1=3123  0=425)  [226]
+   PP1-4 = 0.888       (1=3811  0=479)  [242]
+   PP1   = 0.883       (1=13551  0=1797)  [887]
+
+  LOD1-1 = 0.886       ACT = 3.266          Ne = 1037.947
+  LOD1-2 = 0.855       ACT = 3.601          Ne = 1144.022
+  LOD1-3 = 0.865       ACT = 2.804          Ne = 1265.505
+  LOD1-4 = 0.900       ACT = 3.282          Ne = 1307.080
+  LOD1   = 0.877       ACT = 3.253          Ne = 4717.466
+
+  RNe1 = inf
+
+
+16/52:
+Methanothermobacter Methanothermus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermococcus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.887       (1=3009  0=381)  [286]
+   PP1-2 = 0.883       (1=3639  0=481)  [372]
+   PP1-3 = 0.874       (1=3100  0=448)  [337]
+   PP1-4 = 0.870       (1=3732  0=558)  [428]
+   PP1   = 0.878       (1=13480  0=1868)  [1423]
+
+  LOD1-1 = 0.897       ACT = 2.611          Ne = 1298.402
+  LOD1-2 = 0.878       ACT = 2.234          Ne = 1844.275
+  LOD1-3 = 0.839       ACT = 2.661          Ne = 1333.544
+  LOD1-4 = 0.825       ACT = 2.087          Ne = 2055.953
+  LOD1   = 0.858       ACT = 2.356          Ne = 6514.879
+
+  RNe1 = inf
+
+
+17/52:
+Amoebidium Candida Dictyostelium Physarum Saccharomyces | Agrobacterium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.888       (1=3010  0=380)  [231]
+   PP1-2 = 0.862       (1=3552  0=568)  [298]
+   PP1-3 = 0.875       (1=3105  0=443)  [265]
+   PP1-4 = 0.870       (1=3731  0=559)  [322]
+   PP1   = 0.873       (1=13398  0=1950)  [1117]
+
+  LOD1-1 = 0.898       ACT = 2.593          Ne = 1307.568
+  LOD1-2 = 0.795       ACT = 3.119          Ne = 1320.833
+  LOD1-3 = 0.845       ACT = 2.140          Ne = 1657.597
+  LOD1-4 = 0.824       ACT = 2.982          Ne = 1438.483
+  LOD1   = 0.836       ACT = 2.732          Ne = 5616.961
+
+  RNe1 = inf
+
+
+18/52:
+Flavobacterium Spirochaeta | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.861       (1=2918  0=472)  [320]
+   PP1-2 = 0.866       (1=3567  0=553)  [381]
+   PP1-3 = 0.874       (1=3101  0=447)  [305]
+   PP1-4 = 0.881       (1=3779  0=511)  [364]
+   PP1   = 0.871       (1=13365  0=1983)  [1370]
+
+  LOD1-1 = 0.790       ACT = 4.681          Ne = 724.266
+  LOD1-2 = 0.809       ACT = 5.196          Ne = 792.975
+  LOD1-3 = 0.840       ACT = 4.775          Ne = 743.088
+  LOD1-4 = 0.868       ACT = 4.707          Ne = 911.499
+  LOD1   = 0.828       ACT = 4.818          Ne = 3185.874
+
+  RNe1 = inf
+
+
+19/52:
+Methanolobus Methanosarcina Methanosarcina.v | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.861       (1=2919  0=471)  [375]
+   PP1-2 = 0.858       (1=3535  0=585)  [460]
+   PP1-3 = 0.849       (1=3013  0=535)  [416]
+   PP1-4 = 0.869       (1=3729  0=561)  [451]
+   PP1   = 0.860       (1=13196  0=2152)  [1703]
+
+  LOD1-1 = 0.791       ACT = 1.425          Ne = 2379.276
+  LOD1-2 = 0.781       ACT = 1.842          Ne = 2237.300
+  LOD1-3 = 0.750       ACT = 2.085          Ne = 1701.554
+  LOD1-4 = 0.822       ACT = 1.465          Ne = 2927.378
+  LOD1   = 0.787       ACT = 1.941          Ne = 7907.911
+
+  RNe1 = inf
+
+
+20/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Physarum Saccharomyces Xenopus Zea | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Desulfurococcus Escherichia Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 0.802       (1=2720  0=670)  [357]
+   PP1-2 = 0.820       (1=3380  0=740)  [444]
+   PP1-3 = 0.818       (1=2903  0=645)  [395]
+   PP1-4 = 0.828       (1=3551  0=739)  [451]
+   PP1   = 0.818       (1=12554  0=2794)  [1647]
+
+  LOD1-1 = 0.608       ACT = 4.057          Ne = 835.504
+  LOD1-2 = 0.659       ACT = 2.567          Ne = 1605.102
+  LOD1-3 = 0.653       ACT = 2.433          Ne = 1458.279
+  LOD1-4 = 0.681       ACT = 2.804          Ne = 1530.072
+  LOD1   = 0.652       ACT = 2.861          Ne = 5363.682
+
+  RNe1 = inf
+
+
+21/52:
+Bacillus Flavobacterium Geobacillus Spirochaeta | Agrobacterium Amoebidium Aquifex Archeoglobus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.717       (1=2431  0=959)  [414]
+   PP1-2 = 0.732       (1=3017  0=1103)  [504]
+   PP1-3 = 0.743       (1=2636  0=912)  [397]
+   PP1-4 = 0.759       (1=3257  0=1033)  [524]
+   PP1   = 0.739       (1=11341  0=4007)  [1838]
+
+  LOD1-1 = 0.404       ACT = 7.430          Ne = 456.259
+  LOD1-2 = 0.437       ACT = 6.121          Ne = 673.124
+  LOD1-3 = 0.461       ACT = 6.638          Ne = 534.469
+  LOD1-4 = 0.498       ACT = 4.437          Ne = 966.909
+  LOD1   = 0.452       ACT = 6.360          Ne = 2413.177
+
+  RNe1 = inf
+
+
+22/52:
+Archeoglobus Desulfurococcus Pyrobaculum Sulfolobus | Agrobacterium Amoebidium Aquifex Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrococcus Saccharomyces Spirochaeta Streptomyces Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.692       (1=2345  0=1045)  [477]
+   PP1-2 = 0.724       (1=2984  0=1136)  [517]
+   PP1-3 = 0.688       (1=2440  0=1108)  [462]
+   PP1-4 = 0.695       (1=2983  0=1307)  [562]
+   PP1   = 0.700       (1=10752  0=4596)  [2018]
+
+  LOD1-1 = 0.351       ACT = 5.769          Ne = 587.619
+  LOD1-2 = 0.419       ACT = 4.164          Ne = 989.549
+  LOD1-3 = 0.343       ACT = 5.191          Ne = 683.510
+  LOD1-4 = 0.358       ACT = 4.475          Ne = 958.620
+  LOD1   = 0.369       ACT = 4.799          Ne = 3198.093
+
+  RNe1 = inf
+
+
+23/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Dictyostelium Drosophila Euglena Homo Physarum Saccharomyces Xenopus | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Cryptosporidium Desulfurococcus Escherichia Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.676       (1=2293  0=1097)  [651]
+   PP1-2 = 0.707       (1=2915  0=1205)  [799]
+   PP1-3 = 0.691       (1=2453  0=1095)  [687]
+   PP1-4 = 0.700       (1=3003  0=1287)  [838]
+   PP1   = 0.695       (1=10664  0=4684)  [2975]
+
+  LOD1-1 = 0.320       ACT = 2.099          Ne = 1615.009
+  LOD1-2 = 0.383       ACT = 1.321          Ne = 3118.274
+  LOD1-3 = 0.350       ACT = 1.279          Ne = 2774.728
+  LOD1-4 = 0.368       ACT = 1.309          Ne = 3277.417
+  LOD1   = 0.357       ACT = 1.597          Ne = 9609.181
+
+  RNe1 = inf
+
+
+24/52:
+Aquifex Thermotoga | Agrobacterium Amoebidium Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermus Xenopus Zea 
+   PP1-1 = 0.690       (1=2341  0=1049)  [655]
+   PP1-2 = 0.691       (1=2846  0=1274)  [773]
+   PP1-3 = 0.685       (1=2432  0=1116)  [642]
+   PP1-4 = 0.688       (1=2950  0=1340)  [774]
+   PP1   = 0.689       (1=10569  0=4779)  [2844]
+
+  LOD1-1 = 0.348       ACT = 1.495          Ne = 2267.549
+  LOD1-2 = 0.349       ACT = 2.355          Ne = 1749.298
+  LOD1-3 = 0.338       ACT = 2.362          Ne = 1502.202
+  LOD1-4 = 0.343       ACT = 2.378          Ne = 1804.361
+  LOD1   = 0.344       ACT = 2.223          Ne = 6904.822
+
+  RNe1 = inf
+
+
+25/52:
+Pyrococcus Thermococcus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.657       (1=2229  0=1161)  [340]
+   PP1-2 = 0.666       (1=2743  0=1377)  [404]
+   PP1-3 = 0.653       (1=2317  0=1231)  [345]
+   PP1-4 = 0.684       (1=2936  0=1354)  [381]
+   PP1   = 0.666       (1=10225  0=5123)  [1470]
+
+  LOD1-1 = 0.283       ACT = 7.553          Ne = 448.847
+  LOD1-2 = 0.299       ACT = 7.370          Ne = 559.027
+  LOD1-3 = 0.275       ACT = 6.667          Ne = 532.198
+  LOD1-4 = 0.336       ACT = 8.648          Ne = 496.052
+  LOD1   = 0.300       ACT = 8.100          Ne = 1894.699
+
+  RNe1 = inf
+
+
+26/52:
+Haloarcula Halobacterium Haloferax Halorubrum Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.642       (1=2175  0=1215)  [290]
+   PP1-2 = 0.618       (1=2545  0=1575)  [371]
+   PP1-3 = 0.616       (1=2185  0=1363)  [318]
+   PP1-4 = 0.617       (1=2649  0=1641)  [377]
+   PP1   = 0.622       (1=9554  0=5794)  [1357]
+
+  LOD1-1 = 0.253       ACT = 10.759          Ne = 315.074
+  LOD1-2 = 0.208       ACT = 11.307          Ne = 364.388
+  LOD1-3 = 0.205       ACT = 7.851          Ne = 451.924
+  LOD1-4 = 0.208       ACT = 11.291          Ne = 379.953
+  LOD1   = 0.217       ACT = 10.078          Ne = 1522.873
+
+  RNe1 = inf
+
+
+27/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Cryptosporidium Dictyostelium Drosophila Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Natrinema Nosema Physarum Saccharomyces Xenopus Zea | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Desulfurococcus Escherichia Flavobacterium Geobacillus Methanococcus Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 0.576       (1=1953  0=1437)  [434]
+   PP1-2 = 0.583       (1=2402  0=1718)  [555]
+   PP1-3 = 0.539       (1=1911  0=1637)  [463]
+   PP1-4 = 0.568       (1=2439  0=1851)  [601]
+   PP1   = 0.567       (1=8705  0=6643)  [2052]
+
+  LOD1-1 = 0.133       ACT = 7.947          Ne = 426.579
+  LOD1-2 = 0.145       ACT = 8.194          Ne = 502.799
+  LOD1-3 = 0.067       ACT = 6.549          Ne = 541.789
+  LOD1-4 = 0.120       ACT = 6.623          Ne = 647.747
+  LOD1   = 0.117       ACT = 7.866          Ne = 1951.127
+
+  RNe1 = inf
+
+
+28/52:
+Campylobacter Chlamydia | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Candida Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.557       (1=1890  0=1500)  [237]
+   PP1-2 = 0.493       (1=2033  0=2087)  [252]
+   PP1-3 = 0.526       (1=1867  0=1681)  [226]
+   PP1-4 = 0.534       (1=2291  0=1999)  [272]
+   PP1   = 0.527       (1=8081  0=7267)  [986]
+
+  LOD1-1 = 0.100       ACT = 6.739          Ne = 503.071
+  LOD1-2 = -0.011       ACT = 9.435          Ne = 436.656
+  LOD1-3 = 0.046       ACT = 9.834          Ne = 360.782
+  LOD1-4 = 0.059       ACT = 8.411          Ne = 510.059
+  LOD1   = 0.046       ACT = 8.565          Ne = 1791.978
+
+  RNe1 = inf
+
+
+29/52:
+Haloarcula Halobacterium Haloferax Halorubrum Methanolobus Methanosarcina Methanosarcina.v Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Homo Methanococcus Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.531       (1=1799  0=1591)  [540]
+   PP1-2 = 0.524       (1=2158  0=1962)  [635]
+   PP1-3 = 0.523       (1=1857  0=1691)  [524]
+   PP1-4 = 0.526       (1=2258  0=2032)  [670]
+   PP1   = 0.526       (1=8072  0=7276)  [2369]
+
+  LOD1-1 = 0.053       ACT = 7.370          Ne = 459.988
+  LOD1-2 = 0.041       ACT = 6.847          Ne = 601.735
+  LOD1-3 = 0.041       ACT = 6.219          Ne = 570.466
+  LOD1-4 = 0.046       ACT = 6.791          Ne = 631.743
+  LOD1   = 0.045       ACT = 6.858          Ne = 2238.082
+
+  RNe1 = inf
+
+
+30/52:
+Amoebidium Candida Physarum Saccharomyces | Agrobacterium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.483       (1=1637  0=1753)  [780]
+   PP1-2 = 0.500       (1=2062  0=2058)  [946]
+   PP1-3 = 0.485       (1=1720  0=1828)  [843]
+   PP1-4 = 0.503       (1=2160  0=2130)  [990]
+   PP1   = 0.494       (1=7579  0=7769)  [3559]
+
+  LOD1-1 = -0.030       ACT = 1.476          Ne = 2296.801
+  LOD1-2 = 0.001       ACT = 1.534          Ne = 2686.045
+  LOD1-3 = -0.026       ACT = 1.148          Ne = 3090.244
+  LOD1-4 = 0.006       ACT = 1.282          Ne = 3347.215
+  LOD1   = -0.011       ACT = 1.351          Ne = 11364.576
+
+  RNe1 = inf
+
+
+31/52:
+Methanococcus Methanothermobacter Methanothermococcus Methanothermus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.469       (1=1591  0=1799)  [503]
+   PP1-2 = 0.488       (1=2012  0=2108)  [641]
+   PP1-3 = 0.492       (1=1745  0=1803)  [536]
+   PP1-4 = 0.488       (1=2092  0=2198)  [634]
+   PP1   = 0.485       (1=7440  0=7908)  [2314]
+
+  LOD1-1 = -0.053       ACT = 5.054          Ne = 670.779
+  LOD1-2 = -0.020       ACT = 3.870          Ne = 1064.568
+  LOD1-3 = -0.014       ACT = 3.904          Ne = 908.698
+  LOD1-4 = -0.021       ACT = 7.960          Ne = 538.947
+  LOD1   = -0.026       ACT = 4.648          Ne = 3301.724
+
+  RNe1 = inf
+
+
+32/52:
+Amoebidium Candida Dictyostelium Saccharomyces | Agrobacterium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.450       (1=1524  0=1866)  [776]
+   PP1-2 = 0.424       (1=1745  0=2375)  [925]
+   PP1-3 = 0.441       (1=1566  0=1982)  [846]
+   PP1-4 = 0.422       (1=1810  0=2480)  [957]
+   PP1   = 0.433       (1=6645  0=8703)  [3505]
+
+  LOD1-1 = -0.088       ACT = 1.504          Ne = 2254.071
+  LOD1-2 = -0.134       ACT = 1.610          Ne = 2559.335
+  LOD1-3 = -0.102       ACT = 1.157          Ne = 3065.674
+  LOD1-4 = -0.137       ACT = 1.318          Ne = 3255.653
+  LOD1   = -0.117       ACT = 1.372          Ne = 11185.548
+
+  RNe1 = inf
+
+
+33/52:
+Cryptobranchus Drosophila Homo Xenopus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptosporidium Desulfurococcus Dictyostelium Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.401       (1=1360  0=2030)  [773]
+   PP1-2 = 0.403       (1=1659  0=2461)  [1000]
+   PP1-3 = 0.407       (1=1445  0=2103)  [835]
+   PP1-4 = 0.405       (1=1738  0=2552)  [1033]
+   PP1   = 0.404       (1=6202  0=9146)  [3642]
+
+  LOD1-1 = -0.174       ACT = 1.101          Ne = 3078.198
+  LOD1-2 = -0.171       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = -0.163       ACT = 1.100          Ne = 3226.123
+  LOD1-4 = -0.167       ACT = 1.030          Ne = 4166.564
+  LOD1   = -0.169       ACT = 1.051          Ne = 14609.752
+
+  RNe1 = inf
+
+
+34/52:
+Bacillus Chlamydia Flavobacterium Geobacillus Spirochaeta | Agrobacterium Amoebidium Aquifex Archeoglobus Caenorhabditis Campylobacter Candida Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.368       (1=1247  0=2143)  [274]
+   PP1-2 = 0.416       (1=1712  0=2408)  [336]
+   PP1-3 = 0.388       (1=1377  0=2171)  [303]
+   PP1-4 = 0.391       (1=1677  0=2613)  [373]
+   PP1   = 0.392       (1=6013  0=9335)  [1286]
+
+  LOD1-1 = -0.235       ACT = 6.780          Ne = 499.967
+  LOD1-2 = -0.148       ACT = 7.494          Ne = 549.782
+  LOD1-3 = -0.198       ACT = 8.277          Ne = 428.653
+  LOD1-4 = -0.193       ACT = 7.202          Ne = 595.647
+  LOD1   = -0.191       ACT = 7.594          Ne = 2021.060
+
+  RNe1 = inf
+
+
+35/52:
+Halorubrum Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.403       (1=1365  0=2025)  [243]
+   PP1-2 = 0.355       (1=1462  0=2658)  [294]
+   PP1-3 = 0.406       (1=1441  0=2107)  [247]
+   PP1-4 = 0.381       (1=1636  0=2654)  [281]
+   PP1   = 0.385       (1=5904  0=9444)  [1064]
+
+  LOD1-1 = -0.171       ACT = 21.811          Ne = 155.424
+  LOD1-2 = -0.259       ACT = 12.454          Ne = 330.816
+  LOD1-3 = -0.165       ACT = 12.977          Ne = 273.414
+  LOD1-4 = -0.210       ACT = 12.172          Ne = 352.448
+  LOD1   = -0.204       ACT = 13.377          Ne = 1147.307
+
+  RNe1 = inf
+
+
+36/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Cryptosporidium Dictyostelium Drosophila Euglena Gelidium Homo Methanospirillum Nosema Physarum Saccharomyces Xenopus Zea | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Desulfurococcus Escherichia Flavobacterium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 0.375       (1=1272  0=2118)  [392]
+   PP1-2 = 0.379       (1=1560  0=2560)  [508]
+   PP1-3 = 0.347       (1=1231  0=2317)  [411]
+   PP1-4 = 0.374       (1=1606  0=2684)  [528]
+   PP1   = 0.369       (1=5669  0=9679)  [1840]
+
+  LOD1-1 = -0.221       ACT = 6.891          Ne = 491.944
+  LOD1-2 = -0.215       ACT = 4.941          Ne = 833.861
+  LOD1-3 = -0.275       ACT = 5.839          Ne = 607.640
+  LOD1-4 = -0.223       ACT = 6.294          Ne = 681.643
+  LOD1   = -0.232       ACT = 6.033          Ne = 2543.971
+
+  RNe1 = inf
+
+
+37/52:
+Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea | Agrobacterium Escherichia 
+   PP1-1 = 0.358       (1=1214  0=2176)  [763]
+   PP1-2 = 0.361       (1=1485  0=2635)  [969]
+   PP1-3 = 0.372       (1=1318  0=2230)  [804]
+   PP1-4 = 0.361       (1=1549  0=2741)  [982]
+   PP1   = 0.363       (1=5566  0=9782)  [3518]
+
+  LOD1-1 = -0.253       ACT = 1.000          Ne = 3390.000
+  LOD1-2 = -0.249       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = -0.228       ACT = 1.000          Ne = 3548.000
+  LOD1-4 = -0.248       ACT = 1.053          Ne = 4072.641
+  LOD1   = -0.245       ACT = 1.037          Ne = 14806.954
+
+  RNe1 = inf
+
+
+38/52:
+Escherichia Thermus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Xenopus Zea 
+   PP1-1 = 0.360       (1=1221  0=2169)  [761]
+   PP1-2 = 0.359       (1=1477  0=2643)  [938]
+   PP1-3 = 0.345       (1=1225  0=2323)  [769]
+   PP1-4 = 0.360       (1=1543  0=2747)  [970]
+   PP1   = 0.356       (1=5466  0=9882)  [3438]
+
+  LOD1-1 = -0.249       ACT = 1.066          Ne = 3180.053
+  LOD1-2 = -0.253       ACT = 1.217          Ne = 3385.519
+  LOD1-3 = -0.278       ACT = 1.000          Ne = 3548.000
+  LOD1-4 = -0.250       ACT = 1.285          Ne = 3337.675
+  LOD1   = -0.257       ACT = 1.161          Ne = 13220.996
+
+  RNe1 = inf
+
+
+39/52:
+Campylobacter Streptomyces | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.315       (1=1068  0=2322)  [367]
+   PP1-2 = 0.365       (1=1505  0=2615)  [468]
+   PP1-3 = 0.338       (1=1198  0=2350)  [373]
+   PP1-4 = 0.338       (1=1448  0=2842)  [430]
+   PP1   = 0.340       (1=5219  0=10129)  [1639]
+
+  LOD1-1 = -0.337       ACT = 4.428          Ne = 765.607
+  LOD1-2 = -0.240       ACT = 5.792          Ne = 711.294
+  LOD1-3 = -0.292       ACT = 6.763          Ne = 524.584
+  LOD1-4 = -0.293       ACT = 5.772          Ne = 743.265
+  LOD1   = -0.288       ACT = 5.523          Ne = 2778.904
+
+  RNe1 = inf
+
+
+40/52:
+Haloarcula Haloferax Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Halobacterium Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.313       (1=1062  0=2328)  [187]
+   PP1-2 = 0.368       (1=1515  0=2605)  [253]
+   PP1-3 = 0.315       (1=1119  0=2429)  [204]
+   PP1-4 = 0.332       (1=1425  0=2865)  [258]
+   PP1   = 0.334       (1=5121  0=10227)  [901]
+
+  LOD1-1 = -0.341       ACT = 30.051          Ne = 112.809
+  LOD1-2 = -0.235       ACT = 23.912          Ne = 172.296
+  LOD1-3 = -0.336       ACT = 16.429          Ne = 215.958
+  LOD1-4 = -0.303       ACT = 16.571          Ne = 258.887
+  LOD1   = -0.300       ACT = 23.432          Ne = 654.992
+
+  RNe1 = inf
+
+
+41/52:
+Archeoglobus Desulfurococcus Pyrobaculum Pyrococcus Sulfolobus Thermococcus | Agrobacterium Amoebidium Aquifex Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Saccharomyces Spirochaeta Streptomyces Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.319       (1=1082  0=2308)  [324]
+   PP1-2 = 0.358       (1=1474  0=2646)  [472]
+   PP1-3 = 0.336       (1=1191  0=2357)  [368]
+   PP1-4 = 0.308       (1=1320  0=2970)  [453]
+   PP1   = 0.330       (1=5067  0=10281)  [1618]
+
+  LOD1-1 = -0.329       ACT = 10.018          Ne = 338.395
+  LOD1-2 = -0.254       ACT = 12.154          Ne = 338.990
+  LOD1-3 = -0.296       ACT = 8.284          Ne = 428.305
+  LOD1-4 = -0.352       ACT = 8.774          Ne = 488.943
+  LOD1   = -0.307       ACT = 9.226          Ne = 1663.474
+
+  RNe1 = inf
+
+
+42/52:
+Caenorhabditis Cryptobranchus Drosophila Euglena Homo Xenopus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Campylobacter Candida Chlamydia Cryptosporidium Desulfurococcus Dictyostelium Escherichia Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.323       (1=1095  0=2295)  [685]
+   PP1-2 = 0.334       (1=1377  0=2743)  [852]
+   PP1-3 = 0.325       (1=1151  0=2397)  [754]
+   PP1-4 = 0.331       (1=1420  0=2870)  [917]
+   PP1   = 0.329       (1=5043  0=10305)  [3209]
+
+  LOD1-1 = -0.321       ACT = 1.364          Ne = 2485.264
+  LOD1-2 = -0.299       ACT = 1.598          Ne = 2578.261
+  LOD1-3 = -0.318       ACT = 1.181          Ne = 3003.424
+  LOD1-4 = -0.305       ACT = 1.184          Ne = 3623.911
+  LOD1   = -0.310       ACT = 1.476          Ne = 10397.141
+
+  RNe1 = inf
+
+
+43/52:
+Caenorhabditis Drosophila | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.328       (1=1110  0=2280)  [712]
+   PP1-2 = 0.312       (1=1287  0=2833)  [886]
+   PP1-3 = 0.314       (1=1115  0=2433)  [748]
+   PP1-4 = 0.308       (1=1322  0=2968)  [916]
+   PP1   = 0.315       (1=4834  0=10514)  [3262]
+
+  LOD1-1 = -0.312       ACT = 1.578          Ne = 2148.139
+  LOD1-2 = -0.342       ACT = 1.000          Ne = 4120.000
+  LOD1-3 = -0.339       ACT = 1.132          Ne = 3134.100
+  LOD1-4 = -0.351       ACT = 1.000          Ne = 4290.000
+  LOD1   = -0.337       ACT = 1.118          Ne = 13722.384
+
+  RNe1 = inf
+
+
+44/52:
+Haloarcula Halobacterium Haloferax Halorubrum Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Homo Methanococcus Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.308       (1=1043  0=2347)  [364]
+   PP1-2 = 0.300       (1=1236  0=2884)  [450]
+   PP1-3 = 0.323       (1=1146  0=2402)  [377]
+   PP1-4 = 0.306       (1=1311  0=2979)  [475]
+   PP1   = 0.309       (1=4736  0=10612)  [1666]
+
+  LOD1-1 = -0.352       ACT = 8.843          Ne = 383.339
+  LOD1-2 = -0.368       ACT = 9.721          Ne = 423.818
+  LOD1-3 = -0.321       ACT = 7.300          Ne = 486.030
+  LOD1-4 = -0.356       ACT = 7.740          Ne = 554.231
+  LOD1   = -0.350       ACT = 8.280          Ne = 1853.599
+
+  RNe1 = inf
+
+
+45/52:
+Amoebidium Archeoglobus Caenorhabditis Candida Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Streptomyces Sulfolobus Thermococcus Thermoplasma Xenopus Zea | Agrobacterium Aquifex Bacillus Campylobacter Chlamydia Escherichia Flavobacterium Geobacillus Spirochaeta Thermotoga Thermus 
+   PP1-1 = 0.311       (1=1055  0=2335)  [462]
+   PP1-2 = 0.278       (1=1146  0=2974)  [542]
+   PP1-3 = 0.311       (1=1103  0=2445)  [473]
+   PP1-4 = 0.311       (1=1334  0=2956)  [571]
+   PP1   = 0.302       (1=4638  0=10710)  [2048]
+
+  LOD1-1 = -0.345       ACT = 9.466          Ne = 358.106
+  LOD1-2 = -0.414       ACT = 8.508          Ne = 484.254
+  LOD1-3 = -0.345       ACT = 8.129          Ne = 436.479
+  LOD1-4 = -0.345       ACT = 6.790          Ne = 631.855
+  LOD1   = -0.363       ACT = 7.662          Ne = 2003.193
+
+  RNe1 = inf
+
+
+46/52:
+Amoebidium Caenorhabditis Candida Cryptobranchus Cryptosporidium Dictyostelium Drosophila Euglena Gelidium Haloarcula Halobacterium Haloferax Halorubrum Homo Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Nanoarchaeum Natrinema Nosema Physarum Saccharomyces Xenopus Zea | Agrobacterium Aquifex Archeoglobus Bacillus Campylobacter Chlamydia Desulfurococcus Escherichia Flavobacterium Geobacillus Methanococcus Methanothermobacter Methanothermococcus Methanothermus Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 0.295       (1=999  0=2391)  [547]
+   PP1-2 = 0.291       (1=1198  0=2922)  [685]
+   PP1-3 = 0.296       (1=1049  0=2499)  [582]
+   PP1-4 = 0.296       (1=1269  0=3021)  [704]
+   PP1   = 0.294       (1=4515  0=10833)  [2518]
+
+  LOD1-1 = -0.379       ACT = 3.655          Ne = 927.454
+  LOD1-2 = -0.387       ACT = 2.569          Ne = 1603.876
+  LOD1-3 = -0.377       ACT = 3.263          Ne = 1087.340
+  LOD1-4 = -0.376       ACT = 3.326          Ne = 1290.024
+  LOD1   = -0.380       ACT = 3.746          Ne = 4097.711
+
+  RNe1 = inf
+
+
+47/52:
+Haloferax Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.259       (1=878  0=2512)  [295]
+   PP1-2 = 0.317       (1=1307  0=2813)  [422]
+   PP1-3 = 0.281       (1=998  0=2550)  [307]
+   PP1-4 = 0.288       (1=1233  0=3057)  [392]
+   PP1   = 0.288       (1=4416  0=10932)  [1416]
+
+  LOD1-1 = -0.456       ACT = 22.461          Ne = 150.926
+  LOD1-2 = -0.333       ACT = 14.653          Ne = 281.168
+  LOD1-3 = -0.407       ACT = 12.583          Ne = 281.968
+  LOD1-4 = -0.394       ACT = 12.555          Ne = 341.706
+  LOD1   = -0.393       ACT = 18.674          Ne = 821.882
+
+  RNe1 = inf
+
+
+48/52:
+Haloarcula Halobacterium Haloferax Natrinema | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.256       (1=869  0=2521)  [306]
+   PP1-2 = 0.284       (1=1171  0=2949)  [429]
+   PP1-3 = 0.270       (1=958  0=2590)  [299]
+   PP1-4 = 0.271       (1=1161  0=3129)  [411]
+   PP1   = 0.271       (1=4159  0=11189)  [1445]
+
+  LOD1-1 = -0.462       ACT = 20.478          Ne = 165.547
+  LOD1-2 = -0.401       ACT = 12.519          Ne = 329.097
+  LOD1-3 = -0.432       ACT = 10.517          Ne = 337.362
+  LOD1-4 = -0.430       ACT = 10.743          Ne = 399.329
+  LOD1   = -0.430       ACT = 11.937          Ne = 1285.756
+
+  RNe1 = inf
+
+
+49/52:
+Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Xenopus Zea | Agrobacterium Thermus 
+   PP1-1 = 0.270       (1=916  0=2474)  [659]
+   PP1-2 = 0.269       (1=1106  0=3014)  [796]
+   PP1-3 = 0.275       (1=976  0=2572)  [678]
+   PP1-4 = 0.261       (1=1121  0=3169)  [832]
+   PP1   = 0.268       (1=4119  0=11229)  [2965]
+
+  LOD1-1 = -0.431       ACT = 1.028          Ne = 3297.073
+  LOD1-2 = -0.435       ACT = 1.110          Ne = 3711.619
+  LOD1-3 = -0.421       ACT = 1.083          Ne = 3275.332
+  LOD1-4 = -0.451       ACT = 1.000          Ne = 4290.000
+  LOD1   = -0.435       ACT = 1.088          Ne = 14111.271
+
+  RNe1 = inf
+
+
+50/52:
+Amoebidium Candida Dictyostelium Euglena Physarum Saccharomyces | Agrobacterium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Drosophila Escherichia Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Pyrobaculum Pyrococcus Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.261       (1=883  0=2507)  [645]
+   PP1-2 = 0.252       (1=1038  0=3082)  [752]
+   PP1-3 = 0.256       (1=907  0=2641)  [665]
+   PP1-4 = 0.245       (1=1051  0=3239)  [773]
+   PP1   = 0.253       (1=3879  0=11469)  [2835]
+
+  LOD1-1 = -0.453       ACT = 1.044          Ne = 3247.470
+  LOD1-2 = -0.472       ACT = 1.153          Ne = 3572.041
+  LOD1-3 = -0.464       ACT = 1.000          Ne = 3548.000
+  LOD1-4 = -0.489       ACT = 1.090          Ne = 3934.341
+  LOD1   = -0.471       ACT = 1.080          Ne = 14207.509
+
+  RNe1 = inf
+
+
+51/52:
+Methanococcus Methanothermococcus Pyrococcus Thermococcus | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Haloarcula Halobacterium Haloferax Halorubrum Homo Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.253       (1=858  0=2532)  [247]
+   PP1-2 = 0.235       (1=966  0=3154)  [309]
+   PP1-3 = 0.248       (1=879  0=2669)  [270]
+   PP1-4 = 0.270       (1=1158  0=3132)  [383]
+   PP1   = 0.252       (1=3861  0=11487)  [1210]
+
+  LOD1-1 = -0.470       ACT = 8.112          Ne = 417.910
+  LOD1-2 = -0.514       ACT = 7.604          Ne = 541.830
+  LOD1-3 = -0.482       ACT = 6.463          Ne = 549.002
+  LOD1-4 = -0.432       ACT = 7.997          Ne = 536.446
+  LOD1   = -0.473       ACT = 7.576          Ne = 2025.790
+
+  RNe1 = inf
+
+
+52/52:
+Haloarcula Haloferax | Agrobacterium Amoebidium Aquifex Archeoglobus Bacillus Caenorhabditis Campylobacter Candida Chlamydia Cryptobranchus Cryptosporidium Desulfurococcus Dictyostelium Drosophila Escherichia Euglena Flavobacterium Gelidium Geobacillus Halobacterium Halorubrum Homo Methanococcus Methanolobus Methanosarcina Methanosarcina.v Methanospirillum Methanothermobacter Methanothermococcus Methanothermus Nanoarchaeum Natrinema Nosema Physarum Pyrobaculum Pyrococcus Saccharomyces Spirochaeta Streptomyces Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Xenopus Zea 
+   PP1-1 = 0.250       (1=847  0=2543)  [479]
+   PP1-2 = 0.242       (1=997  0=3123)  [554]
+   PP1-3 = 0.249       (1=882  0=2666)  [499]
+   PP1-4 = 0.264       (1=1131  0=3159)  [615]
+   PP1   = 0.251       (1=3857  0=11491)  [2148]
+
+  LOD1-1 = -0.477       ACT = 4.017          Ne = 843.955
+  LOD1-2 = -0.496       ACT = 3.679          Ne = 1119.737
+  LOD1-3 = -0.480       ACT = 3.380          Ne = 1049.578
+  LOD1-4 = -0.446       ACT = 3.263          Ne = 1314.897
+  LOD1   = -0.474       ACT = 3.795          Ne = 4044.444
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.010     MSDSF = 0.026
+min Ne = 654.992    (partition = 40)

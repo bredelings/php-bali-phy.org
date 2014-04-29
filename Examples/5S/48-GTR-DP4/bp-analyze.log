@@ -1,0 +1,349 @@
+------------------------------------------------
+
+command:  statreport --sub-sample=20  --skip=7530 48-fsa-6//C1.p 48-fsa-7//C1.p 48-fsa-8//C1.p 48-fsa-9//C1.p > Results/Report
+
+
+command:  trees-consensus 48-fsa-6//C1.trees 48-fsa-7//C1.trees 48-fsa-8//C1.trees 48-fsa-9//C1.trees  --skip=7530 --sub-sample=20    --consensus=0.5:Results/c50.tree,0.66:Results/c66.tree,0.8:Results/c80.tree,0.9:Results/c90.tree,0.95:Results/c95.tree,0.99:Results/c99.tree,1:Results/c100.tree --consensus-PP=0.5:Results/c50.PP.tree,0.66:Results/c66.PP.tree,0.8:Results/c80.PP.tree,0.9:Results/c90.PP.tree,0.95:Results/c95.PP.tree,0.99:Results/c99.PP.tree,1:Results/c100.PP.tree   --support-levels=Results/c-levels.plot --map-tree=Results/MAP.tree --greedy-consensus=Results/greedy.tree --report=Results/consensus
+
+
+command:  tree-mean-lengths Results/c50.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c50.ltree
+
+
+command:  tree-mean-lengths Results/c66.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c66.ltree
+
+
+command:  tree-mean-lengths Results/c80.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c80.ltree
+
+
+command:  tree-mean-lengths Results/c90.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c90.ltree
+
+
+command:  tree-mean-lengths Results/c95.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c95.ltree
+
+
+command:  tree-mean-lengths Results/c99.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c99.ltree
+
+
+command:  tree-mean-lengths Results/c100.tree --safe --show-node-lengths  --skip=7530 --sub-sample=20  < 48-fsa-6//C1.trees > Results/c100.ltree
+
+
+command:  cd Results ; draw-tree c50.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c50.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c66.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c66.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c80.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c80.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c90.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c90.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c95.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c95.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c99.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c99.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree c100.ltree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree c100.ltree --layout=equal-daylight --output=svg --no-shade
+
+
+command:  cd Results ; draw-tree greedy.tree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree greedy.tree --layout=equal-daylight --no-shade --output=svg 
+
+
+command:  cd Results ; draw-tree MAP.tree --layout=equal-daylight --no-shade
+
+
+command:  cd Results ; draw-tree MAP.tree --layout=equal-daylight --no-shade --output=svg 
+
+
+command:  pickout --no-header --large pi < Results/consensus > Results/partitions
+
+
+command:  perl -e 'while(<>) {s/$/\n/;print;}' < Results/partitions > Results/partitions.pred
+
+
+command:  trees-bootstrap  48-fsa-6//C1.trees 48-fsa-7//C1.trees 48-fsa-8//C1.trees 48-fsa-9//C1.trees --skip=7530 --sub-sample=20 --pred Results/partitions.pred --LOD-table=Results/LOD-table --pseudocount 1 > Results/partitions.bs
+
+
+command:  R --slave --vanilla --args Results/LOD-table Results/convergence-PP.pdf < /home/biodept/br51/local/bin/compare-runs.R
+
+
+command:  R --slave --vanilla --args Results/LOD-table Results/convergence1-PP.svg Results/convergence2-PP.svg < /home/biodept/br51/local/bin/compare-runs2.R
+
+
+command:  trees-to-SRQ Results/partitions.pred  --skip=7530 --sub-sample=20 --max-points=1000 < 48-fsa-6//C1.trees > Results/partitions.SRQ
+
+
+command:  trees-to-SRQ Results/c50.tree  --sub-sample=20 --skip=7530 --max-points=1000 < 48-fsa-6//C1.trees > Results/c50.SRQ
+
+
+command:  cp 48-fsa-6//C1.P1.initial.fasta Results/Work/P1-initial-unordered.fasta
+
+
+command:  cut-range --skip=7530  < 48-fsa-6//C1.P1.fastas | alignment-max> Results/Work/P1-max-unordered.fasta
+
+
+command:  alignment-cat Results/Work/P1-initial-unordered.fasta --reorder-by-tree=Results/c50.tree > Results/P1-initial.fasta
+
+
+command:  alignment-draw Results/P1-initial.fasta --show-ruler --color-scheme=DNA+contrast > Results/P1-initial.html 2>/dev/null
+
+
+command:  alignment-cat Results/Work/P1-max-unordered.fasta --reorder-by-tree=Results/c50.tree > Results/P1-max.fasta
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --color-scheme=DNA+contrast > Results/P1-max.html 2>/dev/null
+
+
+command:  alignments-diff Results/P1-initial.fasta Results/P1-max.fasta --merge --fill=unknown -d Results/P1-initial-diff.AU > Results/P1-initial-diff.fasta
+
+
+command:  alignment-draw Results/P1-initial-diff.fasta --scale=invert --AU Results/P1-initial-diff.AU --show-ruler --color-scheme=Rainbow+fade[1,0]+contrast > Results/P1-initial-diff.html
+
+
+command:  cut-range --skip=7530  < 48-fsa-6//C1.P1.fastas | alignment-gild Results/P1-max.fasta Results/MAP.tree --max-alignments=500 > Results/P1-max-AU.prob
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --AU Results/P1-max-AU.prob --color-scheme=DNA+contrast+fade+fade+fade+fade > Results/P1-max-AU.html 2>/dev/null
+
+
+command:  stats-select likelihood --no-header < 48-fsa-6//C1.p | tail -n+7530 | model_P > Results/Pmarg
+
+
+command:  pickout n_topologies -n < Results/consensus
+
+
+command:  stats-select iter 'prior' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.1
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.1 > Results/Work/T1.p.1.2
+
+
+command:  stats-select iter 'prior_A1' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.2
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.2 > Results/Work/T1.p.2.2
+
+
+command:  stats-select iter 'likelihood' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.3
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.3 > Results/Work/T1.p.3.2
+
+
+command:  stats-select iter 'logp' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.4
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.4 > Results/Work/T1.p.4.2
+
+
+command:  stats-select iter 'Main.mu1' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.6
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.6 > Results/Work/T1.p.6.2
+
+
+command:  stats-select iter 'S1.GTR.ag' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.7
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.7 > Results/Work/T1.p.7.2
+
+
+command:  stats-select iter 'S1.GTR.at' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.8
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.8 > Results/Work/T1.p.8.2
+
+
+command:  stats-select iter 'S1.GTR.ac' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.9
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.9 > Results/Work/T1.p.9.2
+
+
+command:  stats-select iter 'S1.GTR.gt' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.10
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.10 > Results/Work/T1.p.10.2
+
+
+command:  stats-select iter 'S1.GTR.gc' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.11
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.11 > Results/Work/T1.p.11.2
+
+
+command:  stats-select iter 'S1.GTR.tc' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.12
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.12 > Results/Work/T1.p.12.2
+
+
+command:  stats-select iter 'S1.F.piA' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.13
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.13 > Results/Work/T1.p.13.2
+
+
+command:  stats-select iter 'S1.F.piG' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.14
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.14 > Results/Work/T1.p.14.2
+
+
+command:  stats-select iter 'S1.F.piU' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.15
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.15 > Results/Work/T1.p.15.2
+
+
+command:  stats-select iter 'S1.F.piC' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.16
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.16 > Results/Work/T1.p.16.2
+
+
+command:  stats-select iter 'S1.DP.f1[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.17
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.17 > Results/Work/T1.p.17.2
+
+
+command:  stats-select iter 'S1.DP.f2[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.18
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.18 > Results/Work/T1.p.18.2
+
+
+command:  stats-select iter 'S1.DP.f3[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.19
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.19 > Results/Work/T1.p.19.2
+
+
+command:  stats-select iter 'S1.DP.f4[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.20
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.20 > Results/Work/T1.p.20.2
+
+
+command:  stats-select iter 'S1.DP.rates1[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.21
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.21 > Results/Work/T1.p.21.2
+
+
+command:  stats-select iter 'S1.DP.rates2[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.22
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.22 > Results/Work/T1.p.22.2
+
+
+command:  stats-select iter 'S1.DP.rates3[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.23
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.23 > Results/Work/T1.p.23.2
+
+
+command:  stats-select iter 'S1.DP.rates4[S1]' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.24
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.24 > Results/Work/T1.p.24.2
+
+
+command:  stats-select iter 'I1.RS07.logLambda' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.25
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.25 > Results/Work/T1.p.25.2
+
+
+command:  stats-select iter 'I1.RS07.meanIndelLength' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.26
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.26 > Results/Work/T1.p.26.2
+
+
+command:  stats-select iter '|A1|' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.27
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.27 > Results/Work/T1.p.27.2
+
+
+command:  stats-select iter '#indels1' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.28
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.28 > Results/Work/T1.p.28.2
+
+
+command:  stats-select iter '|indels1|' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.29
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.29 > Results/Work/T1.p.29.2
+
+
+command:  stats-select iter '#substs1' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.30
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.30 > Results/Work/T1.p.30.2
+
+
+command:  stats-select iter '|A|' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.31
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.31 > Results/Work/T1.p.31.2
+
+
+command:  stats-select iter '#indels' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.32
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.32 > Results/Work/T1.p.32.2
+
+
+command:  stats-select iter '|indels|' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.33
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.33 > Results/Work/T1.p.33.2
+
+
+command:  stats-select iter '#substs' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.34
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.34 > Results/Work/T1.p.34.2
+
+
+command:  stats-select iter '|T|' --no-header < 48-fsa-6//C1.p > Results/Work/T1.p.35
+
+
+command:  subsample --skip=7530 68 < Results/Work/T1.p.35 > Results/Work/T1.p.35.2
+
+
+command:  pickout -n Ne < Results/partitions.bs
+
+
+command:  pickout -n 'min Ne' < Results/partitions.bs
+
