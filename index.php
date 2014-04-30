@@ -27,16 +27,17 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 	    
 	    <div style="margin-left:1em">
-	      <p>04/08/14: Submitted revised manuscript:<br/> <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">PDF</a>)</br>
+	      <p>04/29/14: <strong>BAli-Phy 2.3.0 released</strong><br/>
+               Add more codon models (<a href="news.php#2.3.0">more news</a>)</p>
+
+	      <p>04/26/14: Paper accepted:<br/> <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">PDF</a>)</p>
 
 	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
-		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">What else is new?</a>)
+		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">more news</a>)</p>
 
-	      <p>06/23/12: <strong>Branch-site model for positive 
-selection</strong> - presented at SMBE2012</br>
+	      <p>06/23/12: <strong>Branch-site model for positive selection</strong> - presented at SMBE2012</p>
 
-	      <p>05/01/11: <strong>Success with large 68-taxon 
-tree!</strong></br> 
+	      <p>05/01/11: <strong>Success with large 68-taxon tree!</strong></p> 
 	      See <a 
 href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
 al (2011) </a> for information on models and convergence criteria.</p>
