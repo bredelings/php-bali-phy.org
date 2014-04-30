@@ -46,7 +46,7 @@
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
 		  <li>32-bit: <?php track_link("bali-phy-2.3.0-win32.tar.gz","Intel (50M)") ?></li>
-		  <li>62-bit: <?php track_link("bali-phy-2.3.0-win64.tar.gz","Intel (58M)") ?></li>
+		  <li>64-bit: <?php track_link("bali-phy-2.3.0-win64.tar.gz","Intel (58M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
@@ -74,7 +74,7 @@
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
 		  <li>32-bit: <?php track_link("bali-phy-2.2.1-win32.tar.gz","Intel (51M)") ?></li>
-		  <li>62-bit: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
+		  <li>64-bit: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
