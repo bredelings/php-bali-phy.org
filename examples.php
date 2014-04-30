@@ -25,7 +25,10 @@
 	  <!-- li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li -->
 	  <li><a href="Examples/5S/25-GTR-DP4">5S rRNA - 25 sequences</a><br/>
 	    % bali-phy 25.fasta --smodel GTR+DP[4]</li>
-	  <!-- li><a href="Examples/Globins/few-DP6-1">Globins - 28 sequences</a></li -->
+	  <li><a href="Examples/5S/48-GTR-DP4">5S rRNA - 48 sequences</a><br/>
+	    % bali-phy 48-fsa.fasta --smodel GTR+DP[4]</li>
+	  <li><a href="Examples/Globins/few-LG-DP6">Globins - 28 sequences</a></li>
+	    % bali-phy few-globins.fasta --smodel LG+DP[6]</li>
 	</ol>
       </div>
       </td>  
