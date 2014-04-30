@@ -27,24 +27,24 @@
 
 	<h3>Current Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.3.0</b>: <?php track_link("bali-phy-2.3.0.tar.gz","source") ?>  (5M) - <a href="news.php#2.3.0">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.3.1</b>: <?php track_link("bali-phy-2.3.1.tar.gz","source") ?>  (5M) - <a href="news.php#2.3.1">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.0-linux32.tar.gz","Pentium4 (43M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.0-linux64.tar.gz","Intel (26M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.1-linux32.tar.gz","Pentium4 (43M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.1-linux64.tar.gz","Intel (26M)") ?></li>
 		</ul>
 	      </li>
 	      <li>Mac OS (10.9 and up)
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.0-mac32.tar.gz","Intel (??M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.0-mac64.tar.gz","Intel (14M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.1-mac32.tar.gz","Intel (??M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.1-mac64.tar.gz","Intel (14M)") ?></li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.0-win32.tar.gz","Intel (50M)") ?></li>
-		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.0-win64.tar.gz","Intel (58M)") ?></li>
+		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.1-win32.tar.gz","Intel (50M)") ?></li>
+		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.1-win64.tar.gz","Intel (58M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
