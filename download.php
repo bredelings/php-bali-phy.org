@@ -39,14 +39,12 @@
 		<ul>
 		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.0-mac32.tar.gz","Intel (??M)") ?></li -->
 		  <li>64-bit: <?php track_link("bali-phy-2.3.0-mac64.tar.gz","Intel (14M)") ?></li>
-		  <!-- li><a href="http://www.macports.org">MacPorts</a>: not ready yet. -->
-                  <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.3.0-win32.tar.gz","Intel (50M)") ?></li>
-		  <li>64-bit: <?php track_link("bali-phy-2.3.0-win64.tar.gz","Intel (58M)") ?></li>
+		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.0-win32.tar.gz","Intel (50M)") ?></li>
+		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.0-win64.tar.gz","Intel (58M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
@@ -73,8 +71,8 @@
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.2.1-win32.tar.gz","Intel (51M)") ?></li>
-		  <li>64-bit: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
+		  <li>32-bit MinGW: <?php track_link("bali-phy-2.2.1-win32.tar.gz","Intel (51M)") ?></li>
+		  <li>64-bit MinGW: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>
