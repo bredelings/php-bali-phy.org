@@ -334,8 +334,8 @@ $menutree->add_children('Top',
 #			      'Features::features.php',
 			      'Download::download.php',
 			      'Examples::examples.php',
-			      'Help::help.php',
-			      'Links::links.php')
+			      'Documentation::docs.php',
+			      'Contact::contact.php')
 			);
 
 $menutree->add_children('Welcome!',
@@ -351,22 +351,18 @@ $menutree->add_children('Download',
 			);
 		 
 
-$menutree->add_children('Help',
-			array('Users Guide::help.php#usersguide',
-			      'Tutorial::Tutorial2.html',
-                              'Mailing lists::help.php#lists')
+$menutree->add_children('Documentation',
+			array('Users Guide::docs.php#usersguide',
+			      'Tutorial::Tutorial2.html')
+			);
+		 
+$menutree->add_children('Contact',
+			array('Mailing lists::contact.php#lists')
 			);
 		 
 $menutree->add_children('Mailing lists',
 			array('bali-phy-announce',
 	                      'bali-phy-users')
-			);
-		 
-
-$menutree->add_children('Links',
-			array('Papers::links.php#papers',
-			      'Software::links.php#software',
-			      'People::links.php#people')
 			);
 		 
 
