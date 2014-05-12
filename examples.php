@@ -5,7 +5,10 @@
   <head>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
-  </head>
+    <style type="text/css">
+.padded_list li {margin-bottom: 1em}  
+    </style>
+</head>
   <body>
     <?php baliphy_header(); ?>
 
@@ -21,8 +24,8 @@
 
 	<!-- h3>Large Examples</h3 -->
 
-	<ol>
-	  <!-- li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li -->
+	<ol class="padded_list">
+	  <!-- <li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li> -->
 	  <li><a href="Examples/5S/25-GTR-DP4">5S rRNA - 25 sequences</a><br/>
 	    % bali-phy 25.fasta --smodel GTR+DP[4]</li>
 	  <li><a href="Examples/5S/48-GTR-DP4">5S rRNA - 48 sequences</a><br/>
