@@ -20,15 +20,17 @@ ol li {padding-bottom:0.5em}
 	<?php navbar(); ?>
 
 	<div class="main">
-	    
+
 	  <!-- we will need a 'full news': only put recent news here -->
 	  <!-- I suppose I also need a site w/ my bio to link to -->
-	   
+
 	    <h3><a name="intro">Introduction</a></h3>
-	    
+
 	    <div style="margin-left:1em">
-	      <p>04/30/14: <strong>BAli-Phy 2.3.1 released</strong><br/>
-               Add more codon models (<a href="news.php#2.3.1">more news</a>)</p>
+	      <p>05/24/14: <strong>BAli-Phy 2.3.4 released</strong><br/>
+
+	      <p>04/29/14: <strong>BAli-Phy 2.3 released</strong><br/>
+               Fix bugs and increase speed (<a href="news.php#2.3.1">more news</a>)</p>
 
 	      <p>04/26/14: Paper accepted: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">PDF</a>)</p>
 

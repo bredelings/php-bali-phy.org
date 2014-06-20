@@ -19,32 +19,29 @@
 	    
 	  <h2><a name="download">Download</a></h2>
 
-	<p>We provide both source code and binary executables.  We
-	currently provide executables for Windows, Mac OS X, and Linux.
-	If you provide us with additional executables then we
-	will post these as well. 
-	Some <a href="#req">additional software</a> may be required.</p>
+	<p>Please follow the installation instructions in the <a href="README.html">Manual</a>.</p>
 
 	<h3>Current Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.3.2</b>: <?php track_link("bali-phy-2.3.2.tar.gz","source") ?>  (5M) - <a href="news.php#2.3.2">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.3.4</b>: <?php track_link("bali-phy-2.3.4.tar.gz","source") ?>  (5M) - <a href="news.php#2.3">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.2-linux32.tar.gz","Pentium4 (43M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.2-linux64.tar.gz","Intel (26M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.4-linux32.tar.gz","Pentium4 (43M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.4-linux64.tar.gz","Intel (26M)") ?></li>
 		</ul>
 	      </li>
 	      <li>Mac OS (10.9 and up)
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.2-mac32.tar.gz","Intel (??M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.2-mac64.tar.gz","Intel (14M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.4-mac32.tar.gz","Intel (??M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.4-mac64.tar.gz","Intel (14M)") ?></li>
+                  <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.2-win32.tar.gz","Intel (50M)") ?></li>
-		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.2-win64.tar.gz","Intel (58M)") ?></li>
+		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.4-win32.tar.gz","Intel (31M)") ?></li>
+		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.4-win64.tar.gz","Intel (36M)") ?></li>
 		</ul>
 	      </li>
 	    </ul>

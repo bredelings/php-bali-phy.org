@@ -8,6 +8,8 @@
     <style type="text/css">
 ul.changelog li {font-weight: bold; color: blue}
 ul.changelog li li {font-weight: normal; color: black}
+.release_dates ul {display: inline; padding: 0; padding-left: 0.5}
+.release_dates li {display: inline; padding-left: 1em; white-space:nowrap}
     </style>
   </head>
   <body>
@@ -19,16 +21,76 @@ ul.changelog li li {font-weight: normal; color: black}
 	<td class="center" valign="top">
 	  <?php navbar(); ?>
 	  <div class="main">
-	  <h2><a name="news">News</a></h2>
+	  <h2><a name="news">Release Notes</a></h2>
 
-	  <h3><a name="2.2.1">Version 2.2.1 (3/20/14)</a></h3>
+	  <div class="release_dates"><b style="font-size:125%">Version 2.3:</b>
+          <ul>
+	    <li><b>[2.3.0]</b> - 04-29-2014</li>
+	    <li><b>[2.3.1]</b> - 04-30-2014</li>
+	    <li><b>[2.3.2]</b> - 05-08-2014</li>
+	    <li><b>[2.3.3]</b> - 05-11-2014</li>
+	    <li><b>[2.3.4]</b> - 05-24-2014</li>
+	  </ul>
+	  </div>
 
-	  <p>Make post-processing accept line endings in Linux/Mac/Windows format.</p>
+	  <ul class="changelog">
+	    <li>Speed
+	      <ul>
+		<li><span style="color:red">[0-100% faster]</span> Rewrite new model framework.</li>
+		<li><b>[2.3.2]</b> - Resample letter frequencies more, but not too much.</li>
+		<li><b>[2.3.3]</b> <span style="color:red">[30% faster]</span> Don't recalculate likelihoods unless necessary.</li>
+                <li><b>[2.3.4]</b> <span style="color:red">[0-25% faster]</span> Work with large trees more efficiently.</li>
+		<li><b>[2.3.4]</b> <span style="color:red">[0-100% faster]</span> Compute likelihoods on ambiguous sequences better.</li>
 
-	  <h3><a name="2.2.0">Version 2.2.0 (12/30/13)</a></h3>
+		<li>Note: faster than 2.2, but a bit slower than 2.1.
+	      </ul>
+	    </li>
 
-	  <p>Version 2.2.0 adds branch-site codon models.  Internal
-	  methods of representing models have been entirely rewritten.</p>
+	    <li>Models
+	      <ul>
+		<li><b>[2.3.3]</b> - Fix and enable M1a, M2a, M2a_Test, M7, M8, M8a, M8a_Test.</li>
+	      </ul>
+	    </li>
+
+	    <li>Internals
+	      <ul>
+		<li>Rewrite alignment MCMC</li>
+	      </ul>
+	    </li>
+
+	    <li>Input
+	      <ul>
+		<li><b>[2.3.4]</b> Handle ambiguous nucleotides K, B, D, M, H, and V in nucleotide and codon alphabets.</li>
+	      </ul>
+	    </li>
+
+	    <li>Summarization tools
+	      <ul>
+		<li><em>bp-analyze.pl</em> - Generate prettier HTML reports.</li>
+		<li><em>bp-analyze.pl</em> - Log all sub-commands.</li>
+		<li><em>bp-analyze.pl</em> - Handle /cygdrive/ on cygwin.</li>
+		<li><b>[2.3.2]</b> <em>bp-analyze.pl</em> - Correctly handle not having R.</li>
+		<li><b>[2.3.2]</b> - Update alignment diffs to be more useful.</li>
+	      </ul>
+	    </li>
+
+	    <li>Changes
+	      <ul>
+		<li>Replace 'meanIndelLengthminusOne' with 'meanIndelLength'</li>
+	      </ul>
+	    </li>
+	      
+
+	  </ul>
+
+
+
+	  <div class="release_dates"><b style="font-size:125%">Version 2.2:</b>
+          <ul>
+	    <li><b>[2.2.0]</b> - 12-30-2013</li>
+	    <li><b>[2.2.1]</b> - 03-20-2014</li>
+	  </ul>
+	  </div>
 
 <!-- 2.1.1 - 2.2.0
 P1.
@@ -111,12 +173,17 @@ P8.
 10/10/12 - Fix alignment-thin -down-to=num.
 -->
 	  <ul class="changelog">
+	    <li>Internals
+	      <ul>
+		<li>New model representation framework</li>
+	      </ul>
+	    </li>
+
 	    <li>Models
 	      <ul>
 		<li>site-dependent codon models: <strong>M1a</strong>, <strong>M2a</strong>, <strong>M2a_Test</strong>.</li>
 		<li>branch and site-dependent codon models: <strong>branch-site.</strong></li>
-		<li>codon frequency models: <strong>F1x4</strong>, <strong>F3x4</strong>, <strong>MG94</strong>, <strong>MG94w9</strong>, <strong>F61</strong>.</li>
-		<li>frequency models: <strong>+F</strong>, <strong>+gwF</strong>.</li>
+		<li>frequency models: <strong>+F</strong>, <strong>+gwF</strong>, <strong>F1x4</strong>, <strong>F3x4</strong>, <strong>MG94</strong>, <strong>MG94w9</strong>, <strong>F61</strong>.</li>
 	      </ul>
 	    </li>
 	    <li>Output
@@ -124,9 +191,6 @@ P8.
 		<li>Inference of ancestral sequences at internal nodes (optional).</li>
 		<li>Trees are written with names for internal nodes.</li>
 		<li>Allow computing Rao-Blackwellized expectations for some variables.</li>
-		<li>Branch lengths are now reported as parameters.</li>
-		<li>'lambda' renamed to logLambda.</li>
-		<li>'epsilon' replaced with meanIndelLengthMinusOne.</li>
 	      </ul>
 	    </li>
 	    <li>Input
@@ -138,15 +202,15 @@ P8.
 	    <li>Speed
 	      <ul>
 		<li>Lazily calculate eigensystems for substitution rate matrices.</li>
+		<li>[0-100% <span style="color:red">slower</span>] Rewrite model framework.</li>
 	      </ul>
 	    </li>
 	    <li>Summarization tools
 	      <ul>
-		<li>alignment-cat: improved ability to select,
-		reorder, strip gaps, and reverse the input
-		sequences.</li>
-		<li>trees-consensus: can now read trees with attribute
-		labels, labels for internal nodes, and quoted labels.</li>
+		<li><b>alignment-cat</b>: improved ability to select, reorder, strip gaps, and reverse the input sequences.</li>
+		<li><b>trees-consensus</b>: allow reading trees with node and branch attributes</li>
+		<li><b>trees-consensus</b>: allow reading trees with internal node names</li>
+		<li><b>[2.2.1]</b> Make post-processing accept line endings in Linux/Mac/Windows format.</li>
 	      </ul>
 	    </li>
 	    <li>Build
@@ -155,9 +219,14 @@ P8.
 		<li>Switch to C++11.</li>
 	      </ul>
 	    </li>
-	    <li>Various bug fixes</li>
+	    <li>Changes
+	      <ul>
+		<li>'lambda' renamed to logLambda.</li>
+		<li>'epsilon' replaced with meanIndelLengthMinusOne.</li>
+	      </ul>
+	    </li>
 	  </ul>
-
+	  
 	  <h3><a name="2.1.1">Version 2.1.1 (02/03/11)</a></h3>
 
 	  <p>Version 2.1.1 fixes bugs and is easier to use.</p>
@@ -192,7 +261,7 @@ P8.
 	      <li>Allow multiple separate genes (i.e. data partitions).
   	      <ul>
 	        <li>The alignment of each gene may be either fixed or variable.</li>
-	      </ul>	      
+	      </ul>
 	      </li>
 	      <li>Improve mixing when the tree has many tips (for MCMC)</li>
 	      <li>Improve initial search when the tree has many tips (for estimation)</li>
