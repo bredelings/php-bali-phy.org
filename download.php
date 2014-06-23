@@ -23,7 +23,8 @@
 
 	<h3>Current Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.3.4</b>: <?php track_link("bali-phy-2.3.4.tar.gz","source") ?>  (5M) - <a href="news.php#2.3">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.3.4</b>: 
+<a href="news.php#2.3">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
@@ -44,13 +45,15 @@
 		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.4-win64.tar.gz","Intel (36M)") ?></li>
 		</ul>
 	      </li>
+	      <li>Source: <?php track_link("bali-phy-2.3.4.tar.gz","C++ (5M)") ?></li>
+
 	    </ul>
 	  </li>
 	</ul>
 
 	<h3>Previous Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.2.1</b>: <?php track_link("bali-phy-2.2.1.tar.gz","source") ?>  (4.5M) - <a href="news.php#2.2.1">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.2.1</b>: <a href="news.php#2.2.1">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
@@ -72,13 +75,13 @@
 		  <li>64-bit MinGW: <?php track_link("bali-phy-2.2.1-win64.tar.gz","Intel (59M)") ?></li>
 		</ul>
 	      </li>
-	    </ul>
+	      <li>Source: <?php track_link("bali-phy-2.2.1.tar.gz","C++ (4.5M)") ?></li>	    </ul>
 	  </li>
 	</ul>
 
 	<h3>Previous Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.1.1</b>: <?php track_link("bali-phy-2.1.1.tar.gz","source") ?>  (11M) - <a href="news.php#2.1.1">What's new?</a>
+	  <li style="padding-bottom:1em"><b>2.1.1</b>: <a href="news.php#2.1.1">What's new?</a>
 	    <ul>
 	      <li>Linux 2.6.18+
 		<ul>
@@ -98,6 +101,7 @@
 		  <li>64-bit: not available yet.</li>
 		</ul>
 	      </li>
+	      <li>Source: <?php track_link("bali-phy-2.1.1.tar.gz","C++ (11M)") ?></li>	    
 	    </ul>
 	  </li>
 	</ul>
