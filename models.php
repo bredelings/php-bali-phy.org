@@ -26,9 +26,9 @@ ul.changelog li li {font-weight: normal; color: black}
 	  <div class="main">
 	  <h2>Models</h2>
 
-	  <p>BAli-Phy has been extended to handed generic models.  This ability is under rapid development, and also I haven't written much documentation yet.</p>
+	  <p>BAli-Phy has been extended to handle dynamic graphical models.  This approach lets the graph that relates the variables change in a natural way.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
-	  <p>The modelling language is based on Haskell.  It currently uses monads to represent sample random variables. </p>
+	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
 
 <pre>
 <code class="haskell">module Demo where
