@@ -28,20 +28,18 @@ ol li {padding-bottom:0.5em}
 
 	    <div style="margin-left:1em">
 	      <p>09/09/14: <strong>BAli-Phy 2.3.5 released</strong><br/>
+	      Fix bugs, enable generic models (<a href="news.php#2.3.1">more news</a>)</p>
 
-	      <p>04/29/14: <strong>BAli-Phy 2.3 released</strong><br/>
-               Fix bugs and increase speed (<a href="news.php#2.3.1">more news</a>)</p>
+	      <p>04/26/14: Paper accepted: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>)</p>
 
-	      <p>04/26/14: Paper accepted: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="branch-site-article.pdf">PDF</a>)</p>
-
-	      <p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
+	      <!-- p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
 		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">more news</a>)</p>
 
 	      <p>06/23/12: <strong>Branch-site model for positive selection</strong> - presented at SMBE2012</p>
 
 	      <p>05/01/11: <strong>Success with large 68-taxon tree!</strong><br/> 
 	      See <a href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
-al (2011) </a> for information on models and convergence criteria.</p>
+al (2011) </a> for information on models and convergence criteria.</p -->
 	    </div>
 
 	    <p><strong>BAli-Phy</strong> is MCMC software developed by <a
