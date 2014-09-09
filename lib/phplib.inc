@@ -55,13 +55,18 @@ function register_download(name)
 ';
 }
 
+function baliphy_logo()
+{
+  print"<h1 style=\"display:table-cell;padding:0.5em;padding-right:2em;\">";
+  include 'bali-phy-logo.html';
+  print"</h1>\n";
+}
+
 function baliphy_header() 
 {
   baliphy_page_scripts();
 
-  print"<h1 style=\"display:table-cell;padding:0.5em;padding-right:2em;\">";
-  include 'bali-phy-logo.html';
-  print"</h1>\n";
+  baliphy_logo();
 
   print "<h2 style=\"display:table-cell\">";
   print "<span style=\"font-style:italic\"><u>B</u>ayesian <u>Ali</u>gnment and <u>Phy</u>logeny estimation</span>";
