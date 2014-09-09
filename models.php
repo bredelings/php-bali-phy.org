@@ -5,6 +5,7 @@
     <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
+    <!-- link rel="stylesheet" href="highlight/styles/default.css"-->
     <style type="text/css">
 ul.changelog li {font-weight: bold; color: blue}
 ul.changelog li li {font-weight: normal; color: black}
@@ -15,6 +16,8 @@ ul.changelog li li {font-weight: normal; color: black}
   <body>
     <?php baliphy_header(); ?>
 
+    <!-- script src="highlight/highlight.pack.js"></script -->
+    <!-- script>hljs.initHighlightingOnLoad();</script -->
     <table class="layout">
       <tr>
 	<?php dirtree(); ?>
@@ -23,12 +26,12 @@ ul.changelog li li {font-weight: normal; color: black}
 	  <div class="main">
 	  <h2>Models</h2>
 
-	  <p>BAli-Phy has been extended to handed generic models.  This ability is under rapid development, and documentation is not yet available.</p>
+	  <p>BAli-Phy has been extended to handed generic models.  This ability is under rapid development, and also I haven't written much documentation yet.</p>
 
-	  <p>The modelling language is based on Haskell.  It currently uses monads to represent sample random variables.  Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.</p>
+	  <p>The modelling language is based on Haskell.  It currently uses monads to represent sample random variables. </p>
 
-<code>
-module Demo where
+<pre>
+<code class="haskell">module Demo where
 {
 import Distributions;
 
@@ -51,8 +54,9 @@ main = do
 }
 }
 </code>
+</pre>
 
-	  <p>For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+	  <p> Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 	  
 	</div>
