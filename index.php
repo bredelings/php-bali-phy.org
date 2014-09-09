@@ -27,7 +27,7 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>05/24/14: <strong>BAli-Phy 2.3.4 released</strong><br/>
+	      <p>09/09/14: <strong>BAli-Phy 2.3.5 released</strong><br/>
 
 	      <p>04/29/14: <strong>BAli-Phy 2.3 released</strong><br/>
                Fix bugs and increase speed (<a href="news.php#2.3.1">more news</a>)</p>
@@ -40,8 +40,7 @@ ol li {padding-bottom:0.5em}
 	      <p>06/23/12: <strong>Branch-site model for positive selection</strong> - presented at SMBE2012</p>
 
 	      <p>05/01/11: <strong>Success with large 68-taxon tree!</strong><br/> 
-	      See <a 
-href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
+	      See <a href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
 al (2011) </a> for information on models and convergence criteria.</p>
 	    </div>
 

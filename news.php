@@ -30,6 +30,7 @@ ul.changelog li li {font-weight: normal; color: black}
 	    <li><b>[2.3.2]</b> - 05-08-2014</li>
 	    <li><b>[2.3.3]</b> - 05-11-2014</li>
 	    <li><b>[2.3.4]</b> - 05-24-2014</li>
+	    <li><b>[2.3.5]</b> - 09-09-2014</li>
 	  </ul>
 	  </div>
 
@@ -41,14 +42,16 @@ ul.changelog li li {font-weight: normal; color: black}
 		<li><b>[2.3.3]</b> <span style="color:red">[30% faster]</span> Don't recalculate likelihoods unless necessary.</li>
                 <li><b>[2.3.4]</b> <span style="color:red">[0-25% faster]</span> Work with large trees more efficiently.</li>
 		<li><b>[2.3.4]</b> <span style="color:red">[0-100% faster]</span> Compute likelihoods on ambiguous sequences better.</li>
-
-		<li>Note: faster than 2.2, but a bit slower than 2.1.
+		<li>Note: faster than 2.2, but a bit slower than 2.1.</li>
 	      </ul>
 	    </li>
 
 	    <li>Models
 	      <ul>
 		<li><b>[2.3.3]</b> - Fix and enable M1a, M2a, M2a_Test, M7, M8, M8a, M8a_Test.</li>
+		<li><b>[2.3.5]</b> - Fix crashes with gamma and log-normal rate variation</li>
+		<li><b>[2.3.5]</b> - Fix parsing of frequency models like "+F" in LG+F+gamma_inv</li>
+		<li><b>[2.3.5]</b> - Enable generic models written as Haskell.</li>
 	      </ul>
 	    </li>
 
