@@ -79,34 +79,6 @@
 	  </li>
 	</ul>
 
-	<h3>Previous Release</h3>
-	<ul>
-	  <li style="padding-bottom:1em"><b>2.1.1</b>: <a href="news.php#2.1.1">What's new?</a>
-	    <ul>
-	      <li>Linux 2.6.18+
-		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.1.1-linux32.tar.gz","Pentium4 (43M)") ?></li>
-		  <li>64-bit: <?php track_link("bali-phy-2.1.1-linux64.tar.gz","Intel (50M)") ?></li>
-		</ul>
-	      </li>
-	      <li>Mac OS 10.4 and up
-		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.1.1-mac32-intel.tar.gz","Intel (17M)") ?></li>
-		  <li>64-bit: <?php track_link("bali-phy-2.1.1-mac64-intel.tar.gz","Intel (18M)") ?></li>
-		</ul>
-	      </li>
-	      <li>Windows (7, Vista, XP)
-		<ul>
-		  <li>32-bit: <?php track_link("bali-phy-2.1.1-mingw32-p4.tar.gz","Pentium 4 (29M)") ?></li>
-		  <li>64-bit: not available yet.</li>
-		</ul>
-	      </li>
-	      <li>Source: <?php track_link("bali-phy-2.1.1.tar.gz","C++ (11M)") ?></li>	    
-	    </ul>
-	  </li>
-	</ul>
-	
-
 
 	<!-- p>Mac OS X users note: some browsers may automatically append a '.gtar' to the end of these files.  Uncompression tool 'tar' will still recognize and uncompress these files.</p -->
 
