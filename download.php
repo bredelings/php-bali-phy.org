@@ -23,29 +23,29 @@
 
 	<h3>Current Release</h3>
 	<ul>
-	  <li style="padding-bottom:1em"><b>2.3.4</b>: 
+	  <li style="padding-bottom:1em"><b>2.3.5</b>: 
 <a href="news.php#2.3">What's new?</a>
 	    <ul>
 	      <li>Linux
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.4-linux32.tar.gz","Pentium4 (43M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.4-linux64.tar.gz","Intel (26M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.5-linux32.tar.gz","Pentium4 (43M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.5-linux64.tar.gz","Intel (26M)") ?></li>
 		</ul>
 	      </li>
 	      <li>Mac OS (10.9 and up)
 		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.4-mac32.tar.gz","Intel (??M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.4-mac64.tar.gz","Intel (14M)") ?></li>
+		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.5-mac32.tar.gz","Intel (??M)") ?></li -->
+		  <li>64-bit: <?php track_link("bali-phy-2.3.5-mac64.tar.gz","Intel (14M)") ?></li>
                   <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
 	      <li>Windows (Vista, XP, 7, 8)
 		<ul>
-		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.4-win32.tar.gz","Intel (31M)") ?></li>
-		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.4-win64.tar.gz","Intel (36M)") ?></li>
+		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.5-win32.tar.gz","Intel (30M)") ?></li>
+		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.5-win64.tar.gz","Intel (31M)") ?></li>
 		</ul>
 	      </li>
-	      <li>Source: <?php track_link("bali-phy-2.3.4.tar.gz","C++ (5M)") ?></li>
+	      <li>Source: <?php track_link("bali-phy-2.3.5.tar.gz","C++ (5M)") ?></li>
 
 	    </ul>
 	  </li>
