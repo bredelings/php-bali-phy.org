@@ -25,7 +25,32 @@ ul.changelog li li {font-weight: normal; color: black}
 
 	  <p>BAli-Phy has been extended to handed generic models.  This ability is under rapid development, and documentation is not yet available.</p>
 
-	  <p>The modelling language is based on Haskell.  Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.</p>
+	  <p>The modelling language is based on Haskell.  It currently uses monads to represent sample random variables.  Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.</p>
+
+<code>
+module Demo where
+{
+import Distributions;
+
+main = do
+{
+  n <- geometric 0.5;
+  Log "n" n;
+
+  p <- beta 10.0 1.0;
+  Log "p" p;
+
+  q <- cauchy 0.0 1.0;
+  Log "q" q;
+
+  x <- iid 10 (normal 0.0 1.0);
+  Log "x" x;
+ 
+  y <- list [normal (x!!i) 1.0 | i <- [0..9]];
+  Log "y" y;
+}
+}
+</code>
 
 	  <p>For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
