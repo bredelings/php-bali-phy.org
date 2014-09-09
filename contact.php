@@ -22,22 +22,13 @@ h1,h2,h3,h4 {clear: both;}
 	    <div class="main">
 
             <h2><a name="bug_reports">Bug reports</a></h2>
-	    <p>Bug reports are appreciated!  Please send bug reports
+	    <p>Please send bug reports
 	    to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.
-	    Please include the full error message, the version number
-	    and command line for bali-phy, and any other relevant information.
+ 	    Please include relevant information such as the full error message, the command line for
+	    bali-phy, and the version number.
 	    </p> 
 
             <h2><a name="lists">Mailing Lists</a></h2>
-            <h3>bali-phy-announce</h3>
-            <p><a href="http://groups.google.com/group/bali-phy-announce/">bali-phy-announce</a> is a low-volume mailing list for announcements of new BAli-Phy versions.  Subscribe if you want to be notified when a new version is released.</p>
-            <ul class="floatlist">
-              <li><a href="http://groups.google.com/group/bali-phy-announce/about">Info</a></li>
-              <li><a href="http://groups.google.com/group/bali-phy-announce/subscribe">Join</a></li>
-              <li><a href="http://groups.google.com/group/bali-phy-announce/post">Post</a></li>
-              <li><a href="http://groups.google.com/group/bali-phy-announce/topics">Past&nbsp;Announcements</a></li>
-            </ul>
-
 
             <h3>bali-phy-users@googlegroups.com</h3>
             <p><a href="http://groups.google.com/group/bali-phy-users/">bali-phy-users</a> is a list for asking and answering questions about using bali-phy.  Just send e-mail to bali-phy-users@googlegroups.com if you have questions!</p>
@@ -47,6 +38,15 @@ h1,h2,h3,h4 {clear: both;}
               <li><a href="http://groups.google.com/group/bali-phy-users/subscribe">Join</a></li>
               <li><a href="http://groups.google.com/group/bali-phy-users/post">Post</a></li>
               <li><a href="http://groups.google.com/group/bali-phy-users/topics">Discussions</a></li>
+            </ul>
+
+            <h3>bali-phy-announce@googlegroups.com</h3>
+            <p><a href="http://groups.google.com/group/bali-phy-announce/">bali-phy-announce</a> is a low-volume mailing list for announcements of new BAli-Phy versions.  Subscribe if you want to be notified when a new version is released.</p>
+            <ul class="floatlist">
+              <li><a href="http://groups.google.com/group/bali-phy-announce/about">Info</a></li>
+              <li><a href="http://groups.google.com/group/bali-phy-announce/subscribe">Join</a></li>
+              <li><a href="http://groups.google.com/group/bali-phy-announce/post">Post</a></li>
+              <li><a href="http://groups.google.com/group/bali-phy-announce/topics">Past&nbsp;Announcements</a></li>
             </ul>
 
 	    </div>

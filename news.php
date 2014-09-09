@@ -42,7 +42,6 @@ ul.changelog li li {font-weight: normal; color: black}
 		<li><b>[2.3.3]</b> <span style="color:red">[30% faster]</span> Don't recalculate likelihoods unless necessary.</li>
                 <li><b>[2.3.4]</b> <span style="color:red">[0-25% faster]</span> Work with large trees more efficiently.</li>
 		<li><b>[2.3.4]</b> <span style="color:red">[0-100% faster]</span> Compute likelihoods on ambiguous sequences better.</li>
-		<li>Note: faster than 2.2, but a bit slower than 2.1.</li>
 	      </ul>
 	    </li>
 

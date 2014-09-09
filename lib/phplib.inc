@@ -367,10 +367,10 @@ $menutree->add_children('Contact',
 			      'Mailing lists::contact.php#lists')
 			);
 		 
-$menutree->add_children('Mailing lists',
-			array('bali-phy-announce',
-	                      'bali-phy-users')
-			);
+#$menutree->add_children('Mailing lists',
+#			array('bali-phy-announce',
+#	                      'bali-phy-users')
+#			);
 		 
 
 function track_link($link,$name){
