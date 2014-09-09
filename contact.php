@@ -18,7 +18,7 @@ h1,h2,h3,h4 {clear: both;}
       <tr>
       <?php dirtree(); ?>
 	  <td class="center" valign="top">
-	    <?php navbar(); ?>
+	    <!-- ?php navbar(); ? -->
 	    <div class="main">
 
             <h2><a name="bug_reports">Bug reports</a></h2>

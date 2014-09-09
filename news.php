@@ -19,7 +19,7 @@ ul.changelog li li {font-weight: normal; color: black}
       <tr>
 	<?php dirtree(); ?>
 	<td class="center" valign="top">
-	  <?php navbar(); ?>
+	  <!-- ?php navbar(); ? -->
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 

@@ -16,7 +16,7 @@
     <tr>
       <?php dirtree(); ?>
       <td class="center" valign="top">
-	<?php navbar(); ?>
+	<!-- ?php navbar(); ? -->
 
 	<div class="main">
 	    

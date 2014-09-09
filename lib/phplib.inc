@@ -57,7 +57,7 @@ function register_download(name)
 
 function baliphy_logo()
 {
-  print"<h1 style=\"display:table-cell;padding:0.5em;padding-right:2em;\">";
+  print"<h1 style=\"display:table-cell;padding:0.2em;padding-bottom:0.8em\">";
   include 'bali-phy-logo.html';
   print"</h1>\n";
 }
@@ -66,11 +66,11 @@ function baliphy_header()
 {
   baliphy_page_scripts();
 
-  baliphy_logo();
+#  baliphy_logo();
 
-  print "<h2 style=\"display:table-cell\">";
-  print "<span style=\"font-style:italic\"><u>B</u>ayesian <u>Ali</u>gnment and <u>Phy</u>logeny estimation</span>";
-  print "</h2>\n";
+#  print "<h2 style=\"display:table-cell\">";
+#  print "<span style=\"font-style:italic\"><u>B</u>ayesian <u>Ali</u>gnment an#d <u>Phy</u>logeny estimation</span>";
+#  print "</h2>\n";
 }
 
 function baliphy_head() {
@@ -146,6 +146,8 @@ function dirtree() {
   global $menutree;
 
   print "<td valign=\"top\" class=\"sidebar\">\n";
+
+  baliphy_logo();
 
   print "  <div class=\"sidemenu\">";
   $menutree->draw_id('Top',2);

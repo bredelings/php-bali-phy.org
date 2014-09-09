@@ -17,7 +17,7 @@ ol li {padding-bottom:0.5em}
       <?php dirtree(); ?>
 
       <td class="center" valign="top">
-	<?php navbar(); ?>
+	<!-- ?php navbar(); ? -->
 
 	<div class="main">
 
