@@ -331,7 +331,6 @@ $menutree =& new Menu();
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
 			      'News::news.php',
-#			      'Features::features.php',
 			      'Download::download.php',
 			      'Examples::examples.php',
 			      'Documentation::docs.php',
@@ -357,6 +356,7 @@ $menutree->add_children('Documentation',
 			);
 		 
 $menutree->add_children('Contact',
+			array('Bug reports::contact.php#bug_reports')
 			array('Mailing lists::contact.php#lists')
 			);
 		 

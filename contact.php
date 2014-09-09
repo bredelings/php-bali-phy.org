@@ -21,6 +21,13 @@ h1,h2,h3,h4 {clear: both;}
 	    <?php navbar(); ?>
 	    <div class="main">
 
+            <h2><a name="bug_reports">Bug reports</a></h2>
+	    <p>Bug reports are appreciated!  Please send bug reports
+	    to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.
+	    Please include the full error message, the version number
+	    and command line for bali-phy, and any other relevant information.
+	    </p> 
+
             <h2><a name="lists">Mailing Lists</a></h2>
             <h3>bali-phy-announce</h3>
             <p><a href="http://groups.google.com/group/bali-phy-announce/">bali-phy-announce</a> is a low-volume mailing list for announcements of new BAli-Phy versions.  Subscribe if you want to be notified when a new version is released.</p>
