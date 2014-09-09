@@ -356,8 +356,8 @@ $menutree->add_children('Documentation',
 			);
 		 
 $menutree->add_children('Contact',
-			array('Bug reports::contact.php#bug_reports')
-			array('Mailing lists::contact.php#lists')
+			array('Bug reports::contact.php#bug_reports',
+			      'Mailing lists::contact.php#lists')
 			);
 		 
 $menutree->add_children('Mailing lists',
