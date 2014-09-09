@@ -46,10 +46,9 @@ al (2011) </a> for information on models and convergence criteria.</p -->
 	    href="http://people.duke.edu/~br51/">Ben Redelings</a>
 	    with <a href="http://www.biomath.ucla.edu/msuchard">Marc
 	    Suchard</a> for simultaneous Bayesian estimation of
-	    alignment and phylogeny (and other parameters).  [See the
-	    <a href="Redelings_and_Suchard_2005.pdf">paper</a> and the
-	    <a href="Suchard_and_Redelings_2006.pdf">Application
-	    Note</a>.]</p> 
+	    alignment and phylogeny (and other parameters).  It handles
+            generic Bayesian <a href="models.php">modeling</a> via 
+            probabilistic programming.</p> 
 
 	    <p><strong>BAli-Phy</strong> can estimate phylogenetic
 	    trees from sequence data when the alignment is uncertain.

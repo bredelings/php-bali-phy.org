@@ -47,10 +47,10 @@ ul.changelog li li {font-weight: normal; color: black}
 
 	    <li>Models
 	      <ul>
+		<li><b>[2.3.5] - Enable <a href="models.php">generic models written as Haskell</a>.</b></li>
 		<li><b>[2.3.3]</b> - Fix and enable M1a, M2a, M2a_Test, M7, M8, M8a, M8a_Test.</li>
 		<li><b>[2.3.5]</b> - Fix crashes with gamma and log-normal rate variation</li>
 		<li><b>[2.3.5]</b> - Fix parsing of frequency models like "+F" in LG+F+gamma_inv</li>
-		<li><b>[2.3.5]</b> - Enable generic models written as Haskell.</li>
 	      </ul>
 	    </li>
 

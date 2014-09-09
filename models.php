@@ -5,7 +5,7 @@
     <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
-    <!-- link rel="stylesheet" href="highlight/styles/default.css"-->
+    <link rel="stylesheet" href="highlight/styles/default.css">
     <style type="text/css">
 ul.changelog li {font-weight: bold; color: blue}
 ul.changelog li li {font-weight: normal; color: black}
@@ -16,8 +16,8 @@ ul.changelog li li {font-weight: normal; color: black}
   <body>
     <?php baliphy_header(); ?>
 
-    <!-- script src="highlight/highlight.pack.js"></script -->
-    <!-- script>hljs.initHighlightingOnLoad();</script -->
+    <script src="highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <table class="layout">
       <tr>
 	<?php dirtree(); ?>
