@@ -337,7 +337,7 @@ $menutree =& new Menu();
 
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
-			      'Models::models.php'
+			      'Models::models.php',
 			      'News::news.php',
 			      'Download::download.php',
 			      'Examples::examples.php',
