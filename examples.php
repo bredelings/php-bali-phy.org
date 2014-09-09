@@ -20,7 +20,7 @@
 
 	<div class="main">
 	    
-	  <h2><a name="examples">Examples</a></h2>
+	  <h2><a name="examples">Example analyses with results</a></h2>
 
 	<!-- h3>Large Examples</h3 -->
 
