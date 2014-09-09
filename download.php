@@ -88,7 +88,7 @@
 	system, including Linux, Windows, and Mac OS X.  Some
 	additional software must be installed, such as <a
 	href="http://www.cygwin.com">cygwin</a> on Windows.
-	To see the requirements in detail, view the section in the <a href="help.php#usersguide.php">User's Guide</a> on installation:</p>
+	To see the requirements in detail, view the section in the <a href="docs.php#usersguide.php">User's Guide</a> on installation:</p>
 
 	<ul>
 	  <li><a href="README.html#installation">2. Installation</a></li>
