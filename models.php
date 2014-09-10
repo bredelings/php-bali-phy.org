@@ -5,7 +5,7 @@
     <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
-    <link rel="stylesheet" href="highlight/styles/default.css">
+    <link rel="stylesheet" href="highlight/styles/arta2.css"></link>
     <style type="text/css">
 ul.changelog li {font-weight: bold; color: blue}
 ul.changelog li li {font-weight: normal; color: black}
