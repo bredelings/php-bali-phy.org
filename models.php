@@ -28,11 +28,11 @@ ul.changelog li li {font-weight: normal; color: black}
 
 	  <p>BAli-Phy has been extended to handle dynamic graphical models.  This approach lets the graph that relates the variables change in a natural way.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
-	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
+	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
 
 <pre><code class="haskell"><?php include('Demo.hs') ?></code></pre>
 
-	  <p> Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+	  <p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 	  
 	</div>
