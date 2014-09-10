@@ -30,31 +30,7 @@ ul.changelog li li {font-weight: normal; color: black}
 
 	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
 
-<pre>
-<code class="haskell">module Demo where
-{
-import Distributions;
-
-main = do
-{
-  n <- geometric 0.5;
-  Log "n" n;
-
-  p <- beta 10.0 1.0;
-  Log "p" p;
-
-  q <- cauchy 0.0 1.0;
-  Log "q" q;
-
-  x <- iid 10 (normal 0.0 1.0);
-  Log "x" x;
- 
-  y <- list [normal (x!!i) 1.0 | i <- [0..9]];
-  Log "y" y;
-}
-}
-</code>
-</pre>
+<pre><code class="haskell"><?php include('Demo.hs') ?></code></pre>
 
 	  <p> Some example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
