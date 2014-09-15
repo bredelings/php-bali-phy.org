@@ -24,9 +24,9 @@ ul.changelog li li {font-weight: normal; color: black}
 	<td class="center" valign="top">
 	  <!-- ?php navbar(); ? -->
 	  <div class="main">
-	  <h2>Models</h2>
+	  <h2>Graphical Models</h2>
 
-	  <p>BAli-Phy has been extended to handle dynamic graphical models.  This approach lets the graph that relates the variables change in a natural way.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
+  <p>BAli-Phy has been extended to handle <em>dynamic</em> graphical models.  This approach lets the graph that relates the variables change in a natural way, allows the use of data-structures, and will eventually allow random numbers of random variables.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
 	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
 
