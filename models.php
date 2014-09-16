@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <?php $page='Models'; ?>
+    <?php $page='Graphical&nbsp;Models'; ?>
     <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>

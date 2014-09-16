@@ -337,7 +337,7 @@ $menutree =& new Menu();
 
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
-			      'Graphical Models::models.php',
+			      'Graphical&nbsp;Models::models.php',
 			      'News::news.php',
 			      'Download::download.php',
 			      'Examples::examples.php',
@@ -354,7 +354,7 @@ $menutree->add_children('Download',
 			array('Stable&nbsp;Releases::download.php#releases',
  		  	      'Requirements::download.php#req',
 			      'Compilation::download.php#compilation',
-			      '"Live"&nbsp;Sources&nbsp;(GIT)::download.php#sourcecode')
+			      '"Live"&nbsp;Sources&nbsp;(GIT)&nbsp;&nbsp;&nbsp;&nbsp;::download.php#sourcecode')
 			);
 		 
 
