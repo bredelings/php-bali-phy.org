@@ -24,17 +24,49 @@ ul.changelog li li {font-weight: normal; color: black}
 	<td class="center" valign="top">
 	  <!-- ?php navbar(); ? -->
 	  <div class="main">
-	  <h2>Graphical Models</h2>
+	  <h1>Dynamic Graphical Models</h1>
 
   <p>BAli-Phy has been extended to handle <em>dynamic</em> graphical models.  This approach lets the graph that relates the variables change in a natural way, allows the use of data-structures, and will eventually allow random numbers of random variables.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
+<h2>Graphical Models</h2>
 	  <p>We take the probabilistic programming approach with Haskell as the modelling language.  It currently uses monads to represent sampling random variables. Not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
 
-<pre><code class="haskell"><?php include('Demo.hs') ?></code></pre>
+<pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
 	  <p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
-	  
+<h2>Random data structures</h2>
+<p>We can also sample random data structures.  For example, the <em>iid</em> distribution returns a random list.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to samples sums of squares.
+<pre><code class="haskell"><?php include('Demo2.hs') ?></code></pre>
+Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument <em>x</em> and returns <em>x*x</em>.
+</p>
+
+
+<h2>Dynamic graphs I: if-then-else</h2>
+<p>While the graphs in normal graphical models can be changed, they do not change themselves automatically.  In this example, 
+<pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
+While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this:
+<div align="center">
+<img src="graphical_model3.svg" style="padding:1em; padding-left: 3em; padding-right:3em"/>
+<img src="graphical_model4.svg" style="padding:1em; padding-left: 3em; padding-right:3em"/>
+</div>
+In contrast, a traditional graphical model makes <em>x</em> always depend on everything that it <em>might</em> depend on.
+<div align="center">
+<img src="graphical_model5.svg" style="padding:1em; padding-left: 3em; padding-right:3em"/>
+</div>
+
+<h2>Dynamic graphs II: arrays with random subscripts</h2>
+<p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different values of <em>ys</em> will be exactly equal, if the belong to the same category:
+
+<pre><code class="haskell"><?php include('Demo4.hs') ?></code></pre>
+  In Haskell, we use the <em>!!</em> operator to subscript a list.  The C equivalent of <em>xs!!(categories!!i))</em> would be something like <em>xs[categories[i]]</em>.
+
+<h2>Random sampling via recursive functions: Brownian Bridge</h2>
+<p>We can use recursive functions to randomly sample lists of random values.  Here, define a function <em>random_walk</em> that produces a list of random values starting from <em>x0</em>.
+<pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
+  The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
+
+<p>The <em>Observe</em> command species observed data.  Here we find that the next point after the 10th value of <em>zs</em> is 2.0.  This constraints the random walk to end at 2.0, creating a Brownian Bridge.</p>
 	</div>
 	  </td>	      
       </tr>
