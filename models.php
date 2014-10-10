@@ -26,10 +26,24 @@ ul.changelog li li {font-weight: normal; color: black}
 	  <div class="main">
 	  <h1>Dynamic Graphical Models</h1>
 
-  <p>BAli-Phy has been extended to handle <em>dynamic</em> graphical models.  This approach lets the graph that relates the variables change in a natural way, allows the use of data-structures with random fields, and will eventually allow random numbers of random variables.  The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
+<h2>Graphical models</h2>
 
-<h2>Graphical Models</h2>
-	  <p>We use Haskell as the modelling language.  We currently use monads to represent sampling random variables. Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
+<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use an R-like language to flexibly express generic models, and to construct models in a modular fashion.
+
+
+<h2>Dynamic graphical models</h2>
+<p>BAli-Phy attempts to extend this paradigm by implementing <em>dynamic</em> graphical models via <a href="http://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming</a>.  This approach 
+<ul>
+<li> is Turing-complete.
+<li> allows a single model to express a changing graph.
+<li> allows the use of data-structures with random fields.
+<li> treats functions (with recursion) as first-class objects.
+<li> will (<em>eventually</em>) allow random numbers of random variables.
+</ul>
+The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
+
+<h2>Modelling language</h2>
+<p>We use Haskell as the modelling language.  We currently use monads to represent sampling random variables. Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
 
 <pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
