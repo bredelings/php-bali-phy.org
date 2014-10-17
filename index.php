@@ -30,7 +30,9 @@ ol li {padding-bottom:0.5em}
 	      <p>09/09/14: <strong>BAli-Phy 2.3.5 released</strong><br/>
 	      Fix bugs, enable generic models (<a href="news.php#2.3.1">more news</a>)</p>
 
-	      <p>04/26/14: Paper accepted: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>)</p>
+	      <p>08/26/14: BAli-Phy used for large <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117-taxon tree</a> by <a href="http://www.biomedcentral.com/1471-2164/15/718">McKenzie et. al. </a>
+
+	      <p>05/27/14: Paper published: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>)</p>
 
 	      <!-- p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
 		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">more news</a>)</p>
