@@ -28,26 +28,30 @@ ul.changelog li li {font-weight: normal; color: black}
 
 <h2>Graphical models</h2>
 
-<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use an R-like language to flexibly express generic models, and to construct models in a modular fashion.
+<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use XML or an <a href="http://www.r-project.org/">R</a>-like language to flexibly express generic models, and to construct models in a modular fashion [<a href="http://sysbio.oxfordjournals.org/content/63/5/753.full">1</a>].
+
+<p>BAli-Phy currently does inference using <a href="http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">MCMC</a> via both <a href="http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">MH</a> and <a href="http://en.wikipedia.org/wiki/Slice_sampling">slice sampling</a>. We have not yet added any support for <a href="http://en.wikipedia.org/wiki/Particle_filter">SMC</a>.
 
 
 <h2>Dynamic graphical models</h2>
-<p>BAli-Phy attempts to extend this paradigm by implementing <em>dynamic</em> graphical models via <a href="http://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming</a>.  This approach 
+<p>BAli-Phy attempts to extend this paradigm by implementing <em>dynamic</em> graphical models via <a href="http://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming</a>.  The approach is similar to <a href="http://projects.csail.mit.edu/church/wiki/Church">Church</a> and <a href="http://probcomp.csail.mit.edu/venture/">Venture</a> because it uses execution traces to represent the dynamic graph.  The approach
 <ul>
-<li> is Turing-complete.
-<li> allows a single model to express a changing graph.
-<li> allows the use of data-structures with random fields.
-<li> treats functions (with recursion) as first-class objects.
+<li> is <a href="http://en.wikipedia.org/wiki/Turing_completeness"><strong>Turing-complete</strong></a>.
+<li> allows a single model to express a <strong>changing graph</strong>.<ul>
+<li> allows <strong>recursive</strong> functions
 <li> will (<em>eventually</em>) allow random numbers of random variables.
+</ul>
+<li> allows the use of <strong>data-structures</strong> with random fields.
+<li> treats <strong>functions</strong> as first-class objects.
 </ul>
 The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
 <h2>Modelling language</h2>
-<p>We use Haskell as the modelling language.  We currently use monads to represent sampling random variables. Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>
+<p>We use <a href="http://tryhaskell.org">Haskell</a> as the modelling language.  This has a number of benefits, including <a href="http://en.wikipedia.org/wiki/Lazy_evaluation">lazy evaluation</a>, static type checking, a module system, and so on.  We currently use monads and <em>do</em>-notation to represent sampling random variables:
 
 <pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
-	  <p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+<p> Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>	  <p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 <h2>Random data structures</h2>
 <p>We can also sample random data structures.  For example, the <em>iid</em> distribution returns a random list.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.
