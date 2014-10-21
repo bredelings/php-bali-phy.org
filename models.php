@@ -28,21 +28,16 @@ ul.changelog li li {font-weight: normal; color: black}
 
 <h2>Graphical models</h2>
 
-<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use XML or an <a href="http://www.r-project.org/">R</a>-like language to flexibly express generic models, and to construct models in a modular fashion [<a href="http://sysbio.oxfordjournals.org/content/63/5/753.full">1</a>].
-
-<p>BAli-Phy currently does inference using <a href="http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">MCMC</a> via both <a href="http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">MH</a> and <a href="http://en.wikipedia.org/wiki/Slice_sampling">slice sampling</a>. We have not yet added any support for <a href="http://en.wikipedia.org/wiki/Particle_filter">SMC</a>.
+<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use languages like XML or <a href="http://www.r-project.org/">R</a> to flexibly express generic models, and to construct models in a modular fashion [<a href="http://sysbio.oxfordjournals.org/content/63/5/753.full">1</a>]. BAli-Phy currently does inference using <a href="http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">MCMC</a> via both <a href="http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">MH</a> and <a href="http://en.wikipedia.org/wiki/Slice_sampling">slice sampling</a>. We have not yet added any support for <a href="http://en.wikipedia.org/wiki/Particle_filter">SMC</a>.
 
 
 <h2>Dynamic graphical models</h2>
-<p>BAli-Phy attempts to extend this paradigm by implementing <em>dynamic</em> graphical models via <a href="http://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming</a>.  The approach is similar to <a href="http://projects.csail.mit.edu/church/wiki/Church">Church</a> and <a href="http://probcomp.csail.mit.edu/venture/">Venture</a> because it uses execution traces to represent the dynamic graph.  The approach
+<p>BAli-Phy attempts to extend this paradigm by implementing <em>dynamic</em> graphical models via <a href="http://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming</a>.  The approach is similar to <a href="http://projects.csail.mit.edu/church/wiki/Church">Church</a> and <a href="http://probcomp.csail.mit.edu/venture/">Venture</a> because it uses execution traces to represent the dynamic graph and is <a href="http://en.wikipedia.org/wiki/Turing_completeness">Turing-complete</a>.  The approach
 <ul>
-<li> is <a href="http://en.wikipedia.org/wiki/Turing_completeness"><strong>Turing-complete</strong></a>.
-<li> allows a single model to express a <strong>changing graph</strong>.<ul>
-<li> allows <strong>recursive</strong> functions
-<li> will (<em>eventually</em>) allow random numbers of random variables.
-</ul>
+<li> allows a single model to express a <strong>changing graph</strong>.
+<li> treats <strong>functions</strong> as first-class objects and allows <strong>recursive</strong> functions.
 <li> allows the use of <strong>data-structures</strong> with random fields.
-<li> treats <strong>functions</strong> as first-class objects.
+<li> will (<em>eventually</em>) allow random numbers of random variables.
 </ul>
 The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
 
@@ -61,7 +56,7 @@ Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument 
 
 
 <h2>Dynamic graphs I: if-then-else</h2>
-<p>Traditional graphical models contain graphs that never change.  Changing the graph involves changing the model.  In contrast, <em>dynamic</em> graphical models use a single model to specify a changing graph.
+<p>The graph in a traditional graphical model never changes.  Changing the graph involves changing the model.  In contrast, <em>dynamic</em> graphical models use a single model to specify a changing graph.  One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:
 <pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
 While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
 <div align="center">
@@ -74,7 +69,7 @@ In contrast, a traditional graphical model makes <em>x</em> always depend on eve
 </div>
 
 <h2>Dynamic graphs II: arrays with random subscripts</h2>
-<p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different elements of <em>ys</em> will be exactly equal, if the belong to the same category:
+<p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different elements of <em>ys</em> will be exactly equal, if they belong to the same category:
 
 <pre><code class="haskell"><?php include('Demo4.hs') ?></code></pre>
   In Haskell, we use the <em>!!</em> operator to subscript a list.  The C equivalent of <em>xs!!(categories!!i))</em> would be something like <em>xs[categories[i]]</em>.
