@@ -96,7 +96,7 @@ al (2011) </a> for information on models and convergence criteria.</p -->
 	      and Phylogeny</b>, <em>Systematic Biology</em>, <b>54</b>(3):401-418, 2005&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2005.pdf">PDF</a>]</li>
 	      <li>Suchard MA and Redelings BD <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>, <em>Bioinformatics</em>, <b>22</b>:2047-2048, 2006. &nbsp; &nbsp; [<a href="Suchard_and_Redelings_2006.pdf">PDF</a>]</li>
 	      <li>Redelings BD and Suchard MA. <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>. <em>BMC Evolutionary Biology</em>, <b>7</b>:40, 2007.&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2007.pdf">PDF</a>]</li>
-	      <li>Redelings BD. <b>Erasing Errors Due to Alignment When Estimating Positive Selection</b>. <em>Mol. Biol. Evo.</em> <b>31</b>(8), 2014. [<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>]</li>
+	      <li>Redelings BD. <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>. <em>Mol. Biol. Evo.</em> <b>31</b>(8), 2014. [<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>]</li>
 	    </ol>
 	</div>
 	</td>  
