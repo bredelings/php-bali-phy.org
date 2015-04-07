@@ -1,0 +1,20 @@
+[
+    {
+        "Version": "0.0.2",
+        "Description": "Estimate self-fertilization rates and other mating system parameters",
+        "SHA1": "e51bda76566604fbaabdb5881be12acf181953cb",
+        "Homepage": "https://github.com/bredelings/BayesianEstimatorSelfing",
+        "Maintainer": "Ben Redelings <benjamin.redelings@duke.edu>",
+        "Source": "http://www.bali-phy.org/packages/",
+        "Package": "BES"
+    },
+    {
+        "Version": "0.0.1",
+        "Description": "Dummy",
+        "SHA1": "e51bda76566604fbaabdb5881be12acf181953cb",
+        "Homepage": "https://github.com/bredelings/BayesianEstimatorSelfing",
+        "Maintainer": "Ben Redelings <benjamin.redelings@duke.edu>",
+        "Source": "http://www.bali-phy.org/packages/",
+        "Package": "Dummy"
+    }
+]
