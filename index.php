@@ -27,8 +27,8 @@ ol li {padding-bottom:0.5em}
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>03/26/15: <strong>BAli-Phy 2.3.6 released</strong><br/>
-	      Fix bugs, add M3 model (<a href="news.php">more news</a>)</p>
+	      <p>06/15/15: <strong>BAli-Phy 2.3.7 released</strong><br/>
+	      Infrastructure improvements (<a href="news.php">more news</a>)</p>
 
 	      <p>08/26/14: BAli-Phy used for large <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117-taxon tree</a> by <a href="http://www.biomedcentral.com/1471-2164/15/718">McKenzie et. al. </a>
 
