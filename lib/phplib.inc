@@ -4,7 +4,7 @@ function baliphy_footer() {
 
    echo  "<div style=\"font-size:70%;\">\n";
    echo "<hr>\n";
-   echo "<strong>comments and suggestions:</strong> benjamin . redelings * duke + edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>";
+   echo "<strong>comments and suggestions:</strong> benjamin . redelings * gmail + com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>";
 //   echo "Last revised: ".Date("M d g:i:s, Y",getLastMod())."<br>";
    print "</div>\n\n";
 };
