@@ -33,6 +33,7 @@ ul.changelog li li {font-weight: normal; color: black}
 	    <li><b>[2.3.5]</b> - 09-09-2014</li>
 	    <li><b>[2.3.6]</b> - 03-26-2015</li>
             <li><b>[2.3.7]</b> - 06-15-2015</li>
+	    <li><b>[2.3.8]</b> - 01-30-2015</li>
 	  </ul>
 	  </div>
 
@@ -45,6 +46,7 @@ ul.changelog li li {font-weight: normal; color: black}
                 <li><b>[2.3.4]</b> <span style="color:red">[0-25% faster]</span> Work with large trees more efficiently.</li>
 		<li><b>[2.3.4]</b> <span style="color:red">[0-100% faster]</span> Compute likelihoods on ambiguous sequences better.</li>
 		<li><b>[2.3.6]</b> <span style="color:red">[0-50% faster]</span> Speed improvements for graphical models.
+		<li><b>[2.3.8]</b> <span style="color:red">[~10% faster]</span> More efficient object representation.
 	      </ul>
 	    </li>
 
@@ -104,7 +106,11 @@ ul.changelog li li {font-weight: normal; color: black}
 	      </ul>
 	    </li>
 	      
-
+	    <li>Fixes
+	      <ul>
+		<li><b>[2.3.8]</b> Stop crashing on <em>gamma[n]</em> models.</li>
+	      </ul>
+	    </li>
 	  </ul>
 
 
