@@ -36,7 +36,7 @@
                   <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
 		</ul>
 	      </li>
-	      <li>Windows (Vista, XP, 7, 8)
+	      <li>Windows (Vista, XP, 7, 8, 10)
 		<ul>
 		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.8-win32.tar.gz","Intel (34M)") ?></li>
 		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.8-win64.tar.gz","Intel (34M)") ?></li>
