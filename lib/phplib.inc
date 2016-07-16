@@ -57,8 +57,9 @@ function register_download(name)
 
 function baliphy_logo()
 {
+  global $top;
   print"<h1 style=\"display:table-cell;padding:0.2em;padding-bottom:0.8em\">";
-  include 'bali-phy-logo.html';
+  include "{$top}/bali-phy-logo.html";
   print"</h1>\n";
 }
 
@@ -76,22 +77,23 @@ function baliphy_header()
 function baliphy_head() {
   global $menutree;
   global $page;
+  global $top;
   $id = $page;
   if (func_num_args()==1) 
     $id = func_get_arg(0);
 
   print  "<title>BAli-Phy: $id </title>";
 
-    print '
-	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    print "
+	<link rel=\"icon\" href=\"{$top}/favicon.ico\" type=\"image/x-icon\"/>
+	<link rel=\"shortcut icon\" href=\"{$top}/favicon.ico\" type=\"image/x-icon\"/>
 
-    	<link rel="stylesheet" type="text/css" href="Style/layout.css"/>
-    	<link rel="stylesheet" type="text/css" href="Style/colorscheme.css"/>
-    	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    	<link rel=\"stylesheet\" type=\"text/css\" href=\"{$top}/Style/layout.css\"/>
+    	<link rel=\"stylesheet\" type=\"text/css\" href=\"{$top}/Style/colorscheme.css\"/>
+    	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>
 
-    	<meta name="keywords" content="bayesian, statistical alignment, phylogeny, indel"/>
-';
+    	<meta name=\"keywords\" content=\"bayesian, statistical alignment, phylogeny, indel\"/>
+";
 }
 
 function navbar() {
@@ -232,13 +234,15 @@ class Menu {
   }
 
   function Menu() {
-    $this->entries['Top'] =& new MenuEntry('Top','http://www.biomath.ucla.edu/index.php');
+    global $top;
+    $this->entries['Top'] =& new MenuEntry('Top',"{$top}");
   }
 
   function add_children($parent,$children) {
+    global $top;
     foreach($children as $child) {
       list($title,$url) = split('::',$child);
-      $this->AddEntry(new MenuEntry($title,$url),$parent);
+      $this->AddEntry(new MenuEntry($title,"{$top}/{$url}"),$parent);
     }
   }
 
@@ -338,13 +342,20 @@ $menutree =& new Menu();
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
 			      'Graphical&nbsp;Models::models.php',
-			      'News::news.php',
+			      'Releases::releases/',
 			      'Download::download.php',
 			      'Examples::examples.php',
 			      'Documentation::docs.php',
 			      'Contact::contact.php')
 			);
 
+$menutree->add_children('Releases',
+			array('Release 2.3 *::releases/2.3/',
+			      'Release 2.2::releases/2.2/',
+			      'Release 2.1::releases/2.1/'
+			      )
+			);
+		 
 $menutree->add_children('Welcome!',
 			array('Introduction::index.php#intro',
 			      'References::index.php#refs')

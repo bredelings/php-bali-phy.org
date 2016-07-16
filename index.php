@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <?php $top='.'; ?>
+  <?php $page='Welcome!'; ?>
+  <?php require('lib/phplib.inc') ?>
   <head>
-    <?php $page='Welcome!'; ?>
-    <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <style type="text/css">
 ol li {padding-bottom:0.5em}
@@ -28,20 +29,11 @@ ol li {padding-bottom:0.5em}
 
 	    <div style="margin-left:1em">
 	      <p>01/30/16: <strong>BAli-Phy 2.3.8 released</strong><br/>
-	      Speed improvements (<a href="news.php">more news</a>)</p>
+	      Speed improvements (<a href="releases/2.3/">more news</a>)</p>
 
 	      <p>08/26/14: BAli-Phy used for large <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117-taxon tree</a> by <a href="http://www.biomedcentral.com/1471-2164/15/718">McKenzie et. al. </a>
 
 	      <p>05/27/14: Paper published: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>)</p>
-
-	      <!-- p>12/30/13: <strong>BAli-Phy 2.2.0 released</strong><br/>
-		Successfully accounts for alignment uncertainty in testing for (diversifying) positive selection. (<a href="news.php#2.2.0">more news</a>)</p>
-
-	      <p>06/23/12: <strong>Branch-site model for positive selection</strong> - presented at SMBE2012</p>
-
-	      <p>05/01/11: <strong>Success with large 68-taxon tree!</strong><br/> 
-	      See <a href="http://www.mycologia.org/cgi/content/short/103/2/361">Gaya et 
-al (2011) </a> for information on models and convergence criteria.</p -->
 	    </div>
 
 	    <p><strong>BAli-Phy</strong> is MCMC software developed by <a

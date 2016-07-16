@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <?php $top='.'; ?>
   <?php $page='Download'; ?>
   <?php require('lib/phplib.inc') ?>
   <head>
@@ -24,7 +25,7 @@
 	<h3>Current Release</h3>
 	<ul>
 	  <li style="padding-bottom:1em"><b>2.3.8</b>: 
-<a href="news.php#2.3">What's new?</a>
+<a href="releases/current/">What's new?</a>
 	    <ul>
 	      <li>Linux (64-bit): <?php track_link("bali-phy-2.3.8-linux64.tar.gz","Intel (26M)") ?></li>
 	      <!-- li>Linux 32-bit: <?php track_link("bali-phy-2.3.8-linux32.tar.gz","Pentium4 (43M)") ?></li -->

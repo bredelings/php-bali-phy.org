@@ -86,3 +86,7 @@ tr {
    margin: 0.5em;
 }
 
+ul.changelog li {font-weight: bold; color: blue}
+ul.changelog li li {font-weight: normal; color: black}
+.release_dates ul {display: inline; padding: 0; padding-left: 0.5}
+.release_dates li {display: inline; padding-left: 1em; white-space:nowrap}

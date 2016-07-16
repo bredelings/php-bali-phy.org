@@ -1,17 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <?php $top='.'; ?>
+  <?php $page='Graphical&nbsp;Models'; ?>
+  <?php require('lib/phplib.inc') ?>
   <head>
-    <?php $page='Graphical&nbsp;Models'; ?>
-    <?php require('lib/phplib.inc') ?>
     <?php baliphy_head(); ?>
     <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
     <link rel="stylesheet" href="highlight/styles/arta2.css"></link>
-    <style type="text/css">
-ul.changelog li {font-weight: bold; color: blue}
-ul.changelog li li {font-weight: normal; color: black}
-.release_dates ul {display: inline; padding: 0; padding-left: 0.5}
-.release_dates li {display: inline; padding-left: 1em; white-space:nowrap}
-    </style>
   </head>
   <body>
     <?php baliphy_header(); ?>
