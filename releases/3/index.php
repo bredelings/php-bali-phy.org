@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <?php $top="../.."; ?>
+  <?php $page="Release 2.3 *"; ?>
+  <?php require("{$top}/lib/phplib.inc") ?>
+  <head>
+    <?php baliphy_head(); ?>
+    <title>BAli-Phy: Software for Bayesian Estimation of Alignment and Phylogeny</title>
+  </head>
+  <body>
+    <?php baliphy_header(); ?>
+
+    <table class="layout">
+      <tr>
+	<?php dirtree(); ?>
+	<td class="center" valign="top">
+	  <!-- ?php navbar(); ? -->
+	  <div class="main">
+	  <h2><a name="news">Release Notes</a></h2>
+
+	  <div class="release_dates"><b style="font-size:125%">Version 3:</b>
+          <ul>
+	    <li><b>[3.0]</b> - ??-??-2017</li>
+	  </ul>
+	  </div>
+
+	  <ul class="changelog">
+	    <li>Major new features
+	      <ul>
+		<li><b>[planned]</b> ??</li>
+	      </ul>
+	    </li>
+
+	    <li>Speed
+	      <ul>
+		<li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
+		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
+		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
+		<li><span style="color:red">[??% faster]</span> Faster computation when lots of gaps (fixed A).</li>
+		<li><span style="color:red">[??% faster]</span> Faster computation when lots of gaps (variable A).</li>
+	      </ul>
+	    </li>
+
+	    <li>Models
+	      <ul>
+		<li><b>04/14/16</b> Allow specifying constant model parameters.</li>
+		<li><b>04/14/16</b> Add Jukes-Cantor model name.</li>
+		<li><b>06/21/16</b> Make priors stop favoring large trees when lots of leaves</li>
+		<li><b>[planned]</b> Allow specifying random parameters.</li>
+	      </ul>
+	    </li>
+
+
+	    <li>MCMC
+	      <ul>
+		<li><b>[planned]</b> Improve burnin by resampling pairwise A + branch length.
+		<li><b>[planned]</b> Improve mixing by resampling all pairwise As + (lambda,epsilon).
+	      </ul>
+	      </li>
+
+	    <li>Internals
+	      <ul>
+		<li><b>10/22/15</b> Allow sharing unchanged steps when called result changes.</li>
+		<li><b>03/17/16</b> Move tree into the machine.</li>
+		<li><b>04/07/16</b> Compute likelihoods in separate contexts - no more invalid indices/CLs</li>
+		<li><b>04/23/16</b> Remove subA indices.</li>
+		<li><b>04/29/16</b> Avoid recomputing alignment matrix.</li>
+		<li><b>05/18/16</b> Replace conditional likelihoods vector<Matrix> with a slab of memory</li>
+		<li><b>06/09/16</b> Incremental GC (part 1) - unmap unused steps/results <em>before</em> we destroy regs. </li>
+		<li><b>06/22/16</b> Cache tree prior</b>
+		<li><b>[planned]</b> Compute likelihood in the machine.</li>
+	      </ul>
+	    </li>
+
+	    <li>Misc
+	      <ul>
+		<li>Update BOOST, Eigen.</li>
+	      </ul>
+	    </li>
+
+	    <li>Input
+	      <ul>
+		<li><b>??</b> ??</li>
+	      </ul>
+	    </li>
+
+	    <li>Summarization tools
+	      <ul>
+		<li><em>bp-analyze.pl</em> - ??.</li>
+	      </ul>
+	    </li>
+
+	    <li>Changes
+	      <ul>
+		<li><b>04/27/16</b> - Clean up command-line options somewhat.</li>
+	      </ul>
+	    </li>
+	      
+	    <li>Fixes
+	      <ul>
+		<li>4/14/16</li> Fix gwF to actually use 'f' parameter.
+	      </ul>
+	    </li>
+	  </ul>
+
+
+
+	</div>
+	  </td>	      
+      </tr>
+    </table>
+    
+    <?php baliphy_footer(); ?>
+  </body>
+</html>
