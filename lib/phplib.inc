@@ -342,15 +342,16 @@ $menutree =& new Menu();
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
 			      'Graphical&nbsp;Models::models.php',
-			      'Releases::releases/',
+			      'Versions::releases/',
 			      'Download::download.php',
 			      'Examples::examples.php',
 			      'Documentation::docs.php',
 			      'Contact::contact.php')
 			);
 
-$menutree->add_children('Releases',
-			array('Release 2.3 *::releases/2.3/',
+$menutree->add_children('Versions',
+			array('Unreleased 3 (alpha)::releases/3/',
+			      'Release 2.3 *::releases/2.3/',
 			      'Release 2.2::releases/2.2/',
 			      'Release 2.1::releases/2.1/'
 			      )
@@ -362,7 +363,7 @@ $menutree->add_children('Welcome!',
 			);
 		 
 $menutree->add_children('Download',
-			array('Stable&nbsp;Releases::download.php#releases',
+			array('Stable&nbsp;Versions::download.php#releases',
  		  	      'Requirements::download.php#req',
 			      'Compilation::download.php#compilation',
 			      '"Live"&nbsp;Sources&nbsp;(GIT)&nbsp;&nbsp;&nbsp;&nbsp;::download.php#sourcecode')
