@@ -45,7 +45,7 @@
 
 	    <li>Models
 	      <ul>
-		<li><b>04/14/16</b> Allow specifying constant model parameters like HKY[kappa=2]</li>
+		<li><b>04/14/16</b> Allow specifying constant model parameters with e.g. <b>HKY[kappa=2]</b></li>
 		<!-- li><b>04/14/16</b> Add Jukes-Cantor model name.</li -->
 		<!-- li><b>[planned]</b> Allow specifying random parameters.</li -->
 	      </ul>
