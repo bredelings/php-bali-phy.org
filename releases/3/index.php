@@ -25,15 +25,16 @@
 	  </div>
 
 	  <ul class="changelog">
+	    <!--
 	    <li>New features
 	      <ul>
-		<li>Allow analyzing 1- and 2-sequence alignments.</li>
 	      </ul>
 	    </li>
+	    -->
 
 	    <li>Speed
 	    <ul>
-		<li><span style="color:red">[??% faster]</span></li>
+		<li><span style="color:red">[>50% faster]</span> So far.</li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -44,24 +45,22 @@
 
 	    <li>Models
 	      <ul>
-		<li><b>04/14/16</b> Allow specifying constant model parameters.</li>
-		<li><b>04/14/16</b> Add Jukes-Cantor model name.</li>
-		<li><b>06/21/16</b> Make priors stop favoring large trees when lots of leaves</li>
+		<li><b>04/14/16</b> Allow specifying constant model parameters like HKY[kappa=2]</li>
+		<!-- li><b>04/14/16</b> Add Jukes-Cantor model name.</li -->
 		<!-- li><b>[planned]</b> Allow specifying random parameters.</li -->
 	      </ul>
 	    </li>
 
 
-	    <li>MCMC
+	    <!-- li>MCMC
 	    <ul>
 	      <li></li>
-	      <!--
 		<li><b>[planned]</b> Improve burnin by resampling pairwise A + branch length.
 		<li><b>[planned]</b> Improve mixing by resampling all pairwise As + (lambda,epsilon).
-		-->
 	      </ul>
-	      </li>
+	      </li -->
 
+	    <!-- 
 	    <li>Internals
 	    <ul>
 	      <li></li>
@@ -75,9 +74,9 @@
 		<li><b>06/09/16</b> Incremental GC (part 1) - unmap unused steps/results <em>before</em> we destroy regs. </li>
 		<li><b>06/22/16</b> Cache tree prior</b>
 		<li><b>[planned]</b> Compute likelihood in the machine.</li>
-	      -->
 	      </ul>
 	    </li>
+	    -->
 
 	    <li>Misc
 	      <ul>
@@ -85,19 +84,22 @@
 	      </ul>
 	    </li>
 
+	    <!--
 	    <li>Input
 	    <ul>
 	      <li></li>
-		<!--- li><b>??</b> ??</li -->
 	      </ul>
 	    </li>
+	    -->
 
+	      <!-- 
 	    <li>Summarization tools
 	    <ul>
 	      <li></li>
-	      <!-- <li><em>bp-analyze.pl</em> - ??.</li> -->
+	      <li><em>bp-analyze.pl</em> - ??.</li> 
 	      </ul>
 	    </li>
+	    -->
 
 	    <li>Changes
 	    <ul>
@@ -107,7 +109,9 @@
 	      
 	    <li>Fixes
 	      <ul>
-		<li><b>4/14/16</b> Fix gwF to actually use 'f' parameter.</li>
+		<li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li>
+		<li><b>06/21/16</b> New priors that do not favor huge treelengths the trees have lots of leaves.</li>
+		<li>Allow analyzing 1- and 2-sequence alignments.</li>
 	      </ul>
 	    </li>
 	  </ul>
