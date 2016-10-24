@@ -73,7 +73,7 @@
 		<li><b>05/18/16</b> Replace conditional likelihoods vector<Matrix> with a slab of memory</li>
 		<li><b>06/09/16</b> Incremental GC (part 1) - unmap unused steps/results <em>before</em> we destroy regs. </li>
 		<li><b>06/22/16</b> Cache tree prior</li>
-		<li><b>07/14/16</b> Incremental GC (parg 2) - Rewrite the trace function to be incremental.</li>
+		<li><b>07/14/16</b> Incremental GC (part 2) - Rewrite the trace function to be incremental.</li>
 		<li><b>07/25/16</b> Compute likelihood in the machine.</li>
 	      </ul>
 	    </li>
