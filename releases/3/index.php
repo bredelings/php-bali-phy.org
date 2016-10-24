@@ -25,9 +25,9 @@
 	  </div>
 
 	  <ul class="changelog">
-	    <li>Major new features
+	    <li>New features
 	      <ul>
-		<li></li>
+		<li>Allow analyzing 1- and 2-sequence alignments.</li>
 	      </ul>
 	    </li>
 
