@@ -75,6 +75,7 @@
 		<li><b>06/22/16</b> Cache tree prior</li>
 		<li><b>07/14/16</b> Incremental GC (part 2) - Rewrite the trace function to be incremental.</li>
 		<li><b>07/25/16</b> Compute likelihood in the machine.</li>
+		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
 	      </ul>
 	    </li>
 	    -->
