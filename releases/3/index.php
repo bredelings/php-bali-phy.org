@@ -47,7 +47,7 @@
 		<li><b>04/14/16</b> Allow specifying constant model parameters.</li>
 		<li><b>04/14/16</b> Add Jukes-Cantor model name.</li>
 		<li><b>06/21/16</b> Make priors stop favoring large trees when lots of leaves</li>
-		<!-- li><b>[planned]</b> Allow specifying random parameters.</li -->
+		<li><b>11/30/16</b> Allow specifying constant priors on model parameters.</li>
 	      </ul>
 	    </li>
 
