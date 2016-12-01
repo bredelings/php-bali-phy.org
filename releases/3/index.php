@@ -20,7 +20,7 @@
 
 	  <div class="release_dates"><b style="font-size:125%">Version 3 (unreleased, in development):</b>
           <ul>
-	    <li><b>[3.0]</b> - ??-??-2017</li>
+	    <li><b>[3.0]</b> - Jan-??-2017</li>
 	  </ul>
 	  </div>
 
@@ -47,7 +47,7 @@
 	      <ul>
 		<li><b>04/14/16</b> Allow specifying constant model parameters with e.g. <b>HKY[kappa=2]</b></li>
 		<!-- li><b>04/14/16</b> Add Jukes-Cantor model name.</li -->
-		<!-- li><b>[planned]</b> Allow specifying random parameters.</li -->
+		<li><b>11/30/16</b> Allow specifying priors on model parameters e.g. <b>HKY[kappa=logNormal[log[2],0.25]]</b>. </li>
 	      </ul>
 	    </li>
 
