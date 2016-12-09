@@ -20,7 +20,7 @@
 
 	  <div class="release_dates"><b style="font-size:125%">Version 3 (unreleased, in development):</b>
           <ul>
-	    <li><b>[3.0]</b> - Jan-??-2017</li>
+	    <li><b>[3.0]</b> - Mar-??-2017</li>
 	  </ul>
 	  </div>
 
