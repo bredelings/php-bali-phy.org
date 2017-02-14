@@ -84,7 +84,7 @@
 	    <li>Fixes
 	      <ul>
 		<li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li>
-		<li><b>06/21/16</b> New priors that do not favor huge treelengths the trees have lots of leaves.</li>
+		<li><b>06/21/16</b> New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
 		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
 	      </ul>
 	    </li>
