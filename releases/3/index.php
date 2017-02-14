@@ -34,7 +34,7 @@
 
 	    <li>Speed
 	    <ul>
-		<li><span style="color:red">[>50% faster]</span> So far.</li>
+		<li><span style="color:red">[65%-300% faster]</span> So far.</li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -47,38 +47,10 @@
 	      <ul>
 		<li><b>04/14/16</b> Allow specifying constant model parameters with e.g. <b>HKY[kappa=2]</b></li>
 		<!-- li><b>04/14/16</b> Add Jukes-Cantor model name.</li -->
-		<li><b>11/30/16</b> Allow specifying priors on model parameters e.g. <b>HKY[kappa=logNormal[log[2],0.25]]</b>. </li>
+		<li><b>11/30/16</b> Allow specifying priors on model parameters e.g. <b>HKY[kappa~logNormal[log[2],0.25]]</b>. </li>
 	      </ul>
 	    </li>
 
-
-	    <!-- li>MCMC
-	    <ul>
-	      <li></li>
-		<li><b>[planned]</b> Improve burnin by resampling pairwise A + branch length.
-		<li><b>[planned]</b> Improve mixing by resampling all pairwise As + (lambda,epsilon).
-	      </ul>
-	      </li -->
-
-	    <!-- 
-	    <li>Internals
-	    <ul>
-	      <li></li>
-	      <!-- 
-		<li><b>10/22/15</b> Allow sharing unchanged steps when called result changes.</li>
-		<li><b>03/17/16</b> Move tree into the machine.</li>
-		<li><b>04/07/16</b> Compute likelihoods in separate contexts - no more invalid indices/CLs</li>
-		<li><b>04/23/16</b> Remove subA indices.</li>
-		<li><b>04/29/16</b> Avoid recomputing alignment matrix.</li>
-		<li><b>05/18/16</b> Replace conditional likelihoods vector<Matrix> with a slab of memory</li>
-		<li><b>06/09/16</b> Incremental GC (part 1) - unmap unused steps/results <em>before</em> we destroy regs. </li>
-		<li><b>06/22/16</b> Cache tree prior</li>
-		<li><b>07/14/16</b> Incremental GC (part 2) - Rewrite the trace function to be incremental.</li>
-		<li><b>07/25/16</b> Compute likelihood in the machine.</li>
-		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
-	      </ul>
-	    </li>
-	    -->
 
 	    <li>Misc
 	      <ul>
@@ -116,6 +88,31 @@
 		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
 	      </ul>
 	    </li>
+
+	    <!-- 
+	    <li>Internals
+	    <ul>
+	      <li></li>
+
+		<li><b>10/22/15</b> Allow sharing unchanged steps when called result changes.</li>
+
+		<li><b>03/17/16</b> Move tree into the machine.</li>
+		<li><b>04/07/16</b> Compute likelihoods in separate contexts - no more invalid indices/CLs</li>
+		<li><b>04/23/16</b> Remove subA indices.</li>
+		<li><b>04/29/16</b> Avoid recomputing alignment matrix.</li>
+		<li><b>05/18/16</b> Replace conditional likelihoods vector<Matrix> with a slab of memory</li>
+		<li><b>06/09/16</b> Incremental GC (part 1) - unmap unused steps/results <em>before</em> we destroy regs. </li>
+		<li><b>06/22/16</b> Cache tree prior</li>
+
+		<li><b>07/14/16</b> Incremental GC (part 2) - Rewrite the trace function to be incremental.</li>
+		<li><b>07/25/16</b> Compute likelihood in the machine.</li>
+		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
+
+		<li><b>02/13/17</b> First pass at likelihood rescaling.
+	      </ul>
+	    </li>
+	    -->
+
 	  </ul>
 
 
