@@ -109,6 +109,11 @@
 		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
 
 		<li><b>02/13/17</b> First pass at likelihood rescaling.
+
+		<li> ... compute reconstructed ancestral sequences by default ... </li>
+		<li> ... don't break scripts that assume N/X at internal nodes ... </li>
+		<li> ... compute categories for each letter by default ... </li>
+		<li> ... compute probability of positive selection for sites/letters? ...</li>
 	      </ul>
 	    </li>
 	    -->
