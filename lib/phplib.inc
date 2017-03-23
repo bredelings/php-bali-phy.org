@@ -235,13 +235,13 @@ class Menu {
 
   function Menu() {
     global $top;
-    $this->entries['Top'] =& new MenuEntry('Top',"{$top}");
+    $this->entries['Top'] = new MenuEntry('Top',"{$top}");
   }
 
   function add_children($parent,$children) {
     global $top;
     foreach($children as $child) {
-      list($title,$url) = split('::',$child);
+      list($title,$url) = explode('::',$child);
       $this->AddEntry(new MenuEntry($title,"{$top}/{$url}"),$parent);
     }
   }
@@ -337,7 +337,7 @@ class Menu {
   }
 }
 
-$menutree =& new Menu();
+$menutree = new Menu();
 
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
