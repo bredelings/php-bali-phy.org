@@ -6,7 +6,7 @@
   <head>
     <?php baliphy_head(); ?>
     <style type="text/css">
-ol li {padding-bottom:0.5em}
+      ol li {padding-bottom:0.5em}
     </style>
     <link rel="stylesheet" type="text/css" href="Style/au.css" />
   </head>
@@ -15,62 +15,43 @@ ol li {padding-bottom:0.5em}
 
     <table class="layout">
       <tr>
-      <?php dirtree(); ?>
+	<?php dirtree(); ?>
 
-      <td class="center" valign="top">
-	<!-- ?php navbar(); ? -->
+	<td class="center" valign="top">
+	  <!-- ?php navbar(); ? -->
 
-	<div class="main">
+	  <div class="main">
 
-	  <!-- we will need a 'full news': only put recent news here -->
-	  <!-- I suppose I also need a site w/ my bio to link to -->
+	    <!-- we will need a 'full news': only put recent news here -->
+	    <!-- I suppose I also need a site w/ my bio to link to -->
 
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>01/30/16: <strong>BAli-Phy 2.3.8 released</strong><br/>
-	      Speed improvements (<a href="releases/2.3/">more news</a>)</p>
+	      <p>03/30/17: <strong>BAli-Phy 3 in alpha</strong> - code at <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a><br/>
+		Speed improvements (<a href="releases/3/">more news</a>)</p>
 
-	      <p>08/26/14: BAli-Phy used for large <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117-taxon tree</a> by <a href="http://www.biomedcentral.com/1471-2164/15/718">McKenzie et. al. </a>
+	      </div>
 
-	      <p>05/27/14: Paper published: <strong>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</strong> (<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>)</p>
-	    </div>
+	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees.
+	      It uses likelihood-based evolutionary models of substitutions and insertions and deletions to place gaps.  It has been used in published analyses on data sets up to <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117 taxa</a>.</p>
 
-	    <p><strong>BAli-Phy</strong> is MCMC software developed by <a
-	    href="http://ben-redelings.org/">Ben Redelings</a>
-	    with <a href="http://www.biomath.ucla.edu/msuchard">Marc
-	    Suchard</a> for simultaneous Bayesian estimation of
-	    alignment and phylogeny (and other parameters).  It handles
-            generic Bayesian <a href="models.php">modeling</a> via 
-            probabilistic programming.</p> 
+	      <p><a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">Redelings (2014)</a> showed that <em>BAli-Phy</em> had 3.5 times fewer alignment errors than MUSCLE and MAFFT on simulated data:</p>
+	      <p><img style="margin:auto;display:block" src="error-comparison.svg" width="600em" title="Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014." alt="Figure 4. from Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014."/></p>
+		
 
-	    <p><strong>BAli-Phy</strong> can estimate phylogenetic
-	    trees from sequence data when the alignment is uncertain.
-	    Instead of conditioning on a single alignment estimate,
-	    BAli-Phy accounts for  alignment uncertainty by
-	    integrating over <span style="color:red">all
-	    alignments</span>.  BAli-Phy does not rely on a guide tree
-	    because the alignment and the tree are co-estimated.
-	    Therefore it can construct phylogeny estimates of widely
-	    divergent sequences <span style="color:red">without bias
-	    toward a guide tree.</span></p> 
-
-	    <p><strong>BAli-Phy</strong> also produces high-quality
-	    alignment estimates for highly divergent sequences, because it
-	    uses advanced substitution models and a realistic model of
-	    indels occurring on an (uncertain) tree. BAli-Phy can
-	    produce alignment uncertainty (AU) plots that are colored
-	    to indicate uncertain areas of the alignment.</p>  
-	      
-	    <p><strong>BAli-Phy</strong> works on the nucleotide,
-	    amino acid, and codon levels and can utilize complex
-	    substitution models, such as GTR+gamma[n],
-	    WAG+log-normal[n]+INV, M0, M7, and more.  It can be used
-	    to estimate substitution rates, frequencies, and indel
-	    rates when the tree and alignment are uncertain.</p>  
-
-	    <div class="AU">
-	      <?php 
+	      <!-- Alignment uncertainty can lead to bias when estimating evolutionary trees, positive selection, and
+	      branch lengths from a single alignment.  For example, using CodeML to infer positive selection under the
+	      branch-site model lead to a 99% FPR from ClustalW alignments on simulated data, versus 5% for the true (simulated) alignment. -->
+	      <p><a href="https://doi.org/10.1093/molbev/msq115">Fletcher and Yang (2010)</a> showed that relying on a ClustalW alignment
+	      estimate could lead to a 99% false-positive rate in detecting positive selection.  In general, inferring evolutionary trees,
+	      branch lengths, or positive selection from a single alignment can lead to bias if the alignment is ambiguous.
+	      <em>BAli-Phy</em> solves this problem by using MCMC and Bayesian methods to estimate evolutionary trees, positive selection, and branch lengths
+	      while averaging over alternative alignments.
+	      </p>
+ 	         
+	      <div class="AU">
+		<?php 
 		mt_srand((double)microtime() * 1000000);
 		if (rand()%2 == 0) {
 		include 'AU-sample2.html'; 
@@ -78,24 +59,32 @@ ol li {padding-bottom:0.5em}
 		else  {
 		include 'AU-sample3.html';
 		}
-	      ?>
-	    </div>
+	      ?></div>
+	      
+		<p>This ambiguity can be displayed graphically in an alignment uncertainty (AU) plot.</p>  
+	      
+		<p><em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment like MrBayes and BEAST.
+		Sequences can be DNA, RNA, amino acids, or codons.  Supported models include GTR+gamma, LG, M0-M8, the branch-site model, etc.. </p>
 
-		<!-- make an expanded references page with all papers + related papers -->
-	    <h2><a name="refs">References</a></h2>
-	    <ol>
-	      <li>Redelings BD and Suchard MA <b>Joint Bayesian Estimation of Alignment
-	      and Phylogeny</b>, <em>Systematic Biology</em>, <b>54</b>(3):401-418, 2005&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2005.pdf">PDF</a>]</li>
-	      <li>Suchard MA and Redelings BD <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>, <em>Bioinformatics</em>, <b>22</b>:2047-2048, 2006. &nbsp; &nbsp; [<a href="Suchard_and_Redelings_2006.pdf">PDF</a>]</li>
-	      <li>Redelings BD and Suchard MA. <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>. <em>BMC Evolutionary Biology</em>, <b>7</b>:40, 2007.&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2007.pdf">PDF</a>]</li>
-	      <li>Redelings BD. <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>. <em>Mol. Biol. Evo.</em> <b>31</b>(8), 2014. [<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>]</li>
-	    </ol>
-	</div>
-	</td>  
-      </tr>
-    </table>
-    
-    <?php baliphy_footer(); ?>
+		<p>For multi-gene data sets, <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial2.html">tutorial</a>.</p>  
 
-  </body>
-</html>
+	      </div>
+
+	      <!-- make an expanded references page with all papers + related papers -->
+	      <h2><a name="refs">References</a></h2>
+	      <ol>
+		<li>Redelings BD and Suchard MA <b>Joint Bayesian Estimation of Alignment
+		    and Phylogeny</b>, <em>Systematic Biology</em>, <b>54</b>(3):401-418, 2005&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2005.pdf">PDF</a>]</li>
+		<li>Suchard MA and Redelings BD <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>, <em>Bioinformatics</em>, <b>22</b>:2047-2048, 2006. &nbsp; &nbsp; [<a href="Suchard_and_Redelings_2006.pdf">PDF</a>]</li>
+		<li>Redelings BD and Suchard MA. <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>. <em>BMC Evolutionary Biology</em>, <b>7</b>:40, 2007.&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2007.pdf">PDF</a>]</li>
+		<li>Redelings BD. <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>. <em>Mol. Biol. Evo.</em> <b>31</b>(8), 2014. [<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>]</li>
+	      </ol>
+	      </div>
+	    </td>  
+	  </tr>
+	</table>
+	
+	<?php baliphy_footer(); ?>
+
+      </body>
+    </html>

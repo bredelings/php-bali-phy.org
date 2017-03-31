@@ -1,7 +1,7 @@
 div.AU { 
-  margin: 0.5em;
+  text-align: center;
   padding: 0.5em;
-  background: rgb(230,230,230);
+  // background: rgb(230,230,230);
   font-size: 10pt;
   font-family: helvitica;
 }
@@ -11,6 +11,7 @@ div.AU TABLE {
    border-collapse: collapse;
    border-spacing: 0;
    margin-top: 0.4em;
+   margin: auto;
 }
 
 .sequences TD { 
