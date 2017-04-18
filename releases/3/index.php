@@ -43,18 +43,28 @@
 	      </ul>
 	    </li>
 
-	    <li>Models
+	    <li>Features
 	      <ul>
-		<li><b>04/14/16</b> Allow specifying constant model parameters with e.g. <b>HKY[kappa=2]</b></li>
-		<!-- li><b>04/14/16</b> Add Jukes-Cantor model name.</li -->
-		<li><b>11/30/16</b> Allow specifying priors on model parameters e.g. <b>HKY[kappa~logNormal[log[2],0.25]]</b>. </li>
+		<li><b>06/21/16</b> New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
+		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
+		<li><b>11/30/16</b> Allow specifying model and priors: <b>HKY[kappa~logNormal[log[2],0.25]]</b>. </li>
+		<li><b>02/13/17</b> Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
+		<li><b>04/17/17</b> Print out the model and priors (<em>including defaults</em>)</li>
+
+		<li><b>04/17/17</b> Allow specifying priors on scale factors for branch lengths in each partition: <b>--scale=~Gamma[0.5,2]</b> or <b>--scale=1</b>
 	      </ul>
 	    </li>
+
+	    <!-- li>Models
+	      <ul>
+	      </ul>
+	    </li -->
 
 
 	    <li>Misc
 	      <ul>
 		<li>Update BOOST, Eigen.</li>
+		<li><b>04/14/17</b> Add unit tests.</li>
 	      </ul>
 	    </li>
 
@@ -77,17 +87,15 @@
 
 	    <li>Changes
 	    <ul>
-	      <li><b>04/27/16</b> - Clean up command-line options somewhat.</li>
+	      <li><b>04/17/17</b> - Simplify command-line options (<em>some old options have been removed</em>).</li>
 	    </ul>
 	    </li>
 	      
-	    <li>Fixes
+	    <!-- li>Fixes
 	      <ul>
-		<li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li>
-		<li><b>06/21/16</b> New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
-		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
+		<!-- li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li -->
 	      </ul>
-	    </li>
+	    </li -->
 
 	    <!-- 
 	    <li>Internals
@@ -108,8 +116,10 @@
 		<li><b>07/25/16</b> Compute likelihood in the machine.</li>
 		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
 
-		<li><b>02/13/17</b> First pass at likelihood rescaling.
+		<li><b>02/26/17</b> Allow generating the IO functions for each rule.
+		<li><b>
 
+		<li> ... allow specifying distribution for branch lengths </li>
 		<li> ... compute reconstructed ancestral sequences by default ... </li>
 		<li> ... don't break scripts that assume N/X at internal nodes ... </li>
 		<li> ... compute categories for each letter by default ... </li>
