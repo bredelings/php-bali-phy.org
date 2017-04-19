@@ -33,17 +33,18 @@
 
 	      </div>
 
-	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees.
+	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
 	      It uses likelihood-based evolutionary models of substitutions and insertions and deletions to place gaps.  It has been used in published analyses on data sets up to <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117 taxa</a>.</p>
 
-	      <p><a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">Redelings (2014)</a> showed that <em>BAli-Phy</em> had 3.5 times fewer alignment errors than MUSCLE and MAFFT on simulated data:</p>
+	      <p><b>High alignment accuracy</b>: <a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">Redelings (2014)</a> showed that <em>BAli-Phy</em> had 3.5 times fewer alignment errors than MUSCLE and MAFFT on simulated data:</p>
 	      <p><img style="margin:auto;display:block" src="error-comparison.svg" width="600em" title="Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014." alt="Figure 4. from Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014."/></p>
 		
 
 	      <!-- Alignment uncertainty can lead to bias when estimating evolutionary trees, positive selection, and
 	      branch lengths from a single alignment.  For example, using CodeML to infer positive selection under the
 	      branch-site model lead to a 99% FPR from ClustalW alignments on simulated data, versus 5% for the true (simulated) alignment. -->
-	      <p><a href="https://doi.org/10.1093/molbev/msq115">Fletcher and Yang (2010)</a> showed that relying on a ClustalW alignment
+
+	    <p><b>Eliminate bias:</b> <a href="https://doi.org/10.1093/molbev/msq115">Fletcher and Yang (2010)</a> showed that relying on a ClustalW alignment
 	      estimate could lead to a 99% false-positive rate in detecting positive selection.  In general, inferring evolutionary trees,
 	      branch lengths, or positive selection from a single alignment can lead to bias if the alignment is ambiguous.
 	      <em>BAli-Phy</em> solves this problem by using MCMC and Bayesian methods to estimate evolutionary trees, positive selection, and branch lengths
@@ -63,10 +64,9 @@
 	      
 		<p>This ambiguity can be displayed graphically in an alignment uncertainty (AU) plot.</p>  
 	      
-		<p><em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment like MrBayes and BEAST.
-		Sequences can be DNA, RNA, amino acids, or codons.  Supported models include GTR+gamma, LG, M0-M8, the branch-site model, etc.. </p>
+		<p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. </p>
 
-		<p>For multi-gene data sets, <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial2.html">tutorial</a>.</p>  
+	        <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial2.html">tutorial</a>.</p>  
 
 	      </div>
 
