@@ -32,9 +32,10 @@
 	    </li>
 	    -->
 
-	    <li>Speed
+	    <li>Speed &amp; Memory
 	    <ul>
-		<li><span style="color:red">[65%-300% faster]</span> So far.</li>
+  	        <li><span style="color:red">[65%-300% faster]</span> So far.</li>
+	        <li>0-3 times reduction in memory usage.</li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -47,11 +48,21 @@
 	      <ul>
 		<li><b>06/21/16</b> New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
 		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
-		<li><b>11/30/16</b> Allow specifying model and priors: <b>HKY[kappa~logNormal[log[2],0.25]]</b>. </li>
+		<li><b>11/30/16</b> Allow specifying model and priors:
+		<ul style="font-family:times,monospace">
+		  <li>HKY[kappa=2]. </li>
+		  <li>HKY[kappa~logNormal[log[2],0.25]]. </li>
+		</ul>
+		</li>
 		<li><b>02/13/17</b> Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
 		<li><b>04/17/17</b> Print out the model and priors (<em>including defaults</em>)</li>
 
-		<li><b>04/17/17</b> Allow specifying priors on scale factors for branch lengths in each partition: <b>--scale=~Gamma[0.5,2]</b> or <b>--scale=1</b>
+		<li><b>04/17/17</b> Allow specifying priors on scale factors for branch lengths in each partition:
+		<ul style="font-family:times,monospace">
+		  <li>--scale=~Gamma[0.5,2]</li>
+		  <li>--scale=1</li>
+		</ul>
+		</li>
 	      </ul>
 	    </li>
 
@@ -93,11 +104,10 @@
 	      
 	    <!-- li>Fixes
 	      <ul>
-		<!-- li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li -->
+		<li><b>04/14/16</b> Fix gwF to actually use 'f' parameter.</li>
 	      </ul>
-	    </li -->
+	    </li>
 
-	    <!-- 
 	    <li>Internals
 	    <ul>
 	      <li></li>
