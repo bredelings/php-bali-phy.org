@@ -18,9 +18,9 @@
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 
-	  <div class="release_dates"><b style="font-size:125%">Version 3 (unreleased, in development):</b>
+	  <div class="release_dates"><b style="font-size:125%">Version 3 (in development):</b>
           <ul>
-	    <li><b>[3.0]</b> - May-??-2017</li>
+	    <li><b>[3.0-beta1]</b> - May-05-2017</li>
 	  </ul>
 	  </div>
 
@@ -34,8 +34,8 @@
 
 	    <li>Speed &amp; Memory
 	    <ul>
-  	        <li><span style="color:red">[65%-300% faster]</span> So far.</li>
-	        <li>0-3 times reduction in memory usage.</li>
+  	        <li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
+	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -43,29 +43,32 @@
 		<li><span style="color:red">[??% faster]</span> Faster computation when lots of gaps (variable A).</li -->
 	      </ul>
 	    </li>
-
+	    
 	    <li>Features
 	      <ul>
-		<li><b>06/21/16</b> New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
-		<li><b>10/01/16</b> Allow analyzing 1- and 2-sequence alignments.</li>
-		<li><b>11/30/16</b> Allow specifying model and priors:
-		<ul style="font-family:times,monospace">
-		  <li>HKY[kappa=2]. </li>
-		  <li>HKY[kappa~logNormal[log[2],0.25]]. </li>
-		</ul>
+		<li>Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
+		<li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
+		<li>Allow analyzing 1- and 2-sequence alignments.</li>
+		<li>Print out the model and priors (<em>including defaults</em>)</li>
+		<li>Allow specifying model and for substitution model and indel model, 
+		  <ul style="font-family:times,monospace">
+		    <li>--smodel=HKY[kappa=2]. </li>
+		    <li>--imodel=RS07[logLambda~Laplace[-4,0.707],meanIndelLengthMinus1~Exponential[10]]</li>
+		  </ul>
 		</li>
-		<li><b>02/13/17</b> Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
-		<li><b>04/17/17</b> Print out the model and priors (<em>including defaults</em>)</li>
-
-		<li><b>04/17/17</b> Allow specifying priors on scale factors for branch lengths in each partition:
-		<ul style="font-family:times,monospace">
-		  <li>--scale=~Gamma[0.5,2]</li>
-		  <li>--scale=1</li>
-		</ul>
+		
+		<li>Allow specifying priors on scale factors for branch lengths in each partition:
+		  <ul style="font-family:times,monospace">
+		    <li>--scale=~Gamma[0.5,2]</li>
+		    <li>--scale=1</li>
+		  </ul>
+		</li>
+		<li>Allow specifying priors on scale factors for branch lengths in each partition:
+		  <ul style="font-family:times,monospace">
+		    <li>--branch-length=~Gamma[0.5,0.1]</li>
+		  </ul>
 		</li>
 	      </ul>
-	    </li>
-
 	    <!-- li>Models
 	      <ul>
 	      </ul>
@@ -74,8 +77,7 @@
 
 	    <li>Misc
 	      <ul>
-		<li>Update BOOST, Eigen.</li>
-		<li><b>04/14/17</b> Add unit tests.</li>
+		<li>Add unit tests.</li>
 	      </ul>
 	    </li>
 
@@ -98,7 +100,7 @@
 
 	    <li>Changes
 	    <ul>
-	      <li><b>04/17/17</b> - Simplify command-line options (<em>some old options have been removed</em>).</li>
+	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
 	    </ul>
 	    </li>
 	      

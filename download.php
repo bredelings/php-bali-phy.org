@@ -20,61 +20,38 @@
 	    
 	  <h2><a name="download">Download</a></h2>
 
-	<p>Please follow the installation instructions in the <a href="README.html">Manual</a>.</p>
+	  <p>Please see the <a href="docs.php">documentation</a> for more detailed instructions on how to install the software, including software and hardware requirements.</p>
+	  <!-- I should add an outline here of subsections under installation -->
 
-	<h3>Current Release</h3>
-	<ul>
-	  <li style="padding-bottom:1em"><b>2.3.8</b>: 
-<a href="releases/current/">What's new?</a>
-	    <ul>
-	      <li>Linux (64-bit): <?php track_link("bali-phy-2.3.8-linux64.tar.gz","Intel (26M)") ?></li>
-	      <!-- li>Linux 32-bit: <?php track_link("bali-phy-2.3.8-linux32.tar.gz","Pentium4 (43M)") ?></li -->
-	      </li>
-	      <li>Mac OS (10.9 and up)
-		<ul>
-		  <!-- li>32-bit: <?php track_link("bali-phy-2.3.8-mac32.tar.gz","Intel (??M)") ?></li -->
-		  <li>64-bit: <?php track_link("bali-phy-2.3.8-mac64.tar.gz","Intel (17M)") ?></li>
-                  <li>You can use <a href="http://brew.sh/">homebrew</a> to install bali-phy from <a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>.  Requires XCode 5 compiler.</li>
-		</ul>
-	      </li>
-	      <li>Windows
-		<ul>
-		  <li>32-bit MinGW: <?php track_link("bali-phy-2.3.8-win32.tar.gz","Intel (34M)") ?></li>
-		  <li>64-bit MinGW: <?php track_link("bali-phy-2.3.8-win64.tar.gz","Intel (34M)") ?></li>
-		</ul>
-	      </li>
-	      <li>Source: <?php track_link("bali-phy-2.3.8.tar.gz","C++ (5M)") ?></li>
+	  <h3>Development</h3>
+	  <ul>
+	    <li style="padding-bottom:1em"><b>3.0-beta1</b> (<a href="releases/3/">Changes</a>): 
 
-	    </ul>
-	  </li>
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Sierra)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-win64.tar.gz","Windows&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1.tar.gz","C++&nbsp;source") ?>]
+	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a> ]</li>
+	  </ul>
+
+	  <h3>Current (Stable) Release</h3>
+	  <ul>
+	    <li style="padding-bottom:1em"><b>2.3.8</b> (<a href="releases/current/">Changes</a>): 
+
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-win64.tar.gz","Windows&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8.tar.gz","C++&nbsp;source") ?>]
+	    &nbsp;&nbsp;[<a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>]</li>
 	</ul>
 
-
-	<!-- p>Mac OS X users note: some browsers may automatically append a '.gtar' to the end of these files.  Uncompression tool 'tar' will still recognize and uncompress these files.</p -->
-
-	<h3><a name="req">Requirements</a></h3>
-
-	<p>BAli-Phy should run on any hardware with any modern operating
-	system, including Linux, Windows, and Mac OS X.  Some
-	additional software must be installed, such as <a
-	href="http://www.cygwin.com">cygwin</a> on Windows.
-	To see the requirements in detail, view the section in the <a href="docs.php#usersguide.php">User's Guide</a> on installation:</p>
-
+	<h3>Older releases</h3>
 	<ul>
-	  <li><a href="README.html#installation">2. Installation</a></li>
+	  <li><b>2.2</b> (<a href="releases/2.2/">Changes</a>)</li>
+	  <li><b>2.1</b> (<a href="releases/2.1/">Changes</a>)</li>
+	  <li><b>2.0</b> (<a href="releases/2.0/">Changes</a>)</li>
+	  <li><b>&lt;2</b> (<a href="releases/pre/">Changes</a>)</li>
 	</ul>
-
-	<h3><a name="compilation">Compilation</a></h3>
-	<p>Note that most people won't need to compile BAli-Phy - you can just use the precompiled binaries posted above.</p>
-	<p>To compile BAli-Phy, first download the source code posted above.  Then see the section in the <a href="help.php#usersguide.php">User's Guide</a> on compilation:</p>
-	<ul>
-	  <li><a href="README.html#compilation">3. Compiling BAli-Phy</a></li>
-	</ul>
-	<h3><a name="sourcecode">"Live" Source Code</a></h3>
-
-	<p>The BAli-Phy source code is available on GitHub at <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
-
-	<p>If you have git installed, you can type "git clone git://github.com/bredelings/BAli-Phy.git" to download a local copy of the source code.</p>
 
       </div>
       </td>  

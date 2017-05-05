@@ -341,33 +341,34 @@ $menutree = new Menu();
 
 $menutree->add_children('Top',
 			array('Welcome!::index.php',
-			      'Graphical&nbsp;Models::models.php',
-			      'Versions::releases/',
+#			      'Graphical&nbsp;Models::models.php',
+#			      'Versions::releases/',
 			      'Download::download.php',
 			      'Examples::examples.php',
 			      'Documentation::docs.php',
 			      'Contact::contact.php')
 			);
 
-$menutree->add_children('Versions',
-			array('Unreleased 3 (alpha)::releases/3/',
-			      'Release 2.3 *::releases/2.3/',
-			      'Release 2.2::releases/2.2/',
-			      'Release 2.1::releases/2.1/'
-			      )
-			);
+#$menutree->add_children('Versions',
+#			array('3.0 beta1::releases/3/',
+#			      'Release 2.3 *::releases/2.3/',
+#			      'Release 2.2::releases/2.2/',
+#			      'Release 2.1::releases/2.1/'
+#			      )
+#			);
 		 
 $menutree->add_children('Welcome!',
 			array('Introduction::index.php#intro',
 			      'References::index.php#refs')
 			);
 		 
-$menutree->add_children('Download',
-			array('Stable&nbsp;Versions::download.php#releases',
- 		  	      'Requirements::download.php#req',
-			      'Compilation::download.php#compilation',
-			      '"Live"&nbsp;Sources&nbsp;(GIT)&nbsp;&nbsp;&nbsp;&nbsp;::download.php#sourcecode')
-			);
+#$menutree->add_children('Download',
+#			array('Versions::download.php#releases',
+# 		  	      'Requirements::download.php#req',
+#			      'Compilation::download.php#compilation'
+#			      '"Live"&nbsp;Sources&nbsp;(GIT)&nbsp;&nbsp;&nbsp;&nbsp;::download.php#sourcecode'
+#			      )
+#			);
 		 
 
 $menutree->add_children('Documentation',

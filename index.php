@@ -28,7 +28,7 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>03/30/17: <strong>BAli-Phy 3 in alpha</strong> - code at <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a><br/>
+	      <p>05/05/17: <strong>BAli-Phy 3.0-beta1 released</strong> - <a href="download.php">Download</a><br/>
 		Speed improvements (<a href="releases/3/">more news</a>)</p>
 
 	      </div>
