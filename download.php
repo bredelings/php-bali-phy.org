@@ -28,7 +28,7 @@
 	    <li style="padding-bottom:1em"><b>3.0-beta1</b> (<a href="releases/3/">Changes</a>): 
 
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Sierra)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta1.tar.gz","C++&nbsp;source") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a> ]</li>
