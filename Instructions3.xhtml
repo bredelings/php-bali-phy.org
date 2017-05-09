@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Alignment Practical Exercises</title><link rel="stylesheet" type="text/css" href="docbook.css" /><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /></head><body><div xml:lang="en" class="article" lang="en"><div class="titlepage"><div><div><h1 class="title"><a id="idm1"></a>Alignment Practical Exercises</h1></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="section"><a href="#idm9">1. Exercise (Setup, MAFFT, HoT, Seaview)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm12">1.1. Setup</a></span></dt><dt><span class="section"><a href="#idm69">1.2. Align forward and backwards (HoT) with mafft.</a></span></dt><dt><span class="section"><a href="#idm79">1.3. Visualize the alignments with seaview</a></span></dt></dl></dd><dt><span class="section"><a href="#idm85">2. Exercise (muscle, Probcons, SuiteMSA, and consensus)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm88">2.1. Make a local copy of a data file</a></span></dt><dt><span class="section"><a href="#idm98">2.2. Muscle</a></span></dt><dt><span class="section"><a href="#idm119">2.3. Probcons</a></span></dt><dt><span class="section"><a href="#idm129">2.4. SuiteMSA</a></span></dt><dt><span class="section"><a href="#idm138">2.5. Consensus</a></span></dt></dl></dd><dt><span class="section"><a href="#idm153">3. Exercise (FSA and Prank)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm156">3.1. FSA</a></span></dt><dt><span class="section"><a href="#idm171">3.2. Prank</a></span></dt></dl></dd></dl></div><p>This tutorial assumes a UNIX command line.  On Linux or Mac this is built in; on Windows install Cygwin.</p><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm9"></a>1. Exercise (Setup, MAFFT, HoT, Seaview)</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm12"></a>1.1. Setup</h3></div></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm15"></a>1.1.1. Make a ~/bin directory (for programs) and add it to your PATH</h4></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd                        					// go to your home directory</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>pwd                                                                       // where are we? = print working directory</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>ls                                                                           // look around</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>mkdir bin            					// make a subdirectory</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>nano .bash_profile	    				// edit the startup script</code></strong>
+</pre>Add a line “PATH=~/bin:$PATH”.  Then log out and log back in.
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>less .bash_profile					// examine .bashrc to see if your changes are there</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>echo $PATH                                                         	// check that ~/bin is in PATH</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm34"></a>1.1.2. Download the alignment files we will use</h4></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>mkdir alignment_files</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>wget http://www.bali-phy.org/examples.tgz       // Download the files – Linux (On cygwin, first install wget).</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>curl -O http://www.bali-phy.org/examples.tgz   // Download the files – Mac</code></strong>
+</pre>(Alternatively, download the files using your browser)
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tar -zxf examples.tgz                                       	// extract the compressed archive</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>ls examples						        // look inside the new directory that was created</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>less examples/5S-rRNA/5d.fasta                                // examine the downloaded files – type q to quit</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-info examples/5S-rRNA/5d.fasta</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm57"></a>1.1.3. Install fasta-flip.pl to ~/bin</h4></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>chmod +x fasta-flip.pl				// make the file executable</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cp fasta-flip.pl ~/bin				// copy the file to ~/bin</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>which fasta-flip.pl					// check to make sure its in your PATH</code></strong>
+</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm69"></a>1.2. Align forward and backwards (HoT) with mafft.</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cp 5S-rRNA/25.fasta .				                                  // make a copy of a file</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>mafft –auto 25.fasta &gt; 25-mafft.fasta                                           // try a simple sequence alignment </code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>fasta-flip.pl 25.fasta | mafft –auto - | fasta-flip.pl &gt; 25-mafft-flipped.fasta // align the sequences when flipped</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm79"></a>1.3. Visualize the alignments with seaview</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>seaview 25-mafft.fasta &amp; seaview 25-mafft-flipped.fasta &amp;                       // take a look at the two alignments</code></strong>
+</pre></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm85"></a>2. Exercise (muscle, Probcons, SuiteMSA, and consensus)</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm88"></a>2.1. Make a local copy of a data file</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cp HIV/HIVSIV.fasta .                                                               	// Make a copy of the file in the current directory</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-info HIVSIV.fasta					// Some basic info about the sequences</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm98"></a>2.2. Muscle</h3></div></div></div>
+Look at the time to perform different numbers of iterations with muscle
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>time muscle -maxiters 1 &lt; HIVSIV.fasta &gt; HIVSIV-muscle1.fasta	// use a bad guide tree</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>time muscle -maxiters 2 &lt; HIVSIV.fasta &gt; HIVSIV-muscle2.fasta	// obtain a better guide tree and realign</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>time muscle -maxiters 3 &lt; HIVSIV.fasta &gt; HIVSIV-muscle3.fasta	// also add refinement</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>time muscle &lt; HIVSIV.fasta &gt; HIVSIV-muscle.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>muscle -in HIVSIV.fasta -out HIVSIV-muscle.fasta                 	// This is the same as the previous command.</code></strong>
+</pre>
+Compare the first and last alignments
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat HIVSIV-muscle1.fasta --reorder-by-alignment=HIVSIV-muscle.fasta &gt; a      // reorder sequences</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>mv a HIVSIV-muscle1.fasta </code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>seaview HIVSIV-muscle1.fasta &amp; seaview HIVSIV-muscle.fasta &amp;</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm119"></a>2.3. Probcons</h3></div></div></div>
+Align sequences and reversed sequences with probcons
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>probcons HIVSIV.fasta &gt; HIVSIV-probcons.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>fasta-flip.pl HIVSIV.fasta &gt; HIVSIV-flipped.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>probcons HIVSIV-flipped.fasta | fasta-flip.pl &gt; HIVSIV-probcons-flipped.fasta</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm129"></a>2.4. SuiteMSA</h3></div></div></div>
+Compare alignments using SuiteMSA
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>SuiteMSA &amp;</code></strong>
+</pre><span class="emphasis"><em>Choose Pixel Plot, and select HIVSIV-probcons.fasta</em></span><span class="emphasis"><em>Click on “Add” to load a new alignment file, and choose HIVSIV-probcons-flipped.fasta</em></span><span class="emphasis"><em>Click on “Add” to load a new alignment file, and choose HIVSIV-muscle.fasta</em></span>
+Q: What is the spatial pattern of the differences?
+</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm138"></a>2.5. Consensus</h3></div></div></div>
+Construct an alignment that only contains homologies present in both mafft and probcons alignments
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>echo &gt; blank</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cat blank  // It should print a blank line to the screen.</code></strong>
+</pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cat HIVSIV-muscle.fasta blank HIVSIV-probcons.fasta &gt; two-alignments.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-consensus –strict=0.99 &lt; two-alignments.fasta &gt; consensus.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>seaview consensus.fasta &amp;</code></strong>
+</pre></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm153"></a>3. Exercise (FSA and Prank)</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm156"></a>3.1. FSA</h3></div></div></div>
+Align sequences with fsa.  This will take some time.
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>fsa --fast --gapfactor 0 HIVSIV.fasta &gt; HIVSIV-fsa0.fasta &amp;     	// This is similar to probcons – few gaps.</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>fsa --fast --gapfactor 0.5 HIVSIV.fasta &gt; HIVSIV-fsa.fasta &amp;           // This is the default. Some gaps.</code></strong>
+</pre>
+Look at the alignment lengths for the different fsa parameters:
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-info HIVSIV-fsa0.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-info HIVSIV-fsa.fasta</code></strong>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm171"></a>3.2. Prank</h3></div></div></div>
+Align a (short) 5S data set with prank
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples/</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>prank -d=ITS/ITS1.fasta +F</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cp output.2.fas ITS1-prank1.fasta</code></strong>
+</pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>mafft ITS/ITS1.fasta &gt; ITS1-mafft.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>muscle &lt; ITS/ITS1.fasta &gt; ITS1-muscle.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>SuiteMSA &amp;</code></strong>
+</pre>Compare ITS1-prank.fasta, ITS1-mafft.fasta, and ITS1-muscle.fasta using SuiteMSA
+</div></div></div></body></html>
