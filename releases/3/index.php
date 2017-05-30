@@ -50,7 +50,7 @@
 		<li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
 		<li>Allow analyzing 1- and 2-sequence alignments.</li>
 		<li>Print out the model and priors (<em>including defaults</em>)</li>
-		<li>Allow specifying model and for substitution model and indel model, 
+		<li>Allow specifying priors for substitution model and indel model, 
 		  <ul style="font-family:times,monospace">
 		    <li>--smodel=HKY[kappa=2]. </li>
 		    <li>--imodel=RS07[logLambda~Laplace[-4,0.707],meanIndelLengthMinus1~Exponential[10]]</li>
@@ -63,7 +63,7 @@
 		    <li>--scale=1</li>
 		  </ul>
 		</li>
-		<li>Allow specifying priors on scale factors for branch lengths in each partition:
+		<li>Allow specifying priors on branch lengths.
 		  <ul style="font-family:times,monospace">
 		    <li>--branch-length=~Gamma[0.5,0.1]</li>
 		  </ul>
