@@ -28,8 +28,8 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>05/05/17: <strong>BAli-Phy 3.0-beta1 released</strong> - <a href="download.php">Download</a><br/>
-		Speed improvements (<a href="releases/3/">more news</a>)</p>
+	      <p>07/13/17: <strong>BAli-Phy 3.0-beta2 released</strong> - <a href="download.php">Download</a><br/>
+		Memory improvements (<a href="releases/3/">more news</a>)</p>
 
 	      </div>
 
