@@ -22,7 +22,7 @@ h1,h2,h3,h4 {clear: both;}
 	    <!-- ?php navbar(); ? -->
 	    <div class="main">
 
-	    <h2><a name="usersguide">User's Guide</a></h2>
+	    <h2><a name="usersguide">User's Guide (for version 3.0-beta)</a></h2>
 
 	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 	    <ul class="floatlist">
@@ -41,20 +41,20 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#output">Output</a></li>
 	      <li><a href="README.html#subst_models">Substitution models</a></li>
 	      <li><a href="README.html#indel_models">Insertion/deletion models</a></li>
-	      <li><a href="README.html#alignment_constraints">Alignment constaintsInsertion/deletion models</a></li>
+	      <li><a href="README.html#alignment_constraints">Alignment constaints</a></li>
 	      <li><a href="README.html#mixing_and_convergence">Convergence and Mixing: Is it done yet?</a></li>
 	      <li><a href="README.html#alignment-utilities">Alignment utilities</a></li>
 	      <li><a href="README.html#tree-utilities">Tree utilities</a></li>
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
 
-	    <h2><a name="usersguide">Tutorial</a></h2>
+	    <h2><a name="usersguide">Tutorial (for version 3.0-beta)</a></h2>
 
 	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 	    <ul class="floatlist">
-	      <li><a href="Tutorial2.html">HTML</a></li>
-	      <li><a href="Tutorial2.xhtml">XHTML</a> (shows math)</li>
-	      <li><?php track_link("Tutorial2.pdf","PDF")?></li>
+	      <li><a href="Tutorial3.html">HTML</a></li>
+	      <li><a href="Tutorial3.xhtml">XHTML</a> (shows math)</li>
+	      <li><?php track_link("Tutorial3.pdf","PDF")?></li>
 	    </ul>
 
 	    </div>
