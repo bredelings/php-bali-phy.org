@@ -66,7 +66,7 @@
 	      
 		<p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. </p>
 
-	        <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial2.html">tutorial</a>.</p>  
+	        <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial3.html">tutorial</a>.</p>  
 
 	      </div>
 
