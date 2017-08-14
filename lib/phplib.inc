@@ -373,7 +373,7 @@ $menutree->add_children('Welcome!',
 
 $menutree->add_children('Documentation',
 			array('Users Guide::docs.php#usersguide',
-			      'Tutorial::Tutorial2.html')
+			      'Tutorial::Tutorial3.html')
 			);
 		 
 $menutree->add_children('Contact',
