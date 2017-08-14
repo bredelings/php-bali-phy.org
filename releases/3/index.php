@@ -22,6 +22,7 @@
           <ul>
 	    <li><b>[3.0-beta1]</b> - May-05-2017</li>
 	    <li><b>[3.0-beta2]</b> - Jul-13-2017</li>
+	    <li><b>[3.0-beta3]</b> - Aug-14-2017</li>
 	  </ul>
 	  </div>
 
@@ -37,7 +38,9 @@
 	    <ul>
   	        <li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
-		<li><b>[3.0-beta2]</b> Decrease memory use for large trees.</li>
+		<li><b>[3.0-beta2]</b> <span style="color:red">Decrease memory use for large trees</a>.</li>
+		<li><b>[3.0-beta3]</b> <span style="color:red">Decrease memory use up to 3-fold</a>.</li>
+		<li><b>[3.0-beta3]</b> <span style="color:red">7-15% faster</a>.</li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
