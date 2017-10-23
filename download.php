@@ -25,12 +25,11 @@
 
 	  <h3>Development</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>3.0-beta3</b> (<a href="releases/3/">Changes</a>): 
+	    <li style="padding-bottom:1em"><b>3.0-beta4</b> (<a href="releases/3/">Changes</a>): 
 
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta3-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta3-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta3-win64.tar.gz","Windows&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta3.tar.gz","C++&nbsp;source") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta4-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta4-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta4-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
 

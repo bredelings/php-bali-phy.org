@@ -23,6 +23,7 @@
 	    <li><b>[3.0-beta1]</b> - May-05-2017</li>
 	    <li><b>[3.0-beta2]</b> - Jul-13-2017</li>
 	    <li><b>[3.0-beta3]</b> - Aug-14-2017</li>
+	    <li><b>[3.0-beta4]</b> - Oct-23-2017</li>
 	  </ul>
 	  </div>
 
@@ -38,9 +39,10 @@
 	    <ul>
   	        <li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
-		<li><b>[3.0-beta2]</b> <span style="color:red">Decrease memory use for large trees</a>.</li>
-		<li><b>[3.0-beta3]</b> <span style="color:red">Decrease memory use up to 3-fold</a>.</li>
-		<li><b>[3.0-beta3]</b> <span style="color:red">7-15% faster</a>.</li>
+		<li><b>[3.0-beta2]</b> <span style="color:red">Decrease memory use for large trees</span>.</li>
+		<li><b>[3.0-beta3]</b> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
+		<li><b>[3.0-beta3]</b> <span style="color:red">7-15% faster</span>.</li>
+		<li><b>[3.0-beta4]</b> <span style="color:red">site compression for fixed alignments.</span></li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -58,7 +60,7 @@
 		<li>Allow specifying priors for substitution model and indel model, 
 		  <ul style="font-family:times,monospace">
 		    <li>--smodel=HKY[kappa=2]. </li>
-		    <li>--imodel=RS07[logLambda~Laplace[-4,0.707],meanIndelLengthMinus1~Exponential[10]]</li>
+		    <li>--imodel=RS07[logLambda~Laplace[-4,0.707],meanIndelLength=Add[1,~Exponential[10]]]</li>
 		  </ul>
 		</li>
 		
@@ -73,6 +75,10 @@
 		    <li>--branch-length=~Gamma[0.5,0.1]</li>
 		  </ul>
 		</li>
+		<li><b>[3.0-beta4]</b> Sample ancestral sequences in sampled alignments.</li>
+		<li><b>[3.0-beta4]</b> Add helpful error messages for loading codon sequences.</li>
+		<li><b>[3.0-beta4]</b> Add initial help on various topics via --help=<em>topic</em>.</li>
+		<li><b>[3.0-beta4]</b> Add initial documentation on functions via e.g. --help=HKY.</li>
 	      </ul>
 	    <!-- li>Models
 	      <ul>
@@ -98,7 +104,8 @@
 	    <li>Summarization tools
 	    <ul>
 	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Beautify and condense MCMC statistics.</li> 
-	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Show MDS topology convergence figures.</li> 
+	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Show 2-D MDS topology convergence figures.</li> 
+	      <li><b>[3.0-beta4]</b> <em>bp-analyze.pl</em> - Show 3-D MDS topology convergence figures.</li> 
 	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Don't compute trace plots (too slow, large files).</li> 
 	      </ul>
 	    </li>
@@ -106,8 +113,10 @@
 	    <li>Changes
 	    <ul>
 	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
-	      <li>Change spelling for Gamma to GammaRates: <em>GTR+Gamma+INV</em> -> <em>GTR+GammaRates+INV</em>
 	      <li><b>[3.0-beta2]</b> Suffix parameter files with <em>*.log</em> instead of <em>*.p</em> to match other software.</li>
+	      <li><b>[3.0-beta4]</b> Change spelling for gamma rate variation to Rates.Gamma: <em>GTR+Rates.Gamma[4]+INV</em>
+	      <li><b>[3.0-beta4]</b> Change spelling for log-normal rate variation to Rates.logNormal: <em>GTR+Rates.logNormal[4]+INV</em>
+	      <li><b>[3.0-beta4]</b> Change <em>meanIndelLengthMinus1</em> to just <em>meanIndelLength</em>.</li>
 	    </ul>
 	    </li>
 	      
@@ -136,8 +145,8 @@
 		<li><b>08/20/16</b> Remove source_token field, allow root token to change, stop calling swap_token( )</li>
 
 		<li><b>02/26/17</b> Allow generating the IO functions for each rule.
-	[beta2]
-		<li><b>05/11/16</b> Remove triggers</li>
+	[beta1]
+		<li><b>05/11/17</b> Remove triggers</li>
 		<li><b></b> </li>
 		<li><b>05/17/17</b> Allow +INV again.</li>
 		<li><b>05/18/17</b> Eliminate Parameters::recalc( )</li>
@@ -146,7 +155,17 @@
 
 		<li><b>06/21/17</b> Add new SEV likelihood calculator</li>
 		<li><b>06/29/17</b> Connect leaf characters in linear time.</li>
-
+        [beta2]
+        [beta3]
+		<li><b>8/18/17</b> Allow multiparameter models to operate on multiparameter models.</li>
+		<li><b>8/22/17</b> Allow --help=topic.</li>
+		<li><b>8/22/17</b> Expand EM,MM,MMM, and FM.</li>
+		<li><b>9/1/17</b> Don't output space before PPs in newicks with PPs on internal nodes.</li>
+		<li><b>9/12/17</b> MeanIndelLength instead of meanIndellengthMinus1.</li>
+		<li><b>9/28/17</b> Split Decl groups, in preparation for let-floating.</li>
+		<li><b>10/03/17</b> Avoid multiple runs starting in same dir.</li>
+		<li><b>10/07/17</b> Add pattern compression for fixed alignments.</li>
+	[beta4]
 		<li> ... allow specifying distribution for branch lengths </li>
 		<li> ... compute reconstructed ancestral sequences by default ... </li>
 		<li> ... don't break scripts that assume N/X at internal nodes ... </li>
