@@ -22,7 +22,7 @@
 	  <h2><a name="news">Release Notes</a></h2>
 
           <ul>
-	    <li><a href="./3/"><em>BAli-Phy 3.0-beta1</em></a>: <em><b>development</b></em> -- [<a href="../download.php">Download</a>]
+	    <li><a href="./3/"><em>BAli-Phy 3.0-beta4</em></a>: <em><b>development</b></em> -- [<a href="../download.php">Download</a>]
 	    <li><a href="./2.3/">BAli-Phy 2.3</a>: <b>current stable release</b> -- [<a href="../download.php">Download</a>]
 	    <li><a href="./2.2/">BAli-Phy 2.2</a>
 	    <li><a href="./2.1/">BAli-Phy 2.1</a>
