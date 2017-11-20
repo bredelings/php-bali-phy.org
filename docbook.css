@@ -3,7 +3,15 @@
 }
 
 .command, .prompt {
-	font-weight: bold;
+    font-weight: bold;
+}
+
+.guilabel {text-decoration: underline;font-style:italic }
+
+.prompt {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
 }
 
 .note {
