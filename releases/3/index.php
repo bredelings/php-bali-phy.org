@@ -39,10 +39,10 @@
 	    <ul>
   	        <li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
-		<li><b>[3.0-beta2]</b> <span style="color:red">Decrease memory use for large trees</span>.</li>
-		<li><b>[3.0-beta3]</b> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
-		<li><b>[3.0-beta3]</b> <span style="color:red">7-15% faster</span>.</li>
-		<li><b>[3.0-beta4]</b> <span style="color:red">site compression for fixed alignments.</span></li>
+		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
+		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
+		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">7-15% faster</span>.</li>
+		<li><span class="timepoint">[3.0-beta4]</span> <span style="color:red">site compression for fixed alignments.</span></li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -53,33 +53,38 @@
 	    
 	    <li>Features
 	      <ul>
-		<li>Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
-		<li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
-		<li>Allow analyzing 1- and 2-sequence alignments.</li>
-		<li>Print out the model and priors (<em>including defaults</em>)</li>
-		<li>Allow specifying priors for substitution model and indel model, 
-		  <ul style="font-family:times,monospace">
-		    <li>--smodel=HKY[kappa=2]. </li>
-		    <li>--imodel=RS07[logLambda~Laplace[-4,0.707],meanIndelLength=Add[1,~Exponential[10]]]</li>
+		<li><b>Large Trees</b>:
+		  <ul>
+		    <li>Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
+		    <li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
 		  </ul>
 		</li>
-		
-		<li>Allow specifying priors on scale factors for branch lengths in each partition:
-		  <ul style="font-family:times,monospace">
-		    <li>--scale=~Gamma[0.5,2]</li>
-		    <li>--scale=1</li>
+		<li><b>Model and priors</b>
+		  <ul>
+		    <li>Print out the model and priors (<em>including defaults</em>)</li>
+		    
+		    <li>Allow specifying priors for substitution model, indel model, partition scale factors, and branch lengths:
+		      <ul style="font-family:times,monospace">
+			<li>--smodel=HKY[kappa=2]</li>
+			<li>--imodel=RS07[logLambda~Laplace[-4,0.707]]</li>
+			<li>--scale=~Gamma[0.5,2]</li>
+			<li>--branch-length=~Gamma[0.5,0.1]</li>
+		      </ul>
+		    </li>
 		  </ul>
 		</li>
-		<li>Allow specifying priors on branch lengths.
-		  <ul style="font-family:times,monospace">
-		    <li>--branch-length=~Gamma[0.5,0.1]</li>
+		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
+		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
+		<li><b>Help</b>
+		  <ul>
+		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Add help on various topics via <b>--help=<em>topic</em></b>.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on functions: e.g. <b>--help=HKY</b></li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on commands: e.g. <b>--help=alphabet</b></li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Add simpler syntax for linking partitions: e.g. <b>--link=1,2</b></li>
 		  </ul>
-		</li>
-		<li><b>[3.0-beta4]</b> Sample ancestral sequences in sampled alignments.</li>
-		<li><b>[3.0-beta4]</b> Add helpful error messages for loading codon sequences.</li>
-		<li><b>[3.0-beta4]</b> Add initial help on various topics via --help=<em>topic</em>.</li>
-		<li><b>[3.0-beta4]</b> Add initial documentation on functions via e.g. --help=HKY.</li>
 	      </ul>
+	    </li>
 	    <!-- li>Models
 	      <ul>
 	      </ul>
@@ -89,7 +94,7 @@
 	    <li>Misc
 	      <ul>
 		<li>Add unit tests.</li>
-		<li><b>[3.0-beta2]</b> Expand likelihood testsuite.</li>
+		<li><span class="timepoint">[3.0-beta2]</span> Expand likelihood testsuite.</li>
 	      </ul>
 	    </li>
 
@@ -103,30 +108,35 @@
 
 	    <li>Summarization tools
 	    <ul>
-	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Beautify and condense MCMC statistics.</li> 
-	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Show 2-D MDS topology convergence figures.</li> 
-	      <li><b>[3.0-beta4]</b> <em>bp-analyze.pl</em> - Show 3-D MDS topology convergence figures.</li> 
-	      <li><b>[3.0-beta2]</b> <em>bp-analyze.pl</em> - Don't compute trace plots (too slow, large files).</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Beautify and condense MCMC statistics.</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Show 2-D MDS topology convergence figures.</li> 
+	      <li><span class="timepoint">[3.0-beta4]</span> <em>bp-analyze.pl</em> - Show 3-D MDS topology convergence figures.</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Don't compute trace plots (too slow, large files).</li> 
 	      </ul>
 	    </li>
 
 	    <li>Changes
 	    <ul>
 	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
-	      <li><b>[3.0-beta2]</b> Suffix parameter files with <em>*.log</em> instead of <em>*.p</em> to match other software.</li>
-	      <li><b>[3.0-beta4]</b> Change spelling for gamma rate variation to Rates.Gamma: <em>GTR+Rates.Gamma[4]+INV</em>
-	      <li><b>[3.0-beta4]</b> Change spelling for log-normal rate variation to Rates.logNormal: <em>GTR+Rates.logNormal[4]+INV</em>
-	      <li><b>[3.0-beta4]</b> Change <em>meanIndelLengthMinus1</em> to just <em>meanIndelLength</em>.</li>
+	      <li><span class="timepoint">[3.0-beta2]</span> Rename parameter logs: <b>*.p  <span style="color:rgb(0,220,0)">&rarr;</span> *.log</b>.</li>
+	      <li><span class="timepoint">[3.0-beta2]</span> Change spelling: <b>gamma_inv <span style="color:rgb(0,220,0)">&rarr;</span> Rates.Gamma+INV</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&rarr;</span> Rates.Gamma</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&rarr;</span> Rates.logNormal</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&rarr;</span> meanIndelLength</b>.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&rarr;</span> bp-analyze</em></li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&rarr;</span> F:pi[A]</b></li>		
+
 	    </ul>
 	    </li>
 	      
 	    <li>Fixes
 	      <ul>
-		<li><b>[3.0-beta2]</b> Fix compile on XCode 6.</li>
+		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> Allow specifying priors on frequencies and GTR exchangabilities.</li>
 	      </ul>
 	    </li>
 
-	    <!--li>Internals
+	    <!-- li>Internals
 	    <ul>
 	      <li></li>
 
@@ -158,7 +168,7 @@
         [beta2]
         [beta3]
 		<li><b>8/18/17</b> Allow multiparameter models to operate on multiparameter models.</li>
-		<li><b>8/22/17</b> Allow --help=topic.</li>
+		<li><b>8/22/17</b> Allow -\-help=topic.</li>
 		<li><b>8/22/17</b> Expand EM,MM,MMM, and FM.</li>
 		<li><b>9/1/17</b> Don't output space before PPs in newicks with PPs on internal nodes.</li>
 		<li><b>9/12/17</b> MeanIndelLength instead of meanIndellengthMinus1.</li>
@@ -166,12 +176,32 @@
 		<li><b>10/03/17</b> Avoid multiple runs starting in same dir.</li>
 		<li><b>10/07/17</b> Add pattern compression for fixed alignments.</li>
 	[beta4]
-		<li> ... allow specifying distribution for branch lengths </li>
-		<li> ... compute reconstructed ancestral sequences by default ... </li>
-		<li> ... don't break scripts that assume N/X at internal nodes ... </li>
-		<li> ... compute categories for each letter by default ... </li>
-		<li> ... compute probability of positive selection for sites/letters? ...</li>
+		<li><b>10/24/17</b>Change default to 200,000 iterations, improve error message.</li>
+		<li><b>10/24/17</b>Autodetect presence of cairo.</li>
+		<li><b>10/28/17</b>bp-analyze: Only print cmd-line once if they are all the same.</li>
+		<li><b>10/30/17</b>Allow building with cygwin again.</li>
+		<li><b>11/07/17</b>Rename bp-analyze.pl to bp-analyze.</li>
+		<li><b>11/07/17</b>FIX: don't run MDS if we don't have R.</li>
+		<li><b>11/11/17</b>Allow logging lists of key-value pairs.</li>
+		<li><b>11/13/17</b>Use "::" to separate path elements.</li>
+		<li><b>11/15/17</b>(**)Load function defs from external files.</li>
 
+		<li><b>11/16/17</b>(**)Use List[Pair[String,Double]] for frequencies, and change priors to DirichletOn[].</li>
+		<li><b>11/16/17</b>(**)Use List[Pair[String,Double]] for exchangabilities, and change priors to DirichletOn[].</li>
+		<li><b>11/16/17</b>(**)Use short parameter names.</li>
+		<li><b>11/20/17</b>FIX: complain if smodel groups have different alphabets, and if alphabet="" groups have different alphabets.</li>
+		<li><b>11/20/17</b>(**)Add -\-link option.</li>
+		<li><b>11/21/17</b>Look for help in external files.</li>
+		<li><b>//</b>.</li>
+		<li><b>//</b>.</li>
+		<li><b>//</b>.</li>
+		<li><b>//</b>.</li>
+		<li><b>//</b>.</li>
+        [beta5]
+		<li>TODO ... improve -\-with-include-dir=... to update pkgconfig search path?</li>
+		<li>TODO ... compute categories for each letter by default ... </li>
+		<li>TODO ... compute probability of positive selection for sites/letters? ...</li>
+        [todo]
 	      </ul>
 	    </li>
 	    -->
