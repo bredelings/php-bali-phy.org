@@ -133,6 +133,7 @@
 	      <ul>
 		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
 		<li><span class="timepoint">[3.0-beta5]</span> Allow specifying priors on frequencies and GTR exchangabilities.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
 	      </ul>
 	    </li>
 
