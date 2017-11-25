@@ -108,10 +108,10 @@
 
 	    <li>Summarization tools
 	    <ul>
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Beautify and condense MCMC statistics.</li> 
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Show 2-D MDS topology convergence figures.</li> 
-	      <li><span class="timepoint">[3.0-beta4]</span> <em>bp-analyze.pl</em> - Show 3-D MDS topology convergence figures.</li> 
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze.pl</em> - Don't compute trace plots (too slow, large files).</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Beautify and condense MCMC statistics.</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Show 2-D MDS topology convergence figures.</li> 
+	      <li><span class="timepoint">[3.0-beta4]</span> <em>bp-analyze</em> - Show 3-D MDS topology convergence figures.</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Don't compute trace plots (too slow, large files).</li> 
 	      </ul>
 	    </li>
 
