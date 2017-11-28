@@ -79,8 +79,7 @@
 		<li><b>Help</b>
 		  <ul>
 		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Add help on various topics via <b>--help=<em>topic</em></b>.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on functions: e.g. <b>--help=HKY</b></li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on models: e.g. <b>--help=HKY</b></li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on commands: e.g. <b>--help=alphabet</b></li>
 		  </ul>
 	      </ul>
