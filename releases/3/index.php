@@ -68,20 +68,20 @@
 			<li>--smodel=HKY[kappa=2]</li>
 			<li>--imodel=RS07[logLambda~Laplace[-4,0.707]]</li>
 			<li>--scale=~Gamma[0.5,2]</li>
-			<li>--branch-length=~Gamma[0.5,0.1]</li>
+			<li>--branch-length=~Gamma[0.5,Div[2,num_branches[T]]]</li>
 		      </ul>
 		    </li>
 		  </ul>
 		</li>
 		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
 		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> Add simpler syntax for linking partitions: e.g. <b>--link=1,2</b></li>
 		<li><b>Help</b>
 		  <ul>
 		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Add help on various topics via <b>--help=<em>topic</em></b>.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on functions: e.g. <b>--help=HKY</b></li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on commands: e.g. <b>--help=alphabet</b></li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Add simpler syntax for linking partitions: e.g. <b>--link=1,2</b></li>
 		  </ul>
 	      </ul>
 	    </li>
