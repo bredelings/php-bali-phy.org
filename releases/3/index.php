@@ -24,6 +24,7 @@
 	    <li><b>[3.0-beta2]</b> - Jul-13-2017</li>
 	    <li><b>[3.0-beta3]</b> - Aug-14-2017</li>
 	    <li><b>[3.0-beta4]</b> - Oct-23-2017</li>
+	    <li><b>[3.0-beta5]</b> - Dec-06-2017</li>
 	  </ul>
 	  </div>
 
