@@ -20,7 +20,7 @@
 	    
 	  <h2><a name="download">Download</a></h2>
 
-	  <p>Please see the <a href="docs.php">documentation</a> for more detailed instructions on how to install the software, including software and hardware requirements.</p>
+	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.  Note that Mac users can install via <b>homebrew</b>.</p>
 	  <!-- I should add an outline here of subsections under installation -->
 
 	  <h3>Development</h3>
