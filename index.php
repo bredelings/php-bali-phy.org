@@ -29,7 +29,7 @@
 
 	    <div style="margin-left:1em">
 	      <p>12/06/17: <strong>BAli-Phy 3.0-beta5 released</strong> - <a href="download.php">Download</a><br/>
-		Ease-of-use and speed improvements (<a href="releases/3/">more news</a>)</p>
+		Usability improvements (<a href="releases/3/">more news</a>)</p>
 
 	      </div>
 
