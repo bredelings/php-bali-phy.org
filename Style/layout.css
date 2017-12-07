@@ -91,4 +91,5 @@ ul.changelog li li {font-weight: normal; color: black}
 .release_dates ul {display: inline; padding: 0; padding-left: 0.5}
 .release_dates li {display: inline; padding-left: 1em; white-space:nowrap}
 
-.timepoint {font-style:italic; color: orange;}
+.timepoint-new {font-family:monospace ; font-size: 85%; color: orange}
+.timepoint     {font-family:monospace ; font-size: 85%; color:rgb(0,0,100)}

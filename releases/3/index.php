@@ -72,16 +72,23 @@
 			<li>--branch-length=~Gamma[0.5,Div[2,num_branches[T]]]</li>
 		      </ul>
 		    </li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Super-long parameter names fixed.</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
 		  </ul>
 		</li>
 		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
 		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Add simpler syntax for linking partitions: e.g. <b>--link=1,2</b></li>
+		<li><span class="timepoint-new">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
 		<li><b>Help</b>
 		  <ul>
 		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on models: e.g. <b>--help=HKY</b></li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Add documentation on commands: e.g. <b>--help=link</b></li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
+		    <li><span class="timepoint-new">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
 		  </ul>
 	      </ul>
 	    </li>
@@ -98,6 +105,13 @@
 	      </ul>
 	    </li>
 
+	    <li>Install
+	      <ul>
+		<li><span class="timepoint-new">[3.0-beta5]</span> New install documentation.</li>
+		<li><span class="timepoint-new">[3.0-beta5]</span> Cairo library autodetected.</li>
+		<li><span class="timepoint-new">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
+	      </ul>
+	    </li>
 	    <!--
 	    <li>Input
 	    <ul>
@@ -118,13 +132,13 @@
 	    <li>Changes
 	    <ul>
 	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
-	      <li><span class="timepoint">[3.0-beta2]</span> Rename parameter logs: <b>*.p  <span style="color:rgb(0,220,0)">&rarr;</span> *.log</b>.</li>
-	      <li><span class="timepoint">[3.0-beta2]</span> Change spelling: <b>gamma_inv <span style="color:rgb(0,220,0)">&rarr;</span> Rates.Gamma+INV</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&rarr;</span> Rates.Gamma</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&rarr;</span> Rates.logNormal</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&rarr;</span> meanIndelLength</b>.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&rarr;</span> bp-analyze</em></li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&rarr;</span> F:pi[A]</b></li>		
+	      <li><span class="timepoint">[3.0-beta2]</span> Rename parameter logs: <b>*.p  <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> *.log</b>.</li>
+	      <li><span class="timepoint">[3.0-beta2]</span> Change spelling: <b>gamma_inv <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma+INV</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.logNormal</b>.</li>
+	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> meanIndelLength</b>.</li>
+	      <li><span class="timepoint-new">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
+	      <li><span class="timepoint-new">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> F:pi[A]</b></li>		
 
 	    </ul>
 	    </li>
@@ -132,8 +146,7 @@
 	    <li>Fixes
 	      <ul>
 		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Allow specifying priors on frequencies and GTR exchangabilities.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
+		<li><span class="timepoint-new">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
 	      </ul>
 	    </li>
 
