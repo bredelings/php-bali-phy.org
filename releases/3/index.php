@@ -25,6 +25,7 @@
 	    <li><b>[3.0-beta3]</b> - Aug-14-2017</li>
 	    <li><b>[3.0-beta4]</b> - Oct-23-2017</li>
 	    <li><b>[3.0-beta5]</b> - Dec-06-2017</li>
+	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li>
 	  </ul>
 	  </div>
 
@@ -43,7 +44,7 @@
 		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">7-15% faster</span>.</li>
-		<li><span class="timepoint">[3.0-beta4]</span> <span style="color:red">site compression for fixed alignments.</span></li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> <span style="color:red">~16% faster</span></li>
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -69,26 +70,30 @@
 			<li>--smodel=HKY[kappa=2]</li>
 			<li>--imodel=RS07[logLambda~Laplace[-4,0.707]]</li>
 			<li>--scale=~Gamma[0.5,2]</li>
-			<li>--branch-length=~Gamma[0.5,Div[2,num_branches[T]]]</li>
+			<li>--branch-length=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</li>
 		      </ul>
 		    </li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Super-long parameter names fixed.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Super-long parameter names fixed.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
+		    <li><span class="timepoint-new">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
+		    <li><span class="timepoint-new">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
 		  </ul>
 		</li>
 		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
 		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
-		<li><span class="timepoint-new">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
+		<li><span class="timepoint">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
 		<li><b>Help</b>
 		  <ul>
 		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
-		    <li><span class="timepoint-new">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
+		    <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
+		    <li><span class="timepoint-new">[3.0-beta6]</span> Better help for functions.</li>
+		    <li><span class="timepoint-new">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
 		  </ul>
 	      </ul>
 	    </li>
@@ -102,14 +107,16 @@
 	      <ul>
 		<li>Add unit tests.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> Expand likelihood testsuite.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Improve pre-burnin.</li>
 	      </ul>
 	    </li>
 
 	    <li>Install
 	      <ul>
-		<li><span class="timepoint-new">[3.0-beta5]</span> New install documentation.</li>
-		<li><span class="timepoint-new">[3.0-beta5]</span> Cairo library autodetected.</li>
-		<li><span class="timepoint-new">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> New install documentation.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> Cairo library autodetected.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
 	      </ul>
 	    </li>
 	    <!--
@@ -137,8 +144,8 @@
 	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma</b>.</li>
 	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.logNormal</b>.</li>
 	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> meanIndelLength</b>.</li>
-	      <li><span class="timepoint-new">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
-	      <li><span class="timepoint-new">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> F:pi[A]</b></li>		
+	      <li><span class="timepoint">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> F:pi[A]</b></li>		
 
 	    </ul>
 	    </li>
@@ -146,7 +153,11 @@
 	    <li>Fixes
 	      <ul>
 		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
-		<li><span class="timepoint-new">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
+		<li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Fix order of rate categories for DP model.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Fix very long initial tree.</li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li>
 	      </ul>
 	    </li>
 
