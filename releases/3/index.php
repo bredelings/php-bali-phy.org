@@ -70,7 +70,7 @@
 			<li>--smodel=HKY[kappa=2]</li>
 			<li>--imodel=RS07[logLambda~Laplace[-4,0.707]]</li>
 			<li>--scale=~Gamma[0.5,2]</li>
-			<li>--branch-length=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</li>
+			<li>--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</li>
 		      </ul>
 		    </li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
