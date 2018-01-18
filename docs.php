@@ -39,6 +39,7 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#running">Running the program</a></li>
 	      <li><a href="README.html#input">Input</a></li>
 	      <li><a href="README.html#output">Output</a></li>
+	      <li><a href="README.html#functions">Models and Priors</a></li>
 	      <li><a href="README.html#subst_models">Substitution models</a></li>
 	      <li><a href="README.html#indel_models">Insertion/deletion models</a></li>
 	      <li><a href="README.html#mixing_and_convergence">Convergence and Mixing: Is it done yet?</a></li>
