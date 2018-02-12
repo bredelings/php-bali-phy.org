@@ -23,29 +23,19 @@
 	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.  Note that Mac users can install via <b>homebrew</b>.</p>
 	  <!-- I should add an outline here of subsections under installation -->
 
-	  <h3>Development</h3>
+	  <h3>Current (stable) release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>3.0-beta6</b> (<a href="releases/3/">Changes</a>): 
+	    <li style="padding-bottom:1em"><b>3.0</b> (<a href="releases/3/">Changes</a>): 
 
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta6-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta6-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-beta6-win64.tar.gz","Windows&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
 
-	  <h3>Current (Stable) Release</h3>
-	  <ul>
-	    <li style="padding-bottom:1em"><b>2.3.8</b> (<a href="releases/current/">Changes</a>): 
-
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8-win64.tar.gz","Windows&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-2.3.8.tar.gz","C++&nbsp;source") ?>]
-	    &nbsp;&nbsp;[<a href="https://github.com/Homebrew/homebrew-science/blob/master/README.md">homebrew/science</a>]</li>
-	</ul>
-
 	<h3>Older releases</h3>
 	<ul>
+	  <li><b>2.2</b> (<a href="releases/2.3/">Changes</a>)</li>
 	  <li><b>2.2</b> (<a href="releases/2.2/">Changes</a>)</li>
 	  <li><b>2.1</b> (<a href="releases/2.1/">Changes</a>)</li>
 	  <li><b>2.0</b> (<a href="releases/2.0/">Changes</a>)</li>
