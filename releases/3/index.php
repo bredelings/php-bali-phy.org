@@ -41,12 +41,13 @@
 	    <li>Speed &amp; Memory
 	      <ul>
   	        <li><b>Speed:</b> 0-300% faster.&nbsp;&nbsp;&nbsp;&nbsp;<b>Memory:</b> 0-300% less memory.</li>
+		<li><span class="timepoint-new">[3.0]</span> Better mixing when alignment depends on tree.</li>
   	        <!-- li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">7-15% faster</span>.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> <span style="color:red">~16% faster</span></li-- >
+		<li><span class="timepoint">[3.0-beta6]</span> <span style="color:red">~16% faster</span></li-- >
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
@@ -65,23 +66,25 @@
 		</li>
 		<li><b>Model and priors</b>
 		  <ul>
-		    <li>Print out the model and priors (<em>including defaults</em>)</li>
-		    
 		    <li>Allow specifying priors for substitution model, indel model, partition scale factors, and branch lengths:
-		      <ul style="font-family:times,monospace">
-			<li>--smodel=HKY[kappa=2]</li>
-			<li>--imodel=RS07[logLambda~Laplace[-4,0.707]]</li>
-			<li>--scale=~Gamma[0.5,2]</li>
-			<li>--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</li>
+		      <ul>
+			<li><span class="userinput">--smodel=HKY[kappa=2]</span></li>
+			<li><span class="userinput">--imodel=RS07[logLambda~Laplace[-4,0.707]]</span></li>
+			<li><span class="userinput">--scale=~Gamma[0.5,2]</span></li>
+			<li><span class="userinput">--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</span></li>
 		      </ul>
 		    </li>
+		    <li>Print out the model and priors (<em>including defaults</em>)</li>
+		    <li><span class="timepoint-new">[3.0]</span> Generic mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
+		    <li><span class="timepoint-new">[3.0]</span> Generic rate distributions: <span class="userinput">HKY+MultiRate[Gamma[0.5,2]]</span></li>
+		    <li><span class="timepoint-new">[3.0]</span> Defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m]]]</span></li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Super-long parameter names fixed.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
-		    <li><span class="timepoint-new">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
-		    <li><span class="timepoint-new">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
+		    <li><span class="timepoint">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
+		    <li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
 		  </ul>
 		</li>
 		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
@@ -94,8 +97,8 @@
 		    <li><span class="timepoint">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
 		    <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
-		    <li><span class="timepoint-new">[3.0-beta6]</span> Better help for functions.</li>
-		    <li><span class="timepoint-new">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
+		    <li><span class="timepoint">[3.0-beta6]</span> Better help for functions.</li>
+		    <li><span class="timepoint">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
 		  </ul>
 	      </ul>
 	    </li>
@@ -109,7 +112,7 @@
 	      <ul>
 		<li>Add unit tests.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> Expand likelihood testsuite.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Improve pre-burnin.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Improve pre-burnin.</li>
 	      </ul>
 	    </li>
 
@@ -118,7 +121,7 @@
 		<li><span class="timepoint">[3.0-beta5]</span> New install documentation.</li>
 		<li><span class="timepoint">[3.0-beta5]</span> Cairo library autodetected.</li>
 		<li><span class="timepoint">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
 	      </ul>
 	    </li>
 	    <!--
@@ -156,10 +159,10 @@
 	      <ul>
 		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
 		<li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Fix order of rate categories for DP model.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Fix very long initial tree.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Fix order of rate categories for DP model.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li>
+		<li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li>
 	      </ul>
 	    </li>
 
