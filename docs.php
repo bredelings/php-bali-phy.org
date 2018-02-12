@@ -22,7 +22,7 @@ h1,h2,h3,h4 {clear: both;}
 	    <!-- ?php navbar(); ? -->
 	    <div class="main">
 
-	    <h2><a name="usersguide">User's Guide (for version 3.0-beta)</a></h2>
+	    <h2><a name="usersguide">User's Guide for version 3</a></h2>
 
 	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 	    <ul class="floatlist">
@@ -48,7 +48,7 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
 
-	    <h2><a name="usersguide">Tutorial (for version 3.0-beta)</a></h2>
+	    <h2><a name="usersguide">Tutorial for version 3</a></h2>
 
 	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 	    <ul class="floatlist">
