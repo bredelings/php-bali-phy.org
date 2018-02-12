@@ -18,14 +18,15 @@
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 
-	  <div class="release_dates"><b style="font-size:125%">Version 3 (in development):</b>
+	  <div class="release_dates"><b style="font-size:125%">Version 3 (stable):</b>
           <ul>
-	    <li><b>[3.0-beta1]</b> - May-05-2017</li>
+	    <!-- li><b>[3.0-beta1]</b> - May-05-2017</li>
 	    <li><b>[3.0-beta2]</b> - Jul-13-2017</li>
 	    <li><b>[3.0-beta3]</b> - Aug-14-2017</li>
 	    <li><b>[3.0-beta4]</b> - Oct-23-2017</li>
 	    <li><b>[3.0-beta5]</b> - Dec-06-2017</li>
-	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li>
+	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li -->
+	    <li><b>[3.0]</b> - Feb-12-2018</li>
 	  </ul>
 	  </div>
 
