@@ -39,13 +39,14 @@
 	    -->
 
 	    <li>Speed &amp; Memory
-	    <ul>
-  	        <li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
+	      <ul>
+  	        <li><b>Speed:</b> 0-300% faster.&nbsp;&nbsp;&nbsp;&nbsp;<b>Memory:</b> 0-300% less memory.</li>
+  	        <!-- li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">Decrease memory use up to 3-fold</span>.</li>
 		<li><span class="timepoint">[3.0-beta3]</span> <span style="color:red">7-15% faster</span>.</li>
-		<li><span class="timepoint-new">[3.0-beta6]</span> <span style="color:red">~16% faster</span></li>
+		<li><span class="timepoint-new">[3.0-beta6]</span> <span style="color:red">~16% faster</span></li-- >
 		<!-- li><span style="color:red">[??% faster]</span> Cache tree prior.</li>
 		<li><span style="color:red">[??% faster]</span> Avoid recomputing alignment matrix.</li>
 		<li><span style="color:red">[??% faster]</span> Eliminate alignment index matrices: Faster computation.</li>
