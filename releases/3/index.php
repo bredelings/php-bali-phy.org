@@ -56,51 +56,59 @@
 	      </ul>
 	    </li>
 	    
-	    <li>Features
-	      <ul>
-		<li><b>Large Trees</b>:
-		  <ul>
-		    <li>Likelihood rescaling (<em>compute likelihoods for large trees</em>).</li>
-		    <li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
-		  </ul>
-		</li>
-		<li><b>Model and priors</b>
-		  <ul>
-		    <li>Allow specifying priors for substitution model, indel model, partition scale factors, and branch lengths:
-		      <ul>
-			<li><span class="userinput">--smodel=HKY[kappa=2]</span></li>
-			<li><span class="userinput">--imodel=RS07[logLambda~Laplace[-4,0.707]]</span></li>
-			<li><span class="userinput">--scale=~Gamma[0.5,2]</span></li>
-			<li><span class="userinput">--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</span></li>
-		      </ul>
-		    </li>
-		    <li>Print out the model and priors (<em>including defaults</em>)</li>
-		    <li><span class="timepoint-new">[3.0]</span> Generic mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
-		    <li><span class="timepoint-new">[3.0]</span> Generic rate distributions: <span class="userinput">HKY+MultiRate[Gamma[0.5,2]]</span></li>
-		    <li><span class="timepoint-new">[3.0]</span> Defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m]]]</span></li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Super-long parameter names fixed.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
-		    <li><span class="timepoint">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
-		    <li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
-		  </ul>
-		</li>
+	  <li>Features
+	    <ul>
 		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
 		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
-		<li><b>Help</b>
-		  <ul>
-		    <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
-		    <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
-		    <li><span class="timepoint">[3.0-beta6]</span> Better help for functions.</li>
-		    <li><span class="timepoint">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
-		  </ul>
-	      </ul>
+	    </ul></li>
+	  <li>Large Trees
+	    <ul>
+	      <li>Compute likelihoods for very large trees (<em>likelihood rescaling</em>).</li>
+	      <li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
+	    </ul>
+	  </li>
+	  <li>Models
+	    <ul>
+	      <li>Allow specifying priors for substitution model, indel model, partition scale factors, and branch lengths:
+		<ul>
+		  <li><span class="userinput">--smodel=HKY[kappa=2]</span></li>
+		  <li><span class="userinput">--imodel=RS07[logLambda~Laplace[-4,0.707]]</span></li>
+		  <li><span class="userinput">--scale=~Gamma[0.5,2]</span></li>
+		  <li><span class="userinput">--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</span></li>
+		</ul>
+	      </li>
+	      <li>Print out the model and priors (<em>including defaults</em>)</li>
+	      <li><span class="timepoint-new">[3.0]</span> Generic mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
+	      <li><span class="timepoint-new">[3.0]</span> Generic rate distributions: <span class="userinput">HKY+MultiRate[Gamma[0.5,2]]</span></li>
+	      <li><span class="timepoint-new">[3.0]</span> Defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m]]]</span></li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Super-long parameter names fixed.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
+	      <li><span class="timepoint">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
+	      <li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
+	    </ul>
+	  </li>
+	  <li>Summarization tools
+	    <ul>
+	      <li><span class="timepoint">[3.0-beta2]</span> Beautify and condense MCMC statistics.</li> 
+	      <li><span class="timepoint">[3.0-beta4]</span> Show 2-D MDS and 3-D topology convergence figures.</li> 
+	      <li><span class="timepoint">[3.0-beta2]</span> Don't compute trace plots (too slow, large files).</li> 
+	    </ul>
+	  </li>
+
+	  <li>Help
+	    <ul>
+	      <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
+	      <li><span class="timepoint">[3.0-beta6]</span> Better help for functions.</li>
+	      <li><span class="timepoint">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
+	    </ul>
 	    </li>
 	    <!-- li>Models
 	      <ul>
@@ -131,15 +139,6 @@
 	      </ul>
 	    </li>
 	    -->
-
-	    <li>Summarization tools
-	    <ul>
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Beautify and condense MCMC statistics.</li> 
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Show 2-D MDS topology convergence figures.</li> 
-	      <li><span class="timepoint">[3.0-beta4]</span> <em>bp-analyze</em> - Show 3-D MDS topology convergence figures.</li> 
-	      <li><span class="timepoint">[3.0-beta2]</span> <em>bp-analyze</em> - Don't compute trace plots (too slow, large files).</li> 
-	      </ul>
-	    </li>
 
 	    <li>Changes
 	    <ul>
