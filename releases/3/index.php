@@ -56,9 +56,9 @@
 	      </ul>
 	    </li>
 	    
-	  <li>Features
+	  <li>Alignments
 	    <ul>
-		<li>Allow analyzing <b>1-sequence and 2-sequence</b> alignments.</li>
+		<li>Allow analyzing 1-sequence and 2-sequence alignments.</li>
 		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
 	    </ul></li>
 	  <li>Large Trees
@@ -69,26 +69,29 @@
 	  </li>
 	  <li>Models
 	    <ul>
-	      <li>Allow specifying priors for substitution model, indel model, partition scale factors, and branch lengths:
+	      <li>New model language that allows setting all parameter values <em>and priors</em>:
 		<ul>
 		  <li><span class="userinput">--smodel=HKY[kappa=2]</span></li>
 		  <li><span class="userinput">--imodel=RS07[logLambda~Laplace[-4,0.707]]</span></li>
-		  <li><span class="userinput">--scale=~Gamma[0.5,2]</span></li>
+		</ul>
+	      <li>Allow specifying priors on (i) shared branch lengths and (ii) partition-specific scale factors:
+		<ul>
 		  <li><span class="userinput">--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</span></li>
+		  <li><span class="userinput">--scale=1,3:~Gamma[0.5,2]</span></li>
 		</ul>
 	      </li>
-	      <li>Print out the model and priors (<em>including defaults</em>)</li>
-	      <li><span class="timepoint-new">[3.0]</span> Generic mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
-	      <li><span class="timepoint-new">[3.0]</span> Generic rate distributions: <span class="userinput">HKY+MultiRate[Gamma[0.5,2]]</span></li>
-	      <li><span class="timepoint-new">[3.0]</span> Defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m]]]</span></li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Priors for frequencies and GTR.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Super-long parameter names fixed.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Triplet alphabet automatically determined from model (fixes crash).</li>
+	      <li>Explicit priors, <em>including default priors</em></li>
+	      <li><span class="timepoint-new">[3.0]</span> site-mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
+	      <li><span class="timepoint-new">[3.0]</span> general site-rate distributions: <span class="userinput">HKY+MultiRate[Beta[2,3]]</span></li>
+	      <li><span class="timepoint-new">[3.0]</span> user-defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m+Rates.Gamma]]]</span></li>
+	      <li><span class="timepoint">[3.0-beta5]</span> priors for frequencies and GTR.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> super-long parameter names fixed.</li>
+	      <li><span class="timepoint">[3.0-beta5]</span> Codon and Triplet alphabets automatically determined from model.</li>
 	      <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li>
-	      <li><span class="timepoint">[3.0-beta6]</span> Sample initial branch-lengths from prior.</li>
-	      <li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
+	      <!-- li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li -->
+	      <li><span class="timepoint">[3.0-beta6]</span> sample initial branch-lengths from prior.</li>
+	      <!-- li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li -->
+	      <li><span class="timepoint">[3.0-beta5]</span> add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
 	    </ul>
 	  </li>
 	  <li>Summarization tools
