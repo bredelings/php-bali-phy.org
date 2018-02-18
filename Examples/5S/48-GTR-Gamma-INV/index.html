@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<title>BAli-Phy: MCMC Post-hoc Analysis: 48 sequences</title>
+    <style type="text/css">
+      body {margin:0; padding:0}
+      ol li {padding-bottom:0.5em}
+
+      th {padding-left: 0.5em; padding-right:0.5em}
+      td {padding: 0.1em;}
+      td {padding-left: 0.3em;}
+      td {padding-right: 0.3em;}
+
+#topbar {
+	background-color: rgb(201,217,233);
+	margin: 0;
+	padding: 0.5em;
+	display: table;
+        width: 100%;
+}
+
+#topbar #menu {
+//	font-size: 90%;
+	display: table-cell;
+	text-align: right; 
+}
+#topbar #path {
+	font-weight: bold;
+	display: table-cell;
+	text-align: left; 
+	white-space: nowrap;
+}
+
+      .content {margin:1em}
+      .backlit td {background: rgb(220,220,220);}
+
+      h1 {font-size: 150%;}
+      h2 {font-size: 130%; margin-bottom: 0.2em;}
+      h3 {font-size: 110%; margin-top: 0.3em ; margin-bottom: 0.2em}
+
+      ul {margin-top: 0.4em;}
+
+      .center td {text-align: center};
+
+      *[title] {cursor:help;}
+      a[title] {vertical-align:top;color:#00f;font-size:70%; border-bottom:1px dotted;}
+      .floating_picture {float:left;padding-left:0.5em;padding-right:0.5em;margin:0.5em;}    
+      .r_floating_picture {float:right;padding-left:0.5em;padding-right:0.5em;margin:0.5em;}    
+      table.backlit2 {border-collapse: collapse}
+      table.backlit2 tr:nth-child(even) td { background-color: #F0F0F0; margin:0}
+      .clear {clear:both;}    
+    </style>
+</head>
+<body>
+<p id="topbar"> 
+   <span id="path">Sections:</span>
+   <span id="menu">
+    [<a href="#data">Data+Model</a>]
+    [<a href="#analysis">Analysis</a>]
+    [<a href="#alignment">Alignment</a>]
+    [<a href="#topology">Phylogeny</a>]
+    [<a href="#mixing">Mixing</a>]
+    [<a href="#parameters">Parameters</a>]
+   </span>
+</p>
+<div class="content">
+<h1>MCMC Post-hoc Analysis: 48 sequences</h1>
+<h2 style="clear:both"><a name="data">Data &amp; Model</a></h2>
+<table class="backlit2">
+<tr><th>Partition</th><th>Sequences</th><th>Lengths</th><th>Alphabet</th><th>Substitution&nbsp;Model</th><th>Indel&nbsp;Model</th><th>Scale&nbsp;Model</tr>
+<tr>
+ <td>1</td>
+ <td>48-fsa.fasta</td>
+<td>110 - 131</td>
+<td>RNA</td> <td>GTR[~DirichletOn[letter_pairs[A],1]]+F[~DirichletOn[letters[A],1]] + Rates.Gamma[4,~logLaplace[-6,2]] + INV[~Uniform[0,1]]</td>
+ <td>RS07[~Laplace[-4,0.707],Add[1,~Exponential[10]]]</td>
+ <td>~ Gamma[0.5,2]</td>
+</tr>
+</table>
+<h2 style="clear:both"><a name="data">Tree Model</a></h2>
+<table>
+<tr><td>topology</td><td>~ uniform on tree topologies</td></tr><tr><td>branch lengths</td><td>~ iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</td></tr></table>
+<h2><a name="analysis">Analysis</a></h2>
+<p style="margin-bottom:0"><b>command line</b>: bali-phy 48-fsa.fasta --smodel GTR+Rates.Gamma+INV</p>
+<p style="margin-top:0"><b>directory</b>: /gpfs/fs0/data/wraycompute/br51/Work/3.0</p>
+<table style="width:100%">
+<table class="backlit2 center">
+<tr><th>chain #</th><th>burnin</th><th>subsample</th><th>Iterations (remaining)</th><th>subdirectory</th></tr>
+<tr>
+  <td>1</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-1</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-2</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-3</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-4</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-5</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-6</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-7</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>20000</td>
+  <td>1</td>
+  <td>180000</td>
+  <td>48-fsa-8</td>
+</tr>
+</table>
+<p><table style="width:100%">
+<tr>
+  <td>P(data|M) = -4085.016    +- 0.355
+</td>
+  <td>Complete sample: 1599362
+ topologies</td>
+  <td>95% Bayesian credible interval: 1519364 topologies</td>
+</tr>
+</table></p>
+<img src="c-levels.svg" class="r_floating_picture svg-image" width="35%" /><h2><a name="topology">Phylogeny Distribution</a></h2>
+<img src="c50-tree.svg" class="floating_picture svg-image" width="25%" /><table>
+<tr><td>Partition support: <a href="consensus">Summary</a></td></tr>
+<tr><td><span title="How many partitions are supported at each level of Posterior Log Odds (LOD)?">Partition support graph:</span> <a href="c-levels.svg">SVG</a></td></tr>
+</table>
+<table>
+<tr><td>50% consensus</td><td><a href="c50.tree">Newick</a> (<a href="c50.PP.tree">+PP</a>)</td><td><a href="c50-tree.pdf">PDF</a></td><td><a href="c50-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>66% consensus</td><td><a href="c66.tree">Newick</a> (<a href="c66.PP.tree">+PP</a>)</td><td><a href="c66-tree.pdf">PDF</a></td><td><a href="c66-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>80% consensus</td><td><a href="c80.tree">Newick</a> (<a href="c80.PP.tree">+PP</a>)</td><td><a href="c80-tree.pdf">PDF</a></td><td><a href="c80-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>90% consensus</td><td><a href="c90.tree">Newick</a> (<a href="c90.PP.tree">+PP</a>)</td><td><a href="c90-tree.pdf">PDF</a></td><td><a href="c90-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>95% consensus</td><td><a href="c95.tree">Newick</a> (<a href="c95.PP.tree">+PP</a>)</td><td><a href="c95-tree.pdf">PDF</a></td><td><a href="c95-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>99% consensus</td><td><a href="c99.tree">Newick</a> (<a href="c99.PP.tree">+PP</a>)</td><td><a href="c99-tree.pdf">PDF</a></td><td><a href="c99-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>100% consensus</td><td><a href="c100.tree">Newick</a> (<a href="c100.PP.tree">+PP</a>)</td><td><a href="c100-tree.pdf">PDF</a></td><td><a href="c100-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>MAP</td><td><a href="MAP.tree">Newick</a> (<a href="MAP.PP.tree">+PP</a>)</td><td><a href="MAP-tree.pdf">PDF</a></td><td><a href="MAP-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr><tr><td>greedy</td><td><a href="greedy.tree">Newick</a> (<a href="greedy.PP.tree">+PP</a>)</td><td><a href="greedy-tree.pdf">PDF</a></td><td><a href="greedy-tree.svg">SVG</a></td><td></td><td></td><td></td><td></td></tr></table>
+<h2 class="clear"><a name="alignment">Alignment Distribution</a></h2>
+<h3>Partition 1</h3>
+<table>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th title="Comparison of this alignment (top) to the WPD alignment (bottom)">Diff</th>
+<th></th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Percent identity of the most dissimilar sequences">Min. %identity</th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Number of columns in the alignment"># Sites</th>
+<th style="padding-right:0.5em;padding-left:0.5em" title="Number of invariant columns">Constant</th>
+<th title="Number of parsiomny-informative columns.">Informative</th>
+</tr>
+<tr>
+<td>Initial</td>
+<td><a href="C1.P1.initial.fasta">FASTA</a></td>
+<td><a href="C1.P1.initial.html">HTML</a></td>
+<td><a href="C1.P1.initial-diff.html">Diff</a></td>
+<td></td>
+<td style="text-align: center">17.7%</td>
+<td style="text-align: center">214</td>
+<td style="text-align: center">6 (2.8%)</td>
+<td style="text-align: center">187 (87.4%)</td>
+</tr>
+<tr>
+<td>Best (WPD)</td>
+<td><a href="P1-max.fasta">FASTA</a></td>
+<td><a href="P1-max.html">HTML</a></td>
+<td></td>
+<td><a href="P1-max-AU.html">AU</a></td>
+<td style="text-align: center">27%</td>
+<td style="text-align: center">199</td>
+<td style="text-align: center">8 (4.02%)</td>
+<td style="text-align: center">148 (74.4%)</td>
+</tr>
+</table>
+<img src="partitions.SRQ.png" class="r_floating_picture" alt="SRQ plot for support of each partition."/><img src="c50.SRQ.png" class="r_floating_picture" alt="SRQ plot for supprt of 50% consensus tree."/><h2><a name="mixing">Mixing</a></h2>
+<ol>
+<li><a href="partitions.bs">Partition uncertainty</a></li>
+<li><a href="partitions.SRQ.png">SRQ plot: partitions</a></li>
+<li><a href="c50.SRQ.png">SRQ plot: c50</a></li>
+<li><a href="convergence-PP.pdf">Variation in split frequency estimates</a></li>
+</ol>
+<table><tr><th>burnin (scalar)</th><th>ESS (scalar)</th><th>ESS (partition)</th><th>ASDSF</th><th>MSDSF</th><th>PSRF-CI80%</th><th>PSRF-RCF</th></tr><tr><td>799</td><td>9530</td><td>12376.981</td><td>0.005</td><td>0.015
+</td><td>1</td><td>1.003</td></tr></table>
+<table style="width:100%;clear:both"><tr><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Projection of RF distances for the first 3 chains</h4><img src="tree-1-2-3.svg" class="svg-image" width="90%" /><a href='file:tree-1-2-3.points.html'>3D</a></td><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Variation of split PPs across chains</h4><img src="convergence1-PP.svg" class="svg-image" width="90%" /><br/><br/><br/><br/><img src="convergence2-PP.svg" class="svg-image" width="90%" /></td></tr></table><h2 class="clear"><a name="parameters">Scalar variables</a></h2>
+<table class="backlit2">
+<tr><th>Statistic</th><th>Median</th><th title="95% Bayesian Credible Interval">95% BCI</th><th title="Auto-Correlation Time">ACT</th><th title="Effective Sample Size">ESS</th><th>burnin</th><th title="Potential Scale Reduction Factor based on width of 80% credible interval">PSRF-CI80%</th><th>PSRF-RCF</th></tr>
+<tr >
+<td>prior</td>
+<td>-471.1 </td>
+<td>(-538.7, -407.8)</td>
+<td >27.43  </td>
+<td >52502</td>
+<td >538
+</td>
+<td >1</td><td >1
+</td></tr>
+<tr >
+<td>prior_A1</td>
+<td>-754.7 </td>
+<td>(-817, -696.6)</td>
+<td >27.49  </td>
+<td >52378</td>
+<td >799
+</td>
+<td >1</td><td >1.001
+</td></tr>
+<tr >
+<td>likelihood</td>
+<td>-4041 </td>
+<td>(-4081, -4000)</td>
+<td >33.61  </td>
+<td >42846</td>
+<td >462
+</td>
+<td >1</td><td >0.998
+</td></tr>
+<tr >
+<td>logp</td>
+<td>-4512 </td>
+<td>(-4568, -4460)</td>
+<td >16.12  </td>
+<td >89323</td>
+<td >288
+</td>
+<td >1</td><td >1.001
+</td></tr>
+<tr style="font-style:italic">
+<td>Heat.beta</td>
+<td>1</td>
+<td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr >
+<td>Scale[1]</td>
+<td>12.37 </td>
+<td>(8.816, 16.57)</td>
+<td >5.353  </td>
+<td >269021</td>
+<td >188
+</td>
+<td >0.9999</td><td >0.9997
+</td></tr>
+<tr >
+<td>F:pi[A]</td>
+<td>0.2121 </td>
+<td>(0.1779, 0.2493)</td>
+<td >25.94  </td>
+<td >55521</td>
+<td >583
+</td>
+<td >1</td><td >0.998
+</td></tr>
+<tr >
+<td>F:pi[G]</td>
+<td>0.2886 </td>
+<td>(0.2469, 0.332)</td>
+<td >27.14  </td>
+<td >53053</td>
+<td >699
+</td>
+<td >1</td><td >1.001
+</td></tr>
+<tr >
+<td>F:pi[U]</td>
+<td>0.2153 </td>
+<td>(0.1851, 0.2475)</td>
+<td >29.47  </td>
+<td >48865</td>
+<td >450
+</td>
+<td >1</td><td >1.002
+</td></tr>
+<tr >
+<td>F:pi[C]</td>
+<td>0.282 </td>
+<td>(0.2472, 0.3181)</td>
+<td >13.21  </td>
+<td >109036</td>
+<td >410
+</td>
+<td >1</td><td >0.9984
+</td></tr>
+<tr >
+<td>GTR:S[AG]</td>
+<td>0.2052 </td>
+<td>(0.1578, 0.2558)</td>
+<td >17.99  </td>
+<td >80053</td>
+<td >425
+</td>
+<td >1</td><td >0.9998
+</td></tr>
+<tr >
+<td>GTR:S[AU]</td>
+<td>0.2323 </td>
+<td>(0.1754, 0.2924)</td>
+<td >36.8  </td>
+<td >39126</td>
+<td >587
+</td>
+<td >1</td><td >1.003
+</td></tr>
+<tr >
+<td>GTR:S[AC]</td>
+<td>0.04575 </td>
+<td>(0.02171, 0.07223)</td>
+<td >14.39  </td>
+<td >100085</td>
+<td >502
+</td>
+<td >1</td><td >1.002
+</td></tr>
+<tr >
+<td>GTR:S[GU]</td>
+<td>0.07029 </td>
+<td>(0.04271, 0.1006)</td>
+<td >9.767  </td>
+<td >147435</td>
+<td >415
+</td>
+<td >1</td><td >0.9997
+</td></tr>
+<tr >
+<td>GTR:S[GC]</td>
+<td>0.09053 </td>
+<td>(0.06136, 0.1231)</td>
+<td >29.33  </td>
+<td >49095</td>
+<td >483
+</td>
+<td >1</td><td >1.002
+</td></tr>
+<tr >
+<td>GTR:S[UC]</td>
+<td>0.3509 </td>
+<td>(0.2873, 0.4174)</td>
+<td >25.23  </td>
+<td >57081</td>
+<td >491
+</td>
+<td >1</td><td >0.9987
+</td></tr>
+<tr >
+<td>Rates.Gamma:alpha</td>
+<td>1.271 </td>
+<td>(0.7144, 1.8)</td>
+<td >14.52  </td>
+<td >99167</td>
+<td >195
+</td>
+<td >1</td><td >0.9975
+</td></tr>
+<tr >
+<td>INV:pInv</td>
+<td>0.1398 </td>
+<td>(0.05168, 0.2304)</td>
+<td >8.8  </td>
+<td >163642</td>
+<td >354
+</td>
+<td >1</td><td >0.9978
+</td></tr>
+<tr >
+<td>RS07:meanIndelLength</td>
+<td>1.959 </td>
+<td>(1.611, 2.361)</td>
+<td >22.32  </td>
+<td >64517</td>
+<td >256
+</td>
+<td >1</td><td >1
+</td></tr>
+<tr >
+<td>RS07:logLambda</td>
+<td>-3.504 </td>
+<td>(-3.811, -3.205)</td>
+<td >14.72  </td>
+<td >97857</td>
+<td >307
+</td>
+<td >1</td><td >1.003
+</td></tr>
+<tr >
+<td>|A1|</td>
+<td>200 </td>
+<td>(186, 215)</td>
+<td  style="color:red">151.1  </td>
+<td >9530</td>
+<td >736</td>
+<td >0.987</td><td >0.9951
+</td></tr>
+<tr >
+<td>#indels1</td>
+<td>101 </td>
+<td>(90, 111)</td>
+<td >27.06  </td>
+<td >53222</td>
+<td >306</td>
+<td >0.9286</td><td >1.001
+</td></tr>
+<tr >
+<td>|indels1|</td>
+<td>189 </td>
+<td>(164, 214)</td>
+<td >45.6  </td>
+<td >31578</td>
+<td >602</td>
+<td >0.9771</td><td >0.9989
+</td></tr>
+<tr >
+<td>#substs1</td>
+<td>1024 </td>
+<td>(1001, 1045)</td>
+<td >55.22  </td>
+<td >26079</td>
+<td >475</td>
+<td >0.9667</td><td >1.001
+</td></tr>
+<tr >
+<td>Scale1*|T|</td>
+<td>13.76 </td>
+<td>(11.21, 16.68)</td>
+<td >15.92  </td>
+<td >90460</td>
+<td >261
+</td>
+<td >1</td><td >1
+</td></tr>
+<tr >
+<td>|A|</td>
+<td>200 </td>
+<td>(186, 215)</td>
+<td  style="color:red">151.1  </td>
+<td >9530</td>
+<td >736</td>
+<td >0.987</td><td >0.9951
+</td></tr>
+<tr >
+<td>#indels</td>
+<td>101 </td>
+<td>(90, 111)</td>
+<td >27.06  </td>
+<td >53222</td>
+<td >306</td>
+<td >0.9286</td><td >1.001
+</td></tr>
+<tr >
+<td>|indels|</td>
+<td>189 </td>
+<td>(164, 214)</td>
+<td >45.6  </td>
+<td >31578</td>
+<td >602</td>
+<td >0.9771</td><td >0.9989
+</td></tr>
+<tr >
+<td>#substs</td>
+<td>1024 </td>
+<td>(1001, 1045)</td>
+<td >55.22  </td>
+<td >26079</td>
+<td >475</td>
+<td >0.9667</td><td >1.001
+</td></tr>
+<tr >
+<td>|T|</td>
+<td>1.116 </td>
+<td>(0.8428, 1.417)</td>
+<td >1.026  </td>
+<td >1402897</td>
+<td >148
+</td>
+<td >1</td><td >1.001
+</td></tr>
+</table>
+  </div>
+  </body>
+</html>
