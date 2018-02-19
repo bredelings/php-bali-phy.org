@@ -1,0 +1,703 @@
+# Loading trees from 'few-globins-1//C1.trees'...
+# Loading trees from 'few-globins-3//C1.trees'...
+# Loading trees from 'few-globins-4//C1.trees'...
+# Loading trees from 'few-globins-5//C1.trees'...
+# Loading trees from 'few-globins-6//C1.trees'...
+# Loading trees from 'few-globins-7//C1.trees'...
+# Loading trees from 'few-globins-8//C1.trees'...
+# [ seed = 17041944266631260391    pseudocount = 1    blocksize = 4001 ]
+
+Support for the different predicates: 
+
+1/30:
+beetle cyto-beetle | HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=200001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1-3 = 1.000       (1=199996  0=5)  [1 !!!]
+   PP1-4 = 1.000       (1=200001  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=200000  0=1)  [1 !!!]
+   PP1-6 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1-7 = 1.000       (1=200001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1399997  0=10)  [4 !!]
+
+  LOD1-1 = 5.301
+  LOD1-2 = 4.824
+  LOD1-3 = 4.523
+  LOD1-4 = 5.301
+  LOD1-5 = 5.000
+  LOD1-6 = 4.824
+  LOD1-7 = 5.301
+  LOD1   = 4.916
+
+  RNe1 = inf
+
+
+2/30:
+hemo-tunicate-1 hemo-tunicate-3 | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=200001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-3 = 1.000       (1=199998  0=3)  [2 !!!]
+   PP1-4 = 1.000       (1=200000  0=1)  [1 !!!]
+   PP1-5 = 1.000       (1=199989  0=12)  [1 !!!]
+   PP1-6 = 1.000       (1=200001  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1   = 1.000       (1=1399985  0=22)  [6 !!]
+
+  LOD1-1 = 5.301
+  LOD1-2 = 4.602
+  LOD1-3 = 4.699
+  LOD1-4 = 5.000
+  LOD1-5 = 4.187
+  LOD1-6 = 5.301
+  LOD1-7 = 4.824
+  LOD1   = 4.684
+
+  RNe1 = inf
+
+
+3/30:
+cyto-fish cyto-human | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1-2 = 1.000       (1=199994  0=7)  [1 !!!]
+   PP1-3 = 1.000       (1=200000  0=1)  [1 !!!]
+   PP1-4 = 1.000       (1=199999  0=2)  [2 !!!]
+   PP1-5 = 1.000       (1=200000  0=1)  [1 !!!]
+   PP1-6 = 1.000       (1=199994  0=7)  [1 !!!]
+   PP1-7 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1   = 1.000       (1=1399984  0=23)  [8 !!]
+
+  LOD1-1 = 4.699
+  LOD1-2 = 4.398
+  LOD1-3 = 5.000
+  LOD1-4 = 4.824
+  LOD1-5 = 5.000
+  LOD1-6 = 4.398
+  LOD1-7 = 4.824
+  LOD1   = 4.669       ACT = 4.913          Ne = 284961.594
+
+  RNe1 = inf
+
+
+4/30:
+myo-human myo-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1-2 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1-3 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-4 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-5 = 1.000       (1=199994  0=7)  [1 !!!]
+   PP1-6 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-7 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1   = 1.000       (1=1399977  0=30)  [7 !!]
+
+  LOD1-1 = 4.699
+  LOD1-2 = 4.824
+  LOD1-3 = 4.456
+  LOD1-4 = 4.602
+  LOD1-5 = 4.398
+  LOD1-6 = 4.456
+  LOD1-7 = 4.824
+  LOD1   = 4.578       ACT = 5.067          Ne = 276322.817
+
+  RNe1 = inf
+
+
+5/30:
+hagfish lamprey | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-2 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-3 = 1.000       (1=200000  0=1)  [1 !!!]
+   PP1-4 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-5 = 1.000       (1=199990  0=11)  [1 !!!]
+   PP1-6 = 1.000       (1=199994  0=7)  [2 !!!]
+   PP1-7 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1   = 1.000       (1=1399973  0=34)  [8 !!]
+
+  LOD1-1 = 4.602
+  LOD1-2 = 4.602
+  LOD1-3 = 5.000
+  LOD1-4 = 4.602
+  LOD1-5 = 4.222
+  LOD1-6 = 4.398
+  LOD1-7 = 4.699
+  LOD1   = 4.533       ACT = 6.294          Ne = 222439.995
+
+  RNe1 = inf
+
+
+6/30:
+hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1-2 = 1.000       (1=199999  0=2)  [1 !!!]
+   PP1-3 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1-4 = 1.000       (1=199991  0=10)  [1 !!!]
+   PP1-5 = 1.000       (1=199994  0=7)  [1 !!!]
+   PP1-6 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-7 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1   = 1.000       (1=1399972  0=35)  [7 !!]
+
+  LOD1-1 = 4.699
+  LOD1-2 = 4.824
+  LOD1-3 = 4.602
+  LOD1-4 = 4.260
+  LOD1-5 = 4.398
+  LOD1-6 = 4.456
+  LOD1-7 = 4.699
+  LOD1   = 4.523       ACT = 6.314          Ne = 221728.512
+
+  RNe1 = inf
+
+
+7/30:
+neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail 
+   PP1-1 = 1.000       (1=199996  0=5)  [1 !!!]
+   PP1-2 = 1.000       (1=199990  0=11)  [1 !!!]
+   PP1-3 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-4 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1-5 = 1.000       (1=199998  0=3)  [1 !!!]
+   PP1-6 = 1.000       (1=199987  0=14)  [1 !!!]
+   PP1-7 = 1.000       (1=199996  0=5)  [1 !!!]
+   PP1   = 1.000       (1=1399960  0=47)  [7 !!]
+
+  LOD1-1 = 4.523
+  LOD1-2 = 4.222
+  LOD1-3 = 4.456
+  LOD1-4 = 4.699
+  LOD1-5 = 4.699
+  LOD1-6 = 4.125
+  LOD1-7 = 4.523
+  LOD1   = 4.414       ACT = 8.914          Ne = 157049.214
+
+  RNe1 = inf
+
+
+8/30:
+HbI-Lucina HbII-Lucina | HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199997  0=4)  [3 !!]
+   PP1-2 = 1.000       (1=199994  0=7)  [4 !!]
+   PP1-3 = 1.000       (1=199998  0=3)  [2 !!!]
+   PP1-4 = 1.000       (1=199998  0=3)  [2 !!!]
+   PP1-5 = 1.000       (1=199982  0=19)  [7 !!]
+   PP1-6 = 1.000       (1=199996  0=5)  [4 !!]
+   PP1-7 = 1.000       (1=199994  0=7)  [5 !!]
+   PP1   = 1.000       (1=1399959  0=48)  [27]
+
+  LOD1-1 = 4.602
+  LOD1-2 = 4.398
+  LOD1-3 = 4.699
+  LOD1-4 = 4.699
+  LOD1-5 = 4.000       ACT = 4.894          Ne = 40864.656
+  LOD1-6 = 4.523
+  LOD1-7 = 4.398
+  LOD1   = 4.406       ACT = 3.041          Ne = 460327.425
+
+  RNe1 = inf
+
+
+9/30:
+leghemo-pea leghemo-rice | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199990  0=11)  [1 !!!]
+   PP1-2 = 1.000       (1=199989  0=12)  [1 !!!]
+   PP1-3 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-4 = 1.000       (1=199996  0=5)  [1 !!!]
+   PP1-5 = 1.000       (1=199995  0=6)  [1 !!!]
+   PP1-6 = 1.000       (1=199996  0=5)  [1 !!!]
+   PP1-7 = 1.000       (1=199997  0=4)  [1 !!!]
+   PP1   = 1.000       (1=1399958  0=49)  [7 !!]
+
+  LOD1-1 = 4.222
+  LOD1-2 = 4.187
+  LOD1-3 = 4.456
+  LOD1-4 = 4.523
+  LOD1-5 = 4.456
+  LOD1-6 = 4.523
+  LOD1-7 = 4.602
+  LOD1   = 4.398       ACT = 8.183          Ne = 171080.535
+
+  RNe1 = inf
+
+
+10/30:
+cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey myo-human myo-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199972  0=29)  [14 !]
+   PP1-2 = 1.000       (1=199972  0=29)  [11 !]
+   PP1-3 = 1.000       (1=199966  0=35)  [14 !]
+   PP1-4 = 1.000       (1=199975  0=26)  [11 !]
+   PP1-5 = 1.000       (1=199961  0=40)  [17 !]
+   PP1-6 = 1.000       (1=199977  0=24)  [8 !!]
+   PP1-7 = 1.000       (1=199976  0=25)  [12 !]
+   PP1   = 1.000       (1=1399799  0=208)  [87]
+
+  LOD1-1 = 3.824       ACT = 4.929          Ne = 40573.722
+  LOD1-2 = 3.824       ACT = 9.481          Ne = 21094.461
+  LOD1-3 = 3.745       ACT = 9.227          Ne = 21676.613
+  LOD1-4 = 3.870       ACT = 9.076          Ne = 22036.946
+  LOD1-5 = 3.688       ACT = 5.098          Ne = 39233.309
+  LOD1-6 = 3.903       ACT = 12.249          Ne = 16327.568
+  LOD1-7 = 3.886       ACT = 7.319          Ne = 27326.865
+  LOD1   = 3.814       ACT = 8.063          Ne = 173628.627
+
+  RNe1 = inf
+
+
+11/30:
+hemo-beta-human hemo-beta-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 1.000       (1=199918  0=83)  [51]
+   PP1-2 = 1.000       (1=199930  0=71)  [56]
+   PP1-3 = 1.000       (1=199908  0=93)  [57]
+   PP1-4 = 1.000       (1=199909  0=92)  [57]
+   PP1-5 = 1.000       (1=199914  0=87)  [56]
+   PP1-6 = 1.000       (1=199926  0=75)  [58]
+   PP1-7 = 1.000       (1=199941  0=60)  [44]
+   PP1   = 1.000       (1=1399446  0=561)  [379]
+
+  LOD1-1 = 3.377       ACT = 4.485          Ne = 44592.667
+  LOD1-2 = 3.444       ACT = 1.757          Ne = 113849.111
+  LOD1-3 = 3.328       ACT = 3.081          Ne = 64920.116
+  LOD1-4 = 3.332       ACT = 2.562          Ne = 78054.942
+  LOD1-5 = 3.356       ACT = 2.651          Ne = 75446.503
+  LOD1-6 = 3.420       ACT = 2.169          Ne = 92217.084
+  LOD1-7 = 3.516       ACT = 1.965          Ne = 101799.586
+  LOD1   = 3.392       ACT = 2.773          Ne = 504893.086
+
+  RNe1 = inf
+
+
+12/30:
+drosophila midge-8 | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.997       (1=199440  0=561)  [295]
+   PP1-2 = 0.998       (1=199526  0=475)  [269]
+   PP1-3 = 0.998       (1=199579  0=422)  [292]
+   PP1-4 = 0.998       (1=199607  0=394)  [290]
+   PP1-5 = 0.997       (1=199356  0=645)  [254]
+   PP1-6 = 0.998       (1=199556  0=445)  [262]
+   PP1-7 = 0.998       (1=199514  0=487)  [340]
+   PP1   = 0.998       (1=1396578  0=3429)  [2002]
+
+  LOD1-1 = 2.550       ACT = 15.056          Ne = 13283.674
+  LOD1-2 = 2.622       ACT = 5.564          Ne = 35945.322
+  LOD1-3 = 2.674       ACT = 2.545          Ne = 78600.206
+  LOD1-4 = 2.704       ACT = 2.880          Ne = 69449.910
+  LOD1-5 = 2.489       ACT = 83.280          Ne = 2401.558
+  LOD1-6 = 2.651       ACT = 11.769          Ne = 16994.372
+  LOD1-7 = 2.612       ACT = 2.843          Ne = 70348.051
+  LOD1   = 2.609       ACT = 21.243          Ne = 65903.258
+
+  RNe1 = inf
+
+
+13/30:
+beetle cyto-beetle drosophila honeybee midge-8 | HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.997       (1=199474  0=527)  [294]
+   PP1-2 = 0.997       (1=199482  0=519)  [329]
+   PP1-3 = 0.998       (1=199563  0=438)  [302]
+   PP1-4 = 0.998       (1=199532  0=469)  [299]
+   PP1-5 = 0.996       (1=199225  0=776)  [324]
+   PP1-6 = 0.997       (1=199474  0=527)  [313]
+   PP1-7 = 0.998       (1=199532  0=469)  [326]
+   PP1   = 0.997       (1=1396282  0=3725)  [2187]
+
+  LOD1-1 = 2.577       ACT = 10.321          Ne = 19378.293
+  LOD1-2 = 2.584       ACT = 4.189          Ne = 47738.651
+  LOD1-3 = 2.658       ACT = 3.157          Ne = 63353.824
+  LOD1-4 = 2.628       ACT = 3.485          Ne = 57386.530
+  LOD1-5 = 2.409       ACT = 55.027          Ne = 3634.594
+  LOD1-6 = 2.577       ACT = 9.287          Ne = 21535.406
+  LOD1-7 = 2.628       ACT = 3.149          Ne = 63516.966
+  LOD1   = 2.573       ACT = 16.467          Ne = 85019.420
+
+  RNe1 = inf
+
+
+14/30:
+beetle cyto-beetle honeybee | HbA-blood_clam HbI-Lucina HbII-Lucina cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.995       (1=198932  0=1069)  [908]
+   PP1-2 = 0.995       (1=198938  0=1063)  [888]
+   PP1-3 = 0.995       (1=199007  0=994)  [853]
+   PP1-4 = 0.995       (1=199027  0=974)  [844]
+   PP1-5 = 0.994       (1=198891  0=1110)  [888]
+   PP1-6 = 0.995       (1=198961  0=1040)  [861]
+   PP1-7 = 0.995       (1=198954  0=1047)  [878]
+   PP1   = 0.995       (1=1392710  0=7297)  [6120]
+
+  LOD1-1 = 2.269       ACT = 1.790          Ne = 111714.249
+  LOD1-2 = 2.272       ACT = 1.940          Ne = 103118.201
+  LOD1-3 = 2.301       ACT = 1.699          Ne = 117703.183
+  LOD1-4 = 2.310       ACT = 1.633          Ne = 122454.398
+  LOD1-5 = 2.253       ACT = 6.239          Ne = 32054.165
+  LOD1-6 = 2.281       ACT = 2.371          Ne = 84367.539
+  LOD1-7 = 2.278       ACT = 1.967          Ne = 101653.036
+  LOD1   = 2.280       ACT = 2.479          Ne = 564830.140
+
+  RNe1 = inf
+
+
+15/30:
+hemo-alpha-human hemo-alpha-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.990       (1=198041  0=1960)  [1686]
+   PP1-2 = 0.992       (1=198302  0=1699)  [1471]
+   PP1-3 = 0.990       (1=197902  0=2099)  [1803]
+   PP1-4 = 0.989       (1=197780  0=2221)  [1879]
+   PP1-5 = 0.989       (1=197783  0=2218)  [1889]
+   PP1-6 = 0.991       (1=198134  0=1867)  [1593]
+   PP1-7 = 0.990       (1=198016  0=1985)  [1679]
+   PP1   = 0.990       (1=1385958  0=14049)  [12000]
+
+  LOD1-1 = 2.004       ACT = 12.990          Ne = 15396.898
+  LOD1-2 = 2.067       ACT = 12.445          Ne = 16070.837
+  LOD1-3 = 1.974       ACT = 12.881          Ne = 15526.873
+  LOD1-4 = 1.949       ACT = 15.709          Ne = 12731.332
+  LOD1-5 = 1.950       ACT = 17.220          Ne = 11614.762
+  LOD1-6 = 2.026       ACT = 14.187          Ne = 14097.132
+  LOD1-7 = 1.999       ACT = 15.193          Ne = 13164.216
+  LOD1   = 1.994       ACT = 15.302          Ne = 91491.746
+
+  RNe1 = inf
+
+
+16/30:
+hemo-polychaete-4 myo-polychaete | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.987       (1=197487  0=2514)  [833]
+   PP1-2 = 0.988       (1=197642  0=2359)  [785]
+   PP1-3 = 0.989       (1=197835  0=2166)  [786]
+   PP1-4 = 0.986       (1=197138  0=2863)  [830]
+   PP1-5 = 0.989       (1=197849  0=2152)  [795]
+   PP1-6 = 0.990       (1=197976  0=2025)  [778]
+   PP1-7 = 0.990       (1=197909  0=2092)  [727]
+   PP1   = 0.988       (1=1383836  0=16171)  [5534]
+
+  LOD1-1 = 1.895       ACT = 11.665          Ne = 17145.744
+  LOD1-2 = 1.923       ACT = 10.535          Ne = 18983.535
+  LOD1-3 = 1.960       ACT = 9.923          Ne = 20155.034
+  LOD1-4 = 1.838       ACT = 15.504          Ne = 12900.157
+  LOD1-5 = 1.963       ACT = 8.839          Ne = 22627.748
+  LOD1-6 = 1.990       ACT = 11.561          Ne = 17299.052
+  LOD1-7 = 1.976       ACT = 9.779          Ne = 20453.131
+  LOD1   = 1.932       ACT = 11.536          Ne = 121364.535
+
+  RNe1 = inf
+
+
+17/30:
+hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail 
+   PP1-1 = 0.842       (1=168374  0=31627)  [17976]
+   PP1-2 = 0.843       (1=168592  0=31409)  [17832]
+   PP1-3 = 0.839       (1=167838  0=32163)  [17868]
+   PP1-4 = 0.840       (1=167969  0=32032)  [17945]
+   PP1-5 = 0.843       (1=168562  0=31439)  [17678]
+   PP1-6 = 0.841       (1=168115  0=31886)  [17761]
+   PP1-7 = 0.843       (1=168669  0=31332)  [17599]
+   PP1   = 0.842       (1=1178119  0=221888)  [124659]
+
+  LOD1-1 = 0.726       ACT = 4.180          Ne = 47847.461
+  LOD1-2 = 0.730       ACT = 4.253          Ne = 47026.821
+  LOD1-3 = 0.718       ACT = 4.413          Ne = 45321.637
+  LOD1-4 = 0.720       ACT = 4.815          Ne = 41535.208
+  LOD1-5 = 0.729       ACT = 5.221          Ne = 38309.997
+  LOD1-6 = 0.722       ACT = 5.247          Ne = 38117.283
+  LOD1-7 = 0.731       ACT = 4.488          Ne = 44560.374
+  LOD1   = 0.725       ACT = 5.018          Ne = 278984.138
+
+  RNe1 = inf
+
+
+18/30:
+myo-Dolabella myo-snail | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish 
+   PP1-1 = 0.782       (1=156404  0=43597)  [7629]
+   PP1-2 = 0.795       (1=159088  0=40913)  [7462]
+   PP1-3 = 0.783       (1=156578  0=43423)  [7567]
+   PP1-4 = 0.784       (1=156800  0=43201)  [7804]
+   PP1-5 = 0.792       (1=158442  0=41559)  [7438]
+   PP1-6 = 0.793       (1=158514  0=41487)  [7414]
+   PP1-7 = 0.777       (1=155441  0=44560)  [7587]
+   PP1   = 0.787       (1=1101267  0=298740)  [52901]
+
+  LOD1-1 = 0.555       ACT = 35.462          Ne = 5639.797
+  LOD1-2 = 0.590       ACT = 30.657          Ne = 6523.892
+  LOD1-3 = 0.557       ACT = 41.170          Ne = 4857.935
+  LOD1-4 = 0.560       ACT = 36.947          Ne = 5413.133
+  LOD1-5 = 0.581       ACT = 33.221          Ne = 6020.281
+  LOD1-6 = 0.582       ACT = 34.431          Ne = 5808.672
+  LOD1-7 = 0.543       ACT = 35.839          Ne = 5580.553
+  LOD1   = 0.567       ACT = 34.990          Ne = 40011.856
+
+  RNe1 = inf
+
+
+19/30:
+hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-polychaete neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail 
+   PP1-1 = 0.675       (1=134965  0=65036)  [23212]
+   PP1-2 = 0.666       (1=133259  0=66742)  [23394]
+   PP1-3 = 0.673       (1=134688  0=65313)  [23077]
+   PP1-4 = 0.672       (1=134485  0=65516)  [23422]
+   PP1-5 = 0.667       (1=133393  0=66608)  [23930]
+   PP1-6 = 0.664       (1=132823  0=67178)  [23275]
+   PP1-7 = 0.667       (1=133320  0=66681)  [23053]
+   PP1   = 0.669       (1=936933  0=463074)  [163363]
+
+  LOD1-1 = 0.317       ACT = 6.043          Ne = 33094.633
+  LOD1-2 = 0.300       ACT = 6.597          Ne = 30319.245
+  LOD1-3 = 0.314       ACT = 13.828          Ne = 14463.286
+  LOD1-4 = 0.312       ACT = 8.563          Ne = 23356.194
+  LOD1-5 = 0.302       ACT = 6.469          Ne = 30919.084
+  LOD1-6 = 0.296       ACT = 8.321          Ne = 24035.143
+  LOD1-7 = 0.301       ACT = 8.778          Ne = 22785.253
+  LOD1   = 0.306       ACT = 10.507          Ne = 133248.891
+
+  RNe1 = inf
+
+
+20/30:
+HbI-Lucina HbII-Lucina myo-Dolabella myo-snail | HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish 
+   PP1-1 = 0.577       (1=115343  0=84658)  [30975]
+   PP1-2 = 0.571       (1=114184  0=85817)  [31701]
+   PP1-3 = 0.588       (1=117622  0=82379)  [30139]
+   PP1-4 = 0.581       (1=116168  0=83833)  [30880]
+   PP1-5 = 0.576       (1=115232  0=84769)  [31280]
+   PP1-6 = 0.577       (1=115459  0=84542)  [31209]
+   PP1-7 = 0.579       (1=115801  0=84200)  [31171]
+   PP1   = 0.578       (1=809809  0=590198)  [217355]
+
+  LOD1-1 = 0.134       ACT = 13.708          Ne = 14589.779
+  LOD1-2 = 0.124       ACT = 11.369          Ne = 17592.557
+  LOD1-3 = 0.155       ACT = 59.027          Ne = 3388.317
+  LOD1-4 = 0.142       ACT = 22.454          Ne = 8907.057
+  LOD1-5 = 0.133       ACT = 21.536          Ne = 9286.993
+  LOD1-6 = 0.135       ACT = 15.296          Ne = 13075.731
+  LOD1-7 = 0.138       ACT = 12.414          Ne = 16110.320
+  LOD1   = 0.137       ACT = 30.063          Ne = 46568.870
+
+  RNe1 = inf
+
+
+21/30:
+cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.540       (1=107910  0=92091)  [18459]
+   PP1-2 = 0.526       (1=105220  0=94781)  [18816]
+   PP1-3 = 0.519       (1=103868  0=96133)  [18468]
+   PP1-4 = 0.525       (1=105031  0=94970)  [18830]
+   PP1-5 = 0.516       (1=103285  0=96716)  [18473]
+   PP1-6 = 0.526       (1=105173  0=94828)  [18319]
+   PP1-7 = 0.547       (1=109411  0=90590)  [18304]
+   PP1   = 0.528       (1=739898  0=660109)  [129669]
+
+  LOD1-1 = 0.069       ACT = 55.594          Ne = 3597.547
+  LOD1-2 = 0.045       ACT = 58.753          Ne = 3404.077
+  LOD1-3 = 0.034       ACT = 235.442          Ne = 849.472
+  LOD1-4 = 0.044       ACT = 110.198          Ne = 1814.920
+  LOD1-5 = 0.029       ACT = 103.730          Ne = 1928.099
+  LOD1-6 = 0.045       ACT = 108.439          Ne = 1844.360
+  LOD1-7 = 0.082       ACT = 56.552          Ne = 3536.614
+  LOD1   = 0.050       ACT = 124.739          Ne = 11223.477
+
+  RNe1 = inf
+
+
+22/30:
+beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina myo-Dolabella myo-snail 
+   PP1-1 = 0.503       (1=100621  0=99380)  [24967]
+   PP1-2 = 0.511       (1=102286  0=97715)  [24447]
+   PP1-3 = 0.484       (1=96792  0=103209)  [23661]
+   PP1-4 = 0.510       (1=102014  0=97987)  [23819]
+   PP1-5 = 0.503       (1=100644  0=99357)  [24236]
+   PP1-6 = 0.493       (1=98626  0=101375)  [23875]
+   PP1-7 = 0.494       (1=98803  0=101198)  [25067]
+   PP1   = 0.500       (1=699786  0=700221)  [170072]
+
+  LOD1-1 = 0.005       ACT = 13.650          Ne = 14651.789
+  LOD1-2 = 0.020       ACT = 52.249          Ne = 3827.818
+  LOD1-3 = -0.028       ACT = 107.818          Ne = 1854.988
+  LOD1-4 = 0.017       ACT = 159.172          Ne = 1256.505
+  LOD1-5 = 0.006       ACT = 136.088          Ne = 1469.647
+  LOD1-6 = -0.012       ACT = 74.547          Ne = 2682.869
+  LOD1-7 = -0.010       ACT = 9.191          Ne = 21761.083
+  LOD1   = -0.000       ACT = 85.177          Ne = 16436.394
+
+  RNe1 = inf
+
+
+23/30:
+cyto-fish cyto-human hagfish lamprey | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.437       (1=87482  0=112519)  [35221]
+   PP1-2 = 0.431       (1=86263  0=113738)  [35406]
+   PP1-3 = 0.434       (1=86852  0=113149)  [35504]
+   PP1-4 = 0.433       (1=86620  0=113381)  [35304]
+   PP1-5 = 0.433       (1=86575  0=113426)  [35293]
+   PP1-6 = 0.432       (1=86305  0=113696)  [35299]
+   PP1-7 = 0.445       (1=89086  0=110915)  [35457]
+   PP1   = 0.435       (1=609183  0=790824)  [247484]
+
+  LOD1-1 = -0.109       ACT = 9.745          Ne = 20522.519
+  LOD1-2 = -0.120       ACT = 6.091          Ne = 32834.644
+  LOD1-3 = -0.115       ACT = 9.167          Ne = 21817.917
+  LOD1-4 = -0.117       ACT = 8.959          Ne = 22323.951
+  LOD1-5 = -0.117       ACT = 8.030          Ne = 24907.211
+  LOD1-6 = -0.120       ACT = 8.894          Ne = 22487.955
+  LOD1-7 = -0.095       ACT = 8.864          Ne = 22562.122
+  LOD1   = -0.113       ACT = 9.303          Ne = 150497.894
+
+  RNe1 = inf
+
+
+24/30:
+leghemo-pea leghemo-rice neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail 
+   PP1-1 = 0.345       (1=68959  0=131042)  [41085]
+   PP1-2 = 0.339       (1=67867  0=132134)  [40987]
+   PP1-3 = 0.342       (1=68314  0=131687)  [41006]
+   PP1-4 = 0.340       (1=67997  0=132004)  [40858]
+   PP1-5 = 0.343       (1=68567  0=131434)  [41117]
+   PP1-6 = 0.340       (1=68066  0=131935)  [40923]
+   PP1-7 = 0.343       (1=68544  0=131457)  [41155]
+   PP1   = 0.342       (1=478314  0=921693)  [287131]
+
+  LOD1-1 = -0.279       ACT = 2.032          Ne = 98409.318
+  LOD1-2 = -0.289       ACT = 1.913          Ne = 104523.380
+  LOD1-3 = -0.285       ACT = 1.928          Ne = 103761.279
+  LOD1-4 = -0.288       ACT = 2.169          Ne = 92200.706
+  LOD1-5 = -0.283       ACT = 2.009          Ne = 99575.686
+  LOD1-6 = -0.287       ACT = 2.010          Ne = 99504.270
+  LOD1-7 = -0.283       ACT = 1.960          Ne = 102057.336
+  LOD1   = -0.285       ACT = 2.166          Ne = 646364.248
+
+  RNe1 = inf
+
+
+25/30:
+hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark myo-human myo-shark | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.321       (1=64207  0=135794)  [13621]
+   PP1-2 = 0.330       (1=65953  0=134048)  [13898]
+   PP1-3 = 0.339       (1=67844  0=132157)  [13473]
+   PP1-4 = 0.330       (1=66057  0=133944)  [13764]
+   PP1-5 = 0.336       (1=67180  0=132821)  [13589]
+   PP1-6 = 0.332       (1=66478  0=133523)  [13542]
+   PP1-7 = 0.315       (1=62923  0=137078)  [13379]
+   PP1   = 0.329       (1=460642  0=939365)  [95266]
+
+  LOD1-1 = -0.325       ACT = 45.543          Ne = 4391.464
+  LOD1-2 = -0.308       ACT = 39.031          Ne = 5124.149
+  LOD1-3 = -0.290       ACT = 336.726          Ne = 593.958
+  LOD1-4 = -0.307       ACT = 167.244          Ne = 1195.862
+  LOD1-5 = -0.296       ACT = 202.946          Ne = 985.489
+  LOD1-6 = -0.303       ACT = 177.605          Ne = 1126.098
+  LOD1-7 = -0.338       ACT = 32.687          Ne = 6118.731
+  LOD1   = -0.309       ACT = 147.053          Ne = 9520.427
+
+  RNe1 = inf
+
+
+26/30:
+hemo-polychaete-4 myo-polychaete neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-shark myo-snail 
+   PP1-1 = 0.321       (1=64254  0=135747)  [40989]
+   PP1-2 = 0.324       (1=64868  0=135133)  [40771]
+   PP1-3 = 0.321       (1=64290  0=135711)  [40942]
+   PP1-4 = 0.325       (1=65089  0=134912)  [40616]
+   PP1-5 = 0.325       (1=64936  0=135065)  [41043]
+   PP1-6 = 0.325       (1=64954  0=135047)  [40992]
+   PP1-7 = 0.322       (1=64429  0=135572)  [41073]
+   PP1   = 0.323       (1=452820  0=947187)  [286426]
+
+  LOD1-1 = -0.325       ACT = 3.287          Ne = 60841.215
+  LOD1-2 = -0.319       ACT = 3.350          Ne = 59702.789
+  LOD1-3 = -0.324       ACT = 3.099          Ne = 64544.047
+  LOD1-4 = -0.317       ACT = 3.617          Ne = 55291.231
+  LOD1-5 = -0.318       ACT = 3.254          Ne = 61465.846
+  LOD1-6 = -0.318       ACT = 4.105          Ne = 48722.871
+  LOD1-7 = -0.323       ACT = 2.884          Ne = 69353.974
+  LOD1   = -0.321       ACT = 3.524          Ne = 397272.716
+
+  RNe1 = inf
+
+
+27/30:
+cyto-fish cyto-human hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 lamprey leghemo-pea leghemo-rice myo-human myo-polychaete myo-shark neuro-human neuro-zebrafish | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle drosophila honeybee midge-8 myo-Dolabella myo-snail 
+   PP1-1 = 0.324       (1=64817  0=135184)  [32369]
+   PP1-2 = 0.317       (1=63385  0=136616)  [31614]
+   PP1-3 = 0.319       (1=63823  0=136178)  [31341]
+   PP1-4 = 0.314       (1=62864  0=137137)  [30767]
+   PP1-5 = 0.309       (1=61825  0=138176)  [31070]
+   PP1-6 = 0.312       (1=62466  0=137535)  [30862]
+   PP1-7 = 0.324       (1=64884  0=135117)  [32057]
+   PP1   = 0.317       (1=444064  0=955943)  [220080]
+
+  LOD1-1 = -0.319       ACT = 6.209          Ne = 32211.951
+  LOD1-2 = -0.334       ACT = 20.523          Ne = 9745.024
+  LOD1-3 = -0.329       ACT = 61.849          Ne = 3233.723
+  LOD1-4 = -0.339       ACT = 66.464          Ne = 3009.147
+  LOD1-5 = -0.349       ACT = 58.905          Ne = 3395.332
+  LOD1-6 = -0.343       ACT = 30.351          Ne = 6589.536
+  LOD1-7 = -0.319       ACT = 4.502          Ne = 44421.743
+  LOD1   = -0.333       ACT = 43.875          Ne = 31908.880
+
+  RNe1 = inf
+
+
+28/30:
+HbI-Lucina HbII-Lucina hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 leghemo-pea leghemo-rice myo-Dolabella myo-polychaete myo-snail neuro-human neuro-zebrafish | HbA-blood_clam beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark honeybee lamprey midge-8 myo-human myo-shark 
+   PP1-1 = 0.280       (1=56030  0=143971)  [26752]
+   PP1-2 = 0.272       (1=54428  0=145573)  [26378]
+   PP1-3 = 0.297       (1=59452  0=140549)  [26007]
+   PP1-4 = 0.280       (1=55945  0=144056)  [25633]
+   PP1-5 = 0.284       (1=56842  0=143159)  [26029]
+   PP1-6 = 0.287       (1=57335  0=142666)  [25850]
+   PP1-7 = 0.280       (1=56037  0=143964)  [27243]
+   PP1   = 0.283       (1=396069  0=1003938)  [183892]
+
+  LOD1-1 = -0.410       ACT = 27.743          Ne = 7209.125
+  LOD1-2 = -0.427       ACT = 25.591          Ne = 7815.264
+  LOD1-3 = -0.374       ACT = 303.441          Ne = 659.111
+  LOD1-4 = -0.411       ACT = 197.814          Ne = 1011.055
+  LOD1-5 = -0.401       ACT = 191.272          Ne = 1045.635
+  LOD1-6 = -0.396       ACT = 138.659          Ne = 1442.395
+  LOD1-7 = -0.410       ACT = 4.976          Ne = 40189.967
+  LOD1   = -0.404       ACT = 131.451          Ne = 10650.422
+
+  RNe1 = inf
+
+
+29/30:
+hemo-polychaete-4 leghemo-pea leghemo-rice myo-polychaete | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark hemo-tunicate-1 hemo-tunicate-3 honeybee lamprey midge-8 myo-Dolabella myo-human myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.260       (1=51968  0=148033)  [37228]
+   PP1-2 = 0.263       (1=52511  0=147490)  [37339]
+   PP1-3 = 0.262       (1=52487  0=147514)  [37357]
+   PP1-4 = 0.259       (1=51806  0=148195)  [37106]
+   PP1-5 = 0.260       (1=52090  0=147911)  [37180]
+   PP1-6 = 0.262       (1=52358  0=147643)  [37306]
+   PP1-7 = 0.263       (1=52502  0=147499)  [37568]
+   PP1   = 0.261       (1=365722  0=1034285)  [261084]
+
+  LOD1-1 = -0.455       ACT = 1.590          Ne = 125749.947
+  LOD1-2 = -0.449       ACT = 1.393          Ne = 143609.044
+  LOD1-3 = -0.449       ACT = 1.357          Ne = 147364.451
+  LOD1-4 = -0.456       ACT = 1.657          Ne = 120686.089
+  LOD1-5 = -0.453       ACT = 1.496          Ne = 133646.154
+  LOD1-6 = -0.450       ACT = 1.410          Ne = 141795.263
+  LOD1-7 = -0.449       ACT = 1.404          Ne = 142443.178
+  LOD1   = -0.451       ACT = 1.688          Ne = 829199.500
+
+  RNe1 = inf
+
+
+30/30:
+hagfish hemo-alpha-human hemo-alpha-shark hemo-beta-human hemo-beta-shark lamprey | HbA-blood_clam HbI-Lucina HbII-Lucina beetle cyto-beetle cyto-fish cyto-human drosophila hemo-polychaete-4 hemo-tunicate-1 hemo-tunicate-3 honeybee leghemo-pea leghemo-rice midge-8 myo-Dolabella myo-human myo-polychaete myo-shark myo-snail neuro-human neuro-zebrafish 
+   PP1-1 = 0.262       (1=52383  0=147618)  [28646]
+   PP1-2 = 0.260       (1=51951  0=148050)  [28646]
+   PP1-3 = 0.257       (1=51334  0=148667)  [27879]
+   PP1-4 = 0.258       (1=51623  0=148378)  [28337]
+   PP1-5 = 0.254       (1=50808  0=149193)  [28103]
+   PP1-6 = 0.260       (1=51973  0=148028)  [28390]
+   PP1-7 = 0.260       (1=52067  0=147934)  [29006]
+   PP1   = 0.259       (1=362139  0=1037868)  [199007]
+
+  LOD1-1 = -0.450       ACT = 12.398          Ne = 16132.100
+  LOD1-2 = -0.455       ACT = 9.335          Ne = 21424.119
+  LOD1-3 = -0.462       ACT = 72.472          Ne = 2759.707
+  LOD1-4 = -0.459       ACT = 24.851          Ne = 8048.106
+  LOD1-5 = -0.468       ACT = 24.473          Ne = 8172.391
+  LOD1-6 = -0.455       ACT = 17.048          Ne = 11731.891
+  LOD1-7 = -0.454       ACT = 8.892          Ne = 22492.938
+  LOD1   = -0.457       ACT = 29.405          Ne = 47610.550
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.003     MSDSF = 0.012
+min Ne = 9520.427    (partition = 25)

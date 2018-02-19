@@ -31,7 +31,7 @@
 	    % bali-phy <a href="Examples/25.fasta">25.fasta</a> --smodel GTR+Rates.Gamma[4]+INV</li>
 	  <li><a href="Examples/5S/48-GTR-Gamma-INV">5S rRNA - 48 sequences</a><br/>
 	    % bali-phy <a href="Examples/48-fsa.fasta">48-fsa.fasta</a> --smodel GTR+Rates.Gamma[4]+INV</li>
-	  <li><a href="Examples/Globins/few-LG-DP6">Globins - 28 sequences</a><br/>
+	  <li><a href="Examples/Globins/few-LG-Gamma-INV">Globins - 28 sequences</a><br/>
 	    % bali-phy <a href="Examples/few-globins.fasta">few-globins.fasta</a> --smodel LG+DP[6]</li>
 	  <li><a href="Examples/ITS/ITS1-TN-DP3">Transcribed Spacers + 5.8S - 68 sequences</a><br/>
 	    % bali-phy -c <a href="Examples/8.script.html">8.script</a></li>
