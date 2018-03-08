@@ -35,7 +35,7 @@
 
 	<h3>Older releases</h3>
 	<ul>
-	  <li><b>2.2</b> (<a href="releases/2.3/">Changes</a>)</li>
+	  <li><b>2.3</b> (<a href="releases/2.3/">Changes</a>)</li>
 	  <li><b>2.2</b> (<a href="releases/2.2/">Changes</a>)</li>
 	  <li><b>2.1</b> (<a href="releases/2.1/">Changes</a>)</li>
 	  <li><b>2.0</b> (<a href="releases/2.0/">Changes</a>)</li>
