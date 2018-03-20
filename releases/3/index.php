@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <?php $top="../.."; ?>
-  <?php $page="Unreleased 3 (alpha)"; ?>
+  <?php $page="Release 3.*"; ?>
   <?php require("{$top}/lib/phplib.inc") ?>
   <head>
     <?php baliphy_head(); ?>
