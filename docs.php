@@ -72,7 +72,8 @@ h1,h2,h3,h4 {clear: both;}
 		<li><a href="man/bp-analyze.html">bp-analyze</a></li>
 	      </ul>
 
-	      <h2><a name="manpages">Manual pages for tools</a></h2>
+	      <h2>Manual pages for tools</h2>
+
 	      <ul>
 		<li><a href="man/alignment-cat.html">alignment-cat</a></li>
 		<li><a href="man/alignment-chop-internal.html">alignment-chop-internal</a></li>
@@ -101,7 +102,8 @@ h1,h2,h3,h4 {clear: both;}
 		<li><a href="man/trees-distances.html">trees-distances</a></li>
 		<li><a href="man/trees-to-SRQ.html">trees-to-SRQ</a></li>
 	      </ul>
-	      <h2><a name="manpages">Manual pages for extra tools</a></h2>
+
+	      <h2>Manual pages for extra tools</h2>
 	      <ul>
 		<li><a href="man/stats-merge.html">stats-merge</a></li>
 		<li><a href="man/stats-cat.html">stats-cat</a></li>
