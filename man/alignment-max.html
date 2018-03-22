@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>alignment-max(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">alignment-max(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>alignment-max</strong> -- Construct a posterior decoding alignment to summarize an alignment sample.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>alignment-max</strong> [OPTIONS] &lt; alignments-file</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Construct a posterior decoding alignment to summarize an alignment sample.</p>
+<h1 id="allowed-options">ALLOWED OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message
+</dd>
+<dt><strong>--alphabet</strong> <em>arg</em></dt>
+<dd>Specify the alphabet: DNA, RNA, Amino-Acids, Amino-Acids+stop, Triplets, Codons, or Codons+stop.
+</dd>
+<dt><strong>-s</strong> <em>arg</em> (=0), <strong>--skip</strong> <em>arg</em> (=0)</dt>
+<dd>Number of alignment samples to skip
+</dd>
+<dt><strong>-m</strong> <em>arg</em> (=1000), <strong>--max-alignments</strong> <em>arg</em> (=1000)</dt>
+<dd>Maximum number of alignments to analyze
+</dd>
+<dt><strong>--analysis</strong> <em>arg</em> (=wsum)</dt>
+<dd>sum, wsum, multiply
+</dd>
+<dt><strong>-o</strong> <em>arg</em> (=-), <strong>--out</strong> <em>arg</em> (=-)</dt>
+<dd>Output file (defaults to stdout)
+</dd>
+<dt><strong>-p</strong> <em>arg</em>, <strong>--out-probabilities</strong> <em>arg</em></dt>
+<dd>Output file for column probabilities, if specified
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

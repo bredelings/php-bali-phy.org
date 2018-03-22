@@ -27,6 +27,7 @@
 	    <li><b>[3.0-beta5]</b> - Dec-06-2017</li>
 	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li -->
 	    <li><b>[3.0]</b> - Feb-12-2018</li>
+	    <li><b>[3.1]</b> - Apr-??-2018</li>
 	  </ul>
 	  </div>
 
@@ -42,6 +43,7 @@
 	      <ul>
   	        <li><b>Speed:</b> 0-300% faster.&nbsp;&nbsp;&nbsp;&nbsp;<b>Memory:</b> 0-300% less memory.</li>
 		<li><span class="timepoint-new">[3.0]</span> Better mixing when alignment depends on tree.</li>
+		<li><span class="timepoint">[3.0-beta4]</span> <b>Site-compression</b> for fixed-alignment partitions.</li>
   	        <!-- li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
@@ -111,6 +113,7 @@
 	      <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
 	      <li><span class="timepoint">[3.0-beta6]</span> Better help for functions.</li>
 	      <li><span class="timepoint">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
+	      <li><span class="timepoint-new">[3.1]</span> Unix manual pages for <em>bali-phy</em> and tools</li>
 	    </ul>
 	    </li>
 	    <!-- li>Models
@@ -130,11 +133,18 @@
 	    <li>Install
 	      <ul>
 		<li><span class="timepoint">[3.0-beta5]</span> New install documentation.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Cairo library autodetected.</li>
 		<li><span class="timepoint">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
+		<li><span class="timepoint-new">[3.1]</span> Debian package for bali-phy.</li>
 	      </ul>
 	    </li>
+	  <li>Compile
+	    <ul>
+	      <li><span class="timepoint">[3.0-beta5]</span> Cairo library autodetected.</li>
+	      <li><span class="timepoint">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
+	      <li><span class="timepoint-new">[3.1]</span> Automatically use system libraries for <em>boost</em>, <em>eigen</em>, and <em>nlohmann::json</em> if available.</li>
+	    </ul>
+	  </li>
+	  
 	    <!--
 	    <li>Input
 	    <ul>
@@ -165,6 +175,7 @@
 		<li><span class="timepoint">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li>
 		<li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li>
 		<li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li>
+		<li><span class="timepoint-new">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
 	      </ul>
 	    </li>
 

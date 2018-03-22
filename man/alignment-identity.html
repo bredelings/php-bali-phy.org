@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>alignment-identity(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">alignment-identity(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>alignment-identity</strong> -- Report statistics on pairwise identity.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>alignment-identity</strong> [OPTIONS] &lt; sequence-file</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Report statistics on pairwise identity.</p>
+<h1 id="allowed-options">ALLOWED OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>produce help message
+</dd>
+<dt><strong>--alphabet</strong> <em>arg</em></dt>
+<dd>Specify the alphabet: DNA, RNA, Amino-Acids, Amino-Acids+stop, Triplets, Codons, or Codons+stop.
+</dd>
+<dt><strong>--with-indels</strong></dt>
+<dd>Calculate percent-identity w/ indels
+</dd>
+<dt><strong>--seed</strong> <em>arg</em></dt>
+<dd>random seed
+</dd>
+<dt><strong>--skip</strong> <em>arg</em> (=0)</dt>
+<dd>number of tree samples to skip
+</dd>
+<dt><strong>--max-alignments</strong> <em>arg</em> (=1000)</dt>
+<dd>maximum number of alignments to analyze
+</dd>
+<dt><strong>--cutoff</strong> <em>arg</em> (=0.75)</dt>
+<dd>ignore events below this probability
+</dd>
+<dt><strong>--identity</strong> <em>arg</em> (=0.40000000000000002)</dt>
+<dd>Find fraction of sequences that have this level of identity.
+</dd>
+<dt><strong>--analysis</strong> <em>arg</em></dt>
+<dd>What analysis to do: default, matrix, nmatrix
+</dd>
+<dt><strong>--strict</strong></dt>
+<dd>require all implied pairs pass the cutoff
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

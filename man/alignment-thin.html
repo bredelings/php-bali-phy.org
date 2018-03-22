@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>alignment-thin(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">alignment-thin(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>alignment-thin</strong> -- Remove sequences or columns from an alignment.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>alignment-thin</strong> <em>alignment-file</em> [OPTIONS]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Remove sequences or columns from an alignment.</p>
+<h1 id="general-options">GENERAL OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Print usage information.
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="sequence-filtering-options">SEQUENCE FILTERING OPTIONS:</h1>
+<dl>
+<dt><strong>--min-letters</strong> <em>arg</em></dt>
+<dd>Remove columns with fewer than <em>arg</em> letters.
+</dd>
+<dt><strong>--remove-unique</strong> <em>arg</em></dt>
+<dd>Remove insertions in a single sequence if longer than <em>arg</em> letters
+</dd>
+</dl>
+<h1 id="output-options">OUTPUT OPTIONS:</h1>
+<dl>
+<dt><strong>--sort</strong></dt>
+<dd>Sort partially ordered columns to group similar gaps.
+</dd>
+<dt><strong>--show-lengths</strong></dt>
+<dd>Just print out sequence lengths.
+</dd>
+<dt><strong>--find-dups</strong> <em>arg</em></dt>
+<dd>For each sequence, find the closest other sequence.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

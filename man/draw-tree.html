@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>draw-tree(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">draw-tree(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>draw-tree</strong> -- Draw NEWICK (and some other) formatted files.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>draw-tree</strong> [OPTIONS] <em>tree file</em></p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Draw NEWICK (and some other) formatted files.</p>
+<h1 id="input-options">INPUT OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message
+</dd>
+<dt><strong>-W</strong> <em>arg</em> (=8.5), <strong>--width</strong> <em>arg</em> (=8.5)</dt>
+<dd>Page width in inches
+</dd>
+<dt><strong>-H</strong> <em>arg</em> (=11), <strong>--height</strong> <em>arg</em> (=11)</dt>
+<dd>Page height in inches
+</dd>
+<dt><strong>--file</strong> <em>arg</em></dt>
+<dd>predicates to examine
+</dd>
+<dt><strong>--output</strong> <em>arg</em> (=pdf)</dt>
+<dd>Type of output to write: tree, topology, mtree, lengths, dot, ps, pdf, svg
+</dd>
+<dt><strong>--out</strong> <em>arg</em></dt>
+<dd>Output filename (without extension)
+</dd>
+<dt><strong>--full</strong></dt>
+<dd>Consider only full splits by collapsing any partial splits.
+</dd>
+<dt><strong>--iterations</strong> <em>arg</em> (=2)</dt>
+<dd>Number of iterations for layout algorithm
+</dd>
+<dt><strong>--font-size</strong> <em>arg</em> (=10)</dt>
+<dd>Font size for taxon names
+</dd>
+<dt><strong>--angle_iterations</strong> <em>arg</em> (=0)</dt>
+<dd>Number of iterations for layout algorithm with small-angle penalties
+</dd>
+<dt><strong>--labels</strong> <em>arg</em> (=horizontal)</dt>
+<dd>Are the names horizontal or angled?
+</dd>
+<dt><strong>--collapse</strong></dt>
+<dd>Give node lengths evenly to neighboring branches and zero the node lengths.
+</dd>
+<dt><strong>--layout</strong> <em>arg</em> (=graph)</dt>
+<dd>Layout method: graph, equal-angle, equal-daylight, etc.
+</dd>
+<dt><strong>--greedy</strong></dt>
+<dd>For equal-daylight layout: take as much daylight as possible?
+</dd>
+<dt><strong>--tree-layout-initial</strong></dt>
+<dd>Start an energy layout with positions from the equal-angle layout - only for multifurcating trees
+</dd>
+<dt><strong>--no-shade</strong></dt>
+<dd>For equal-daylight layout: reject rotations that shade other groups?
+</dd>
+<dt><strong>--draw-clouds</strong> <em>arg</em></dt>
+<dd>Draw wandering-ranges in MC trees as clouds.
+</dd>
+<dt><strong>--seed</strong> <em>arg</em></dt>
+<dd>Random seed
+</dd>
+<dt><strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

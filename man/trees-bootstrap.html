@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>trees-bootstrap(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">trees-bootstrap(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>trees-bootstrap</strong> -- Usage: trees-bootstrap <file1> [<file2> ... ] --predicates <predicate file> [OPTIONS]</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>trees-bootstrap</strong> <em>file1</em> [<em>file2</em> ... ] --predicates <em>predicate file</em> [OPTIONS]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Usage: trees-bootstrap <file1> [<file2> ... ] --predicates <predicate file> [OPTIONS]</p>
+<h1 id="input-options">INPUT OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message.
+</dd>
+<dt><strong>-s</strong> <em>arg</em> (=10%), <strong>--skip</strong> <em>arg</em> (=10%)</dt>
+<dd>Number of trees to skip.
+</dd>
+<dt><strong>-u</strong> <em>arg</em>, <strong>--until</strong> <em>arg</em></dt>
+<dd>Read until this number of trees.
+</dd>
+<dt><strong>-m</strong> <em>arg</em>, <strong>--max</strong> <em>arg</em></dt>
+<dd>Thin tree samples down to this number of trees.
+</dd>
+<dt><strong>-x</strong> <em>arg</em>, <strong>--subsample</strong> <em>arg</em></dt>
+<dd>Factor by which to sub-sample.
+</dd>
+<dt><strong>--predicates</strong> <em>arg</em></dt>
+<dd>Predicates to examine.
+</dd>
+<dt><strong>--min-support</strong> <em>arg</em> (=0.1)</dt>
+<dd>Minimum value of predicates to consider interesting..
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="block-bootstrap-options">BLOCK BOOTSTRAP OPTIONS:</h1>
+<dl>
+<dt><strong>--bootstrap</strong></dt>
+<dd>Do block bootstrapping to get a CI on the posterior probabilities.
+</dd>
+<dt><strong>--samples</strong> <em>arg</em> (=10000)</dt>
+<dd>Number of bootstrap samples.
+</dd>
+<dt><strong>--pseudocount</strong> <em>arg</em> (=1)</dt>
+<dd>Extra 0/1 to add to bootstrap samples.
+</dd>
+<dt><strong>--blocksize</strong> <em>arg</em></dt>
+<dd>Block size to use in block boostrap.
+</dd>
+<dt><strong>--seed</strong> <em>arg</em></dt>
+<dd>Random seed.
+</dd>
+</dl>
+<h1 id="reporting-options">REPORTING OPTIONS:</h1>
+<dl>
+<dt><strong>--separation</strong> <em>arg</em> (=0)</dt>
+<dd>Only report trees/partitions if they differ by this many LODs
+</dd>
+<dt><strong>--confidence</strong> <em>arg</em> (=0.95)</dt>
+<dd>Width of confidence intervals
+</dd>
+<dt><strong>--LOD-table</strong> <em>arg</em></dt>
+<dd>Write the partitions LOD10's to a file.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

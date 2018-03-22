@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>alignment-cat(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">alignment-cat(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>alignment-cat</strong> -- Concatenate several alignments (with the same sequence names) end-to-end.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>alignment-cat</strong> <em>file1</em> [<em>file2</em> ...]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Concatenate several alignments (with the same sequence names) end-to-end.</p>
+<h1 id="all-options">ALL OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message
+</dd>
+<dt><strong>--output</strong> <em>arg</em> (=fasta)</dt>
+<dd>Which output format: fasta or phylip?
+</dd>
+<dt><strong>-c</strong> <em>arg</em>, <strong>--columns</strong> <em>arg</em></dt>
+<dd>Ranges of columns to keep, like: 1-10,30-
+</dd>
+<dt><strong>-t</strong> <em>arg</em>, <strong>--taxa</strong> <em>arg</em></dt>
+<dd>Taxa to keep, comma-separated
+</dd>
+<dt><strong>-p</strong>, <strong>--pad</strong></dt>
+<dd>Add gaps to make sequence lengths identical
+</dd>
+<dt><strong>-r</strong>, <strong>--reverse</strong></dt>
+<dd>Reverse the sequences
+</dd>
+<dt><strong>-e</strong>, <strong>--erase-empty-columns</strong></dt>
+<dd>Remove columns with no characters (all gaps).
+</dd>
+<dt><strong>--missing</strong> <em>arg</em> (=-?)</dt>
+<dd>What letters are not characters (e.g. gaps)?
+</dd>
+<dt><strong>--strip-gaps</strong></dt>
+<dd>Remove all non-character letters from sequences.
+</dd>
+<dt><strong>--reorder-by-tree</strong> <em>arg</em></dt>
+<dd>Reorder the sequences given a tree
+</dd>
+<dt><strong>--use-root</strong></dt>
+<dd>use the root specified in the tree file to reorder
+</dd>
+<dt><strong>--reorder-by-alignment</strong> <em>arg</em></dt>
+<dd>Reorder the sequences following an alignment
+</dd>
+<dt><strong>--align-by-amino</strong> <em>arg</em></dt>
+<dd>Arrange nucleotides into codon alignment
+</dd>
+</dl>
+<h1 id="examples">EXAMPLES:</h1>
+<p>To select columns from an alignment:</p>
+<p>% alignment-cat -c1-10,50-100,600- filename.fasta &gt; result.fasta</p>
+<p>% alignment-cat -c5-250/3 filename.fasta &gt; first_codon_position.fasta</p>
+<p>% alignment-cat -c6-250/3 filename.fasta &gt; second_codon_position.fasta</p>
+<p>To concatenate two or more alignments:</p>
+<p>% alignment-cat filename1.fasta filename2.fasta &gt; all.fasta</p>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

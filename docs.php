@@ -48,20 +48,85 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
 
-	    <h2><a name="usersguide">Tutorial for version 3</a></h2>
 
-	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
-	    <ul class="floatlist">
-	      <li><a href="Tutorial3.html">HTML</a></li>
-	      <li><a href="Tutorial3.xhtml">XHTML</a> (shows math)</li>
-	      <li><?php track_link("Tutorial3.pdf","PDF")?></li>
-	    </ul>
+	    <div style="padding-top:1.5em">
+	      <hr/>
+	      <h2><a name="usersguide">Tutorial for version 3</a></h2>
+
+	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+
+	      <ul class="floatlist">
+		<li><a href="Tutorial3.html">HTML</a></li>
+		<li><a href="Tutorial3.xhtml">XHTML</a> (shows math)</li>
+		<li><?php track_link("Tutorial3.pdf","PDF")?></li>
+	      </ul>
+	    </div>
+
+	    <!-- the float:left method of getting all the <li> items on the same line with bullets means that they don't count for spacing :-( -->
+
+            <div style="padding-top:3.5em">
+	      <hr/>
+	      <h2><a name="manpages">Manual pages</a></h2>
+	      <ul>
+		<li><a href="man/bali-phy.html">bali-phy</a></li>
+		<li><a href="man/bp-analyze.html">bp-analyze</a></li>
+	      </ul>
+
+	      <h2><a name="manpages">Manual pages for tools</a></h2>
+	      <ul>
+		<li><a href="man/alignment-cat.html">alignment-cat</a></li>
+		<li><a href="man/alignment-chop-internal.html">alignment-chop-internal</a></li>
+		<li><a href="man/alignment-consensus.html">alignment-consensus</a></li>
+		<li><a href="man/alignment-draw.html">alignment-draw</a></li>
+		<li><a href="man/alignment-find.html">alignment-find</a></li>
+		<li><a href="man/alignment-gild.html">alignment-gild</a></li>
+		<li><a href="man/alignment-indices.html">alignment-indices</a></li>
+		<li><a href="man/alignment-info.html">alignment-info</a></li>
+		<li><a href="man/alignment-max.html">alignment-max</a></li>
+		<li><a href="man/alignments-diff.html">alignments-diff</a></li>
+		<li><a href="man/alignment-thin.html">alignment-thin</a></li>
+		<li><a href="man/alignment-translate.html">alignment-translate</a></li>
+		<li><a href="man/cut-range.html">cut-range</a></li>
+		<li><a href="man/draw-tree.html">draw-tree</a></li>
+		<li><a href="man/mctree-mean-lengths.html">mctree-mean-lengths</a></li>
+		<li><a href="man/model_P.html">model_P</a></li>
+		<li><a href="man/pickout.html">pickout</a></li>
+		<li><a href="man/statreport.html">statreport</a></li>
+		<li><a href="man/stats-cat.html">stats-cat</a></li>
+		<li><a href="man/subsample.html">subsample</a></li>
+		<li><a href="man/tree-mean-lengths.html">tree-mean-lengths</a></li>
+		<li><a href="man/tree-partitions.html">tree-partitions</a></li>
+		<li><a href="man/trees-bootstrap.html">trees-bootstrap</a></li>
+		<li><a href="man/trees-consensus.html">trees-consensus</a></li>
+		<li><a href="man/trees-distances.html">trees-distances</a></li>
+		<li><a href="man/trees-to-SRQ.html">trees-to-SRQ</a></li>
+	      </ul>
+	      <h2><a name="manpages">Manual pages for extra tools</a></h2>
+	      <ul>
+		<li><a href="man/stats-merge.html">stats-merge</a></li>
+		<li><a href="man/stats-cat.html">stats-cat</a></li>
+		<!-- li><a href="man/alignment-identity.html">alignment-identity</a></li -->
+		<!-- li><a href="man/alignment-median.html">alignment-median</a></li -->
+		<!-- li><a href="man/alignment-compare.html">alignment-compare</a></li -->
+		<!-- li><a href="man/joint-indels.html">joint-indels</a></li -->
+		<!-- li><a href="man/joint-parsimony.html">joint-parsimony</a></li -->
+		<li><a href="man/alignment-smc.html">alignment-smc</a></li>
+		<li><a href="man/alignment-convert.html">alignment-convert</a></li>
+		<!-- li><a href="man/alignment-find-conserved.html">alignment-find-conserved</a></li -->
+		<li><a href="man/partitions-supported.html">partitions-supported</a></li>
+		<li><a href="man/draw-graph.html">draw-graph</a></li>
+		<li><a href="man/trees-pair-distances.html">trees-pair-distances</a></li>
+		<li><a href="man/tree-reroot.html">tree-reroot</a></li>
+		<li><a href="man/path-graph.html">path-graph</a></li>
+
+	      </ul>
+	    </div>
 
 	    </div>
 	  </td>
       </tr>
     </table>
-    
+
     <?php baliphy_footer(); ?>
   </body>
 </html>

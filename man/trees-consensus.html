@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>trees-consensus(1)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../man.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">trees-consensus(1)</h1>
+<h2 class="author">Benjamin Redelings</h2>
+<h3 class="date">Feb 2018</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p><strong>trees-consensus</strong> -- Find consensus trees and supported splits.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>trees-consensus</strong> [OPTIONS] <em>sampled-trees</em> [<em>sampled-trees</em> ... <em>sampled-trees</em>]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Find consensus trees and supported splits.</p>
+<h1 id="input-options">INPUT OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message.
+</dd>
+<dt><strong>-s</strong> <em>arg</em> (=10%), <strong>--skip</strong> <em>arg</em> (=10%)</dt>
+<dd>Number of trees to skip.
+</dd>
+<dt><strong>-u</strong> <em>arg</em>, <strong>--until</strong> <em>arg</em></dt>
+<dd>Read until this number of trees.
+</dd>
+<dt><strong>-m</strong> <em>arg</em>, <strong>--max</strong> <em>arg</em></dt>
+<dd>Thin tree samples down to this number of trees.
+</dd>
+<dt><strong>-x</strong> <em>arg</em> (=1), <strong>--subsample</strong> <em>arg</em> (=1)</dt>
+<dd>Factor by which to subsample.
+</dd>
+<dt><strong>--ignore</strong> <em>arg</em></dt>
+<dd>Comma-separated list of taxa to ignore.
+</dd>
+</dl>
+<h1 id="reporting-options">REPORTING OPTIONS:</h1>
+<dl>
+<dt><strong>--map-trees</strong> <em>arg</em> (=1)</dt>
+<dd>Only report the top <arg> trees per file.
+</dd>
+<dt><strong>--map-tree</strong> <em>arg</em></dt>
+<dd>Write out the map tree to file <arg>.
+</dd>
+<dt><strong>--min-support</strong> <em>arg</em> (=0.25)</dt>
+<dd>Minimum threshold PP for splits.
+</dd>
+<dt><strong>--report</strong> <em>arg</em></dt>
+<dd>Write supported partitions to file <arg>.
+</dd>
+<dt><strong>--consensus-PP</strong> <em>arg</em></dt>
+<dd>Write out consensus trees+PP.
+</dd>
+<dt><strong>--consensus</strong> <em>arg</em></dt>
+<dd>Write out consensus trees.
+</dd>
+<dt><strong>--greedy-consensus</strong> <em>arg</em></dt>
+<dd>Write out greedy consensus trees.
+</dd>
+<dt><strong>--extended-consensus-L</strong> <em>arg</em></dt>
+<dd>Write out extended consensus trees + lengths.
+</dd>
+<dt><strong>--extended-consensus</strong> <em>arg</em></dt>
+<dd>Write out extended consensus trees.
+</dd>
+<dt><strong>--support-levels</strong> <em>arg</em></dt>
+<dd>Write #branches versus LOD to file <arg>.
+</dd>
+<dt><strong>--extended-support-levels</strong> <em>arg</em></dt>
+<dd>Write #sub-branches versus LOD to file <arg>.
+</dd>
+<dt><strong>--odds-ratio</strong> <em>arg</em> (=1.5)</dt>
+<dd>Report partial-splits only if removing taxa improves the odds by at least this ratio.
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="search-options">SEARCH OPTIONS:</h1>
+<dl>
+<dt><strong>--sub-partitions</strong></dt>
+<dd>Search for partial splits.
+</dd>
+<dt><strong>--depth</strong> <em>arg</em> (=1)</dt>
+<dd>Depth at which to look for partial splits.
+</dd>
+<dt><strong>--rooting</strong> <em>arg</em> (=0.9)</dt>
+<dd>Threshold in search for partial splits.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>
