@@ -32,6 +32,33 @@
 </dl>
 <h1 id="sequence-filtering-options">SEQUENCE FILTERING OPTIONS:</h1>
 <dl>
+<dt><strong>--cutoff</strong> <em>arg</em></dt>
+<dd>Keep only sequence with more mismatches than <em>arg</em>.
+</dd>
+<dt><strong>--longer-than</strong> <em>arg</em></dt>
+<dd>Keep only sequences longer than <em>arg</em>.
+</dd>
+<dt><strong>--shorter-than</strong> <em>arg</em></dt>
+<dd>Keep only sequence sequences shorter than <em>arg</em>.
+</dd>
+<dt><strong>--keep</strong> <em>arg</em></dt>
+<dd>Keep only sequences in comma-separated list <em>arg</em>.
+</dd>
+<dt><strong>--remove</strong> <em>arg</em></dt>
+<dd>Remove sequences in comma-separated list <em>arg</em>.
+</dd>
+<dt><strong>--down-to</strong> <em>arg</em></dt>
+<dd>Remove similar sequences down to <em>arg</em> sequences.
+</dd>
+<dt><strong>--remove-crazy</strong> <em>arg</em></dt>
+<dd>Remove <em>arg</em> sequences that are missing too many conserved sites.
+</dd>
+<dt><strong>--conserved</strong> <em>arg</em> (=0.75)</dt>
+<dd>Fraction of sequences that must contain a letter for it to be considered conserved.
+</dd>
+</dl>
+<h1 id="column-filtering-options">COLUMN FILTERING OPTIONS:</h1>
+<dl>
 <dt><strong>--min-letters</strong> <em>arg</em></dt>
 <dd>Remove columns with fewer than <em>arg</em> letters.
 </dd>
