@@ -20,7 +20,7 @@
 	    
 	  <h2><a name="download">Download</a></h2>
 
-	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.  Note that Mac users can install via <b>homebrew</b>.</p>
+	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.</p>
 	  <!-- I should add an outline here of subsections under installation -->
 
 	  <h3>Current (stable) release</h3>
@@ -30,8 +30,14 @@
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.0-win64.tar.gz","Windows&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
+	      &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
+	  <p>You can now install using a package manager on some systems:
+	    <ul>
+	      <li><b>Mac</b>: homebrew users can install with <em>brew</em>.</li>
+	      <li><b>Linux</b>: Debian <em>testing</em> or <em>unstable</em> users can install with <em>apt</em>.</li>
+	    </ul>
+	  </p>
 
 	<h3>Older releases</h3>
 	<ul>
