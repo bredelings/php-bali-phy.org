@@ -93,7 +93,7 @@
 	      <!-- li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li -->
 	      <li><span class="timepoint">[3.0-beta6]</span> sample initial branch-lengths from prior.</li>
 	      <!-- li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li -->
-	      <li><span class="timepoint">[3.0-beta5]</span> add syntax for simply linking partitions: e.g. <b>--link=1,2</b></li>
+	      <li><span class="timepoint">[3.0-beta5]</span> alternative syntax linking partitions: <b>--smodel 1:HKY --smodel 2:HKY --link 1,2</b></li>
 	    </ul>
 	  </li>
 	  <li>Summarization tools
