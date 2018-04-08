@@ -51,56 +51,60 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="TOC">
 <ul>
-<li><a href="#getting-started">Getting started</a><ul>
-<li><a href="#fork-the-repo">Fork the repo</a></li>
-<li><a href="#repo-overview">Repo overview</a></li>
-<li><a href="#contributions">Contributions</a></li>
+<li><a href="#getting-started"><span class="toc-section-number">1</span> Getting started</a><ul>
+<li><a href="#fork-the-repo"><span class="toc-section-number">1.1</span> Fork the repo</a></li>
+<li><a href="#repo-overview"><span class="toc-section-number">1.2</span> Repo overview</a></li>
+<li><a href="#contributions"><span class="toc-section-number">1.3</span> Contributions</a></li>
 </ul></li>
-<li><a href="#building-bali-phy">Building bali-phy</a><ul>
-<li><a href="#prequisites">Prequisites</a></li>
-<li><a href="#compilation">Compilation</a></li>
+<li><a href="#building-bali-phy"><span class="toc-section-number">2</span> Building bali-phy</a><ul>
+<li><a href="#prequisites"><span class="toc-section-number">2.1</span> Prequisites</a></li>
+<li><a href="#compilation"><span class="toc-section-number">2.2</span> Compilation</a></li>
 </ul></li>
-<li><a href="#adding-functionality-to-bali-phy">Adding functionality to bali-phy</a><ul>
-<li><a href="#adding-a-haskell-function">Adding a Haskell function</a></li>
-<li><a href="#adding-a-c-function">Adding a C++ function</a><ul>
-<li><a href="#declaring-a-builtin-in-haskell">Declaring a builtin in Haskell</a></li>
-<li><a href="#writing-a-builtin-in-c">Writing a builtin in C++</a></li>
+<li><a href="#adding-functionality-to-bali-phy"><span class="toc-section-number">3</span> Adding functionality to bali-phy</a><ul>
+<li><a href="#adding-a-haskell-function"><span class="toc-section-number">3.1</span> Adding a Haskell function</a></li>
+<li><a href="#adding-a-c-function"><span class="toc-section-number">3.2</span> Adding a C++ function</a><ul>
+<li><a href="#declaring-a-builtin-in-haskell"><span class="toc-section-number">3.2.1</span> Declaring a builtin in Haskell</a></li>
+<li><a href="#writing-a-builtin-in-c"><span class="toc-section-number">3.2.2</span> Writing a builtin in C++</a></li>
 </ul></li>
-<li><a href="#adding-a-distribution">Adding a distribution</a><ul>
-<li><a href="#density">Density</a></li>
-<li><a href="#quantile">Quantile</a></li>
-<li><a href="#sample">Sample</a></li>
-<li><a href="#range">Range</a></li>
+<li><a href="#adding-a-distribution"><span class="toc-section-number">3.3</span> Adding a distribution</a><ul>
+<li><a href="#density"><span class="toc-section-number">3.3.1</span> Density</a></li>
+<li><a href="#quantile"><span class="toc-section-number">3.3.2</span> Quantile</a></li>
+<li><a href="#sample"><span class="toc-section-number">3.3.3</span> Sample</a></li>
+<li><a href="#range"><span class="toc-section-number">3.3.4</span> Range</a></li>
 </ul></li>
-<li><a href="#using-a-function-from-the-command-line">Using a function from the command line</a></li>
-<li><a href="#adding-a-new-mcmc-move">Adding a new MCMC move</a><ul>
-<li><a href="#mcmcmoveall"><code>MCMC::MoveAll</code></a></li>
-<li><a href="#mcmcsinglemove"><code>MCMC::SingleMove</code></a></li>
-<li><a href="#mcmcmh_move"><code>MCMC::MH_Move</code></a></li>
-<li><a href="#proposals">Proposals</a></li>
+<li><a href="#using-a-function-from-the-command-line"><span class="toc-section-number">3.4</span> Using a function from the command line</a></li>
+<li><a href="#adding-a-new-mcmc-move"><span class="toc-section-number">3.5</span> Adding a new MCMC move</a><ul>
+<li><a href="#mcmcmoveall"><span class="toc-section-number">3.5.1</span> <code>MCMC::MoveAll</code></a></li>
+<li><a href="#mcmcsinglemove"><span class="toc-section-number">3.5.2</span> <code>MCMC::SingleMove</code></a></li>
+<li><a href="#mcmcmh_move"><span class="toc-section-number">3.5.3</span> <code>MCMC::MH_Move</code></a></li>
+<li><a href="#proposals"><span class="toc-section-number">3.5.4</span> Proposals</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#types">Types</a><ul>
-<li><a href="#log_double_t"><code>log_double_t</code></a></li>
-<li><a href="#object"><code>Object</code></a></li>
-<li><a href="#expression_ref"><code>expression_ref</code></a></li>
-<li><a href="#closure"><code>closure</code></a></li>
+<li><a href="#types"><span class="toc-section-number">4</span> Types</a><ul>
+<li><a href="#log_double_t"><span class="toc-section-number">4.1</span> <code>log_double_t</code></a></li>
+<li><a href="#object"><span class="toc-section-number">4.2</span> <code>Object</code></a></li>
+<li><a href="#expression_ref"><span class="toc-section-number">4.3</span> <code>expression_ref</code></a></li>
+<li><a href="#closure"><span class="toc-section-number">4.4</span> <code>closure</code></a></li>
 </ul></li>
-<li><a href="#testing">Testing</a><ul>
-<li><a href="#the-tests-directory">The <code>tests/</code> directory</a></li>
-<li><a href="#testiphy">testiphy</a></li>
+<li><a href="#testing"><span class="toc-section-number">5</span> Testing</a><ul>
+<li><a href="#the-tests-directory"><span class="toc-section-number">5.1</span> The <code>tests/</code> directory</a></li>
+<li><a href="#testiphy"><span class="toc-section-number">5.2</span> testiphy</a></li>
 </ul></li>
 </ul>
 </div>
-<h1 id="getting-started">Getting started</h1>
-<h2 id="fork-the-repo">Fork the repo</h2>
-<p>Go to the github page for bali-phy here: <a href="https://github.com/BAli-Phy">https://github.com/BAli-Phy/</a>. Then click in the &quot;Fork&quot; button. This will create a copy of the repo under your own account. You should then clone your own version of the repo:</p>
+<h1 id="getting-started"><span class="header-section-number">1</span> Getting started</h1>
+<h2 id="fork-the-repo"><span class="header-section-number">1.1</span> Fork the repo</h2>
+<ol style="list-style-type: decimal">
+<li><p>Click the &quot;Fork&quot; button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a>. This will create a copy of the repo under your own account.</p></li>
+<li><p>Use git to clone your own version of the repo:</p>
 <div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="fu">git</span> clone git@github.com:your-username/BAli-Phy.git</code></pre></div>
-<p>The name <code>origin</code> in your local repo will then refer to your modified version of BAli-Phy. To refer to the official upstream version, create a new remote called <code>upstream</code>:</p>
+<p>The name <code>origin</code> in your local repo will then refer to your modified version of BAli-Phy.</p></li>
+<li><p>To refer to the official upstream version, create a new remote called <code>upstream</code>:</p>
 <div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="bu">cd</span> BAli-Phy/
 <span class="fu">git</span> remote add upstream git@github.com:bredelings/BAli-Phy.git
-<span class="fu">git</span> remote -v</code></pre></div>
-<h2 id="repo-overview">Repo overview</h2>
+<span class="fu">git</span> remote -v</code></pre></div></li>
+</ol>
+<h2 id="repo-overview"><span class="header-section-number">1.2</span> Repo overview</h2>
 <p>These directories contain code that affects how <code>bali-phy</code> runs:</p>
 <dl>
 <dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/modules">modules/</a></dt>
@@ -131,7 +135,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <dd>Example files for running graphical models.
 </dd>
 </dl>
-<h2 id="contributions">Contributions</h2>
+<h2 id="contributions"><span class="header-section-number">1.3</span> Contributions</h2>
 <p>We are excited to see what you will contribute!</p>
 <p>The way to submit patches is:</p>
 <ol style="list-style-type: decimal">
@@ -141,8 +145,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>We will review the changes.</li>
 <li>If accepted, changes will be merged to the master branch.</li>
 </ol>
-<h1 id="building-bali-phy">Building bali-phy</h1>
-<h2 id="prequisites">Prequisites</h2>
+<h1 id="building-bali-phy"><span class="header-section-number">2</span> Building bali-phy</h1>
+<h2 id="prequisites"><span class="header-section-number">2.1</span> Prequisites</h2>
 <p>You will need a C++ compiler that understands C++14.</p>
 <ul>
 <li>gcc 5 (or higher) works</li>
@@ -164,25 +168,25 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 <p>On Debian and Ubuntu systems you can install all the prequisites with the following command:</p>
 <div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="fu">sudo</span> apt-get install g++ libcairo2-dev ninja-build meson pandoc</code></pre></div>
-<h2 id="compilation">Compilation</h2>
+<h2 id="compilation"><span class="header-section-number">2.2</span> Compilation</h2>
 <div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="bu">cd</span> BAli-Phy/
 <span class="ex">meson</span> build --prefix=<span class="va">$HOME</span>/Applications/bali-phy
 <span class="bu">cd</span> build
 <span class="ex">ninja</span> install</code></pre></div>
-<h1 id="adding-functionality-to-bali-phy">Adding functionality to bali-phy</h1>
-<h2 id="adding-a-haskell-function">Adding a Haskell function</h2>
+<h1 id="adding-functionality-to-bali-phy"><span class="header-section-number">3</span> Adding functionality to bali-phy</h1>
+<h2 id="adding-a-haskell-function"><span class="header-section-number">3.1</span> Adding a Haskell function</h2>
 <p>Haskell functions are defined in the Haskell modules under <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/">modules/</a>. For example, the function <code>min</code> is defined in <code>Prelude.hs</code> as follows:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">min x y <span class="fu">=</span> <span class="kw">if</span> (x <span class="fu">&lt;=</span> y) <span class="kw">then</span> x <span class="kw">else</span> y;</code></pre></div>
 <p>To add a Haskell function, you simply need to define a function in one of these modules. However, be aware that the Haskell parser in bali-phy is not very advanced, and so you will need to specify <code>{</code>, <code>}</code>, and <code>;</code> in places where they are optional in standard Haskell.</p>
-<h2 id="adding-a-c-function">Adding a C++ function</h2>
+<h2 id="adding-a-c-function"><span class="header-section-number">3.2</span> Adding a C++ function</h2>
 <p>To add a &quot;builtin&quot; C++ operation to bali-phy's Haskell code, you must add the C++ code for the operation to one of the C++ files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins">src/builtins/</a> directory. You must then declare the builtin in one of the Haskell files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/">modules/</a> directory.</p>
-<h3 id="declaring-a-builtin-in-haskell">Declaring a builtin in Haskell</h3>
+<h3 id="declaring-a-builtin-in-haskell"><span class="header-section-number">3.2.1</span> Declaring a builtin in Haskell</h3>
 <p>A builtin is declared via the following syntax:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">builtin haskell_name number_of_arguments <span class="st">&quot;c++ name&quot;</span> <span class="st">&quot;module name&quot;</span>;</code></pre></div>
 <p>For example, the Haskell function <code>poisson_density</code> is declared with the following line from <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/Distributions.hs">modules/Distributions.hs</a>:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">builtin poisson_density <span class="dv">2</span> <span class="st">&quot;poisson_density&quot;</span> <span class="st">&quot;Distribution&quot;</span>;</code></pre></div>
 <p>The first two arguments specify the Haskell name (<code>poisson_density</code>) and the number of arguments in Haskell (<code>2</code>). The C++ function name is derived from the third argument (<code>poisson_density</code>) by adding <code>builtin_function_</code> in front. So the C++ function will be called <code>builtin_function_poisson_density</code>. The last argument specifies which loadable module contains the C++ function. Since this function is in the module &quot;Distribution&quot;, its source code goes in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins/Distribution.cc">src/builtins/Distribution.cc</a>.</p>
-<h3 id="writing-a-builtin-in-c">Writing a builtin in C++</h3>
+<h3 id="writing-a-builtin-in-c"><span class="header-section-number">3.2.2</span> Writing a builtin in C++</h3>
 <p>The C++ function for a builtin must be defined in one of the C++ files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins">src/builtins</a> directory, and the function name must begin with <code>builtin_function_</code>. The function must also be declared <code>extern &quot;C&quot;</code> (to avoid name mangling).</p>
 <p>For example, the poisson density function is written in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins/Distribution.cc">src/builtins/Distirbution.cc</a> as follows:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp"><span class="at">extern</span> <span class="st">&quot;C&quot;</span> closure builtin_function_poisson_density(OperationArgs&amp; Args)
@@ -203,7 +207,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>The function returns a <code>closure</code> object (<a href="https://github.com/bredelings/BAli-Phy/blob/master/src/computation/closure.H">src/computation/closure.H</a>)</li>
 <li>A closure can be created from a <code>double</code> or <code>int</code>. Here an explicit conversion is invoked by surrouding a <code>double</code> with curly braces.</li>
 </ul>
-<h2 id="adding-a-distribution">Adding a distribution</h2>
+<h2 id="adding-a-distribution"><span class="header-section-number">3.3</span> Adding a distribution</h2>
 <p>Distributions are defined in <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/Distributions.hs">modules/Distributions.hs</a>.</p>
 <p>For a distribution, you need to add a function that constructs a ProbDensity object.</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">name parameters <span class="fu">=</span> <span class="dt">ProbDensity</span> (density parameters) (quantile parameters) (sample parameters) (range parameters);</code></pre></div>
@@ -213,20 +217,20 @@ builtin normal_quantile <span class="dv">3</span> <span class="st">&quot;normal_
 builtin builtin_sample_normal <span class="dv">2</span> <span class="st">&quot;sample_normal&quot;</span> <span class="st">&quot;Distribution&quot;</span>;
 sample_normal m s <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_normal m s);
 normal m s <span class="fu">=</span> <span class="dt">ProbDensity</span> (normal_density m s) (normal_quantile m s) (sample_normal m s) realLine;</code></pre></div>
-<h3 id="density">Density</h3>
+<h3 id="density"><span class="header-section-number">3.3.1</span> Density</h3>
 <p>Note that the normal density takes 3 arguments, so that <code>(normal_density m s)</code> is a function of the third argument.</p>
-<h3 id="quantile">Quantile</h3>
+<h3 id="quantile"><span class="header-section-number">3.3.2</span> Quantile</h3>
 <p>If the function is univariate, you can define a quantile function that takes a probability and returns the value of x such that the cdf up to x is p.</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">dist_quantile args p <span class="fu">=</span> x</code></pre></div>
 <p>If the function is not univariate, or you don't have a quantile functon, set the quantile function to <code>(no_quantile &quot;distribution name&quot;)</code>. This will later change to use polymorphism, where only 1-dimensional functions will have a quantile attribute.</p>
-<h3 id="sample">Sample</h3>
+<h3 id="sample"><span class="header-section-number">3.3.3</span> Sample</h3>
 <p>The <code>(dist_sample parameters)</code> function returns an object in the Random monad. To construct a random sample from a C++ procedure, use one of the following patterns, depending on how many arguments your sampling routine takes:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">sample_dist arg1 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction1</span> builtin_sample_dist arg1);
 sample_dist arg1 arg2 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_dist arg1 arg2);
 sample_dist arg1 arg2 arg3 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction3</span> builtin_sample_dist arg1 arg2 arg3);</code></pre></div>
 <p>The procedure can also call other actions in the Random monad, where executing a distribution has the semantics of sampling from the distribution. For example, here we sample from the distribution <code>(dist2 args)</code> and transform the result.</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">sample_dist args <span class="fu">=</span> <span class="kw">do</span> { x <span class="ot">&lt;-</span> dist2 args; return (f x);}</code></pre></div>
-<h3 id="range">Range</h3>
+<h3 id="range"><span class="header-section-number">3.3.4</span> Range</h3>
 <p>Ranges for real numbers are:</p>
 <ul>
 <li>above x</li>
@@ -250,7 +254,7 @@ sample_dist arg1 arg2 arg3 <span class="fu">=</span> <span class="dt">Random</sp
 <li>Simplex n sum</li>
 </ul>
 <p>where <code>n</code> is the number of dimensions, and <code>sum</code> is the sum of the values (usually <code>1.0</code>).</p>
-<h2 id="using-a-function-from-the-command-line">Using a function from the command line</h2>
+<h2 id="using-a-function-from-the-command-line"><span class="header-section-number">3.4</span> Using a function from the command line</h2>
 <p>To make a Haskell function accessible from the command line, you must add a JSON file to the directory <code>functions/</code> that registers the Haskell function.</p>
 <p>For example, the file <code>functions/HKY.json</code> allows the user to specify (for example) <code>-S HKY[kappa=2]</code> as a substitution model. It connects the command line phrase <code>HKY[kapp=2]</code> with the Haskell function <code>SModel.hky</code> defined in the file <code>modules/SModel.hs</code>.</p>
 <p>The JSON looks like this:</p>
@@ -315,24 +319,24 @@ sample_dist arg1 arg2 arg3 <span class="fu">=</span> <span class="dt">Random</sp
 <dd>gives a title for the function (optional).
 </dd>
 </dl>
-<h2 id="adding-a-new-mcmc-move">Adding a new MCMC move</h2>
+<h2 id="adding-a-new-mcmc-move"><span class="header-section-number">3.5</span> Adding a new MCMC move</h2>
 <p>Most moves are currently defined in C++. Moves are actually added to the sampler in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/mcmc/setup.cc">src/mcmc/setup.cc</a>.</p>
-<h3 id="mcmcmoveall"><code>MCMC::MoveAll</code></h3>
+<h3 id="mcmcmoveall"><span class="header-section-number">3.5.1</span> <code>MCMC::MoveAll</code></h3>
 <p>You can add other moves as sub-moves to an <code>MCMC::MoveAll</code>:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp">MCMC::MoveAll M;
 M.add(weight, MCMC::MH_Move( Proposal2M(proposal, <span class="va">m_index</span>, parameters), name) );</code></pre></div>
 <p>The weight determines how many times the sub-move is run each iteration.</p>
-<h3 id="mcmcsinglemove"><code>MCMC::SingleMove</code></h3>
+<h3 id="mcmcsinglemove"><span class="header-section-number">3.5.2</span> <code>MCMC::SingleMove</code></h3>
 <p>To add a generic MCMC move, create an <code>MCMC::SingleMove</code> with one of the following constructors:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp">SingleMove(<span class="dt">void</span> (*move)(owned_ptr&lt;Model&gt;&amp;,MoveStats&amp;), <span class="at">const</span> <span class="bu">std::</span>string&amp; name);
 SingleMove(<span class="dt">void</span> (*move)(owned_ptr&lt;Model&gt;&amp;,MoveStats&amp;), <span class="at">const</span> <span class="bu">std::</span>string&amp; name, <span class="at">const</span> <span class="bu">std::</span>string&amp; attributes);</code></pre></div>
 <p>You can pass in a function with signature <code>void(owned_ptr&lt;Model&gt;&amp;,MoveStats&amp;)</code> that performs the move. This is how moves that alter alignments are defined.</p>
 <p>We use an <code>owned_ptr&lt;&gt;</code> so that we can treat Model&amp; polymorphically.</p>
-<h3 id="mcmcmh_move"><code>MCMC::MH_Move</code></h3>
+<h3 id="mcmcmh_move"><span class="header-section-number">3.5.3</span> <code>MCMC::MH_Move</code></h3>
 <p>The <code>MCMC::MH_Move</code> has the following constructors:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp">MH_Move(<span class="at">const</span> Proposal&amp; P, <span class="at">const</span> <span class="bu">std::</span>string&amp; name);
 MH_Move(<span class="at">const</span> Proposal&amp; P, <span class="at">const</span> <span class="bu">std::</span>string&amp; name, <span class="at">const</span> <span class="bu">std::</span>string&amp; attributes);</code></pre></div>
-<h3 id="proposals">Proposals</h3>
+<h3 id="proposals"><span class="header-section-number">3.5.4</span> Proposals</h3>
 <p>Proposals are defined in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/mcmc/proposals.H">src/mcmc/proposals.H</a>.</p>
 <p>Proposals are generally defined as functions that alter the MCMC state and then return a proposal ratio:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp"><span class="kw">class</span> Proposal: <span class="kw">public</span> Object {
@@ -341,11 +345,11 @@ MH_Move(<span class="at">const</span> Proposal&amp; P, <span class="at">const</s
     <span class="kw">virtual</span> <span class="dt">log_double_t</span> <span class="kw">operator</span>()(Model&amp; P) <span class="at">const</span>=<span class="dv">0</span>;
 };</code></pre></div>
 <p>Here <code>Model&amp;</code> is the current state of the MCMC object. The type <code>log_double_t</code> is a probability (or probability_density) represented on the log scale.</p>
-<h4 id="proposal2">Proposal2</h4>
+<h4 id="proposal2"><span class="header-section-number">3.5.4.1</span> Proposal2</h4>
 <p>The Proposal2 class has constructor:</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp">Proposal2(<span class="at">const</span> Proposal_Fn&amp; p, <span class="at">const</span> <span class="bu">std::</span>vector&lt;<span class="bu">std::</span>string&gt;&amp; s, <span class="at">const</span> <span class="bu">std::</span>vector&lt;<span class="bu">std::</span>string&gt;&amp; v, <span class="at">const</span> Model&amp; P);</code></pre></div>
 <p>The names in <code>s</code> are names of variables to modify, and the names in <code>v</code> are names of keys to look up to find tunable parameters such as jump sizes.</p>
-<h4 id="proposal_fn">Proposal_Fn</h4>
+<h4 id="proposal_fn"><span class="header-section-number">3.5.4.2</span> Proposal_Fn</h4>
 <p>The <code>Proposal_Fn</code> class represents an MCMC move that affects some number of variables <code>x</code>, with some number of tunable parameters <code>p</code>.</p>
 <div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp"><span class="kw">class</span> Proposal_Fn
 {
@@ -358,20 +362,20 @@ MH_Move(<span class="at">const</span> Proposal&amp; P, <span class="at">const</s
 <li><code>log_scaled(between(-20, 20, shift_cauchy))</code></li>
 <li><code>log_scaled(between(-20, 20, shift_gaussian))</code></li>
 </ol>
-<h1 id="types">Types</h1>
-<h2 id="log_double_t"><code>log_double_t</code></h2>
+<h1 id="types"><span class="header-section-number">4</span> Types</h1>
+<h2 id="log_double_t"><span class="header-section-number">4.1</span> <code>log_double_t</code></h2>
 <p>This is a positive real number represented in terms of its logarithm. Operators have been defined so that you can multiple, add, subtract, and divide this type.</p>
-<h2 id="object"><code>Object</code></h2>
+<h2 id="object"><span class="header-section-number">4.2</span> <code>Object</code></h2>
 <p>All C++ objects that are access via Haskell code inherit from this type.</p>
-<h2 id="expression_ref"><code>expression_ref</code></h2>
+<h2 id="expression_ref"><span class="header-section-number">4.3</span> <code>expression_ref</code></h2>
 <p>An expression ref is basically either an atomic value or an Object followed by a list of <code>expression_ref</code>s</p>
 <p>See <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/computation/expression/expression_ref.H">src/computation/expression/expression_ref.H</a></p>
-<h2 id="closure"><code>closure</code></h2>
+<h2 id="closure"><span class="header-section-number">4.4</span> <code>closure</code></h2>
 <p>A closure is an <code>expression_ref</code> with an environment.</p>
 <p>See <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/computation/closure.H">src/computation/closure.H</a></p>
-<h1 id="testing">Testing</h1>
+<h1 id="testing"><span class="header-section-number">5</span> Testing</h1>
 <p>BAli-Phy currently has two test suites.</p>
-<h2 id="the-tests-directory">The <code>tests/</code> directory</h2>
-<h2 id="testiphy">testiphy</h2>
+<h2 id="the-tests-directory"><span class="header-section-number">5.1</span> The <code>tests/</code> directory</h2>
+<h2 id="testiphy"><span class="header-section-number">5.2</span> testiphy</h2>
 </body>
 </html>
