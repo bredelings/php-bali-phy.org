@@ -374,7 +374,8 @@ $menutree->add_children('Welcome!',
 $menutree->add_children('Documentation',
 			array('Users Guide::docs.php#usersguide',
 			      'Tutorial::Tutorial3.html',
-			      'Manual pages::docs.php#manpages')
+			      'Manual pages::docs.php#manpages',
+			      'Developers Guide::docs.php#developersguide')
 			);
 		 
 $menutree->add_children('Contact',

@@ -124,6 +124,17 @@ h1,h2,h3,h4 {clear: both;}
 	      </ul>
 	    </div>
 
+	    <div style="padding-top:1.5em">
+	      <hr/>
+	      <h2><a name="developersguide">Developer's Guide</a></h2>
+
+	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+
+	      <ul class="floatlist">
+		<li><a href="developer.html">HTML</a></li>
+	      </ul>
+	    </div>
+
 	    </div>
 	  </td>
       </tr>
