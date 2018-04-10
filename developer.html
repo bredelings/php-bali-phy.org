@@ -95,8 +95,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1 id="getting-started"><span class="header-section-number">1</span> Getting started</h1>
 <h2 id="fork-the-repo"><span class="header-section-number">1.1</span> Fork the repo</h2>
 <ol style="list-style-type: decimal">
-<li><p>Click the &quot;Fork&quot; button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a>. This will create a copy of the repo under your own account.</p></li>
-<li><p>Use git to clone your own version of the repo:</p>
+<li><p>Click the &quot;Fork&quot; button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a>. This will create a separate copy of the repo under your own account.</p></li>
+<li><p>Use <code>git clone</code> to download your own version of the repo:</p>
 <div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="fu">git</span> clone git@github.com:your-username/BAli-Phy.git</code></pre></div>
 <p>The name <code>origin</code> in your local repo will then refer to your modified version of BAli-Phy.</p></li>
 <li><p>To refer to the official upstream version, create a new remote called <code>upstream</code>:</p>
@@ -200,12 +200,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <ul>
 <li>The function takes a single <code>OperationArgs&amp; Args</code> argument.</li>
 <li>The <code>n</code>th argument is fetched by calling <code>Args.evaluate(n)</code>, and is of type <code>expression_ref</code> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/src/computation/expression/expression_ref.H">src/computation/expression/expression_ref.H</a>)</li>
-<li>The <code>expression_ref</code> can be converted to <code>double</code> or <code>int</code> using the methods <code>.as_double()</code> and <code>.as_int()</code>.</li>
+<li>The <code>expression_ref</code> can be converted to <code>int',</code>double<code>, or</code>log_double_t<code>using the methods</code>.as_int()<code>,</code>.as_double()<code>and</code>.as_log_double()`.</li>
 </ul>
 <p>Output:</p>
 <ul>
 <li>The function returns a <code>closure</code> object (<a href="https://github.com/bredelings/BAli-Phy/blob/master/src/computation/closure.H">src/computation/closure.H</a>)</li>
-<li>A closure can be created from a <code>double</code> or <code>int</code>. Here an explicit conversion is invoked by surrouding a <code>double</code> with curly braces.</li>
+<li>A closure can be created from a <code>double</code> or <code>int</code>. Here an explicit conversion is invoked by surrouding a <code>log_double_t</code> with curly braces.</li>
 </ul>
 <h2 id="adding-a-distribution"><span class="header-section-number">3.3</span> Adding a distribution</h2>
 <p>Distributions are defined in <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/Distributions.hs">modules/Distributions.hs</a>.</p>
@@ -218,17 +218,28 @@ builtin builtin_sample_normal <span class="dv">2</span> <span class="st">&quot;s
 sample_normal m s <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_normal m s);
 normal m s <span class="fu">=</span> <span class="dt">ProbDensity</span> (normal_density m s) (normal_quantile m s) (sample_normal m s) realLine;</code></pre></div>
 <h3 id="density"><span class="header-section-number">3.3.1</span> Density</h3>
-<p>Note that the normal density takes 3 arguments, so that <code>(normal_density m s)</code> is a function of the third argument.</p>
+<p>A density function takes an extra argument after the distribution parameters. For example, the normal density takes 3 arguments, so that <code>(normal_density m s)</code> is a function of the third argument.</p>
+<p>A density function should return type <code>log_double_t</code>.</p>
 <h3 id="quantile"><span class="header-section-number">3.3.2</span> Quantile</h3>
-<p>If the function is univariate, you can define a quantile function that takes a probability and returns the value of x such that the cdf up to x is p.</p>
-<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">dist_quantile args p <span class="fu">=</span> x</code></pre></div>
-<p>If the function is not univariate, or you don't have a quantile functon, set the quantile function to <code>(no_quantile &quot;distribution name&quot;)</code>. This will later change to use polymorphism, where only 1-dimensional functions will have a quantile attribute.</p>
+<p>A quantile function takes an extra argument after the distribution parameters. For example, the normal quantile takes 3 arguments, so that <code>(normal_quantile m s)</code> is a function of the third argument. The extra argument should have type <code>double</code>, and ranges from 0 to 1.</p>
+<p>If the function is not univariate, or does not have a quantile functon, set the quantile function to <code>(no_quantile &quot;distribution name&quot;)</code>. This will later change to use polymorphism, where only 1-dimensional functions will have a quantile attribute.</p>
 <h3 id="sample"><span class="header-section-number">3.3.3</span> Sample</h3>
-<p>The <code>(dist_sample parameters)</code> function returns an object in the Random monad. To construct a random sample from a C++ procedure, use one of the following patterns, depending on how many arguments your sampling routine takes:</p>
+<p>To construct a random sample from a C++ procedure, access the <code>n</code>th parameter via <code>Args.evaluate_(n)</code> (with an underscore) instead of <code>Args.evaluate(n)</code>. For example:</p>
+<div class="sourceCode"><pre class="sourceCode c++"><code class="sourceCode cpp"><span class="at">extern</span> <span class="st">&quot;C&quot;</span> closure builtin_function_sample_normal(OperationArgs&amp; Args)
+{
+    <span class="dt">double</span> a1 = Args.<span class="va">evaluate_</span>(<span class="dv">0</span>).as_double();
+    <span class="dt">double</span> a2 = Args.<span class="va">evaluate_</span>(<span class="dv">1</span>).as_double();
+  
+    <span class="cf">return</span> { gaussian(a1, a2) };
+}</code></pre></div>
+<p>Then use one of the following patterns, depending on how many arguments your sampling routine takes:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">sample_dist arg1 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction1</span> builtin_sample_dist arg1);
 sample_dist arg1 arg2 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_dist arg1 arg2);
 sample_dist arg1 arg2 arg3 <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction3</span> builtin_sample_dist arg1 arg2 arg3);</code></pre></div>
-<p>The procedure can also call other actions in the Random monad, where executing a distribution has the semantics of sampling from the distribution. For example, here we sample from the distribution <code>(dist2 args)</code> and transform the result.</p>
+<p>For example:</p>
+<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">builtin builtin_sample_normal <span class="dv">2</span> <span class="st">&quot;sample_normal&quot;</span> <span class="st">&quot;Distribution&quot;</span>;
+sample_normal m s <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_normal m s);</code></pre></div>
+<p>The <code>(dist_sample parameters)</code> function returns an object in the Random monad, where executing a distribution has the semantics of sampling from the distribution. The sampling procedure can also call other actions in the Random monad. For example, here we sample from the distribution <code>(dist2 args)</code> and transform the result.</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell">sample_dist args <span class="fu">=</span> <span class="kw">do</span> { x <span class="ot">&lt;-</span> dist2 args; return (f x);}</code></pre></div>
 <h3 id="range"><span class="header-section-number">3.3.4</span> Range</h3>
 <p>Ranges for real numbers are:</p>
