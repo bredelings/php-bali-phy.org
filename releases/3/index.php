@@ -27,7 +27,7 @@
 	    <li><b>[3.0-beta5]</b> - Dec-06-2017</li>
 	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li -->
 	    <li><b>[3.0]</b> - Feb-12-2018</li>
-	    <li><b>[3.1]</b> - Apr-??-2018</li>
+	    <li><b>[3.1]</b> - May-02-2018</li>
 	  </ul>
 	  </div>
 
@@ -42,8 +42,7 @@
 	    <li>Speed &amp; Memory
 	      <ul>
   	        <li><b>Speed:</b> 0-300% faster.&nbsp;&nbsp;&nbsp;&nbsp;<b>Memory:</b> 0-300% less memory.</li>
-		<li><span class="timepoint-new">[3.0]</span> Better mixing when alignment depends on tree.</li>
-		<li><span class="timepoint">[3.0-beta4]</span> <b>Site-compression</b> for fixed-alignment partitions.</li>
+		<li><b>Site-compression</b> for fixed-alignment partitions.</li>
   	        <!-- li><span style="color:red">[65%-300% faster]</span> Rewrite core.</li>
 	        <li><span style="color:red">[0%-300% less memory]</span> Rewrite core.</li>
 		<li><span class="timepoint">[3.0-beta2]</span> <span style="color:red">Decrease memory use for large trees</span>.</li>
@@ -61,7 +60,7 @@
 	  <li>Alignments
 	    <ul>
 		<li>Allow analyzing 1-sequence and 2-sequence alignments.</li>
-		<li><span class="timepoint">[3.0-beta4]</span> Include <b>ancestral sequences</b> in sampled alignments.</li>
+		<li>Include <b>ancestral sequences</b> in sampled alignments.</li>
 	    </ul></li>
 	  <li>Large Trees
 	    <ul>
@@ -73,46 +72,47 @@
 	    <ul>
 	      <li>New model language that allows setting all parameter values <em>and priors</em>:
 		<ul>
-		  <li><span class="userinput">--smodel=HKY[kappa=2]</span></li>
-		  <li><span class="userinput">--imodel=RS07[logLambda~Laplace[-4,0.707]]</span></li>
+		  <li><span class="userinput">--smodel=hky85[kappa=2]</span></li>
+		  <li><span class="userinput">--imodel=rs07[log_rate~laplace[-4,0.707]]</span></li>
 		</ul>
 	      <li>Allow specifying priors on (i) shared branch lengths and (ii) partition-specific scale factors:
 		<ul>
-		  <li><span class="userinput">--branch-lengths=~iid[num_branches[T],Gamma[0.5,Div[2,num_branches[T]]]]</span></li>
-		  <li><span class="userinput">--scale=1,3:~Gamma[0.5,2]</span></li>
+		  <li><span class="userinput">--branch-lengths=~iid[num_branches[T],gamma[0.5,div[2,num_branches[T]]]]</span></li>
+		  <li><span class="userinput">--scale=1,3:~gamma[0.5,2]</span></li>
 		</ul>
 	      </li>
+	      <li>New models:
+		<ul>
+		  <li><span class="userinput"><b>mixture</b>[models=List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
+		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
+		  <!-- li>Triplet models + frequency models: <span class="userinput">gtr_sym+x3+mg94</span>)</li -->
+		  <li><span class="userinput"><b>let</b>[m=hky85,mixture[models=List[m,m,m+Rates.gamma]]]</span> (user-defined variables)</li>
+		</ul>
 	      <li>Explicit priors, <em>including default priors</em></li>
-	      <li><span class="timepoint-new">[3.0]</span> site-mixture models: <span class="userinput">Mixture[models=List[HKY,JC]]</span></li>
-	      <li><span class="timepoint-new">[3.0]</span> general site-rate distributions: <span class="userinput">HKY+MultiRate[Beta[2,3]]</span></li>
-	      <li><span class="timepoint-new">[3.0]</span> user-defined variables: <span class="userinput">let[m=HKY,Mixture[models=List[m,m,m+Rates.Gamma]]]</span></li>
-	      <li><span class="timepoint">[3.0-beta5]</span> priors for frequencies and GTR.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> super-long parameter names fixed.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Codon and Triplet alphabets automatically determined from model.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Triplet models + frequency models: (<span style="font-family:times,monospace">GTR+x3+MG94</span>).</li>
+	      <!-- li><span class="timepoint">[3.0-beta5]</span> priors for frequencies and GTR.</li --> 
+	      <!-- li><span class="timepoint">[3.0-beta5]</span> super-long parameter names fixed.</li -->
+	      <li>Codon and Triplet alphabets automatically determined from model.</li>
 	      <!-- li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li -->
-	      <li><span class="timepoint">[3.0-beta6]</span> sample initial branch-lengths from prior.</li>
+	      <li>Sample initial branch-lengths from prior.</li>
 	      <!-- li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li -->
-	      <li><span class="timepoint">[3.0-beta5]</span> alternative syntax linking partitions: <b>--smodel 1:HKY --smodel 2:HKY --link 1,2</b></li>
+	      <li>Alternative syntax for linking partitions: <b>--smodel 1:hky85 --smodel 2:hky85 --link 1,2</b></li>
 	    </ul>
 	  </li>
 	  <li>Summarization tools
 	    <ul>
-	      <li><span class="timepoint">[3.0-beta2]</span> Beautify and condense MCMC statistics.</li> 
-	      <li><span class="timepoint">[3.0-beta4]</span> Show 2-D MDS and 3-D topology convergence figures.</li> 
-	      <li><span class="timepoint">[3.0-beta2]</span> Don't compute trace plots (too slow, large files).</li> 
+	      <li>Beautify and condense MCMC statistics.</li> 
+	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
+	      <!-- li><span class="timepoint">[3.0-beta2]</span> Don't compute trace plots (too slow, large files).</li --> 
+	      <li><span class="timepoint-new">[3.1]</span> Show priors.</li> 
 	    </ul>
 	  </li>
 
 	  <li>Help
 	    <ul>
-	      <li><span class="timepoint">[3.0-beta4]</span> Add diagnostics when loading <b>codon sequences</b>.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Help for all command-line options via <b>--help=</b><em>&lt;command&gt;</em>.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Help for some models (e.g. <b>--help=HKY</b>) with citation info.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Help levels via <b>--help=</b>simple|advanced|expert.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> <b>--verbose</b> flag gives readable information.</li>
-	      <li><span class="timepoint">[3.0-beta6]</span> Better help for functions.</li>
-	      <li><span class="timepoint">[3.0-beta6]</span> New syntax <em>bali-phy help &lt;topic&gt;</em>.</li>
+	      <li>Add diagnostics when loading <b>codon sequences</b>.</li>
+	      <li>Help for <em>models</em>/<em>functions</em>/<em>distributions</em>/<em>commands</em> via <b>bali-phy help </b><em>topic</em>.</li>
+	      <!-- li>Help levels via <b>bali-phy help </b>simple|advanced|expert.</li -->
+	      <li>Give readable information under the <b>--verbose</b> flag.</li>
 	      <li><span class="timepoint-new">[3.1]</span> Unix manual pages for <em>bali-phy</em> and tools</li>
 	    </ul>
 	    </li>
@@ -125,22 +125,22 @@
 	    <li>Misc
 	      <ul>
 		<li>Add unit tests.</li>
-		<li><span class="timepoint">[3.0-beta2]</span> Expand likelihood testsuite.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Improve pre-burnin.</li>
+		<li>Expand likelihood testsuite.</li>
+		<li>Improve pre-burnin.</li>
 	      </ul>
 	    </li>
 
 	    <li>Install
 	      <ul>
-		<li><span class="timepoint">[3.0-beta5]</span> New install documentation.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> New homebrew tap for bali-phy.</li>
+		<li>New install documentation.</li>
+		<li>New homebrew tap for bali-phy.</li>
 		<li><span class="timepoint-new">[3.1]</span> Debian package for bali-phy.</li>
 	      </ul>
 	    </li>
 	  <li>Compile
 	    <ul>
-	      <li><span class="timepoint">[3.0-beta5]</span> Cairo library autodetected.</li>
-	      <li><span class="timepoint">[3.0-beta6]</span> Meson project files for building bali-phy.</li>
+	      <li>Autodetect Cairo library.</li>
+	      <li><span class="timepoint-new">[3.1]</span> Use <a href="http://mesonbuild.com">Meson Build</a> to build bali-phy, instead of autotools.</li>
 	      <li><span class="timepoint-new">[3.1]</span> Automatically use system libraries for <em>boost</em>, <em>eigen</em>, and <em>nlohmann::json</em> if available.</li>
 	    </ul>
 	  </li>
@@ -156,25 +156,25 @@
 	    <li>Changes
 	    <ul>
 	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
-	      <li><span class="timepoint">[3.0-beta2]</span> Rename parameter logs: <b>*.p  <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> *.log</b>.</li>
-	      <li><span class="timepoint">[3.0-beta2]</span> Change spelling: <b>gamma_inv <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma+INV</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.logNormal</b>.</li>
-	      <li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> meanIndelLength</b>.</li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
-	      <li><span class="timepoint">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> F:pi[A]</b></li>		
-
+	      <li>Rename parameter logs: <b>C1.p  <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> C1.log</b>.</li>
+	      <li>Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
+	      <!-- li><span class="timepoint">[3.0-beta5]</span> Shorter parameter names: <b>INV.submodel.Rates.Gamma.submodel.F.pi.A <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> F:pi[A]</b></li -->
+	      <!-- li><span class="timepoint">[3.0-beta2]</span> Change spelling: <b>gamma_inv <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.gamma+inv</b>.</li -->
+	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma</b>.</li -->
+	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.logNormal</b>.</li -->
+	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> meanIndelLength</b>.</li -->
+	      <li><span class="timepoint-new">[3.1]</span> Change spelling of many models/functions/distributions to lower-case.</li>
 	    </ul>
 	    </li>
 	      
 	    <li>Fixes
 	      <ul>
-		<li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li>
-		<li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Fix order of rate categories for DP model.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li>
-		<li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li>
+		<!-- li><span class="timepoint">[3.0-beta2]</span> Fix compile on XCode 6.</li -->
+		<!-- li><span class="timepoint">[3.0-beta5]</span> Fix crash on triplet models like TN+x3.</li -->
+		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix order of rate categories for DP model.</li -->
+		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li -->
+		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li -->
+		<!-- li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li -->
 		<li><span class="timepoint-new">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
 	      </ul>
 	    </li>
