@@ -56,9 +56,9 @@ h1,h2,h3,h4 {clear: both;}
 	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 
 	      <ul class="floatlist">
-		<li><a href="Tutorial3.html">HTML</a></li>
-		<li><a href="Tutorial3.xhtml">XHTML</a> (shows math)</li>
-		<li><?php track_link("Tutorial3.pdf","PDF")?></li>
+		<li><a href="Tutorial4.html">HTML</a></li>
+		<li><a href="Tutorial4.xhtml">XHTML</a> (shows math)</li>
+		<li><?php track_link("Tutorial4.pdf","PDF")?></li>
 	      </ul>
 	    </div>
 
