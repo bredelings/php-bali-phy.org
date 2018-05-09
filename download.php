@@ -34,9 +34,20 @@
 	  </ul>
 	  <p>You can now install using a package manager on some systems:
 	    <ul>
-	      <li><b>Mac</b>: homebrew users can install with <em>brew</em>.</li>
-	      <li><b>Linux</b>: Debian <em>testing</em> or <em>unstable</em> users can install with <em>apt</em>.</li>
+	      <li><b>Mac</b>: homebrew users can install with <em>brew</em>.
+		<pre class="screen"><code class="prompt">% </code><strong><code>brew tap bredelings/bioinformatics</code></strong>
+<code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
+
+	      </li>
+	      <li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
+		<p>For Ubuntu you need <a href="https://launchpad.net/ubuntu/+source/bali-phy/">"Cosmic Cuttlefish" or later</a>.
+		For Debian you need <a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all"><em>testing</em> or <em>unstable</em></a>
+		</p>
+	      	<pre class="screen"><code class="prompt">% </code><strong><code>apt-get install bali-phy</code></strong>
+<code class="prompt">% </code><strong><code>bali-phy --version</code></strong></pre>
+</li>
 	    </ul>
+	    
 	  </p>
 
 	<h3>Older releases</h3>

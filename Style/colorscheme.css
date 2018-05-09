@@ -34,3 +34,21 @@ a[href]:hover   { background: rgb(240,240,243); }
 table.backlit td { 
 	background: rgb(238,238,238); 
 }
+.prompt {
+    font-weight: bold;
+    color: green;
+
+    // Allow copy-paste on commands w/o selection the prompt
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+pre.screen {
+	background-color: #F0F0F0;
+	padding: 6px;
+}
+
