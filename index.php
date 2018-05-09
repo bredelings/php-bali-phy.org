@@ -28,7 +28,7 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>05/02/18: <strong>BAli-Phy 3.1 released</strong> - <a href="download.php">Download</a><br/>
+	      <p>05/09/18: <strong>BAli-Phy 3.1.4 released</strong> - <a href="download.php">Download</a><br/>
 		Show priors clearly (<a href="releases/3/">release notes</a>)</p>
 
 	      </div>
