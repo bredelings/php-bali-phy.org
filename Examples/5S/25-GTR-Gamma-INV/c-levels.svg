@@ -88,10 +88,10 @@
 </g>
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='red'  d='M63.6,16.7 L63.9,16.7 L63.9,50.5 L70.7,50.5 L70.7,84.3 L73.2,84.3 L73.2,118.1 L82.3,118.1 
-		L82.3,151.9 L88.6,151.9 L88.6,185.7 L88.6,219.5 L101.3,219.5 L101.3,253.4 L103.2,253.4 L103.2,287.2 
-		L104.2,287.2 L104.2,321.0 L175.8,321.0 L175.8,354.8 L276.5,354.8 L276.5,388.6 L315.9,388.6 L316.0,422.4 
-		L516.9,422.4  h0.01'/></g>
+	<path stroke='red'  d='M63.6,16.7 L64.0,16.7 L64.0,50.5 L70.8,50.5 L70.8,84.3 L73.3,84.3 L73.3,118.1 L83.3,118.1 
+		L83.3,151.9 L88.4,151.9 L88.4,185.7 L89.0,185.7 L89.0,219.5 L101.7,219.5 L101.7,253.4 L102.3,253.4 
+		L102.3,287.2 L103.2,287.2 L103.2,321.0 L175.7,321.0 L175.7,354.8 L270.9,354.8 L270.9,388.6 L332.1,388.6 
+		L332.2,422.4 L516.9,422.4  h0.01'/></g>
 	</g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path stroke='black'  d='M63.6,16.7 L63.6,422.4 L575.0,422.4 L575.0,16.7 L63.6,16.7 Z  h0.01'/></g>

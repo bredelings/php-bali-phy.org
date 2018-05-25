@@ -1,79 +1,79 @@
-# n_trees = 1600008   n_topologies = 1531169   n_splits/(Leaves-3) = 91.5909
-# n_splits = 2015   Leaves = 25
+# n_trees = 1600008   n_topologies = 1529699   n_splits/(Leaves-3) = 94.5455
+# n_splits = 2080   Leaves = 25
 
 Topology support: 
 
-MAP-0 = ((('Campylobacter',(('Methanothermobacter',('Methanospirillum',(('Halorubrum',(('Cryptosporidium',('Nosema','Zea')),('Euglena',(('Drosophila','Homo'),('Candida',('Caenorhabditis','Dictyostelium')))))),('Thermoplasma',(('Nanoarchaeum',('Methanococcus','Thermococcus')),('Pyrobaculum','Sulfolobus')))))),('Bacillus','Flavobacterium'))),('Escherichia',('Thermotoga','Thermus'))))'Agrobacterium';
-   PP = 2.99999e-05       LOD = -4.51391     (count = 48)
+MAP-0 = ((('Campylobacter',(('Methanothermobacter',('Methanospirillum',(('Halorubrum',(('Cryptosporidium',('Nosema','Zea')),('Euglena',(('Drosophila','Homo'),('Candida',('Caenorhabditis','Dictyostelium')))))),(('Thermoplasma',('Pyrobaculum','Sulfolobus')),('Nanoarchaeum',('Methanococcus','Thermococcus')))))),('Bacillus','Flavobacterium'))),('Escherichia',('Thermotoga','Thermus'))))'Agrobacterium';
+   PP = 2.81249e-05       LOD = -4.54135     (count = 45)
 
-95% credible set contains 1451282 topologies.
+95% credible set contains 1449809 topologies.
 
 
 partition support: 
 
-   PP = 0.999649       LOD = 3.45346       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP = 0.999789       LOD = 3.67511       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
 
 
-   PP = 0.998782       LOD = 2.91356       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus 
+   PP = 0.998549       LOD = 2.83763       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus 
 
 
-   PP = 0.971675       LOD = 1.53534       pi = Pyrobaculum Sulfolobus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.971586       LOD = 1.53394       pi = Pyrobaculum Sulfolobus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.782209       LOD = 0.555283       pi = Caenorhabditis Dictyostelium | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.776875       LOD = 0.541802       pi = Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
 
 
-   PP = 0.776702       LOD = 0.541368       pi = Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+   PP = 0.771895       LOD = 0.529422       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
 
 
-   PP = 0.766579       LOD = 0.516417       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP = 0.768626       LOD = 0.5214       pi = Caenorhabditis Dictyostelium | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.687253       LOD = 0.341923       pi = Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Escherichia Thermotoga Thermus 
+   PP = 0.689815       LOD = 0.347112       pi = Bacillus Flavobacterium | Agrobacterium Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.687095       LOD = 0.341603       pi = Bacillus Flavobacterium | Agrobacterium Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.686068       LOD = 0.339532       pi = Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Escherichia Thermotoga Thermus 
 
 
-   PP = 0.643046       LOD = 0.25563       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus 
+   PP = 0.65062       LOD = 0.270029       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus 
 
 
-   PP = 0.575347       LOD = 0.131896       pi = Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Campylobacter Escherichia Thermotoga Thermus 
+   PP = 0.576192       LOD = 0.133398       pi = Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Campylobacter Escherichia Thermotoga Thermus 
 
 
-   PP = 0.555536       LOD = 0.0968754       pi = Escherichia Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+   PP = 0.556626       LOD = 0.0987931       pi = Escherichia Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
 
 
-   PP = 0.502043       LOD = 0.00354927       pi = Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP = 0.503064       LOD = 0.00532231       pi = Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
 
 
-   PP = 0.450465       LOD = -0.0863338       pi = Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.449442       LOD = -0.0881291       pi = Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.444027       LOD = -0.097645       pi = Methanococcus Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.444976       LOD = -0.0959752       pi = Methanococcus Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.415732       LOD = -0.147798       pi = Caenorhabditis Candida Dictyostelium | Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.426478       LOD = -0.128652       pi = Caenorhabditis Candida Dictyostelium | Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.332613       LOD = -0.302437       pi = Cryptosporidium Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP = 0.334245       LOD = -0.299249       pi = Cryptosporidium Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
 
 
-   PP = 0.315155       LOD = -0.337067       pi = Drosophila Homo | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.315       LOD = -0.337379       pi = Drosophila Homo | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.29525       LOD = -0.377845       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanothermobacter Thermotoga Thermus 
+   PP = 0.295717       LOD = -0.376871       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanothermobacter Thermotoga Thermus 
 
 
-   PP = 0.272324       LOD = -0.426851       pi = Methanococcus Nanoarchaeum Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.273876       LOD = -0.423457       pi = Methanococcus Nanoarchaeum Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.270996       LOD = -0.429767       pi = Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea 
+   PP = 0.270433       LOD = -0.431005       pi = Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea 
 
 
-   PP = 0.269159       LOD = -0.433814       pi = Caenorhabditis Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP = 0.267346       LOD = -0.437826       pi = Caenorhabditis Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
 
 
-   PP = 0.262707       LOD = -0.448168       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus 
+   PP = 0.263168       LOD = -0.447135       pi = Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus 
 
 

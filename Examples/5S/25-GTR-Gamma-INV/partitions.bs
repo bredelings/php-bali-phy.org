@@ -1,564 +1,564 @@
-# Loading trees from '25-1//C1.trees'...
-# Loading trees from '25-2//C1.trees'...
-# Loading trees from '25-3//C1.trees'...
-# Loading trees from '25-4//C1.trees'...
-# Loading trees from '25-5//C1.trees'...
-# Loading trees from '25-6//C1.trees'...
-# Loading trees from '25-7//C1.trees'...
-# Loading trees from '25-8//C1.trees'...
-# [ seed = 10195638957574524523    pseudocount = 1    blocksize = 4001 ]
+# Loading trees from '25-1/C1.trees'...
+# Loading trees from '25-2/C1.trees'...
+# Loading trees from '25-3/C1.trees'...
+# Loading trees from '25-4/C1.trees'...
+# Loading trees from '25-5/C1.trees'...
+# Loading trees from '25-6/C1.trees'...
+# Loading trees from '25-7/C1.trees'...
+# Loading trees from '25-8/C1.trees'...
+# [ seed = 17359548652429231489    pseudocount = 1    blocksize = 4001 ]
 
 Support for the different predicates: 
 
 1/22:
 Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
-   PP1-1 = 1.000       (1=199977  0=24)  [3 !!]
-   PP1-2 = 0.999       (1=199897  0=104)  [6 !!]
-   PP1-3 = 1.000       (1=199946  0=55)  [4 !!]
-   PP1-4 = 1.000       (1=199989  0=12)  [5 !!]
-   PP1-5 = 1.000       (1=199904  0=97)  [10 !!]
-   PP1-6 = 1.000       (1=199980  0=21)  [8 !!]
-   PP1-7 = 0.999       (1=199857  0=144)  [6 !!]
-   PP1-8 = 0.999       (1=199896  0=105)  [8 !!]
-   PP1   = 1.000       (1=1599446  0=562)  [50]
+   PP1-1 = 1.000       (1=199959  0=42)  [6 !!]
+   PP1-2 = 1.000       (1=199987  0=14)  [7 !!]
+   PP1-3 = 1.000       (1=199952  0=49)  [8 !!]
+   PP1-4 = 1.000       (1=199993  0=8)  [3 !!]
+   PP1-5 = 1.000       (1=199976  0=25)  [3 !!]
+   PP1-6 = 0.999       (1=199885  0=116)  [3 !!]
+   PP1-7 = 1.000       (1=199951  0=50)  [7 !!]
+   PP1-8 = 1.000       (1=199968  0=33)  [6 !!]
+   PP1   = 1.000       (1=1599671  0=337)  [43]
 
-  LOD1-1 = 3.903
-  LOD1-2 = 3.280
-  LOD1-3 = 3.553
-  LOD1-4 = 4.187
-  LOD1-5 = 3.310       ACT = 29.763          Ne = 6719.764
-  LOD1-6 = 3.959       ACT = 6.523          Ne = 30661.963
-  LOD1-7 = 3.139
-  LOD1-8 = 3.276       ACT = 34.344          Ne = 5823.456
-  LOD1   = 3.448       ACT = 46.579          Ne = 34350.570
+  LOD1-1 = 3.667
+  LOD1-2 = 4.125       ACT = 3.857          Ne = 51856.491
+  LOD1-3 = 3.602       ACT = 12.383          Ne = 16150.941
+  LOD1-4 = 4.347
+  LOD1-5 = 3.886
+  LOD1-6 = 3.233
+  LOD1-7 = 3.593       ACT = 12.915          Ne = 15485.723
+  LOD1-8 = 3.769
+  LOD1   = 3.666       ACT = 32.491          Ne = 49245.152
 
   RNe1 = inf
 
 
 2/22:
 Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Thermotoga Thermus 
-   PP1-1 = 0.999       (1=199720  0=281)  [90]
-   PP1-2 = 0.999       (1=199739  0=262)  [75]
-   PP1-3 = 0.999       (1=199824  0=177)  [57]
-   PP1-4 = 0.998       (1=199693  0=308)  [99]
-   PP1-5 = 0.999       (1=199728  0=273)  [69]
-   PP1-6 = 0.999       (1=199780  0=221)  [78]
-   PP1-7 = 0.999       (1=199793  0=208)  [66]
-   PP1-8 = 0.999       (1=199782  0=219)  [66]
-   PP1   = 0.999       (1=1598059  0=1949)  [600]
+   PP1-1 = 0.999       (1=199757  0=244)  [76]
+   PP1-2 = 0.999       (1=199807  0=194)  [62]
+   PP1-3 = 0.998       (1=199699  0=302)  [83]
+   PP1-4 = 0.998       (1=199694  0=307)  [73]
+   PP1-5 = 0.998       (1=199655  0=346)  [75]
+   PP1-6 = 0.998       (1=199667  0=334)  [94]
+   PP1-7 = 0.999       (1=199749  0=252)  [82]
+   PP1-8 = 0.998       (1=199659  0=342)  [87]
+   PP1   = 0.999       (1=1597687  0=2321)  [632]
 
-  LOD1-1 = 2.850       ACT = 9.354          Ne = 21381.194
-  LOD1-2 = 2.881       ACT = 11.816          Ne = 16926.592
-  LOD1-3 = 3.050       ACT = 14.155          Ne = 14129.349
-  LOD1-4 = 2.810       ACT = 10.516          Ne = 19017.970
-  LOD1-5 = 2.863       ACT = 11.788          Ne = 16966.679
-  LOD1-6 = 2.954       ACT = 8.712          Ne = 22955.862
-  LOD1-7 = 2.980       ACT = 8.666          Ne = 23079.282
-  LOD1-8 = 2.958       ACT = 9.165          Ne = 21821.759
-  LOD1   = 2.912       ACT = 10.449          Ne = 153120.186
+  LOD1-1 = 2.911       ACT = 8.984          Ne = 22262.034
+  LOD1-2 = 3.011       ACT = 7.608          Ne = 26286.936
+  LOD1-3 = 2.819       ACT = 12.496          Ne = 16005.211
+  LOD1-4 = 2.812       ACT = 16.674          Ne = 11994.874
+  LOD1-5 = 2.760       ACT = 22.288          Ne = 8973.312
+  LOD1-6 = 2.775       ACT = 11.441          Ne = 17480.401
+  LOD1-7 = 2.897       ACT = 9.966          Ne = 20068.281
+  LOD1-8 = 2.765       ACT = 10.954          Ne = 18258.867
+  LOD1   = 2.836       ACT = 13.024          Ne = 122850.001
 
   RNe1 = inf
 
 
 3/22:
 Pyrobaculum Sulfolobus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.974       (1=194785  0=5216)  [916]
-   PP1-2 = 0.971       (1=194137  0=5864)  [902]
-   PP1-3 = 0.974       (1=194713  0=5288)  [953]
-   PP1-4 = 0.973       (1=194684  0=5317)  [967]
-   PP1-5 = 0.966       (1=193296  0=6705)  [997]
-   PP1-6 = 0.968       (1=193637  0=6364)  [965]
-   PP1-7 = 0.973       (1=194578  0=5423)  [979]
-   PP1-8 = 0.974       (1=194858  0=5143)  [976]
-   PP1   = 0.972       (1=1554688  0=45320)  [7655]
+   PP1-1 = 0.973       (1=194568  0=5433)  [1044]
+   PP1-2 = 0.969       (1=193753  0=6248)  [990]
+   PP1-3 = 0.970       (1=193945  0=6056)  [958]
+   PP1-4 = 0.974       (1=194901  0=5100)  [966]
+   PP1-5 = 0.973       (1=194631  0=5370)  [1025]
+   PP1-6 = 0.970       (1=194097  0=5904)  [1032]
+   PP1-7 = 0.971       (1=194230  0=5771)  [991]
+   PP1-8 = 0.972       (1=194420  0=5581)  [1005]
+   PP1   = 0.972       (1=1554545  0=45463)  [8011]
 
-  LOD1-1 = 1.572       ACT = 54.494          Ne = 3670.129
-  LOD1-2 = 1.520       ACT = 84.275          Ne = 2373.189
-  LOD1-3 = 1.566       ACT = 46.900          Ne = 4264.432
-  LOD1-4 = 1.564       ACT = 42.511          Ne = 4704.743
-  LOD1-5 = 1.460       ACT = 96.593          Ne = 2070.556
-  LOD1-6 = 1.483       ACT = 57.332          Ne = 3488.442
-  LOD1-7 = 1.555       ACT = 40.214          Ne = 4973.418
-  LOD1-8 = 1.578       ACT = 50.155          Ne = 3987.666
-  LOD1   = 1.535       ACT = 62.054          Ne = 25783.943
+  LOD1-1 = 1.554       ACT = 60.057          Ne = 3330.201
+  LOD1-2 = 1.491       ACT = 62.034          Ne = 3224.080
+  LOD1-3 = 1.505       ACT = 49.600          Ne = 4032.302
+  LOD1-4 = 1.582       ACT = 51.397          Ne = 3891.262
+  LOD1-5 = 1.559       ACT = 39.879          Ne = 5015.170
+  LOD1-6 = 1.517       ACT = 53.762          Ne = 3720.099
+  LOD1-7 = 1.527       ACT = 48.568          Ne = 4117.940
+  LOD1-8 = 1.542       ACT = 55.206          Ne = 3622.796
+  LOD1   = 1.534       ACT = 51.388          Ne = 31136.028
 
   RNe1 = inf
 
 
 4/22:
-Caenorhabditis Dictyostelium | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.778       (1=155509  0=44492)  [15115]
-   PP1-2 = 0.786       (1=157143  0=42858)  [14782]
-   PP1-3 = 0.781       (1=156171  0=43830)  [14934]
-   PP1-4 = 0.785       (1=157072  0=42929)  [14946]
-   PP1-5 = 0.783       (1=156555  0=43446)  [14977]
-   PP1-6 = 0.780       (1=155957  0=44044)  [15155]
-   PP1-7 = 0.783       (1=156518  0=43483)  [14825]
-   PP1-8 = 0.783       (1=156616  0=43385)  [14997]
-   PP1   = 0.782       (1=1251541  0=348467)  [119730]
+Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
+   PP1-1 = 0.781       (1=156138  0=43863)  [7967]
+   PP1-2 = 0.776       (1=155249  0=44752)  [8034]
+   PP1-3 = 0.773       (1=154617  0=45384)  [7897]
+   PP1-4 = 0.775       (1=154912  0=45089)  [7706]
+   PP1-5 = 0.783       (1=156601  0=43400)  [7541]
+   PP1-6 = 0.773       (1=154691  0=45310)  [8060]
+   PP1-7 = 0.773       (1=154602  0=45399)  [7889]
+   PP1-8 = 0.781       (1=156196  0=43805)  [7883]
+   PP1   = 0.777       (1=1243006  0=357002)  [62976]
 
-  LOD1-1 = 0.543       ACT = 13.006          Ne = 15377.676
-  LOD1-2 = 0.564       ACT = 12.873          Ne = 15536.799
-  LOD1-3 = 0.552       ACT = 11.820          Ne = 16921.244
-  LOD1-4 = 0.563       ACT = 12.125          Ne = 16494.415
-  LOD1-5 = 0.557       ACT = 11.996          Ne = 16672.159
-  LOD1-6 = 0.549       ACT = 12.339          Ne = 16208.861
-  LOD1-7 = 0.556       ACT = 12.275          Ne = 16293.297
-  LOD1-8 = 0.557       ACT = 12.648          Ne = 15812.763
-  LOD1   = 0.555       ACT = 12.326          Ne = 129803.045
+  LOD1-1 = 0.551       ACT = 65.603          Ne = 3048.641
+  LOD1-2 = 0.540       ACT = 64.830          Ne = 3085.006
+  LOD1-3 = 0.532       ACT = 67.427          Ne = 2966.165
+  LOD1-4 = 0.536       ACT = 56.667          Ne = 3529.421
+  LOD1-5 = 0.557       ACT = 50.875          Ne = 3931.192
+  LOD1-6 = 0.533       ACT = 53.433          Ne = 3743.055
+  LOD1-7 = 0.532       ACT = 65.494          Ne = 3053.738
+  LOD1-8 = 0.552       ACT = 65.645          Ne = 3046.702
+  LOD1   = 0.542       ACT = 62.652          Ne = 25538.112
 
   RNe1 = inf
 
 
 5/22:
-Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
-   PP1-1 = 0.778       (1=155666  0=44335)  [7319]
-   PP1-2 = 0.780       (1=156006  0=43995)  [7473]
-   PP1-3 = 0.773       (1=154578  0=45423)  [7658]
-   PP1-4 = 0.767       (1=153384  0=46617)  [7826]
-   PP1-5 = 0.775       (1=154939  0=45062)  [7969]
-   PP1-6 = 0.784       (1=156712  0=43289)  [7560]
-   PP1-7 = 0.778       (1=155526  0=44475)  [7721]
-   PP1-8 = 0.780       (1=155918  0=44083)  [7513]
-   PP1   = 0.777       (1=1242729  0=357279)  [61037]
+Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
+   PP1-1 = 0.781       (1=156284  0=43717)  [13935]
+   PP1-2 = 0.778       (1=155525  0=44476)  [13534]
+   PP1-3 = 0.769       (1=153891  0=46110)  [14281]
+   PP1-4 = 0.769       (1=153829  0=46172)  [14548]
+   PP1-5 = 0.769       (1=153792  0=46209)  [14174]
+   PP1-6 = 0.767       (1=153355  0=46646)  [13995]
+   PP1-7 = 0.774       (1=154739  0=45262)  [13848]
+   PP1-8 = 0.768       (1=153623  0=46378)  [14251]
+   PP1   = 0.772       (1=1235038  0=364970)  [112566]
 
-  LOD1-1 = 0.545       ACT = 82.663          Ne = 2419.474
-  LOD1-2 = 0.550       ACT = 69.319          Ne = 2885.221
-  LOD1-3 = 0.532       ACT = 73.099          Ne = 2736.016
-  LOD1-4 = 0.517       ACT = 74.584          Ne = 2681.562
-  LOD1-5 = 0.536       ACT = 60.868          Ne = 3285.821
-  LOD1-6 = 0.559       ACT = 72.217          Ne = 2769.441
-  LOD1-7 = 0.544       ACT = 62.358          Ne = 3207.312
-  LOD1-8 = 0.549       ACT = 79.186          Ne = 2525.699
-  LOD1   = 0.541       ACT = 72.878          Ne = 21954.757
+  LOD1-1 = 0.553       ACT = 41.139          Ne = 4861.559
+  LOD1-2 = 0.544       ACT = 36.360          Ne = 5500.576
+  LOD1-3 = 0.523       ACT = 31.809          Ne = 6287.598
+  LOD1-4 = 0.523       ACT = 32.038          Ne = 6242.654
+  LOD1-5 = 0.522       ACT = 31.983          Ne = 6253.319
+  LOD1-6 = 0.517       ACT = 32.438          Ne = 6165.680
+  LOD1-7 = 0.534       ACT = 34.860          Ne = 5737.332
+  LOD1-8 = 0.520       ACT = 42.904          Ne = 4661.601
+  LOD1   = 0.529       ACT = 35.685          Ne = 44837.242
 
   RNe1 = inf
 
 
 6/22:
-Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Nosema Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
-   PP1-1 = 0.761       (1=152289  0=47712)  [13987]
-   PP1-2 = 0.766       (1=153293  0=46708)  [13759]
-   PP1-3 = 0.766       (1=153115  0=46886)  [14091]
-   PP1-4 = 0.775       (1=154950  0=45051)  [13813]
-   PP1-5 = 0.766       (1=153178  0=46823)  [13461]
-   PP1-6 = 0.762       (1=152392  0=47609)  [13974]
-   PP1-7 = 0.771       (1=154176  0=45825)  [13708]
-   PP1-8 = 0.766       (1=153140  0=46861)  [13908]
-   PP1   = 0.767       (1=1226533  0=373475)  [110701]
+Caenorhabditis Dictyostelium | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.768       (1=153587  0=46414)  [15786]
+   PP1-2 = 0.771       (1=154165  0=45836)  [15676]
+   PP1-3 = 0.772       (1=154447  0=45554)  [15648]
+   PP1-4 = 0.767       (1=153433  0=46568)  [15872]
+   PP1-5 = 0.769       (1=153708  0=46293)  [15772]
+   PP1-6 = 0.769       (1=153869  0=46132)  [15868]
+   PP1-7 = 0.769       (1=153901  0=46100)  [15647]
+   PP1-8 = 0.763       (1=152698  0=47303)  [16037]
+   PP1   = 0.769       (1=1229808  0=370200)  [126307]
 
-  LOD1-1 = 0.504       ACT = 45.931          Ne = 4354.404
-  LOD1-2 = 0.516       ACT = 37.369          Ne = 5352.111
-  LOD1-3 = 0.514       ACT = 43.418          Ne = 4606.427
-  LOD1-4 = 0.536       ACT = 43.503          Ne = 4597.455
-  LOD1-5 = 0.515       ACT = 54.381          Ne = 3677.766
-  LOD1-6 = 0.505       ACT = 46.928          Ne = 4261.859
-  LOD1-7 = 0.527       ACT = 43.467          Ne = 4601.264
-  LOD1-8 = 0.514       ACT = 38.378          Ne = 5211.314
-  LOD1   = 0.516       ACT = 45.582          Ne = 35101.844
+  LOD1-1 = 0.520       ACT = 12.988          Ne = 15399.037
+  LOD1-2 = 0.527       ACT = 11.875          Ne = 16841.554
+  LOD1-3 = 0.530       ACT = 12.267          Ne = 16304.580
+  LOD1-4 = 0.518       ACT = 12.185          Ne = 16413.089
+  LOD1-5 = 0.521       ACT = 12.266          Ne = 16305.137
+  LOD1-6 = 0.523       ACT = 11.827          Ne = 16910.527
+  LOD1-7 = 0.524       ACT = 12.314          Ne = 16241.808
+  LOD1-8 = 0.509       ACT = 12.518          Ne = 15976.954
+  LOD1   = 0.521       ACT = 12.262          Ne = 130490.279
 
   RNe1 = inf
 
 
 7/22:
-Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Escherichia Thermotoga Thermus 
-   PP1-1 = 0.683       (1=136549  0=63452)  [14778]
-   PP1-2 = 0.687       (1=137488  0=62513)  [14751]
-   PP1-3 = 0.681       (1=136193  0=63808)  [14552]
-   PP1-4 = 0.682       (1=136395  0=63606)  [14199]
-   PP1-5 = 0.685       (1=136977  0=63024)  [14786]
-   PP1-6 = 0.691       (1=138257  0=61744)  [14630]
-   PP1-7 = 0.696       (1=139250  0=60751)  [14179]
-   PP1-8 = 0.692       (1=138501  0=61500)  [14319]
-   PP1   = 0.687       (1=1099610  0=500398)  [116194]
+Bacillus Flavobacterium | Agrobacterium Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
+   PP1-1 = 0.695       (1=138958  0=61043)  [20499]
+   PP1-2 = 0.695       (1=139082  0=60919)  [20995]
+   PP1-3 = 0.687       (1=137451  0=62550)  [21175]
+   PP1-4 = 0.685       (1=136929  0=63072)  [21697]
+   PP1-5 = 0.693       (1=138591  0=61410)  [20996]
+   PP1-6 = 0.688       (1=137622  0=62379)  [21391]
+   PP1-7 = 0.689       (1=137821  0=62180)  [21403]
+   PP1-8 = 0.686       (1=137256  0=62745)  [21187]
+   PP1   = 0.690       (1=1103710  0=496298)  [169343]
 
-  LOD1-1 = 0.333       ACT = 46.046          Ne = 4343.531
-  LOD1-2 = 0.342       ACT = 33.963          Ne = 5888.841
-  LOD1-3 = 0.329       ACT = 36.149          Ne = 5532.658
-  LOD1-4 = 0.331       ACT = 35.530          Ne = 5629.040
-  LOD1-5 = 0.337       ACT = 32.356          Ne = 6181.324
-  LOD1-6 = 0.350       ACT = 36.943          Ne = 5413.704
-  LOD1-7 = 0.360       ACT = 29.946          Ne = 6678.741
-  LOD1-8 = 0.353       ACT = 38.936          Ne = 5136.623
-  LOD1   = 0.342       ACT = 36.384          Ne = 43976.125
+  LOD1-1 = 0.357       ACT = 74.000          Ne = 2702.699
+  LOD1-2 = 0.359       ACT = 57.136          Ne = 3500.419
+  LOD1-3 = 0.342       ACT = 59.198          Ne = 3378.501
+  LOD1-4 = 0.337       ACT = 50.307          Ne = 3975.590
+  LOD1-5 = 0.353       ACT = 51.647          Ne = 3872.469
+  LOD1-6 = 0.344       ACT = 50.172          Ne = 3986.307
+  LOD1-7 = 0.346       ACT = 62.717          Ne = 3188.959
+  LOD1-8 = 0.340       ACT = 58.464          Ne = 3420.953
+  LOD1   = 0.347       ACT = 58.635          Ne = 27287.570
 
   RNe1 = inf
 
 
 8/22:
-Bacillus Flavobacterium | Agrobacterium Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.695       (1=139017  0=60984)  [20058]
-   PP1-2 = 0.694       (1=138820  0=61181)  [20766]
-   PP1-3 = 0.685       (1=137049  0=62952)  [21057]
-   PP1-4 = 0.675       (1=134920  0=65081)  [21345]
-   PP1-5 = 0.683       (1=136681  0=63320)  [20471]
-   PP1-6 = 0.683       (1=136652  0=63349)  [20833]
-   PP1-7 = 0.692       (1=138416  0=61585)  [20858]
-   PP1-8 = 0.689       (1=137802  0=62199)  [20710]
-   PP1   = 0.687       (1=1099357  0=500651)  [166098]
+Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Escherichia Thermotoga Thermus 
+   PP1-1 = 0.692       (1=138422  0=61579)  [15110]
+   PP1-2 = 0.691       (1=138149  0=61852)  [14924]
+   PP1-3 = 0.680       (1=135962  0=64039)  [14936]
+   PP1-4 = 0.681       (1=136207  0=63794)  [14988]
+   PP1-5 = 0.689       (1=137729  0=62272)  [15043]
+   PP1-6 = 0.681       (1=136255  0=63746)  [14930]
+   PP1-7 = 0.683       (1=136627  0=63374)  [14855]
+   PP1-8 = 0.692       (1=138364  0=61637)  [14984]
+   PP1   = 0.686       (1=1097715  0=502293)  [119770]
 
-  LOD1-1 = 0.358       ACT = 65.515          Ne = 3052.759
-  LOD1-2 = 0.356       ACT = 59.411          Ne = 3366.372
-  LOD1-3 = 0.338       ACT = 69.835          Ne = 2863.911
-  LOD1-4 = 0.317       ACT = 67.082          Ne = 2981.432
-  LOD1-5 = 0.334       ACT = 93.460          Ne = 2139.960
-  LOD1-6 = 0.334       ACT = 72.486          Ne = 2759.170
-  LOD1-7 = 0.352       ACT = 60.312          Ne = 3316.094
-  LOD1-8 = 0.345       ACT = 61.872          Ne = 3232.505
-  LOD1   = 0.342       ACT = 70.300          Ne = 22759.721
+  LOD1-1 = 0.352       ACT = 30.614          Ne = 6532.912
+  LOD1-2 = 0.349       ACT = 37.487          Ne = 5335.214
+  LOD1-3 = 0.327       ACT = 28.595          Ne = 6994.156
+  LOD1-4 = 0.329       ACT = 32.495          Ne = 6154.829
+  LOD1-5 = 0.345       ACT = 28.033          Ne = 7134.505
+  LOD1-6 = 0.330       ACT = 26.524          Ne = 7540.470
+  LOD1-7 = 0.334       ACT = 28.400          Ne = 7042.168
+  LOD1-8 = 0.351       ACT = 36.372          Ne = 5498.734
+  LOD1   = 0.340       ACT = 33.011          Ne = 48469.411
 
   RNe1 = inf
 
 
 9/22:
 Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanothermobacter Thermotoga Thermus 
-   PP1-1 = 0.655       (1=131088  0=68913)  [15502]
-   PP1-2 = 0.659       (1=131711  0=68290)  [15914]
-   PP1-3 = 0.658       (1=131585  0=68416)  [15861]
-   PP1-4 = 0.625       (1=124908  0=75093)  [17370]
-   PP1-5 = 0.617       (1=123414  0=76587)  [17157]
-   PP1-6 = 0.644       (1=128848  0=71153)  [16593]
-   PP1-7 = 0.644       (1=128771  0=71230)  [16237]
-   PP1-8 = 0.643       (1=128554  0=71447)  [16605]
-   PP1   = 0.643       (1=1028879  0=571129)  [131239]
+   PP1-1 = 0.627       (1=125458  0=74543)  [17462]
+   PP1-2 = 0.636       (1=127103  0=72898)  [17304]
+   PP1-3 = 0.646       (1=129209  0=70792)  [16634]
+   PP1-4 = 0.662       (1=132448  0=67553)  [16184]
+   PP1-5 = 0.666       (1=133165  0=66836)  [16231]
+   PP1-6 = 0.670       (1=133993  0=66008)  [16223]
+   PP1-7 = 0.660       (1=132055  0=67946)  [16191]
+   PP1-8 = 0.638       (1=127566  0=72435)  [17125]
+   PP1   = 0.651       (1=1040997  0=559011)  [133354]
 
-  LOD1-1 = 0.279       ACT = 198.357          Ne = 1008.286
-  LOD1-2 = 0.285       ACT = 218.815          Ne = 914.020
-  LOD1-3 = 0.284       ACT = 278.603          Ne = 717.872
-  LOD1-4 = 0.221       ACT = 223.447          Ne = 895.072
-  LOD1-5 = 0.207       ACT = 270.350          Ne = 739.785
-  LOD1-6 = 0.258       ACT = 246.976          Ne = 809.801
-  LOD1-7 = 0.257       ACT = 328.686          Ne = 608.486
-  LOD1-8 = 0.255       ACT = 280.615          Ne = 712.724
-  LOD1   = 0.256       ACT = 259.892          Ne = 6156.427
+  LOD1-1 = 0.226       ACT = 261.556          Ne = 764.660
+  LOD1-2 = 0.241       ACT = 241.419          Ne = 828.438
+  LOD1-3 = 0.261       ACT = 209.160          Ne = 956.213
+  LOD1-4 = 0.292       ACT = 183.780          Ne = 1088.262
+  LOD1-5 = 0.299       ACT = 185.488          Ne = 1078.240
+  LOD1-6 = 0.307       ACT = 195.554          Ne = 1022.741
+  LOD1-7 = 0.289       ACT = 215.914          Ne = 926.301
+  LOD1-8 = 0.246       ACT = 273.184          Ne = 732.112
+  LOD1   = 0.270       ACT = 218.014          Ne = 7339.021
 
   RNe1 = inf
 
 
 10/22:
 Bacillus Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Campylobacter Escherichia Thermotoga Thermus 
-   PP1-1 = 0.573       (1=114676  0=85325)  [22830]
-   PP1-2 = 0.576       (1=115265  0=84736)  [22883]
-   PP1-3 = 0.582       (1=116446  0=83555)  [22006]
-   PP1-4 = 0.582       (1=116310  0=83691)  [22042]
-   PP1-5 = 0.579       (1=115871  0=84130)  [22679]
-   PP1-6 = 0.575       (1=115055  0=84946)  [22564]
-   PP1-7 = 0.565       (1=112964  0=87037)  [22988]
-   PP1-8 = 0.570       (1=113973  0=86028)  [23031]
-   PP1   = 0.575       (1=920560  0=679448)  [181023]
+   PP1-1 = 0.572       (1=114352  0=85649)  [23511]
+   PP1-2 = 0.570       (1=114072  0=85929)  [23344]
+   PP1-3 = 0.581       (1=116174  0=83827)  [22570]
+   PP1-4 = 0.584       (1=116892  0=83109)  [22292]
+   PP1-5 = 0.574       (1=114751  0=85250)  [22854]
+   PP1-6 = 0.578       (1=115590  0=84411)  [22482]
+   PP1-7 = 0.575       (1=114944  0=85057)  [22731]
+   PP1-8 = 0.576       (1=115137  0=84864)  [23033]
+   PP1   = 0.576       (1=921912  0=678096)  [182817]
 
-  LOD1-1 = 0.128       ACT = 53.957          Ne = 3706.684
-  LOD1-2 = 0.134       ACT = 35.637          Ne = 5612.218
-  LOD1-3 = 0.144       ACT = 40.666          Ne = 4918.179
-  LOD1-4 = 0.143       ACT = 40.790          Ne = 4903.177
-  LOD1-5 = 0.139       ACT = 33.361          Ne = 5995.009
-  LOD1-6 = 0.132       ACT = 37.507          Ne = 5332.295
-  LOD1-7 = 0.113       ACT = 31.126          Ne = 6425.625
-  LOD1-8 = 0.122       ACT = 33.856          Ne = 5907.478
-  LOD1   = 0.132       ACT = 38.849          Ne = 41184.911
+  LOD1-1 = 0.126       ACT = 33.704          Ne = 5934.094
+  LOD1-2 = 0.123       ACT = 33.653          Ne = 5942.953
+  LOD1-3 = 0.142       ACT = 37.836          Ne = 5286.021
+  LOD1-4 = 0.148       ACT = 35.811          Ne = 5584.850
+  LOD1-5 = 0.129       ACT = 30.753          Ne = 6503.517
+  LOD1-6 = 0.137       ACT = 30.197          Ne = 6623.278
+  LOD1-7 = 0.131       ACT = 37.106          Ne = 5390.002
+  LOD1-8 = 0.132       ACT = 29.007          Ne = 6894.863
+  LOD1   = 0.133       ACT = 34.318          Ne = 46622.959
 
   RNe1 = inf
 
 
 11/22:
 Escherichia Thermotoga Thermus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea 
-   PP1-1 = 0.551       (1=110175  0=89826)  [25652]
-   PP1-2 = 0.554       (1=110704  0=89297)  [25505]
-   PP1-3 = 0.548       (1=109567  0=90434)  [25368]
-   PP1-4 = 0.555       (1=110971  0=89030)  [24549]
-   PP1-5 = 0.558       (1=111602  0=88399)  [24694]
-   PP1-6 = 0.558       (1=111609  0=88392)  [25509]
-   PP1-7 = 0.562       (1=112328  0=87673)  [25159]
-   PP1-8 = 0.560       (1=111906  0=88095)  [25290]
-   PP1   = 0.556       (1=888862  0=711146)  [201726]
+   PP1-1 = 0.563       (1=112597  0=87404)  [25499]
+   PP1-2 = 0.564       (1=112723  0=87278)  [25244]
+   PP1-3 = 0.553       (1=110550  0=89451)  [25418]
+   PP1-4 = 0.550       (1=109923  0=90078)  [25994]
+   PP1-5 = 0.556       (1=111108  0=88893)  [25976]
+   PP1-6 = 0.550       (1=110035  0=89966)  [25932]
+   PP1-7 = 0.552       (1=110364  0=89637)  [25645]
+   PP1-8 = 0.567       (1=113306  0=86695)  [25481]
+   PP1   = 0.557       (1=890606  0=709402)  [205189]
 
-  LOD1-1 = 0.089       ACT = 20.752          Ne = 9637.469
-  LOD1-2 = 0.093       ACT = 18.028          Ne = 11094.126
-  LOD1-3 = 0.083       ACT = 19.934          Ne = 10033.239
-  LOD1-4 = 0.096       ACT = 19.204          Ne = 10414.762
-  LOD1-5 = 0.101       ACT = 21.687          Ne = 9222.022
-  LOD1-6 = 0.101       ACT = 24.476          Ne = 8171.187
-  LOD1-7 = 0.108       ACT = 20.790          Ne = 9619.979
-  LOD1-8 = 0.104       ACT = 23.212          Ne = 8616.132
-  LOD1   = 0.097       ACT = 21.625          Ne = 73989.656
+  LOD1-1 = 0.110       ACT = 16.234          Ne = 12320.139
+  LOD1-2 = 0.111       ACT = 16.243          Ne = 12313.366
+  LOD1-3 = 0.092       ACT = 17.329          Ne = 11541.257
+  LOD1-4 = 0.086       ACT = 18.890          Ne = 10587.410
+  LOD1-5 = 0.097       ACT = 14.439          Ne = 13851.314
+  LOD1-6 = 0.087       ACT = 14.702          Ne = 13603.388
+  LOD1-7 = 0.090       ACT = 17.876          Ne = 11188.058
+  LOD1-8 = 0.116       ACT = 17.514          Ne = 11419.721
+  LOD1   = 0.099       ACT = 18.666          Ne = 85719.783
 
   RNe1 = inf
 
 
 12/22:
 Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
-   PP1-1 = 0.502       (1=100498  0=99503)  [32382]
-   PP1-2 = 0.501       (1=100278  0=99723)  [32603]
-   PP1-3 = 0.497       (1=99482  0=100519)  [32629]
-   PP1-4 = 0.501       (1=100134  0=99867)  [32458]
-   PP1-5 = 0.504       (1=100800  0=99201)  [32104]
-   PP1-6 = 0.506       (1=101195  0=98806)  [32612]
-   PP1-7 = 0.507       (1=101351  0=98650)  [32592]
-   PP1-8 = 0.498       (1=99535  0=100466)  [32469]
-   PP1   = 0.502       (1=803273  0=796735)  [259849]
+   PP1-1 = 0.502       (1=100313  0=99688)  [32922]
+   PP1-2 = 0.503       (1=100592  0=99409)  [32843]
+   PP1-3 = 0.502       (1=100481  0=99520)  [32622]
+   PP1-4 = 0.508       (1=101636  0=98365)  [32653]
+   PP1-5 = 0.501       (1=100133  0=99868)  [32587]
+   PP1-6 = 0.501       (1=100198  0=99803)  [32788]
+   PP1-7 = 0.502       (1=100500  0=99501)  [32554]
+   PP1-8 = 0.505       (1=101053  0=98948)  [32739]
+   PP1   = 0.503       (1=804906  0=795102)  [261708]
 
-  LOD1-1 = 0.004       ACT = 8.469          Ne = 23616.728
-  LOD1-2 = 0.002       ACT = 8.170          Ne = 24481.026
-  LOD1-3 = -0.005       ACT = 8.432          Ne = 23718.475
-  LOD1-4 = 0.001       ACT = 8.517          Ne = 23483.332
-  LOD1-5 = 0.007       ACT = 8.874          Ne = 22537.615
-  LOD1-6 = 0.010       ACT = 9.252          Ne = 21617.608
-  LOD1-7 = 0.012       ACT = 8.089          Ne = 24725.868
-  LOD1-8 = -0.004       ACT = 8.329          Ne = 24011.622
-  LOD1   = 0.004       ACT = 8.544          Ne = 187264.793
+  LOD1-1 = 0.003       ACT = 8.254          Ne = 24230.142
+  LOD1-2 = 0.005       ACT = 8.302          Ne = 24091.708
+  LOD1-3 = 0.004       ACT = 8.869          Ne = 22551.268
+  LOD1-4 = 0.014       ACT = 9.478          Ne = 21102.709
+  LOD1-5 = 0.001       ACT = 9.458          Ne = 21146.510
+  LOD1-6 = 0.002       ACT = 8.529          Ne = 23449.263
+  LOD1-7 = 0.004       ACT = 9.237          Ne = 21651.758
+  LOD1-8 = 0.009       ACT = 8.499          Ne = 23531.724
+  LOD1   = 0.005       ACT = 8.699          Ne = 183938.176
 
   RNe1 = inf
 
 
 13/22:
 Caenorhabditis Candida Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.452       (1=90402  0=109599)  [13187]
-   PP1-2 = 0.445       (1=89052  0=110949)  [13353]
-   PP1-3 = 0.450       (1=90085  0=109916)  [13214]
-   PP1-4 = 0.450       (1=90095  0=109906)  [13155]
-   PP1-5 = 0.450       (1=89993  0=110008)  [13228]
-   PP1-6 = 0.455       (1=91088  0=108913)  [13263]
-   PP1-7 = 0.447       (1=89398  0=110603)  [13302]
-   PP1-8 = 0.453       (1=90635  0=109366)  [13113]
-   PP1   = 0.450       (1=720748  0=879260)  [105815]
+   PP1-1 = 0.453       (1=90548  0=109453)  [13211]
+   PP1-2 = 0.449       (1=89859  0=110142)  [13590]
+   PP1-3 = 0.449       (1=89780  0=110221)  [13082]
+   PP1-4 = 0.454       (1=90731  0=109270)  [13375]
+   PP1-5 = 0.447       (1=89446  0=110555)  [13286]
+   PP1-6 = 0.445       (1=89080  0=110921)  [13571]
+   PP1-7 = 0.443       (1=88636  0=111365)  [13390]
+   PP1-8 = 0.455       (1=91031  0=108970)  [13467]
+   PP1   = 0.449       (1=719111  0=880897)  [106972]
 
-  LOD1-1 = -0.084       ACT = 22.934          Ne = 8720.577
-  LOD1-2 = -0.095       ACT = 22.762          Ne = 8786.755
-  LOD1-3 = -0.086       ACT = 19.994          Ne = 10002.938
-  LOD1-4 = -0.086       ACT = 21.250          Ne = 9411.803
-  LOD1-5 = -0.087       ACT = 20.602          Ne = 9707.969
-  LOD1-6 = -0.078       ACT = 21.895          Ne = 9134.719
-  LOD1-7 = -0.092       ACT = 20.994          Ne = 9526.357
-  LOD1-8 = -0.082       ACT = 24.546          Ne = 8148.135
-  LOD1   = -0.086       ACT = 21.812          Ne = 73355.266
+  LOD1-1 = -0.082       ACT = 20.629          Ne = 9695.071
+  LOD1-2 = -0.088       ACT = 19.167          Ne = 10434.741
+  LOD1-3 = -0.089       ACT = 21.022          Ne = 9513.814
+  LOD1-4 = -0.081       ACT = 20.341          Ne = 9832.492
+  LOD1-5 = -0.092       ACT = 21.831          Ne = 9161.176
+  LOD1-6 = -0.095       ACT = 21.119          Ne = 9469.989
+  LOD1-7 = -0.099       ACT = 20.590          Ne = 9713.456
+  LOD1-8 = -0.078       ACT = 21.148          Ne = 9457.278
+  LOD1   = -0.088       ACT = 20.653          Ne = 77469.291
 
   RNe1 = inf
 
 
 14/22:
 Methanococcus Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.464       (1=92837  0=107164)  [18888]
-   PP1-2 = 0.457       (1=91470  0=108531)  [18967]
-   PP1-3 = 0.462       (1=92449  0=107552)  [19154]
-   PP1-4 = 0.417       (1=83419  0=116582)  [17136]
-   PP1-5 = 0.428       (1=85698  0=114303)  [17645]
-   PP1-6 = 0.443       (1=88568  0=111433)  [18479]
-   PP1-7 = 0.442       (1=88422  0=111579)  [18284]
-   PP1-8 = 0.438       (1=87583  0=112418)  [18007]
-   PP1   = 0.444       (1=710446  0=889562)  [146560]
+   PP1-1 = 0.416       (1=83171  0=116830)  [18000]
+   PP1-2 = 0.430       (1=86061  0=113940)  [18519]
+   PP1-3 = 0.443       (1=88690  0=111311)  [18868]
+   PP1-4 = 0.462       (1=92395  0=107606)  [19378]
+   PP1-5 = 0.455       (1=90995  0=109006)  [19408]
+   PP1-6 = 0.465       (1=92994  0=107007)  [19814]
+   PP1-7 = 0.452       (1=90458  0=109543)  [19394]
+   PP1-8 = 0.436       (1=87201  0=112800)  [18610]
+   PP1   = 0.445       (1=711965  0=888043)  [151991]
 
-  LOD1-1 = -0.062       ACT = 192.765          Ne = 1037.540
-  LOD1-2 = -0.074       ACT = 184.346          Ne = 1084.924
-  LOD1-3 = -0.066       ACT = 226.110          Ne = 884.529
-  LOD1-4 = -0.145       ACT = 202.670          Ne = 986.832
-  LOD1-5 = -0.125       ACT = 227.033          Ne = 880.932
-  LOD1-6 = -0.100       ACT = 196.631          Ne = 1017.138
-  LOD1-7 = -0.101       ACT = 324.120          Ne = 617.058
-  LOD1-8 = -0.108       ACT = 242.863          Ne = 823.514
-  LOD1   = -0.098       ACT = 218.525          Ne = 7321.838
+  LOD1-1 = -0.148       ACT = 228.697          Ne = 874.524
+  LOD1-2 = -0.122       ACT = 211.952          Ne = 943.617
+  LOD1-3 = -0.099       ACT = 153.757          Ne = 1300.764
+  LOD1-4 = -0.066       ACT = 147.053          Ne = 1360.064
+  LOD1-5 = -0.078       ACT = 154.396          Ne = 1295.378
+  LOD1-6 = -0.061       ACT = 168.531          Ne = 1186.734
+  LOD1-7 = -0.083       ACT = 161.352          Ne = 1239.535
+  LOD1-8 = -0.112       ACT = 181.238          Ne = 1103.525
+  LOD1   = -0.096       ACT = 174.472          Ne = 9170.576
 
   RNe1 = inf
 
 
 15/22:
 Caenorhabditis Candida Dictyostelium | Agrobacterium Bacillus Campylobacter Cryptosporidium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.421       (1=84126  0=115875)  [11160]
-   PP1-2 = 0.409       (1=81709  0=118292)  [11112]
-   PP1-3 = 0.418       (1=83575  0=116426)  [11187]
-   PP1-4 = 0.413       (1=82659  0=117342)  [11398]
-   PP1-5 = 0.418       (1=83632  0=116369)  [11152]
-   PP1-6 = 0.420       (1=84040  0=115961)  [11250]
-   PP1-7 = 0.414       (1=82741  0=117260)  [11140]
-   PP1-8 = 0.413       (1=82693  0=117308)  [11126]
-   PP1   = 0.416       (1=665175  0=934833)  [89525]
+   PP1-1 = 0.430       (1=86035  0=113966)  [11320]
+   PP1-2 = 0.423       (1=84517  0=115484)  [11413]
+   PP1-3 = 0.422       (1=84436  0=115565)  [11153]
+   PP1-4 = 0.431       (1=86210  0=113791)  [11195]
+   PP1-5 = 0.425       (1=85012  0=114989)  [10890]
+   PP1-6 = 0.425       (1=84976  0=115025)  [11234]
+   PP1-7 = 0.421       (1=84217  0=115784)  [10966]
+   PP1-8 = 0.435       (1=86966  0=113035)  [11019]
+   PP1   = 0.426       (1=682369  0=917639)  [89190]
 
-  LOD1-1 = -0.139       ACT = 24.982          Ne = 8005.784
-  LOD1-2 = -0.161       ACT = 24.160          Ne = 8278.030
-  LOD1-3 = -0.144       ACT = 21.854          Ne = 9151.580
-  LOD1-4 = -0.152       ACT = 22.527          Ne = 8878.274
-  LOD1-5 = -0.143       ACT = 22.170          Ne = 9021.426
-  LOD1-6 = -0.140       ACT = 24.126          Ne = 8290.010
-  LOD1-7 = -0.151       ACT = 22.975          Ne = 8705.071
-  LOD1-8 = -0.152       ACT = 24.177          Ne = 8272.512
-  LOD1   = -0.148       ACT = 23.177          Ne = 69034.746
+  LOD1-1 = -0.122       ACT = 22.512          Ne = 8884.242
+  LOD1-2 = -0.136       ACT = 21.547          Ne = 9282.011
+  LOD1-3 = -0.136       ACT = 22.552          Ne = 8868.361
+  LOD1-4 = -0.121       ACT = 22.247          Ne = 8989.869
+  LOD1-5 = -0.131       ACT = 23.247          Ne = 8603.135
+  LOD1-6 = -0.131       ACT = 22.451          Ne = 8908.497
+  LOD1-7 = -0.138       ACT = 22.345          Ne = 8950.596
+  LOD1-8 = -0.114       ACT = 23.138          Ne = 8643.946
+  LOD1   = -0.129       ACT = 22.397          Ne = 71437.561
 
   RNe1 = inf
 
 
 16/22:
 Cryptosporidium Nosema Zea | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus 
-   PP1-1 = 0.332       (1=66424  0=133577)  [18519]
-   PP1-2 = 0.334       (1=66712  0=133289)  [18474]
-   PP1-3 = 0.333       (1=66593  0=133408)  [18630]
-   PP1-4 = 0.334       (1=66808  0=133193)  [18490]
-   PP1-5 = 0.331       (1=66225  0=133776)  [18343]
-   PP1-6 = 0.334       (1=66837  0=133164)  [18776]
-   PP1-7 = 0.335       (1=67006  0=132995)  [18538]
-   PP1-8 = 0.328       (1=65579  0=134422)  [18593]
-   PP1   = 0.333       (1=532184  0=1067824)  [148363]
+   PP1-1 = 0.329       (1=65820  0=134181)  [18807]
+   PP1-2 = 0.338       (1=67565  0=132436)  [18964]
+   PP1-3 = 0.329       (1=65826  0=134175)  [18586]
+   PP1-4 = 0.339       (1=67853  0=132148)  [19032]
+   PP1-5 = 0.334       (1=66719  0=133282)  [18956]
+   PP1-6 = 0.337       (1=67333  0=132668)  [18862]
+   PP1-7 = 0.334       (1=66856  0=133145)  [18607]
+   PP1-8 = 0.334       (1=66823  0=133178)  [18895]
+   PP1   = 0.334       (1=534795  0=1065213)  [150709]
 
-  LOD1-1 = -0.303       ACT = 13.905          Ne = 14383.901
-  LOD1-2 = -0.301       ACT = 14.650          Ne = 13651.482
-  LOD1-3 = -0.302       ACT = 13.366          Ne = 14963.611
-  LOD1-4 = -0.300       ACT = 17.985          Ne = 11120.577
-  LOD1-5 = -0.305       ACT = 14.475          Ne = 13816.934
-  LOD1-6 = -0.299       ACT = 13.941          Ne = 14346.513
-  LOD1-7 = -0.298       ACT = 13.876          Ne = 14413.003
-  LOD1-8 = -0.312       ACT = 13.427          Ne = 14895.822
-  LOD1   = -0.302       ACT = 14.417          Ne = 110982.426
+  LOD1-1 = -0.309       ACT = 14.830          Ne = 13486.432
+  LOD1-2 = -0.292       ACT = 14.316          Ne = 13970.334
+  LOD1-3 = -0.309       ACT = 15.479          Ne = 12920.575
+  LOD1-4 = -0.289       ACT = 16.023          Ne = 12482.367
+  LOD1-5 = -0.301       ACT = 14.469          Ne = 13822.666
+  LOD1-6 = -0.295       ACT = 12.485          Ne = 16019.099
+  LOD1-7 = -0.299       ACT = 14.636          Ne = 13665.442
+  LOD1-8 = -0.300       ACT = 13.588          Ne = 14719.155
+  LOD1   = -0.299       ACT = 14.391          Ne = 111179.259
 
   RNe1 = inf
 
 
 17/22:
 Drosophila Homo | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Escherichia Euglena Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.316       (1=63264  0=136737)  [37167]
-   PP1-2 = 0.316       (1=63250  0=136751)  [37156]
-   PP1-3 = 0.316       (1=63213  0=136788)  [37208]
-   PP1-4 = 0.315       (1=63090  0=136911)  [37203]
-   PP1-5 = 0.313       (1=62509  0=137492)  [37049]
-   PP1-6 = 0.315       (1=63031  0=136970)  [37072]
-   PP1-7 = 0.314       (1=62767  0=137234)  [36996]
-   PP1-8 = 0.316       (1=63127  0=136874)  [37039]
-   PP1   = 0.315       (1=504251  0=1095757)  [296890]
+   PP1-1 = 0.317       (1=63476  0=136525)  [37327]
+   PP1-2 = 0.319       (1=63787  0=136214)  [37778]
+   PP1-3 = 0.314       (1=62712  0=137289)  [36861]
+   PP1-4 = 0.313       (1=62539  0=137462)  [36822]
+   PP1-5 = 0.314       (1=62807  0=137194)  [37021]
+   PP1-6 = 0.316       (1=63251  0=136750)  [37324]
+   PP1-7 = 0.312       (1=62468  0=137533)  [36932]
+   PP1-8 = 0.315       (1=62963  0=137038)  [37114]
+   PP1   = 0.315       (1=504003  0=1096005)  [297179]
 
-  LOD1-1 = -0.335       ACT = 3.979          Ne = 50262.064
-  LOD1-2 = -0.335       ACT = 3.994          Ne = 50073.063
-  LOD1-3 = -0.335       ACT = 3.678          Ne = 54381.460
-  LOD1-4 = -0.336       ACT = 4.087          Ne = 48940.258
-  LOD1-5 = -0.342       ACT = 4.167          Ne = 48000.427
-  LOD1-6 = -0.337       ACT = 3.683          Ne = 54301.817
-  LOD1-7 = -0.340       ACT = 3.972          Ne = 50355.256
-  LOD1-8 = -0.336       ACT = 4.385          Ne = 45613.180
-  LOD1   = -0.337       ACT = 4.256          Ne = 375911.906
+  LOD1-1 = -0.333       ACT = 3.842          Ne = 52057.567
+  LOD1-2 = -0.329       ACT = 3.596          Ne = 55619.416
+  LOD1-3 = -0.340       ACT = 3.526          Ne = 56720.667
+  LOD1-4 = -0.342       ACT = 3.837          Ne = 52118.091
+  LOD1-5 = -0.339       ACT = 3.387          Ne = 59044.671
+  LOD1-6 = -0.335       ACT = 3.722          Ne = 53729.411
+  LOD1-7 = -0.343       ACT = 3.938          Ne = 50788.302
+  LOD1-8 = -0.338       ACT = 3.733          Ne = 53571.624
+  LOD1   = -0.337       ACT = 4.035          Ne = 396501.012
 
   RNe1 = inf
 
 
 18/22:
 Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanospirillum Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanococcus Methanothermobacter Thermotoga Thermus 
-   PP1-1 = 0.271       (1=54270  0=145731)  [4889]
-   PP1-2 = 0.282       (1=56436  0=143565)  [5001]
-   PP1-3 = 0.274       (1=54785  0=145216)  [4734]
-   PP1-4 = 0.327       (1=65408  0=134593)  [4934]
-   PP1-5 = 0.314       (1=62777  0=137224)  [5074]
-   PP1-6 = 0.298       (1=59595  0=140406)  [4982]
-   PP1-7 = 0.293       (1=58670  0=141331)  [4828]
-   PP1-8 = 0.302       (1=60461  0=139540)  [4962]
-   PP1   = 0.295       (1=472402  0=1127606)  [39404]
+   PP1-1 = 0.324       (1=64826  0=135175)  [5520]
+   PP1-2 = 0.310       (1=62009  0=137992)  [5298]
+   PP1-3 = 0.297       (1=59495  0=140506)  [5216]
+   PP1-4 = 0.279       (1=55755  0=144246)  [4979]
+   PP1-5 = 0.286       (1=57166  0=142835)  [5152]
+   PP1-6 = 0.277       (1=55345  0=144656)  [5031]
+   PP1-7 = 0.289       (1=57702  0=142299)  [5205]
+   PP1-8 = 0.304       (1=60851  0=139150)  [5017]
+   PP1   = 0.296       (1=473149  0=1126859)  [41418]
 
-  LOD1-1 = -0.429       ACT = 250.887          Ne = 797.177
-  LOD1-2 = -0.405       ACT = 245.699          Ne = 814.008
-  LOD1-3 = -0.423       ACT = 319.230          Ne = 626.511
-  LOD1-4 = -0.313       ACT = 240.227          Ne = 832.550
-  LOD1-5 = -0.340       ACT = 280.701          Ne = 712.504
-  LOD1-6 = -0.372       ACT = 259.917          Ne = 769.479
-  LOD1-7 = -0.382       ACT = 349.063          Ne = 572.965
-  LOD1-8 = -0.363       ACT = 294.901          Ne = 678.197
-  LOD1   = -0.378       ACT = 279.351          Ne = 5727.588
+  LOD1-1 = -0.319       ACT = 335.225          Ne = 596.616
+  LOD1-2 = -0.347       ACT = 270.659          Ne = 738.941
+  LOD1-3 = -0.373       ACT = 203.444          Ne = 983.078
+  LOD1-4 = -0.413       ACT = 196.804          Ne = 1016.244
+  LOD1-5 = -0.398       ACT = 213.868          Ne = 935.162
+  LOD1-6 = -0.417       ACT = 255.763          Ne = 781.976
+  LOD1-7 = -0.392       ACT = 212.167          Ne = 942.658
+  LOD1-8 = -0.359       ACT = 222.256          Ne = 899.868
+  LOD1   = -0.377       ACT = 238.877          Ne = 6698.038
 
   RNe1 = inf
 
 
 19/22:
 Methanococcus Nanoarchaeum Thermococcus | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Pyrobaculum Sulfolobus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.277       (1=55474  0=144527)  [14373]
-   PP1-2 = 0.277       (1=55444  0=144557)  [14443]
-   PP1-3 = 0.290       (1=57924  0=142077)  [14418]
-   PP1-4 = 0.255       (1=51033  0=148968)  [12881]
-   PP1-5 = 0.260       (1=51963  0=148038)  [13504]
-   PP1-6 = 0.276       (1=55208  0=144793)  [13749]
-   PP1-7 = 0.273       (1=54619  0=145382)  [13720]
-   PP1-8 = 0.270       (1=54056  0=145945)  [13588]
-   PP1   = 0.272       (1=435721  0=1164287)  [110676]
+   PP1-1 = 0.253       (1=50672  0=149329)  [13663]
+   PP1-2 = 0.268       (1=53573  0=146428)  [13921]
+   PP1-3 = 0.273       (1=54631  0=145370)  [14340]
+   PP1-4 = 0.281       (1=56100  0=143901)  [14651]
+   PP1-5 = 0.282       (1=56489  0=143512)  [14580]
+   PP1-6 = 0.286       (1=57252  0=142749)  [14963]
+   PP1-7 = 0.275       (1=54984  0=145017)  [14828]
+   PP1-8 = 0.273       (1=54502  0=145499)  [13957]
+   PP1   = 0.274       (1=438203  0=1161805)  [114903]
 
-  LOD1-1 = -0.416       ACT = 93.823          Ne = 2131.685
-  LOD1-2 = -0.416       ACT = 100.760          Ne = 1984.919
-  LOD1-3 = -0.390       ACT = 130.509          Ne = 1532.474
-  LOD1-4 = -0.465       ACT = 119.474          Ne = 1674.008
-  LOD1-5 = -0.455       ACT = 137.636          Ne = 1453.112
-  LOD1-6 = -0.419       ACT = 119.137          Ne = 1678.751
-  LOD1-7 = -0.425       ACT = 143.124          Ne = 1397.392
-  LOD1-8 = -0.431       ACT = 138.642          Ne = 1442.568
-  LOD1   = -0.427       ACT = 122.492          Ne = 13062.119
+  LOD1-1 = -0.469       ACT = 131.431          Ne = 1521.716
+  LOD1-2 = -0.437       ACT = 112.718          Ne = 1774.355
+  LOD1-3 = -0.425       ACT = 90.913          Ne = 2199.918
+  LOD1-4 = -0.409       ACT = 83.818          Ne = 2386.127
+  LOD1-5 = -0.405       ACT = 90.623          Ne = 2206.949
+  LOD1-6 = -0.397       ACT = 97.379          Ne = 2053.847
+  LOD1-7 = -0.421       ACT = 80.447          Ne = 2486.121
+  LOD1-8 = -0.426       ACT = 93.650          Ne = 2135.633
+  LOD1   = -0.423       ACT = 97.426          Ne = 16422.766
 
   RNe1 = inf
 
 
 20/22:
 Methanococcus Nanoarchaeum Pyrobaculum Sulfolobus Thermococcus Thermoplasma | Agrobacterium Bacillus Caenorhabditis Campylobacter Candida Cryptosporidium Dictyostelium Drosophila Escherichia Euglena Flavobacterium Halorubrum Homo Methanospirillum Methanothermobacter Nosema Thermotoga Thermus Zea 
-   PP1-1 = 0.277       (1=55426  0=144575)  [14564]
-   PP1-2 = 0.277       (1=55493  0=144508)  [14234]
-   PP1-3 = 0.288       (1=57503  0=142498)  [14657]
-   PP1-4 = 0.257       (1=51353  0=148648)  [13142]
-   PP1-5 = 0.255       (1=50906  0=149095)  [13420]
-   PP1-6 = 0.271       (1=54123  0=145878)  [14025]
-   PP1-7 = 0.274       (1=54793  0=145208)  [14095]
-   PP1-8 = 0.270       (1=53998  0=146003)  [13846]
-   PP1   = 0.271       (1=433595  0=1166413)  [111983]
+   PP1-1 = 0.247       (1=49455  0=150546)  [13504]
+   PP1-2 = 0.263       (1=52604  0=147397)  [13843]
+   PP1-3 = 0.269       (1=53714  0=146287)  [14343]
+   PP1-4 = 0.285       (1=57027  0=142974)  [15088]
+   PP1-5 = 0.280       (1=56096  0=143905)  [14973]
+   PP1-6 = 0.279       (1=55822  0=144179)  [15004]
+   PP1-7 = 0.272       (1=54429  0=145572)  [14466]
+   PP1-8 = 0.268       (1=53548  0=146453)  [14299]
+   PP1   = 0.270       (1=432695  0=1167313)  [115520]
 
-  LOD1-1 = -0.416       ACT = 105.623          Ne = 1893.530
-  LOD1-2 = -0.416       ACT = 108.713          Ne = 1839.721
-  LOD1-3 = -0.394       ACT = 116.481          Ne = 1717.020
-  LOD1-4 = -0.462       ACT = 123.687          Ne = 1616.999
-  LOD1-5 = -0.467       ACT = 126.549          Ne = 1580.429
-  LOD1-6 = -0.431       ACT = 125.200          Ne = 1597.455
-  LOD1-7 = -0.423       ACT = 146.609          Ne = 1364.183
-  LOD1-8 = -0.432       ACT = 150.236          Ne = 1331.247
-  LOD1   = -0.430       ACT = 126.896          Ne = 12608.788
+  LOD1-1 = -0.483       ACT = 149.115          Ne = 1341.252
+  LOD1-2 = -0.447       ACT = 120.698          Ne = 1657.040
+  LOD1-3 = -0.435       ACT = 99.564          Ne = 2008.765
+  LOD1-4 = -0.399       ACT = 94.628          Ne = 2113.559
+  LOD1-5 = -0.409       ACT = 105.824          Ne = 1889.945
+  LOD1-6 = -0.412       ACT = 87.931          Ne = 2274.513
+  LOD1-7 = -0.427       ACT = 85.462          Ne = 2340.246
+  LOD1-8 = -0.437       ACT = 101.309          Ne = 1974.167
+  LOD1   = -0.431       ACT = 109.007          Ne = 14678.085
 
   RNe1 = inf
 
 
 21/22:
 Caenorhabditis Dictyostelium Drosophila Euglena Homo | Agrobacterium Bacillus Campylobacter Candida Cryptosporidium Escherichia Flavobacterium Halorubrum Methanococcus Methanospirillum Methanothermobacter Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Thermotoga Thermus Zea 
-   PP1-1 = 0.268       (1=53662  0=146339)  [13794]
-   PP1-2 = 0.272       (1=54375  0=145626)  [13943]
-   PP1-3 = 0.269       (1=53761  0=146240)  [13826]
-   PP1-4 = 0.271       (1=54103  0=145898)  [13778]
-   PP1-5 = 0.269       (1=53721  0=146280)  [13847]
-   PP1-6 = 0.267       (1=53326  0=146675)  [13907]
-   PP1-7 = 0.269       (1=53778  0=146223)  [13903]
-   PP1-8 = 0.270       (1=53930  0=146071)  [14122]
-   PP1   = 0.269       (1=430656  0=1169352)  [111120]
+   PP1-1 = 0.269       (1=53856  0=146145)  [13654]
+   PP1-2 = 0.268       (1=53549  0=146452)  [13920]
+   PP1-3 = 0.271       (1=54225  0=145776)  [13952]
+   PP1-4 = 0.260       (1=52027  0=147974)  [13449]
+   PP1-5 = 0.271       (1=54163  0=145838)  [13672]
+   PP1-6 = 0.267       (1=53304  0=146697)  [13865]
+   PP1-7 = 0.269       (1=53704  0=146297)  [13703]
+   PP1-8 = 0.265       (1=52927  0=147074)  [13508]
+   PP1   = 0.267       (1=427755  0=1172253)  [109723]
 
-  LOD1-1 = -0.436       ACT = 18.722          Ne = 10682.805
-  LOD1-2 = -0.428       ACT = 18.654          Ne = 10721.814
-  LOD1-3 = -0.435       ACT = 17.719          Ne = 11287.589
-  LOD1-4 = -0.431       ACT = 18.281          Ne = 10940.361
-  LOD1-5 = -0.435       ACT = 17.910          Ne = 11167.271
-  LOD1-6 = -0.439       ACT = 19.236          Ne = 10397.244
-  LOD1-7 = -0.434       ACT = 18.878          Ne = 10594.525
-  LOD1-8 = -0.433       ACT = 18.415          Ne = 10861.023
-  LOD1   = -0.434       ACT = 18.270          Ne = 87573.990
+  LOD1-1 = -0.434       ACT = 18.603          Ne = 10751.201
+  LOD1-2 = -0.437       ACT = 18.326          Ne = 10913.389
+  LOD1-3 = -0.429       ACT = 18.647          Ne = 10725.822
+  LOD1-4 = -0.454       ACT = 18.666          Ne = 10714.456
+  LOD1-5 = -0.430       ACT = 19.905          Ne = 10047.655
+  LOD1-6 = -0.440       ACT = 18.835          Ne = 10618.472
+  LOD1-7 = -0.435       ACT = 19.105          Ne = 10468.646
+  LOD1-8 = -0.444       ACT = 18.181          Ne = 11000.820
+  LOD1   = -0.438       ACT = 18.690          Ne = 85608.930
 
   RNe1 = inf
 
 
 22/22:
 Caenorhabditis Candida Cryptosporidium Dictyostelium Drosophila Euglena Halorubrum Homo Methanococcus Nanoarchaeum Nosema Pyrobaculum Sulfolobus Thermococcus Thermoplasma Zea | Agrobacterium Bacillus Campylobacter Escherichia Flavobacterium Methanospirillum Methanothermobacter Thermotoga Thermus 
-   PP1-1 = 0.276       (1=55139  0=144862)  [21867]
-   PP1-2 = 0.273       (1=54598  0=145403)  [21570]
-   PP1-3 = 0.273       (1=54662  0=145339)  [21470]
-   PP1-4 = 0.244       (1=48892  0=151109)  [19354]
-   PP1-5 = 0.249       (1=49878  0=150123)  [20004]
-   PP1-6 = 0.261       (1=52239  0=147762)  [20737]
-   PP1-7 = 0.263       (1=52654  0=147347)  [20800]
-   PP1-8 = 0.261       (1=52271  0=147730)  [20679]
-   PP1   = 0.263       (1=420333  0=1179675)  [166481]
+   PP1-1 = 0.247       (1=49478  0=150523)  [19605]
+   PP1-2 = 0.256       (1=51230  0=148771)  [20483]
+   PP1-3 = 0.260       (1=51957  0=148044)  [20777]
+   PP1-4 = 0.271       (1=54299  0=145702)  [21787]
+   PP1-5 = 0.273       (1=54623  0=145378)  [21642]
+   PP1-6 = 0.272       (1=54317  0=145684)  [21786]
+   PP1-7 = 0.265       (1=53090  0=146911)  [21021]
+   PP1-8 = 0.260       (1=52077  0=147924)  [20731]
+   PP1   = 0.263       (1=421071  0=1178937)  [167832]
 
-  LOD1-1 = -0.419       ACT = 81.745          Ne = 2446.642
-  LOD1-2 = -0.425       ACT = 82.192          Ne = 2433.346
-  LOD1-3 = -0.425       ACT = 101.869          Ne = 1963.312
-  LOD1-4 = -0.490       ACT = 104.682          Ne = 1910.563
-  LOD1-5 = -0.479       ACT = 106.383          Ne = 1880.001
-  LOD1-6 = -0.452       ACT = 98.917          Ne = 2021.908
-  LOD1-7 = -0.447       ACT = 126.460          Ne = 1581.534
-  LOD1-8 = -0.451       ACT = 115.035          Ne = 1738.617
-  LOD1   = -0.448       ACT = 103.492          Ne = 15460.250
+  LOD1-1 = -0.483       ACT = 113.121          Ne = 1768.032
+  LOD1-2 = -0.463       ACT = 104.546          Ne = 1913.039
+  LOD1-3 = -0.455       ACT = 79.405          Ne = 2518.745
+  LOD1-4 = -0.429       ACT = 66.483          Ne = 3008.310
+  LOD1-5 = -0.425       ACT = 72.020          Ne = 2777.014
+  LOD1-6 = -0.428       ACT = 70.962          Ne = 2818.423
+  LOD1-7 = -0.442       ACT = 79.665          Ne = 2510.512
+  LOD1-8 = -0.453       ACT = 87.985          Ne = 2273.126
+  LOD1   = -0.447       ACT = 85.747          Ne = 18659.624
 
   RNe1 = inf
 
 
-ASDSF[min=0.100] = 0.004     MSDSF = 0.019
-min Ne = 5727.588    (partition = 18)
+ASDSF[min=0.100] = 0.004     MSDSF = 0.017
+min Ne = 6698.038    (partition = 18)
