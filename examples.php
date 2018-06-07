@@ -33,8 +33,8 @@
 	    % bali-phy <a href="Examples/48-fsa.fasta">48-fsa.fasta</a> --smodel gtr+Rates.gamma[4]+inv</li>
 	  <li><a href="Examples/Globins/few-lg08-Rates.free5">Globins - 28 sequences</a><br/>
 	    % bali-phy <a href="Examples/few-globins.fasta">few-globins.fasta</a> --smodel lg08+Rates.free[n=5]</li>
-	  <li><a href="Examples/ITS/ITS1-TN-DP3-2">Transcribed Spacers + 5.8S - 68 sequences</a><br/>
-	    % bali-phy -c <a href="Examples/8.script.html">8.script</a></li>
+	  <li><a href="Examples/ITS/ITS12-tn93-free3">ITS1 + 5.8S + ITS2 - 68 sequences</a><br/>
+	    % bali-phy -c <a href="Examples/ITS.txt">ITS.txt</a> --name ITS-3.1.5</li>
 	</ol>
       </div>
       </td>  
