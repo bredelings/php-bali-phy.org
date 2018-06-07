@@ -657,12 +657,7 @@
 </ol>
 <p><b>Statistics:</b></p><table class="backlit2"><tr><td><b>scalar burnin</b></td><td>546</td></tr><tr><td><b>scalar ESS</b></td><td>6591</td></tr><tr><td><b title="Effective Sample Size for bit-vectors of partition support (smallest)">topological ESS</b></td><td>1400.757</td></tr><tr><td><b title="Average Standard Deviation of Split Frequencies">ASDSF</b></td><td>0.002</td></tr><tr><td><b title="Maximum Standard Deviation of Split Frequencies">MSDSF</b></td><td>0.016
 </td></tr><tr><td><b>PSRF CI80%</b></td><td>1.001</td></tr><tr><td><b>PSRF RCF</b></td><td>1.006</td></tr></table>
-    </td>
-    <td>
-      <img src="c50.SRQ.png" alt="SRQ plot for supprt of 50% consensus tree."/>
-      <img src="partitions.SRQ.png" alt="SRQ plot for support of each partition."/>
-    </td>
-</tr></table><table style="width:100%;clear:both"><tr><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Projection of RF distances for the first 3 chains (<a href="https://doi.org/10.1080/10635150590946961">Hillis et al 2005</a>)</h4><img src="tree-1-2-3.svg" class="svg-image" width="90%" /><a href='tree-1-2-3.points.html'>3D</a></td><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Variation of split PPs across chains (<a href="https://doi.org/10.1080/10635150600812544">Beiko et al 2006</a>)</h4><img src="convergence1-PP.svg" class="svg-image" width="90%" /><br/><br/><br/><br/><img src="convergence2-PP.svg" class="svg-image" width="90%" /></td></tr></table><br/><hr/><br/>
+</td><td><img src="partitions.SRQ.png" alt="SRQ plot for support of each partition."/><img src="c50.SRQ.png" alt="SRQ plot for supprt of 50% consensus tree."/></td></tr></table><table style="width:100%;clear:both"><tr><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Projection of RF distances for the first 3 chains (<a href="https://doi.org/10.1080/10635150590946961">Hillis et al 2005</a>)</h4><img src="tree-1-2-3.svg" class="svg-image" width="90%" /><a href='tree-1-2-3.points.html'>3D</a></td><td style="width:40%;vertical-align:top"><h4 style="text-align:center">Variation of split PPs across chains (<a href="https://doi.org/10.1080/10635150600812544">Beiko et al 2006</a>)</h4><img src="convergence1-PP.svg" class="svg-image" width="90%" /><br/><br/><br/><br/><img src="convergence2-PP.svg" class="svg-image" width="90%" /></td></tr></table><br/><hr/><br/>
 <h2><a class="anchor" name="analysis"></a>Analysis</h2>
 <p><b>command line</b>: bali-phy -c ITS.txt --name ITS-3.1.5</br>
 <b>directory</b>: /gpfs/fs0/data/wraycompute/br51/Work/3.1</br>

@@ -6,1659 +6,1659 @@
 # Loading trees from 'ITS-3.1.5-6/C1.trees'...
 # Loading trees from 'ITS-3.1.5-7/C1.trees'...
 # Loading trees from 'ITS-3.1.5-8/C1.trees'...
-# [ seed = 12282221623561073466    pseudocount = 1    blocksize = 2192 ]
+# [ seed = 9522469122186902383    pseudocount = 1    blocksize = 2192 ]
 
 Support for the different predicates: 
 
 1/66:
 Cignea353950 Cignea360 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xelegan278753Ant 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 2/66:
 Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 3/66:
 Cbiatorina13685 Cbiatorina267 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13689 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 4/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cdecipiens13692 Cdecipiens342b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola334 Csaxicola338 Csaxicola339 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xelegan278753Ant | Carnoldii285 Carnoldii306 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cignea353950 Cignea360 Cnana13717b Csaxicola299 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 5/66:
 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 6/66:
 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cdecipiens13692 Cdecipiens342b Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicolassppul373 Csaxpul13713 Fschistidii245 Fschistidii279881 Fschistidii279882 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 7/66:
 Fschistidii245 Fschistidii279881 Fschistidii279882 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 8/66:
 Cignea353950 Cignea360 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 9/66:
 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 10/66:
 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicolassppul373 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 11/66:
 Csaxglom312 Csaxglom340 Csaxglom342 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 12/66:
 Cbiatorinoides349 Csaxicola365 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982961  0=0)  [0 !!!]
+   PP1   = 1.000       (1=1035082  0=0)  [0 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 5.089
+  LOD1   = 5.112
 
   RNe1 = -nan
 
 
 13/66:
 Cbiatorinoides13716 Cbiatorinoides143 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13717 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123638  0=0)  [0 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122209  0=3)  [1 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130410  0=0)  [0 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129660  0=3)  [1 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109572  0=1)  [1 !!!]
-   PP1   = 1.000       (1=982957  0=4)  [2 !!!]
+   PP1   = 1.000       (1=1035078  0=4)  [2 !!!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 5.064
-  LOD1-3 = 5.092
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 4.485
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 5.088
+  LOD1-3 = 5.115
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 4.511
+  LOD1-7 = 5.100
   LOD1-8 = 4.739
-  LOD1   = 4.913
+  LOD1   = 4.936
 
   RNe1 = inf
 
 
 14/66:
 Carnoldii293 Carnoldii301 Carnoldii353952 Carnoldii370 | Carnoldii285 Carnoldii291 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148625  0=1)  [1 !!!]
-   PP1-2 = 1.000       (1=115767  0=0)  [0 !!!]
-   PP1-3 = 1.000       (1=123636  0=2)  [1 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123719  0=2)  [1 !!!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158056  0=1)  [1 !!!]
+   PP1-2 = 1.000       (1=122548  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=130408  0=2)  [1 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131496  0=2)  [1 !!!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109573  0=0)  [0 !!!]
-   PP1   = 1.000       (1=982956  0=5)  [3 !!]
+   PP1   = 1.000       (1=1035077  0=5)  [3 !!]
 
-  LOD1-1 = 4.871
-  LOD1-2 = 5.064
-  LOD1-3 = 4.615
-  LOD1-4 = 5.082
-  LOD1-5 = 4.615
-  LOD1-6 = 5.087
-  LOD1-7 = 5.075
+  LOD1-1 = 4.898
+  LOD1-2 = 5.088
+  LOD1-3 = 4.638
+  LOD1-4 = 5.105
+  LOD1-5 = 4.642
+  LOD1-6 = 5.113
+  LOD1-7 = 5.100
   LOD1-8 = 5.040
-  LOD1   = 4.879
+  LOD1   = 4.901
 
   RNe1 = inf
 
 
 15/66:
 Cdecipiens13692 Cdecipiens342b | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148626  0=0)  [0 !!!]
-   PP1-2 = 1.000       (1=115764  0=3)  [2 !!!]
-   PP1-3 = 1.000       (1=123635  0=3)  [1 !!!]
-   PP1-4 = 1.000       (1=120650  0=0)  [0 !!!]
-   PP1-5 = 1.000       (1=123721  0=0)  [0 !!!]
-   PP1-6 = 1.000       (1=122211  0=1)  [1 !!!]
-   PP1-7 = 1.000       (1=118774  0=0)  [0 !!!]
+   PP1-1 = 1.000       (1=158057  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=122545  0=3)  [2 !!!]
+   PP1-3 = 1.000       (1=130407  0=3)  [1 !!!]
+   PP1-4 = 1.000       (1=127358  0=0)  [0 !!!]
+   PP1-5 = 1.000       (1=131498  0=0)  [0 !!!]
+   PP1-6 = 1.000       (1=129662  0=1)  [1 !!!]
+   PP1-7 = 1.000       (1=125975  0=0)  [0 !!!]
    PP1-8 = 1.000       (1=109572  0=1)  [1 !!!]
-   PP1   = 1.000       (1=982953  0=8)  [5 !!]
+   PP1   = 1.000       (1=1035074  0=8)  [5 !!]
 
-  LOD1-1 = 5.172
-  LOD1-2 = 4.462
-  LOD1-3 = 4.490
-  LOD1-4 = 5.082
-  LOD1-5 = 5.092
-  LOD1-6 = 4.786
-  LOD1-7 = 5.075
+  LOD1-1 = 5.199
+  LOD1-2 = 4.486
+  LOD1-3 = 4.513
+  LOD1-4 = 5.105
+  LOD1-5 = 5.119
+  LOD1-6 = 4.812
+  LOD1-7 = 5.100
   LOD1-8 = 4.739
-  LOD1   = 4.788
+  LOD1   = 4.811
 
   RNe1 = inf
 
 
 16/66:
 Carnoldii376 Carnoldiitr277 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii383 Carnoldii464 Carnoldiigr276 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148614  0=12)  [10 !!]
-   PP1-2 = 1.000       (1=115765  0=2)  [2 !!!]
-   PP1-3 = 1.000       (1=123637  0=1)  [1 !!!]
-   PP1-4 = 1.000       (1=120648  0=2)  [1 !!!]
-   PP1-5 = 1.000       (1=123718  0=3)  [3 !!]
-   PP1-6 = 1.000       (1=122206  0=6)  [6 !!]
-   PP1-7 = 1.000       (1=118768  0=6)  [5 !!]
+   PP1-1 = 1.000       (1=158045  0=12)  [10 !!]
+   PP1-2 = 1.000       (1=122546  0=2)  [2 !!!]
+   PP1-3 = 1.000       (1=130409  0=1)  [1 !!!]
+   PP1-4 = 1.000       (1=127356  0=2)  [1 !!!]
+   PP1-5 = 1.000       (1=131495  0=3)  [3 !!]
+   PP1-6 = 1.000       (1=129657  0=6)  [6 !!]
+   PP1-7 = 1.000       (1=125969  0=6)  [5 !!]
    PP1-8 = 1.000       (1=109572  0=1)  [1 !!!]
-   PP1   = 1.000       (1=982928  0=33)  [29]
+   PP1   = 1.000       (1=1035049  0=33)  [29]
 
-  LOD1-1 = 4.058       ACT = 1.333          Ne = 111480.565
-  LOD1-2 = 4.586
-  LOD1-3 = 4.791
-  LOD1-4 = 4.604
-  LOD1-5 = 4.490
-  LOD1-6 = 4.242
-  LOD1-7 = 4.230
+  LOD1-1 = 4.085       ACT = 1.333          Ne = 118553.815
+  LOD1-2 = 4.611
+  LOD1-3 = 4.814
+  LOD1-4 = 4.628
+  LOD1-5 = 4.517
+  LOD1-6 = 4.268
+  LOD1-7 = 4.255
   LOD1-8 = 4.739
-  LOD1   = 4.380       ACT = 1.242          Ne = 791201.152
+  LOD1   = 4.402       ACT = 1.242          Ne = 833152.200
 
   RNe1 = inf
 
 
 17/66:
 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 
-   PP1-1 = 1.000       (1=148620  0=6)  [6 !!]
-   PP1-2 = 1.000       (1=115761  0=6)  [6 !!]
-   PP1-3 = 1.000       (1=123632  0=6)  [6 !!]
-   PP1-4 = 1.000       (1=120645  0=5)  [5 !!]
-   PP1-5 = 1.000       (1=123716  0=5)  [5 !!]
-   PP1-6 = 1.000       (1=122212  0=0)  [0 !!!]
-   PP1-7 = 1.000       (1=118770  0=4)  [4 !!]
+   PP1-1 = 1.000       (1=158051  0=6)  [6 !!]
+   PP1-2 = 1.000       (1=122541  0=7)  [7 !!]
+   PP1-3 = 1.000       (1=130404  0=6)  [6 !!]
+   PP1-4 = 1.000       (1=127352  0=6)  [6 !!]
+   PP1-5 = 1.000       (1=131493  0=5)  [5 !!]
+   PP1-6 = 1.000       (1=129663  0=0)  [0 !!!]
+   PP1-7 = 1.000       (1=125971  0=4)  [4 !!]
    PP1-8 = 1.000       (1=109563  0=10)  [10 !!]
-   PP1   = 1.000       (1=982919  0=42)  [42]
+   PP1   = 1.000       (1=1035038  0=44)  [44]
 
-  LOD1-1 = 4.327
-  LOD1-2 = 4.218
-  LOD1-3 = 4.247
-  LOD1-4 = 4.303
-  LOD1-5 = 4.314
-  LOD1-6 = 5.087
-  LOD1-7 = 4.376
+  LOD1-1 = 4.354
+  LOD1-2 = 4.185       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = 4.270
+  LOD1-4 = 4.260
+  LOD1-5 = 4.341
+  LOD1-6 = 5.113
+  LOD1-7 = 4.401
   LOD1-8 = 3.998       ACT = 1.000          Ne = 109573.000
-  LOD1   = 4.294       ACT = 1.000          Ne = 982961.000
+  LOD1   = 4.299       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 18/66:
 Carnoldii306 Csaxicola353951 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148620  0=6)  [5 !!]
-   PP1-2 = 1.000       (1=115764  0=3)  [3 !!]
-   PP1-3 = 1.000       (1=123632  0=6)  [6 !!]
-   PP1-4 = 1.000       (1=120645  0=5)  [5 !!]
-   PP1-5 = 1.000       (1=123716  0=5)  [4 !!]
-   PP1-6 = 1.000       (1=122205  0=7)  [7 !!]
-   PP1-7 = 1.000       (1=118767  0=7)  [4 !!]
+   PP1-1 = 1.000       (1=158050  0=7)  [6 !!]
+   PP1-2 = 1.000       (1=122545  0=3)  [3 !!]
+   PP1-3 = 1.000       (1=130403  0=7)  [7 !!]
+   PP1-4 = 1.000       (1=127353  0=5)  [5 !!]
+   PP1-5 = 1.000       (1=131493  0=5)  [4 !!]
+   PP1-6 = 1.000       (1=129656  0=7)  [7 !!]
+   PP1-7 = 1.000       (1=125968  0=7)  [4 !!]
    PP1-8 = 1.000       (1=109566  0=7)  [5 !!]
-   PP1   = 1.000       (1=982915  0=46)  [39]
+   PP1   = 1.000       (1=1035034  0=48)  [41]
 
-  LOD1-1 = 4.327
-  LOD1-2 = 4.462
-  LOD1-3 = 4.247
-  LOD1-4 = 4.303
-  LOD1-5 = 4.314
-  LOD1-6 = 4.184       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = 4.172
+  LOD1-1 = 4.296
+  LOD1-2 = 4.486
+  LOD1-3 = 4.212       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = 4.327
+  LOD1-5 = 4.341
+  LOD1-6 = 4.210       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = 4.197
   LOD1-8 = 4.137
-  LOD1   = 4.260       ACT = 1.435          Ne = 685173.435
+  LOD1   = 4.267       ACT = 1.417          Ne = 730731.564
 
   RNe1 = inf
 
 
 19/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Cbiatorinoides28T 
-   PP1-1 = 1.000       (1=148605  0=21)  [18 !]
-   PP1-2 = 1.000       (1=115754  0=13)  [13 !]
-   PP1-3 = 1.000       (1=123621  0=17)  [17 !]
-   PP1-4 = 1.000       (1=120627  0=23)  [20 !]
-   PP1-5 = 1.000       (1=123693  0=28)  [25 !]
-   PP1-6 = 1.000       (1=122187  0=25)  [22 !]
-   PP1-7 = 1.000       (1=118747  0=27)  [23 !]
+   PP1-1 = 1.000       (1=158035  0=22)  [19 !]
+   PP1-2 = 1.000       (1=122534  0=14)  [14 !]
+   PP1-3 = 1.000       (1=130393  0=17)  [17 !]
+   PP1-4 = 1.000       (1=127334  0=24)  [21 !]
+   PP1-5 = 1.000       (1=131469  0=29)  [26]
+   PP1-6 = 1.000       (1=129637  0=26)  [23 !]
+   PP1-7 = 1.000       (1=125945  0=30)  [26]
    PP1-8 = 1.000       (1=109555  0=18)  [16 !]
-   PP1   = 1.000       (1=982789  0=172)  [154]
+   PP1   = 1.000       (1=1034902  0=180)  [162]
 
-  LOD1-1 = 3.830       ACT = 1.285          Ne = 115619.612
-  LOD1-2 = 3.917       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = 3.837       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = 3.701       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = 3.630       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = 3.672       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = 3.627       ACT = 1.444          Ne = 82273.919
+  LOD1-1 = 3.837       ACT = 1.272          Ne = 124210.942
+  LOD1-2 = 3.912       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = 3.860       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = 3.707       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = 3.642       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = 3.681       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = 3.609       ACT = 1.399          Ne = 90037.021
   LOD1-8 = 3.761       ACT = 1.000          Ne = 109573.000
-  LOD1   = 3.737       ACT = 1.244          Ne = 790460.848
+  LOD1   = 3.741       ACT = 1.233          Ne = 839701.543
 
   RNe1 = inf
 
 
 20/66:
 Csaxicola13696 Csaxicola144 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13697 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148589  0=37)  [36]
-   PP1-2 = 1.000       (1=115738  0=29)  [27]
-   PP1-3 = 1.000       (1=123611  0=27)  [25 !]
-   PP1-4 = 1.000       (1=120629  0=21)  [20 !]
-   PP1-5 = 1.000       (1=123703  0=18)  [18 !]
-   PP1-6 = 1.000       (1=122180  0=32)  [28]
-   PP1-7 = 1.000       (1=118756  0=18)  [18 !]
+   PP1-1 = 1.000       (1=158020  0=37)  [36]
+   PP1-2 = 1.000       (1=122518  0=30)  [28]
+   PP1-3 = 1.000       (1=130383  0=27)  [25 !]
+   PP1-4 = 1.000       (1=127337  0=21)  [20 !]
+   PP1-5 = 1.000       (1=131480  0=18)  [18 !]
+   PP1-6 = 1.000       (1=129629  0=34)  [30]
+   PP1-7 = 1.000       (1=125957  0=18)  [18 !]
    PP1-8 = 1.000       (1=109556  0=17)  [17 !]
-   PP1   = 1.000       (1=982762  0=199)  [189]
+   PP1   = 1.000       (1=1034880  0=202)  [192]
 
-  LOD1-1 = 3.592       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = 3.586       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = 3.645       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = 3.739       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = 3.814       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = 3.568       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = 3.796       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = 3.619       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = 3.597       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = 3.668       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = 3.763       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = 3.840       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = 3.569       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = 3.821       ACT = 1.000          Ne = 125975.000
   LOD1-8 = 3.784       ACT = 1.000          Ne = 109573.000
-  LOD1   = 3.676       ACT = 1.000          Ne = 982961.000
+  LOD1   = 3.693       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 21/66:
 Fschistidii279881 Fschistidii279882 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148578  0=48)  [45]
-   PP1-2 = 1.000       (1=115735  0=32)  [31]
-   PP1-3 = 1.000       (1=123598  0=40)  [39]
-   PP1-4 = 1.000       (1=120617  0=33)  [33]
-   PP1-5 = 1.000       (1=123679  0=42)  [42]
-   PP1-6 = 1.000       (1=122174  0=38)  [38]
-   PP1-7 = 1.000       (1=118736  0=38)  [38]
+   PP1-1 = 1.000       (1=158009  0=48)  [45]
+   PP1-2 = 1.000       (1=122516  0=32)  [31]
+   PP1-3 = 1.000       (1=130370  0=40)  [39]
+   PP1-4 = 1.000       (1=127324  0=34)  [34]
+   PP1-5 = 1.000       (1=131454  0=44)  [44]
+   PP1-6 = 1.000       (1=129625  0=38)  [38]
+   PP1-7 = 1.000       (1=125935  0=40)  [40]
    PP1-8 = 1.000       (1=109540  0=33)  [32]
-   PP1   = 1.000       (1=982657  0=304)  [298]
+   PP1   = 1.000       (1=1034773  0=309)  [303]
 
-  LOD1-1 = 3.482       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = 3.545       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = 3.479       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = 3.550       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = 3.459       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = 3.496       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = 3.484       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = 3.508       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = 3.570       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = 3.502       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = 3.561       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = 3.466       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = 3.522       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = 3.487       ACT = 1.000          Ne = 125975.000
   LOD1-8 = 3.508       ACT = 1.000          Ne = 109573.000
-  LOD1   = 3.498       ACT = 1.000          Ne = 982961.000
+  LOD1   = 3.514       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 22/66:
 Csaxglom318 Csaxglom322 Csaxicola339 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148588  0=38)  [38]
-   PP1-2 = 1.000       (1=115731  0=36)  [36]
-   PP1-3 = 1.000       (1=123595  0=43)  [43]
-   PP1-4 = 1.000       (1=120610  0=40)  [39]
-   PP1-5 = 1.000       (1=123671  0=50)  [49]
-   PP1-6 = 1.000       (1=122162  0=50)  [48]
-   PP1-7 = 1.000       (1=118734  0=40)  [40]
+   PP1-1 = 1.000       (1=158016  0=41)  [41]
+   PP1-2 = 1.000       (1=122510  0=38)  [38]
+   PP1-3 = 1.000       (1=130364  0=46)  [46]
+   PP1-4 = 1.000       (1=127314  0=44)  [43]
+   PP1-5 = 1.000       (1=131443  0=55)  [54]
+   PP1-6 = 1.000       (1=129612  0=51)  [49]
+   PP1-7 = 1.000       (1=125935  0=40)  [40]
    PP1-8 = 1.000       (1=109523  0=50)  [48]
-   PP1   = 1.000       (1=982614  0=347)  [341]
+   PP1   = 1.000       (1=1034717  0=365)  [359]
 
-  LOD1-1 = 3.581       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = 3.495       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = 3.449       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = 3.469       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = 3.385       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = 3.379       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = 3.462       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = 3.575       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = 3.497       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = 3.443       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = 3.452       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = 3.371       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = 3.397       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = 3.487       ACT = 1.000          Ne = 125975.000
   LOD1-8 = 3.332       ACT = 1.000          Ne = 109573.000
-  LOD1   = 3.442       ACT = 1.000          Ne = 982961.000
+  LOD1   = 3.443       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 23/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola334 Csaxicola338 Csaxicola339 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xelegan278753Ant | Carnoldii285 Carnoldii306 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 1.000       (1=148553  0=73)  [61]
-   PP1-2 = 0.999       (1=115688  0=79)  [62]
-   PP1-3 = 1.000       (1=123582  0=56)  [50]
-   PP1-4 = 0.999       (1=120572  0=78)  [63]
-   PP1-5 = 0.999       (1=123625  0=96)  [70]
-   PP1-6 = 0.999       (1=122151  0=61)  [52]
-   PP1-7 = 0.999       (1=118713  0=61)  [50]
+   PP1-1 = 0.999       (1=157976  0=81)  [66]
+   PP1-2 = 0.999       (1=122457  0=91)  [68]
+   PP1-3 = 1.000       (1=130349  0=61)  [55]
+   PP1-4 = 0.999       (1=127277  0=81)  [66]
+   PP1-5 = 0.999       (1=131398  0=100)  [73]
+   PP1-6 = 1.000       (1=129600  0=63)  [54]
+   PP1-7 = 0.999       (1=125911  0=64)  [53]
    PP1-8 = 1.000       (1=109527  0=46)  [40]
-   PP1   = 0.999       (1=982411  0=550)  [448]
+   PP1   = 0.999       (1=1034495  0=587)  [475]
 
-  LOD1-1 = 3.303       ACT = 1.382          Ne = 107560.685
-  LOD1-2 = 3.160       ACT = 1.704          Ne = 67942.717
-  LOD1-3 = 3.336       ACT = 1.213          Ne = 101887.281
-  LOD1-4 = 3.184       ACT = 1.485          Ne = 81250.616
-  LOD1-5 = 3.105       ACT = 1.541          Ne = 80310.226
-  LOD1-6 = 3.295       ACT = 1.294          Ne = 94428.131
-  LOD1-7 = 3.282       ACT = 1.457          Ne = 81508.287
+  LOD1-1 = 3.285       ACT = 1.418          Ne = 111471.005
+  LOD1-2 = 3.124       ACT = 1.896          Ne = 64640.628
+  LOD1-3 = 3.323       ACT = 1.196          Ne = 109049.502
+  LOD1-4 = 3.191       ACT = 1.467          Ne = 86819.734
+  LOD1-5 = 3.114       ACT = 1.539          Ne = 85449.738
+  LOD1-6 = 3.306       ACT = 1.285          Ne = 100914.236
+  LOD1-7 = 3.287       ACT = 1.436          Ne = 87745.060
   LOD1-8 = 3.367       ACT = 1.260          Ne = 86952.932
-  LOD1   = 3.246       ACT = 1.483          Ne = 662789.176
+  LOD1   = 3.240       ACT = 1.510          Ne = 685378.753
 
   RNe1 = inf
 
 
 24/66:
 Cignea353950 Cignea360 Xcandelaria8444 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.999       (1=148511  0=115)  [66]
-   PP1-2 = 0.999       (1=115658  0=109)  [58]
-   PP1-3 = 0.999       (1=123552  0=86)  [52]
-   PP1-4 = 1.000       (1=120610  0=40)  [30]
-   PP1-5 = 1.000       (1=123661  0=60)  [40]
-   PP1-6 = 0.999       (1=122145  0=67)  [46]
-   PP1-7 = 0.999       (1=118704  0=70)  [49]
+   PP1-1 = 0.999       (1=157927  0=130)  [70]
+   PP1-2 = 0.999       (1=122437  0=111)  [60]
+   PP1-3 = 0.999       (1=130320  0=90)  [53]
+   PP1-4 = 1.000       (1=127316  0=42)  [32]
+   PP1-5 = 0.999       (1=131433  0=65)  [45]
+   PP1-6 = 0.999       (1=129587  0=76)  [50]
+   PP1-7 = 0.999       (1=125903  0=72)  [51]
    PP1-8 = 0.999       (1=109513  0=60)  [43]
-   PP1   = 0.999       (1=982354  0=607)  [384]
+   PP1   = 0.999       (1=1034436  0=646)  [404]
 
-  LOD1-1 = 3.107       ACT = 3.338          Ne = 44530.385
-  LOD1-2 = 3.022       ACT = 3.990          Ne = 29016.645
-  LOD1-3 = 3.152       ACT = 2.599          Ne = 47574.453
-  LOD1-4 = 3.469       ACT = 1.749          Ne = 68985.021
-  LOD1-5 = 3.307       ACT = 2.131          Ne = 58056.773
-  LOD1-6 = 3.254       ACT = 2.249          Ne = 54340.549
-  LOD1-7 = 3.223       ACT = 2.082          Ne = 57057.551
+  LOD1-1 = 3.081       ACT = 4.090          Ne = 38649.027
+  LOD1-2 = 3.039       ACT = 3.936          Ne = 31134.038
+  LOD1-3 = 3.156       ACT = 2.661          Ne = 49009.083
+  LOD1-4 = 3.471       ACT = 1.808          Ne = 70448.339
+  LOD1-5 = 3.299       ACT = 2.075          Ne = 63386.374
+  LOD1-6 = 3.226       ACT = 2.390          Ne = 54257.832
+  LOD1-7 = 3.237       ACT = 2.052          Ne = 61403.336
   LOD1-8 = 3.254       ACT = 1.997          Ne = 54861.263
-  LOD1   = 3.203       ACT = 2.749          Ne = 357554.349
+  LOD1   = 3.199       ACT = 2.908          Ne = 355983.783
 
   RNe1 = inf
 
 
 25/66:
 Cclauzadeana21562 Csaxicola299 Csaxicola372 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.998       (1=148390  0=236)  [173]
-   PP1-2 = 0.999       (1=115597  0=170)  [137]
-   PP1-3 = 0.998       (1=123405  0=233)  [188]
-   PP1-4 = 0.998       (1=120464  0=186)  [143]
-   PP1-5 = 0.998       (1=123520  0=201)  [151]
-   PP1-6 = 0.998       (1=122017  0=195)  [145]
-   PP1-7 = 0.998       (1=118583  0=191)  [144]
+   PP1-1 = 0.998       (1=157798  0=259)  [191]
+   PP1-2 = 0.999       (1=122374  0=174)  [140]
+   PP1-3 = 0.998       (1=130164  0=246)  [199]
+   PP1-4 = 0.998       (1=127162  0=196)  [150]
+   PP1-5 = 0.998       (1=131293  0=205)  [154]
+   PP1-6 = 0.998       (1=129455  0=208)  [157]
+   PP1-7 = 0.998       (1=125781  0=194)  [147]
    PP1-8 = 0.998       (1=109399  0=174)  [145]
-   PP1   = 0.998       (1=981375  0=1586)  [1226]
+   PP1   = 0.998       (1=1033426  0=1656)  [1283]
 
-  LOD1-1 = 2.797       ACT = 3.206          Ne = 46359.462
-  LOD1-2 = 2.830       ACT = 2.729          Ne = 42419.046
-  LOD1-3 = 2.722       ACT = 2.990          Ne = 41356.236
-  LOD1-4 = 2.809       ACT = 3.320          Ne = 36341.265
-  LOD1-5 = 2.786       ACT = 2.905          Ne = 42587.779
-  LOD1-6 = 2.794       ACT = 2.713          Ne = 45052.845
-  LOD1-7 = 2.791       ACT = 3.592          Ne = 33062.622
+  LOD1-1 = 2.783       ACT = 3.255          Ne = 48554.028
+  LOD1-2 = 2.845       ACT = 2.701          Ne = 45368.157
+  LOD1-3 = 2.722       ACT = 3.051          Ne = 42742.867
+  LOD1-4 = 2.810       ACT = 3.414          Ne = 37307.557
+  LOD1-5 = 2.804       ACT = 2.879          Ne = 45675.154
+  LOD1-6 = 2.792       ACT = 2.640          Ne = 49106.517
+  LOD1-7 = 2.810       ACT = 3.554          Ne = 35448.255
   LOD1-8 = 2.796       ACT = 1.823          Ne = 60095.429
-  LOD1   = 2.789       ACT = 2.948          Ne = 333450.509
+  LOD1   = 2.793       ACT = 2.945          Ne = 351443.867
 
   RNe1 = inf
 
 
 26/66:
 Csaxglom318 Csaxglom322 Csaxglom323 Csaxicola339 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.996       (1=148061  0=565)  [474]
-   PP1-2 = 0.996       (1=115306  0=461)  [390]
-   PP1-3 = 0.996       (1=123163  0=475)  [391]
-   PP1-4 = 0.996       (1=120203  0=447)  [374]
-   PP1-5 = 0.996       (1=123256  0=465)  [390]
-   PP1-6 = 0.996       (1=121748  0=464)  [390]
-   PP1-7 = 0.996       (1=118315  0=459)  [379]
+   PP1-1 = 0.996       (1=157449  0=608)  [511]
+   PP1-2 = 0.996       (1=122060  0=488)  [414]
+   PP1-3 = 0.996       (1=129912  0=498)  [410]
+   PP1-4 = 0.996       (1=126887  0=471)  [396]
+   PP1-5 = 0.996       (1=130999  0=499)  [417]
+   PP1-6 = 0.996       (1=129165  0=498)  [418]
+   PP1-7 = 0.996       (1=125483  0=492)  [408]
    PP1-8 = 0.996       (1=109135  0=438)  [364]
-   PP1   = 0.996       (1=979187  0=3774)  [3152]
+   PP1   = 0.996       (1=1031090  0=3992)  [3338]
 
-  LOD1-1 = 2.418       ACT = 1.470          Ne = 101108.151
-  LOD1-2 = 2.397       ACT = 1.359          Ne = 85210.210
-  LOD1-3 = 2.413       ACT = 1.412          Ne = 87548.667
-  LOD1-4 = 2.429       ACT = 1.358          Ne = 88852.138
-  LOD1-5 = 2.422       ACT = 1.416          Ne = 87398.651
-  LOD1-6 = 2.418       ACT = 1.370          Ne = 89216.166
-  LOD1-7 = 2.410       ACT = 1.405          Ne = 84512.681
+  LOD1-1 = 2.413       ACT = 1.457          Ne = 108502.394
+  LOD1-2 = 2.397       ACT = 1.350          Ne = 90761.279
+  LOD1-3 = 2.416       ACT = 1.412          Ne = 92332.151
+  LOD1-4 = 2.429       ACT = 1.347          Ne = 94519.271
+  LOD1-5 = 2.418       ACT = 1.433          Ne = 91760.044
+  LOD1-6 = 2.413       ACT = 1.368          Ne = 94812.141
+  LOD1-7 = 2.406       ACT = 1.397          Ne = 90187.060
   LOD1-8 = 2.396       ACT = 1.418          Ne = 77255.287
-  LOD1   = 2.413       ACT = 1.402          Ne = 700876.884
+  LOD1   = 2.411       ACT = 1.399          Ne = 739955.628
 
   RNe1 = inf
 
 
 27/66:
 Cbiatorina313 Cbiatorina321 Cbiatorina363 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina353953 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.992       (1=147447  0=1179)  [910]
-   PP1-2 = 0.992       (1=114872  0=895)  [660]
-   PP1-3 = 0.994       (1=122848  0=790)  [595]
-   PP1-4 = 0.992       (1=119738  0=912)  [683]
-   PP1-5 = 0.992       (1=122683  0=1038)  [782]
-   PP1-6 = 0.991       (1=121139  0=1073)  [810]
-   PP1-7 = 0.993       (1=117950  0=824)  [634]
+   PP1-1 = 0.992       (1=156788  0=1269)  [980]
+   PP1-2 = 0.993       (1=121636  0=912)  [671]
+   PP1-3 = 0.994       (1=129600  0=810)  [610]
+   PP1-4 = 0.993       (1=126414  0=944)  [711]
+   PP1-5 = 0.992       (1=130408  0=1090)  [820]
+   PP1-6 = 0.991       (1=128549  0=1114)  [844]
+   PP1-7 = 0.993       (1=125121  0=854)  [662]
    PP1-8 = 0.991       (1=108622  0=951)  [691]
-   PP1   = 0.992       (1=975299  0=7662)  [5765]
+   PP1   = 0.992       (1=1027138  0=7944)  [5989]
 
-  LOD1-1 = 2.097       ACT = 17.304          Ne = 8589.191
-  LOD1-2 = 2.108       ACT = 17.656          Ne = 6556.984
-  LOD1-3 = 2.191       ACT = 14.213          Ne = 8699.094
-  LOD1-4 = 2.118       ACT = 16.861          Ne = 7155.484
-  LOD1-5 = 2.072       ACT = 17.937          Ne = 6897.467
-  LOD1-6 = 2.052       ACT = 28.546          Ne = 4281.218
-  LOD1-7 = 2.155       ACT = 21.810          Ne = 5445.758
+  LOD1-1 = 2.092       ACT = 17.728          Ne = 8915.444
+  LOD1-2 = 2.125       ACT = 17.504          Ne = 7001.155
+  LOD1-3 = 2.204       ACT = 13.933          Ne = 9359.735
+  LOD1-4 = 2.126       ACT = 14.075          Ne = 9048.306
+  LOD1-5 = 2.077       ACT = 17.640          Ne = 7454.708
+  LOD1-6 = 2.062       ACT = 27.763          Ne = 4670.351
+  LOD1-7 = 2.165       ACT = 21.341          Ne = 5902.875
   LOD1-8 = 2.057       ACT = 17.789          Ne = 6159.633
-  LOD1   = 2.104       ACT = 20.805          Ne = 47245.358
+  LOD1   = 2.111       ACT = 20.662          Ne = 50095.465
 
   RNe1 = inf
 
 
 28/66:
 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.991       (1=147340  0=1286)  [1097]
-   PP1-2 = 0.991       (1=114730  0=1037)  [835]
-   PP1-3 = 0.992       (1=122593  0=1045)  [885]
-   PP1-4 = 0.992       (1=119688  0=962)  [857]
-   PP1-5 = 0.992       (1=122747  0=974)  [828]
-   PP1-6 = 0.991       (1=121173  0=1039)  [925]
-   PP1-7 = 0.992       (1=117856  0=918)  [825]
+   PP1-1 = 0.991       (1=156705  0=1352)  [1159]
+   PP1-2 = 0.991       (1=121446  0=1102)  [889]
+   PP1-3 = 0.992       (1=129307  0=1103)  [939]
+   PP1-4 = 0.992       (1=126353  0=1005)  [896]
+   PP1-5 = 0.992       (1=130464  0=1034)  [884]
+   PP1-6 = 0.992       (1=128569  0=1094)  [975]
+   PP1-7 = 0.992       (1=124970  0=1005)  [881]
    PP1-8 = 0.992       (1=108690  0=883)  [762]
-   PP1   = 0.992       (1=974817  0=8144)  [7014]
+   PP1   = 0.992       (1=1026504  0=8578)  [7385]
 
-  LOD1-1 = 2.059       ACT = 2.583          Ne = 57530.476
-  LOD1-2 = 2.043       ACT = 3.899          Ne = 29688.699
-  LOD1-3 = 2.069       ACT = 3.989          Ne = 30991.776
-  LOD1-4 = 2.094       ACT = 1.736          Ne = 69505.678
-  LOD1-5 = 2.100       ACT = 2.374          Ne = 52115.926
-  LOD1-6 = 2.066       ACT = 2.130          Ne = 57377.119
-  LOD1-7 = 2.108       ACT = 1.585          Ne = 74947.814
+  LOD1-1 = 2.064       ACT = 2.516          Ne = 62829.024
+  LOD1-2 = 2.042       ACT = 3.880          Ne = 31583.697
+  LOD1-3 = 2.069       ACT = 3.844          Ne = 33925.710
+  LOD1-4 = 2.099       ACT = 1.712          Ne = 74388.581
+  LOD1-5 = 2.101       ACT = 2.334          Ne = 56346.536
+  LOD1-6 = 2.070       ACT = 2.074          Ne = 62515.471
+  LOD1-7 = 2.094       ACT = 2.031          Ne = 62030.775
   LOD1-8 = 2.090       ACT = 1.983          Ne = 55255.660
-  LOD1   = 2.078       ACT = 2.579          Ne = 381168.838
+  LOD1   = 2.078       ACT = 2.582          Ne = 400915.867
 
   RNe1 = inf
 
 
 29/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 | Carnoldii285 Carnoldii306 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.971       (1=144357  0=4269)  [3662]
-   PP1-2 = 0.971       (1=112440  0=3327)  [2818]
-   PP1-3 = 0.972       (1=120183  0=3455)  [2966]
-   PP1-4 = 0.971       (1=117160  0=3490)  [2998]
-   PP1-5 = 0.971       (1=120083  0=3638)  [3089]
-   PP1-6 = 0.971       (1=118663  0=3549)  [3015]
-   PP1-7 = 0.973       (1=115541  0=3233)  [2783]
+   PP1-1 = 0.971       (1=153534  0=4523)  [3888]
+   PP1-2 = 0.971       (1=119023  0=3525)  [2982]
+   PP1-3 = 0.972       (1=126763  0=3647)  [3130]
+   PP1-4 = 0.971       (1=123698  0=3660)  [3149]
+   PP1-5 = 0.971       (1=127639  0=3859)  [3278]
+   PP1-6 = 0.971       (1=125922  0=3741)  [3175]
+   PP1-7 = 0.973       (1=122544  0=3431)  [2946]
    PP1-8 = 0.971       (1=106423  0=3150)  [2712]
-   PP1   = 0.971       (1=954850  0=28111)  [24043]
+   PP1   = 0.971       (1=1005546  0=29536)  [25260]
 
-  LOD1-1 = 1.529       ACT = 1.293          Ne = 114975.806
-  LOD1-2 = 1.529       ACT = 1.309          Ne = 88459.105
-  LOD1-3 = 1.541       ACT = 1.316          Ne = 93942.624
-  LOD1-4 = 1.526       ACT = 1.290          Ne = 93538.839
-  LOD1-5 = 1.519       ACT = 1.298          Ne = 95319.563
-  LOD1-6 = 1.524       ACT = 1.356          Ne = 90154.984
-  LOD1-7 = 1.553       ACT = 1.291          Ne = 92028.651
+  LOD1-1 = 1.531       ACT = 1.306          Ne = 121030.744
+  LOD1-2 = 1.528       ACT = 1.312          Ne = 93399.990
+  LOD1-3 = 1.541       ACT = 1.318          Ne = 98971.690
+  LOD1-4 = 1.529       ACT = 1.287          Ne = 98942.496
+  LOD1-5 = 1.519       ACT = 1.297          Ne = 101417.080
+  LOD1-6 = 1.527       ACT = 1.361          Ne = 95246.640
+  LOD1-7 = 1.553       ACT = 1.295          Ne = 97240.972
   LOD1-8 = 1.529       ACT = 1.279          Ne = 85691.025
-  LOD1   = 1.531       ACT = 1.321          Ne = 744167.560
+  LOD1   = 1.532       ACT = 1.323          Ne = 782418.347
 
   RNe1 = inf
 
 
 30/66:
 Csaxicola299 Csaxicola372 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.950       (1=141132  0=7494)  [6932]
-   PP1-2 = 0.950       (1=109987  0=5780)  [5337]
-   PP1-3 = 0.950       (1=117440  0=6198)  [5790]
-   PP1-4 = 0.951       (1=114690  0=5960)  [5543]
-   PP1-5 = 0.950       (1=117571  0=6150)  [5697]
-   PP1-6 = 0.950       (1=116108  0=6104)  [5638]
-   PP1-7 = 0.950       (1=112794  0=5980)  [5549]
+   PP1-1 = 0.950       (1=150093  0=7964)  [7377]
+   PP1-2 = 0.950       (1=116438  0=6110)  [5644]
+   PP1-3 = 0.950       (1=123875  0=6535)  [6109]
+   PP1-4 = 0.951       (1=121082  0=6276)  [5834]
+   PP1-5 = 0.950       (1=124918  0=6580)  [6079]
+   PP1-6 = 0.950       (1=123155  0=6508)  [6007]
+   PP1-7 = 0.950       (1=119628  0=6347)  [5893]
    PP1-8 = 0.949       (1=103998  0=5575)  [5174]
-   PP1   = 0.950       (1=933720  0=49241)  [45660]
+   PP1   = 0.950       (1=983187  0=51895)  [48117]
 
-  LOD1-1 = 1.275       ACT = 1.052          Ne = 141312.779
-  LOD1-2 = 1.279       ACT = 1.072          Ne = 108008.230
-  LOD1-3 = 1.277       ACT = 1.034          Ne = 119627.741
-  LOD1-4 = 1.284       ACT = 1.071          Ne = 112620.371
-  LOD1-5 = 1.281       ACT = 1.066          Ne = 116071.526
-  LOD1-6 = 1.279       ACT = 1.061          Ne = 115208.895
-  LOD1-7 = 1.276       ACT = 1.057          Ne = 112369.490
+  LOD1-1 = 1.275       ACT = 1.049          Ne = 150657.610
+  LOD1-2 = 1.280       ACT = 1.064          Ne = 115140.992
+  LOD1-3 = 1.278       ACT = 1.033          Ne = 126298.472
+  LOD1-4 = 1.285       ACT = 1.077          Ne = 118293.352
+  LOD1-5 = 1.278       ACT = 1.070          Ne = 122869.312
+  LOD1-6 = 1.277       ACT = 1.088          Ne = 119207.878
+  LOD1-7 = 1.275       ACT = 1.058          Ne = 119119.705
   LOD1-8 = 1.271       ACT = 1.050          Ne = 104389.698
-  LOD1   = 1.278       ACT = 1.055          Ne = 931970.104
+  LOD1   = 1.277       ACT = 1.055          Ne = 980901.468
 
   RNe1 = inf
 
 
 31/66:
 Carnoldii383 Cnana13717b | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.942       (1=139937  0=8689)  [2861]
-   PP1-2 = 0.967       (1=111962  0=3805)  [1343]
-   PP1-3 = 0.939       (1=116078  0=7560)  [2493]
-   PP1-4 = 0.946       (1=114123  0=6527)  [2211]
-   PP1-5 = 0.949       (1=117445  0=6276)  [2074]
-   PP1-6 = 0.960       (1=117362  0=4850)  [1707]
-   PP1-7 = 0.948       (1=112653  0=6121)  [1968]
+   PP1-1 = 0.939       (1=148476  0=9581)  [3148]
+   PP1-2 = 0.966       (1=118333  0=4215)  [1473]
+   PP1-3 = 0.942       (1=122820  0=7590)  [2511]
+   PP1-4 = 0.946       (1=120537  0=6821)  [2299]
+   PP1-5 = 0.952       (1=125147  0=6351)  [2109]
+   PP1-6 = 0.962       (1=124701  0=4962)  [1752]
+   PP1-7 = 0.951       (1=119840  0=6135)  [1975]
    PP1-8 = 0.935       (1=102501  0=7072)  [2278]
-   PP1   = 0.948       (1=932061  0=50900)  [16935]
+   PP1   = 0.949       (1=982355  0=52727)  [17545]
 
-  LOD1-1 = 1.207       ACT = 396.622          Ne = 374.729
-  LOD1-2 = 1.469       ACT = 407.708          Ne = 283.946
-  LOD1-3 = 1.186       ACT = 458.650          Ne = 269.569
-  LOD1-4 = 1.243       ACT = 548.112          Ne = 220.119
-  LOD1-5 = 1.272       ACT = 491.301          Ne = 251.823
-  LOD1-6 = 1.384       ACT = 279.859          Ne = 436.691
-  LOD1-7 = 1.265       ACT = 452.923          Ne = 262.239
+  LOD1-1 = 1.190       ACT = 383.111          Ne = 412.562
+  LOD1-2 = 1.448       ACT = 324.638          Ne = 377.491
+  LOD1-3 = 1.209       ACT = 463.269          Ne = 281.500
+  LOD1-4 = 1.247       ACT = 531.138          Ne = 239.783
+  LOD1-5 = 1.295       ACT = 488.946          Ne = 268.942
+  LOD1-6 = 1.400       ACT = 275.341          Ne = 470.918
+  LOD1-7 = 1.291       ACT = 454.066          Ne = 277.437
   LOD1-8 = 1.161       ACT = 910.792          Ne = 120.305
-  LOD1   = 1.263       ACT = 493.003          Ne = 1993.825
+  LOD1   = 1.270       ACT = 480.678          Ne = 2153.379
 
   RNe1 = inf
 
 
 32/66:
 Csaxicola334 Csaxicola338 Xelegan278753Ant | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.939       (1=139498  0=9128)  [8191]
-   PP1-2 = 0.937       (1=108531  0=7236)  [6466]
-   PP1-3 = 0.938       (1=115929  0=7709)  [6911]
-   PP1-4 = 0.937       (1=113064  0=7586)  [6826]
-   PP1-5 = 0.937       (1=115879  0=7842)  [7003]
-   PP1-6 = 0.939       (1=114730  0=7482)  [6664]
-   PP1-7 = 0.937       (1=111350  0=7424)  [6647]
+   PP1-1 = 0.939       (1=148345  0=9712)  [8712]
+   PP1-2 = 0.938       (1=114918  0=7630)  [6835]
+   PP1-3 = 0.938       (1=122263  0=8147)  [7303]
+   PP1-4 = 0.937       (1=119365  0=7993)  [7189]
+   PP1-5 = 0.936       (1=123145  0=8353)  [7461]
+   PP1-6 = 0.939       (1=121722  0=7941)  [7080]
+   PP1-7 = 0.938       (1=118103  0=7872)  [7046]
    PP1-8 = 0.935       (1=102502  0=7071)  [6270]
-   PP1   = 0.937       (1=921483  0=61478)  [54978]
+   PP1   = 0.937       (1=970363  0=64719)  [57896]
 
-  LOD1-1 = 1.184       ACT = 1.088          Ne = 136621.518
-  LOD1-2 = 1.176       ACT = 1.103          Ne = 104981.108
-  LOD1-3 = 1.177       ACT = 1.088          Ne = 113658.528
-  LOD1-4 = 1.173       ACT = 1.080          Ne = 111751.985
-  LOD1-5 = 1.170       ACT = 1.103          Ne = 112120.106
-  LOD1-6 = 1.186       ACT = 1.102          Ne = 110850.943
-  LOD1-7 = 1.176       ACT = 1.101          Ne = 107866.034
+  LOD1-1 = 1.184       ACT = 1.088          Ne = 145209.634
+  LOD1-2 = 1.178       ACT = 1.097          Ne = 111740.604
+  LOD1-3 = 1.176       ACT = 1.088          Ne = 119892.028
+  LOD1-4 = 1.174       ACT = 1.081          Ne = 117845.342
+  LOD1-5 = 1.169       ACT = 1.096          Ne = 120025.215
+  LOD1-6 = 1.185       ACT = 1.101          Ne = 117819.932
+  LOD1-7 = 1.176       ACT = 1.104          Ne = 114152.436
   LOD1-8 = 1.161       ACT = 1.125          Ne = 97425.500
-  LOD1   = 1.176       ACT = 1.101          Ne = 892551.012
+  LOD1   = 1.176       ACT = 1.101          Ne = 940469.007
 
   RNe1 = inf
 
 
 33/66:
 Cbiatorina13689 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina9608 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina267 Cbiatorina406 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.927       (1=137788  0=10838)  [5886]
-   PP1-2 = 0.925       (1=107130  0=8637)  [4714]
-   PP1-3 = 0.930       (1=115021  0=8617)  [4999]
-   PP1-4 = 0.928       (1=111984  0=8666)  [4829]
-   PP1-5 = 0.923       (1=114233  0=9488)  [5070]
-   PP1-6 = 0.923       (1=112799  0=9413)  [5131]
-   PP1-7 = 0.929       (1=110370  0=8404)  [4853]
+   PP1-1 = 0.926       (1=146434  0=11623)  [6282]
+   PP1-2 = 0.927       (1=113552  0=8996)  [4987]
+   PP1-3 = 0.931       (1=121410  0=9000)  [5274]
+   PP1-4 = 0.929       (1=118308  0=9050)  [5073]
+   PP1-5 = 0.924       (1=121501  0=9997)  [5378]
+   PP1-6 = 0.923       (1=119705  0=9958)  [5462]
+   PP1-7 = 0.930       (1=117152  0=8823)  [5116]
    PP1-8 = 0.922       (1=100993  0=8580)  [4521]
-   PP1   = 0.926       (1=910318  0=72643)  [40003]
+   PP1   = 0.927       (1=959055  0=76027)  [42093]
 
-  LOD1-1 = 1.104       ACT = 39.996          Ne = 3716.052
-  LOD1-2 = 1.094       ACT = 42.419          Ne = 2729.122
-  LOD1-3 = 1.125       ACT = 31.568          Ne = 3916.613
-  LOD1-4 = 1.111       ACT = 33.214          Ne = 3632.545
-  LOD1-5 = 1.081       ACT = 44.348          Ne = 2789.754
-  LOD1-6 = 1.079       ACT = 63.754          Ne = 1916.941
-  LOD1-7 = 1.118       ACT = 40.318          Ne = 2945.904
+  LOD1-1 = 1.100       ACT = 46.482          Ne = 3400.359
+  LOD1-2 = 1.101       ACT = 41.027          Ne = 2986.999
+  LOD1-3 = 1.130       ACT = 30.452          Ne = 4282.476
+  LOD1-4 = 1.116       ACT = 32.462          Ne = 3923.334
+  LOD1-5 = 1.085       ACT = 43.038          Ne = 3055.427
+  LOD1-6 = 1.080       ACT = 60.939          Ne = 2127.744
+  LOD1-7 = 1.123       ACT = 37.190          Ne = 3387.373
   LOD1-8 = 1.071       ACT = 44.747          Ne = 2448.741
-  LOD1   = 1.098       ACT = 44.405          Ne = 22136.491
+  LOD1   = 1.101       ACT = 44.036          Ne = 23505.600
 
   RNe1 = inf
 
 
 34/66:
 Carnoldii383 Carnoldiigr276 Cnana13717b | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii464 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.915       (1=135976  0=12650)  [165]
-   PP1-2 = 0.953       (1=110301  0=5466)  [132]
-   PP1-3 = 0.912       (1=112752  0=10886)  [128]
-   PP1-4 = 0.922       (1=111200  0=9450)  [118]
-   PP1-5 = 0.926       (1=114544  0=9177)  [126]
-   PP1-6 = 0.942       (1=115077  0=7135)  [156]
-   PP1-7 = 0.926       (1=109984  0=8790)  [121]
+   PP1-1 = 0.912       (1=144112  0=13945)  [178]
+   PP1-2 = 0.951       (1=116494  0=6054)  [142]
+   PP1-3 = 0.916       (1=119476  0=10934)  [141]
+   PP1-4 = 0.922       (1=117472  0=9886)  [125]
+   PP1-5 = 0.929       (1=122220  0=9278)  [136]
+   PP1-6 = 0.944       (1=122389  0=7274)  [163]
+   PP1-7 = 0.930       (1=117178  0=8797)  [123]
    PP1-8 = 0.905       (1=99174  0=10399)  [177]
-   PP1   = 0.925       (1=909008  0=73953)  [1123]
+   PP1   = 0.926       (1=958515  0=76567)  [1185]
 
-  LOD1-1 = 1.031       ACT = 612.532          Ne = 242.642
-  LOD1-2 = 1.305       ACT = 638.714          Ne = 181.250
-  LOD1-3 = 1.015       ACT = 707.618          Ne = 174.724
-  LOD1-4 = 1.071       ACT = 849.994          Ne = 141.942
-  LOD1-5 = 1.096       ACT = 772.388          Ne = 160.180
-  LOD1-6 = 1.208       ACT = 432.934          Ne = 282.288
-  LOD1-7 = 1.097       ACT = 672.021          Ne = 176.741
+  LOD1-1 = 1.014       ACT = 592.835          Ne = 266.612
+  LOD1-2 = 1.284       ACT = 609.564          Ne = 201.042
+  LOD1-3 = 1.038       ACT = 712.968          Ne = 182.912
+  LOD1-4 = 1.075       ACT = 822.513          Ne = 154.840
+  LOD1-5 = 1.120       ACT = 768.542          Ne = 171.101
+  LOD1-6 = 1.226       ACT = 427.540          Ne = 303.277
+  LOD1-7 = 1.124       ACT = 674.661          Ne = 186.724
   LOD1-8 = 0.979       ACT = 1379.625          Ne = 79.422
-  LOD1   = 1.090       ACT = 757.014          Ne = 1298.471
+  LOD1   = 1.098       ACT = 738.945          Ne = 1400.757
 
   RNe1 = inf
 
 
 35/66:
 Csaxglom329 Csaxicola334 Csaxicola338 Xelegan278753Ant | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.904       (1=134301  0=14325)  [11337]
-   PP1-2 = 0.902       (1=104379  0=11388)  [9014]
-   PP1-3 = 0.903       (1=111680  0=11958)  [9476]
-   PP1-4 = 0.902       (1=108837  0=11813)  [9328]
-   PP1-5 = 0.903       (1=111727  0=11994)  [9526]
-   PP1-6 = 0.902       (1=110292  0=11920)  [9433]
-   PP1-7 = 0.903       (1=107246  0=11528)  [9156]
+   PP1-1 = 0.903       (1=142769  0=15288)  [12097]
+   PP1-2 = 0.901       (1=110461  0=12087)  [9568]
+   PP1-3 = 0.903       (1=117791  0=12619)  [9994]
+   PP1-4 = 0.902       (1=114904  0=12454)  [9846]
+   PP1-5 = 0.903       (1=118757  0=12741)  [10129]
+   PP1-6 = 0.902       (1=117016  0=12647)  [10027]
+   PP1-7 = 0.903       (1=113753  0=12222)  [9697]
    PP1-8 = 0.901       (1=98757  0=10816)  [8539]
-   PP1   = 0.903       (1=887219  0=95742)  [75809]
+   PP1   = 0.903       (1=934208  0=100874)  [79897]
 
-  LOD1-1 = 0.972       ACT = 1.287          Ne = 115508.756
-  LOD1-2 = 0.962       ACT = 1.303          Ne = 88820.290
-  LOD1-3 = 0.970       ACT = 1.342          Ne = 92098.407
-  LOD1-4 = 0.964       ACT = 1.300          Ne = 92826.140
-  LOD1-5 = 0.969       ACT = 1.279          Ne = 96695.865
-  LOD1-6 = 0.966       ACT = 1.328          Ne = 92034.406
-  LOD1-7 = 0.969       ACT = 1.292          Ne = 91923.769
+  LOD1-1 = 0.970       ACT = 1.287          Ne = 122770.291
+  LOD1-2 = 0.961       ACT = 1.303          Ne = 94046.235
+  LOD1-3 = 0.970       ACT = 1.352          Ne = 96488.125
+  LOD1-4 = 0.965       ACT = 1.299          Ne = 98007.889
+  LOD1-5 = 0.969       ACT = 1.279          Ne = 102785.996
+  LOD1-6 = 0.966       ACT = 1.321          Ne = 98171.336
+  LOD1-7 = 0.969       ACT = 1.293          Ne = 97403.417
   LOD1-8 = 0.960       ACT = 1.326          Ne = 82606.050
-  LOD1   = 0.967       ACT = 1.308          Ne = 751584.148
+  LOD1   = 0.967       ACT = 1.307          Ne = 792088.141
 
   RNe1 = inf
 
 
 36/66:
 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola334 Csaxicola338 Csaxicola339 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xelegan278753Ant | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.902       (1=134075  0=14551)  [11695]
-   PP1-2 = 0.901       (1=104331  0=11436)  [9163]
-   PP1-3 = 0.902       (1=111465  0=12173)  [9760]
-   PP1-4 = 0.901       (1=108687  0=11963)  [9577]
-   PP1-5 = 0.902       (1=111551  0=12170)  [9739]
-   PP1-6 = 0.901       (1=110145  0=12067)  [9649]
-   PP1-7 = 0.901       (1=107030  0=11744)  [9418]
+   PP1-1 = 0.902       (1=142540  0=15517)  [12465]
+   PP1-2 = 0.901       (1=110432  0=12116)  [9715]
+   PP1-3 = 0.901       (1=117535  0=12875)  [10311]
+   PP1-4 = 0.901       (1=114737  0=12621)  [10107]
+   PP1-5 = 0.901       (1=118546  0=12952)  [10362]
+   PP1-6 = 0.901       (1=116822  0=12841)  [10266]
+   PP1-7 = 0.901       (1=113516  0=12459)  [9996]
    PP1-8 = 0.901       (1=98706  0=10867)  [8735]
-   PP1   = 0.901       (1=885990  0=96971)  [77736]
+   PP1   = 0.901       (1=932834  0=102248)  [81957]
 
-  LOD1-1 = 0.964       ACT = 1.286          Ne = 115553.192
-  LOD1-2 = 0.960       ACT = 1.259          Ne = 91964.112
-  LOD1-3 = 0.962       ACT = 1.279          Ne = 96696.575
-  LOD1-4 = 0.958       ACT = 1.292          Ne = 93393.552
-  LOD1-5 = 0.962       ACT = 1.262          Ne = 98058.388
-  LOD1-6 = 0.960       ACT = 1.301          Ne = 93927.404
-  LOD1-7 = 0.960       ACT = 1.302          Ne = 91206.345
+  LOD1-1 = 0.963       ACT = 1.289          Ne = 122659.297
+  LOD1-2 = 0.960       ACT = 1.258          Ne = 97415.096
+  LOD1-3 = 0.960       ACT = 1.275          Ne = 102245.306
+  LOD1-4 = 0.959       ACT = 1.294          Ne = 98457.669
+  LOD1-5 = 0.962       ACT = 1.261          Ne = 104296.418
+  LOD1-6 = 0.959       ACT = 1.301          Ne = 99700.860
+  LOD1-7 = 0.960       ACT = 1.299          Ne = 96965.124
   LOD1-8 = 0.958       ACT = 1.325          Ne = 82672.366
-  LOD1   = 0.961       ACT = 1.289          Ne = 762799.164
+  LOD1   = 0.960       ACT = 1.286          Ne = 804905.296
 
   RNe1 = inf
 
 
 37/66:
 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.884       (1=131411  0=17215)  [14630]
-   PP1-2 = 0.884       (1=102377  0=13390)  [11318]
-   PP1-3 = 0.885       (1=109418  0=14220)  [12109]
-   PP1-4 = 0.885       (1=106808  0=13842)  [11716]
-   PP1-5 = 0.884       (1=109384  0=14337)  [12121]
-   PP1-6 = 0.885       (1=108132  0=14080)  [11945]
-   PP1-7 = 0.887       (1=105333  0=13441)  [11518]
+   PP1-1 = 0.884       (1=139750  0=18307)  [15536]
+   PP1-2 = 0.885       (1=108408  0=14140)  [11944]
+   PP1-3 = 0.885       (1=115407  0=15003)  [12770]
+   PP1-4 = 0.885       (1=112696  0=14662)  [12418]
+   PP1-5 = 0.884       (1=116262  0=15236)  [12885]
+   PP1-6 = 0.885       (1=114720  0=14943)  [12683]
+   PP1-7 = 0.887       (1=111680  0=14295)  [12216]
    PP1-8 = 0.888       (1=97256  0=12317)  [10484]
-   PP1   = 0.885       (1=870119  0=112842)  [95842]
+   PP1   = 0.885       (1=916179  0=118903)  [100936]
 
-  LOD1-1 = 0.883       ACT = 1.172          Ne = 126761.142
-  LOD1-2 = 0.883       ACT = 1.365          Ne = 84830.600
-  LOD1-3 = 0.886       ACT = 1.271          Ne = 97252.805
-  LOD1-4 = 0.887       ACT = 1.127          Ne = 107022.552
-  LOD1-5 = 0.882       ACT = 1.149          Ne = 107674.392
-  LOD1-6 = 0.885       ACT = 1.122          Ne = 108971.826
-  LOD1-7 = 0.894       ACT = 1.114          Ne = 106609.539
+  LOD1-1 = 0.883       ACT = 1.187          Ne = 133136.997
+  LOD1-2 = 0.885       ACT = 1.363          Ne = 89919.583
+  LOD1-3 = 0.886       ACT = 1.265          Ne = 103130.730
+  LOD1-4 = 0.886       ACT = 1.127          Ne = 113033.792
+  LOD1-5 = 0.883       ACT = 1.142          Ne = 115191.570
+  LOD1-6 = 0.885       ACT = 1.130          Ne = 114789.080
+  LOD1-7 = 0.893       ACT = 1.135          Ne = 110954.928
   LOD1-8 = 0.897       ACT = 1.153          Ne = 95054.568
-  LOD1   = 0.887       ACT = 1.204          Ne = 816729.423
+  LOD1   = 0.887       ACT = 1.206          Ne = 858026.748
 
   RNe1 = inf
 
 
 38/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola334 Csaxicola338 Csaxicola339 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii306 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cnana13717b Csaxicola299 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 
-   PP1-1 = 0.866       (1=128771  0=19855)  [9619]
-   PP1-2 = 0.873       (1=101021  0=14746)  [7439]
-   PP1-3 = 0.866       (1=107049  0=16589)  [8103]
-   PP1-4 = 0.867       (1=104570  0=16080)  [7898]
-   PP1-5 = 0.868       (1=107377  0=16344)  [8058]
-   PP1-6 = 0.868       (1=106064  0=16148)  [8007]
-   PP1-7 = 0.865       (1=102799  0=15975)  [7818]
+   PP1-1 = 0.866       (1=136893  0=21164)  [10241]
+   PP1-2 = 0.872       (1=106906  0=15642)  [7920]
+   PP1-3 = 0.866       (1=112890  0=17520)  [8548]
+   PP1-4 = 0.868       (1=110487  0=16871)  [8292]
+   PP1-5 = 0.869       (1=114274  0=17224)  [8503]
+   PP1-6 = 0.868       (1=112562  0=17101)  [8494]
+   PP1-7 = 0.866       (1=109093  0=16882)  [8295]
    PP1-8 = 0.866       (1=94923  0=14650)  [7168]
-   PP1   = 0.867       (1=852574  0=130387)  [64110]
+   PP1   = 0.868       (1=898028  0=137054)  [67461]
 
-  LOD1-1 = 0.812       ACT = 4.089          Ne = 36348.875
-  LOD1-2 = 0.836       ACT = 3.942          Ne = 29369.201
-  LOD1-3 = 0.810       ACT = 3.524          Ne = 35084.964
-  LOD1-4 = 0.813       ACT = 3.810          Ne = 31668.854
-  LOD1-5 = 0.818       ACT = 4.269          Ne = 28978.671
-  LOD1-6 = 0.817       ACT = 3.984          Ne = 30673.523
-  LOD1-7 = 0.809       ACT = 3.943          Ne = 30124.034
+  LOD1-1 = 0.811       ACT = 4.376          Ne = 36117.477
+  LOD1-2 = 0.835       ACT = 3.869          Ne = 31670.665
+  LOD1-3 = 0.809       ACT = 3.654          Ne = 35686.021
+  LOD1-4 = 0.816       ACT = 3.628          Ne = 35107.739
+  LOD1-5 = 0.822       ACT = 4.259          Ne = 30874.849
+  LOD1-6 = 0.818       ACT = 3.894          Ne = 33302.361
+  LOD1-7 = 0.810       ACT = 3.879          Ne = 32472.627
   LOD1-8 = 0.812       ACT = 4.255          Ne = 25749.364
-  LOD1   = 0.815       ACT = 4.225          Ne = 232635.457
+  LOD1   = 0.816       ACT = 4.230          Ne = 244705.222
 
   RNe1 = inf
 
 
 39/66:
 Cbiatorina13685 Cbiatorina267 Cbiatorina406 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13689 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.786       (1=116890  0=31736)  [23537]
-   PP1-2 = 0.787       (1=91059  0=24708)  [18437]
-   PP1-3 = 0.787       (1=97324  0=26314)  [19541]
-   PP1-4 = 0.786       (1=94806  0=25844)  [19287]
-   PP1-5 = 0.787       (1=97401  0=26320)  [19523]
-   PP1-6 = 0.788       (1=96278  0=25934)  [19300]
-   PP1-7 = 0.786       (1=93413  0=25361)  [18715]
+   PP1-1 = 0.787       (1=124367  0=33690)  [25013]
+   PP1-2 = 0.786       (1=96303  0=26245)  [19577]
+   PP1-3 = 0.787       (1=102620  0=27790)  [20628]
+   PP1-4 = 0.786       (1=100127  0=27231)  [20299]
+   PP1-5 = 0.788       (1=103570  0=27928)  [20741]
+   PP1-6 = 0.788       (1=102162  0=27501)  [20448]
+   PP1-7 = 0.787       (1=99084  0=26891)  [19872]
    PP1-8 = 0.788       (1=86360  0=23213)  [17211]
-   PP1   = 0.787       (1=773531  0=209430)  [155551]
+   PP1   = 0.787       (1=814593  0=220489)  [163789]
 
-  LOD1-1 = 0.566       ACT = 1.309          Ne = 113523.650
-  LOD1-2 = 0.566       ACT = 1.311          Ne = 88294.923
-  LOD1-3 = 0.568       ACT = 1.191          Ne = 103810.168
-  LOD1-4 = 0.564       ACT = 1.153          Ne = 104656.291
-  LOD1-5 = 0.568       ACT = 1.271          Ne = 97366.718
-  LOD1-6 = 0.570       ACT = 1.184          Ne = 103222.027
-  LOD1-7 = 0.566       ACT = 1.288          Ne = 92242.994
+  LOD1-1 = 0.567       ACT = 1.304          Ne = 121169.709
+  LOD1-2 = 0.565       ACT = 1.300          Ne = 94275.850
+  LOD1-3 = 0.567       ACT = 1.186          Ne = 109958.677
+  LOD1-4 = 0.565       ACT = 1.157          Ne = 110081.035
+  LOD1-5 = 0.569       ACT = 1.233          Ne = 106657.654
+  LOD1-6 = 0.570       ACT = 1.184          Ne = 109520.915
+  LOD1-7 = 0.566       ACT = 1.191          Ne = 105813.063
   LOD1-8 = 0.571       ACT = 1.202          Ne = 91158.507
-  LOD1   = 0.567       ACT = 1.403          Ne = 700532.038
+  LOD1   = 0.568       ACT = 1.453          Ne = 712267.381
 
   RNe1 = inf
 
 
 40/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides143 Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13717 Cbiatorinoides28T Cnana13717b Csaxicola420 
-   PP1-1 = 0.779       (1=115821  0=32805)  [11621]
-   PP1-2 = 0.810       (1=93767  0=22000)  [9402]
-   PP1-3 = 0.774       (1=95667  0=27971)  [9741]
-   PP1-4 = 0.782       (1=94390  0=26260)  [9543]
-   PP1-5 = 0.785       (1=97167  0=26554)  [9867]
-   PP1-6 = 0.800       (1=97797  0=24415)  [9809]
-   PP1-7 = 0.788       (1=93548  0=25226)  [9349]
+   PP1-1 = 0.776       (1=122630  0=35427)  [12344]
+   PP1-2 = 0.808       (1=99006  0=23542)  [9957]
+   PP1-3 = 0.777       (1=101383  0=29027)  [10326]
+   PP1-4 = 0.783       (1=99681  0=27677)  [10094]
+   PP1-5 = 0.789       (1=103785  0=27713)  [10489]
+   PP1-6 = 0.802       (1=103958  0=25705)  [10464]
+   PP1-7 = 0.791       (1=99697  0=26278)  [9933]
    PP1-8 = 0.767       (1=84087  0=25486)  [8451]
-   PP1   = 0.786       (1=772244  0=210717)  [77784]
+   PP1   = 0.787       (1=814227  0=220855)  [82059]
 
-  LOD1-1 = 0.548       ACT = 205.656          Ne = 722.691
-  LOD1-2 = 0.630       ACT = 120.259          Ne = 962.647
-  LOD1-3 = 0.534       ACT = 239.885          Ne = 515.405
-  LOD1-4 = 0.556       ACT = 264.991          Ne = 455.299
-  LOD1-5 = 0.563       ACT = 229.309          Ne = 539.540
-  LOD1-6 = 0.603       ACT = 108.195          Ne = 1129.555
-  LOD1-7 = 0.569       ACT = 196.792          Ne = 603.552
+  LOD1-1 = 0.539       ACT = 201.693          Ne = 783.652
+  LOD1-2 = 0.624       ACT = 115.863          Ne = 1057.696
+  LOD1-3 = 0.543       ACT = 233.678          Ne = 558.077
+  LOD1-4 = 0.556       ACT = 253.782          Ne = 501.839
+  LOD1-5 = 0.573       ACT = 221.734          Ne = 593.044
+  LOD1-6 = 0.607       ACT = 103.283          Ne = 1255.419
+  LOD1-7 = 0.579       ACT = 188.607          Ne = 667.924
   LOD1-8 = 0.518       ACT = 487.673          Ne = 224.685
-  LOD1   = 0.564       ACT = 231.078          Ne = 4253.813
+  LOD1   = 0.567       ACT = 222.742          Ne = 4646.998
 
   RNe1 = inf
 
 
 41/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides143 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola372 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13717 Cbiatorinoides28T Cbiatorinoides349 Cnana13717b Csaxicola365 Csaxicola420 
-   PP1-1 = 0.720       (1=106947  0=41679)  [8756]
-   PP1-2 = 0.748       (1=86595  0=29172)  [7089]
-   PP1-3 = 0.719       (1=88870  0=34768)  [7176]
-   PP1-4 = 0.725       (1=87494  0=33156)  [7061]
-   PP1-5 = 0.728       (1=90067  0=33654)  [7450]
-   PP1-6 = 0.743       (1=90825  0=31387)  [7389]
-   PP1-7 = 0.728       (1=86460  0=32314)  [7100]
+   PP1-1 = 0.717       (1=113338  0=44719)  [9238]
+   PP1-2 = 0.746       (1=91440  0=31108)  [7503]
+   PP1-3 = 0.723       (1=94253  0=36157)  [7601]
+   PP1-4 = 0.727       (1=92544  0=34814)  [7450]
+   PP1-5 = 0.730       (1=96015  0=35483)  [7978]
+   PP1-6 = 0.746       (1=96666  0=32997)  [7835]
+   PP1-7 = 0.730       (1=92025  0=33950)  [7610]
    PP1-8 = 0.712       (1=78027  0=31546)  [6380]
-   PP1   = 0.728       (1=715285  0=267676)  [58401]
+   PP1   = 0.729       (1=754308  0=280774)  [61594]
 
-  LOD1-1 = 0.409       ACT = 149.169          Ne = 996.357
-  LOD1-2 = 0.473       ACT = 81.293          Ne = 1424.065
-  LOD1-3 = 0.408       ACT = 182.032          Ne = 679.211
-  LOD1-4 = 0.421       ACT = 207.792          Ne = 580.630
-  LOD1-5 = 0.428       ACT = 187.371          Ne = 660.300
-  LOD1-6 = 0.461       ACT = 86.474          Ne = 1413.277
-  LOD1-7 = 0.427       ACT = 144.785          Ne = 820.345
+  LOD1-1 = 0.404       ACT = 150.889          Ne = 1047.508
+  LOD1-2 = 0.468       ACT = 79.446          Ne = 1542.530
+  LOD1-3 = 0.416       ACT = 177.350          Ne = 735.324
+  LOD1-4 = 0.425       ACT = 200.649          Ne = 634.731
+  LOD1-5 = 0.432       ACT = 178.272          Ne = 737.624
+  LOD1-6 = 0.467       ACT = 82.800          Ne = 1565.977
+  LOD1-7 = 0.433       ACT = 138.726          Ne = 908.087
   LOD1-8 = 0.393       ACT = 367.243          Ne = 298.366
-  LOD1   = 0.427       ACT = 175.094          Ne = 5613.917
+  LOD1   = 0.429       ACT = 169.860          Ne = 6093.748
 
   RNe1 = inf
 
 
 42/66:
 Csaxglom322 Csaxicola339 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.715       (1=106304  0=42322)  [29172]
-   PP1-2 = 0.711       (1=82330  0=33437)  [23060]
-   PP1-3 = 0.715       (1=88341  0=35297)  [24336]
-   PP1-4 = 0.715       (1=86224  0=34426)  [23845]
-   PP1-5 = 0.715       (1=88423  0=35298)  [24264]
-   PP1-6 = 0.716       (1=87452  0=34760)  [23849]
-   PP1-7 = 0.714       (1=84813  0=33961)  [23326]
+   PP1-1 = 0.715       (1=113021  0=45036)  [31063]
+   PP1-2 = 0.711       (1=87176  0=35372)  [24402]
+   PP1-3 = 0.714       (1=93156  0=37254)  [25708]
+   PP1-4 = 0.715       (1=91039  0=36319)  [25179]
+   PP1-5 = 0.715       (1=93967  0=37531)  [25789]
+   PP1-6 = 0.715       (1=92715  0=36948)  [25337]
+   PP1-7 = 0.715       (1=90026  0=35949)  [24684]
    PP1-8 = 0.715       (1=78385  0=31188)  [21637]
-   PP1   = 0.714       (1=702272  0=280689)  [193489]
+   PP1   = 0.714       (1=739485  0=295597)  [203799]
 
-  LOD1-1 = 0.400       ACT = 1.139          Ne = 130541.097
-  LOD1-2 = 0.391       ACT = 1.084          Ne = 106755.727
-  LOD1-3 = 0.398       ACT = 1.090          Ne = 113437.036
-  LOD1-4 = 0.399       ACT = 1.062          Ne = 113645.715
-  LOD1-5 = 0.399       ACT = 1.102          Ne = 112271.427
-  LOD1-6 = 0.401       ACT = 1.109          Ne = 110246.425
-  LOD1-7 = 0.397       ACT = 1.124          Ne = 105684.736
+  LOD1-1 = 0.400       ACT = 1.129          Ne = 139975.790
+  LOD1-2 = 0.392       ACT = 1.086          Ne = 112842.239
+  LOD1-3 = 0.398       ACT = 1.088          Ne = 119842.086
+  LOD1-4 = 0.399       ACT = 1.068          Ne = 119286.033
+  LOD1-5 = 0.399       ACT = 1.103          Ne = 119187.066
+  LOD1-6 = 0.400       ACT = 1.108          Ne = 117074.690
+  LOD1-7 = 0.399       ACT = 1.128          Ne = 111714.638
   LOD1-8 = 0.400       ACT = 1.060          Ne = 103329.028
-  LOD1   = 0.398       ACT = 1.098          Ne = 895239.667
+  LOD1   = 0.398       ACT = 1.097          Ne = 943318.376
 
   RNe1 = inf
 
 
 43/66:
 Cbiatorina13689 Cbiatorina353953 Cbiatorina364 Cbiatorina9608 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina363 Cbiatorina406 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.694       (1=103206  0=45420)  [29005]
-   PP1-2 = 0.696       (1=80551  0=35216)  [22492]
-   PP1-3 = 0.698       (1=86271  0=37367)  [23878]
-   PP1-4 = 0.696       (1=83966  0=36684)  [23409]
-   PP1-5 = 0.697       (1=86291  0=37430)  [23963]
-   PP1-6 = 0.696       (1=85110  0=37102)  [23583]
-   PP1-7 = 0.699       (1=83007  0=35767)  [22950]
+   PP1-1 = 0.695       (1=109782  0=48275)  [30830]
+   PP1-2 = 0.696       (1=85315  0=37233)  [23803]
+   PP1-3 = 0.697       (1=90933  0=39477)  [25203]
+   PP1-4 = 0.696       (1=88591  0=38767)  [24717]
+   PP1-5 = 0.697       (1=91687  0=39811)  [25451]
+   PP1-6 = 0.696       (1=90292  0=39371)  [25004]
+   PP1-7 = 0.699       (1=88050  0=37925)  [24363]
    PP1-8 = 0.698       (1=76481  0=33092)  [21150]
-   PP1   = 0.697       (1=684883  0=298078)  [190430]
+   PP1   = 0.697       (1=721131  0=313951)  [200521]
 
-  LOD1-1 = 0.356       ACT = 1.234          Ne = 120491.021
-  LOD1-2 = 0.359       ACT = 1.262          Ne = 91730.745
-  LOD1-3 = 0.363       ACT = 1.252          Ne = 98723.661
-  LOD1-4 = 0.360       ACT = 1.207          Ne = 99972.060
-  LOD1-5 = 0.363       ACT = 1.212          Ne = 102064.387
-  LOD1-6 = 0.361       ACT = 1.254          Ne = 97436.155
-  LOD1-7 = 0.366       ACT = 1.256          Ne = 94588.538
+  LOD1-1 = 0.357       ACT = 1.235          Ne = 128009.495
+  LOD1-2 = 0.360       ACT = 1.252          Ne = 97848.367
+  LOD1-3 = 0.362       ACT = 1.254          Ne = 104012.138
+  LOD1-4 = 0.359       ACT = 1.207          Ne = 105504.283
+  LOD1-5 = 0.362       ACT = 1.215          Ne = 108266.974
+  LOD1-6 = 0.360       ACT = 1.258          Ne = 103066.313
+  LOD1-7 = 0.366       ACT = 1.249          Ne = 100840.630
   LOD1-8 = 0.364       ACT = 1.232          Ne = 88919.365
-  LOD1   = 0.361       ACT = 1.242          Ne = 791445.627
+  LOD1   = 0.361       ACT = 1.242          Ne = 833491.649
 
   RNe1 = inf
 
 
 44/66:
 Cbiatorina13689 Cbiatorina353953 Cbiatorina364 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina363 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.529       (1=78571  0=70055)  [33047]
-   PP1-2 = 0.530       (1=61340  0=54427)  [25754]
-   PP1-3 = 0.529       (1=65371  0=58267)  [27785]
-   PP1-4 = 0.529       (1=63818  0=56832)  [26892]
-   PP1-5 = 0.528       (1=65287  0=58434)  [27630]
-   PP1-6 = 0.528       (1=64483  0=57729)  [27138]
-   PP1-7 = 0.530       (1=62891  0=55883)  [26382]
+   PP1-1 = 0.528       (1=83522  0=74535)  [35132]
+   PP1-2 = 0.530       (1=64892  0=57656)  [27231]
+   PP1-3 = 0.529       (1=69027  0=61383)  [29295]
+   PP1-4 = 0.530       (1=67481  0=59877)  [28382]
+   PP1-5 = 0.527       (1=69352  0=62146)  [29382]
+   PP1-6 = 0.527       (1=68395  0=61268)  [28803]
+   PP1-7 = 0.529       (1=66692  0=59283)  [28014]
    PP1-8 = 0.530       (1=58044  0=51529)  [24369]
-   PP1   = 0.529       (1=519805  0=463156)  [218997]
+   PP1   = 0.529       (1=547405  0=487677)  [230607]
 
-  LOD1-1 = 0.050       ACT = 1.298          Ne = 114472.571
-  LOD1-2 = 0.052       ACT = 1.299          Ne = 89138.298
-  LOD1-3 = 0.050       ACT = 1.290          Ne = 95877.534
-  LOD1-4 = 0.050       ACT = 1.266          Ne = 95330.122
-  LOD1-5 = 0.048       ACT = 1.275          Ne = 97072.560
-  LOD1-6 = 0.048       ACT = 1.273          Ne = 95996.882
-  LOD1-7 = 0.051       ACT = 1.295          Ne = 91733.533
+  LOD1-1 = 0.049       ACT = 1.302          Ne = 121420.044
+  LOD1-2 = 0.051       ACT = 1.302          Ne = 94132.995
+  LOD1-3 = 0.051       ACT = 1.293          Ne = 100862.985
+  LOD1-4 = 0.052       ACT = 1.268          Ne = 100476.429
+  LOD1-5 = 0.048       ACT = 1.270          Ne = 103529.815
+  LOD1-6 = 0.048       ACT = 1.272          Ne = 101945.635
+  LOD1-7 = 0.051       ACT = 1.291          Ne = 97602.017
   LOD1-8 = 0.052       ACT = 1.284          Ne = 85365.172
-  LOD1   = 0.050       ACT = 1.287          Ne = 763883.387
+  LOD1   = 0.050       ACT = 1.286          Ne = 805169.923
 
   RNe1 = inf
 
 
 45/66:
 Cdecipiens13692 Cdecipiens342b Fschistidii245 Fschistidii279881 Fschistidii279882 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.455       (1=67655  0=80971)  [34151]
-   PP1-2 = 0.455       (1=52633  0=63134)  [26657]
-   PP1-3 = 0.456       (1=56368  0=67270)  [28643]
-   PP1-4 = 0.455       (1=54871  0=65779)  [27765]
-   PP1-5 = 0.451       (1=55829  0=67892)  [28292]
-   PP1-6 = 0.451       (1=55090  0=67122)  [27951]
-   PP1-7 = 0.455       (1=54020  0=64754)  [27315]
+   PP1-1 = 0.454       (1=71794  0=86263)  [36314]
+   PP1-2 = 0.455       (1=55773  0=66775)  [28223]
+   PP1-3 = 0.456       (1=59483  0=70927)  [30228]
+   PP1-4 = 0.456       (1=58034  0=69324)  [29320]
+   PP1-5 = 0.451       (1=59349  0=72149)  [30080]
+   PP1-6 = 0.451       (1=58463  0=71200)  [29622]
+   PP1-7 = 0.454       (1=57207  0=68768)  [28942]
    PP1-8 = 0.455       (1=49813  0=59760)  [25160]
-   PP1   = 0.454       (1=446279  0=536682)  [225933]
+   PP1   = 0.454       (1=469916  0=565166)  [237888]
 
-  LOD1-1 = -0.078       ACT = 2.489          Ne = 59703.076
-  LOD1-2 = -0.079       ACT = 2.090          Ne = 55387.140
-  LOD1-3 = -0.077       ACT = 2.446          Ne = 50554.292
-  LOD1-4 = -0.079       ACT = 2.400          Ne = 50274.498
-  LOD1-5 = -0.085       ACT = 3.965          Ne = 31204.049
-  LOD1-6 = -0.086       ACT = 2.912          Ne = 41973.145
-  LOD1-7 = -0.079       ACT = 2.349          Ne = 50553.577
+  LOD1-1 = -0.080       ACT = 2.637          Ne = 59945.590
+  LOD1-2 = -0.078       ACT = 2.441          Ne = 50208.909
+  LOD1-3 = -0.076       ACT = 2.460          Ne = 53011.881
+  LOD1-4 = -0.077       ACT = 2.400          Ne = 53068.887
+  LOD1-5 = -0.085       ACT = 3.853          Ne = 34125.018
+  LOD1-6 = -0.086       ACT = 2.994          Ne = 43312.730
+  LOD1-7 = -0.080       ACT = 2.306          Ne = 54632.870
   LOD1-8 = -0.079       ACT = 2.372          Ne = 46187.694
-  LOD1   = -0.080       ACT = 3.345          Ne = 293821.004
+  LOD1   = -0.080       ACT = 3.375          Ne = 306646.844
 
   RNe1 = inf
 
 
 46/66:
 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicolassppul373 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.423       (1=62876  0=85750)  [26358]
-   PP1-2 = 0.427       (1=49388  0=66379)  [20598]
-   PP1-3 = 0.423       (1=52275  0=71363)  [21936]
-   PP1-4 = 0.420       (1=50725  0=69925)  [21277]
-   PP1-5 = 0.421       (1=52124  0=71597)  [21856]
-   PP1-6 = 0.422       (1=51565  0=70647)  [21574]
-   PP1-7 = 0.424       (1=50379  0=68395)  [20941]
+   PP1-1 = 0.423       (1=66895  0=91162)  [28045]
+   PP1-2 = 0.426       (1=52208  0=70340)  [21828]
+   PP1-3 = 0.422       (1=55045  0=75365)  [23136]
+   PP1-4 = 0.420       (1=53519  0=73839)  [22487]
+   PP1-5 = 0.421       (1=55348  0=76150)  [23265]
+   PP1-6 = 0.422       (1=54692  0=74971)  [22854]
+   PP1-7 = 0.423       (1=53297  0=72678)  [22256]
    PP1-8 = 0.425       (1=46552  0=63021)  [19339]
-   PP1   = 0.423       (1=415884  0=567077)  [173879]
+   PP1   = 0.423       (1=437556  0=597526)  [183209]
 
-  LOD1-1 = -0.135       ACT = 3.606          Ne = 41218.864
-  LOD1-2 = -0.128       ACT = 4.514          Ne = 25645.815
-  LOD1-3 = -0.135       ACT = 3.146          Ne = 39303.722
-  LOD1-4 = -0.139       ACT = 3.595          Ne = 33564.607
-  LOD1-5 = -0.138       ACT = 3.588          Ne = 34483.368
-  LOD1-6 = -0.137       ACT = 3.929          Ne = 31104.233
-  LOD1-7 = -0.133       ACT = 4.281          Ne = 27745.693
+  LOD1-1 = -0.134       ACT = 3.636          Ne = 43469.958
+  LOD1-2 = -0.129       ACT = 4.379          Ne = 27986.254
+  LOD1-3 = -0.136       ACT = 3.091          Ne = 42191.913
+  LOD1-4 = -0.140       ACT = 3.497          Ne = 36415.073
+  LOD1-5 = -0.139       ACT = 3.564          Ne = 36896.488
+  LOD1-6 = -0.137       ACT = 3.986          Ne = 32527.052
+  LOD1-7 = -0.135       ACT = 4.185          Ne = 30104.412
   LOD1-8 = -0.132       ACT = 3.962          Ne = 27658.555
-  LOD1   = -0.135       ACT = 4.861          Ne = 202211.463
+  LOD1   = -0.135       ACT = 4.083          Ne = 253530.926
 
   RNe1 = inf
 
 
 47/66:
 Csaxicola13696 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.375       (1=55790  0=92836)  [34960]
-   PP1-2 = 0.374       (1=43291  0=72476)  [27124]
-   PP1-3 = 0.374       (1=46281  0=77357)  [28879]
-   PP1-4 = 0.376       (1=45316  0=75334)  [28420]
-   PP1-5 = 0.377       (1=46596  0=77125)  [28962]
-   PP1-6 = 0.375       (1=45849  0=76363)  [28507]
-   PP1-7 = 0.374       (1=44384  0=74390)  [27862]
+   PP1-1 = 0.375       (1=59321  0=98736)  [37176]
+   PP1-2 = 0.374       (1=45870  0=76678)  [28714]
+   PP1-3 = 0.374       (1=48792  0=81618)  [30454]
+   PP1-4 = 0.375       (1=47806  0=79552)  [29997]
+   PP1-5 = 0.376       (1=49466  0=82032)  [30786]
+   PP1-6 = 0.375       (1=48621  0=81042)  [30235]
+   PP1-7 = 0.373       (1=47008  0=78967)  [29541]
    PP1-8 = 0.375       (1=41130  0=68443)  [25496]
-   PP1   = 0.375       (1=368637  0=614324)  [230211]
+   PP1   = 0.375       (1=388014  0=647068)  [242398]
 
-  LOD1-1 = -0.221       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.224       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.223       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.221       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.219       ACT = 1.008          Ne = 122720.071
-  LOD1-6 = -0.222       ACT = 1.016          Ne = 120320.368
-  LOD1-7 = -0.224       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.221       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.223       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.223       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.221       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.220       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.222       ACT = 1.016          Ne = 127633.990
+  LOD1-7 = -0.225       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.221       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.222       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.222       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 48/66:
 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola357 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 | Carnoldii285 Carnoldii306 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cnana13717b Csaxicola299 Csaxicola353951 Csaxicola365 Csaxicola372 Csaxicola420 
-   PP1-1 = 0.367       (1=54475  0=94151)  [30800]
-   PP1-2 = 0.373       (1=43167  0=72600)  [24238]
-   PP1-3 = 0.370       (1=45701  0=77937)  [25866]
-   PP1-4 = 0.368       (1=44451  0=76199)  [25026]
-   PP1-5 = 0.371       (1=45877  0=77844)  [25731]
-   PP1-6 = 0.369       (1=45125  0=77087)  [25458]
-   PP1-7 = 0.367       (1=43579  0=75195)  [24598]
+   PP1-1 = 0.367       (1=57970  0=100087)  [32745]
+   PP1-2 = 0.373       (1=45691  0=76857)  [25679]
+   PP1-3 = 0.369       (1=48185  0=82225)  [27268]
+   PP1-4 = 0.369       (1=47052  0=80306)  [26445]
+   PP1-5 = 0.371       (1=48772  0=82726)  [27315]
+   PP1-6 = 0.370       (1=48027  0=81636)  [27020]
+   PP1-7 = 0.366       (1=46161  0=79814)  [26074]
    PP1-8 = 0.370       (1=40545  0=69028)  [22744]
-   PP1   = 0.369       (1=362920  0=620041)  [204461]
+   PP1   = 0.369       (1=382403  0=652679)  [215289]
 
-  LOD1-1 = -0.238       ACT = 1.739          Ne = 85456.435
-  LOD1-2 = -0.226       ACT = 1.634          Ne = 70828.480
-  LOD1-3 = -0.232       ACT = 1.626          Ne = 76028.941
-  LOD1-4 = -0.234       ACT = 1.712          Ne = 70468.593
-  LOD1-5 = -0.230       ACT = 1.617          Ne = 76517.956
-  LOD1-6 = -0.233       ACT = 1.701          Ne = 71848.152
-  LOD1-7 = -0.237       ACT = 1.737          Ne = 68359.712
+  LOD1-1 = -0.237       ACT = 1.764          Ne = 89594.055
+  LOD1-2 = -0.226       ACT = 1.628          Ne = 75270.555
+  LOD1-3 = -0.232       ACT = 1.648          Ne = 79139.316
+  LOD1-4 = -0.232       ACT = 1.700          Ne = 74924.337
+  LOD1-5 = -0.229       ACT = 1.611          Ne = 81623.647
+  LOD1-6 = -0.230       ACT = 1.691          Ne = 76663.585
+  LOD1-7 = -0.238       ACT = 1.735          Ne = 72604.973
   LOD1-8 = -0.231       ACT = 1.707          Ne = 64184.885
-  LOD1   = -0.233       ACT = 1.828          Ne = 537778.724
+  LOD1   = -0.232       ACT = 1.832          Ne = 565002.076
 
   RNe1 = inf
 
 
 49/66:
 Carnoldii306 Cbiatorinoides13716 Cbiatorinoides143 Csaxicola353951 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13717 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.365       (1=54184  0=94442)  [30688]
-   PP1-2 = 0.380       (1=43954  0=71813)  [24722]
-   PP1-3 = 0.363       (1=44838  0=78800)  [25390]
-   PP1-4 = 0.365       (1=44051  0=76599)  [24826]
-   PP1-5 = 0.368       (1=45572  0=78149)  [25588]
-   PP1-6 = 0.374       (1=45721  0=76491)  [25795]
-   PP1-7 = 0.368       (1=43755  0=75019)  [24505]
+   PP1-1 = 0.363       (1=57382  0=100675)  [32487]
+   PP1-2 = 0.379       (1=46422  0=76126)  [26072]
+   PP1-3 = 0.365       (1=47588  0=82822)  [26932]
+   PP1-4 = 0.365       (1=46539  0=80819)  [26217]
+   PP1-5 = 0.370       (1=48635  0=82863)  [27313]
+   PP1-6 = 0.375       (1=48655  0=81008)  [27438]
+   PP1-7 = 0.370       (1=46600  0=79375)  [26111]
    PP1-8 = 0.358       (1=39220  0=70353)  [22082]
-   PP1   = 0.368       (1=361295  0=621666)  [203597]
+   PP1   = 0.368       (1=381041  0=654041)  [214652]
 
-  LOD1-1 = -0.241       ACT = 30.749          Ne = 4833.448
-  LOD1-2 = -0.213       ACT = 11.741          Ne = 9859.688
-  LOD1-3 = -0.245       ACT = 34.754          Ne = 3557.498
-  LOD1-4 = -0.240       ACT = 38.688          Ne = 3118.558
-  LOD1-5 = -0.234       ACT = 36.414          Ne = 3397.644
-  LOD1-6 = -0.223       ACT = 15.867          Ne = 7702.266
-  LOD1-7 = -0.234       ACT = 23.108          Ne = 5139.903
+  LOD1-1 = -0.244       ACT = 31.713          Ne = 4984.000
+  LOD1-2 = -0.215       ACT = 11.981          Ne = 10228.712
+  LOD1-3 = -0.241       ACT = 33.591          Ne = 3882.306
+  LOD1-4 = -0.240       ACT = 37.683          Ne = 3379.686
+  LOD1-5 = -0.231       ACT = 34.543          Ne = 3806.751
+  LOD1-6 = -0.221       ACT = 15.144          Ne = 8561.773
+  LOD1-7 = -0.231       ACT = 21.985          Ne = 5729.928
   LOD1-8 = -0.254       ACT = 74.596          Ne = 1468.880
-  LOD1   = -0.236       ACT = 35.154          Ne = 27961.214
+  LOD1   = -0.235       ACT = 34.590          Ne = 29924.257
 
   RNe1 = inf
 
 
 50/66:
 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cdecipiens13692 Cdecipiens342b Fschistidii245 Fschistidii279881 Fschistidii279882 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.349       (1=51846  0=96780)  [21725]
-   PP1-2 = 0.344       (1=39851  0=75916)  [16851]
-   PP1-3 = 0.350       (1=43307  0=80331)  [18064]
-   PP1-4 = 0.353       (1=42566  0=78084)  [17666]
-   PP1-5 = 0.346       (1=42810  0=80911)  [17989]
-   PP1-6 = 0.349       (1=42653  0=79559)  [17952]
-   PP1-7 = 0.349       (1=41409  0=77365)  [17193]
+   PP1-1 = 0.348       (1=55019  0=103038)  [23075]
+   PP1-2 = 0.346       (1=42341  0=80207)  [17846]
+   PP1-3 = 0.351       (1=45726  0=84684)  [19063]
+   PP1-4 = 0.354       (1=45046  0=82312)  [18635]
+   PP1-5 = 0.347       (1=45578  0=85920)  [19178]
+   PP1-6 = 0.349       (1=45283  0=84380)  [19023]
+   PP1-7 = 0.349       (1=43997  0=81978)  [18277]
    PP1-8 = 0.347       (1=38033  0=71540)  [15835]
-   PP1   = 0.348       (1=342475  0=640486)  [143276]
+   PP1   = 0.349       (1=361023  0=674059)  [150930]
 
-  LOD1-1 = -0.271       ACT = 7.477          Ne = 19876.998
-  LOD1-2 = -0.280       ACT = 8.803          Ne = 13150.718
-  LOD1-3 = -0.268       ACT = 6.565          Ne = 18831.871
-  LOD1-4 = -0.263       ACT = 7.751          Ne = 15566.577
-  LOD1-5 = -0.276       ACT = 10.453          Ne = 11835.475
-  LOD1-6 = -0.271       ACT = 13.073          Ne = 9348.130
-  LOD1-7 = -0.271       ACT = 7.657          Ne = 15511.713
+  LOD1-1 = -0.272       ACT = 7.814          Ne = 20228.245
+  LOD1-2 = -0.277       ACT = 8.683          Ne = 14112.995
+  LOD1-3 = -0.268       ACT = 6.229          Ne = 20936.261
+  LOD1-4 = -0.262       ACT = 7.553          Ne = 16860.868
+  LOD1-5 = -0.275       ACT = 10.118          Ne = 12996.316
+  LOD1-6 = -0.270       ACT = 12.693          Ne = 10215.402
+  LOD1-7 = -0.270       ACT = 6.571          Ne = 19170.576
   LOD1-8 = -0.274       ACT = 8.626          Ne = 12701.940
-  LOD1   = -0.272       ACT = 9.776          Ne = 100544.975
+  LOD1   = -0.271       ACT = 9.597          Ne = 107849.688
 
   RNe1 = inf
 
 
 51/66:
 Csaxicola334 Xelegan278753Ant | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.340       (1=50521  0=98105)  [33291]
-   PP1-2 = 0.340       (1=39321  0=76446)  [26090]
-   PP1-3 = 0.340       (1=42056  0=81582)  [27833]
-   PP1-4 = 0.340       (1=40971  0=79679)  [27166]
-   PP1-5 = 0.339       (1=41896  0=81825)  [27766]
-   PP1-6 = 0.340       (1=41611  0=80601)  [27432]
-   PP1-7 = 0.342       (1=40573  0=78201)  [26732]
+   PP1-1 = 0.340       (1=53750  0=104307)  [35447]
+   PP1-2 = 0.340       (1=41627  0=80921)  [27600]
+   PP1-3 = 0.340       (1=44334  0=86076)  [29353]
+   PP1-4 = 0.339       (1=43220  0=84138)  [28619]
+   PP1-5 = 0.339       (1=44597  0=86901)  [29523]
+   PP1-6 = 0.340       (1=44124  0=85539)  [29106]
+   PP1-7 = 0.341       (1=42970  0=83005)  [28335]
    PP1-8 = 0.342       (1=37430  0=72143)  [24622]
-   PP1   = 0.340       (1=334379  0=648582)  [220932]
+   PP1   = 0.340       (1=352052  0=683030)  [232607]
 
-  LOD1-1 = -0.288       ACT = 1.003          Ne = 148121.693
-  LOD1-2 = -0.289       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.288       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.289       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.291       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.287       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.285       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.288       ACT = 1.001          Ne = 157837.957
+  LOD1-2 = -0.289       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.288       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.289       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.290       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.287       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.286       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.285       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.288       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.288       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 52/66:
 Csaxsspminiata273 Csaxsspminiata390 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata298 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.338       (1=50304  0=98322)  [33547]
-   PP1-2 = 0.337       (1=38983  0=76784)  [25953]
-   PP1-3 = 0.337       (1=41727  0=81911)  [27640]
-   PP1-4 = 0.337       (1=40697  0=79953)  [27034]
-   PP1-5 = 0.337       (1=41716  0=82005)  [27646]
-   PP1-6 = 0.336       (1=41073  0=81139)  [27554]
-   PP1-7 = 0.337       (1=40050  0=78724)  [26587]
+   PP1-1 = 0.339       (1=53513  0=104544)  [35659]
+   PP1-2 = 0.337       (1=41246  0=81302)  [27462]
+   PP1-3 = 0.337       (1=43991  0=86419)  [29191]
+   PP1-4 = 0.337       (1=42937  0=84421)  [28540]
+   PP1-5 = 0.337       (1=44349  0=87149)  [29406]
+   PP1-6 = 0.336       (1=43592  0=86071)  [29231]
+   PP1-7 = 0.337       (1=42470  0=83505)  [28168]
    PP1-8 = 0.336       (1=36865  0=72708)  [24516]
-   PP1   = 0.337       (1=331415  0=651546)  [220478]
+   PP1   = 0.337       (1=348963  0=686119)  [232173]
 
-  LOD1-1 = -0.291       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.294       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.293       ACT = 1.000          Ne = 123596.514
-  LOD1-4 = -0.293       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.294       ACT = 1.006          Ne = 122965.875
-  LOD1-6 = -0.296       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.293       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.291       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.295       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.293       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.294       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.293       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.295       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.294       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.295       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.294       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.294       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 53/66:
 Csaxglom312 Csaxglom340 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.333       (1=49485  0=99141)  [33251]
-   PP1-2 = 0.334       (1=38671  0=77096)  [25782]
-   PP1-3 = 0.332       (1=41060  0=82578)  [27551]
-   PP1-4 = 0.333       (1=40177  0=80473)  [26859]
-   PP1-5 = 0.333       (1=41216  0=82505)  [27505]
-   PP1-6 = 0.335       (1=40896  0=81316)  [27383]
-   PP1-7 = 0.335       (1=39763  0=79011)  [26550]
+   PP1-1 = 0.333       (1=52653  0=105404)  [35335]
+   PP1-2 = 0.334       (1=40927  0=81621)  [27288]
+   PP1-3 = 0.332       (1=43335  0=87075)  [29049]
+   PP1-4 = 0.334       (1=42476  0=84882)  [28361]
+   PP1-5 = 0.332       (1=43704  0=87794)  [29207]
+   PP1-6 = 0.334       (1=43339  0=86324)  [29030]
+   PP1-7 = 0.335       (1=42174  0=83801)  [28141]
    PP1-8 = 0.333       (1=36539  0=73034)  [24326]
-   PP1   = 0.333       (1=327807  0=655154)  [219206]
+   PP1   = 0.333       (1=345147  0=689935)  [230738]
 
-  LOD1-1 = -0.302       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.300       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.303       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.302       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.301       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.298       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.298       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.301       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.300       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.303       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.301       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.303       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.299       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.298       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.301       ACT = 1.006          Ne = 108900.316
-  LOD1   = -0.301       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.301       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 54/66:
-Csaxglom340 Csaxglom342 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.333       (1=49532  0=99094)  [33284]
-   PP1-2 = 0.334       (1=38629  0=77138)  [25697]
-   PP1-3 = 0.334       (1=41288  0=82350)  [27431]
-   PP1-4 = 0.333       (1=40117  0=80533)  [26796]
-   PP1-5 = 0.335       (1=41417  0=82304)  [27700]
-   PP1-6 = 0.333       (1=40672  0=81540)  [27248]
-   PP1-7 = 0.332       (1=39403  0=79371)  [26362]
-   PP1-8 = 0.334       (1=36578  0=72995)  [24255]
-   PP1   = 0.333       (1=327636  0=655325)  [218773]
+Csaxglom312 Csaxglom342 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
+   PP1-1 = 0.334       (1=52790  0=105267)  [35490]
+   PP1-2 = 0.333       (1=40759  0=81789)  [27263]
+   PP1-3 = 0.334       (1=43560  0=86850)  [29014]
+   PP1-4 = 0.334       (1=42536  0=84822)  [28420]
+   PP1-5 = 0.333       (1=43755  0=87743)  [29242]
+   PP1-6 = 0.333       (1=43211  0=86452)  [28914]
+   PP1-7 = 0.334       (1=42037  0=83938)  [28030]
+   PP1-8 = 0.333       (1=36456  0=73117)  [24335]
+   PP1   = 0.333       (1=345104  0=689978)  [230707]
 
-  LOD1-1 = -0.301       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.300       ACT = 1.003          Ne = 115385.579
-  LOD1-3 = -0.300       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.303       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.298       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.302       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.304       ACT = 1.000          Ne = 118774.000
-  LOD1-8 = -0.300       ACT = 1.009          Ne = 108572.196
-  LOD1   = -0.301       ACT = 1.000          Ne = 982961.000
+  LOD1-1 = -0.300       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.302       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.300       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.300       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.302       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.301       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.300       ACT = 1.000          Ne = 125975.000
+  LOD1-8 = -0.302       ACT = 1.000          Ne = 109573.000
+  LOD1   = -0.301       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 55/66:
-Csaxglom312 Csaxglom342 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.334       (1=49609  0=99017)  [33401]
-   PP1-2 = 0.332       (1=38467  0=77300)  [25723]
-   PP1-3 = 0.334       (1=41290  0=82348)  [27501]
-   PP1-4 = 0.334       (1=40356  0=80294)  [26956]
-   PP1-5 = 0.332       (1=41088  0=82633)  [27489]
-   PP1-6 = 0.333       (1=40644  0=81568)  [27262]
-   PP1-7 = 0.333       (1=39608  0=79166)  [26395]
-   PP1-8 = 0.333       (1=36456  0=73117)  [24335]
-   PP1   = 0.333       (1=327518  0=655443)  [219063]
+Csaxglom340 Csaxglom342 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
+   PP1-1 = 0.333       (1=52614  0=105443)  [35346]
+   PP1-2 = 0.333       (1=40862  0=81686)  [27197]
+   PP1-3 = 0.334       (1=43515  0=86895)  [28921]
+   PP1-4 = 0.332       (1=42346  0=85012)  [28299]
+   PP1-5 = 0.335       (1=44039  0=87459)  [29442]
+   PP1-6 = 0.333       (1=43113  0=86550)  [28870]
+   PP1-7 = 0.332       (1=41764  0=84211)  [27969]
+   PP1-8 = 0.334       (1=36578  0=72995)  [24255]
+   PP1   = 0.333       (1=344831  0=690251)  [230299]
 
-  LOD1-1 = -0.300       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.303       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.300       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.299       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.303       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.303       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.301       ACT = 1.000          Ne = 118735.040
-  LOD1-8 = -0.302       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.301       ACT = 1.000          Ne = 982961.000
+  LOD1-1 = -0.302       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.301       ACT = 1.009          Ne = 121449.121
+  LOD1-3 = -0.300       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.303       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.298       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.303       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.305       ACT = 1.000          Ne = 125975.000
+  LOD1-8 = -0.300       ACT = 1.009          Ne = 108572.196
+  LOD1   = -0.301       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 56/66:
 Cbiatorina321 Cbiatorina363 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina353953 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.332       (1=49377  0=99249)  [32871]
-   PP1-2 = 0.330       (1=38235  0=77532)  [25718]
-   PP1-3 = 0.332       (1=41099  0=82539)  [27553]
-   PP1-4 = 0.333       (1=40146  0=80504)  [26962]
-   PP1-5 = 0.332       (1=41036  0=82685)  [27448]
-   PP1-6 = 0.333       (1=40661  0=81551)  [27339]
-   PP1-7 = 0.333       (1=39513  0=79261)  [26369]
+   PP1-1 = 0.332       (1=52495  0=105562)  [34922]
+   PP1-2 = 0.331       (1=40511  0=82037)  [27198]
+   PP1-3 = 0.332       (1=43306  0=87104)  [29052]
+   PP1-4 = 0.333       (1=42378  0=84980)  [28458]
+   PP1-5 = 0.332       (1=43604  0=87894)  [29176]
+   PP1-6 = 0.332       (1=43104  0=86559)  [28971]
+   PP1-7 = 0.333       (1=41922  0=84053)  [27970]
    PP1-8 = 0.333       (1=36528  0=73045)  [24370]
-   PP1   = 0.332       (1=326595  0=656366)  [218630]
+   PP1   = 0.332       (1=343848  0=691234)  [230116]
 
-  LOD1-1 = -0.303       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.307       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.303       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.302       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.304       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.302       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.302       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.303       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.306       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.303       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.302       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.304       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.303       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.302       ACT = 1.009          Ne = 124806.968
   LOD1-8 = -0.301       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.303       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.303       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 57/66:
 Csaxsspminiata298 Csaxsspminiata390 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.330       (1=48984  0=99642)  [33040]
-   PP1-2 = 0.332       (1=38385  0=77382)  [25768]
-   PP1-3 = 0.333       (1=41232  0=82406)  [27579]
-   PP1-4 = 0.333       (1=40195  0=80455)  [26820]
-   PP1-5 = 0.332       (1=41070  0=82651)  [27454]
-   PP1-6 = 0.332       (1=40623  0=81589)  [27191]
-   PP1-7 = 0.332       (1=39466  0=79308)  [26431]
+   PP1-1 = 0.330       (1=52093  0=105964)  [35134]
+   PP1-2 = 0.332       (1=40641  0=81907)  [27267]
+   PP1-3 = 0.333       (1=43459  0=86951)  [29101]
+   PP1-4 = 0.333       (1=42451  0=84907)  [28370]
+   PP1-5 = 0.332       (1=43646  0=87852)  [29185]
+   PP1-6 = 0.332       (1=43080  0=86583)  [28837]
+   PP1-7 = 0.333       (1=41900  0=84075)  [28028]
    PP1-8 = 0.331       (1=36306  0=73267)  [24524]
-   PP1   = 0.332       (1=326261  0=656700)  [218808]
+   PP1   = 0.332       (1=343576  0=691506)  [230446]
 
-  LOD1-1 = -0.308       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.304       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.301       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.301       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.304       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.303       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.303       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.308       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.304       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.301       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.301       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.304       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.303       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.302       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.305       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.304       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.304       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 58/66:
 Cbiatorina313 Cbiatorina363 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina321 Cbiatorina353953 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.331       (1=49235  0=99391)  [32871]
-   PP1-2 = 0.335       (1=38749  0=77018)  [25814]
-   PP1-3 = 0.331       (1=40940  0=82698)  [27413]
-   PP1-4 = 0.333       (1=40119  0=80531)  [26814]
-   PP1-5 = 0.333       (1=41207  0=82514)  [27533]
-   PP1-6 = 0.331       (1=40497  0=81715)  [27133]
-   PP1-7 = 0.330       (1=39250  0=79524)  [26230]
+   PP1-1 = 0.332       (1=52418  0=105639)  [35002]
+   PP1-2 = 0.335       (1=41004  0=81544)  [27305]
+   PP1-3 = 0.332       (1=43232  0=87178)  [28904]
+   PP1-4 = 0.332       (1=42305  0=85053)  [28305]
+   PP1-5 = 0.333       (1=43784  0=87714)  [29315]
+   PP1-6 = 0.332       (1=42999  0=86664)  [28791]
+   PP1-7 = 0.330       (1=41606  0=84369)  [27825]
    PP1-8 = 0.328       (1=35898  0=73675)  [24276]
-   PP1   = 0.332       (1=325895  0=657066)  [218084]
+   PP1   = 0.332       (1=343246  0=691836)  [229723]
 
-  LOD1-1 = -0.305       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.298       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.305       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.303       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.302       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.305       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.307       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.304       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.299       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.305       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.303       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.302       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.304       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.307       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.312       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.305       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.304       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 59/66:
 Cbiatorina313 Cbiatorina321 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.331       (1=49267  0=99359)  [33108]
-   PP1-2 = 0.330       (1=38249  0=77518)  [25724]
-   PP1-3 = 0.333       (1=41118  0=82520)  [27458]
-   PP1-4 = 0.330       (1=39786  0=80864)  [26671]
-   PP1-5 = 0.330       (1=40824  0=82897)  [27386]
-   PP1-6 = 0.330       (1=40349  0=81863)  [27137]
-   PP1-7 = 0.333       (1=39503  0=79271)  [26446]
+   PP1-1 = 0.331       (1=52342  0=105715)  [35162]
+   PP1-2 = 0.330       (1=40492  0=82056)  [27215]
+   PP1-3 = 0.333       (1=43379  0=87031)  [28935]
+   PP1-4 = 0.330       (1=42056  0=85302)  [28168]
+   PP1-5 = 0.330       (1=43424  0=88074)  [29131]
+   PP1-6 = 0.330       (1=42825  0=86838)  [28815]
+   PP1-7 = 0.333       (1=41918  0=84057)  [28047]
    PP1-8 = 0.334       (1=36551  0=73022)  [24525]
-   PP1   = 0.331       (1=325647  0=657314)  [218455]
+   PP1   = 0.331       (1=342987  0=692095)  [229997]
 
-  LOD1-1 = -0.305       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.307       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.303       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.308       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.308       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.307       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.302       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.305       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.307       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.302       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.307       ACT = 1.008          Ne = 126285.426
+  LOD1-5 = -0.307       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.307       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.302       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.301       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.305       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.305       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 60/66:
 Csaxsspminiata273 Csaxsspminiata298 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.332       (1=49338  0=99288)  [33058]
-   PP1-2 = 0.332       (1=38399  0=77368)  [25806]
-   PP1-3 = 0.329       (1=40679  0=82959)  [27341]
-   PP1-4 = 0.330       (1=39758  0=80892)  [26564]
-   PP1-5 = 0.331       (1=40935  0=82786)  [27483]
-   PP1-6 = 0.332       (1=40516  0=81696)  [27123]
-   PP1-7 = 0.331       (1=39258  0=79516)  [26291]
+   PP1-1 = 0.332       (1=52451  0=105606)  [35164]
+   PP1-2 = 0.332       (1=40661  0=81887)  [27331]
+   PP1-3 = 0.329       (1=42960  0=87450)  [28880]
+   PP1-4 = 0.330       (1=41970  0=85388)  [28073]
+   PP1-5 = 0.331       (1=43503  0=87995)  [29206]
+   PP1-6 = 0.332       (1=42991  0=86672)  [28783]
+   PP1-7 = 0.330       (1=41605  0=84370)  [27880]
    PP1-8 = 0.332       (1=36402  0=73171)  [24450]
-   PP1   = 0.331       (1=325285  0=657676)  [218116]
+   PP1   = 0.331       (1=342543  0=692539)  [229767]
 
-  LOD1-1 = -0.304       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.304       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.309       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.308       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.306       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.305       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.307       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.304       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.304       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.309       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.308       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.306       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.304       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.307       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.303       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.306       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.306       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 61/66:
 Csaxicola338 Xelegan278753Ant | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.316       (1=46963  0=101663)  [32252]
-   PP1-2 = 0.318       (1=36779  0=78988)  [25184]
-   PP1-3 = 0.316       (1=39048  0=84590)  [26691]
-   PP1-4 = 0.317       (1=38281  0=82369)  [26239]
-   PP1-5 = 0.317       (1=39206  0=84515)  [26795]
-   PP1-6 = 0.319       (1=38943  0=83269)  [26534]
-   PP1-7 = 0.317       (1=37618  0=81156)  [25797]
+   PP1-1 = 0.316       (1=49952  0=108105)  [34343]
+   PP1-2 = 0.318       (1=38957  0=83591)  [26638]
+   PP1-3 = 0.316       (1=41199  0=89211)  [28135]
+   PP1-4 = 0.318       (1=40482  0=86876)  [27693]
+   PP1-5 = 0.316       (1=41606  0=89892)  [28457]
+   PP1-6 = 0.319       (1=41311  0=88352)  [28136]
+   PP1-7 = 0.317       (1=39934  0=86041)  [27391]
    PP1-8 = 0.316       (1=34599  0=74974)  [23637]
-   PP1   = 0.317       (1=311437  0=671524)  [213128]
+   PP1   = 0.317       (1=328040  0=707042)  [224432]
 
-  LOD1-1 = -0.335       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.332       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.336       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.333       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.334       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.330       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.334       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.335       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.332       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.336       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.332       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.335       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.330       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.333       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.336       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.334       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.334       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 62/66:
 Csaxicola334 Csaxicola338 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.316       (1=46972  0=101654)  [32239]
-   PP1-2 = 0.315       (1=36429  0=79338)  [24964]
-   PP1-3 = 0.316       (1=39126  0=84512)  [26885]
-   PP1-4 = 0.315       (1=38028  0=82622)  [26064]
-   PP1-5 = 0.316       (1=39091  0=84630)  [26786]
-   PP1-6 = 0.314       (1=38353  0=83859)  [26385]
-   PP1-7 = 0.313       (1=37206  0=81568)  [25576]
+   PP1-1 = 0.316       (1=49924  0=108133)  [34270]
+   PP1-2 = 0.315       (1=38548  0=84000)  [26410]
+   PP1-3 = 0.317       (1=41278  0=89132)  [28310]
+   PP1-4 = 0.315       (1=40094  0=87264)  [27476]
+   PP1-5 = 0.316       (1=41555  0=89943)  [28473]
+   PP1-6 = 0.314       (1=40714  0=88949)  [27999]
+   PP1-7 = 0.314       (1=39495  0=86480)  [27151]
    PP1-8 = 0.314       (1=34362  0=75211)  [23596]
-   PP1   = 0.315       (1=309567  0=673394)  [212495]
+   PP1   = 0.315       (1=325970  0=709112)  [223685]
 
-  LOD1-1 = -0.335       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.338       ACT = 1.005          Ne = 115230.666
-  LOD1-3 = -0.334       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.337       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.335       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.340       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.341       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.336       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.338       ACT = 1.007          Ne = 121692.948
+  LOD1-3 = -0.334       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.338       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.335       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.339       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.340       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.340       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.338       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.338       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 63/66:
 Csaxicola13696 Csaxicola144 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13697 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.312       (1=46350  0=102276)  [31960]
-   PP1-2 = 0.314       (1=36297  0=79470)  [24903]
-   PP1-3 = 0.314       (1=38852  0=84786)  [26686]
-   PP1-4 = 0.313       (1=37814  0=82836)  [25950]
-   PP1-5 = 0.313       (1=38776  0=84945)  [26593]
-   PP1-6 = 0.316       (1=38608  0=83604)  [26433]
-   PP1-7 = 0.315       (1=37421  0=81353)  [25677]
+   PP1-1 = 0.312       (1=49314  0=108743)  [33990]
+   PP1-2 = 0.313       (1=38393  0=84155)  [26373]
+   PP1-3 = 0.314       (1=40958  0=89452)  [28155]
+   PP1-4 = 0.314       (1=39968  0=87390)  [27411]
+   PP1-5 = 0.314       (1=41272  0=90226)  [28306]
+   PP1-6 = 0.316       (1=40981  0=88682)  [28029]
+   PP1-7 = 0.315       (1=39687  0=86288)  [27235]
    PP1-8 = 0.313       (1=34274  0=75299)  [23583]
-   PP1   = 0.314       (1=308392  0=674569)  [211786]
+   PP1   = 0.314       (1=324847  0=710235)  [223083]
 
-  LOD1-1 = -0.344       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.340       ACT = 1.006          Ne = 115130.362
-  LOD1-3 = -0.339       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.341       ACT = 1.001          Ne = 120536.007
-  LOD1-5 = -0.341       ACT = 1.010          Ne = 122475.908
-  LOD1-6 = -0.336       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.337       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.343       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.341       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.339       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.340       ACT = 1.001          Ne = 127228.262
+  LOD1-5 = -0.340       ACT = 1.007          Ne = 130532.978
+  LOD1-6 = -0.335       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.337       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.342       ACT = 1.000          Ne = 109573.000
-  LOD1   = -0.340       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.340       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 64/66:
 Csaxicola144 Csaxpul13713 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.313       (1=46473  0=102153)  [32077]
-   PP1-2 = 0.312       (1=36167  0=79600)  [25022]
-   PP1-3 = 0.311       (1=38494  0=85144)  [26606]
-   PP1-4 = 0.311       (1=37514  0=83136)  [25852]
-   PP1-5 = 0.310       (1=38344  0=85377)  [26544]
-   PP1-6 = 0.309       (1=37739  0=84473)  [26021]
-   PP1-7 = 0.311       (1=36963  0=81811)  [25571]
+   PP1-1 = 0.313       (1=49409  0=108648)  [34134]
+   PP1-2 = 0.312       (1=38273  0=84275)  [26483]
+   PP1-3 = 0.312       (1=40649  0=89761)  [28092]
+   PP1-4 = 0.311       (1=39578  0=87780)  [27291]
+   PP1-5 = 0.310       (1=40755  0=90743)  [28197]
+   PP1-6 = 0.309       (1=40043  0=89620)  [27618]
+   PP1-7 = 0.312       (1=39274  0=86701)  [27149]
    PP1-8 = 0.312       (1=34163  0=75410)  [23438]
-   PP1   = 0.311       (1=305857  0=677104)  [211133]
+   PP1   = 0.311       (1=322144  0=712938)  [222402]
 
-  LOD1-1 = -0.342       ACT = 1.000          Ne = 148626.000
-  LOD1-2 = -0.343       ACT = 1.000          Ne = 115767.000
-  LOD1-3 = -0.345       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.346       ACT = 1.000          Ne = 120650.000
-  LOD1-5 = -0.348       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.350       ACT = 1.000          Ne = 122212.000
-  LOD1-7 = -0.345       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.342       ACT = 1.000          Ne = 158057.000
+  LOD1-2 = -0.343       ACT = 1.000          Ne = 122548.000
+  LOD1-3 = -0.344       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.346       ACT = 1.000          Ne = 127358.000
+  LOD1-5 = -0.348       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.350       ACT = 1.000          Ne = 129663.000
+  LOD1-7 = -0.344       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.344       ACT = 1.006          Ne = 108896.009
-  LOD1   = -0.345       ACT = 1.000          Ne = 982961.000
+  LOD1   = -0.345       ACT = 1.000          Ne = 1035082.000
 
   RNe1 = inf
 
 
 65/66:
 Csaxglom318 Csaxglom322 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina13689 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina364 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.280       (1=41573  0=107053)  [28847]
-   PP1-2 = 0.284       (1=32822  0=82945)  [22794]
-   PP1-3 = 0.280       (1=34672  0=88966)  [24072]
-   PP1-4 = 0.281       (1=33851  0=86799)  [23610]
-   PP1-5 = 0.280       (1=34644  0=89077)  [23980]
-   PP1-6 = 0.279       (1=34106  0=88106)  [23584]
-   PP1-7 = 0.281       (1=33368  0=85406)  [23055]
+   PP1-1 = 0.280       (1=44247  0=113810)  [30723]
+   PP1-2 = 0.283       (1=34718  0=87830)  [24120]
+   PP1-3 = 0.281       (1=36590  0=93820)  [25420]
+   PP1-4 = 0.280       (1=35711  0=91647)  [24929]
+   PP1-5 = 0.280       (1=36834  0=94664)  [25492]
+   PP1-6 = 0.280       (1=36265  0=93398)  [25063]
+   PP1-7 = 0.280       (1=35315  0=90660)  [24395]
    PP1-8 = 0.280       (1=30637  0=78936)  [21399]
-   PP1   = 0.280       (1=275673  0=707288)  [191341]
+   PP1   = 0.280       (1=290317  0=744765)  [201541]
 
-  LOD1-1 = -0.411       ACT = 1.130          Ne = 131502.303
-  LOD1-2 = -0.403       ACT = 1.081          Ne = 107085.211
-  LOD1-3 = -0.409       ACT = 1.090          Ne = 113465.497
-  LOD1-4 = -0.409       ACT = 1.061          Ne = 113706.516
-  LOD1-5 = -0.410       ACT = 1.104          Ne = 112035.607
-  LOD1-6 = -0.412       ACT = 1.110          Ne = 110100.281
-  LOD1-7 = -0.408       ACT = 1.125          Ne = 105603.614
+  LOD1-1 = -0.410       ACT = 1.126          Ne = 140360.710
+  LOD1-2 = -0.403       ACT = 1.080          Ne = 113419.685
+  LOD1-3 = -0.409       ACT = 1.089          Ne = 119786.383
+  LOD1-4 = -0.409       ACT = 1.064          Ne = 119682.835
+  LOD1-5 = -0.410       ACT = 1.105          Ne = 118951.477
+  LOD1-6 = -0.411       ACT = 1.109          Ne = 116881.192
+  LOD1-7 = -0.409       ACT = 1.127          Ne = 111751.917
   LOD1-8 = -0.411       ACT = 1.061          Ne = 103283.608
-  LOD1   = -0.409       ACT = 1.098          Ne = 895534.969
+  LOD1   = -0.409       ACT = 1.097          Ne = 943373.418
 
   RNe1 = inf
 
 
 66/66:
 Cbiatorina13689 Cbiatorina364 | Carnoldii285 Carnoldii291 Carnoldii293 Carnoldii301 Carnoldii304 Carnoldii306 Carnoldii310 Carnoldii353952 Carnoldii370 Carnoldii376 Carnoldii383 Carnoldii464 Carnoldiigr276 Carnoldiitr277 Cbiatorina13685 Cbiatorina267 Cbiatorina313 Cbiatorina321 Cbiatorina353953 Cbiatorina363 Cbiatorina406 Cbiatorina9608 Cbiatorinoides13716 Cbiatorinoides13717 Cbiatorinoides143 Cbiatorinoides28T Cbiatorinoides349 Cclauzadeana21562 Cdecipiens13692 Cdecipiens342b Cignea353950 Cignea360 Cnana13717b Csaxglom312 Csaxglom318 Csaxglom322 Csaxglom323 Csaxglom329 Csaxglom340 Csaxglom342 Csaxicola13696 Csaxicola13697 Csaxicola144 Csaxicola284b Csaxicola299 Csaxicola334 Csaxicola338 Csaxicola339 Csaxicola353951 Csaxicola357 Csaxicola365 Csaxicola372 Csaxicola420 Csaxicolassppul373 Csaxpul13713 Csaxsspminiata273 Csaxsspminiata298 Csaxsspminiata390 Fschistidii245 Fschistidii279881 Fschistidii279882 Xcandelaria8444 Xelegan278753Ant Xelegans192 Xsorediata224348 Xsorediata367 
-   PP1-1 = 0.255       (1=37956  0=110670)  [28122]
-   PP1-2 = 0.255       (1=29465  0=86302)  [21855]
-   PP1-3 = 0.255       (1=31560  0=92078)  [23409]
-   PP1-4 = 0.257       (1=30954  0=89696)  [22940]
-   PP1-5 = 0.253       (1=31341  0=92380)  [23295]
-   PP1-6 = 0.256       (1=31278  0=90934)  [23142]
-   PP1-7 = 0.254       (1=30175  0=88599)  [22332]
+   PP1-1 = 0.255       (1=40376  0=117681)  [29875]
+   PP1-2 = 0.254       (1=31164  0=91384)  [23108]
+   PP1-3 = 0.255       (1=33315  0=97095)  [24677]
+   PP1-4 = 0.257       (1=32705  0=94653)  [24213]
+   PP1-5 = 0.253       (1=33326  0=98172)  [24776]
+   PP1-6 = 0.256       (1=33155  0=96508)  [24523]
+   PP1-7 = 0.254       (1=32011  0=93964)  [23695]
    PP1-8 = 0.254       (1=27883  0=81690)  [20654]
-   PP1   = 0.255       (1=250612  0=732349)  [185749]
+   PP1   = 0.255       (1=263935  0=771147)  [195520]
 
-  LOD1-1 = -0.465       ACT = 1.018          Ne = 145993.110
-  LOD1-2 = -0.467       ACT = 1.010          Ne = 114618.831
-  LOD1-3 = -0.465       ACT = 1.000          Ne = 123638.000
-  LOD1-4 = -0.462       ACT = 1.025          Ne = 117744.469
-  LOD1-5 = -0.469       ACT = 1.000          Ne = 123721.000
-  LOD1-6 = -0.463       ACT = 1.011          Ne = 120852.674
-  LOD1-7 = -0.468       ACT = 1.000          Ne = 118774.000
+  LOD1-1 = -0.465       ACT = 1.013          Ne = 156068.279
+  LOD1-2 = -0.467       ACT = 1.011          Ne = 121179.979
+  LOD1-3 = -0.465       ACT = 1.000          Ne = 130410.000
+  LOD1-4 = -0.462       ACT = 1.015          Ne = 125432.519
+  LOD1-5 = -0.469       ACT = 1.000          Ne = 131498.000
+  LOD1-6 = -0.464       ACT = 1.012          Ne = 128062.981
+  LOD1-7 = -0.468       ACT = 1.000          Ne = 125975.000
   LOD1-8 = -0.467       ACT = 1.013          Ne = 108182.856
-  LOD1   = -0.466       ACT = 1.016          Ne = 967819.204
+  LOD1   = -0.466       ACT = 1.017          Ne = 1018161.130
 
   RNe1 = inf
 
 
 ASDSF[min=0.100] = 0.002     MSDSF = 0.016
-min Ne = 1298.471    (partition = 34)
+min Ne = 1400.757    (partition = 34)
