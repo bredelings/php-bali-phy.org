@@ -25,11 +25,11 @@
 
 	  <h3>Current (stable) release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>3.1.4</b> (<a href="releases/3/">Changes</a>): 
+	    <li style="padding-bottom:1em"><b>3.1.5</b> (<a href="releases/3/">Changes</a>): 
 
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.4-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.4-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.4-win64.tar.gz","Windows&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.5-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.5-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("files/bali-phy-3.1.5-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	      &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
 	  <p>You can now install using a package manager on some systems:
