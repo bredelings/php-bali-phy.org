@@ -178,7 +178,7 @@
 		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li -->
 		<!-- li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li -->
 		<li><span class="timepoint">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
-		<li><span class="timepoint-new">[3.2]</span> Fix prior on <span class="userinput">alpha</span> in <span class="userinput">Rates.Gamma</span>.</li>
+		<li><span class="timepoint-new">[3.2]</span> Fix prior on <span class="userinput">alpha</span> in <span class="userinput">Rates.gamma</span>.</li>
 		<li><span class="timepoint-new">[3.2]</span> Link all programs with correct libstdc++ (Linux).</li>
 		<li><span class="timepoint-new">[3.2]</span> Correctly write alignment for fixed-alignment partitions.</li>
 	      </ul>
