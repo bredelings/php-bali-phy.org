@@ -28,6 +28,7 @@
 	    <li><b>[3.0-beta6]</b> - Jan-05-2018</li -->
 	    <li><b>[3.0]</b> - Feb-12-2018</li>
 	    <li><b>[3.1]</b> - May-02-2018</li>
+	    <li><b>[3.2]</b> - Jun-25-2018</li>
 	  </ul>
 	  </div>
 
@@ -95,7 +96,7 @@
 	      <!-- li><span class="timepoint">[3.0-beta5]</span> Prior on branch-length can reference tree.</li -->
 	      <li>Sample initial branch-lengths from prior.</li>
 	      <!-- li><span class="timepoint">[3.0-beta6]</span> Branch-length prior now takes a list.</li -->
-	      <li>Alternative syntax for linking partitions: <b>--smodel 1:hky85 --smodel 2:hky85 --link 1,2</b></li>
+	      <li>Alternative syntax for linking partitions: <span class="userinput">--smodel 1:hky85 --smodel 2:hky85 <b>--link 1,2</b></span></li>
 	    </ul>
 	  </li>
 	  <li>Summarization tools
@@ -103,7 +104,8 @@
 	      <li>Beautify and condense MCMC statistics.</li> 
 	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
 	      <!-- li><span class="timepoint">[3.0-beta2]</span> Don't compute trace plots (too slow, large files).</li --> 
-	      <li><span class="timepoint-new">[3.1]</span> Show priors.</li> 
+	      <li><span class="timepoint">[3.1]</span> Show priors.</li> 
+	      <li><span class="timepoint-new">[3.2]</span> Reorganize HTML report.</li> 
 	    </ul>
 	  </li>
 
@@ -113,7 +115,7 @@
 	      <li>Help for <em>models</em>/<em>functions</em>/<em>distributions</em>/<em>commands</em> via <b>bali-phy help </b><em>topic</em>.</li>
 	      <!-- li>Help levels via <b>bali-phy help </b>simple|advanced|expert.</li -->
 	      <li>Give readable information under the <b>--verbose</b> flag.</li>
-	      <li><span class="timepoint-new">[3.1]</span> Unix manual pages for <em>bali-phy</em> and tools</li>
+	      <li><span class="timepoint">[3.1]</span> Unix manual pages for <em>bali-phy</em> and tools</li>
 	    </ul>
 	    </li>
 	    <!-- li>Models
@@ -134,14 +136,14 @@
 	      <ul>
 		<li>New install documentation.</li>
 		<li>New homebrew tap for bali-phy.</li>
-		<li><span class="timepoint-new">[3.1]</span> Debian package for bali-phy.</li>
+		<li><span class="timepoint">[3.1]</span> Debian package for bali-phy.</li>
 	      </ul>
 	    </li>
 	  <li>Compile
 	    <ul>
 	      <li>Autodetect Cairo library.</li>
-	      <li><span class="timepoint-new">[3.1]</span> Use <a href="http://mesonbuild.com">Meson Build</a> to build bali-phy, instead of autotools.</li>
-	      <li><span class="timepoint-new">[3.1]</span> Automatically use system libraries for <em>boost</em>, <em>eigen</em>, and <em>nlohmann::json</em> if available.</li>
+	      <li><span class="timepoint">[3.1]</span> Use <a href="http://mesonbuild.com">Meson Build</a> to build bali-phy, instead of autotools.</li>
+	      <li><span class="timepoint">[3.1]</span> Automatically use system libraries for <em>boost</em>, <em>eigen</em>, and <em>nlohmann::json</em> if available.</li>
 	    </ul>
 	  </li>
 	  
@@ -163,7 +165,7 @@
 	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>Gamma <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.Gamma</b>.</li -->
 	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>log-normal <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> Rates.logNormal</b>.</li -->
 	      <!-- li><span class="timepoint">[3.0-beta4]</span> Change spelling: <b>meanIndelLengthMinus1 <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> meanIndelLength</b>.</li -->
-	      <li><span class="timepoint-new">[3.1]</span> Change spelling of many models/functions/distributions to lower-case.</li>
+	      <li><span class="timepoint">[3.1]</span> Change spelling of many models/functions/distributions to lower-case.</li>
 	    </ul>
 	    </li>
 	      
@@ -175,7 +177,10 @@
 		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix order of omega categories for M3 model.</li -->
 		<!-- li><span class="timepoint">[3.0-beta6]</span> Fix very long initial tree.</li -->
 		<!-- li><span class="timepoint">[3.0-beta6]</span> Make subsampling (-x number) work again for <em>trees-consensus</em>, etc.</li -->
-		<li><span class="timepoint-new">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
+		<li><span class="timepoint">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
+		<li><span class="timepoint-new">[3.2]</span> Fix prior on <span class="userinput">alpha</span> in <span class="userinput">Rates.Gamma</span>.</li>
+		<li><span class="timepoint-new">[3.2]</span> Link all programs with correct libstdc++ (Linux).</li>
+		<li><span class="timepoint-new">[3.2]</span> Correctly write alignment for fixed-alignment partitions.</li>
 	      </ul>
 	    </li>
 
