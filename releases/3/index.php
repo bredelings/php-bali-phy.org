@@ -18,6 +18,8 @@
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 
+	  <p>See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for detailed change log.</p>
+
 	  <div class="release_dates"><b style="font-size:125%">Version 3 (stable):</b>
           <ul>
 	    <!-- li><b>[3.0-beta1]</b> - May-05-2017</li>
