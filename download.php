@@ -40,12 +40,11 @@
 
 	      </li>
 	      <li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
-		<p>For Ubuntu you need <a href="https://launchpad.net/ubuntu/+source/bali-phy/">"Cosmic Cuttlefish" or later</a>.
-		For Debian you need <a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all"><em>testing</em> or <em>unstable</em></a>
-		</p>
 	      	<pre class="screen"><code class="prompt">% </code><strong><code>apt-get install bali-phy</code></strong>
 <code class="prompt">% </code><strong><code>bali-phy --version</code></strong></pre>
-</li>
+	      </li>
+	      <p>Check the latest version available in: [<a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all">Debian</a>] [<a href="https://launchpad.net/ubuntu/+source/bali-phy/">Ubuntu</a>]</p>
+
 	    </ul>
 	    
 	  </p>
