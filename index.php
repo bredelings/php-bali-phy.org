@@ -28,9 +28,8 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>06/25/18: <strong>BAli-Phy 3.2 released</strong> - <a href="download.php">Download</a><br/>
-		Improve HTML report + some bug fixes (<a href="releases/3/">release notes</a>)</p>
-
+	      <p>06/25/18: <strong>BAli-Phy 3.3 released</strong> - <a href="download.php">Download</a><br/>
+		Rework codon models + document substitution models better (<a href="releases/3/">release notes</a>)</p>
 	      </div>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.

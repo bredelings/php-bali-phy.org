@@ -95,3 +95,5 @@ ul.changelog li li {font-weight: normal; color: black}
 .timepoint     {font-family:monospace ; font-size: 85%; color:rgb(0,0,100)}
 
 .userinput {font-family:times,monospace; background-color:rgb(240,240,240); }
+
+ul.changelog .heading2 {font-weight: bold; color: green}

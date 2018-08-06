@@ -23,14 +23,29 @@
 }
 
 p .userinput { background-color: #F0F0F0;}
-table .userinput {background-color: transparent;}
+table .userinput {
+    background-color: transparent;
+}
+table.informaltable {
+    margin-left: 5em;
+    margin-right: 5em;
+    width: calc(100% - 10em);
+}
 
 .note {
 	border: solid;
-	border-width: 2px;
-	border-color: green;
-	padding-left: 15px;
-	padding-right: 15px;
+	border-width: 0.15em;
+	border-color: #EE4040;
+	border-radius: 1.5em;
+
+	background-color: #FFEAEA;
+
+	margin-left: 3em;
+	margin-right: 3em;
+	width: calc(100% - 8em);
+        padding-left: 1em;
+        padding-right: 1em;
+	padding-bottom:1em
 }
 
 code { margin: 0; padding: 0}
@@ -52,11 +67,17 @@ pre.programlisting {
 
 	padding: 0.5em;
 	padding-left:1em;
+	width: calc(100% - 8em);
 }
 
 pre.screen {
 	background-color: #F0F0F0;
 	padding: 6px;
+}
+
+.computeroutput {
+    background-color: #F0F0F0;
+    font-family: courier, monospace;
 }
 
 .application {font-family: Courier New; font-style: italic;}
@@ -90,6 +111,7 @@ table td .variablelist table tr td {padding: 0; margin: 0}
 
 table {border-collapse: collapse}
 table.table > tbody > tr:nth-child(odd) > td { background-color: #E0E0E0; margin:0  }
+table.informaltable > tbody > tr:nth-child(odd) > td { background-color: #E0E0E0; margin:0  }
 .qandaset  tr:nth-child(4n+1) > td { background-color: #E0E0E0; margin:0  }
 .qandaset  tr:nth-child(4n+2) > td { background-color: #E0E0E0; margin:0  }
 
@@ -118,8 +140,14 @@ p + p { margin-top: 0.8em; }
 
 div.example { 
               border: solid; 
-              border-width: 1px;
+              border-width: 0.15em;
+	      border-radius: 1.5em;
+	      border-color: #4040CC;
               background-color: #E0F0FF;
-              padding-left: 10px;
-              padding-right: 10px;
+	      margin-left: 3em;
+	      margin-right: 3em;
+	      width: calc(100% - 8em);
+              padding-left: 1em;
+              padding-right: 1em;
+	      padding-bottom:1em
 }

@@ -35,16 +35,17 @@ h1,h2,h3,h4 {clear: both;}
 	    <ol>
 	      <li><a href="README.html#intro">Introduction</a></li>
 	      <li><a href="README.html#installation">Installation</a></li>
-	      <li><a href="README.html#compilation">Compiling BAli-Phy</a></li>
 	      <li><a href="README.html#running">Running the program</a></li>
 	      <li><a href="README.html#input">Input</a></li>
 	      <li><a href="README.html#output">Output</a></li>
-	      <li><a href="README.html#functions">Models and Priors</a></li>
 	      <li><a href="README.html#subst_models">Substitution models</a></li>
 	      <li><a href="README.html#indel_models">Insertion/deletion models</a></li>
+	      <li><a href="README.html#functions">Models and Priors</a></li>
+	      <li><a href="README.html#idp64">Partitioned data sets</a></li>
 	      <li><a href="README.html#mixing_and_convergence">Convergence and Mixing: Is it done yet?</a></li>
 	      <li><a href="README.html#alignment-utilities">Alignment utilities</a></li>
 	      <li><a href="README.html#tree-utilities">Tree utilities</a></li>
+	      <li><a href="README.html#compilation">Compiling BAli-Phy</a></li>
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
 	    </ol>
 
