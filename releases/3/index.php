@@ -64,7 +64,7 @@
 		  <li><em>substitution model</em>: <span class="userinput">-S 'hky85[kappa=2]'</span></li>
 		  <li><em>insertion/deletion model</em>: <span class="userinput">-I 'rs07[log_rate~laplace[-4,0.707]]'</span></li>
 		  <li><em>branch lengths</em>: <span class="userinput">-B '~iid[num_branches[T],gamma[0.5,div[2,num_branches[T]]]]'</span></li>
-		  <li><em>partition-specific scale factors</em>: <span class="userinput">-R 'scale=1,3:~gamma[0.5,2]'</span></li>
+		  <li><em>partition-specific scale factors</em>: <span class="userinput">-R '1,3:~gamma[0.5,2]'</span></li>
 		</ul>
 	      </li>
 	      <li><span class="heading2">New syntax</span>:
@@ -168,7 +168,7 @@
 		<li><span class="timepoint">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
 		<li><span class="timepoint">[3.2]</span> Fix prior on <span class="userinput">alpha</span> in <span class="userinput">Rates.gamma</span>.</li>
 		<li><span class="timepoint">[3.2]</span> Link all programs with correct libstdc++ (Linux).</li>
-		<li><span class="timepoint">[3.2]</span> Correctly write alignment for fixed-alignment partitions.</li>
+		<li><span class="timepoint">[3.2]</span> Correctly record alignments for fixed-alignment partitions.</li>
 		<li><span class="timepoint-new">[3.3]</span> Fix incorrect LG model.</li>
 		<li><span class="timepoint-new">[3.3]</span> Fix run file for f81 model.</li>
 		<li><span class="timepoint-new">[3.3]</span> bp-analyze: parse output files from 3.0-betal.</li>
