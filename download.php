@@ -35,7 +35,7 @@
 	  <p>You can now install using a package manager on some systems:
 	    <ul>
 	      <li><b>Mac</b>: homebrew users can install with <em>brew</em>.
-		<pre class="screen"><code class="prompt">% </code><strong><code>brew tap bredelings/bioinformatics</code></strong>
+		<pre class="screen"><code class="prompt">% </code><strong><code>brew tap brewsci/bio</code></strong>
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
 
 	      </li>
