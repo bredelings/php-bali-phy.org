@@ -28,7 +28,7 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>06/25/18: <strong>BAli-Phy 3.3 released</strong> - <a href="download.php">Download</a><br/>
+	      <p>08/06/18: <strong>BAli-Phy 3.3 released</strong> - <a href="download.php">Download</a><br/>
 		Rework codon models + document substitution models better (<a href="releases/3/">release notes</a>)</p>
 	      </div>
 
