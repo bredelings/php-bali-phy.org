@@ -41,7 +41,8 @@ The modelling framework is under rapid development, and I haven't written much d
 
 <pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
-<p> Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet, and curly braces are required.</p>	  <p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+<p> Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
+<p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 <h2>Random data structures</h2>
 <p>We can also sample random data structures.  For example, the <em>iid</em> distribution returns a random list.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.
