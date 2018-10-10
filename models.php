@@ -42,7 +42,7 @@ The modelling framework is under rapid development, and I haven't written much d
 <pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
 <p> Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
-<p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/Models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+<p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 <h2>Random data structures</h2>
 <p>We can also sample random data structures.  For example, the <em>iid</em> distribution returns a random list.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.
@@ -75,7 +75,7 @@ In contrast, a traditional graphical model makes <em>x</em> always depend on eve
 <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
   The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
 
-<p>The <em>Observe</em> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 2.0.  This constraints the random walk to end at 2.0, creating a Brownian Bridge.</p>
+<p>The <em>Observe</em> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 2.0.  This constrains the random walk to end at 2.0, creating a Brownian Bridge.</p>
 	</div>
 	  </td>	      
       </tr>
