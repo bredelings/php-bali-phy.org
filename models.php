@@ -28,7 +28,7 @@
 
 <pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
 
-	  <p>Example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a>.  For example, you might run <b>bali-phy -m LinearCoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+	  <p>Example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 	  <p>Languages for expressing probabilistic models are called <em>probabilistic programming languages</em>.  Other well-known languages include BUGS, RevBayes, and Stan.</p>
 
