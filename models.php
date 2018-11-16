@@ -19,11 +19,18 @@
 	<td class="center" valign="top">
 	  <!-- ?php navbar(); ? -->
 	  <div class="main">
-	  <h1>Dynamic Graphical Models</h1>
+	  <h1>Probabilistic Programming</h1>
 
-<h2>Graphical models</h2>
+	  <h2>Rapid, easy model development</h2>
 
-<p>BAli-Phy has been extended to express generic models written as <a href="http://en.wikipedia.org/wiki/Graphical_model">graphical models</a>.  This is similar to other projects, such as <a href="https://github.com/revbayes/revbayes/wiki">RevBayes</a>, <a href="http://beast.bio.ed.ac.uk/">BEAST</a>, and <a href="http://en.wikipedia.org/wiki/OpenBUGS">OpenBUGS</a>/<a href="http://en.wikipedia.org/wiki/Just_another_Gibbs_sampler">JAGS</a>.  These projects use languages like XML or <a href="http://www.r-project.org/">R</a> to flexibly express generic models, and to construct models in a modular fashion [<a href="http://sysbio.oxfordjournals.org/content/63/5/753.full">1</a>]. BAli-Phy currently does inference using <a href="http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">MCMC</a> via both <a href="http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">MH</a> and <a href="http://en.wikipedia.org/wiki/Slice_sampling">slice sampling</a>. We have not yet added any support for <a href="http://en.wikipedia.org/wiki/Particle_filter">SMC</a>.
+	  <p>BAli-Phy contains a simple language for expressing probabilistic models.  The goal of this language is to allow researchers to spend there time designing models, not MCMC software.  The inference should take care of itself.</p>
+	  <p>BAli-Phy's modelling language uses Haskell syntax:
+
+<pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
+
+	  <p>Exaample files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a>.  For example, you might run <b>bali-phy -m LinearCoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
+
+	  <p>Languages for expressing probabilistic models are called <em>probabilistic programming languages</em>.  Other well-known languages include BUGS, RevBayes, and Stan.</p>
 
 
 <h2>Dynamic graphical models</h2>
@@ -32,17 +39,9 @@
 <li> allows a single model to express a <strong>changing graph</strong>.
 <li> treats <strong>functions</strong> as first-class objects and allows <strong>recursive</strong> functions.
 <li> allows the use of <strong>data-structures</strong> with random fields.
-<li> will (<em>eventually</em>) allow random numbers of random variables.
+<li> will allow random numbers of random variables.
 </ul>
 The modelling framework is under rapid development, and I haven't written much documentation yet.</p>
-
-<h2>Modelling language</h2>
-<p>We use <a href="http://tryhaskell.org">Haskell</a> as the modelling language.  This has a number of benefits, including <a href="http://en.wikipedia.org/wiki/Lazy_evaluation">lazy evaluation</a>, static type checking, a module system, and so on.  We currently use monads and <em>do</em>-notation to represent sampling random variables:
-
-<pre><code class="haskell"><?php include('Demo1.hs') ?></code></pre>
-
-<p> Unfortunately, not all Haskell language features are ready yet.  In particular, type checking is not implemented yet.</p>
-<p> Some more example files are <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a>.  For example, you might run <b>bali-phy -m CoalMine.hs --iter=1000</b> to perform a poisson regression.</p>
 
 <h2>Random data structures</h2>
 <p>We can also sample random data structures.  For example, the <em>iid</em> distribution returns a random list.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.
