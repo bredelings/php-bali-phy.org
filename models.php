@@ -35,7 +35,7 @@ code {background: #f0f0f0}
 
 	  <p>The goal of this language is to allow researchers to spend their time designing models instead of MCMC software.  The inference should take care of itself.</p>
 
-	  <p>The modeling language uses Haskell syntax.  For example, here is a short program that performs linear regression:</p>
+	  <p>The modeling language uses Haskell syntax.  Here is what a short program that performs linear regression looks like using that syntax:</p>
 
 <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
@@ -49,12 +49,13 @@ code {background: #f0f0f0}
 
 	  <p>This language is beta quality.  There is currently no type-checking.  The language should be ready sometime during 2019.</p>
 
-	  <h2>Dynamic graphical models</h2>
-	  <p>BAli-Phy attempts to extend the graphical paradigm by allowing the graph to change and treating functions as first-class objects.  This enables</p>
+	  <h2>Extending graphical models</h2>
+	  <p>In traditional graphical models, variables may be random, but the number of variables and the relationship between them remains constant.
+	  BAli-Phy extends the graphical paradigm by allowing the graph to change and treating functions as first-class objects.  This enables</p>
 	  
 	    <ol>
-	      <li> random control flow (if-then-else, loops) </li>
 	      <li> random data structures</li>
+	      <li> random control flow (if-then-else, loops) </li>
 	      <li> random numbers of random variables (coming soon)</li>
 	      <li> lazy evaluation of random variables (coming soon)</li>
 	    </ol>
@@ -66,9 +67,10 @@ code {background: #f0f0f0}
 </p>
 
 
-<h3>Changing graphs I: if-then-else</h3>
+<h3>Random control flow I: if-then-else</h3>
 <p>The modeling language can handle graphs that change. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
 <pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
+<!-- 
 While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
 
 <div>
@@ -79,8 +81,8 @@ In contrast, a traditional graphical model makes <em>x</em> always depend on eve
 <div>
 <img src="graphical_model5.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
 </div>
-
-<h3>Changing graphs II: arrays with random subscripts</h3>
+-->
+<h3>Random control flow II: arrays with random subscripts</h3>
 <p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different elements of <em>ys</em> will be exactly equal, if they belong to the same category:</p>
 
 <pre><code class="haskell"><?php include('Demo4.hs') ?></code></pre>
