@@ -18,7 +18,7 @@
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 
-	  <p>See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for detailed change log.</p>
+	  <p>See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for more details, and for older changes.</p>
 
 	  <div class="release_dates"><b style="font-size:125%">Version 3 (stable):</b>
           <ul>
@@ -26,6 +26,7 @@
 	    <li><b>[3.1]</b> - May-02-2018</li>
 	    <li><b>[3.2]</b> - Jun-25-2018</li>
 	    <li><b>[3.3]</b> - Aug-06-2018</li>
+	    <li><b>[3.4]</b> - Dec-13-2018</li>
 	  </ul>
 	  </div>
 
@@ -44,17 +45,26 @@
 	      </ul>
 	    </li>
 	    
-	  <li>Alignments
-	    <ul>
+	    <li>Alignments
+	      <ul>
 		<li>Allow analyzing 1-sequence and 2-sequence alignments.</li>
 		<li>Include <b>ancestral sequences</b> in sampled alignments.</li>
-	    </ul></li>
-	  <li>Large Trees
+	      </ul>
+	    </li>
+	    <li>Large Trees
 	    <ul>
 	      <li>Compute likelihoods for very large trees (<em>likelihood rescaling</em>).</li>
 	      <li>New treelength prior: don't prefer huge treelengths for trees with lots of leaves.</li>
 	    </ul>
-	  </li>
+	    </li>
+	    <li>General
+	      <ul>
+		<li>Add unit tests and likelihood testsuite.</li>
+		<li><span class="timepoint-new">[3.4]</span> Allow selecting character ranges from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
+		<li><span class="timepoint-new">[3.4]</span> Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
+		<li><span class="timepoint-new">[3.4]</span> Install package manager <b>bali-phy-pkg</b>.</li>
+		<!-- li><span class="timepoint-new">[3.4]</span> Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
+	      </ul>
 	  <li>Models
 	    <ul>
 	      <li class="heading2">Priors:
@@ -70,19 +80,28 @@
 	      <li><span class="heading2">New syntax</span>:
 		<ul>
 		  <li><span class="userinput"><b>let</b>[m=hky85,mixture[models=List[m,m,m+Rates.gamma]]]</span> (user-defined variables)</li>
-		  <li><span class="timepoint-new">[3.3]</span> <span class="userinput"><b>function</b>[w,gy94[omega=w]]</span> (functions)</li>
+		  <li><span class="timepoint">[3.3]</span> <span class="userinput"><b>function</b>[w,gy94[omega=w]]</span> (functions)</li>
 		</ul>
 	      </li>
 	      <li><span class="heading2">New models</span>:
 		<ul>
 		  <li><span class="userinput"><b>mixture</b>[models=List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
 		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
-		  <li><span class="timepoint-new">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
+		  <li><span class="timepoint">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
+		  <li><span class="timepoint-new">[3.4]</span> <span class="userinput">+<b>mut_sel</b></span> to add selection on a model.</li>
+		</ul>
+	      <li><span class="heading2">RNA stem (16-state) models</span>
+		<ul>
+		  <li><span class="timepoint-new">[3.4]</span> <b>RNA models</b> for <em>fixed</em> alignments. (Preliminary, because you have to pair the letters manually.)</li>
+		  <li><span class="timepoint-new">[3.4]</span> RNA stem models:
+		    <span class="userinput"><b>RNA.16a</b></span>,
+		    <span class="userinput">gtr_sym+<b>x2_sym</b>+f</span>,
+		    <span class="userinput">gtr+<b>x2</b>+mut_sel</span>
+		  </li>
 		</ul>
 	      <li><span class="heading2">Codon and triplet models</span>
 		<ul>
-		  <li>Codon and Triplet alphabets automatically determined from model.</li>
-		  <li><span class="timepoint-new">[3.3]</span> Improved codon models:
+		  <li><span class="timepoint">[3.3]</span> Improved codon models:
 		    <span class="userinput">gy94</span>,
 		    <span class="userinput">mg94</span>,
 		    <span class="userinput">f1x4</span>,
@@ -93,58 +112,49 @@
 		    <span class="userinput">dNdS</span>,
 		    etc.
 		 </li>
-		  <li><span class="timepoint-new">[3.3]</span> dNdS mixtures with mg94 and fMutSel: <span class="userinput">m3[function[w,fMutSel[omega=w]]]</span></li>
-		  <li><span class="timepoint-new">[3.3]</span> <span class="userinput">gtr+<b>x3</b>+<b>dNdS</b></span> (syntax for building up codon models piecewise)</li>
+		  <li><span class="timepoint">[3.3]</span> dNdS mixtures with mg94 and fMutSel: <span class="userinput">m3[function[w,fMutSel[omega=w]]]</span></li>
+		  <li><span class="timepoint-new">[3.4]</span> <span class="userinput">gtr+<b>x3</b>+<b>dNdS</b>+<b>mut_sel</b></span> (syntax for building up codon models piecewise)</li>
 		</ul>
-	      <li>Alternative syntax for linking partitions: <span class="userinput">--smodel 1:hky85 --smodel 2:hky85 <b>--link 1,2</b></span></li>
 	    </ul>
 	  </li>
 	  <li>Summarization tools
 	    <ul>
-	      <li>Beautify and condense MCMC statistics.</li> 
 	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
-	      <li><span class="timepoint">[3.1]</span> Show priors.</li> 
-	      <li><span class="timepoint">[3.2]</span> Reorganize HTML report.</li> 
+	      <li><span class="timepoint-new">[3.4]</span> Reorganize logged statistics.</li>
+	      <li><span class="timepoint-new">[3.4]</span> Compute alignment summaries over all runs, not just the first one.</li>
 	    </ul>
 	  </li>
 
 	  <li>Help
 	    <ul>
-	      <li>Add diagnostics when loading <b>codon sequences</b>.</li>
-	      <li>Help for <em>models</em>/<em>functions</em>/<em>distributions</em>/<em>commands</em> via <b>bali-phy help </b><em>topic</em>.</li>
-	      <li>Give readable information under the <b>--verbose</b> flag.</li>
-	      <li><span class="timepoint">[3.1]</span> Unix manual pages for <em>bali-phy</em> and tools</li>
-	      <li><span class="timepoint-new">[3.3]</span> Rewrite documentation for substitution models and insertion/deletion models.</li>
+	      <li>Help for <em>models</em>, <em>functions</em>, <em>distributions</em>, and <em>commands</em> via <b>bali-phy help </b><em>topic</em>.</li>
+	      <li><span class="timepoint">[3.3]</span> Rewrite documentation for substitution models and insertion/deletion models.</li>
 	    </ul>
 	    </li>
-	    <!-- li>Models
-	      <ul>
-	      </ul>
-	    </li -->
 
+	  <li>Tools
+	    <ul>
+	      <li><span class="timepoint-new">[3.4]</span> <b>cut-range:</b> allow reading alignments from multiple files.</li>
+	      <li><span class="timepoint-new">[3.4]</span> <b>alignment-distances:</b> new tool, add accuracy and recal metrics</li>
+	      <li><span class="timepoint-new">[3.4]</span> <b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
+	      <li><span class="timepoint-new">[3.4]</span> <b>alignment-thin:</b> clean up options and man pages</li>
+	      <li><span class="timepoint-new">[3.4]</span> <b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
+	    </ul>
+	  </li>
 
-	    <li>Misc
-	      <ul>
-		<li>Add unit tests.</li>
-		<li>Expand likelihood testsuite.</li>
-		<li>Improve pre-burnin.</li>
-	      </ul>
-	    </li>
 
 	    <li>Install
 	      <ul>
-		<li>New install documentation.</li>
-		<li>New homebrew tap for bali-phy.</li>
-		<li><span class="timepoint">[3.1]</span> Debian package for bali-phy.</li>
+		<li><span class="timepoint-new">[3.4]</span> Transition homebrew package to <a href="https://github.com/brewsci/homebrew-bio">brewsci/bio</a>.</li>
 	      </ul>
 	    </li>
-	  <li>Compile
+	      <!-- li>Compile
 	    <ul>
 	      <li>Autodetect Cairo library.</li>
 	      <li><span class="timepoint">[3.1]</span> Use <a href="http://mesonbuild.com">Meson Build</a> to build bali-phy, instead of autotools.</li>
 	      <li><span class="timepoint">[3.1]</span> Automatically use system libraries for <em>boost</em>, <em>eigen</em>, and <em>nlohmann::json</em> if available.</li>
 	    </ul>
-	  </li>
+	  </li -->
 	  
 	    <!--
 	    <li>Input
@@ -154,24 +164,23 @@
 	    </li>
 	    -->
 
-	    <li>Changes
+	    <!-- li>Changes
 	    <ul>
 	      <li>Simplify command-line options (<em>some old options have been removed</em>).</li>
 	      <li>Rename parameter logs: <b>C1.p  <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> C1.log</b>.</li>
 	      <li>Rename script: <b>bp-analyze.pl <span style="color:rgb(0,220,0)">&nbsp;&rarr;&nbsp;</span> bp-analyze</em></li>
 	      <li><span class="timepoint">[3.1]</span> Change spelling of many models/functions/distributions to lower-case.</li>
 	    </ul>
-	    </li>
+	    </li -->
 	      
 	    <li>Fixes
 	      <ul>
-		<li><span class="timepoint">[3.1]</span> Fix crash in <em>alignment-thin</em>.</li>
-		<li><span class="timepoint">[3.2]</span> Fix prior on <span class="userinput">alpha</span> in <span class="userinput">Rates.gamma</span>.</li>
-		<li><span class="timepoint">[3.2]</span> Link all programs with correct libstdc++ (Linux).</li>
-		<li><span class="timepoint">[3.2]</span> Correctly record alignments for fixed-alignment partitions.</li>
-		<li><span class="timepoint-new">[3.3]</span> Fix incorrect LG model.</li>
-		<li><span class="timepoint-new">[3.3]</span> Fix run file for f81 model.</li>
-		<li><span class="timepoint-new">[3.3]</span> bp-analyze: parse output files from 3.0-betal.</li>
+		<li><span class="timepoint">[3.3]</span> Fix incorrect LG model.</li>
+		<li><span class="timepoint">[3.3]</span> Fix run file for f81 model.</li>
+		<li><span class="timepoint">[3.3]</span> bp-analyze: parse output files from 3.0-betal.</li>
+		<li><span class="timepoint-new">[3.4]</span> Don't crash if the scale is set to a constant (e.g. <span class="userinput">--scale 1</span>)</li>
+		<li><span class="timepoint-new">[3.4]</span> Don't replace ambiguous nucleotides (W,N,etc.) in observed sequences unless given <span class="userinput">--set infer-ambiguous-observed=true</span></li>
+		<li><span class="timepoint-new">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
 	      </ul>
 	    </li>
 	  </ul>
