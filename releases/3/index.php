@@ -60,7 +60,7 @@
 	    <li>General
 	      <ul>
 		<li>Add unit tests and likelihood testsuite.</li>
-		<li><span class="timepoint-new">[3.4]</span> Allow selecting character ranges from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
+		<li><span class="timepoint-new">[3.4]</span> Allow selecting character sets from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
 		<li><span class="timepoint-new">[3.4]</span> Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
 		<li><span class="timepoint-new">[3.4]</span> Install package manager <b>bali-phy-pkg</b>.</li>
 		<!-- li><span class="timepoint-new">[3.4]</span> Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
