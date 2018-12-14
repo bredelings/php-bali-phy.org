@@ -1,9 +1,13 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>BAli-Phy Tutorial (for version 3.1)</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article"><div class="titlepage"><div><div><h2 class="title"><a name="idp1"></a><span class="application">BAli-Phy</span> Tutorial (for version 3.1)</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="section"><a href="#intro">1. Introduction</a></span></dt><dt><span class="section"><a href="#work_directory">2. Setting up the <code class="filename">~/alignment_files</code> directory</a></span></dt><dt><span class="section"><a href="#command_line_options">3. Command line options</a></span></dt><dt><span class="section"><a href="#idp8">4. Analysis 1: 5S rRNA -- free alignment versus fixed alignment</a></span></dt><dd><dl><dt><span class="section"><a href="#idp5">4.1. Free alignment</a></span></dt><dt><span class="section"><a href="#idp7">4.2. Fixed alignment</a></span></dt></dl></dd><dt><span class="section"><a href="#idp10">5. Analysis 2: ITS sequences -- multi-gene analysis</a></span></dt><dd><dl><dt><span class="section"><a href="#idp9">5.1. Questions about parameter differences between genes</a></span></dt></dl></dd><dt><span class="section"><a href="#idp19">6. Analysis 3: Exons and Introns</a></span></dt><dd><dl><dt><span class="section"><a href="#idp11">6.1. Extracting parts of a gene</a></span></dt><dt><span class="section"><a href="#idp12">6.2. The Rates.free model</a></span></dt><dt><span class="section"><a href="#idp13">6.3. Fixing the alignment of some partitions</a></span></dt><dt><span class="section"><a href="#idp14">6.4. Linking parameters between partitions</a></span></dt><dt><span class="section"><a href="#idp15">6.5. Option files</a></span></dt><dt><span class="section"><a href="#idp16">6.6. Questions about intron alignments</a></span></dt><dt><span class="section"><a href="#idp17">6.7. Exons as codons + introns as nucleotides</a></span></dt><dt><span class="section"><a href="#idp18">6.8. Exons as amino acids + introns as nucleotides</a></span></dt></dl></dd><dt><span class="section"><a href="#idp20">7. Analysis 4: ITS sequences - with a better model</a></span></dt><dt><span class="section"><a href="#substitution_models">8. Complex substitution models</a></span></dt><dd><dl><dt><span class="section"><a href="#idp21">8.1. Defaults</a></span></dt><dt><span class="section"><a href="#idp22">8.2. Rate variation</a></span></dt><dt><span class="section"><a href="#idp23">8.3. Codon models</a></span></dt><dt><span class="section"><a href="#idp24">8.4. Fixing parameter values</a></span></dt><dt><span class="section"><a href="#idp25">8.5. Priors</a></span></dt></dl></dd><dt><span class="section"><a href="#multigene">9. Specifying the model for each partition</a></span></dt><dd><dl><dt><span class="section"><a href="#idp26">9.1. Using different substitution models</a></span></dt><dt><span class="section"><a href="#idp27">9.2. Disabling alignment estimation for some partitions</a></span></dt><dt><span class="section"><a href="#idp28">9.3. Sharing model parameters between partitions</a></span></dt><dt><span class="section"><a href="#idp29">9.4. Sharing substitution rates between partitions</a></span></dt></dl></dd><dt><span class="section"><a href="#idp33">10. Dataset preparation</a></span></dt><dd><dl><dt><span class="section"><a href="#idp30">10.1. Splitting and Merging Alignments</a></span></dt><dt><span class="section"><a href="#idp31">10.2. Shrinking the data set</a></span></dt><dt><span class="section"><a href="#idp32">10.3. Cleaning the data set</a></span></dt></dl></dd></dl></div>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>BAli-Phy Tutorial (for version 3.1)</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article"><div class="titlepage"><div><div><h2 class="title"><a name="idp1"></a><span class="application">BAli-Phy</span> Tutorial (for version 3.1)</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="section"><a href="#intro">1. Introduction</a></span></dt><dt><span class="section"><a href="#work_directory">2. Setting up the <code class="filename">~/alignment_files</code> directory</a></span></dt><dt><span class="section"><a href="#command_line_options">3. Command line options</a></span></dt><dt><span class="section"><a href="#help">4. Help</a></span></dt><dt><span class="section"><a href="#idp8">5. Analysis 1: 5S rRNA -- free alignment versus fixed alignment</a></span></dt><dd><dl><dt><span class="section"><a href="#idp5">5.1. Free alignment</a></span></dt><dt><span class="section"><a href="#idp7">5.2. Fixed alignment</a></span></dt></dl></dd><dt><span class="section"><a href="#idp10">6. Analysis 2: ITS sequences -- multi-gene analysis</a></span></dt><dd><dl><dt><span class="section"><a href="#idp9">6.1. Questions about parameter differences between genes</a></span></dt></dl></dd><dt><span class="section"><a href="#idp19">7. Analysis 3: Exons and Introns</a></span></dt><dd><dl><dt><span class="section"><a href="#idp11">7.1. Extracting parts of a gene</a></span></dt><dt><span class="section"><a href="#idp12">7.2. The Rates.free model</a></span></dt><dt><span class="section"><a href="#idp13">7.3. Fixing the alignment of some partitions</a></span></dt><dt><span class="section"><a href="#idp14">7.4. Linking parameters between partitions</a></span></dt><dt><span class="section"><a href="#idp15">7.5. Option files</a></span></dt><dt><span class="section"><a href="#idp16">7.6. Questions about intron alignments</a></span></dt><dt><span class="section"><a href="#idp17">7.7. Exons as codons + introns as nucleotides</a></span></dt><dt><span class="section"><a href="#idp18">7.8. Exons as amino acids + introns as nucleotides</a></span></dt></dl></dd><dt><span class="section"><a href="#idp20">8. Analysis 4: ITS sequences - with a better model</a></span></dt><dt><span class="section"><a href="#substitution_models">9. Complex substitution models</a></span></dt><dd><dl><dt><span class="section"><a href="#idp21">9.1. Defaults</a></span></dt><dt><span class="section"><a href="#idp22">9.2. Rate variation</a></span></dt><dt><span class="section"><a href="#idp23">9.3. Codon models</a></span></dt><dt><span class="section"><a href="#idp24">9.4. Fixing parameter values</a></span></dt><dt><span class="section"><a href="#idp25">9.5. Priors</a></span></dt></dl></dd><dt><span class="section"><a href="#multigene">10. Specifying the model for each partition</a></span></dt><dd><dl><dt><span class="section"><a href="#idp26">10.1. Using different substitution models</a></span></dt><dt><span class="section"><a href="#idp27">10.2. Disabling alignment estimation for some partitions</a></span></dt><dt><span class="section"><a href="#idp28">10.3. Sharing model parameters between partitions</a></span></dt><dt><span class="section"><a href="#idp29">10.4. Sharing substitution rates between partitions</a></span></dt></dl></dd><dt><span class="section"><a href="#idp33">11. Dataset preparation</a></span></dt><dd><dl><dt><span class="section"><a href="#idp30">11.1. Splitting and merging Alignments</a></span></dt><dt><span class="section"><a href="#idp31">11.2. Shrinking the data set</a></span></dt><dt><span class="section"><a href="#idp32">11.3. Cleaning the data set</a></span></dt></dl></dd></dl></div>
   
 
   <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="intro"></a>1. Introduction</h2></div></div></div>
+  <p>This tutorial offers a quick overview of bali-phy with an emphasis on concrete analysis of real datasets.  Other documentation includes:
+  </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <a class="ulink" href="http://www.bali-phy.org/README.xhtml" target="_top">Users Guide</a> is much more complete.</li><li class="listitem">Run <strong class="userinput"><code><em class="replaceable"><code>tool</code></em> --help</code></strong> to see command line options for <em class="replaceable"><code>tool</code></em>.</li><li class="listitem">Run <strong class="userinput"><code>man <em class="replaceable"><code>tool</code></em></code></strong> to see the manual page for <em class="replaceable"><code>tool</code></em>.</li><li class="listitem">Manual pages for bali-phy and tools are also available <a class="ulink" href="http://www.bali-phy.org/docs.php#manpages" target="_top">online</a>.</li></ul></div><p>
+  </p>
+
 <p>
-Before you start this tutorial, please <a class="ulink" href="http://www.bali-phy.org/download.php" target="_top">download</a> and install bali-phy, following the installation instructions in the <a class="ulink" href="http://www.bali-phy.org/README.html" target="_top">manual</a>.</p>
+Before you start this tutorial, please <a class="ulink" href="http://www.bali-phy.org/download.php" target="_top">download</a> and install bali-phy, following the installation instructions in the <a class="ulink" href="http://www.bali-phy.org/README.html" target="_top">User Guide</a>.</p>
   </div>
   <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="work_directory"></a>2. Setting up the <code class="filename">~/alignment_files</code> directory</h2></div></div></div>
 
@@ -35,32 +39,44 @@ What version of bali-phy are you running?  When was it compiled?  Which compiler
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -v</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy --version</code></strong>
 </pre><p>Look at the list of command line options:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -h | less</code></strong>
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -h     | less</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy --help | less</code></strong>
-</pre><p>As you can see, many options have a long form, and a short form which is a single letter.
-</p>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help   | less</code></strong>
+</pre><p>By default, not all the options are shown.  To see more options, try:
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help advanced | less</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help expert   | less</code></strong>
+</pre>
+<p>All bali-phy tools also take <strong class="userinput"><code>--help</code></strong>.
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --help | less</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-cat --help  | less</code></strong>
+</pre>
+</div>
+
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="help"></a>4. Help</h2></div></div></div>
 
 <p>
-You can also show help for advanced options:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy --help=advanced | less</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy --help=expert | less</code></strong>
-</pre><p>There is a shorter syntax for help topics:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help advanced | less</code></strong>
-</pre><p>You can get help on models, distributions, functions, and command-line options:
+You can get extended help on each command line option:
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help iterations | less        </code></strong>// --iterations=&lt;num&gt; <span class="emphasis"><em>command line option</em></span>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help alphabet   | less        </code></strong>// --alphabet=&lt;a&gt; <span class="emphasis"><em>command line option</em></span>
+</pre><p>You can also get help on models, distributions, functions, and command-line options:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help tn93       | less        </code></strong>// Tamura-Nei (1993) <span class="emphasis"><em>model</em></span>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy help normal     | less        </code></strong>// Normal <span class="emphasis"><em>distribution</em></span>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy help quantile   | less        </code></strong>// quantile <span class="emphasis"><em>function</em></span>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help iterations | less        </code></strong>// --iterations=&lt;num&gt; <span class="emphasis"><em>command line option</em></span>
+</pre><p>There are additional help topics you might want to explore:
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help topics     | less        </code></strong>// to see additional help topics
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help parameters | less        </code></strong>// setting parameters
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help Codons     | less        </code></strong>// Codons alphabets
 </pre>
 
+  
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp8"></a>4. Analysis 1: 5S rRNA -- free alignment versus fixed alignment</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp8"></a>5. Analysis 1: 5S rRNA -- free alignment versus fixed alignment</h2></div></div></div>
 
 
 
 <p>Let's estimate a phylogeny on a very small data set under both a free alignment and a fixed alignment to see how the alignment affects our confidence in the estimated topology.</p>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp5"></a>4.1. Free alignment</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp5"></a>5.1. Free alignment</h3></div></div></div>
 
 Let's get started by going to the examples directory:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples/5S-rRNA</code></strong>
@@ -83,10 +99,10 @@ of the CPU:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bp-analyze 5d-free-1/ 5d-free-2/</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html &amp;</code></strong>
 </pre>
-  <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp2"></a>4.1.1. Alignment questions:</h4></div></div></div>
+  <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp2"></a>5.1.1. Alignment questions:</h4></div></div></div>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">How much difference is there between the estimated alignment and the initial alignment? (See <span class="emphasis"><em>Alignment Distribution / Initial / Diff</em></span>)</li><li class="listitem">Which part of the alignment is most certain? (See <span class="emphasis"><em>Alignment Distribution / Best (WPD) / AU</em></span>)</li></ul></div>
 </div>
-<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp3"></a>4.1.2. Parameter questions:</h4></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp3"></a>5.1.2. Parameter questions:</h4></div></div></div>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">What is the posterior median for <strong class="userinput"><code>inv:p_inv</code></strong>? (See <span class="emphasis"><em>Scalar Variables</em></span>)</li><li class="listitem">What is the meaning of <strong class="userinput"><code>inv:p_inv</code></strong> parameter?   (Run <strong class="userinput"><code>bali-phy help inv</code></strong>)</li><li class="listitem">What is the prior distribution on <strong class="userinput"><code>inv:p_inv</code></strong>?  (See <span class="emphasis"><em>Model and priors / Substitution model</em></span>)</li></ul></div>
   </div>
 When you have about 2000 samples from each run, summarize the latest results:
@@ -103,12 +119,12 @@ When you have about 2000 samples from each run, summarize the latest results:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>figtree 5d-free.Results/c50.PP.tree &amp;</code></strong>
 </pre><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">When it says "Please select a name for these values", enter <strong class="userinput"><code>PP</code></strong>.</li><li class="listitem">Then, enable "Branch Labels".</li><li class="listitem">Under "Branch Labels / Display", select "PP".</li><li class="listitem">You can increase the font size to make the figure more readable.</li><li class="listitem">You can also increase the font size of the tip labels.</li></ol></div>
 
-<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp4"></a>4.1.3. Tree questions (free alignment):</h4></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp4"></a>5.1.3. Tree questions (free alignment):</h4></div></div></div>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">How many internal branches are in the 50% consensus tree?</li><li class="listitem">What is the posterior probability for each of these internal branches?</li></ul></div>
 </div>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp7"></a>4.2. Fixed alignment</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp7"></a>5.2. Fixed alignment</h3></div></div></div>
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5d-clustalw.fasta -S gtr+Rates.gamma[4]+inv -I none -n 5d-fixed &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5d-clustalw.fasta -S gtr+Rates.gamma[4]+inv -I none -n 5d-fixed &amp;</code></strong>
@@ -121,7 +137,7 @@ When you have about 2000 samples from each run, summarize the latest results:
 <p>Examine the majority consensus tree for the fixed alignment analysis:</p>
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>figtree Results/c50.PP.tree &amp;</code></strong>
 </pre>
-<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp6"></a>4.2.1. Tree questions (fixed alignment):</h4></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp6"></a>5.2.1. Tree questions (fixed alignment):</h4></div></div></div>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">How many internal branches are in the 50% consensus tree?</li><li class="listitem">What is the posterior probability for each of these internal branches?</li><li class="listitem">For this data set, how does fixing the alignment affect our confidence in the tree?  Why might this be?</li></ul></div>
 
 You can kill the remaining runs after you answer these questions:
@@ -132,7 +148,7 @@ You can kill the remaining runs after you answer these questions:
 </div>
 
 </div>
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp10"></a>5. Analysis 2: ITS sequences -- multi-gene analysis</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp10"></a>6. Analysis 2: ITS sequences -- multi-gene analysis</h2></div></div></div>
 <p>Let's do an analysis of intergenic transcribed spacer (ITS) genes from 20 specimens of lichenized fungi (Gaya et al, 2011 analyzes 68 specimens). The ITS genes contain a lot of variation, but are hard to align.  This analysis will show how to estimate the alignment, phylogeny, and evolutionary parameters using MCMC.  Averaging over all alignments makes it safe to use the ITS region without throwing out ambiguously-aligned regions.</p>
 
 <p>This data set is divided into three gene regions, or partitions.  It is assumed that all genes evolve on the same tree, but may have different rates and evolutionary parameters. Let's look at the sequences.  How long are they?
@@ -163,17 +179,17 @@ The program Tracer graphically displays the posterior probability distribution f
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tracer ITS1-5.8S-ITS2-1/C1.log ITS1-5.8S-ITS2-2/C1.log &amp;</code></strong>
 </pre>If you are using Windows or Mac, first run Tracer, and then press the <span class="guilabel">+</span> button to add the files.
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp9"></a>5.1. Questions about parameter differences between genes</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp9"></a>6.1. Questions about parameter differences between genes</h3></div></div></div>
 These genes have different evolutionary processes.  How does the evolutionary process for these genes differ in:
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">substitution rate? (<strong class="userinput"><code>Scale[1]</code></strong>, <strong class="userinput"><code>Scale[2]</code></strong>, ...)</li><li class="listitem">insertion-deletion rate? (<strong class="userinput"><code>I1/rs07:log_rate</code></strong>, <strong class="userinput"><code>I2/rs07:log_rate</code></strong>, ...)</li><li class="listitem">nucleotide frequencies? (<strong class="userinput"><code>S1/tn93:pi[A]</code></strong>, <strong class="userinput"><code>S1/tn93:pi[C]</code></strong>, ... )</li><li class="listitem">number of indels? (<strong class="userinput"><code>#indels</code></strong>)</li></ol></div>
 </div>
 
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp19"></a>6. Analysis 3: Exons and Introns</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp19"></a>7. Analysis 3: Exons and Introns</h2></div></div></div>
 Let's look at a data set containing both exons and introns.  The pattern of dividing a sequence into high-rate and low-rate regions also applies to stems and loops in RNA sequences.  It is helpful to allow different insertion-deletion rates in conserved and non-conserved regions of a gene.
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp11"></a>6.1. Extracting parts of a gene</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp11"></a>7.1. Extracting parts of a gene</h3></div></div></div>
 First, lets split the gene into separate FASTA files for each intron and exon:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples/ferns/</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-cat -c 5-8       -e cleaned.fasta &gt; exon1.fasta</code></strong>
@@ -187,7 +203,7 @@ First, lets split the gene into separate FASTA files for each intron and exon:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat exon1.fasta intron1.fasta exon2.fasta intron2.fasta exon3.fasta intron3.fasta exon4.fasta &gt; combined.fasta</code></strong>
 </pre></div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp12"></a>6.2. The Rates.free model</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp12"></a>7.2. The Rates.free model</h3></div></div></div>
 Will we use the <strong class="userinput"><code>gtr+Rates.free[n=4]</code></strong> for the substitution model.
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy exon{1,2,3,4}.fasta intron{1,2,3}.fasta -S gtr+Rates.free[n=4] --test</code></strong>
 </pre>This model is more general than Rates.gamma, since it estimates 4 free rates and the frequencies
@@ -197,12 +213,12 @@ by default gets a separate copy of the model, which leads to 42 degrees of freed
 just for the <strong class="userinput"><code>Rates.free</code></strong> part of the model!
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp13"></a>6.3. Fixing the alignment of some partitions</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp13"></a>7.3. Fixing the alignment of some partitions</h3></div></div></div>
 We would like to disable alignment estimation, but only for the exons:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy exon{1,2,3,4}.fasta intron{1,2,3}.fasta -I 1,2,3,4:none -S gtr+Rates.free[n=4] --test</code></strong>
 </pre></div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp14"></a>6.4. Linking parameters between partitions</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp14"></a>7.4. Linking parameters between partitions</h3></div></div></div>
 We can reduce the number of parameters by using one set of parameters for the exons, and one set
 for the introns.  This is called <span class="emphasis"><em>linking</em></span> the models.
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy exon{1,2,3,4}.fasta intron{1,2,3}.fasta -I 1,2,3,4:none -S 1,2,3,4:gtr+Rates.free[n=4] -S 5,6,7:gtr+Rates.free[n=4] --test</code></strong>
@@ -211,7 +227,7 @@ for the introns.  This is called <span class="emphasis"><em>linking</em></span> 
 </pre>However, the command line is getting so long that it is difficult to manage.
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp15"></a>6.5. Option files</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp15"></a>7.5. Option files</h3></div></div></div>
 <p>We can put the options into a text file that is easier to manage and edit.
 Let's make a text file called <code class="filename">options1.txt</code>:</p>
 <pre class="programlisting">align = exon1.fasta
@@ -236,11 +252,11 @@ Let's run two copies of this analysis:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c options1.txt &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c options1.txt &amp;</code></strong>
 </pre>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp16"></a>6.6. Questions about intron alignments</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp16"></a>7.6. Questions about intron alignments</h3></div></div></div>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">How do bali-phy alignments of the introns differ from muscle and mafft alignments of the introns?</li><li class="listitem">How much certainty or uncertainty do the intron alignments have?</li><li class="listitem">How do the evolutionary rates of the exons compare to the evolutionary rates of the introns?</li><li class="listitem">Would it be reasonable to link the intron rates?  How about the exon rates?</li></ul></div>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp17"></a>6.7. Exons as codons + introns as nucleotides</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp17"></a>7.7. Exons as codons + introns as nucleotides</h3></div></div></div>
 Another thing that we can do is to use a codon model on the combined exons, while using a nucleotide model on the introns.
 In order to load nucleotide sequences as codons, three conditions must be met:
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
@@ -281,7 +297,7 @@ We can choose any one of the three codon models for the coding sequences in the 
 </div>
 
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp18"></a>6.8. Exons as amino acids + introns as nucleotides</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp18"></a>7.8. Exons as amino acids + introns as nucleotides</h3></div></div></div>
 We can also translate the coding sequence into a protein sequence, while using a nucleotide model on the introns.
 Let's first extract the coding data:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-translate &lt; coding.fasta &gt; protein.fasta</code></strong>
@@ -302,7 +318,7 @@ imodel = 4:none
 </pre></div>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp20"></a>7. Analysis 4: ITS sequences - with a better model</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp20"></a>8. Analysis 4: ITS sequences - with a better model</h2></div></div></div>
 <p>Let's revisit the ITS sequences used in analysis 2.  Now that you've been exposed to different models in different partitions, lets use a more complex substitution model for the ITS partitions (<strong class="userinput"><code>--smodel 1,3:tn93+Rates.free[n=3]</code></strong>).  Note that this also links the substitution models for the ITS partitions.</p>
 
 <p>We can also fix the alignment for 5.8S partition, since it has almost no indels.</p>
@@ -318,9 +334,9 @@ scale = 1,3:
 This file additionally links the <span class="emphasis"><em>scale</em></span> for the ITS partitions (<strong class="userinput"><code>--scale=1,3:</code></strong>). This forces them to share the same evolutionary rate, and allows more precise estimates of the shared scale.  You can run the analysis with unlinked scales by removing this option in order to determine if (i) the scales are similar enough to share and (ii) the scales have a high enough variance that they need to be linked.
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="substitution_models"></a>8. Complex substitution models</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="substitution_models"></a>9. Complex substitution models</h2></div></div></div>
 <p>While those analyses are running, let's look at how to specify more complex substitution models in bali-phy.</p>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp21"></a>8.1. Defaults</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp21"></a>9.1. Defaults</h3></div></div></div>
 <p>When you don't specify values for parameters like <em class="parameter"><code>imodel</code></em>, bali-phy uses sensible defaults.  For example, these two commands are equivalent:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples/</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5S-rRNA/25-muscle.fasta --test</code></strong>
@@ -330,7 +346,7 @@ This file additionally links the <span class="emphasis"><em>scale</em></span> fo
 </pre><p>Here the <strong class="userinput"><code>-S gtr</code></strong> is a short form of <strong class="userinput"><code>--smodel=gtr</code></strong>, where <em class="parameter"><code>smodel</code></em> means the substitution model.
 </p>
 </div>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp22"></a>8.2. Rate variation</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp22"></a>9.2. Rate variation</h3></div></div></div>
 <p>
 You can also allow different sites to evolve at 5 different rates using the gamma[4]+INV model of rate heterogeneity:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5S-rRNA/25-muscle.fasta --test -S gtr+Rates.gamma[4]+inv</code></strong>
@@ -340,7 +356,7 @@ You can also allow different sites to evolve at 5 different rates using the gamm
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5S-rRNA/25-muscle.fasta --test -S gtr+Rates.free[n=5]</code></strong>
 </pre>
 </div>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp23"></a>8.3. Codon models</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp23"></a>9.3. Codon models</h3></div></div></div>
 <p>
 We can also conduct codon-based analyses using the Nielsen and Yang (1998) model of diversifying positive selection (dN/dS):
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy Globins/bglobin.fasta --test -S gy94[pi=f1x4]</code></strong>
@@ -359,7 +375,7 @@ We can also conduct codon-based analyses using the Nielsen and Yang (1998) model
 </pre>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp24"></a>8.4. Fixing parameter values</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp24"></a>9.4. Fixing parameter values</h3></div></div></div>
 <p>
 We can use the TN93+Gamma[4]+INV model without specifying parameters:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy Globins/bglobin.fasta --test -S tn93+Rates.gamma+inv</code></strong>
@@ -376,7 +392,7 @@ You can see the parameters for a model by using the <strong class="userinput"><c
 </p>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp25"></a>8.5. Priors</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp25"></a>9.5. Priors</h3></div></div></div>
 <p>
 By default the fraction of invariant sites follows a uniform[0,1] distribution:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help inv</code></strong>
@@ -398,12 +414,12 @@ and then adding 1 to it.
 </div>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="multigene"></a>9. Specifying the model for each partition</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="multigene"></a>10. Specifying the model for each partition</h2></div></div></div>
 <p>For analyses with multiple partitions, we might want to use different models for different
 partitions.  When two partitions have the same model, we might also want them to have the same
 parameters.  This is described in more detail in section 4.3 of the <a class="ulink" href="http://www.bali-phy.org/README.html" target="_top">manual</a>.</p> 
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp26"></a>9.1. Using different substitution models</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp26"></a>10.1. Using different substitution models</h3></div></div></div>
 <p>
 Now lets specify different substitution models for different partitions.
 
@@ -414,7 +430,7 @@ Now lets specify different substitution models for different partitions.
 </p>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp27"></a>9.2. Disabling alignment estimation for some partitions</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp27"></a>10.2. Disabling alignment estimation for some partitions</h3></div></div></div>
 <p>
 We can also disable alignment estimation for some, but not all, partitions:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy {ITS1,5.8S,ITS2}.fasta -I 1:rs07 -I 2:none -I 3:rs07 --test</code></strong>
@@ -423,7 +439,7 @@ model and parameters for partition 2 and also disables alignment estimation for 
 <p>Note that there is no longer an I3 indel model.  Partition #3 now has the I2 indel model.
 </p>
 </div>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp28"></a>9.3. Sharing model parameters between partitions</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp28"></a>10.3. Sharing model parameters between partitions</h3></div></div></div>
 <p>We can also specify that some partitions with the same model also share the
 same parameters for that model:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy {ITS1,5.8S,ITS2}.fasta -S 1,3:gtr -I 1,3:rs07 -S 2:tn93 -I 2:none --test</code></strong>
@@ -433,7 +449,7 @@ same parameters for that model:
 </p>
 
 </div>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp29"></a>9.4. Sharing substitution rates between partitions</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp29"></a>10.4. Sharing substitution rates between partitions</h3></div></div></div>
 <p>We can also specify that some partitions share the same scaling factor for branch lengths:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy {ITS1,5.8S,ITS2}.fasta -S 1,3:gtr -I 1,3:rs07 -S 2:tn93 -I 2:none --scale=1,3: --test</code></strong>
 </pre><p>This means that the branch lengths for partitions 1 and 3 are the same, instead of being independently estimated.</p>
@@ -441,9 +457,9 @@ same parameters for that model:
 </div>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp33"></a>10. Dataset preparation</h2></div></div></div>
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp30"></a>10.1. Splitting and Merging Alignments</h3></div></div></div>
-<p>BAli-Phy generally wants you to split concatenated gene regions in order to analyze them.
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idp33"></a>11. Dataset preparation</h2></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp30"></a>11.1. Splitting and merging Alignments</h3></div></div></div>
+<p>You might want to split concatenated gene regions:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples/ITS-many/</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-cat -c1-223 ITS-region.fasta &gt; 1.fasta</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-cat -c224-379 ITS-region.fasta &gt; 2.fasta</code></strong>
@@ -453,18 +469,21 @@ Later you might want to put them back together again:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat 1.fasta 2.fasta 3.fasta &gt; 123.fasta</code></strong>
 </pre></div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp31"></a>10.2. Shrinking the data set</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp31"></a>11.2. Shrinking the data set</h3></div></div></div>
 <p>
 You might want to reduce the number of taxa while attempting to preserve phylogenetic diversity:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --down-to=30 ITS-region.fasta &gt; ITS-region-thinned.fasta</code></strong>
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --cutoff=5 ITS-region.fasta -v --preserve=Csaxicola420 &gt; ITS-region-thinned.fasta</code></strong>
+</pre><p>This removes sequences with 5 or fewer differences to the closest other sequence.
+</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <strong class="userinput"><code>-v</code></strong> option shows which sequences are removed and the distance to their closest neighbor.</li><li class="listitem">The <strong class="userinput"><code>--preserve</code></strong> option keeps specific sequences in the data set.</li></ul></div><p>
+You can also specify that data sets should be shrunk to a specific number of sequences:
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --down-to=30 ITS-region.fasta -v &gt; ITS-region-thinned.fasta</code></strong>
 </pre>
-<p>
-You can specify that certain sequences should not be removed:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --down-to=30 --keep=Csaxicola420 ITS-region.fasta &gt; ITS-region-thinned.fasta</code></strong>
+<p>To see all options, run:
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --help</code></strong>
 </pre>
 </div>
 
-<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp32"></a>10.3. Cleaning the data set</h3></div></div></div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp32"></a>11.3. Cleaning the data set</h3></div></div></div>
 Keep only sequences that are not too short:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-thin --longer-than=250 ITS-region.fasta &gt; ITS-region-long.fasta</code></strong>
 </pre>Remove 10 sequences with the smallest number of conserved residues:
