@@ -9,15 +9,14 @@
         "Package": "Dummy"
     },
     {
-	"SHA256":"4a84e2341e8dd79745a52cdba12cfe479a79573eb782022a1f59197dee7b31ae",
-	"Maintainer":"Ben Redelings <benjamin.redelings@gmail.com>",
+	"Homepage":"https://github.com/bredelings/BayesianEstimatorSelfing",
+	"SHA256":"0f2ebe568a7e6294648417a2f794669f0093fc16d9a11c4ababe4dac96ae1d14",
 	"Description":"Estimate self-fertilization rates and other mating system parameters",
-	"Package":"BES",
-	"Version":"0.1.1",
-	"MD5sum":"f8c436a9203953b674fb72e0fcc5b636",
 	"Source":"http://www.bali-phy.org/packages/",
-	"SHA1":"0cdc708485d4a7b9089321c440b6e407f4d59655",
-	"Homepage":"https://github.com/bredelings/BayesianEstimatorSelfing"
+	"SHA1":"e6afe8c17ea8878a20b68369da6d3fd40e027ae2",
+	"Package":"BES",
+	"Maintainer":"Ben Redelings <benjamin.redelings@gmail.com>",
+	"MD5sum":"7fd2d18de0ecaab4c9465483bd68d1cc",
+	"Version":"0.1.1"
     }
-
 ]
