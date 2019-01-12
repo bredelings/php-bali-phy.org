@@ -93,7 +93,7 @@ In contrast, a traditional graphical model makes <em>x</em> always depend on eve
 <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
   The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
 
-<p>The <code class="haskell">observe</code> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 2.0.  This constrains the random walk to end at 2.0, creating a Brownian Bridge.</p>
+<p>The <code class="haskell">observe</code> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 1.5.  This constrains the random walk to end at 1.5, creating a Brownian Bridge.</p>
 	</div>
 	  </td>	      
       </tr>
