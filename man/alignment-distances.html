@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>alignment-distances(1)</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
+</head>
+<body>
+<header>
+<h1 class="title">alignment-distances(1)</h1>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
+<h1 id="name">NAME</h1>
+<p><strong>alignment-distances</strong> - Compute distances between alignments.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>alignment-distances</strong> <em>analysis</em> alignments-file1 [alignments-file2 ...]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Compute distances between alignments.</p>
+<h1 id="input-options">INPUT OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message
+</dd>
+<dt><strong>-s</strong> <em>arg</em> (=0), <strong>--skip</strong> <em>arg</em> (=0)</dt>
+<dd>Number of alignment samples to skip.
+</dd>
+<dt><strong>-m</strong> <em>arg</em> (=1000), <strong>--max</strong> <em>arg</em> (=1000)</dt>
+<dd>Maximum number of alignments to analyze.
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+<dt><strong>--alphabet</strong> <em>arg</em></dt>
+<dd>Specify the alphabet: DNA, RNA, Amino-Acids, Amino-Acids+stop, Triplets, Codons, or Codons+stop.
+</dd>
+</dl>
+<h1 id="analysis-options">ANALYSIS OPTIONS:</h1>
+<dl>
+<dt><strong>--distances</strong> <em>arg</em></dt>
+<dd>(=splits:splits2:nonrecall:inaccuracy) Colon-separated list of distances.
+</dd>
+<dt><strong>--analysis</strong> <em>arg</em></dt>
+<dd>Analysis: score, AxA, NxN, compare, median, distances
+</dd>
+<dt><strong>--CI</strong> <em>arg</em> (=0.94999999999999996)</dt>
+<dd>Confidence interval size.
+</dd>
+<dt><strong>--mean</strong></dt>
+<dd>Show mean and standard deviation
+</dd>
+<dt><strong>--median</strong></dt>
+<dd>Show median and confidence interval
+</dd>
+<dt><strong>--minmax</strong></dt>
+<dd>Show minimum and maximum distances
+</dd>
+</dl>
+<h1 id="examples">EXAMPLES:</h1>
+<p>Compute distances from true.fasta to each in As.fasta:</p>
+<pre><code>% alignment-distances score true.fasta As.fasta</code></pre>
+<p>Compute distance matrix between all pairs of alignments in all files:</p>
+<pre><code>% alignment-distances AxA file1.fasta ... fileN.fasta</code></pre>
+<p>Compute all NxN pairwise alignment accuracies, averaged over As:</p>
+<pre><code>% alignment-distances NxN true.fasta As.fasta</code></pre>
+<p>Find alignment with smallest average distance to other alignments:</p>
+<pre><code>% alignment-distances median As.fasta A.fasta</code></pre>
+<p>Compare the distances with-in and between the two groups:</p>
+<pre><code>% alignment-distances compare A-dist1.fasta A-dist2.fasta</code></pre>
+<p>Report distribution of average distance to other alignments:</p>
+<pre><code>% alignment-distances distances As.fasta A.fasta</code></pre>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

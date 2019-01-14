@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>bali-phy-pkg(1)</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
+</head>
+<body>
+<header>
+<h1 class="title">bali-phy-pkg(1)</h1>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
+<h1 id="name">NAME</h1>
+<p><strong>bali-phy-pkg</strong> - Manage BAli-Phy packages</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>bali-phy-pkg</strong> [command] [arguments]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Install and remove BAli-Phy packages.</p>
+<p>Packages are installed in <code>~/.local/share/bali-phy/packages</code>.</p>
+<p>Package information is kept in <code>~/.local/share/bali-phy/info/</code>.</p>
+<h1 id="all-options">ALL OPTIONS:</h1>
+<dl>
+<dt><strong>help</strong>, <strong>-h</strong>, <strong>--help</strong></dt>
+<dd>Produce help message.
+</dd>
+<dt><strong>available</strong></dt>
+<dd>List packages available on the web.
+</dd>
+<dt><strong>install</strong> <em>PACKAGE</em></dt>
+<dd>Install package <em>PACKAGE</em> from the web.
+</dd>
+<dt><strong>install-archive</strong> <em>ARCHIVE</em></dt>
+<dd>Install package in local file <em>ARCHIVE</em>.
+</dd>
+<dt><strong>uninstall</strong> <em>PACKAGE</em></dt>
+<dd>Uninstall package <em>PACKAGE</em>
+</dd>
+<dt><strong>packages</strong></dt>
+<dd>List installed packages and their version numbers.
+</dd>
+<dt><strong>info</strong> <em>PACKAGE</em></dt>
+<dd>Show information about the installed version of package <em>PACKAGE</em>.
+</dd>
+<dt><strong>files</strong> <em>PACKAGE</em></dt>
+<dd>List files for installed package <em>PACKAGE</em>.
+</dd>
+<dt><strong>installed</strong></dt>
+<dd>List files for all installed packages
+</dd>
+<dt><strong>untracked</strong></dt>
+<dd>List files in the package directory that aren't from any installed package.
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>

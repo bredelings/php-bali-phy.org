@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Benjamin Redelings" />
+  <title>tree-tool(1)</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
+</head>
+<body>
+<header>
+<h1 class="title">tree-tool(1)</h1>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
+<h1 id="name">NAME</h1>
+<p><strong>tree-tool</strong> - Perform various operations on Newick trees.</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>tree-tool</strong> <em>tree-file</em> [OPTIONS]</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>Perform various operations on Newick trees.</p>
+<h1 id="general-options">GENERAL OPTIONS:</h1>
+<dl>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd>produce help message
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd>Output more log messages on stderr.
+</dd>
+</dl>
+<h1 id="modification-options">MODIFICATION OPTIONS:</h1>
+<dl>
+<dt><strong>--prune</strong> <em>arg</em></dt>
+<dd>Comma-separated taxa to remove
+</dd>
+<dt><strong>--resolve</strong></dt>
+<dd>Comma-separated taxa to remove
+</dd>
+<dt><strong>--remove-root-branch</strong></dt>
+<dd>Remove single branch from root.
+</dd>
+<dt><strong>--remove-root-branches</strong></dt>
+<dd>Ensure root is not a tip.
+</dd>
+<dt><strong>--remove-knuckles</strong></dt>
+<dd>Remove degree-2 nodes.
+</dd>
+</dl>
+<h1 id="output-options">OUTPUT OPTIONS:</h1>
+<dl>
+<dt><strong>--scale</strong> <em>arg</em></dt>
+<dd>Scale branch-lengths by factor
+</dd>
+<dt><strong>--length</strong></dt>
+<dd>Report the total tree length
+</dd>
+<dt><strong>--diameter</strong></dt>
+<dd>Report the total tree length
+</dd>
+</dl>
+<h1 id="reporting-bugs">REPORTING BUGS:</h1>
+<p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
+<p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
+</body>
+</html>
