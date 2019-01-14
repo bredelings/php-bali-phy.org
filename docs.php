@@ -71,6 +71,7 @@ h1,h2,h3,h4 {clear: both;}
 	      <ul>
 		<li><a href="man/bali-phy.html">bali-phy</a></li>
 		<li><a href="man/bp-analyze.html">bp-analyze</a></li>
+		<li><a href="man/bali-phy-pkg.html">bali-phy-pkg</a></li>
 	      </ul>
 
 	      <h2>Manual pages for tools</h2>
@@ -79,6 +80,7 @@ h1,h2,h3,h4 {clear: both;}
 		<li><a href="man/alignment-cat.html">alignment-cat</a></li>
 		<li><a href="man/alignment-chop-internal.html">alignment-chop-internal</a></li>
 		<li><a href="man/alignment-consensus.html">alignment-consensus</a></li>
+		<li><a href="man/alignment-distances.html">alignment-distances</a></li>
 		<li><a href="man/alignment-draw.html">alignment-draw</a></li>
 		<li><a href="man/alignment-find.html">alignment-find</a></li>
 		<li><a href="man/alignment-gild.html">alignment-gild</a></li>
@@ -95,13 +97,14 @@ h1,h2,h3,h4 {clear: both;}
 		<li><a href="man/pickout.html">pickout</a></li>
 		<li><a href="man/statreport.html">statreport</a></li>
 		<li><a href="man/stats-cat.html">stats-cat</a></li>
-		<li><a href="man/subsample.html">subsample</a></li>
+		<li><a href="man/bali-subsample.html">bali-subsample</a></li>
 		<li><a href="man/tree-mean-lengths.html">tree-mean-lengths</a></li>
 		<li><a href="man/tree-partitions.html">tree-partitions</a></li>
 		<li><a href="man/trees-bootstrap.html">trees-bootstrap</a></li>
 		<li><a href="man/trees-consensus.html">trees-consensus</a></li>
 		<li><a href="man/trees-distances.html">trees-distances</a></li>
 		<li><a href="man/trees-to-SRQ.html">trees-to-SRQ</a></li>
+		<li><a href="man/tree-tool.html">tree-tool</a></li>
 	      </ul>
 
 	      <h2>Manual pages for extra tools</h2>
