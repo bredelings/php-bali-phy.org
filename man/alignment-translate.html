@@ -1,22 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin Redelings" />
   <title>alignment-translate(1)</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="../man.css" type="text/css" />
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
 </head>
 <body>
-<div id="header">
+<header>
 <h1 class="title">alignment-translate(1)</h1>
-<h2 class="author">Benjamin Redelings</h2>
-<h3 class="date">Feb 2018</h3>
-</div>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
 <h1 id="name">NAME</h1>
-<p><strong>alignment-translate</strong> -- Translate a DNA/RNA alignment into amino acids.</p>
+<p><strong>alignment-translate</strong> - Translate a DNA/RNA alignment into amino acids.</p>
 <h1 id="synopsis">SYNOPSIS</h1>
 <p><strong>alignment-translate</strong> [OPTIONS] &lt; sequence-file [OPTIONS]</p>
 <h1 id="description">DESCRIPTION</h1>
@@ -44,12 +49,12 @@
 </dl>
 <h1 id="examples">EXAMPLES:</h1>
 <p>Translate DNA or RNA to amino acids in reading frame 1:</p>
-<p>% alignment-translate &lt; dna.fasta &gt; aa.fasta</p>
+<pre><code>% alignment-translate &lt; dna.fasta &gt; aa.fasta</code></pre>
 <p>Give the reverse complement without translation:</p>
-<p>% alignment-translate -rc --translate=no &lt; dna.fasta &gt; dna2.fasta</p>
+<pre><code>% alignment-translate -rc --translate=no &lt; dna.fasta &gt; dna2.fasta</code></pre>
 <p>The following commands are identical:</p>
-<p>% alignment-translate --frame=-2 &lt; dna.fasta &gt; aa2.fasta</p>
-<p>% alignment-translate -rc --frame=2 &lt; dna.fasta &gt; aa2.fasta</p>
+<pre><code>% alignment-translate --frame=-2 &lt; dna.fasta &gt; aa2.fasta
+% alignment-translate -rc --frame=2 &lt; dna.fasta &gt; aa2.fasta</code></pre>
 <h1 id="reporting-bugs">REPORTING BUGS:</h1>
 <p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
 <p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>

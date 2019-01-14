@@ -28,58 +28,58 @@
 <p>Remove sequences or columns from an alignment.</p>
 <h1 id="general-options">GENERAL OPTIONS:</h1>
 <dl>
-<dt><strong>-h</strong>, <strong>–help</strong></dt>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
 <dd>Print usage information.
 </dd>
-<dt><strong>-v</strong>, <strong>–verbose</strong></dt>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
 <dd>Output more log messages on stderr.
 </dd>
 </dl>
 <h1 id="sequence-filtering-options">SEQUENCE FILTERING OPTIONS:</h1>
 <dl>
-<dt><strong>–protect</strong> <em>arg</em></dt>
+<dt><strong>--protect</strong> <em>arg</em></dt>
 <dd>Sequences that cannot be removed (comma-separated).
 </dd>
-<dt><strong>–remove</strong> <em>arg</em></dt>
+<dt><strong>--remove</strong> <em>arg</em></dt>
 <dd>Remove sequences in comma-separated list <em>arg</em>.
 </dd>
-<dt><strong>–longer-than</strong> <em>arg</em></dt>
+<dt><strong>--longer-than</strong> <em>arg</em></dt>
 <dd>Remove sequences not longer than <em>arg</em>.
 </dd>
-<dt><strong>–shorter-than</strong> <em>arg</em></dt>
+<dt><strong>--shorter-than</strong> <em>arg</em></dt>
 <dd>Remove sequences not shorter than <em>arg</em>.
 </dd>
-<dt><strong>–cutoff</strong> <em>arg</em></dt>
+<dt><strong>--cutoff</strong> <em>arg</em></dt>
 <dd>Remove similar sequences with #mismatches &lt; cutoff.
 </dd>
-<dt><strong>–down-to</strong> <em>arg</em></dt>
+<dt><strong>--down-to</strong> <em>arg</em></dt>
 <dd>Remove similar sequences down to <em>arg</em> sequences.
 </dd>
-<dt><strong>–remove-crazy</strong> <em>arg</em></dt>
-<dd>Remove <em>arg</em> outlier sequences – defined as sequences that are missing too many conserved sites.
+<dt><strong>--remove-crazy</strong> <em>arg</em></dt>
+<dd>Remove <em>arg</em> outlier sequences -- defined as sequences that are missing too many conserved sites.
 </dd>
-<dt><strong>–conserved</strong> <em>arg</em> (=0.75)</dt>
+<dt><strong>--conserved</strong> <em>arg</em> (=0.75)</dt>
 <dd>Fraction of sequences that must contain a letter for it to be considered conserved.
 </dd>
 </dl>
 <h1 id="column-filtering-options">COLUMN FILTERING OPTIONS:</h1>
 <dl>
-<dt><strong>–min-letters</strong> <em>arg</em></dt>
+<dt><strong>--min-letters</strong> <em>arg</em></dt>
 <dd>Remove columns with fewer than <em>arg</em> letters.
 </dd>
-<dt><strong>–remove-unique</strong> <em>arg</em></dt>
+<dt><strong>--remove-unique</strong> <em>arg</em></dt>
 <dd>Remove insertions in a single sequence if longer than <em>arg</em> letters
 </dd>
 </dl>
 <h1 id="output-options">OUTPUT OPTIONS:</h1>
 <dl>
-<dt><strong>–sort</strong></dt>
+<dt><strong>--sort</strong></dt>
 <dd>Sort partially ordered columns to group similar gaps.
 </dd>
-<dt><strong>–show-lengths</strong></dt>
+<dt><strong>--show-lengths</strong></dt>
 <dd>Just print out sequence lengths.
 </dd>
-<dt><strong>–find-dups</strong> <em>arg</em></dt>
+<dt><strong>--find-dups</strong> <em>arg</em></dt>
 <dd>For each sequence, find the closest other sequence.
 </dd>
 </dl>
@@ -90,9 +90,9 @@
 <pre><code>% alignment-thin --remove=seq1,seq2 file.fasta &gt; file2.fasta</code></pre>
 <p>Remove short sequences:</p>
 <pre><code>% alignment-thin --longer-than=250 file.fasta &gt; file-long.fasta</code></pre>
-<p>Remove sequences with &lt;= 5 differences from the closest other sequence:</p>
+<p>Remove similar sequences with &lt;= 5 differences from the closest other sequence:</p>
 <pre><code>% alignment-thin --cutoff=5 file.fasta &gt; more-than-5-differences.fasta</code></pre>
-<p>Like –cutoff, but stop when we have the right number of sequences:</p>
+<p>Remove similar sequences until we have the right number of sequences:</p>
 <pre><code>% alignment-thin --down-to=30 file.fasta &gt; file-30taxa.fasta</code></pre>
 <p>Remove dissimilar sequences that are missing conserved columns:</p>
 <pre><code>% alignment-thin --remove-crazy=10 file.fasta &gt; file2.fasta</code></pre>

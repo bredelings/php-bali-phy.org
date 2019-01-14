@@ -1,42 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin Redelings" />
   <title>bp-analyze(1)</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="../man.css" type="text/css" />
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
 </head>
 <body>
-<div id="header">
+<header>
 <h1 class="title">bp-analyze(1)</h1>
-<h2 class="author">Benjamin Redelings</h2>
-<h3 class="date">Feb 2018</h3>
-</div>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
 <h1 id="name">NAME</h1>
-<p><strong>bp-analyze</strong> -- Generate an HTML report summarizing bali-phy runs</p>
+<p><strong>bp-analyze</strong> - Generate an HTML report summarizing bali-phy runs.</p>
 <h1 id="synopsis">SYNOPSIS</h1>
 <p><strong>bp-analyze</strong> [OPTIONS] <em>directory1</em> [<em>directory2</em> ... ]</p>
 <h1 id="description">DESCRIPTION</h1>
 <p>Generate an HTML report summarizing bali-phy runs.</p>
-<p>The report is created at <strong>Reports/index.html</strong>.</p>
-<p>A log of all sub-commands is created at <strong>Reports/bp-analyze.log</strong>.</p>
-<h1 id="all-options">ALL OPTIONS:</h1>
+<h1 id="options">OPTIONS:</h1>
 <dl>
 <dt><strong>-h</strong>, <strong>--help</strong></dt>
-<dd>Produce help message.
+<dd>Print usage information.
 </dd>
-<dt><strong>--skip</strong>=<em>NUM</em></dt>
-<dd>Suppress the line of field names.
+<dt><strong>--skip=NUM</strong></dt>
+<dd>Skip NUM iterations as burnin
 </dd>
-<dt><strong>--subsample</strong>=<em>NUM</em></dt>
-<dd>The last value goes to the end of the line.
+<dt><strong>--subsample=NUM</strong></dt>
+<dd>Keep only ever NUM iterations
 </dd>
 </dl>
 <h1 id="reporting-bugs">REPORTING BUGS:</h1>
-<p>See <strong>Reports/bp-analyze.log</strong> to check if any sub-commands failed.</p>
 <p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
 <p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
 </body>

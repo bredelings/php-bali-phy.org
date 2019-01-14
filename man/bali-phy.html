@@ -1,22 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin Redelings" />
   <title>bali-phy(1)</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="../man.css" type="text/css" />
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
 </head>
 <body>
-<div id="header">
+<header>
 <h1 class="title">bali-phy(1)</h1>
-<h2 class="author">Benjamin Redelings</h2>
-<h3 class="date">Feb 2018</h3>
-</div>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
 <h1 id="name">NAME</h1>
-<p>bali-phy -- Bayesian Alignment and Phylogeny estimation using MCMC</p>
+<p><strong>bali-phy</strong> - Bayesian Inference of Alignment and Phylogeny</p>
 <h1 id="synopsis">SYNOPSIS</h1>
 <p><strong>bali-phy</strong> <em>sequence-file1</em> [<em>sequence-file2</em> ...] [<em>OPTIONS</em>]</p>
 <p><strong>bali-phy</strong> help <em>topic</em></p>
@@ -44,58 +49,58 @@
 </dl>
 <h1 id="mcmc-options">MCMC OPTIONS</h1>
 <dl>
-<dt><strong>-i</strong> <em>NUM</em>, --iterations <em>NUM</em></dt>
+<dt><strong>-i</strong> <em>NUM</em>, <strong>--iterations</strong> <em>NUM</em></dt>
 <dd>The number of iterations to run.
 </dd>
-<dt>-n <em>STRING</em>, --name <em>STRING</em></dt>
+<dt><strong>-n</strong> <em>STRING</em>, <strong>--name</strong> <em>STRING</em></dt>
 <dd>Name for the output directory to create.
 </dd>
-<dt>-x <em>NUM</em>, --subsample <em>NUM</em></dt>
+<dt><strong>-x</strong> <em>NUM</em>, <strong>--subsample</strong> <em>NUM</em></dt>
 <dd>Factor by which to subsample. This option should usually not be used.
 </dd>
-<dt>-s <em>NUM</em>, --seed <em>NUM</em></dt>
+<dt><strong>-s</strong> <em>NUM</em>, <strong>--seed</strong> <em>NUM</em></dt>
 <dd>Random seed. Useful for replaying specific runs when trouble-shooting.
 </dd>
 </dl>
 <h1 id="parameter-options">PARAMETER OPTIONS</h1>
 <dl>
-<dt>-T <em>filename</em>, --tree <em>filename</em></dt>
+<dt><strong>-T</strong> <em>filename</em>, <strong>--tree</strong> <em>filename</em></dt>
 <dd>File with initial tree in Newick format or NEXUS format.
 </dd>
-<dt>-U, --unalign</dt>
+<dt><strong>-U</strong>, <strong>--unalign</strong></dt>
 <dd>Unalign all variable-alignment partitions before starting MCMC instead using the supplied alignment as a starting value.
 </dd>
 </dl>
 <h1 id="model-options">MODEL OPTIONS</h1>
 <dl>
-<dt>-A <em>alphabet</em>, --alphabet <em>alphabet</em></dt>
+<dt><strong>-A</strong> <em>alphabet</em>, <strong>--alphabet</strong> <em>alphabet</em></dt>
 <dd>The alphabet.
 </dd>
-<dt>-S <em>model</em>, --smodel <em>model</em></dt>
+<dt><strong>-S</strong> <em>model</em>, <strong>--smodel</strong> <em>model</em></dt>
 <dd>The substitution model.
 </dd>
-<dt>-I <em>model</em>, --imodel <em>model</em></dt>
+<dt><strong>-I</strong> <em>model</em>, <strong>--imodel</strong> <em>model</em></dt>
 <dd>The insertion-deletion model.
 </dd>
-<dt>-B <em>prior</em>, --branch-lengths <em>prior</em></dt>
+<dt><strong>-B</strong> <em>prior</em>, <strong>--branch-lengths</strong> <em>prior</em></dt>
 <dd>Prior on branch lengths.
 </dd>
-<dt>-R <em>prior</em>, --scale <em>prior</em></dt>
+<dt><strong>-R</strong> <em>prior</em>, <strong>--scale</strong> <em>prior</em></dt>
 <dd>Prior on the scale.
 </dd>
-<dt>-L <em>NUMS</em>, --link <em>NUMS</em></dt>
+<dt><strong>-L</strong> <em>NUMS</em>, <strong>--link</strong> <em>NUMS</em></dt>
 <dd>Link partitions. Takes a comma-separated list of numbers indicating partitions. For example <strong>--link 1,2,3</strong>.
 </dd>
 </dl>
 <h1 id="examples">EXAMPLES</h1>
 <dl>
-<dt>bali-phy dna.fasta --smodel GTR</dt>
+<dt>bali-phy dna.fasta --smodel gtr</dt>
 <dd>Analyze sequences in <em>dna.fasta</em> under the GTR model.
 </dd>
-<dt>bali-phy dna.fasta --smodel GTR -I none</dt>
+<dt>bali-phy dna.fasta -S gtr -I none</dt>
 <dd>Perform a traditional fixed-alignment analysis with gaps treated as missing data.
 </dd>
-<dt>bali-phy dna.fasta amino.fasta codons.fasta -S 1:GTR -S 2:LG -S 3:M0</dt>
+<dt>bali-phy dna.fasta amino.fasta codons.fasta -S 1:gtr -S 2:lg08 -S 3:gy94</dt>
 <dd>Perform an analysis of 3 genes where each gene has a different substitution mode. The sequence names in all three files must be the same.
 </dd>
 </dl>

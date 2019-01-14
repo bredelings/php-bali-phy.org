@@ -2,6 +2,7 @@
  * I add this to html files generated with pandoc.
  */
 
+
 html {
   font-size: 100%;
 //  overflow-y: scroll;
@@ -10,15 +11,16 @@ html {
 }
 
 body {
-  color: #444;
+  color: #222;
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 //  font-size: 12px;
-  line-height: 1.5;
-  padding: 1em;
-//  margin: auto;
+  line-height: 1.2;
+  padding: 0.5em;
+  margin: auto;
 //  max-width: 42em;
   background: #fefefe;
 }
+
 
 a {
   color: #0645ad;
@@ -41,6 +43,7 @@ a:focus {
   outline: thin dotted;
 }
 
+
 *::-moz-selection {
   background: rgba(255, 255, 0, 0.3);
   color: #000;
@@ -61,18 +64,26 @@ a::selection {
   color: #0645ad;
 }
 
+body > * { margin-left: 3em}
+
+body > header,h1,h2,h3,h4,h5,h6 { margin-left: 0em}
+
+header {margin: 0, padding: 0}
+
 p {
-  margin: 1em 0;
+  margin-top: 1em;
 }
+
 
 img {
   max-width: 100%;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   color: #111;
-  line-height: 125%;
-  margin-top: 2em;
+//  line-height: 125%;
+//  margin-top: 2em;
   font-weight: normal;
 }
 
@@ -80,29 +91,17 @@ h4, h5, h6 {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 1.5em;
-}
+h1 { font-size: 1.5em; }
 
-h2 {
-  font-size: 1.3em;
-}
+h2 { font-size: 1.3em; }
 
-h3 {
-  font-size: 1.2em;
-}
+h3 { font-size: 1.2em; }
 
-h4 {
-  font-size: 1.1em;
-}
+h4 { font-size: 1.1em; }
 
-h5 {
-  font-size: 1em;
-}
+h5 { font-size: 1em; }
 
-h6 {
-  font-size: 0.9em;
-}
+h6 { font-size: 0.9em; }
 
 blockquote {
   color: #666666;
@@ -133,6 +132,7 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
 
 b, strong {
   font-weight: bold;
@@ -170,6 +170,7 @@ sub {
   bottom: -0.25em;
 }
 
+
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 2em;
@@ -188,12 +189,11 @@ dl {
 }
 
 dt {
-  font-weight: bold;
-  margin-bottom: .8em;
+//  font-weight: bold;
 }
 
 dd {
-  margin: 0 0 .8em 2em;
+    margin-bottom: .4em;
 }
 
 dd:last-child {
@@ -223,6 +223,7 @@ figcaption {
   margin: 0 0 .8em;
 }
 
+
 table {
   margin-bottom: 2em;
   border-bottom: 1px solid #ddd;
@@ -247,8 +248,8 @@ table td {
 
 .author {
   font-size: 1.2em;
-  text-align: center;
 }
+
 
 @media only screen and (min-width: 480px) {
   body {
@@ -260,6 +261,7 @@ table td {
     font-size: 16px;
   }
 }
+
 @media print {
   * {
     background: transparent !important;
