@@ -2,6 +2,11 @@
  * I add this to html files generated with pandoc.
  */
 
+header {width: 100%; display:table }
+
+header > * {display: table-cell; width:33%; }
+header >  .author {text-align:center}
+header >  .date {text-align:right}
 
 html {
   font-size: 100%;
@@ -328,3 +333,4 @@ table td {
     page-break-after: avoid;
   }
 }
+
