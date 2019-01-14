@@ -1,83 +1,103 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin Redelings" />
   <title>alignment-thin(1)</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="../man.css" type="text/css" />
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../man.css" />
 </head>
 <body>
-<div id="header">
+<header>
 <h1 class="title">alignment-thin(1)</h1>
-<h2 class="author">Benjamin Redelings</h2>
-<h3 class="date">Feb 2018</h3>
-</div>
+<p class="author">Benjamin Redelings</p>
+<p class="date">Feb 2018</p>
+</header>
 <h1 id="name">NAME</h1>
-<p><strong>alignment-thin</strong> -- Remove sequences or columns from an alignment.</p>
+<p><strong>alignment-thin</strong> - Remove sequences or columns from an alignment.</p>
 <h1 id="synopsis">SYNOPSIS</h1>
 <p><strong>alignment-thin</strong> <em>alignment-file</em> [OPTIONS]</p>
 <h1 id="description">DESCRIPTION</h1>
 <p>Remove sequences or columns from an alignment.</p>
 <h1 id="general-options">GENERAL OPTIONS:</h1>
 <dl>
-<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dt><strong>-h</strong>, <strong>–help</strong></dt>
 <dd>Print usage information.
 </dd>
-<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dt><strong>-v</strong>, <strong>–verbose</strong></dt>
 <dd>Output more log messages on stderr.
 </dd>
 </dl>
 <h1 id="sequence-filtering-options">SEQUENCE FILTERING OPTIONS:</h1>
 <dl>
-<dt><strong>--cutoff</strong> <em>arg</em></dt>
-<dd>Keep only sequence with more mismatches than <em>arg</em>.
+<dt><strong>–protect</strong> <em>arg</em></dt>
+<dd>Sequences that cannot be removed (comma-separated).
 </dd>
-<dt><strong>--longer-than</strong> <em>arg</em></dt>
-<dd>Keep only sequences longer than <em>arg</em>.
-</dd>
-<dt><strong>--shorter-than</strong> <em>arg</em></dt>
-<dd>Keep only sequence sequences shorter than <em>arg</em>.
-</dd>
-<dt><strong>--keep</strong> <em>arg</em></dt>
-<dd>Keep only sequences in comma-separated list <em>arg</em>.
-</dd>
-<dt><strong>--remove</strong> <em>arg</em></dt>
+<dt><strong>–remove</strong> <em>arg</em></dt>
 <dd>Remove sequences in comma-separated list <em>arg</em>.
 </dd>
-<dt><strong>--down-to</strong> <em>arg</em></dt>
+<dt><strong>–longer-than</strong> <em>arg</em></dt>
+<dd>Remove sequences not longer than <em>arg</em>.
+</dd>
+<dt><strong>–shorter-than</strong> <em>arg</em></dt>
+<dd>Remove sequences not shorter than <em>arg</em>.
+</dd>
+<dt><strong>–cutoff</strong> <em>arg</em></dt>
+<dd>Remove similar sequences with #mismatches &lt; cutoff.
+</dd>
+<dt><strong>–down-to</strong> <em>arg</em></dt>
 <dd>Remove similar sequences down to <em>arg</em> sequences.
 </dd>
-<dt><strong>--remove-crazy</strong> <em>arg</em></dt>
-<dd>Remove <em>arg</em> sequences that are missing too many conserved sites.
+<dt><strong>–remove-crazy</strong> <em>arg</em></dt>
+<dd>Remove <em>arg</em> outlier sequences – defined as sequences that are missing too many conserved sites.
 </dd>
-<dt><strong>--conserved</strong> <em>arg</em> (=0.75)</dt>
+<dt><strong>–conserved</strong> <em>arg</em> (=0.75)</dt>
 <dd>Fraction of sequences that must contain a letter for it to be considered conserved.
 </dd>
 </dl>
 <h1 id="column-filtering-options">COLUMN FILTERING OPTIONS:</h1>
 <dl>
-<dt><strong>--min-letters</strong> <em>arg</em></dt>
+<dt><strong>–min-letters</strong> <em>arg</em></dt>
 <dd>Remove columns with fewer than <em>arg</em> letters.
 </dd>
-<dt><strong>--remove-unique</strong> <em>arg</em></dt>
+<dt><strong>–remove-unique</strong> <em>arg</em></dt>
 <dd>Remove insertions in a single sequence if longer than <em>arg</em> letters
 </dd>
 </dl>
 <h1 id="output-options">OUTPUT OPTIONS:</h1>
 <dl>
-<dt><strong>--sort</strong></dt>
+<dt><strong>–sort</strong></dt>
 <dd>Sort partially ordered columns to group similar gaps.
 </dd>
-<dt><strong>--show-lengths</strong></dt>
+<dt><strong>–show-lengths</strong></dt>
 <dd>Just print out sequence lengths.
 </dd>
-<dt><strong>--find-dups</strong> <em>arg</em></dt>
+<dt><strong>–find-dups</strong> <em>arg</em></dt>
 <dd>For each sequence, find the closest other sequence.
 </dd>
 </dl>
+<h1 id="examples">EXAMPLES:</h1>
+<p>Remove columns without a minimum number of letters:</p>
+<pre><code>% alignment-thin --min-letters=5 file.fasta &gt; file-thinned.fasta</code></pre>
+<p>Remove sequences by name:</p>
+<pre><code>% alignment-thin --remove=seq1,seq2 file.fasta &gt; file2.fasta</code></pre>
+<p>Remove short sequences:</p>
+<pre><code>% alignment-thin --longer-than=250 file.fasta &gt; file-long.fasta</code></pre>
+<p>Remove sequences with &lt;= 5 differences from the closest other sequence:</p>
+<pre><code>% alignment-thin --cutoff=5 file.fasta &gt; more-than-5-differences.fasta</code></pre>
+<p>Like –cutoff, but stop when we have the right number of sequences:</p>
+<pre><code>% alignment-thin --down-to=30 file.fasta &gt; file-30taxa.fasta</code></pre>
+<p>Remove dissimilar sequences that are missing conserved columns:</p>
+<pre><code>% alignment-thin --remove-crazy=10 file.fasta &gt; file2.fasta</code></pre>
+<p>Protect some sequences from being removed:</p>
+<pre><code>% alignment-thin --down-to=30 file.fasta --protect=seq1,seq2 &gt; file2.fasta</code></pre>
 <h1 id="reporting-bugs">REPORTING BUGS:</h1>
 <p>BAli-Phy online help: <a href="http://www.bali-phy.org/docs.php" class="uri">http://www.bali-phy.org/docs.php</a>.</p>
 <p>Please send bug reports to <a href="mailto:bali-phy-users@googlegroups.com">bali-phy-users@googlegroups.com</a>.</p>
