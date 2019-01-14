@@ -29,7 +29,7 @@
 <p><strong>bali-phy</strong> estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences. BAli-Phy uses MCMC and Bayesian methods to estimate evolutionary trees, positive selection, and branch lengths while averaging over alternative alignments.</p>
 <p>BAli-Phy can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. BAli-Phy automatically estimates relative rates for each gene.</p>
 <h1 id="general-options">GENERAL OPTIONS</h1>
-<p>For each option below, more information is available by specifying the long form of the option as a help topic. For example: bali-phy help alphabet</p>
+<p>For each option below, more information is available by specifying the long form of the option as a help topic. For example: <code>bali-phy help alphabet</code></p>
 <dl>
 <dt><strong>-h</strong>, <strong>--help</strong>, <strong>--help</strong>=<em>topic</em></dt>
 <dd>Display a friendly help message. Specify <strong>--help=advanced</strong> or <strong>--help=expert</strong> to display more advanced options.
@@ -40,10 +40,10 @@
 <dt><strong>-t</strong>, <strong>--test</strong></dt>
 <dd>Analyze the initial values and exit.
 </dd>
-<dt>-V, --verbose, --verbose <em>NUM</em></dt>
+<dt><strong>-V</strong>, <strong>--verbose</strong>, <strong>--verbose</strong> <em>NUM</em></dt>
 <dd>Print extra output to aid in trouble-shooting. If <em>NUM</em> is not specified the default is 1. Values from 2 to 4 increase the amount of information displayed.
 </dd>
-<dt>-c <em>filename</em>, --config <em>filename</em></dt>
+<dt><strong>-c</strong> <em>filename</em>, <strong>--config</strong> <em>filename</em></dt>
 <dd>Read commands from <em>filename</em> before command line.
 </dd>
 </dl>
@@ -89,18 +89,18 @@
 <dd>Prior on the scale.
 </dd>
 <dt><strong>-L</strong> <em>NUMS</em>, <strong>--link</strong> <em>NUMS</em></dt>
-<dd>Link partitions. Takes a comma-separated list of numbers indicating partitions. For example <strong>--link 1,2,3</strong>.
+<dd>Link partitions. Takes a comma-separated list of numbers indicating partitions. For example <code>--link 1,2,3</code>.
 </dd>
 </dl>
 <h1 id="examples">EXAMPLES</h1>
 <dl>
-<dt>bali-phy dna.fasta --smodel gtr</dt>
+<dt><code>bali-phy dna.fasta --smodel gtr</code></dt>
 <dd>Analyze sequences in <em>dna.fasta</em> under the GTR model.
 </dd>
-<dt>bali-phy dna.fasta -S gtr -I none</dt>
+<dt><code>bali-phy dna.fasta -S gtr -I none</code></dt>
 <dd>Perform a traditional fixed-alignment analysis with gaps treated as missing data.
 </dd>
-<dt>bali-phy dna.fasta amino.fasta codons.fasta -S 1:gtr -S 2:lg08 -S 3:gy94</dt>
+<dt><code>bali-phy dna.fasta amino.fasta codons.fasta -S 1:gtr -S 2:lg08 -S 3:gy94</code></dt>
 <dd>Perform an analysis of 3 genes where each gene has a different substitution mode. The sequence names in all three files must be the same.
 </dd>
 </dl>
