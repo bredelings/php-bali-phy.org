@@ -28,8 +28,8 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>12/13/18: <strong>BAli-Phy 3.4 released</strong> - <a href="download.php">Download</a><br/>
-		16-state <a href="http:README.html#doublet_models">RNA stem</a> models + character sets (<a href="releases/3/">release notes</a>)</p>
+	      <p>01/18/19: <strong>BAli-Phy 3.4.1 released</strong> - <a href="download.php">Download</a><br/>
+		16-state <a href="http:README.html#doublet_models">RNA stem</a> models + character sets + bug fixes (<a href="releases/3/">release notes</a>)</p>
 	      </div>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.

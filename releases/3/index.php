@@ -27,6 +27,7 @@
 	    <li><b>[3.2]</b> - Jun-25-2018</li>
 	    <li><b>[3.3]</b> - Aug-06-2018</li>
 	    <li><b>[3.4]</b> - Dec-13-2018</li>
+	    <li><b>[3.4.1]</b> - Jan-18-2019</li>
 	  </ul>
 	  </div>
 
@@ -181,6 +182,8 @@
 		<li><span class="timepoint-new">[3.4]</span> Don't crash if the scale is set to a constant (e.g. <span class="userinput">--scale 1</span>)</li>
 		<li><span class="timepoint-new">[3.4]</span> Don't replace ambiguous nucleotides (W,N,etc.) in observed sequences unless given <span class="userinput">--set infer-ambiguous-observed=true</span></li>
 		<li><span class="timepoint-new">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
+		<li><span class="timepoint-new">[3.4.1]</span> Fix for sequence names with underscore.</li>
+		<li><span class="timepoint-new">[3.4.1]</span> Fix windows binaries.</li>
 	      </ul>
 	    </li>
 	  </ul>
