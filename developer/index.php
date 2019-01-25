@@ -24,10 +24,9 @@ h1,h2,h3,h4 {clear: both;}
 
 	      <h2>Developer Information</h2>
 
-	      <h4>Joining the BAli-Phy development community</h4>
+	      <h3>Joining the BAli-Phy development community</h3>
 
-	    <p>BAli-Phy is an open-source project with a collaborative development model.  Everyone is free to clone the <a href="http://github.com/bredelings/BAli-Phy">GitHub repository</a>.  Questions can be asked on the <a href="">mailing list</a>.</p>
-	    <p>If you would like to implement new models, distributions, or statistical methods inside the BAli-Phy framework, you can </p>
+	    <p>BAli-Phy is an open-source project with a collaborative development model.  Everyone is free to clone the <a href="http://github.com/bredelings/BAli-Phy">GitHub repository</a>. If you would like to implement new models, distributions, or statistical methods inside the BAli-Phy framework, you can contribute your work by issuing a pull request on GitHub. Questions can be asked on the <a href="http://groups.google.com/group/bali-phy-users/">mailing list</a>. Before starting the developer documentation, you might want to start with the <a href="../docs.php">user documentation</a>.</p>
 
 	    <h3>Developers Guide</h3>
 	    <ul class="floatlist">
