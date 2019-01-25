@@ -31,40 +31,51 @@ code {background: #f0f0f0}
 
 	  <h2>Rapid, easy model development</h2>
 
-	  <p>BAli-Phy contains a simple language for expressing probabilistic models as programs.  Such languages are called <em>probabilistic programming languages</em>. Other well-known languages include <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, <a href="https://revbayes.github.io">RevBayes</a>, and <a href="http://mc-stan.org">Stan</a>.</p>
+	  <p>BAli-Phy contains a simple language for expressing probabilistic models as programs.  Inference on parameters can then be performed automatically. Such languages are called <a href="https://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming languages</a> (PPL). Other well-known PPLs include <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, <a href="https://revbayes.github.io">RevBayes</a>, and <a href="http://mc-stan.org">Stan</a>. The goal of the language is to allow researchers to spend their time designing models instead of designing new inference programs.  The inference should take care of itself after the model is specified.</p>
 
-	  <p>The goal of this language is to allow researchers to spend their time designing models instead of MCMC software.  The inference should take care of itself.</p>
+	  <h4>Language properties</h4>
+	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell</a> syntax.  Features currently implemented include:</p>
+	  <ol>
+	    <li><b>Functions</b> work, and can be used to define random variables.</li>
+	    <li><b>Modules</b> work, and allow code to be factored in clean manner.</li>
+	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
+	    <li><b>Optimization</b> works, and speeds up the code written by the user by using techniques such as inlining.</li>
+	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
+	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
+	  </ol>
 
-	  <p>The modeling language uses Haskell syntax.  Here is what a short program that performs linear regression looks like using that syntax:</p>
+	  <p>Features that are expected to be completed during 2019 include:</p>
+	  <ul>
+	    <li><b>Random Trees</b>. Random processes on trees that are not known in advance. (<em>partially implemented</em>)</li>
+	    <li><b>Rooted Trees</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
+	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed. (<em>partially implemented</em>)</li>
+	    <li><b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
+	    <li><b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed.</li>
+	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
+	  </ul>
+
+	  <h2>Examples</h2>
+	  <h3>Simple linear regression</h3>
+	  <p>Here is a short program that performs linear regression.  The program samples variables from their prior distribution using the <code class="haskell">sample</code> function, and then conditions on the data using the <code class="haskell">observe</code> function.</p>
 
 <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
+<h4>Interpretation:</h4>
 <ul>
-  <li><code class="haskell">let f x = b*x +a</code> defines the prediction function f</li>
+  <li><code class="haskell">let f x = b*x +a</code> defines the prediction function <code class="haskell">f</code></li>
   <li><code class="haskell">b &lt;- sample $ normal 0.0 1.0</code> places a prior on the slope of the line.</li>
   <li><code class="haskell">observe y (normal mu_y s)</code> says that the data y comes from a normal distribution with mean mu_y and standard deviation s.</li>
 </ul>
 
-	  <p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
+<p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
+<p><em>(The method of reading from files "xs" and "ys" here is kind of a hack.  A high-quality interface for reading from CSV files will be easy to implement after type polymorphism is implemented.)</em></p>
 
-	  <p>This language is beta quality.  Type-checking is not ready yet.  The language (including type-checking) should be ready sometime during 2019.</p>
 
-	  <h2>Extending graphical models</h2>
-	  <p>In traditional graphical models, variables may be random, but the number of variables and the relationship between them remains constant.
-	  BAli-Phy extends the graphical paradigm by allowing the graph to change and treating functions as first-class objects.  This enables</p>
-	  
-	    <ol>
-	      <li> random data structures</li>
-	      <li> random control flow (if-then-else, loops) </li>
-	      <li> random numbers of random variables (coming soon)</li>
-	      <li> lazy evaluation of random variables (coming soon)</li>
-	    </ol>
-
-<h3>Random data structures</h3>
-<p>The <em>iid</em> distribution returns a list of random values from another distribution.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.</p>
-<pre><code class="haskell"><?php include('Demo2.hs') ?></code></pre>
-<p>Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument <em>x</em> and returns <em>x*x</em>.
-</p>
+	  <h3>Random data structures and Recursion</h3>
+	  <p>The <em>iid</em> distribution returns a list of random values from another distribution.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.</p>
+	  <pre><code class="haskell"><?php include('Demo2.hs') ?></code></pre>
+	  <p>Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument <em>x</em> and returns <em>x*x</em>.</p>
+	  <p><em>(Currently the number <code class="haskell">10</code> of i.i.d. normal variables cannot be random.  Soon we will allow random numbers of random variables, and this restriction will be relaxed.)</em> </p>
 
 
 <h3>Random control flow I: if-then-else</h3>
