@@ -346,6 +346,7 @@ $menutree->add_children('Top',
 			      'Download::download.php',
 			      'Examples::examples.php',
 			      'Documentation::docs.php',
+			      'Developer::developer/',
 			      'Contact::contact.php')
 			);
 
@@ -374,10 +375,14 @@ $menutree->add_children('Welcome!',
 $menutree->add_children('Documentation',
 			array('Users Guide::docs.php#usersguide',
 			      'Tutorial::Tutorial4.html',
-			      'Manual pages::docs.php#manpages',
-			      'Developers Guide::developer.html')
+			      'Manual pages::docs.php#manpages')
 			);
 		 
+$menutree->add_children('Developer',
+			array('Developers Guide::developer/developer.html',
+			      'Graphical Models (Experimental)::models.php' )
+			);
+
 $menutree->add_children('Contact',
 			array('Bug reports::contact.php#bug_reports',
 			      'Mailing lists::contact.php#lists')

@@ -47,7 +47,7 @@ code {background: #f0f0f0}
 
 	  <p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
 
-	  <p>This language is beta quality.  There is currently no type-checking.  The language should be ready sometime during 2019.</p>
+	  <p>This language is beta quality.  Type-checking is not ready yet.  The language (including type-checking) should be ready sometime during 2019.</p>
 
 	  <h2>Extending graphical models</h2>
 	  <p>In traditional graphical models, variables may be random, but the number of variables and the relationship between them remains constant.
