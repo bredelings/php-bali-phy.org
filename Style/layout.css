@@ -1,6 +1,18 @@
+
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+
 body { 
  margin: 0;
- padding: 0; 
+ padding: 0;
+ font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+ font-size: 12x;
 }
 
 body > h1  { padding-left: 0.2em; margin-left: 0.2em }
@@ -24,7 +36,8 @@ table.layout > tr > td
 
    font-size: 90%;
    margin: 0em; 
-   padding: 0.4em 0.4em 0.4em 0.0em;  
+   padding: 0.4em 0.4em 0.4em 0.0em;
+   max-width: 12em;
 }
 
 
@@ -83,7 +96,8 @@ tr {
 }
 
 .main { 
-   margin: 0.5em;
+    margin: 0.5em;
+    max-width: 55em;
 }
 
 ul.changelog li {font-weight: bold; color: blue}
@@ -97,3 +111,15 @@ ul.changelog li li {font-weight: normal; color: black}
 .userinput {font-family:times,monospace; background-color:rgb(240,240,240); }
 
 ul.changelog .heading2 {font-weight: bold; color: green}
+
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}

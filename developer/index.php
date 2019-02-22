@@ -1,5 +1,5 @@
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <?php $top=".."; ?>
   <?php $page='Developer'; ?>
   <?php require("{$top}/lib/phplib.inc") ?>
@@ -8,7 +8,15 @@
     <title>BAli-Phy: Developer Information</title>
     <style type="text/css">
     ul.floatlist {float: left; padding-top: 0; margin-top: 0; }
-    ul.floatlist li {float: left; padding-right: 4em; }
+    ul.floatlist li {list-style-type:none;
+		     float: left;
+		     padding: 1em;
+		     margin:1em;
+		     max-width:12em;
+		     background-color:rgb(235,235,235);
+		     border-radius: 1em;
+		     height: 3em;
+		    }
 h1,h2,h3,h4 {clear: both;}
     </style>
   </head>
@@ -30,7 +38,10 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <h3>Developers Guide</h3>
 	    <ul class="floatlist">
-	      <li><a href="developer.html">Introduction</a>: How to add new models, distributions, etc.</li>
+	      <li><a href="git.html">Contributing changes with Git</a></li>
+	      <li><a href="building.html">Building and installing bali-phy</a></li>
+	      <li><a href="code.html">Overview of source code</a></li>
+	      <li><a href="developer.html">Adding new models, distributions, etc.</a></li>
 	      <li><a href="../models.php">Experimental: Graphical Models</a></li>
 	    </ul>
 	    </div>
