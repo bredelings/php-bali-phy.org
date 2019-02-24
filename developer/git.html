@@ -87,11 +87,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 </nav>
 <p>We are excited to see what you will contribute! This document describes how to download the bali-phy sources and contribute changes.</p>
-<h1 id="get-the-source-code">Get the source code</h1>
-<p>This will create a separate copy of the repo under your own account.</p>
+<h2 id="get-the-source-code">Get the source code</h2>
 <ol type="1">
-<li><p>Click the “Fork” button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a>.</p></li>
-<li><p>Use <code>git clone</code> to download your own version of the repo:</p>
+<li><p>Click the “Fork” button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a> to create a version of the code under your own account.</p></li>
+<li><p>Download your version of the code:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">git</span> clone git@github.com:your-username/BAli-Phy.git</a></code></pre></div>
 <p>The name <code>origin</code> in your local repo will then refer to your modified version of BAli-Phy.</p></li>
 <li><p>Create a new remote called <code>upstream</code> to refer to the upstream version:</p>
@@ -99,7 +98,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb2-2" title="2"><span class="fu">git</span> remote add upstream https://github.com:bredelings/BAli-Phy.git</a>
 <a class="sourceLine" id="cb2-3" title="3"><span class="fu">git</span> remote -v</a></code></pre></div></li>
 </ol>
-<h1 id="contribute-a-change">Contribute a change</h1>
+<h2 id="contribute-a-change">Contribute a change</h2>
 <ol type="1">
 <li><p>Create a new branch to contain your changes.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="fu">git</span> fetch upstream</a>

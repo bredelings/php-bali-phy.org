@@ -82,6 +82,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </header>
 <nav id="TOC">
 <ul>
+<li><a href="#bali-phy-architecture">BAli-Phy architecture</a></li>
 <li><a href="#adding-functionality-to-bali-phy">Adding functionality to bali-phy</a><ul>
 <li><a href="#adding-a-haskell-function">Adding a Haskell function</a></li>
 <li><a href="#adding-a-c-function">Adding a C++ function</a><ul>
@@ -114,6 +115,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul>
 </nav>
+<h1 id="bali-phy-architecture">BAli-Phy architecture</h1>
+<p>BAli-Phy has an architecture that is divided into several levels. Adding new functions, models, or distributions primarily involves add new functions to the model language using Haskell syntax <em>(green)</em>. Sometimes these functions are implemented in C++ and then made visible to the Haskell language <em>(yellow)</em>. In order to make these functions available in command-line model definitions for the BAli-Phy application, you must additionally write a JSON file that specifies which Haskell function the feature corresponds to. However, if you wish to use the graphical model framework directly, then you do not need to write a JSON file. <img src="architecture.png" alt="Architecture diagram" /></p>
 <h1 id="adding-functionality-to-bali-phy">Adding functionality to bali-phy</h1>
 <h2 id="adding-a-haskell-function">Adding a Haskell function</h2>
 <p>Haskell functions are defined in the Haskell modules under <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/">modules/</a>. For example, the function <code>min</code> is defined in <code>Prelude.hs</code> as follows:</p>
