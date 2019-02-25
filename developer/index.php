@@ -12,7 +12,7 @@
 		     float: left;
 		     padding: 1em;
 		     margin:1em;
-		     max-width:12em;
+		     width:10em;
 		     background-color:rgb(235,235,235);
 		     border-radius: 1em;
 		     height: 3em;
@@ -41,7 +41,13 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="git.html">Contributing changes with Git</a></li>
 	      <li><a href="building.html">Building and installing bali-phy</a></li>
 	      <li><a href="code.html">Overview of source code</a></li>
-	      <li><a href="developer.html">Adding new models, distributions, etc.</a></li>
+	      <li><a href="add_function.html">Adding a function</a></li>
+	      <li><a href="builtin.html">Adding a C++ function</a></li>
+	      <li><a href="distribution.html">Adding a probability distribution</a></li>
+	      <li><a href="mcmc_move.html">Adding an MCMC move</a></li>
+	      <li><a href="tests.html">Adding a test</a></li>
+	      <li><a href="binding.html">Binding a command line function</a></li>
+	      <!-- li><a href="developer.html">Adding new models, distributions, etc.</a></li -->
 	      <li><a href="../models.php">Experimental: Graphical Models</a></li>
 	    </ul>
 	    </div>

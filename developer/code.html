@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Guide to development in BAli-Phy</title>
+  <title>BAli-Phy architecture and code layout</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -15,8 +15,16 @@
 </head>
 <body>
 <header>
-<h1 class="title">Guide to development in BAli-Phy</h1>
+<h1 class="title">BAli-Phy architecture and code layout</h1>
 </header>
+<h2 id="bali-phy-architecture">BAli-Phy architecture</h2>
+<p>In order to add functionality to BAli-Phy, it is important to understand the BAli-Phy architecture. This architecture is divided into several levels.</p>
+<figure>
+<img src="architecture.png" alt="Architecture diagram" /><figcaption>Architecture diagram</figcaption>
+</figure>
+<p>In BAli-Phy, distributions, functions, and models are all implemented as functions. To add functionality to the standard BAli-Phy interface, you need to add a Haskell function (green), and a binding (blue) that makes that function visible. BAli-Phy does not use a standard Haskell compiler, but instead implements its own Haskell interpreter that has special functionality.</p>
+<p>If you are using the generic graphical modeling language, you can use the Haskell function directly, and do not need to add a binding.</p>
+<p>In some cases you might want to implement your function in C++ (yellow) and then call it from Haskell.</p>
 <h2 id="source-code">Source Code</h2>
 <p>These directories contain code that affects how <code>bali-phy</code> runs: <img src="code-layout.png" alt="Code layout" /></p>
 <dl>
