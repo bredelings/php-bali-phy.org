@@ -91,7 +91,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb2-3" title="3">builtin builtin_sample_normal <span class="dv">2</span> <span class="st">&quot;sample_normal&quot;</span> <span class="st">&quot;Distribution&quot;</span></a>
 <a class="sourceLine" id="cb2-4" title="4">sample_normal m s <span class="fu">=</span> <span class="dt">Random</span> (<span class="dt">IOAction2</span> builtin_sample_normal m s)</a>
 <a class="sourceLine" id="cb2-5" title="5">normal m s <span class="fu">=</span> <span class="dt">ProbDensity</span> (\x <span class="ot">-&gt;</span> [normal_density m s x]) (normal_quantile m s) (sample_normal m s) realLine</a></code></pre></div>
-<h2 id="definiting-the-density">Definiting the density</h2>
+<h2 id="defining-the-density">Defining the density</h2>
 <p>A density function takes an extra argument after the distribution parameters. For example, the normal density takes 3 arguments, so that <code>(normal_density m s)</code> is a function of the third argument.</p>
 <p>A density function should return type <code>log_double_t</code>.</p>
 <h3 id="quantile">Quantile</h3>
