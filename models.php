@@ -38,7 +38,7 @@ code {background: #f0f0f0}
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell</a> syntax.  Features currently implemented include:</p>
 	  <ol>
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
-	    <li><b>Modules</b> work, and allow code to be factored in clean manner.</li>
+	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
 	    <li><b>Optimization</b> works, and speeds up the code written by the user by using techniques such as inlining.</li>
 	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
