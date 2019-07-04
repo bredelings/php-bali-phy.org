@@ -80,13 +80,13 @@
 	      </li>
 	      <li><span class="heading2">New syntax</span>:
 		<ul>
-		  <li><span class="userinput"><b>let</b>[m=hky85,mixture[models=List[m,m,m+Rates.gamma]]]</span> (user-defined variables)</li>
+		  <li><span class="userinput"><b>let</b>[m=hky85,mixture[List[m,m,m+Rates.gamma]]]</span> (user-defined variables)</li>
 		  <li><span class="timepoint">[3.3]</span> <span class="userinput"><b>function</b>[w,gy94[omega=w]]</span> (functions)</li>
 		</ul>
 	      </li>
 	      <li><span class="heading2">New models</span>:
 		<ul>
-		  <li><span class="userinput"><b>mixture</b>[models=List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
+		  <li><span class="userinput"><b>mixture</b>[List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
 		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
 		  <li><span class="timepoint">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
 		  <li><span class="timepoint-new">[3.4]</span> <span class="userinput">+<b>mut_sel</b></span> to add selection on a model.</li>
