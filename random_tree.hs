@@ -11,7 +11,7 @@ main = random $ do
   -- The process starts with x=0 at the root
   let root_value = 0.0
 
-  -- xs!i recursively depends on xs!(parent i)
+  -- xs[i] recursively depends on xs[parent i]
   rec let mu Nothing  = root_value
           mu (Just p) = xs!!p
       xs <- sample $ list [normal (mu parent_node) 1.0  | n <- nodes rtree, let parent_node = parentNode rtree n]
