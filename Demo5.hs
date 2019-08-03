@@ -10,8 +10,8 @@ random_walk x0 n f | n < 1     = error "Random walk needs at least 1 element"
 
 -- 20 element brownian bridge
 main = do
-  zs <- random_walk 0.0 19 (\mu -> normal mu 1.0)
+  zs <- random $ random_walk 0.0 19 (\mu -> normal mu 1.0)
 
-  observe 1.5 $ normal (last zs) 1.0
+  observe (normal (last zs) 1.0) 1.0
 
   return $ log_all [ zs %% "zs" ]

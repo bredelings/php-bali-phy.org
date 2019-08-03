@@ -2,7 +2,7 @@ module Demo2 where
 
 import Distributions
 
-main = do
+main = random $ do
 
   xs <- sample $ iid 10 (normal 0.0 1.0)
 

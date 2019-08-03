@@ -43,74 +43,96 @@ code {background: #f0f0f0}
 	    <li><b>Optimization</b> works, and speeds up the code written by the user by using techniques such as inlining.</li>
 	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
 	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
+	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
+	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
 	  </ol>
 
 	  <p>Features that are expected to be completed during 2019 include:</p>
 	  <ul>
-	    <li><b>Random Trees</b>. Random processes on trees that are not known in advance. (<em>partially implemented</em>)</li>
 	    <li><b>Rooted Trees</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
-	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed. (<em>partially implemented</em>)</li>
 	    <li><b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
 	    <li><b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed.</li>
 	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
 	  </ul>
 
 	  <h2>Examples</h2>
-	  <h3>Simple linear regression</h3>
+          <ol>
+            <li><a href="#regression">Linear regression</a></li>
+            <li><a href="#rec_random_tree">Trait evolution on random tree</a></li>
+            <li><a href="#random_data_structures">Random data structures</a></li>
+            <li><a href="#random_control_flow1">Random control flow: if-then-else</a></li>
+            <li><a href="#random_control_flow2">Random control flow: random array subscripts</a></li>
+            <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li>
+          </ol>
+
+          <p>Some of these examples may only work with the development version of bali-phy on github.</p>
+          <hr/>          
+	  <h3><a name="regression">Linear regression</a></h3>
 	  <p>Here is a short program that performs linear regression.  The program samples variables from their prior distribution using the <code class="haskell">sample</code> function, and then conditions on the data using the <code class="haskell">observe</code> function.</p>
 
-<pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
+          <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
-<h4>Interpretation:</h4>
-<ul>
-  <li><code class="haskell">let f x = b*x +a</code> defines the prediction function <code class="haskell">f</code></li>
-  <li><code class="haskell">b &lt;- sample $ normal 0.0 1.0</code> places a prior on the slope of the line.</li>
-  <li><code class="haskell">observe y (normal mu_y s)</code> says that the data y comes from a normal distribution with mean mu_y and standard deviation s.</li>
-</ul>
+          <h4>Interpretation:</h4>
+          <ul>
+            <li><code class="haskell">let f x = b*x +a</code> defines the prediction function <code class="haskell">f</code></li>
+            <li><code class="haskell">b &lt;- sample $ normal 0.0 1.0</code> places a prior on the slope of the line.</li>
+            <li><code class="haskell">observe y (normal mu_y s)</code> says that the data y comes from a normal distribution with mean mu_y and standard deviation s.</li>
+          </ul>
 
-<p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
-<p><em>(The method of reading from files "xs" and "ys" here is kind of a hack.  A high-quality interface for reading from CSV files will be easy to implement after type polymorphism is implemented.)</em></p>
+          <p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
+          <!-- p><em>(The method of reading from files "xs" and "ys" here is kind of a hack.  A high-quality interface for reading from CSV files will be easy to implement after type polymorphism is implemented.)</em></p -->
 
-
-	  <h3>Random data structures and Recursion</h3>
+          <hr/>          
+          <h3><a name="rec_random_tree">Trait evolution on random tree</a></h3>
+          <p>Graphical models are a natural way to describe the evolution of a trait on a <strong>fixed</strong> tree.  This is because the value of the trait at each node depends on the value at its parent node.  This dependance can be encoded in a fixed graph with the same structure as the tree.</p>
+          <p>However, graphical models cannot easily describe the evolution of a train on a <strong>random</strong> tree.  This is because the parent node for each node is not known in advance, and is in fact random.</p>
+          <p>One way to solve this problem is to allow <strong>recursive</strong> random sampling.  In this model below, the random variable <strong>xs</strong> recursively depends on itself.  In practice this avoids infinite loops because each element of <strong>xs</strong> only depends on <em>other</em> elements, and not on itself.</p>
+          <pre><code class="haskell"><?php include('random_tree.hs')?></code></pre>
+          <p>The keyword <strong>rec</strong> introduces a recursive block inside the do block.</p>
+          
+          <hr/>
+	  <h3><a name="random_data_structures">Random data structures</a></h3>
 	  <p>The <em>iid</em> distribution returns a list of random values from another distribution.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.</p>
 	  <pre><code class="haskell"><?php include('Demo2.hs') ?></code></pre>
 	  <p>Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument <em>x</em> and returns <em>x*x</em>.</p>
-	  <p><em>(Currently the number <code class="haskell">10</code> of i.i.d. normal variables cannot be random.  Soon we will allow random numbers of random variables, and this restriction will be relaxed.)</em> </p>
+      <!-- p><em>(Currently the number <code class="haskell">10</code> of i.i.d. normal variables cannot be random.  Soon we will allow random numbers of random variables, and this restriction will be relaxed.)</em> </p -->
 
+          <hr/>          
 
-<h3>Random control flow I: if-then-else</h3>
-<p>The modeling language can handle graphs that change. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
-<pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
-<!-- 
-While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
+          <h3><a name="random_control_flow1">Random control flow I: if-then-else</a></h3>
+      <p>The modeling language can handle graphs that change. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
+      <pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
+      <!-- 
+           While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
 
-<div>
-<img src="graphical_model3.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-<img src="graphical_model4.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-</div>
-In contrast, a traditional graphical model makes <em>x</em> always depend on everything that it <em>might</em> depend on.
-<div>
-<img src="graphical_model5.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-</div>
--->
-<h3>Random control flow II: arrays with random subscripts</h3>
-<p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different elements of <em>ys</em> will be exactly equal, if they belong to the same category:</p>
+           <div>
+             <img src="graphical_model3.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
+             <img src="graphical_model4.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
+           </div>
+           In contrast, a traditional graphical model makes <em>x</em> always depend on everything that it <em>might</em> depend on.
+           <div>
+             <img src="graphical_model5.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
+           </div>
+           -->
+           <hr/>
+           <h3><a name="random_control_flow2">Random control flow II: arrays with random subscripts</a></h3>
+      <p>Traditional graphical modelling languages, like BUGS, allow arrays of random variables.  However, they do not allow selecting a random element of these arrays.  Dynamic graphs allow random subscripts. This can be used to divide observations into categories.  Here different elements of <em>ys</em> will be exactly equal, if they belong to the same category:</p>
 
-<pre><code class="haskell"><?php include('Demo4.hs') ?></code></pre>
-<p>  Haskell uses the <em>!!</em> operator to subscript a list.  The C equivalent of <em>xs!!(categories!!i))</em> would be something like <em>xs[categories[i]]</em>.</p>
+      <pre><code class="haskell"><?php include('Demo4.hs') ?></code></pre>
+      <p>  Haskell uses the <em>!!</em> operator to subscript a list.  The C equivalent of <em>xs!!(categories!!i))</em> would be something like <em>xs[categories[i]]</em>.</p>
 
-<h3>Random sampling via recursive functions: Brownian Bridge</h3>
-<p>We can use recursive functions to randomly sample lists of random values.  Here, we define a function <em>random_walk</em> that produces a list of random values starting from <em>x0</em>.</p>
-<pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
-  The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
+      <hr/>
+      <h3><a name="recursive_sampling">Random sampling via recursive functions: Brownian Bridge</a></h3>
+      <p>We can use recursive functions to randomly sample lists of random values.  Here, we define a function <em>random_walk</em> that produces a list of random values starting from <em>x0</em>.</p>
+      <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
+      The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
 
-<p>The <code class="haskell">observe</code> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 1.5.  This constrains the random walk to end at 1.5, creating a Brownian Bridge.</p>
-	</div>
-	  </td>	      
-      </tr>
-    </table>
-    
-    <?php baliphy_footer(); ?>
-  </body>
+    <p>The <code class="haskell">observe</code> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 1.5.  This constrains the random walk to end at 1.5, creating a Brownian Bridge.</p>
+  </div>
+</td>	      
+</tr>
+</table>
+
+<?php baliphy_footer(); ?>
+</body>
 </html>
