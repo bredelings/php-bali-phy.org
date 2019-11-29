@@ -1,0 +1,8 @@
+#1/bin/bash
+
+for i in {1..5} ; do
+    cp ~/Devel/bali-phy/source/tests/prob_prog/demos/${i}/Main.hs Demo${i}.hs
+done
+
+cp ~/Devel/bali-phy/source/tests/prob_prog/regression/LinearRegression.hs .
+cp ~/Devel/bali-phy/source/tests/prob_prog/sample_tree/3/sample.hs random_tree.hs

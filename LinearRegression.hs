@@ -1,5 +1,3 @@
-module Line where
-
 import Probability
 import Data.ReadFile
 import System.Environment
@@ -10,11 +8,11 @@ ys = read_file_as_double "ys"
 
 sample_model = do
 
-  b <- sample $ normal 0.0 1.0
+  b <- normal 0.0 1.0
 
-  a <- sample $ normal 0.0 1.0
+  a <- normal 0.0 1.0
 
-  s <- sample $ exponential 1.0
+  s <- exponential 1.0
 
   return (a,b,s)
 
@@ -24,6 +22,6 @@ main = do
   
   let f x = b*x + a
 
-  sequence_ [observe (normal mu_y s) y | (x,y) <- zip xs ys, let mu_y = f x]
+  observe (independent [normal (f x) s | x <- xs]) ys
 
-  return $ log_all [b %% "b", a %% "a", s %% "s"]
+  return $ log_all ["b" %=% b, "a" %=% a, "s" %=% s]

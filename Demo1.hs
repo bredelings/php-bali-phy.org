@@ -1,11 +1,9 @@
-module Demo1 where
+import Probability
 
-import Distributions
+main = random $ do
 
-main = do
+  p <- beta 5.0 1.0
 
-  p <- sample $ beta 5.0 1.0
+  n <- geometric p
 
-  n <- sample $ geometric p
-
-  return $ log_all [ p %% "p", n %% "n"]
+  return $ log_all [ "p" %=% p, "n" %=% n]

@@ -65,22 +65,23 @@ code {background: #f0f0f0}
             <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li>
           </ol>
 
-          <p>Some of these examples may only work with the development version of bali-phy on github.</p>
+          <p>These examples work with current git version of <b>bali-phy</b>.</p>
           <hr/>          
 	  <h3><a name="regression">Linear regression</a></h3>
-	  <p>Here is a short program that performs linear regression.  The program samples variables from their prior distribution using the <code class="haskell">sample</code> function, and then conditions on the data using the <code class="haskell">observe</code> function.</p>
+	  <p>Here is a short program that performs linear regression (i) given normally-distributed errors (ii) at fixed values of x.</p>
+          <p>Changing the error distribution to another distribution simply invoves replacing <code class="haskell">normal</code> with another distribution, such as <code class="haskell">cauchy</code>.
 
-          <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
+<pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
-          <h4>Interpretation:</h4>
-          <ul>
-            <li><code class="haskell">let f x = b*x +a</code> defines the prediction function <code class="haskell">f</code></li>
-            <li><code class="haskell">b &lt;- sample $ normal 0.0 1.0</code> places a prior on the slope of the line.</li>
-            <li><code class="haskell">observe y (normal mu_y s)</code> says that the data y comes from a normal distribution with mean mu_y and standard deviation s.</li>
-          </ul>
+<ul class="uncompressed">
+  <li>the <b>priors</b> look like <code class="haskell">b &lt;- normal 0.0 1.0</code>
+  <li>the <b>prediction function</b> <code class="haskell">let f x = b*x + a</code> defines the best fit line.</li>
+  <li>the <b>error distribution</b> <code class="haskell">normal (f x) s</code> indicates how far points might fall from the line.</li>
+  <li>the <b>likelihood</b> is given by <code class="haskell">observe <i>distribution data</i></code>.</li>
+  <li>the <b>parameters are logged as JSON</b> and are given by the <code class="haskell">return $ log_all [...]</code> command.</li>
+</ul>
 
-          <p>You can find this file <a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models">here</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
-          <!-- p><em>(The method of reading from files "xs" and "ys" here is kind of a hack.  A high-quality interface for reading from CSV files will be easy to implement after type polymorphism is implemented.)</em></p -->
+<p>You can find this file in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/regression/">bali-phy/tests/prob_prog/regression/</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
 
           <hr/>          
           <h3><a name="rec_random_tree">Trait evolution on random tree</a></h3>
@@ -100,7 +101,7 @@ code {background: #f0f0f0}
           <hr/>          
 
           <h3><a name="random_control_flow1">Random control flow I: if-then-else</a></h3>
-      <p>The modeling language can handle graphs that change. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
+      <p>The modeling language can handle graphs that change automatically when the value of a random variable changes. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
       <pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
       <!-- 
            While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
@@ -122,12 +123,18 @@ code {background: #f0f0f0}
       <p>  Haskell uses the <em>!!</em> operator to subscript a list.  The C equivalent of <em>xs!!(categories!!i))</em> would be something like <em>xs[categories[i]]</em>.</p>
 
       <hr/>
-      <h3><a name="recursive_sampling">Random sampling via recursive functions: Brownian Bridge</a></h3>
-      <p>We can use recursive functions to randomly sample lists of random values.  Here, we define a function <em>random_walk</em> that produces a list of random values starting from <em>x0</em>.</p>
-      <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
-      The argument <em>f</em> is a function.  In Haskell, we write <em>f x</em> instead of <em>f(x)</em> to apply a function.  Here, <em>f x</em> gives the distribution of the point after <em>x</em>.</p>
 
-    <p>The <code class="haskell">observe</code> command specifies observed data.  Here we observe that the next point after element 10 of <em>zs</em> is 1.5.  This constrains the random walk to end at 1.5, creating a Brownian Bridge.</p>
+      <h3><a name="recursive_sampling">Random sampling via recursive functions: Brownian Bridge</a></h3>
+  <p>We can use recursive functions to randomly sample lists of random values.</p>
+
+  <p>Here, we define a function <code class="haskell">random_walk</code> that produces a list of random values starting from <code>x0</code>.</p>
+  <ul class="uncompressed">
+    <li>The argument <code class="haskell">next</code> is a function.</li>
+    <li>In Haskell, we write <code class="haskell">next x0</code> instead of <code>next(x0)</code> to apply a function.</li>
+    <li>So <code class="haskell">next x0</code> gives the distribution of the point after <code>x0</code>.</li>
+  </ul>
+  <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
+
   </div>
 </td>	      
 </tr>

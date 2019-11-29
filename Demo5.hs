@@ -1,17 +1,18 @@
-module Demo5 where
+import Probability
 
-import Distributions
+random_walk next x0 = do
+  x1 <- next x0
+  xs <- random_walk next x1
+  return (x0:xs)
 
-random_walk x0 n f | n < 1     = error "Random walk needs at least 1 element"
-                   | n == 1    = return [x0]
-                   | otherwise = do x1 <- sample $ f x0
-                                    xs <- random_walk x1 (n-1) f
-                                    return (x0:xs)
+random_walk_n n next x0 = do
+  xs <- random_walk next x0
+  return (take n xs)
 
 -- 20 element brownian bridge
 main = do
-  zs <- random $ random_walk 0.0 19 (\mu -> normal mu 1.0)
+  zs <- random $ random_walk_n 19 (\mu -> normal mu 1.0) 0.0
 
-  observe (normal (last zs) 1.0) 1.0
+  observe (normal (last zs) 1.0) 2.0
 
-  return $ log_all [ zs %% "zs" ]
+  return $ log_all [ "zs" %=% zs ]
