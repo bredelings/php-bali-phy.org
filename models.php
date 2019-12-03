@@ -86,7 +86,7 @@ code {background: #f0f0f0}
           <hr/>          
           <h3><a name="rec_random_tree">Trait evolution on random tree</a></h3>
           <p>Graphical models are a natural way to describe the evolution of a trait on a <strong>fixed</strong> tree.  This is because the value of the trait at each node depends on the value at its parent node.  This dependance can be encoded in a fixed graph with the same structure as the tree.</p>
-          <p>However, graphical models cannot easily describe the evolution of a train on a <strong>random</strong> tree.  This is because the parent node for each node is not known in advance, and is in fact random.</p>
+          <p>However, graphical models cannot easily describe the evolution of a trait on a <strong>random</strong> tree.  This is because the parent node for each node is not known in advance, and is in fact random.</p>
           <p>One way to solve this problem is to allow <strong>recursive</strong> random sampling.  In this model below, the random variable <strong>xs</strong> recursively depends on itself.  In practice this avoids infinite loops because each element of <strong>xs</strong> only depends on <em>other</em> elements, and not on itself.</p>
           <pre><code class="haskell"><?php include('random_tree.hs')?></code></pre>
           <p>The keyword <strong>rec</strong> introduces a recursive block inside the do block.</p>
