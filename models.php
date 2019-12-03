@@ -78,7 +78,7 @@ code {background: #f0f0f0}
   <li>the <b>prediction function</b> <code class="haskell">let f x = b*x + a</code> defines the best fit line.</li>
   <li>the <b>error distribution</b> <code class="haskell">normal (f x) s</code> indicates how far points might fall from the line.</li>
   <li>the <b>likelihood</b> is given by <code class="haskell">observe <i>distribution data</i></code>.</li>
-  <li>the <b>parameters are logged as JSON</b> and are given by the <code class="haskell">return $ log_all [...]</code> command.</li>
+  <li>the <b>parameters are logged as JSON</b> and are given by the <code class="haskell">return ["b" %=% b, ...]</code> command.</li>
 </ul>
 
 <p>You can find this file in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/regression/">bali-phy/tests/prob_prog/regression/</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
