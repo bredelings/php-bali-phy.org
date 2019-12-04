@@ -129,9 +129,8 @@ code {background: #f0f0f0}
 
   <p>Here, we define a function <code class="haskell">random_walk</code> that produces a list of random values starting from <code>x0</code>.</p>
   <ul class="uncompressed">
-    <li>The argument <code class="haskell">next</code> is a function.</li>
+    <li>The argument <code class="haskell">next</code> is a function: <code class="haskell">next x0</code> gives the distribution of the point after <code>x0</code>.</li>
     <li>In Haskell, we write <code class="haskell">next x0</code> instead of <code>next(x0)</code> to apply a function.</li>
-    <li>So <code class="haskell">next x0</code> gives the distribution of the point after <code>x0</code>.</li>
   </ul>
   <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
 
