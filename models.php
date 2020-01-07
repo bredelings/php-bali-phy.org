@@ -47,7 +47,7 @@ code {background: #f0f0f0}
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
 	  </ol>
 
-	  <p>Features that are expected to be completed during 2019 include:</p>
+	  <p>Features that are expected to be completed during 2020 include:</p>
 	  <ul>
 	    <li><b>Rooted Trees</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
 	    <li><b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
