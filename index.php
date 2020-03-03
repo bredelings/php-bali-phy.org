@@ -62,9 +62,11 @@
 	      
 		<p>This ambiguity can be displayed graphically in an alignment uncertainty (AU) plot.</p>  
 	      
-		<p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. </p>
+	    <p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. </p>
 
-	        <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial4.html">tutorial</a>.</p>  
+	    <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial4.html">tutorial</a>.</p>  
+
+            <p><b>Ancestral sequence reconstruction:</b> <em>BAli-Phy</em> automatically reconstructs ancestral sequences for each gene, while averaging over both topological and alignment uncertainty, as described in the <a href="README.xhtml#ancestral_sequence_reconstruction">Manual</a>.</p>
 
 	      </div>
 
