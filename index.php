@@ -66,7 +66,7 @@
 
 	    <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial4.html">tutorial</a>.</p>  
 
-            <p><b>Ancestral sequence reconstruction:</b> <em>BAli-Phy</em> automatically reconstructs ancestral sequences for each gene, while averaging over both topological and alignment uncertainty, as described in the <a href="README.xhtml#ancestral_sequence_reconstruction">Manual</a>.</p>
+            <p><b>Ancestral sequence reconstruction:</b> <em>BAli-Phy</em> automatically reconstructs ancestral sequences for each gene <em>including gaps</em>, while averaging over both topological and alignment uncertainty, as described in the <a href="README.xhtml#ancestral_sequence_reconstruction">Manual</a>.</p>
 
 	      </div>
 
