@@ -44,9 +44,8 @@
 	      branch-site model lead to a 99% FPR from ClustalW alignments on simulated data, versus 5% for the true (simulated) alignment. -->
 
 	    <p><b>Eliminate bias:</b> <a href="https://doi.org/10.1093/molbev/msq115">Fletcher and Yang (2010)</a> showed that relying on a ClustalW alignment
-	      estimate could lead to a 99% false-positive rate in detecting positive selection.  In general, inferring evolutionary trees,
-	      branch lengths, or positive selection from a single alignment can lead to bias if the alignment is ambiguous.
-	      <em>BAli-Phy</em> solves this problem by using MCMC and Bayesian methods to estimate evolutionary trees, positive selection, and branch lengths
+	      estimate could lead to a 99% false-positive rate in detecting positive selection.  Inferring evolutionary trees and branch lengths from a single alignment can also lead to bias if the alignment is ambiguous.
+	      <em>BAli-Phy</em> solves the problem of alignment bias by using MCMC and Bayesian methods to estimate evolutionary trees, positive selection, and branch lengths
 	      while averaging over alternative alignments.
 	      </p>
  	         
