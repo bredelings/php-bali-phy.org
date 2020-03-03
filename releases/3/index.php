@@ -28,6 +28,7 @@
 	    <li><b>[3.3]</b> - Aug-06-2018</li>
 	    <li><b>[3.4]</b> - Dec-13-2018</li>
 	    <li><b>[3.4.1]</b> - Jan-18-2019</li>
+	    <li><b>[3.5.0]</b> - Mar-02-2020</li>
 	  </ul>
 	  </div>
 
@@ -49,7 +50,7 @@
 	    <li>Alignments
 	      <ul>
 		<li>Allow analyzing 1-sequence and 2-sequence alignments.</li>
-		<li>Include <b>ancestral sequences</b> in sampled alignments.</li>
+		<li><span class="timepoint-new">[3.5]</span> Automatically <b>reconstruct ancestors</b> for summary alignment.</li>
 	      </ul>
 	    </li>
 	    <li>Large Trees
@@ -61,10 +62,10 @@
 	    <li>General
 	      <ul>
 		<li>Add unit tests and likelihood testsuite.</li>
-		<li><span class="timepoint-new">[3.4]</span> Allow selecting character sets from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
-		<li><span class="timepoint-new">[3.4]</span> Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
-		<li><span class="timepoint-new">[3.4]</span> Install package manager <b>bali-phy-pkg</b>.</li>
-		<!-- li><span class="timepoint-new">[3.4]</span> Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
+		<li><span class="timepoint">[3.4]</span> Allow selecting character sets from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
+		<li><span class="timepoint">[3.4]</span> Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
+		<li><span class="timepoint">[3.4]</span> Install package manager <b>bali-phy-pkg</b>.</li>
+		<!-- li><span class="timepoint">[3.4]</span> Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
 	      </ul>
 	  <li>Models
 	    <ul>
@@ -89,12 +90,12 @@
 		  <li><span class="userinput"><b>mixture</b>[List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
 		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
 		  <li><span class="timepoint">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
-		  <li><span class="timepoint-new">[3.4]</span> <span class="userinput">+<b>mut_sel</b></span> to add selection on a model.</li>
+		  <li><span class="timepoint-new">[3.5]</span> <span class="userinput">+<b>mut_sel</b></span> or <span class="userinput">+<b>mut_sel_aa</b></span> to add selection on a model.</li>
 		</ul>
 	      <li><span class="heading2">RNA stem (16-state) models</span>
 		<ul>
-		  <li><span class="timepoint-new">[3.4]</span> <b>RNA models</b> for <em>fixed</em> alignments. (Preliminary, because you have to pair the letters manually.)</li>
-		  <li><span class="timepoint-new">[3.4]</span> RNA stem models:
+		  <li><span class="timepoint">[3.4]</span> <b>RNA models</b> for <em>fixed</em> alignments. (Preliminary, because you have to pair the letters manually.)</li>
+		  <li><span class="timepoint">[3.4]</span> RNA stem models:
 		    <span class="userinput"><b>RNA.16a</b></span>,
 		    <span class="userinput">gtr_sym+<b>x2_sym</b>+f</span>,
 		    <span class="userinput">gtr+<b>x2</b>+mut_sel</span>
@@ -114,15 +115,24 @@
 		    etc.
 		 </li>
 		  <li><span class="timepoint">[3.3]</span> dNdS mixtures with mg94 and fMutSel: <span class="userinput">m3[function[w,fMutSel[omega=w]]]</span></li>
-		  <li><span class="timepoint-new">[3.4]</span> <span class="userinput">gtr+<b>x3</b>+<b>dNdS</b>+<b>mut_sel</b></span> (syntax for building up codon models piecewise)</li>
+		  <li><span class="timepoint">[3.4]</span> <span class="userinput">gtr+<b>x3</b>+<b>dNdS</b>+<b>mut_sel</b></span> (syntax for building up codon models piecewise)</li>
 		</ul>
-	    </ul>
-	  </li>
+              <li><span class="heading2">Heterotachy/Covarion models</span>
+                <ul>
+		  <li><span class="timepoint-new">[3.5]</span> Tuffley-Steel (1998) ON/OFF model.</li>
+		  <li><span class="timepoint-new">[3.5]</span> Huelsenbeck (2002) ON/OFF + Gamma rates-across-sites model.</li>
+		  <li><span class="timepoint-new">[3.5]</span> Galtier (2001) Gamma rate-switching model.</li>
+		  <li><span class="timepoint-new">[3.5]</span> Wang et al (2007) ON/OFF + Gamma rate-switching model.</li>
+                </ul>
+              </li>
+	      </ul>
+	      </li>
 	  <li>Summarization tools
 	    <ul>
 	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
-	      <li><span class="timepoint-new">[3.4]</span> Reorganize logged statistics.</li>
-	      <li><span class="timepoint-new">[3.4]</span> Compute alignment summaries over all runs, not just the first one.</li>
+	      <li><span class="timepoint">[3.4]</span> Reorganize logged statistics.</li>
+	      <li><span class="timepoint">[3.4]</span> Compute alignment summaries over all runs, not just the first one.</li>
+              <li><span class="timepoint-new">[3.5]</span> Rewrite <b>bp-analyze</b> in python.</li>
 	    </ul>
 	  </li>
 
@@ -135,18 +145,22 @@
 
 	  <li>Tools
 	    <ul>
-	      <li><span class="timepoint-new">[3.4]</span> <b>cut-range:</b> allow reading alignments from multiple files.</li>
-	      <li><span class="timepoint-new">[3.4]</span> <b>alignment-distances:</b> new tool, add accuracy and recal metrics</li>
-	      <li><span class="timepoint-new">[3.4]</span> <b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
-	      <li><span class="timepoint-new">[3.4]</span> <b>alignment-thin:</b> clean up options and man pages</li>
-	      <li><span class="timepoint-new">[3.4]</span> <b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
+	      <li><span class="timepoint">[3.4]</span> <b>cut-range:</b> allow reading alignments from multiple files.</li>
+	      <li><span class="timepoint">[3.4]</span> <b>alignment-distances:</b> new tool, add accuracy and recal metrics</li>
+	      <li><span class="timepoint">[3.4]</span> <b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
+	      <li><span class="timepoint">[3.4]</span> <b>alignment-thin:</b> clean up options and man pages</li>
+	      <li><span class="timepoint">[3.4]</span> <b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
+	      <li><span class="timepoint-new">[3.5]</span> <b>extract-ancestors:</b> Extract and name ancestral sequences.</li>
+	      <li><span class="timepoint-new">[3.5]</span> <b>summarize-ancestors:</b> Construct summary alignment with ancestral sequences.</li>
+	      <li><span class="timepoint-new">[3.5]</span> <b>tree-tool:</b> add option to remove internal node names.</li>
+              <li><span class="timepoint-new">[3.5]</span> Speed up tree drawing in <b>bp-analyze</b>.</li>
 	    </ul>
 	  </li>
 
 
 	    <li>Install
 	      <ul>
-		<li><span class="timepoint-new">[3.4]</span> Transition homebrew package to <a href="https://github.com/brewsci/homebrew-bio">brewsci/bio</a>.</li>
+		<li><span class="timepoint">[3.4]</span> Transition homebrew package to <a href="https://github.com/brewsci/homebrew-bio">brewsci/bio</a>.</li>
 	      </ul>
 	    </li>
 	      <!-- li>Compile
@@ -179,11 +193,15 @@
 		<li><span class="timepoint">[3.3]</span> Fix incorrect LG model.</li>
 		<li><span class="timepoint">[3.3]</span> Fix run file for f81 model.</li>
 		<li><span class="timepoint">[3.3]</span> bp-analyze: parse output files from 3.0-betal.</li>
-		<li><span class="timepoint-new">[3.4]</span> Don't crash if the scale is set to a constant (e.g. <span class="userinput">--scale 1</span>)</li>
-		<li><span class="timepoint-new">[3.4]</span> Don't replace ambiguous nucleotides (W,N,etc.) in observed sequences unless given <span class="userinput">--set infer-ambiguous-observed=true</span></li>
-		<li><span class="timepoint-new">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
-		<li><span class="timepoint-new">[3.4.1]</span> Fix for sequence names with underscore.</li>
-		<li><span class="timepoint-new">[3.4.1]</span> Fix windows binaries.</li>
+		<li><span class="timepoint">[3.4]</span> Don't crash if the scale is set to a constant (e.g. <span class="userinput">--scale 1</span>)</li>
+		<li><span class="timepoint">[3.4]</span> Don't replace ambiguous nucleotides (W,N,etc.) in observed sequences unless given <span class="userinput">--set infer-ambiguous-observed=true</span></li>
+		<li><span class="timepoint">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
+		<li><span class="timepoint">[3.4.1]</span> Fix for sequence names with underscore.</li>
+		<li><span class="timepoint">[3.4.1]</span> Fix windows binaries.</li>
+		<li><span class="timepoint-new">[3.5]</span> Stabilize matrix exponential.</li>
+		<li><span class="timepoint-new">[3.5]</span> Fix dirichlet process prior.</li>
+		<li><span class="timepoint-new">[3.5]</span> Don't print out Newick trees rooted at a leaf.</li>
+                <li><span class="timepoint-new">[3.5]</span> Compute posterior probabilities for MAP and greedy consensus.</li>
 	      </ul>
 	    </li>
 	  </ul>
