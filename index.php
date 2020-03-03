@@ -62,7 +62,9 @@
 	      
 		<p>This ambiguity can be displayed graphically in an alignment uncertainty (AU) plot.</p>  
 	      
-	    <p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using substitution models like GTR+gamma. </p>
+            <p><b>Model-based alignment:</b> <em>BAli-Phy</em> can make use of complex substitution models while estimating alignments (and trees).  These include the free-rates and Gamma+INV models, codon models such as the M3 and M8 models, and covarion models such as Tuffley-Steel.</p>
+
+	    <p><b>Fixed-alignment</b>: <em>BAli-Phy</em> can also estimate phylogenies from a fixed alignment (like MrBayes and BEAST) using complex substitution models like GTR+gamma. </p>
 
 	    <p><b>Multi-gene:</b> <em>BAli-Phy</em> automatically estimates relative rates for each gene, as described in the <a href="README.xhtml">Manual</a> and the <a href="Tutorial4.html">tutorial</a>.</p>  
 
