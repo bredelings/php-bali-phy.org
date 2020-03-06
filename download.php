@@ -46,7 +46,7 @@
 	      <p>Check the latest version available in: [<a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all">Debian</a>] [<a href="https://launchpad.net/ubuntu/+source/bali-phy/">Ubuntu</a>]</p>
 
               <p style="border:solid; border-width: 0.15em; border-color: #EE9090; border-radius: 1.5em; background-color: #FFEAEA; padding: 1em"><b>Note</b>: 
-                Ubuntu LTS users should probably download the TAR archives above instead of using apt. (See <a href="https://github.com/bredelings/BAli-Phy/issues/9">issue #9</a>)
+                For now, Ubuntu LTS users should probably download the TAR archives above instead of using apt. (See <a href="https://github.com/bredelings/BAli-Phy/issues/9">issue #9</a>)
               </p>
 
 	    </ul>
