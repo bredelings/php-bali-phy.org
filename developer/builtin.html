@@ -77,18 +77,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <link rel="stylesheet" href="pandoc.css" />
 </head>
 <body>
-<header>
+<header id="title-block-header">
 <h1 class="title">Adding a C++ function</h1>
 </header>
-<p>BAli-Phy executes C++ functions much more quickly than it executes Haskell functions. To add a “builtin” C++ operation to bali-phy’s Haskell code, you must add the C++ code for the operation to one of the C++ files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins">src/builtins/</a> directory. You must also tell the Haskell interpreter how to call this function by declaring it one of Haskell modules in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/">modules/</a> directory.</p>
+<p>To add a “builtin” C++ operation to bali-phy’s Haskell code, you need to do two things: 1.. <em>write</em> the code for function in a C++ file. 2. <em>declare</em> the C++ builtin function in a Haskell module. The second step is necessary to make the C++ function visible in Haskell.</p>
 <h2 id="declaring-a-c-builtin-in-haskell">Declaring a C++ builtin in Haskell</h2>
 <p>A builtin is declared via the following syntax:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" title="1">builtin haskell_name number_of_arguments <span class="st">&quot;c++ name&quot;</span> <span class="st">&quot;module name&quot;</span></a></code></pre></div>
-<p>For example, the Haskell function <code>poisson_density</code> is declared with the following line from <a href="https://github.com/bredelings/BAli-Phy/blob/master/modules/Distributions.hs">modules/Distributions.hs</a>:</p>
+<p>For example, the Haskell function <code>poisson_density</code> is declared with the following line from <a href="https://github.com/bredelings/BAli-Phy/blob/master/haskell/Distributions.hs">haskell/Distributions.hs</a>:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" title="1">builtin poisson_density <span class="dv">2</span> <span class="st">&quot;poisson_density&quot;</span> <span class="st">&quot;Distribution&quot;</span></a></code></pre></div>
 <p>The first two arguments specify the Haskell name (<code>poisson_density</code>) and the number of arguments in Haskell (<code>2</code>). The C++ function name is derived from the third argument (<code>poisson_density</code>) by adding <code>builtin_function_</code> in front. So the C++ function will be called <code>builtin_function_poisson_density</code>. The last argument specifies which loadable module contains the C++ function. Since this function is in the module “Distribution”, its source code goes in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins/Distribution.cc">src/builtins/Distribution.cc</a>.</p>
+<p>To make this in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/haskell/">haskell/</a> directory.</p>
 <h2 id="writing-a-builtin-in-c">Writing a builtin in C++</h2>
-<p>The C++ function for a builtin must be defined in one of the C++ files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins">src/builtins</a> directory, and the function name must begin with <code>builtin_function_</code>. The function must also be declared <code>extern &quot;C&quot;</code> (to avoid name mangling).</p>
+<p>The C++ function for a builtin must be defined in one of the C++ files in the <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins">src/builtins</a> directory, and the function name must begin with <code>builtin_function_</code>. The function must also be declared <code>extern "C"</code> (to avoid name mangling).</p>
 <p>For example, the poisson density function is written in <a href="https://github.com/bredelings/BAli-Phy/blob/master/src/builtins/Distribution.cc">src/builtins/Distribution.cc</a> as follows:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode c++"><code class="sourceCode cpp"><a class="sourceLine" id="cb3-1" title="1"><span class="at">extern</span> <span class="st">&quot;C&quot;</span> closure builtin_function_poisson_density(OperationArgs&amp; Args)</a>
 <a class="sourceLine" id="cb3-2" title="2">{</a>
