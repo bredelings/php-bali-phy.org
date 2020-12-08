@@ -40,18 +40,18 @@ code {background: #f0f0f0}
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
-	    <li><b>Optimization</b> works, and speeds up the code written by the user by using techniques such as inlining.</li>
+	    <li><b>Optimization</b> works, and speeds up the code written by the user via techniques such as inlining.</li>
 	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
-	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
+	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
+            <li>[unreleased]<b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
+            <li>[unreleased]<b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
 	  </ol>
 
-	  <p>Features that are expected to be completed during 2020 include:</p>
+	  <p>Features that are expected to be completed during 2021 include:</p>
 	  <ul>
 	    <li><b>Rooted Trees</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
-	    <li><b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
-	    <li><b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed.</li>
 	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
 	  </ul>
 
