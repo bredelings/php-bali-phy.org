@@ -45,7 +45,7 @@ code {background: #f0f0f0}
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
 	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditional created, without the need for reversible-jump methods.</li>
+            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
             <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
 	  </ol>
 
