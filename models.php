@@ -68,7 +68,7 @@ code {background: #f0f0f0}
           <p>These examples work with current git version of <b>bali-phy</b>.</p>
           <hr/>          
 	  <h3><a name="regression">Linear regression</a></h3>
-	  <p>Here is a short program that performs linear regression (i) given normally-distributed errors (ii) at fixed values of x.</p>
+	  <p>Here is a short program that performs linear regression given (i) normally-distributed errors (ii) at fixed values of x.</p>
           <p>Changing the error distribution to another distribution simply invoves replacing <code class="haskell">normal</code> with another distribution, such as <code class="haskell">cauchy</code>.
 
 <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
