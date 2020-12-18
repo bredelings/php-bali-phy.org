@@ -1,27 +1,28 @@
 import           Probability
 import           Data.ReadFile
-import           System.Environment
 
 xs = read_file_as_double "xs"
 
 ys = read_file_as_double "ys"
 
-sample_model = do
+prior = do
 
     b <- normal 0.0 1.0
 
     a <- normal 0.0 1.0
 
-    s <- exponential 1.0
+    sigma <- exponential 1.0
 
-    return (a, b, s)
+    let loggers = ["b" %=% b, "a" %=% a, "sigma" %=% sigma]
+
+    return (a, b, sigma, loggers)
 
 main = do
 
-    (a, b, s) <- random $ sample_model
+    (a, b, sigma, loggers) <- random $ prior
 
     let f x = b * x + a
 
-    observe (independent [ normal (f x) s | x <- xs ]) ys
+    ys ~> independent [ normal (f x) sigma | x <- xs ]
 
-    return ["b" %=% b, "a" %=% a, "s" %=% s]
+    return loggers
