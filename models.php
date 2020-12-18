@@ -75,7 +75,7 @@ code {background: #f0f0f0}
               <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
               <ul class="uncompressed">
-                <li><b>sampling</b> from a distribution looks like <code class="haskell">b &lt;- normal 0.0 1.0</code>.<br/>  (This specifies the a <em>prior</em>.)</li>
+                <li><b>sampling</b> from a distribution looks like <code class="haskell">b &lt;- normal 0.0 1.0</code>.<br/>  (This specifies a <em>prior</em> term.)</li>
                 <li><b>observing</b> data from a distribution looks like <code class="haskell">data ~> distribution</code>.<br/>  (This specifies a <em>likelihood</em> term.)</li>
                 <li><b>defining</b> a function looks like <code class="haskell">let f x = b*x + a</code>.<br/> (This defines the best fit line.)</li>
                 <li><b>logging</b> parameters iis done by the code <code class="haskell">return ["b" %=% b, "a" %=% a, ...]</code>.<br/> (This writes a corresponding JSON object each MCMC iteration.)</li>
