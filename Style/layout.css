@@ -136,3 +136,6 @@ ul.changelog .heading2 {font-weight: bold; color: green}
 
 
 ul.uncompressed li {margin-bottom:1em}
+
+.roundedbox {border: solid; border-width: 0.15em; border-radius:1.5em; padding:1em}
+.warningbox {border: solid; border-width: 0.15em; border-radius:1.5em; padding:1em; border-color: #EE9090; background-color: #FFEAEA}
