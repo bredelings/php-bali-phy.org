@@ -69,17 +69,18 @@ code {background: #f0f0f0}
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
 	    <h3><a name="regression">Linear regression</a></h3>
-	    <p>Here is a short program that performs linear regression:</p>
+	    <p>Here is a short program that performs linear regression.  Here the goal is to find a line f(x)=a*x+b that best predicts y[i] from x[i].  The data <code>ys</code> gives y[i] at each location x[i] in <code>xs</code>.
+            </p>
 
               <pre><code class="haskell"><?php include('LinearRegression.hs') ?></code></pre>
 
               <ul class="uncompressed">
-                <li>the <b>priors</b> look like <code class="haskell">b &lt;- normal 0.0 1.0</code>
-                <li>the <b>prediction function</b> <code class="haskell">let f x = b*x + a</code> defines the best fit line.</li>
-                <li>the <b>error distribution</b> <code class="haskell">normal (f x) sigma</code> indicates how far points might fall from the line.</li>
-                <li>the <b>likelihood</b> is given by <code class="haskell">data ~> distribution</code>.</li>
-                <li>the <b>parameters are logged as JSON</b> and are given by the <code class="haskell">return ["b" %=% b, ...]</code> command.</li>
-                </ul>
+                <li><b>sampling</b> from a distribution looks like <code class="haskell">b &lt;- normal 0.0 1.0</code>.<br/>  (This specifies the a <em>prior</em>.)</li>
+                <li><b>observing</b> data from a distribution looks like <code class="haskell">data ~> distribution</code>.<br/>  (This specifies a <em>likelihood</em> term.)</li>
+                <li><b>defining</b> a function looks like <code class="haskell">let f x = b*x + a</code>.<br/> (This defines the best fit line.)</li>
+                <li><b>logging</b> parameters iis done by the code <code class="haskell">return ["b" %=% b, "a" %=% a, ...]</code>.<br/> (This writes a corresponding JSON object each MCMC iteration.)</li>
+              </ul>
+            <p>Note that for each <code>x</code>, the distribution of y(x) is <code class="haskell">normal (f x) sigma</code>.  The term <code class="haskell">f x</code> is the location predicted by the best-fit line, but there is a distribution because the observed point may not fall exactly on the line.</li>
 
                 <p>You can find this file in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/regression/">bali-phy/tests/prob_prog/regression/</a> and run it as <b>bali-phy -m LinearRegression.hs --iter=1000</b>.</p>
               </div>
