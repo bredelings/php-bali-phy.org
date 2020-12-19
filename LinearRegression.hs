@@ -1,9 +1,9 @@
 import           Probability
-import           Data.ReadFile
+import           Data.Frame
 
-xs = read_file_as_double "xs"
-
-ys = read_file_as_double "ys"
+xy_data = readTable "xy.csv"
+xs = xy_data $$ ("x",FDouble)
+ys = xy_data $$ ("y",FDouble)
 
 prior = do
 
