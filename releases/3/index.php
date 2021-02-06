@@ -63,10 +63,10 @@
 	    <li>General
 	      <ul>
 		<li>Add unit tests and likelihood testsuite.</li>
-		<li><span class="timepoint">[3.4]</span> Allow selecting character sets from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
-		<li><span class="timepoint">[3.4]</span> Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
-		<li><span class="timepoint">[3.4]</span> Install package manager <b>bali-phy-pkg</b>.</li>
-		<!-- li><span class="timepoint">[3.4]</span> Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
+		<li>Allow selecting character sets from a file: <span class="userinput"><em>sequences</em>.fasta<b>:100-240,300-900</b></span></li>
+		<li>Allow recovering from initial -Infinity log-likelihood in MCMC.</li>
+		<li>Install package manager <b>bali-phy-pkg</b>.</li>
+		<!-- li>Make <a href="https://github.com/bredelings/BayesianEstimatorSelfing">BES</a> package work again.</li -->
 	      </ul>
 	  <li>Models
 	    <ul>
@@ -83,20 +83,20 @@
 	      <li><span class="heading2">New syntax</span>:
 		<ul>
 		  <li><span class="userinput"><b>let</b>[m=hky85,mixture[List[m,m,m+Rates.gamma]]]</span> (user-defined variables)</li>
-		  <li><span class="timepoint">[3.3]</span> <span class="userinput"><b>function</b>[w,gy94[omega=w]]</span> (functions)</li>
+		  <li><span class="userinput"><b>function</b>[w,gy94[omega=w]]</span> (functions)</li>
 		</ul>
 	      </li>
 	      <li><span class="heading2">New models</span>:
 		<ul>
 		  <li><span class="userinput"><b>mixture</b>[List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
 		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
-		  <li><span class="timepoint">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
+		  <li><span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
 		  <li><span class="timepoint">[3.5]</span> <span class="userinput">+<b>mut_sel</b></span> or <span class="userinput">+<b>mut_sel_aa</b></span> to add selection on a model.</li>
 		</ul>
 	      <li><span class="heading2">RNA stem (16-state) models</span>
 		<ul>
-		  <li><span class="timepoint">[3.4]</span> <b>RNA models</b> for <em>fixed</em> alignments. (Preliminary, because you have to pair the letters manually.)</li>
-		  <li><span class="timepoint">[3.4]</span> RNA stem models:
+		  <li><b>RNA models</b> for <em>fixed</em> alignments. (Preliminary, because you have to pair the letters manually.)</li>
+		  <li>RNA stem models:
 		    <span class="userinput"><b>RNA.16a</b></span>,
 		    <span class="userinput">gtr_sym+<b>x2_sym</b>+f</span>,
 		    <span class="userinput">gtr+<b>x2</b>+mut_sel</span>
@@ -104,7 +104,7 @@
 		</ul>
 	      <li><span class="heading2">Codon and triplet models</span>
 		<ul>
-		  <li><span class="timepoint">[3.3]</span> Improved codon models:
+		  <li>Improved codon models:
 		    <span class="userinput">gy94</span>,
 		    <span class="userinput">mg94</span>,
 		    <span class="userinput">f1x4</span>,
@@ -115,8 +115,8 @@
 		    <span class="userinput">dNdS</span>,
 		    etc.
 		 </li>
-		  <li><span class="timepoint">[3.3]</span> dNdS mixtures with mg94 and fMutSel: <span class="userinput">m3[function[w,fMutSel[omega=w]]]</span></li>
-		  <li><span class="timepoint">[3.4]</span> <span class="userinput">gtr+<b>x3</b>+<b>dNdS</b>+<b>mut_sel</b></span> (syntax for building up codon models piecewise)</li>
+		  <li>dNdS mixtures with mg94 and fMutSel: <span class="userinput">m3[function[w,fMutSel[omega=w]]]</span></li>
+		  <li><span class="userinput">gtr+<b>x3</b>+<b>dNdS</b>+<b>mut_sel</b></span> (syntax for building up codon models piecewise)</li>
 		</ul>
               <li><span class="heading2">Heterotachy/Covarion models</span>
                 <ul>
@@ -131,8 +131,8 @@
 	  <li>Summarization tools
 	    <ul>
 	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
-	      <li><span class="timepoint">[3.4]</span> Reorganize logged statistics.</li>
-	      <li><span class="timepoint">[3.4]</span> Compute alignment summaries over all runs, not just the first one.</li>
+	      <li>Reorganize logged statistics.</li>
+	      <li>Compute alignment summaries over all runs, not just the first one.</li>
               <li><span class="timepoint">[3.5]</span> Rewrite <b>bp-analyze</b> in python.</li>
 	    </ul>
 	  </li>
@@ -140,17 +140,17 @@
 	  <li>Help
 	    <ul>
 	      <li>Help for <em>models</em>, <em>functions</em>, <em>distributions</em>, and <em>commands</em> via <b>bali-phy help </b><em>topic</em>.</li>
-	      <li><span class="timepoint">[3.3]</span> Rewrite documentation for substitution models and insertion/deletion models.</li>
+	      <li>Rewrite documentation for substitution models and insertion/deletion models.</li>
 	    </ul>
 	    </li>
 
 	  <li>Tools
 	    <ul>
-	      <li><span class="timepoint">[3.4]</span> <b>cut-range:</b> allow reading alignments from multiple files.</li>
-	      <li><span class="timepoint">[3.4]</span> <b>alignment-distances:</b> new tool, add accuracy and recal metrics</li>
-	      <li><span class="timepoint">[3.4]</span> <b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
-	      <li><span class="timepoint">[3.4]</span> <b>alignment-thin:</b> clean up options and man pages</li>
-	      <li><span class="timepoint">[3.4]</span> <b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
+	      <li><b>cut-range:</b> allow reading alignments from multiple files.</li>
+	      <li><b>alignment-distances:</b> new tool, add accuracy and recal metrics</li>
+	      <li><b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
+	      <li><b>alignment-thin:</b> clean up options and man pages</li>
+	      <li><b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
 	      <li><span class="timepoint">[3.5]</span> <b>extract-ancestors:</b> Extract and name ancestral sequences.</li>
 	      <li><span class="timepoint">[3.5]</span> <b>summarize-ancestors:</b> Construct summary alignment with ancestral sequences.</li>
 	      <li><span class="timepoint">[3.5]</span> <b>tree-tool:</b> add option to remove internal node names.</li>
@@ -161,7 +161,7 @@
 
 	    <li>Install
 	      <ul>
-		<li><span class="timepoint">[3.4]</span> Transition homebrew package to <a href="https://github.com/brewsci/homebrew-bio">brewsci/bio</a>.</li>
+		<li>Transition homebrew package to <a href="https://github.com/brewsci/homebrew-bio">brewsci/bio</a>.</li>
 	      </ul>
 	    </li>
 	      <!-- li>Compile
