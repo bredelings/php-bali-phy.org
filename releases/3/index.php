@@ -44,6 +44,7 @@
 	    <li>Speed &amp; Memory
 	      <ul>
   	        <li><b>Speed:</b> 0-300% faster.&nbsp;&nbsp;&nbsp;&nbsp;<b>Memory:</b> 0-300% less memory.</li>
+		<li><span class="timepoint-new">[3.6]</span> Speed up fixed-alignment analyses.</li>
 		<li><b>Site-compression</b> for fixed-alignment partitions.</li>
 	      </ul>
 	    </li>
@@ -155,6 +156,8 @@
 	      <li><span class="timepoint">[3.5]</span> <b>summarize-ancestors:</b> Construct summary alignment with ancestral sequences.</li>
 	      <li><span class="timepoint">[3.5]</span> <b>tree-tool:</b> add option to remove internal node names.</li>
               <li><span class="timepoint">[3.5]</span> Speed up tree drawing in <b>bp-analyze</b>.</li>
+              <li><span class="timepoint-new">[3.6]</span> <b>bp-analyze</b>: show up to 4 chains in tree mixing plots.</li>
+              <li><span class="timepoint-new">[3.6]</span> <b>bp-analyze</b>: allow analyzing bare Newick tree samples.</li>
 	    </ul>
 	  </li>
 
@@ -203,6 +206,10 @@
 		<li><span class="timepoint">[3.5]</span> Fix dirichlet process prior.</li>
 		<li><span class="timepoint">[3.5]</span> Don't print out Newick trees rooted at a leaf.</li>
                 <li><span class="timepoint">[3.5]</span> Compute posterior probabilities for MAP and greedy consensus.</li>
+                <li><span class="timepoint-new">[3.6]</span> <b>bali-phy:</b> fix crash in MCMC when resampling alignments.</li>
+                <li><span class="timepoint-new">[3.6]</span> <b>bali-phy:</b> allow sampling ancestral sequences with compressed, fixed alignments.</li>
+                <li><span class="timepoint-new">[3.6]</span> <b>bp-analyze:</b> fix excessive cpu/memory usage when analyzing several chains.</li>
+                <li><span class="timepoint-new">[3.6]</span> <b>alignment-distances-analyze:</b> fix NxN analysis.</li>
 	      </ul>
 	    </li>
 	  </ul>
