@@ -191,14 +191,14 @@
 	      
 	    <li>Fixes
 	      <ul>
-		<li><span class="timepoint">[3.3]</span> Fix incorrect LG model.</li>
+		<!-- li><span class="timepoint">[3.3]</span> Fix incorrect LG model.</li>
 		<li><span class="timepoint">[3.3]</span> Fix run file for f81 model.</li>
 		<li><span class="timepoint">[3.3]</span> bp-analyze: parse output files from 3.0-betal.</li>
 		<li><span class="timepoint">[3.4]</span> Don't crash if the scale is set to a constant (e.g. <span class="userinput">--scale 1</span>)</li>
 		<li><span class="timepoint">[3.4]</span> Don't replace ambiguous nucleotides (W,N,etc.) in observed sequences unless given <span class="userinput">--set infer-ambiguous-observed=true</span></li>
 		<li><span class="timepoint">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
 		<li><span class="timepoint">[3.4.1]</span> Fix for sequence names with underscore.</li>
-		<li><span class="timepoint">[3.4.1]</span> Fix windows binaries.</li>
+		<li><span class="timepoint">[3.4.1]</span> Fix windows binaries.</li -->
 		<li><span class="timepoint">[3.5]</span> Stabilize matrix exponential.</li>
 		<li><span class="timepoint">[3.5]</span> Fix dirichlet process prior.</li>
 		<li><span class="timepoint">[3.5]</span> Don't print out Newick trees rooted at a leaf.</li>
