@@ -29,6 +29,7 @@
 	    <li><b>[3.4]</b> - Dec-13-2018</li>
 	    <li><b>[3.4.1]</b> - Jan-18-2019</li>
 	    <li><b>[3.5.0]</b> - Mar-02-2020</li>
+	    <li><b>[3.6.0]</b> - Feb-05-2021</li>
 	  </ul>
 	  </div>
 
@@ -50,7 +51,7 @@
 	    <li>Alignments
 	      <ul>
 		<li>Allow analyzing 1-sequence and 2-sequence alignments.</li>
-		<li><span class="timepoint-new">[3.5]</span> Automatically <b>reconstruct ancestors</b> for summary alignment.</li>
+		<li><span class="timepoint">[3.5]</span> Automatically <b>reconstruct ancestors</b> for summary alignment.</li>
 	      </ul>
 	    </li>
 	    <li>Large Trees
@@ -90,7 +91,7 @@
 		  <li><span class="userinput"><b>mixture</b>[List[hky85,jc69]]</span> (rates-across sites mixtures)</li>
 		  <li><span class="userinput">hky85+<b>multi_rate</b>[beta[2,3]]</span> (rates-across sites with any distribution)</li>
 		  <li><span class="timepoint">[3.3]</span> <span class="userinput">+<b>fe</b></span> for equal frequencies.</li>
-		  <li><span class="timepoint-new">[3.5]</span> <span class="userinput">+<b>mut_sel</b></span> or <span class="userinput">+<b>mut_sel_aa</b></span> to add selection on a model.</li>
+		  <li><span class="timepoint">[3.5]</span> <span class="userinput">+<b>mut_sel</b></span> or <span class="userinput">+<b>mut_sel_aa</b></span> to add selection on a model.</li>
 		</ul>
 	      <li><span class="heading2">RNA stem (16-state) models</span>
 		<ul>
@@ -119,10 +120,10 @@
 		</ul>
               <li><span class="heading2">Heterotachy/Covarion models</span>
                 <ul>
-		  <li><span class="timepoint-new">[3.5]</span> Tuffley-Steel (1998) ON/OFF model.</li>
-		  <li><span class="timepoint-new">[3.5]</span> Huelsenbeck (2002) ON/OFF + Gamma rates-across-sites model.</li>
-		  <li><span class="timepoint-new">[3.5]</span> Galtier (2001) Gamma rate-switching model.</li>
-		  <li><span class="timepoint-new">[3.5]</span> Wang et al (2007) ON/OFF + Gamma rate-switching model.</li>
+		  <li><span class="timepoint">[3.5]</span> Tuffley-Steel (1998) ON/OFF model.</li>
+		  <li><span class="timepoint">[3.5]</span> Huelsenbeck (2002) ON/OFF + Gamma rates-across-sites model.</li>
+		  <li><span class="timepoint">[3.5]</span> Galtier (2001) Gamma rate-switching model.</li>
+		  <li><span class="timepoint">[3.5]</span> Wang et al (2007) ON/OFF + Gamma rate-switching model.</li>
                 </ul>
               </li>
 	      </ul>
@@ -132,7 +133,7 @@
 	      <li>Show 2D &amp; 3D topology convergencs figures (MDS).</li> 
 	      <li><span class="timepoint">[3.4]</span> Reorganize logged statistics.</li>
 	      <li><span class="timepoint">[3.4]</span> Compute alignment summaries over all runs, not just the first one.</li>
-              <li><span class="timepoint-new">[3.5]</span> Rewrite <b>bp-analyze</b> in python.</li>
+              <li><span class="timepoint">[3.5]</span> Rewrite <b>bp-analyze</b> in python.</li>
 	    </ul>
 	  </li>
 
@@ -150,10 +151,10 @@
 	      <li><span class="timepoint">[3.4]</span> <b>tree-tool:</b> scales trees, prunes trees, computes diameter, etc.</li>
 	      <li><span class="timepoint">[3.4]</span> <b>alignment-thin:</b> clean up options and man pages</li>
 	      <li><span class="timepoint">[3.4]</span> <b>bali-subsample:</b> rename from <span class="userinput">subsample</span> to avoid conflict with phylobayes.</li>
-	      <li><span class="timepoint-new">[3.5]</span> <b>extract-ancestors:</b> Extract and name ancestral sequences.</li>
-	      <li><span class="timepoint-new">[3.5]</span> <b>summarize-ancestors:</b> Construct summary alignment with ancestral sequences.</li>
-	      <li><span class="timepoint-new">[3.5]</span> <b>tree-tool:</b> add option to remove internal node names.</li>
-              <li><span class="timepoint-new">[3.5]</span> Speed up tree drawing in <b>bp-analyze</b>.</li>
+	      <li><span class="timepoint">[3.5]</span> <b>extract-ancestors:</b> Extract and name ancestral sequences.</li>
+	      <li><span class="timepoint">[3.5]</span> <b>summarize-ancestors:</b> Construct summary alignment with ancestral sequences.</li>
+	      <li><span class="timepoint">[3.5]</span> <b>tree-tool:</b> add option to remove internal node names.</li>
+              <li><span class="timepoint">[3.5]</span> Speed up tree drawing in <b>bp-analyze</b>.</li>
 	    </ul>
 	  </li>
 
@@ -198,10 +199,10 @@
 		<li><span class="timepoint">[3.4]</span> Properly handle Newick labels with quotes or underscore.</li>
 		<li><span class="timepoint">[3.4.1]</span> Fix for sequence names with underscore.</li>
 		<li><span class="timepoint">[3.4.1]</span> Fix windows binaries.</li>
-		<li><span class="timepoint-new">[3.5]</span> Stabilize matrix exponential.</li>
-		<li><span class="timepoint-new">[3.5]</span> Fix dirichlet process prior.</li>
-		<li><span class="timepoint-new">[3.5]</span> Don't print out Newick trees rooted at a leaf.</li>
-                <li><span class="timepoint-new">[3.5]</span> Compute posterior probabilities for MAP and greedy consensus.</li>
+		<li><span class="timepoint">[3.5]</span> Stabilize matrix exponential.</li>
+		<li><span class="timepoint">[3.5]</span> Fix dirichlet process prior.</li>
+		<li><span class="timepoint">[3.5]</span> Don't print out Newick trees rooted at a leaf.</li>
+                <li><span class="timepoint">[3.5]</span> Compute posterior probabilities for MAP and greedy consensus.</li>
 	      </ul>
 	    </li>
 	  </ul>
