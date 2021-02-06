@@ -28,8 +28,8 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	    <div style="margin-left:1em">
-	      <p>03/02/20: <strong>BAli-Phy 3.5.0 released</strong> - <a href="download.php">Download</a><br/>
-		<a href="http:README.html#covarion_models">Covarion models</a> + automatic <a href="http:README.html#ancestral_sequence_reconstruction">ancestral state reconstruction</a> + bug fixes (<a href="releases/3/">release notes</a>)</p>
+	      <p>02/05/21: <strong>BAli-Phy 3.6.0 released</strong> - <a href="download.php">Download</a><br/>
+		Speed up fixed-alignment analyses + bug fixes (<a href="releases/3/">release notes</a>)</p>
 	      </div>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
