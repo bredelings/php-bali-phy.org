@@ -209,7 +209,7 @@
                 <li><span class="timepoint-new">[3.6]</span> <b>bali-phy:</b> fix crash in MCMC when resampling alignments.</li>
                 <li><span class="timepoint-new">[3.6]</span> <b>bali-phy:</b> allow sampling ancestral sequences with compressed, fixed alignments.</li>
                 <li><span class="timepoint-new">[3.6]</span> <b>bp-analyze:</b> fix excessive cpu/memory usage when analyzing several chains.</li>
-                <li><span class="timepoint-new">[3.6]</span> <b>alignment-distances-analyze:</b> fix NxN analysis.</li>
+                <li><span class="timepoint-new">[3.6]</span> <b>alignment-distances:</b> fix NxN analysis.</li>
 	      </ul>
 	    </li>
 	  </ul>
