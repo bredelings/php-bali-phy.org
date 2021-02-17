@@ -845,7 +845,7 @@ The majority consensus tree is usually not fully resolved, so we recommend using
       
       <p>Frequencies are estimated by default.  Frequencies can be fixed by setting the <strong class="userinput"><code>pi</code></strong> parameter to a constant value, if the model allows unequal frequencies.</p>
       <p>Constant frequencies are specified as a list of pairs that associates each letter with its frequency:</p>
-      <pre class="programlisting">gtr[pi=List[Pair["A",0.1],Pair["C",0.2],Pair["T",0.3],Pair["G",0.4]]</pre>
+      <pre class="programlisting">gtr[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]</pre>
       <p>Frequencies can also be specified using functions:</p>
 
       <p>
@@ -909,10 +909,10 @@ The majority consensus tree is usually not fully resolved, so we recommend using
       
       <p>Frequencies are estimated by default.  Frequencies can be fixed by setting the <strong class="userinput"><code>pi</code></strong> parameter to a constant value, if the model allows unequal frequencies.</p>
       <p>Constant frequencies are specified as a list of pairs that associates each letter with its frequency:</p>
-      <pre class="programlisting">wag+f[pi=List[Pair["A",0.047],Pair["R",0.19],...]]</pre>
+      <pre class="programlisting">wag+f[pi=List[Tuple["A",0.047],Tuple["R",0.19],...]]</pre>
       <p>Frequencies can also be specified using functions:</p>
       <p>
-	</p><pre class="programlisting">wag+f[pi=Frequencies.uniform]]</pre><p>
+	</p><pre class="programlisting">wag+f[pi=Frequencies.uniform]</pre><p>
       </p>
 
       <div class="informaltable">
@@ -969,9 +969,9 @@ The majority consensus tree is usually not fully resolved, so we recommend using
       
       <p>Frequencies are estimated by default.  Frequencies can be fixed by setting the <strong class="userinput"><code>pi</code></strong> parameter to a constant value, if the model allows unequal frequencies.</p>
       <p>Constant frequencies are specified as a list of pairs that associates each letter with its frequency.</p>
-      <pre class="programlisting">hky85[pi=List[Pair["A",0.1],Pair["C",0.2],Pair["T",0.3],Pair["G",0.4]]]+x2
+      <pre class="programlisting">hky85[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]+x2
 
-hky85_sym+x2_sym+f[pi=List[Pair["AA",0.01],Pair["AC",0.01],Pair["AG",0.01],Pair["AU",0.22],Pair["CA",0.01],Pair["CC",0.01],Pair["CG",0.22],Pair["CU",0.01],Pair["GA",0.01],Pair["GC",0.22],Pair["GG",0.01],Pair["GU",0.01],Pair["UA",0.22],Pair["UC",0.01],Pair["UG",0.01],Pair["UU",0.01]]]</pre>
+hky85_sym+x2_sym+f[pi=List[Tuple["AA",0.01],Tuple["AC",0.01],Tuple["AG",0.01],Tuple["AU",0.22],Tuple["CA",0.01],Tuple["CC",0.01],Tuple["CG",0.22],Tuple["CU",0.01],Tuple["GA",0.01],Tuple["GC",0.22],Tuple["GG",0.01],Tuple["GU",0.01],Tuple["UA",0.22],Tuple["UC",0.01],Tuple["UG",0.01],Tuple["UU",0.01]]]</pre>
 
       <p>Frequencies can also be specified using functions:</p>
       
@@ -1009,7 +1009,7 @@ hky85_sym+x2_sym+f[pi=List[Pair["AA",0.01],Pair["AC",0.01],Pair["AG",0.01],Pair[
       
       <p>Frequencies are estimated by default.  Frequencies can be fixed by setting the <strong class="userinput"><code>pi</code></strong> parameter to a constant value, if the model allows unequal frequencies.</p>
       <p>Constant frequencies are specified as a list of pairs that associates each letter with its frequency.</p>
-      <pre class="programlisting">hky85[pi=List[Pair["A",0.1],Pair["C",0.2],Pair["T",0.3],Pair["G",0.4]]]+x3</pre>
+      <pre class="programlisting">hky85[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]+x3</pre>
       <p>Frequencies can also be specified using functions:</p>
       <p>
 	</p><pre class="programlisting">hky85_sym+x3_sym+f[pi=f1x4]            // nucleotide frequencies are estimated</pre><p>
@@ -1100,8 +1100,8 @@ hky85_sym+x2_sym+f[pi=List[Pair["AA",0.01],Pair["AC",0.01],Pair["AG",0.01],Pair[
       
       <p>Frequencies are estimated by default.  Frequencies can be fixed by setting the <strong class="userinput"><code>pi</code></strong> parameter to a constant value, if the model allows unequal frequencies.</p>
       <p>Constant frequencies are specified as a list of pairs that associates each letter with its frequency.</p>
-      <pre class="programlisting">gy94[pi=List[Pair["AAA",0.01],Pair["C",0.02],...]]
-mg94[pi=List[Pair["A",0.1],Pair["C",0.2],Pair["T",0.3],Pair["G",0.4]]]
+      <pre class="programlisting">gy94[pi=List[Tuple["AAA",0.01],Tuple["C",0.02],...]]
+mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
 </pre>
       <p>Frequencies can also be specified using functions:</p>
       <p>
@@ -1414,7 +1414,7 @@ The <strong class="userinput"><code>help</code></strong> command can be used to 
   <p>Some types contain parameters.  For example <strong class="userinput"><code>List[Int]</code></strong> indicates a list of integers and <strong class="userinput"><code>List[Double]</code></strong> indicates a list of real numbers.  In order to indicate a list of unknown type, we use a <span class="emphasis"><em>type variable</em></span> <strong class="userinput"><code>a</code></strong> and write <strong class="userinput"><code>List[a]</code></strong>.  Type variables always begin with a lower-case letter.  They are able to match any specific type, and their value is found by pattern-matching.  For example, the function <strong class="userinput"><code>add[x,y]</code></strong> takes two arguments of type <strong class="userinput"><code>a</code></strong> and has a result of type <strong class="userinput"><code>a</code></strong>.  Thus:
 </p><pre class="programlisting">add[1,2]        // arguments are a=Int, so result is of type Int
 add[1.0,2.0]    // arguments are a=Double, so result is of type Double</pre><p>
-<strong class="userinput"><code>Pair[a,b]</code></strong> is a parameterized type that can be specialized to (for example) <strong class="userinput"><code>Pair[String,Double]</code></strong> and <strong class="userinput"><code>Pair[Int,Int]</code></strong>.
+<strong class="userinput"><code>Tuple[a,b]</code></strong> is a parameterized type that can be specialized to (for example) <strong class="userinput"><code>Tuple[String,Double]</code></strong> and <strong class="userinput"><code>Tuple[Int,Int]</code></strong>.
   </p>
 
   <p>Types for components of substitution models are often parameterized by type of the alphabet.  For example, hky85 has a result type of <strong class="userinput"><code>RevCTMC[a]</code></strong>, where <strong class="userinput"><code>a</code></strong> could be <strong class="userinput"><code>DNA</code></strong> or <strong class="userinput"><code>RNA</code></strong>.  The use of alphabet types in substitution models prevents combining substitution models with mismatched alphabets.
