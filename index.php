@@ -29,8 +29,10 @@
 
 	    <div style="margin-left:1em">
 	      <p>02/05/21: <strong>BAli-Phy 3.6.0 released</strong> - <a href="download.php">Download</a><br/>
-		Speed up fixed-alignment analyses + bug fixes (<a href="releases/3/">release notes</a>)</p>
-	      <p>10/20/20: <strong>Preprint</strong> - <a href="https://www.biorxiv.org/content/10.1101/2020.10.10.334003v1.full.pdf">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a>
+                Speed up fixed-alignment analyses + bug fixes (<a href="releases/3/">release notes</a>)</p>
+	      <p>03/02/21: <strong>New paper</strong> - <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab129/6156619?guestAccessKey=b1599c90-6c9b-4d78-9b7a-ef1af494d414">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a></p>
+              <p>04/06/21: <strong>BAli-Phy 4 (unreleased)</strong> is under development on <a href="https://github.com/bredelings/BAli-Phy">github</a>.</a><br/>
+              Contact <a href="mailto:bali-phy-users@groups.google.com">bali-phy-users@groups.google.com</a> to find out how to participate.</p>
 	      </div>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
