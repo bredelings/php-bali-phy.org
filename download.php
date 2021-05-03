@@ -39,11 +39,11 @@
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
 
 	      </li>
-	      <li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>.
+	      <li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>. 
 		<pre class="screen"><code class="prompt">% </code><strong><code>conda config --add channels conda-forge</code></strong>
 <code class="prompt">% </code><strong><code>conda config --add channels bioconda</code></strong>
 <code class="prompt">% </code><strong><code>conda install bali-phy</code></strong></pre>
-
+                <p>Mac users will need OS X 10.13 or higher.</p>
 	      </li>
 	      <li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
 	      	<pre class="screen"><code class="prompt">% </code><strong><code>sudo apt-get install bali-phy</code></strong>
