@@ -1,10 +1,11 @@
 {-# LANGUAGE RecursiveDo #-}
 import           Probability
 import           Tree
+import           Tree.Newick
 
-main = sample $ do
+model = sample $ do
     tree <- uniform_topology 5
-    let rtree = add_root tree 0
+    let rtree = add_root 0 tree
 
     let ps    = map (show . parentNode rtree) [0 .. 5]
 
@@ -14,3 +15,6 @@ main = sample $ do
         xs <- independent [ normal (mu node) 1.0 | node <- nodes rtree ]
 
     return ["tree" %=% write_newick rtree, "xs" %=% xs, "ps" %=% ps]
+
+main = do
+  mcmc model
