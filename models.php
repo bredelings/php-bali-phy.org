@@ -69,6 +69,19 @@ code {background: #f0f0f0}
           <p class="warningbox"><b>Note</b>: These examples won't work with version 3.<br/><br/>  To run them you must first compile a development version of bali-phy from the <a href="https://github.com/bredelings/BAli-Phy">source on github</a>.</p>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
+            <h3>Haskell syntax</h3>
+            <p>It probably helps to know that
+            </p>
+              <ul>
+                <li><code class="haskell">f x</code> is the function <code class="haskell">f</code> applied to <code class="haskell">x</code></li>
+                <li><code class="haskell">let x = y</code> is a simple assignment (no side-effects)</li>
+                <li><code class="haskell">do...x &lt;- y...</code> performs some kind of action and assigns the result to x.<br/>
+                The action could be random sampling, an IO operation, etc, depending on the do block</li>
+              </ul>
+              <p>There's a short interactive tutorial on the basics of Haskell syntax at <a href="https://tryhaskell.org">tryhaskell.org</a>.</p>
+          </div>
+
+          <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
 	    <h3><a name="regression">Linear regression</a></h3>
 	    <p>Here is a short program that performs linear regression.  Here the goal is to find a line f(x)=a*x+b that best predicts y[i] from x[i].  The data <code>ys</code> gives y[i] at each location x[i] in <code>xs</code>.
             </p>
