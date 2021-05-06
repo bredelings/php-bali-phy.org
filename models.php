@@ -78,7 +78,7 @@ code {background: #f0f0f0}
                 <li><code class="haskell">do...x &lt;- y...</code> performs some kind of action and assigns the result to x.<br/>
                 The action could be random sampling, an IO operation, etc, depending on the do block</li>
               </ul>
-              <p>There's a short interactive tutorial on the basics of Haskell syntax at <a href="https://tryhaskell.org">tryhaskell.org</a>.</p>
+            <p>For quick introductions to Haskell syntax you might want to take a look at the short interactive tutorial at <a href="https://tryhaskell.org">tryhaskell.org</a> or the <a href="https://prajitr.github.io/quick-haskell-syntax/">quick tour of Haskell syntax</a>.</p>
           </div>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
