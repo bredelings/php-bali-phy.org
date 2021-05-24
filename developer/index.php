@@ -48,7 +48,7 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="tests.html">Adding a test</a></li>
 	      <li><a href="binding.html">Binding a command line function</a></li>
 	      <!-- li><a href="developer.html">Adding new models, distributions, etc.</a></li -->
-	      <li><a href="../models.php">Experimental: Graphical Models</a></li>
+	      <li><a href="../models.php">Preview: Graphical Models</a></li>
 	    </ul>
 	    </div>
 	  </td>
