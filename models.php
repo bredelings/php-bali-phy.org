@@ -39,7 +39,7 @@ code {background: #f0f0f0}
             </ul>
           MCMC is used for inference.
 
-          <p>BAli-Phy 4 (unreleased) implements a universal probability programming language (PPL) <a href="https://www.nature.com/articles/s42003-021-01753-7">(Ronquist et al, 2021)</a>.  Universal PPLs allow inferring the number and relationship of random variables.  This differs from probabilitistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
+          <p>BAli-Phy 4 (unreleased) implements a universal probabilistic programming language (PPL) (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).  Universal PPLs allow inferring the number and relationship of random variables.  This differs from probabilitistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
 	  <h4>Language properties</h4>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
