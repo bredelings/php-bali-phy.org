@@ -50,10 +50,11 @@ code {background: #f0f0f0}
             <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
 	  </ol>
 
-	  <p>Features that are expected to be completed during 2021 include:</p>
+	  <p>Features that are expected to be completed by mid-2022 include:</p>
 	  <ul>
 	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
 	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
+            <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
 	  </ul>
 
 	  <h2>Examples</h2>
