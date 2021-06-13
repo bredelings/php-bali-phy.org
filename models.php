@@ -32,9 +32,14 @@ code {background: #f0f0f0}
          <img src="developer/architecture.png" style="float:right;width:15em"/>
 	  <h2>Rapid model development</h2>
 
-	  <p>BAli-Phy contains a language for expressing probabilistic models as sampling programs.  The goal of the language is to allow researchers to spend their time designing models instead of designing new inference software.  The inference should take care of itself after the model is specified.  BAli-Phy uses MCMC for inference.</p>
+	  BAli-Phy contains a language for expressing probabilistic models as sampling programs.  The goals of the language are:
+            <ul class="compressed">
+              <li><b>expressivity</b>: to be expressive enough that researchers can spend their time designing models instead of designing new inference software.</li>
+              <li><b>automatic inference</b>: the inference should take care of itself after the model is specified.</li>
+            </ul>
+          MCMC is used for inference.
 
-          <p>BAli-Phy 4 (unreleased) implements a universal probability programming language (PPL) <a href="https://www.nature.com/articles/s42003-021-01753-7">(Ronquist et al, 2021)</a> that allows inferring the number and relationship of random variables.  This differs from probabilitistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
+          <p>BAli-Phy 4 (unreleased) implements a universal probability programming language (PPL) <a href="https://www.nature.com/articles/s42003-021-01753-7">(Ronquist et al, 2021)</a>.  Universal PPLs allow inferring the number and relationship of random variables.  This differs from probabilitistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
 	  <h4>Language properties</h4>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
@@ -75,11 +80,14 @@ code {background: #f0f0f0}
             <h3>Haskell syntax</h3>
             <p>It probably helps to know that
             </p>
-              <ul>
+              <ul class="spaced-item">
                 <li><code class="haskell">f x</code> is the function <code class="haskell">f</code> applied to <code class="haskell">x</code></li>
                 <li><code class="haskell">let x = y</code> is a simple assignment (no side-effects)</li>
                 <li><code class="haskell">do...x &lt;- y...</code> performs some kind of action and assigns the result to x.<br/>
-                The action could be random sampling, an IO operation, etc, depending on the do block</li>
+                  The action could be random sampling, an IO operation, etc, depending on the context.</li>
+                <li><code class="haskell">map f [x1,x2,...]</code> applies the function <code>f</code> to every element of the list.<br/>
+                  The result looks like <code>[f x1, f x2, ...]</code>.<br/>It is used instead of for-loops.</li>
+
               </ul>
             <p>For quick introductions to Haskell syntax you might want to take a look at the short interactive tutorial at <a href="https://tryhaskell.org">tryhaskell.org</a> or the <a href="https://prajitr.github.io/quick-haskell-syntax/">quick tour of Haskell syntax</a>.</p>
           </div>
