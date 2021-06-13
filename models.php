@@ -38,22 +38,23 @@ code {background: #f0f0f0}
 	  <h4>Language properties</h4>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
 	  <ol>
+	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
+	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
+            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
+            <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
 	    <li><b>Optimization</b> works, and speeds up the code written by the user via techniques such as inlining.</li>
-	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
-	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
 	  </ol>
 
 	  <p>Features that are expected to be completed by mid-2022 include:</p>
 	  <ul>
-	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
 	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
+	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
+            <li><b>MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
             <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
 	  </ul>
 
