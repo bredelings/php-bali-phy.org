@@ -49,6 +49,7 @@ code {background: #f0f0f0}
 	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
             <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
             <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
+            <li><b>MCMC</b> works, even when the number of variables is changing.</b>
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
@@ -61,7 +62,7 @@ code {background: #f0f0f0}
 	  <ul>
 	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
 	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
-            <li><b>MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
+            <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
             <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
 	  </ul>
 
