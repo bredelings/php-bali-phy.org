@@ -30,10 +30,11 @@ code {background: #f0f0f0}
 	  <h1>Probabilistic Programming</h1>
 
          <img src="developer/architecture.png" style="float:right;width:15em"/>
-	  <h2>Rapid, easy model development</h2>
+	  <h2>Rapid model development</h2>
 
-	  <p>BAli-Phy contains a simple language for expressing probabilistic models as programs.  Inference on parameters can then be performed automatically. Such languages are called <a href="https://en.wikipedia.org/wiki/Probabilistic_programming_language">probabilistic programming languages</a> (PPL). Other well-known PPLs include <a href="http://mc-stan.org">Stan</a>, <a href="https://docs.pymc.io/">PyMC3</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>.
-            The goal of the language is to allow researchers to spend their time designing models instead of designing new inference programs.  The inference should take care of itself after the model is specified.</p>
+	  <p>BAli-Phy contains a language for expressing probabilistic models as sampling programs.  The goal of the language is to allow researchers to spend their time designing models instead of designing new inference software.  The inference should take care of itself after the model is specified.  BAli-Phy uses MCMC for inference.</p>
+
+          <p>BAli-Phy 4 (unreleased) implements a universal probability programming language (PPL) <a href="https://www.nature.com/articles/s42003-021-01753-7">(Ronquist et al, 2021)</a> that allows inferring the number and relationship of random variables.  This differs from probabilitistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
 	  <h4>Language properties</h4>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
@@ -45,7 +46,7 @@ code {background: #f0f0f0}
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
-	    <li><b>Optimization</b> works, and speeds up the code written by the user via techniques such as inlining.</li>
+	    <li><b>Optimization</b> works, and speeds up the users code via techniques such as inlining.</li>
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
 	  </ol>
