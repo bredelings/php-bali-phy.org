@@ -32,10 +32,10 @@ code {background: #f0f0f0}
          <img src="developer/architecture.png" style="float:right;width:15em"/>
 	  <h2>Rapid model development</h2>
 
-	  BAli-Phy contains a language for expressing probabilistic models as sampling programs.  The goals of the language are:
+	  BAli-Phy contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
               <li><b>expressivity</b>: to be expressive enough that researchers can spend their time designing models instead of designing new inference software.</li>
-              <li><b>automatic inference</b>: the inference should take care of itself after the model is specified.</li>
+              <li><b>automatic inference</b>: the inference should largely take care of itself after the model is specified.</li>
             </ul>
           MCMC is used for inference.
 
