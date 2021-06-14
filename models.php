@@ -32,14 +32,14 @@ code {background: #f0f0f0}
          <img src="developer/architecture.png" style="float:right;width:15em"/>
 	  <h2>Rapid model development</h2>
 
-	  BAli-Phy contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
+	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
               <li><b>expressivity</b>: to be expressive enough that researchers can spend their time designing models instead of designing new inference software.</li>
               <li><b>automatic inference</b>: the inference should largely take care of itself after the model is specified.</li>
             </ul>
           MCMC is used for inference.
 
-          <p>BAli-Phy 4 (unreleased) implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
+          <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
 	  <h4>Language properties</h4>
