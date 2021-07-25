@@ -32,7 +32,7 @@
     <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp2"></a>2.3.1. Install a Unix command line: Cygwin (recommended)</h4></div></div></div>
     <p>
        Before you can use <span class="application">BAli-Phy</span> on Windows, you need to install a Unix command-line environment.  
-       We recommand installing <a class="ulink" href="http://www.cygwin.com/install.html" target="_top">Cygwin</a>: 
+       We recommend installing <a class="ulink" href="http://www.cygwin.com/install.html" target="_top">Cygwin</a>:
 </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">Run the Cygwin installer <a class="ulink" href="https://www.cygwin.com/setup-x86_64.exe" target="_top"><code class="filename">setup-x86_64.exe</code></a>. </li><li class="listitem">In the installer, add the following extra packages: <strong class="userinput"><code>R</code></strong>, <strong class="userinput"><code>gnuplot</code></strong>, <strong class="userinput"><code>perl</code></strong>, <strong class="userinput"><code>python3</code></strong>, <strong class="userinput"><code>wget</code></strong>, and <strong class="userinput"><code>nano</code></strong>.</li></ul></div><p>
        Its easiest to find extra packages if you set the View to "Full" and enter each package name in the Search box.  
        After you run the installer, you can access the Unix command line environment by running the Cygwin shell (not the normal windows command line).  
@@ -55,7 +55,7 @@ C:\cygwin64\home\<span class="emphasis"><em>username</em></span>\Applications\
 
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp8"></a>2.4. Install on Mac OS X</h3></div></div></div>
     <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp4"></a>2.4.1. Install BAli-Phy using homebrew (recommended) </h4></div></div></div>
-    <p>First install the <a class="ulink" href="https://developer.apple.com/xcode/" target="_top">XCode</a> (version 6 or higher) command line tools:
+    <p>First install the <a class="ulink" href="https://developer.apple.com/xcode/" target="_top">XCode</a> (version 11 or higher) command line tools:
     </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>xcode-select --install</code></strong></pre><p>
 
     Then install <a class="ulink" href="http://brew.sh/" target="_top">homebrew</a> and use homebrew to compile and install <span class="command"><strong>bali-phy</strong></span>:
@@ -821,7 +821,7 @@ The majority consensus tree is usually not fully resolved, so we recommend using
 	      <a class="ulink" href="https://doi.org/10.1016/B978-1-4832-3211-9.50009-7" target="_top">(Jukes and Cantor, 1969)</a>
 	      </td></tr><tr><td><strong class="userinput"><code>k80</code></strong></td><td>1</td><td><p>Unequal transition &amp; transversion rates, equal base frequencies.</p>
 	      <a class="ulink" href="https://doi.org/10.1007%2FBF01731581" target="_top">(Kimura, 1980)</a>
-	      </td></tr><tr><td><strong class="userinput"><code>f81</code></strong></td><td>3</td><td><p>Equal exchangabilities, unequal frequencies.</p>
+	      </td></tr><tr><td><strong class="userinput"><code>f81</code></strong></td><td>3</td><td><p>Equal exchangeabilities, unequal frequencies.</p>
 	      <a class="ulink" href="https://doi.org/10.1007%2FBF01734359" target="_top">
 		(Felsenstein, 1981)
 	      </a>
@@ -830,7 +830,7 @@ The majority consensus tree is usually not fully resolved, so we recommend using
 		(Hasegawa, Kishino, and Yano, 1985)
 	      </a>
 	      </td></tr><tr><td><strong class="userinput"><code>tn93</code></strong></td><td>5</td><td>
-		<p>Unequal rates for transitions (purines), transitions (pyrimadies) and transversions, unequal base frequencies.</p>
+		<p>Unequal rates for transitions (purines), transitions (pyrimidines) and transversions, unequal base frequencies.</p>
 		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040023" target="_top">
 		  (Tamura and Nei, 1993)
 		</a>
@@ -870,7 +870,7 @@ The majority consensus tree is usually not fully resolved, so we recommend using
       <div class="informaltable">
 	  
 	<table class="informaltable" border="1"><colgroup><col class="col1"><col class="col2"><col class="col3"></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code>jc69</code></strong></td><td>0</td><td><p>Equal rates and equal frequencies.</p>
-	      <a class="ulink" href="https://doi.org/10.1016/B978-1-4832-3211-9.50009-7" target="_top">(Jukes and Cantor, 1969)</a></td></tr><tr><td><strong class="userinput"><code>f81</code></strong></td><td>19</td><td><p>Equal exchangabilities, unequal frequencies.</p>
+	      <a class="ulink" href="https://doi.org/10.1016/B978-1-4832-3211-9.50009-7" target="_top">(Jukes and Cantor, 1969)</a></td></tr><tr><td><strong class="userinput"><code>f81</code></strong></td><td>19</td><td><p>Equal exchangeabilities, unequal frequencies.</p>
 	      <a class="ulink" href="https://doi.org/10.1007%2FBF01734359" target="_top">
 		(Felsenstein, 1981)
 	      </a>
@@ -878,22 +878,22 @@ The majority consensus tree is usually not fully resolved, so we recommend using
 		<p><strong class="userinput"><code>jtt+f</code></strong></p>
 	      </td><td>19</td><td>
 		<p>Empirical exchange rates, all proteins.</p>
-		<a class="ulink" href="https://doi.org/10.1007/BF02101694" target="_top">
-		  (Jones, Taylor, Thornton 1992)
+		<a class="ulink" href="https://doi.org/10.1093/bioinformatics/8.3.275" target="_top">
+		  (Jones, Taylor, and Thornton, 1992)
 		</a>
 	      </td></tr><tr><td>
 		<p><strong class="userinput"><code>wag+f</code></strong></p>
 	      </td><td>19</td><td>
 		<p>Empirical exchange rates, all proteins.</p>
 		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a003851" target="_top">
-		  Whelan and Goldman (2001)
+		  (Whelan and Goldman, 2001)
 		</a>
 	      </td></tr><tr><td>
 		<p><strong class="userinput"><code>lg08+f</code></strong></p>
 	      </td><td>19</td><td>
 		<p>Empirical exchange rates, all proteins.</p>
 		<a class="ulink" href="https://doi.org/10.1093/molbev/msn067" target="_top">
-		  <p>Le and Gascuel (2008)</p>
+		  (Le and Gascuel, 2008)
 		</a>
 	      </td></tr><tr><td>
 		<p><strong class="userinput"><code>empirical[<em class="replaceable"><code>file</code></em>]+f</code></strong></p>
@@ -954,8 +954,8 @@ The majority consensus tree is usually not fully resolved, so we recommend using
 	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>RNA.m16a</code></em></code></strong></td><td>19</td><td>
 		<p>This model has separate frequencies for each dinucleotide, and distinguishes between transitions and transversion between match states (including GU/UG).</p>
 		<p>Simultaneous changes of both letters <span class="emphasis"><em>are</em></span> allowed, but only between match states.</p>
-	      <a class="ulink" href="https://www.ncbi.nlm.nih.gov/pubmed/11139520" target="_top">
-		(Savill, N. et al 2001)
+	      <a class="ulink" href="https://doi.org/10.1093/genetics/157.1.399" target="_top">
+		(Savill et al., 2001)
 	      </a>
 	      </td></tr><tr><td><strong class="userinput"><code>gtr</code></strong></td><td>134</td><td><p>Unequal exchangeabilities, unequal frequencies.</p>
 	      <p>It is unlikely that you would want to use this model, since it has so many parameters.</p>
@@ -998,10 +998,10 @@ hky85_sym+x2_sym+f[pi=List[Tuple["AA",0.01],Tuple["AC",0.01],Tuple["AG",0.01],Tu
 	
       <div class="informaltable">
 
-	<table class="informaltable" border="1"><colgroup><col class="col1"><col class="col2"><col class="col3"></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3_sym+f</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+63</td><td><p>GY94-style rate matrix constructed from nucleotide exchangability matrix.</p>
+	<table class="informaltable" border="1"><colgroup><col class="col1"><col class="col2"><col class="col3"></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3_sym+f</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+63</td><td><p>GY94-style rate matrix constructed from nucleotide exchangeability matrix.</p>
 	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)</td><td><p>MG94-style rate matrix constructed from nucleotide rate matrix.</p>
 	             <p>This model should give the same likelihood as <em class="replaceable"><code>nuc_model</code></em> on triplets, but not on codons.</p>
-	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3+mut_sel</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+63</td><td><p>Mutation-selelection model with neutral mutation following <em class="replaceable"><code>nuc_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each codon</em></span>.</p>
+	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3+mut_sel</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+63</td><td><p>Mutation-selection model with neutral mutation following <em class="replaceable"><code>nuc_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each codon</em></span>.</p>
 		</td></tr></tbody></table>
       </div>
       </div>
@@ -1042,49 +1042,49 @@ hky85_sym+x2_sym+f[pi=List[Tuple["AA",0.01],Tuple["AC",0.01],Tuple["AG",0.01],Tu
 	  
 	  <table class="informaltable" border="1"><colgroup><col class="col1"><col class="col2"><col class="col3"></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code>gy94</code></strong></td><td>62</td><td><p>Model of dN/dS with a separate frequency for each codon.</p>
 		<p>Rate for changing a nucleotide depends on neighboring nucleotides.</p>
-		<a class="ulink" href="http://www.genetics.org/content/148/3/929.short" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040153" target="_top">
 		  (Goldman and Yang, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>gy94[pi=f1x4]</code></strong></td><td>5</td><td><p>The GY94 model with codon frequencies constructed from nucleotide frequencies.</p>
-		<a class="ulink" href="http://www.genetics.org/content/148/3/929.short" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040153" target="_top">
 		  (Goldman and Yang, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>gy94[pi=f3x4]</code></strong></td><td>11</td><td><p>The GY94 model with codon frequencies constructed from nucleotide frequencies for each codon position.</p>
-		<a class="ulink" href="http://www.genetics.org/content/148/3/929.short" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040153" target="_top">
 		  (Goldman and Yang, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>gy94_ext[<em class="replaceable"><code>nuc_model</code></em>]</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+61</td><td><p>GY94 model extended with a generic nucleotide exchangeability matrix.</p>
-		<a class="ulink" href="http://www.genetics.org/content/148/3/929.short" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040153" target="_top">
 		  (Goldman and Yang, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>mg94</code></strong></td><td>4</td><td>
 		  <p>Model of dN/dS with f81 as the neutral model.</p>
 		  <p>Rate for changing a nucleotide depends only on that nucleotide.</p>
-		  <a class="ulink" href="https://academic.oup.com/mbe/article/11/5/715/1008710" target="_top">
+		  <a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040152" target="_top">
 		    (Muse and Gaut, 1994)
 		  </a>
 		</td></tr><tr><td><strong class="userinput"><code>mg94k</code></strong></td><td>5</td><td><p>Model of dN/dS with hky85 as the neutral model.</p>
-		<a class="ulink" href="https://academic.oup.com/mbe/article/11/5/715/1008710" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040152" target="_top">
 		  (Muse and Gaut, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>mg94_ext[<em class="replaceable"><code>nuc_model</code></em>]</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+1</td><td><p>Model of dN/dS with <em class="replaceable"><code>nuc_model</code></em> as the neutral model.</p>
-		<a class="ulink" href="https://academic.oup.com/mbe/article/11/5/715/1008710" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a040152" target="_top">
 		  (Muse and Gaut, 1994)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>fMutSel</code></strong></td><td>65</td><td><p>MG94-like model with fitnesses for each codon.</p>
-		<a class="ulink" href="https://academic.oup.com/mbe/article/11/5/715/1008710" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/molbev/msm284" target="_top">
 		  (Yang and Nielsen, 2008)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>fMutSel0</code></strong></td><td>24</td><td><p>MG94-like model with fitnesses for each amino-acid.</p>
-		<a class="ulink" href="https://academic.oup.com/mbe/article/11/5/715/1008710" target="_top">
+		<a class="ulink" href="https://doi.org/10.1093/molbev/msm284" target="_top">
 		  (Yang and Nielsen, 2008)
 		</a>
-		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3_sym+f</code></strong></td><td>df(nuc_model)+60</td><td><p>GY94-style rate matrix constructed from nucleotide exchangability matrix (dN/dS = 1).</p>
+		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3_sym+f</code></strong></td><td>df(nuc_model)+60</td><td><p>GY94-style rate matrix constructed from nucleotide exchangeability matrix (dN/dS = 1).</p>
 	               <p>This model should give the same likelihood as <em class="replaceable"><code>nuc_model</code></em> on codons only if the frequency of stop codons is zero.</p>
 		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3</code></strong></td><td>df(nuc_model)</td><td><p>MG94-style rate matrix constructed from nucleotide rate matrix (dN/dS = 1).</p>
 		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>codon_model</code></em>+dNdS[omega]</code></strong></td><td>df(<em class="replaceable"><code>codon_model</code></em>)+1</td><td><p>Scales non-synonymous rates by <em class="replaceable"><code>omega</code></em>.</p>
-		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>codon_model</code></em>+mut_sel</code></strong></td><td>df(<em class="replaceable"><code>codon_model</code></em>)+60</td><td><p>Mutation-selelection model with neutral mutation following <em class="replaceable"><code>codon_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each codon</em></span>.</p>
-		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3+mut_sel_aa</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+19</td><td><p>Mutation-selelection model with neutral mutation following <em class="replaceable"><code>nuc_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each amino acid</em></span>.</p>
+		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>codon_model</code></em>+mut_sel</code></strong></td><td>df(<em class="replaceable"><code>codon_model</code></em>)+60</td><td><p>Mutation-selection model with neutral mutation following <em class="replaceable"><code>codon_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each codon</em></span>.</p>
+		</td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>nuc_model</code></em>+x3+mut_sel_aa</code></strong></td><td>df(<em class="replaceable"><code>nuc_model</code></em>)+19</td><td><p>Mutation-selection model with neutral mutation following <em class="replaceable"><code>nuc_model</code></em> and scaled selection coefficients 2Ns <span class="emphasis"><em>for each amino acid</em></span>.</p>
 		</td></tr></tbody></table>
 	</div>
 
@@ -1134,47 +1134,47 @@ mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
 		</td><td>df(<em class="replaceable"><code>submodel</code></em>)+2</td><td>
 		  <p>A mixture of conserved and neutral sites.</p>
 		  <a class="ulink" href="https://doi.org/10.1534/genetics.104.031153" target="_top">
-		    (Wong, et. al. 2004)
+		    (Wong et al., 2004)
 		  </a>
 		</td></tr><tr><td>
 		  <p><strong class="userinput"><code>m2a</code></strong></p>
 		</td><td>df(<em class="replaceable"><code>submodel</code></em>)+4</td><td>
 		  <p>A mixture of conserved, neutral, and positively-selected sites.</p>
 		  <a class="ulink" href="https://doi.org/10.1534/genetics.104.031153" target="_top">
-		    (Wong, et. al. 2004)
+		    (Wong et al., 2004)
 		  </a>
 		</td></tr><tr><td><strong class="userinput"><code>m2a_test</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+4</td><td>
 		  <p>A Bayesian test for positive selection that compares M2a with M1a.</p>
 		  <a class="ulink" href="https://doi.org/10.1534/genetics.104.031153" target="_top">
-		    (Wong, et. al. 2004)
+		    (Wong et al., 2004)
 		  </a>
 		</td></tr><tr><td><strong class="userinput"><code>m3</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+2*<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math>-1</td><td><p>An free mixture of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> categories of conserved dN/dS values.</p>
-		<a class="ulink" href="http://www.genetics.org/content/155/1/431.full" target="_top">
-		  (Yang et. al. 2000)
+		<a class="ulink" href="https://doi.org/10.1093/genetics/155.1.431" target="_top">
+		  (Yang et al., 2000)
 		</a>
 		</td></tr><tr><td>
 		  <p><strong class="userinput"><code>m3_test</code></strong></p>
 		</td><td>df(<em class="replaceable"><code>submodel</code></em>)+2*<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math>+1</td><td>
 		  <p>A Bayesian test for positive selection based on the M3 model extended with an extra category of either neutral of positively-selected sites.</p>
 		</td></tr><tr><td><p><strong class="userinput"><code>m7</code></strong></p></td><td>df(<em class="replaceable"><code>submodel</code></em>)+2</td><td><p>The M7 model places a beta distribution on dN/dS.</p>
-		<a class="ulink" href="http://www.genetics.org/content/155/1/431.full" target="_top">
-		  (Yang et. al. 2000)
+		<a class="ulink" href="https://doi.org/10.1093/genetics/155.1.431" target="_top">
+		  (Yang et al., 2000)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>m8a</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+3</td><td><p>The M8a model adds a category of <span class="emphasis"><em>neutral</em></span> sites to the M7 model.</p>
 		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a004233" target="_top">
-		  (Swanson et. al. 2003)
+		  (Swanson et al., 2003)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>m8</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+4</td><td><p>The M8 model adds a category of <span class="emphasis"><em>positively-selected</em></span> sites to the M7 model.</p>
-		<a class="ulink" href="http://www.genetics.org/content/155/1/431.full" target="_top">
-		  (Yang et. al. 2000)
+		<a class="ulink" href="https://doi.org/10.1093/genetics/155.1.431" target="_top">
+		  (Yang et al., 2000)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>m8a_test</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+4</td><td><p>A Bayesian test for positive selection that compares the M8 to the M8a model.</p>
 		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a004233" target="_top">
-		  (Swanson et. al. 2003)
+		  (Swanson et al., 2003)
 		</a>
 		</td></tr><tr><td><strong class="userinput"><code>branch_site</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+4</td><td><p>A Bayesian test for positive selection that on some (unknown) sites and some (known) branches.</p>
-		<a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a004233" target="_top">
-		  (Zhang et. al 2005)
+		<a class="ulink" href="https://doi.org/10.1093/molbev/msi237" target="_top">
+		  (Zhang et al., 2005)
 		</a>
 		</td></tr></tbody></table>
 	</div>
@@ -1185,7 +1185,7 @@ mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
     </p><pre class="screen"><code class="prompt">%</code> bali-phy <em class="replaceable"><code>alignment</code></em>.fasta -S branch_site -T <em class="replaceable"><code>tree</code></em>.tree --disable=topology</pre><p>
     The tree file should be in Newick format, with foreground branches labelled using &amp; attributes. The attribute must be applied to the branch, not the node, so it must occur after a colon.
 
-</p><div class="example"><a name="idp1732"></a><p class="title"><b>Example 1. An tree with a foreground branch</b></p><div class="example-contents">
+</p><div class="example"><a name="idp1731"></a><p class="title"><b>Example 1. An tree with a foreground branch</b></p><div class="example-contents">
 (((A1, B1),(C1, D1)),((E1:[&amp;foreground=1], F1:[&amp;foreground=1]),(G1, H1)),(((A2, B2),(C2, D2)),((E2, F2),(G2, H2))));
 </div></div><p><br class="example-break">
       </p>
@@ -1207,16 +1207,16 @@ mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
 
       <table class="informaltable" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Rates.gamma</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+1</td><td><p>Site rates follow a discrete approximation to the Gamma distribution</p>
 		  <a class="ulink" href="https://doi.org/10.1007/BF00160154" target="_top">
-		    (Yang 1994)
+		    (Yang, 1994)
 		  </a>
 	      </td></tr><tr><td>
 		<p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Rates.log_normal</code></strong></p>
 	      </td><td>df(<em class="replaceable"><code>submodel</code></em>)+1</td><td><p>Site rates follow a discrete approximation to the logNormal distribution</p>
 	      </td></tr><tr><td><p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Rates.free</code></strong></p></td><td>df(<em class="replaceable"><code>submodel</code></em>)+2(<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math>-1)</td><td><p>Sites fall in one of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> categories. Each category has its own rate.</p>
-		  <a class="ulink" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206396" target="_top">
-		    (Yang 1995)
+		  <a class="ulink" href="https://doi.org/10.1093/genetics/139.2.993" target="_top">
+		    (Yang, 1995)
 		  </a>
-	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + multi_rate[<em class="replaceable"><code>dist</code></em>]</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+df(<em class="replaceable"><code>dist</code></em>)</td><td><p>Sites rates follow a discrete approximation to the distribution <em class="replaceable"><code>dist</code></em>.</p></td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + inv</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+1</td><td><p>Some fraction inv:p_inv of sites are invariable.</p>
+	      </td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + multi_rate[<em class="replaceable"><code>dist</code></em>]</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+df(<em class="replaceable"><code>dist</code></em>)</td><td><p>Site rates follow a discrete approximation to the distribution <em class="replaceable"><code>dist</code></em>.</p></td></tr><tr><td><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + inv</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+1</td><td><p>Some fraction inv:p_inv of sites are invariable.</p>
 	      </td></tr></tbody></table>
       </div>
 
@@ -1238,7 +1238,7 @@ mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
       <table class="informaltable" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Model</th><th>  d.f.  </th><th>Summary</th></tr></thead><tbody><tr><td><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Covarion.ts98</code></strong></td><td>df(<em class="replaceable"><code>submodel</code></em>)+2</td><td>
                 <p>Each state in rate matrix Q is split into an ON and OFF variant.  Models burstiness.</p>
 		  <a class="ulink" href="https://doi.org/10.1016/S0025-5564(97)00081-3" target="_top">
-		    (Tuffley and Steel 1998)
+		    (Tuffley and Steel, 1998)
 		  </a>
 	      </td></tr><tr><td>
                 <p><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Rates.gamma + Covarion.hb02</code></strong></p>
@@ -1249,29 +1249,29 @@ mg94[pi=List[Tuple["A",0.1],Tuple["C",0.2],Tuple["T",0.3],Tuple["G",0.4]]]
               </td><td>
                 <p>Combines Gamma (or other) rate heterogeneity with the Tuffley-Steel model.</p>
 		  <a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a004128" target="_top">
-		    (Huelsenbeck 2002)
+		    (Huelsenbeck, 2002)
 		  </a>
 	      </td></tr><tr><td>
-                <p><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Rates.gamma + Covarion.hb02</code></strong></p>
-                <p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Covarion.hb02</code></strong></p>
+                <p><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Rates.gamma + Covarion.gt01</code></strong></p>
+                <p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Covarion.gt01</code></strong></p>
               </td><td>
                 <p>df(<em class="replaceable"><code>Q+Rates.gamma</code></em>)+2</p>
                 <p>df(<em class="replaceable"><code>submodel</code></em>)+2</p>
               </td><td>
                 <p>Allows switching between Gamma (or other) rate classes over time.  Models changes in conservation.</p>
 		  <a class="ulink" href="https://doi.org/10.1093/oxfordjournals.molbev.a003868" target="_top">
-		    (Galtier 2001)
+		    (Galtier, 2001)
 		  </a>
 	      </td></tr><tr><td>
-                <p><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Rates.gamma + Covarion.hb02</code></strong></p>
-                <p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Covarion.hb02</code></strong></p>
+                <p><strong class="userinput"><code><em class="replaceable"><code>Q</code></em> + Rates.gamma + Covarion.wssr07</code></strong></p>
+                <p><strong class="userinput"><code><em class="replaceable"><code>submodel</code></em> + Covarion.wssr07</code></strong></p>
               </td><td>
                 <p>df(<em class="replaceable"><code>Q+Rates.gamma</code></em>)+4</p>
                 <p>df(<em class="replaceable"><code>submodel</code></em>)+4</p>
               </td><td>
                 <p>Allows switching between ON/OFF states and <span class="emphasis"><em>also</em></span> between Gamma (or other) rate classes over time.  Models both burstiness and changes in conservation.</p>
 		  <a class="ulink" href="https://doi.org/10.1093/molbev/msl155" target="_top">
-		    (Wang et al 2007)
+		    (Wang et al., 2007)
 		  </a>
 	      </td></tr></tbody></table>
       </div>
@@ -1717,7 +1717,7 @@ acceptable if it is &lt; 0.01.
 	<p>To generate the split-frequency comparison plot, you must have R installed.  Locate the script <code class="filename">compare-runs.R</code>.  Then run:
 </p><pre class="screen"><code class="prompt">%</code> trees-bootstrap <em class="replaceable"><code>dir-1</code></em>/C1.trees <em class="replaceable"><code>dir-2</code></em>/C1.trees ... <em class="replaceable"><code>dir-n</code></em>/C1.trees --LOD-table=LOD-table &gt; partitions.bs 
 <code class="prompt">%</code> R --slave --vanilla --args LOD-table compare-SF.pdf &lt; compare-runs.R</pre><p>
-	  Following <a class="ulink" href="http://dx.doi.org/10.1080/10635150600812544" target="_top">Beiko et al (2006)</a>, this displays the variation in
+	  Following <a class="ulink" href="https://doi.org/10.1080/10635150600812544" target="_top">Beiko et al. (2006)</a>, this displays the variation in
 	  estimates of split frequencies across runs.  Splits are
 	  arranged on the x-axis in increasing order of 
 	  Posterior Probability (PP), which is obtained by averaging over
@@ -1784,7 +1784,7 @@ adequately mix between modes.</p>
 
       <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp76"></a>11.5.2. ESS for split frequencies</h4></div></div></div>
 	
-      <p>As desribed in <a class="ulink" href="https://doi.org/10.3852/10-120" target="_top">Gaya et al (2011)</a>, we can also compute ESS values for splits on the tree:
+      <p>As desribed in <a class="ulink" href="https://doi.org/10.3852/10-120" target="_top">Gaya et al. (2011)</a>, we can also compute ESS values for splits on the tree:
 </p><pre class="screen"><code class="prompt">%</code> trees-bootstrap <em class="replaceable"><code>dir-1</code></em>/C1.trees <em class="replaceable"><code>dir-2</code></em>/C1.trees ... <em class="replaceable"><code>dir-n</code></em>/C1.trees &gt; partitions.bs</pre><p>
       To compute the ESS for a split, we consider the presence or absence
       of a split in each iteration as a series of binary values.  We
@@ -1818,8 +1818,8 @@ values in the sequence.</p>
 	<p>In addition to examining convergence diagnostics for continuous
 	parameters, it is important to examine convergence diagnostics
 	for the topology as well
-	(<a class="ulink" href="http://dx.doi.org/10.1080/10635150600812544" target="_top">Beiko
-	et al 2006</a>).  In theory, we recommend the web tool <a class="ulink" href="http://ceb.csit.fsu.edu/awty/" target="_top">Are We There Yet (AWTY)</a> (Wilgenbush et al, 2004).  However, AWTY gives incorrect results if you upload plain NEWICK tree samples -- which is what BAli-Phy outputs.  Therefore, if you wish to use AWTY, you must convert the tree samples files to NEXUS before you upload them to AWTY in order to get correct results.</p>
+	(<a class="ulink" href="https://doi.org/10.1080/10635150600812544" target="_top">Beiko
+	et al., 2006</a>).  In theory, we recommend the web tool <a class="ulink" href="http://ceb.csit.fsu.edu/awty/" target="_top">Are We There Yet (AWTY)</a> (Wilgenbush et al., 2004).  However, AWTY gives incorrect results if you upload plain NEWICK tree samples -- which is what BAli-Phy outputs.  Therefore, if you wish to use AWTY, you must convert the tree samples files to NEXUS before you upload them to AWTY in order to get correct results.</p>
 
 <p>It is also be possible to assess stabilization of tree topologies using tools distributed with <span class="application">bali-phy</span> by using commands like the following.  Here, sub-sampling and burnin does not apply to the equilibrium tree files. Also, note that you need to manually construct the equilibrium samples, which we recommend to contain at least 500 trees; you might do this by sub-sampling using the <span class="application">BAli-Phy</span> tool <span class="command"><strong>sub-sample</strong></span>.</p>
 
@@ -2006,7 +2006,7 @@ Otherwise you can install meson through pip3:
     </div>
 
     <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="idp92"></a>14.1.2. Mac</h4></div></div></div>
-    <p>On Mac OS X, the simplest way to get a compiler is to install <a class="ulink" href="https://developer.apple.com/xcode/" target="_top">XCode</a> (version 6 or newer) command line tools, which come with <a class="ulink" href="http://clang.llvm.org" target="_top">clang</a>.
+    <p>On Mac OS X, the simplest way to get a compiler is to install <a class="ulink" href="https://developer.apple.com/xcode/" target="_top">XCode</a> (version 11 or newer) command line tools, which come with <a class="ulink" href="http://clang.llvm.org" target="_top">clang</a>.
  </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>xcode-select --install</code></strong></pre><p>    To get the other tools, first install <a class="ulink" href="http://brew.sh/" target="_top">homebrew</a>, and then type:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>brew install git meson cairo pandoc</code></strong></pre><p>
     </p>
@@ -2070,8 +2070,8 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
   <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="FAQ"></a>15. Frequently Asked Questions (FAQ)</h2></div></div></div>
     
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp96"></a>15.1. Input files</h3></div></div></div>
-      <div class="qandaset"><a name="idp2678"></a><dl><dt>15.1.1. <a href="#idp2679">Does BAli-Phy accept the wildcard characters "N" or "X"?  How does it treat them?</a></dt><dt>15.1.2. <a href="#idp2685">Does BAli-Phy accept "?" characters?</a></dt><dt>15.1.3. <a href="#idp2693">Does BAli-Phy accept the characters "R" and "Y", etc.?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2679"></a><a name="idp2680"></a><p><b>15.1.1.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept the wildcard characters "N" or "X"?  How does it treat them?</p></td></tr>
+      <div class="qandaset"><a name="idp2677"></a><dl><dt>15.1.1. <a href="#idp2678">Does BAli-Phy accept the wildcard characters "N" or "X"?  How does it treat them?</a></dt><dt>15.1.2. <a href="#idp2684">Does BAli-Phy accept "?" characters?</a></dt><dt>15.1.3. <a href="#idp2692">Does BAli-Phy accept the characters "R" and "Y", etc.?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2678"></a><a name="idp2679"></a><p><b>15.1.1.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept the wildcard characters "N" or "X"?  How does it treat them?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes, BAli-Phy accepts the wildcard characters "N"
 	    (for DNA) and "X" (for proteins).  These characters
 	    indicate that some letter is present (as opposed to a
@@ -2079,7 +2079,7 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
 	    letter it is.  
 	    </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2685"></a><a name="idp2686"></a><p><b>15.1.2.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept "?" characters?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2684"></a><a name="idp2685"></a><p><b>15.1.2.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept "?" characters?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 	      No.  "?" characters are often used to indicate
 	      <span class="emphasis"><em>either</em></span> letter presence (e.g. "N",
@@ -2093,7 +2093,7 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
 	    alternatives are quite different.)
 	    </p></td></tr>
 	
-	<tr class="question"><td align="left" valign="top"><a name="idp2693"></a><a name="idp2694"></a><p><b>15.1.3.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept the characters "R" and "Y", etc.?</p></td></tr>
+	<tr class="question"><td align="left" valign="top"><a name="idp2692"></a><a name="idp2693"></a><p><b>15.1.3.</b></p></td><td align="left" valign="top"><p>Does BAli-Phy accept the characters "R" and "Y", etc.?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 	      Yes.  BAli-Phy accepts the characters Y, R, W, S, K, M,
 	      B, D, H, and V for DNA, RNA, and Codon alphabets.
@@ -2119,17 +2119,17 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
 
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp97"></a>15.2. Running <span class="command"><strong>bali-phy</strong></span>.</h3></div></div></div>
 
-      <div class="qandaset"><a name="idp2705"></a><dl><dt>15.2.1. <a href="#idp2706">Can I fix the alignment and ignore indel information, like MrBayes, BEAST, PhyloBayes and other MCMC programs?</a></dt><dt>15.2.2. <a href="#idp2713">Can I fix the tree topology, while allowing the alignment to vary?</a></dt><dt>15.2.3. <a href="#idp2720">Can I fix the tree topology and relative branch lengths, while allowing the alignment to vary?</a></dt><dt>15.2.4. <a href="#idp2728">Can I fix the tree topology and absolute branch lengths in all data partitions, while allowing the alignment to vary?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2706"></a><a name="idp2707"></a><p><b>15.2.1.</b></p></td><td align="left" valign="top"><p>Can I fix the alignment and ignore indel information, like MrBayes, BEAST, PhyloBayes and other MCMC programs?</p></td></tr>
+      <div class="qandaset"><a name="idp2704"></a><dl><dt>15.2.1. <a href="#idp2705">Can I fix the alignment and ignore indel information, like MrBayes, BEAST, PhyloBayes and other MCMC programs?</a></dt><dt>15.2.2. <a href="#idp2712">Can I fix the tree topology, while allowing the alignment to vary?</a></dt><dt>15.2.3. <a href="#idp2719">Can I fix the tree topology and relative branch lengths, while allowing the alignment to vary?</a></dt><dt>15.2.4. <a href="#idp2727">Can I fix the tree topology and absolute branch lengths in all data partitions, while allowing the alignment to vary?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2705"></a><a name="idp2706"></a><p><b>15.2.1.</b></p></td><td align="left" valign="top"><p>Can I fix the alignment and ignore indel information, like MrBayes, BEAST, PhyloBayes and other MCMC programs?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  Add <strong class="userinput"><code>-Inone</code></strong> or <strong class="userinput"><code>-I none</code></strong> on the command line.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2713"></a><a name="idp2714"></a><p><b>15.2.2.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology, while allowing the alignment to vary?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2712"></a><a name="idp2713"></a><p><b>15.2.2.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology, while allowing the alignment to vary?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  Add <strong class="userinput"><code>--disable=topology --tree=<em class="replaceable"><code>treefile</code></em></code></strong> on the command line.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2720"></a><a name="idp2721"></a><p><b>15.2.3.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology and <span class="emphasis"><em>relative</em></span> branch lengths, while allowing the alignment to vary?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2719"></a><a name="idp2720"></a><p><b>15.2.3.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology and <span class="emphasis"><em>relative</em></span> branch lengths, while allowing the alignment to vary?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  Add <strong class="userinput"><code>--disable=tree --tree=<em class="replaceable"><code>treefile</code></em></code></strong> on the command line.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2728"></a><a name="idp2729"></a><p><b>15.2.4.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology and <span class="emphasis"><em>absolute</em></span> branch lengths <span class="emphasis"><em>in all data partitions</em></span>, while allowing the alignment to vary?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2727"></a><a name="idp2728"></a><p><b>15.2.4.</b></p></td><td align="left" valign="top"><p>Can I fix the tree topology and <span class="emphasis"><em>absolute</em></span> branch lengths <span class="emphasis"><em>in all data partitions</em></span>, while allowing the alignment to vary?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  Add <strong class="userinput"><code>--disable=tree --tree=<em class="replaceable"><code>treefile</code></em> --scale=1</code></strong> on the command line.</p></td></tr>
 	</tbody></table></div>
 
@@ -2138,8 +2138,8 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp98"></a>15.3. Run-time error messages</h3></div></div></div>
       
       
-      <div class="qandaset"><a name="idp2740"></a><dl><dt>15.3.1. <a href="#idp2741">I tried to use -S lg08+Rates.gamma[6] and I got an error message "bali-phy: No match."  What gives?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2741"></a><a name="idp2742"></a><p><b>15.3.1.</b></p></td><td align="left" valign="top"><p>I tried to use <strong class="userinput"><code>-S lg08+Rates.gamma[6]</code></strong> and I got an error message "bali-phy: No match."  What gives?</p></td></tr>
+      <div class="qandaset"><a name="idp2739"></a><dl><dt>15.3.1. <a href="#idp2740">I tried to use -S lg08+Rates.gamma[6] and I got an error message "bali-phy: No match."  What gives?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2740"></a><a name="idp2741"></a><p><b>15.3.1.</b></p></td><td align="left" valign="top"><p>I tried to use <strong class="userinput"><code>-S lg08+Rates.gamma[6]</code></strong> and I got an error message "bali-phy: No match."  What gives?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>You are probably using the C-shell as your command line shell.  It is trying to interpret <strong class="userinput"><code>lg08+Rates.gamma[6]</code></strong> as an array before running the command, and it is not succeeding.  Therefore, it doesn't even run <span class="command"><strong>bali-phy</strong></span>.</p><p>To avoid this, put quotes around the substitution model, like this: <strong class="userinput"><code>-S "lg08+Rates.gamma[6]"</code></strong>.  This will keep the C-shell from interfering with your command.
 	    </p></td></tr>
 	</tbody></table></div>
@@ -2148,16 +2148,16 @@ The command <span class="command"><strong>bali-phy</strong></span> and its assoc
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp99"></a>15.4. Stopping <span class="command"><strong>bali-phy</strong></span>.</h3></div></div></div>
       
 
-      <div class="qandaset"><a name="idp2756"></a><dl><dt>15.4.1. <a href="#idp2757">Why is bali-phy still
-	      running? How long will it take?</a></dt><dt>15.4.2. <a href="#idp2764">How do I stop a bali-phy
-	  run on my personal computer?</a></dt><dt>15.4.3. <a href="#idp2782">How do I stop a bali-phy
-	  run on a computing cluster?</a></dt><dt>15.4.4. <a href="#idp2791">So, how can I know when to stop it?</a></dt><dt>15.4.5. <a href="#idp2796">How can I tell when the chain has converged?</a></dt><dt>15.4.6. <a href="#idp2802">How can I check how many iterations the chain
+      <div class="qandaset"><a name="idp2755"></a><dl><dt>15.4.1. <a href="#idp2756">Why is bali-phy still
+	      running? How long will it take?</a></dt><dt>15.4.2. <a href="#idp2763">How do I stop a bali-phy
+	  run on my personal computer?</a></dt><dt>15.4.3. <a href="#idp2781">How do I stop a bali-phy
+	  run on a computing cluster?</a></dt><dt>15.4.4. <a href="#idp2790">So, how can I know when to stop it?</a></dt><dt>15.4.5. <a href="#idp2795">How can I tell when the chain has converged?</a></dt><dt>15.4.6. <a href="#idp2801">How can I check how many iterations the chain
 	      has finished?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2757"></a><a name="idp2758"></a><p><b>15.4.1.</b></p></td><td align="left" valign="top"><p>Why is <span class="command"><strong>bali-phy</strong></span> still
+	  <tr class="question"><td align="left" valign="top"><a name="idp2756"></a><a name="idp2757"></a><p><b>15.4.1.</b></p></td><td align="left" valign="top"><p>Why is <span class="command"><strong>bali-phy</strong></span> still
 	      running? How long will it take?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>It runs until you stop it.  Stop it when its done.</p><p>The longer answer is that is is hard to predict how long MCMC will take to converge, since it depends on each data set in complex ways.  Automatic rules for determining when to stop an MCMC chain can be difficult to get right.  BAli-Phy does not contain an automatic stopping rule yet, so it relies on the user to run convergence diagnostics and determine when to stop the run.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2764"></a><a name="idp2765"></a><p><b>15.4.2.</b></p></td><td align="left" valign="top"><p>How do I stop a <span class="command"><strong>bali-phy</strong></span>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2763"></a><a name="idp2764"></a><p><b>15.4.2.</b></p></td><td align="left" valign="top"><p>How do I stop a <span class="command"><strong>bali-phy</strong></span>
 	  run on my personal computer?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Simply kill the process -- there is no special
 	    command to stop <span class="command"><strong>bali-phy</strong></span>. If you are
@@ -2189,7 +2189,7 @@ However, be aware that this will terminate <span class="emphasis"><em>all</em></
 your <span class="command"><strong>bali-phy</strong></span> runs on that computer.
 	    </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2782"></a><a name="idp2783"></a><p><b>15.4.3.</b></p></td><td align="left" valign="top"><p>How do I stop a <span class="command"><strong>bali-phy</strong></span>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2781"></a><a name="idp2782"></a><p><b>15.4.3.</b></p></td><td align="left" valign="top"><p>How do I stop a <span class="command"><strong>bali-phy</strong></span>
 	  run on a computing cluster?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Simply terminate the submitted job.  The specific command
 	    to terminate a job will depend on the queue manager that
@@ -2205,14 +2205,14 @@ your <span class="command"><strong>bali-phy</strong></span> runs on that compute
 	    commands. 
 	    </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2791"></a><a name="idp2792"></a><p><b>15.4.4.</b></p></td><td align="left" valign="top"><p>So, how can I know when to stop it?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2790"></a><a name="idp2791"></a><p><b>15.4.4.</b></p></td><td align="left" valign="top"><p>So, how can I know when to stop it?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>You can stop when it has both converged and also run for long enough to give
 	      you &gt;1000 effectively independent samples.  </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2796"></a><a name="idp2797"></a><p><b>15.4.5.</b></p></td><td align="left" valign="top"><p>How can I tell when the chain has converged?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2795"></a><a name="idp2796"></a><p><b>15.4.5.</b></p></td><td align="left" valign="top"><p>How can I tell when the chain has converged?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>See section <a class="xref" href="#mixing_and_convergence" title="11. Convergence and Mixing: Is it done yet?">Section 11, &#8220;Convergence and Mixing: Is it done yet?&#8221;</a>.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2802"></a><a name="idp2803"></a><p><b>15.4.6.</b></p></td><td align="left" valign="top"><p>How can I check how many iterations the chain
+	  <tr class="question"><td align="left" valign="top"><a name="idp2801"></a><a name="idp2802"></a><p><b>15.4.6.</b></p></td><td align="left" valign="top"><p>How can I check how many iterations the chain
 	      has finished?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Run <span class="command"><strong>wc -l C1.log</strong></span> inside the output
 	      directory, and subtract 2.
@@ -2222,17 +2222,17 @@ your <span class="command"><strong>bali-phy</strong></span> runs on that compute
 
 
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp100"></a>15.5. Running <span class="command"><strong>bp-analyze</strong></span>.</h3></div></div></div>
-      <div class="qandaset"><a name="idp2813"></a><dl><dt>15.5.1. <a href="#idp2814">Why does bp-analyze say "Program 'draw-tree' not found.  Tree pictures will not be generated"?</a></dt><dt>15.5.2. <a href="#idp2822">Why does bp-analyze say "Program 'gnuplot' not found.  Trace plots will not be generated"?</a></dt><dt>15.5.3. <a href="#idp2829">Why does bp-analyze say "Program 'R' not found.  Some mixing graphs will not be generated"?</a></dt><dt>15.5.4. <a href="#idp2836">Why is bp-analyze stopping early, or failing to generate some files?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2814"></a><a name="idp2815"></a><p><b>15.5.1.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'draw-tree' not found.  Tree pictures will not be generated"?</p></td></tr>
+      <div class="qandaset"><a name="idp2812"></a><dl><dt>15.5.1. <a href="#idp2813">Why does bp-analyze say "Program 'draw-tree' not found.  Tree pictures will not be generated"?</a></dt><dt>15.5.2. <a href="#idp2821">Why does bp-analyze say "Program 'gnuplot' not found.  Trace plots will not be generated"?</a></dt><dt>15.5.3. <a href="#idp2828">Why does bp-analyze say "Program 'R' not found.  Some mixing graphs will not be generated"?</a></dt><dt>15.5.4. <a href="#idp2835">Why is bp-analyze stopping early, or failing to generate some files?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2813"></a><a name="idp2814"></a><p><b>15.5.1.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'draw-tree' not found.  Tree pictures will not be generated"?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>The program <span class="command"><strong>draw-tree</strong></span> was not distributed on this platform (Windows, Mac).  This is not a fatal error message, it just means that a pretty picture of the tree will not be generated automatically.  You can still view the tree with <span class="application">FigTree</span>, for example.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2822"></a><a name="idp2823"></a><p><b>15.5.2.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'gnuplot' not found.  Trace plots will not be generated"?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2821"></a><a name="idp2822"></a><p><b>15.5.2.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'gnuplot' not found.  Trace plots will not be generated"?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>This is because you have not installed <span class="application">gnuplot</span>.  This is not a fatal error message, it just means that pictures of partition support, and SRQ plots will not be generated automatically.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2829"></a><a name="idp2830"></a><p><b>15.5.3.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'R' not found.  Some mixing graphs will not be generated"?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2828"></a><a name="idp2829"></a><p><b>15.5.3.</b></p></td><td align="left" valign="top"><p>Why does <span class="command"><strong>bp-analyze</strong></span> say "Program 'R' not found.  Some mixing graphs will not be generated"?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>This is because you have not installed <span class="application">R</span>.  This is not a fatal error message, it just means that a plot showing differences in clade probabilities between runs will not be generated.</p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2836"></a><a name="idp2837"></a><p><b>15.5.4.</b></p></td><td align="left" valign="top"><p>Why is <span class="command"><strong>bp-analyze</strong></span> stopping early, or failing to generate some files?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2835"></a><a name="idp2836"></a><p><b>15.5.4.</b></p></td><td align="left" valign="top"><p>Why is <span class="command"><strong>bp-analyze</strong></span> stopping early, or failing to generate some files?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Look in the file <code class="filename">Results/bp-analyze.log</code>.  This should contain the actual commands that were run, along with error message from these commands.  These error message should give you a hint as to what the problem might be.</p></td></tr>
 	</tbody></table></div>
     </div>
@@ -2241,11 +2241,11 @@ your <span class="command"><strong>bali-phy</strong></span> runs on that compute
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp101"></a>15.6. Interpreting the results.</h3></div></div></div>
       
 
-      <div class="qandaset"><a name="idp2846"></a><dl><dt>15.6.1. <a href="#idp2847">How do I compute the clade support?</a></dt><dt>15.6.2. <a href="#idp2852">How do I compute the split/bi-partition support?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2847"></a><a name="idp2848"></a><p><b>15.6.1.</b></p></td><td align="left" valign="top"><p>How do I compute the clade support?</p></td></tr>
+      <div class="qandaset"><a name="idp2845"></a><dl><dt>15.6.1. <a href="#idp2846">How do I compute the clade support?</a></dt><dt>15.6.2. <a href="#idp2851">How do I compute the split/bi-partition support?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2846"></a><a name="idp2847"></a><p><b>15.6.1.</b></p></td><td align="left" valign="top"><p>How do I compute the clade support?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Actually, BAli-Phy uses unrooted trees, so it only estimates bi-partition support.  A bi-partition is a division of taxa into two groups, but it does not specify which group contains the root. </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2852"></a><a name="idp2853"></a><p><b>15.6.2.</b></p></td><td align="left" valign="top"><p>How do I compute the split/bi-partition support?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2851"></a><a name="idp2852"></a><p><b>15.6.2.</b></p></td><td align="left" valign="top"><p>How do I compute the split/bi-partition support?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>After you analyze the output (<a class="xref" href="#analysis" title="5.4. Summarizing the output - scripted">Section 5.4, &#8220;Summarizing the output - scripted&#8221;</a>), the partition support is indicated in
 	      <code class="filename">Results/consensus</code> and in <code class="filename">Results/c50.PP.tree</code>. </p></td></tr>
 	</tbody></table></div>
@@ -2253,16 +2253,16 @@ your <span class="command"><strong>bali-phy</strong></span> runs on that compute
 
     <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="idp102"></a>15.7. How do I...</h3></div></div></div>
       
-      <div class="qandaset"><a name="idp2863"></a><dl><dt>15.7.1. <a href="#idp2864">How do I concatenate alignments?</a></dt><dt>15.7.2. <a href="#idp2873">How do I select columns from an alignment?</a></dt><dt>15.7.3. <a href="#idp2885">How do I create an alignment-constraint file
+      <div class="qandaset"><a name="idp2862"></a><dl><dt>15.7.1. <a href="#idp2863">How do I concatenate alignments?</a></dt><dt>15.7.2. <a href="#idp2872">How do I select columns from an alignment?</a></dt><dt>15.7.3. <a href="#idp2884">How do I create an alignment-constraint file
 	      from an alignment?</a></dt></dl><table border="0" style="width: 100%;"><colgroup><col align="left" width="1%"><col></colgroup><tbody>
-	  <tr class="question"><td align="left" valign="top"><a name="idp2864"></a><a name="idp2865"></a><p><b>15.7.1.</b></p></td><td align="left" valign="top"><p>How do I concatenate alignments?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2863"></a><a name="idp2864"></a><p><b>15.7.1.</b></p></td><td align="left" valign="top"><p>How do I concatenate alignments?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
  	    </p><pre class="screen"><code class="prompt">%</code> alignment-cat <em class="replaceable"><code>filename1.fasta</code></em> <em class="replaceable"><code>filename2.fasta</code></em> &gt; result.fasta</pre><p>
 	      The alignments must have the same sequence names, but
 	      the names need not be in the same order.
 	    </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2873"></a><a name="idp2874"></a><p><b>15.7.2.</b></p></td><td align="left" valign="top"><p>How do I select columns from an alignment?</p></td></tr>
+	  <tr class="question"><td align="left" valign="top"><a name="idp2872"></a><a name="idp2873"></a><p><b>15.7.2.</b></p></td><td align="left" valign="top"><p>How do I select columns from an alignment?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 	    You can now select columns for analysis by specifying a range:
 	    </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy sequences.fasta:1-200,401-600 sequences.fasta:201-400</code></strong></pre><p>
@@ -2271,7 +2271,7 @@ your <span class="command"><strong>bali-phy</strong></span> runs on that compute
 	    The resulting alignment will contain the selected columns in the order you specified.
 	  </p></td></tr>
 	
-	  <tr class="question"><td align="left" valign="top"><a name="idp2885"></a><a name="generating_constraint_files"></a><p><b>15.7.3.</b></p></td><td align="left" valign="top"><p>How do I create an alignment-constraint file
+	  <tr class="question"><td align="left" valign="top"><a name="idp2884"></a><a name="generating_constraint_files"></a><p><b>15.7.3.</b></p></td><td align="left" valign="top"><p>How do I create an alignment-constraint file
 	      from an alignment?</p></td></tr>
 	  <tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>To constrain the alignment to match some alignment
 	      file <em class="replaceable"><code>filename.fasta</code></em> in columns
