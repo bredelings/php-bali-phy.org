@@ -76,7 +76,12 @@ code {background: #f0f0f0}
             <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li>
           </ol>
 
-          <p class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in mid-2022..<br/><br/>To run them you must first compile a development version of bali-phy from the <a href="https://github.com/bredelings/BAli-Phy">source on github</a>.</p>
+          <div class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in mid-2022.<br/><br/>To run these examples now you can
+            <ul>
+              <li>download the latest 4.0-alpha release from <a href="https://github.com/bredelings/BAli-Phy/releases/">releases page on github</a></li>
+              <li>or compile from the <a href="https://github.com/bredelings/BAli-Phy/">source on github.</a></li>
+            </ul>
+          </div>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
             <h3>Haskell syntax</h3>
