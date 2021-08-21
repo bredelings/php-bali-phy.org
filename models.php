@@ -184,7 +184,6 @@ code {background: #f0f0f0}
 	  <p>The <em>iid</em> distribution returns a list of random values from another distribution.  We can apply the <em>map</em> and <em>sum</em> operations to such lists to sample a sum of squares.</p>
 	  <pre><code class="haskell"><?php include('Demo2.hs') ?></code></pre>
 	  <p>Here <em>(\x -> x*x)</em> describes an un-named function that takes an argument <em>x</em> and returns <em>x*x</em>.</p>
-      <!-- p><em>(Currently the number <code class="haskell">10</code> of i.i.d. normal variables cannot be random.  Soon we will allow random numbers of random variables, and this restriction will be relaxed.)</em> </p -->
 
           </div>
 
@@ -192,18 +191,6 @@ code {background: #f0f0f0}
           <h3><a name="random_control_flow1">Random control flow I: if-then-else</a></h3>
       <p>The modeling language can handle graphs that change automatically when the value of a random variable changes. One thing that leads to a changing graph is control-flow statements like <em>if-then-else</em>:</p>
       <pre><code class="haskell"><?php include('Demo3.hs') ?></code></pre>
-      <!-- 
-           While <em>x</em> always depends on <em>i</em>, it depends on either <em>y</em> or <em>z</em>, but not both.  The dynamic graphical model can represent this by updating the graph to handle the cases where <em>i=0</em> or <em>i=1</em>:
-
-           <div>
-             <img src="graphical_model3.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-             <img src="graphical_model4.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-           </div>
-           In contrast, a traditional graphical model makes <em>x</em> always depend on everything that it <em>might</em> depend on.
-           <div>
-             <img src="graphical_model5.svg" style="width:10em; padding:1em; padding-left: 3em; padding-right:3em"/>
-           </div>
-           -->
 
            </div>
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
