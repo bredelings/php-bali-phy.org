@@ -42,7 +42,7 @@ code {background: #f0f0f0}
           <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
-          <h3>Theory: probabilistic models as programs</h4>
+          <h2>Theory: probabilistic models as programs</h2>
           <p>A PPL allows users to write a probabilistic model in the
           form of a <b>computer program</b> that samples random variables
           from their prior.  The program incorporates data by
@@ -83,30 +83,6 @@ code {background: #f0f0f0}
           unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
           </p>
-
-          <h3>Language properties</h4>
-	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
-	  <ol>
-	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
-	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
-            <li><b>MCMC</b> works, even when the number of variables is changing.</b>
-	    <li><b>Functions</b> work, and can be used to define random variables.</li>
-	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
-	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
-	    <li><b>Optimization</b> works, and speeds up the users code via techniques such as inlining.</li>
-	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
-	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
-	  </ol>
-
-	  <p>Features that are expected to be completed by mid-2022 include:</p>
-	  <ul>
-	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
-	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
-            <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
-            <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
-	  </ul>
 
 	  <h2>Examples</h2>
           <ol>
@@ -216,6 +192,30 @@ code {background: #f0f0f0}
             </ul>
             <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
           </div -->
+          <h2>Language properties</h2>
+	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
+	  <ol>
+	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
+	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
+            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
+            <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
+            <li><b>MCMC</b> works, even when the number of variables is changing.</b>
+	    <li><b>Functions</b> work, and can be used to define random variables.</li>
+	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
+	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
+	    <li><b>Optimization</b> works, and speeds up the users code via techniques such as inlining.</li>
+	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
+	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
+	  </ol>
+
+	  <p>Features that are expected to be completed by mid-2022 include:</p>
+	  <ul>
+	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
+	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
+            <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
+            <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
+	  </ul>
+
   </div>
 </td>	      
 </tr>
