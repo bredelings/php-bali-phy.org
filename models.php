@@ -58,7 +58,8 @@ code {background: #f0f0f0}
           sampling from the posterior distribution of program traces.
           The probability of a trace is the product of (i) the prior
           probability of the trace and (ii) the likelihood of the observed
-          data given the trace.</P>
+          data given the trace.  The trace includes all the random variables
+          that we wish to infer</P>
 
           <p>To conduct inference using <b>MCMC</b>, we need to be able to
           (i) propose new program traces by changing a single random
