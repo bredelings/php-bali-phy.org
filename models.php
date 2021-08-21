@@ -59,7 +59,7 @@ code {background: #f0f0f0}
           The probability of a trace is the product of (i) the prior
           probability of the trace and (ii) the likelihood of the observed
           data given the trace.  The trace includes all the random variables
-          that we wish to infer</P>
+          that we wish to infer.</P>
 
           <p>To conduct inference using <b>MCMC</b>, we need to be able to
           (i) propose new program traces by changing a single random
@@ -79,9 +79,9 @@ code {background: #f0f0f0}
           where each function call has edges to its inputs and
           outputs.  The graph enables us to determine which parts of
           the program depend on a variable that has changed.  This
-          graph is very similar to the graph of a PGM.  However,
+          graph is similar to the graph of a PGM.  However,
           unlike a PGM, the shape of the graph is not fixed, but
-          depends on the random variables.
+          depends on values of the random variables.
           </p>
 
           <h3>Language properties</h4>
