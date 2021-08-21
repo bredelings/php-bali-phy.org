@@ -161,7 +161,7 @@ code {background: #f0f0f0}
 	    <p>Here is a short program that infers the tree and alignment from a FASTA file given on the command line.
             </p>
 
-              <pre><code class="haskell"><?php include('infer_tree_alignment.hs') ?></code></pre>
+              <pre><code class="haskell"><?php include('InferTreeAlignment.hs') ?></code></pre>
 
                 <p>You can find this file
                 in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/infer_tree/1/">bali-phy/tests/prob_prog/infer_tree/1/</a>
