@@ -42,7 +42,7 @@ code {background: #f0f0f0}
           <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
-          <h4>Probabilistic models as programs</h4>
+          <h3>Theory: probabilistic models as programs</h4>
           <p>A PPL allows users to write a probabilistic model in the
           form of a <b>computer program</b> that samples random variables
           from their prior.  The program incorporates data by
@@ -84,7 +84,7 @@ code {background: #f0f0f0}
           depends on the random variables.
           </p>
 
-          <h4>Language properties</h4>
+          <h3>Language properties</h4>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
 	  <ol>
 	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
