@@ -157,6 +157,19 @@ code {background: #f0f0f0}
               </div>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
+	    <h3><a name="regression">Tree and alignment inference</a></h3>
+	    <p>Here is a short program that infers the tree and alignment from a FASTA file given on the command line.
+            </p>
+
+              <pre><code class="haskell"><?php include('infer_tree_alignment.hs') ?></code></pre>
+
+                <p>You can find this file
+                in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/infer_tree/1/">bali-phy/tests/prob_prog/infer_tree/1/</a>
+                  and run it as <b>bali-phy -m Main.hs --iter=1000 --- 5d-muscle.fasta</b>.
+                </p>
+          </div>
+
+          <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
           <h3><a name="rec_random_tree">Trait evolution on random tree</a></h3>
           <p>Graphical models are a natural way to describe the evolution of a trait on a <strong>fixed</strong> tree.  This is because the value of the trait at each node depends on the value at its parent node.  This dependance can be encoded in a fixed graph with the same structure as the tree.</p>
           <p>However, graphical models cannot easily describe the evolution of a trait on a <strong>random</strong> tree.  This is because the parent node for each node is not known in advance, and is in fact random.</p>
