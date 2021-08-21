@@ -70,7 +70,10 @@ code {background: #f0f0f0}
           we can rerun only changed parts. Writing models in Haskell
           allows us to efficiently determine which part of the program
           trace has changed.  This is because Haskell can represent
-          loops and if-then statements in terms of functions. 
+          loops and if-then statements in terms of functions.  We can
+          the represent the program run in terms of a graph.  The
+          graph enables us to determine which parts of the program
+          depend on a variable that has changed.
           </p>
 
           <h4>Language properties</h4>
