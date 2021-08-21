@@ -108,11 +108,12 @@ code {background: #f0f0f0}
 	  <h2>Examples</h2>
           <ol>
             <li><a href="#regression">Linear regression</a></li>
-            <li><a href="#rec_random_tree">Trait evolution on random tree</a></li>
+            <li><a href="#InferTreeAlignment">Jointly infer tree and alignment</a></li>
+            <!-- li><a href="#rec_random_tree">Trait evolution on random tree</a></li>
             <li><a href="#random_data_structures">Random data structures</a></li>
             <li><a href="#random_control_flow1">Random control flow: if-then-else</a></li>
             <li><a href="#random_control_flow2">Random control flow: random array subscripts</a></li>
-            <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li>
+            <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li -->
           </ol>
 
           <div class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in mid-2022.<br/><br/>To run these examples now you can
@@ -157,7 +158,7 @@ code {background: #f0f0f0}
               </div>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
-	    <h3><a name="regression">Tree and alignment inference</a></h3>
+	    <h3><a name="InferTreeAlignment">Tree and alignment inference</a></h3>
 	    <p>Here is a short program that infers the tree and alignment from a FASTA file given on the command line.
             </p>
 
@@ -169,7 +170,7 @@ code {background: #f0f0f0}
                 </p>
           </div>
 
-          <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
+          <!-- div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
           <h3><a name="rec_random_tree">Trait evolution on random tree</a></h3>
           <p>Graphical models are a natural way to describe the evolution of a trait on a <strong>fixed</strong> tree.  This is because the value of the trait at each node depends on the value at its parent node.  This dependance can be encoded in a fixed graph with the same structure as the tree.</p>
           <p>However, graphical models cannot easily describe the evolution of a trait on a <strong>random</strong> tree.  This is because the parent node for each node is not known in advance, and is in fact random.</p>
@@ -224,7 +225,7 @@ code {background: #f0f0f0}
               <li>In Haskell, we write <code class="haskell">next x0</code> instead of <code>next(x0)</code> to apply a function.</li>
             </ul>
             <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
-</div>
+          </div -->
   </div>
 </td>	      
 </tr>
