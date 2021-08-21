@@ -77,7 +77,7 @@ code {background: #f0f0f0}
 
           <p>Haskell program traces can be represented as a <b>trace graph</b>
           where each function call has edges to its inputs and
-          outputs.  The graph enables us to determine which parts of
+          its output.  The graph enables us to determine which parts of
           the program depend on a variable that has changed.  This
           graph is similar to the graph of a PGM.  However,
           unlike a PGM, the shape of the graph is not fixed, but
