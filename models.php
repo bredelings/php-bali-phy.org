@@ -48,18 +48,17 @@ code {background: #f0f0f0}
           from their prior.  The program incorporates data by
           calling functions to "observe" the data.  The sequence of random
           choices that are made during a program run is called a "trace".
-          The trace completely determines the course of a program run.</p>
+          The trace completely determines the course of a program run.
+          In theory a model program can be written in any language
+          that allows (i) recording the trace for a program run, and
+          (ii) replaying the program given a trace.
+          </p>
 
           <p><b>Inference</b> under the model involves
           sampling from the posterior distribution of program traces.
           The probability of a trace is the product of (i) the prior
           probability of the trace and (ii) the likelihood of the observed
           data given the trace.</P>
-
-          <p>In theory the model program can be written in any language
-          that allows (i) recording the trace for a program run, and
-          (ii) replaying the program given a trace.
-          </p>
 
           <p>To conduct inference using <b>MCMC</b>, we need to be able to
           (i) propose new program traces by changing a single random
