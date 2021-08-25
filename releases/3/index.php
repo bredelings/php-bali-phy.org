@@ -30,6 +30,7 @@
 	    <li><b>[3.4.1]</b> - Jan-18-2019</li>
 	    <li><b>[3.5.0]</b> - Mar-02-2020</li>
 	    <li><b>[3.6.0]</b> - Feb-05-2021</li>
+	    <li><b>[3.6.1]</b> - Aug-24-2021</li>
 	  </ul>
 	  </div>
 
@@ -210,6 +211,9 @@
                 <li><span class="timepoint-new">[3.6]</span> <b>bali-phy:</b> allow sampling ancestral sequences with compressed, fixed alignments.</li>
                 <li><span class="timepoint-new">[3.6]</span> <b>bp-analyze:</b> fix excessive cpu/memory usage when analyzing several chains.</li>
                 <li><span class="timepoint-new">[3.6]</span> <b>alignment-distances:</b> fix NxN analysis.</li>
+                <li><span class="timepoint-new">[3.6.1]</span> <b>BES:</b> fix overflow in likelihood.</li>
+                <li><span class="timepoint-new">[3.6.1]</span> <b>m8,m8a,m8a_test:</b> fix help documentation.</li>
+                <li><span class="timepoint-new">[3.6.1]</span> fix <b>mixture</b> distribution.</li>
 	      </ul>
 	    </li>
 	  </ul>
