@@ -89,8 +89,7 @@ code {background: #f0f0f0}
             statements) as functions.</p>
 
           <p>We can therefore construct an <b>execution dependency graph</b>, which contains edges between
-            every function output and any inputs that might change.  The graph enables us to determine
-            which parts of the program depend on random variables. 
+            every function output and any inputs to that function that might change.  
 
           When a random variable changes, it allows us to identify the part of the graph
           that depends on that random variable.
