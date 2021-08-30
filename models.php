@@ -161,7 +161,7 @@ code {background: #f0f0f0}
 	    <p>Here is a longer program that corresponds to <b>bali-phy bglobin.fasta -S function[w,gtr+x3+mut_sel_aa+dNdS[w]]+m7+Covarion.gt01 --test -Inone</b>.
             </p>
 
-              <pre><code class="haskell"><?php include('ModulatedMarkov_dNdS.hs') ?></code></pre>
+              <pre><code class="haskell"><?php include('Modulated_dNdS.hs') ?></code></pre>
 
                 <p>You can it as <b>bali-phy -m ModulatedMarkov_dNdS.hs --iter=1000 --- bglobin.fasta</b>.
                 </p>
