@@ -36,7 +36,7 @@ branch_length_dist topology b = gamma 0.5 (2.0 / intToDouble n) where n = numBra
 
 model seq_data = do
 
-    let the_codons = (codons dna standard_code)
+    let the_codons = codons dna standard_code
         taxa = map sequence_name seq_data
         tip_seq_lengths = get_sequence_lengths the_codons seq_data
 
