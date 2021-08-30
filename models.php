@@ -79,7 +79,7 @@ code {background: #f0f0f0}
           <p>The naive approach to MCMC inference involves rerunning the entire model program
             from scratch whenever the trace changes.  This is quite inefficient.  BAli-Phy
             addresses this problem by determining which parts of the model program
-            execution <b>depend</b> on random variables that have changed.  Then it can rerun just the
+            execution <b>depend</b> on random variables that have changed.  Then it can rerun just
             the affected parts of the model program's execution, saving lots of computation time.
           </p>
             
@@ -92,7 +92,7 @@ code {background: #f0f0f0}
             every function output and any inputs to that function that might change.  
 
           When a random variable changes, it allows us to identify the part of the graph
-          that depends on that random variable.
+          that depends on that random variable, and re-execute it.
 
           This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
