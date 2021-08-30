@@ -42,7 +42,7 @@ code {background: #f0f0f0}
           <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
-          <h2>Theory: Bayesian probabilistic models as programs</h2>
+          <h2>Theory: Bayesian hierarchical models as programs</h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b> that samples random variables from their prior.  The program incorporates data by calling functions to "observe" the data.  This is a natural way to write <em>Bayesian hierarchical models</em>.
            Different values for the random variables are sampled from the prior each time a model program is run.
            Running the program multiple times produces a collection of weighted samples, where the weight is given by the likelihood of the observed data.
