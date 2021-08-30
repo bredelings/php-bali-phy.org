@@ -42,16 +42,14 @@ code {background: #f0f0f0}
           <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
-          <h2>Theory: probabilistic models as programs</h2>
-          <p>A PPL allows users to write a probabilistic model in the
-          form of a <b>computer program</b> that samples random variables
-          from their prior.  Running the model program is ordinarily random, since different random samples will be drawn from the prior each time.
-          The program incorporates data by calling functions to "observe" the data.
+          <h2>Theory: Bayesian probabilistic models as programs</h2>
+          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b> that samples random variables from their prior.  The program incorporates data by calling functions to "observe" the data.  This is a natural way to write <em>Bayesian hierarchical models</em>.
+           Different values for the random variables are sampled from the prior each time a model program is run.
+           Running the program multiple times produces a collection of weighted samples, where the weight is given by the likelihood of the observed data.
           </p>
 
-
           <p>The sequence of random choices that are made during a program run is called a <b>trace</b>.
-          The trace completely determines the course of a program run. 
+          The trace completely determines the course of a program run.
           In theory a model program can be written in any language
           that allows (i) recording the trace for a program run, and
           (ii) replaying the program given a trace.
@@ -63,7 +61,7 @@ code {background: #f0f0f0}
           The probability of a trace is the product of (i) the prior
           probability of the trace and (ii) the likelihood of the observed
           data given the trace.
-          </P>
+          </p>
 
           <p>To conduct inference using <b>MCMC</b>, we need to be able to
           (i) propose new program traces by changing one or more random
@@ -76,12 +74,18 @@ code {background: #f0f0f0}
           to identify which parts of the program have changed so that
           we can rerun only changed parts. Writing models as Haskell programs
           allows us to efficiently determine which part of the program
-          run has changed.  This is because Haskell can represent control flow
-          statements, such as loops and if-then statements, as functions.</p> 
+          run has changed.  This is because Haskell represents control flow
+          statements (such as loops and if-then statements) as functions.</p>
 
-          <p>Haskell program runs can be represented as an <b>execution dependency graph</b>.
+          <p>A Haskell program run can be represented as an <b>execution dependency graph</b>.
           <!--  When the input to a function depends on the trace, this graph contains edges to the function's inputs and its output. -->
-          The graph enables us to determine which parts of the program depend on a random variable that has changed.
+          The graph enables us to determine which parts of the program depend on random variables.
+
+          When a random variable changes, it allows us to identify the part of the graph
+          that depends on that random variable.
+
+          Then, only the affected part needs to regenerated when we rerun the program,
+
           This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
           </p>
