@@ -45,7 +45,7 @@ code {background: #f0f0f0}
           <h2>Theory: Bayesian hierarchical models as programs</h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b> that samples random variables from their prior.  The program incorporates data by calling functions to "observe" the data.  This is a natural way to write <em>Bayesian hierarchical models</em>.
            Different values for the random variables are sampled from the prior each time a model program is run.
-           Running the model program multiple times produces a collection of weighted samples, where the weight is given by the likelihood of the observed data.
+           Running the model program multiple times produces a collection of weighted samples from the prior, where the weight is given by the likelihood of the observed data.
           </p>
 
           <p>The sequence of random choices that are made during a program run is called a <b>trace</b>.
