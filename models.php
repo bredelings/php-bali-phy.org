@@ -94,6 +94,7 @@ code {background: #f0f0f0}
           <ol>
             <li><a href="#regression">Linear regression</a></li>
             <li><a href="#InferTreeAlignment">Jointly infer tree and alignment</a></li>
+	    <li><a href="#ModulatedMarkov">Tree inference under a modulated Markov model and a fixed alignment</a></li>
             <!-- li><a href="#rec_random_tree">Trait evolution on random tree</a></li>
             <li><a href="#random_data_structures">Random data structures</a></li>
             <li><a href="#random_control_flow1">Random control flow: if-then-else</a></li>
@@ -152,6 +153,17 @@ code {background: #f0f0f0}
                 <p>You can find this file
                 in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/infer_tree/1/">bali-phy/tests/prob_prog/infer_tree/1/</a>
                   and run it as <b>bali-phy -m Main.hs --iter=1000 --- 5d-muscle.fasta</b>.
+                </p>
+          </div>
+
+          <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
+	    <h3><a name="ModulatedMarkov">Tree inference under a modulated Markov model with a fixed alignment</a></h3>
+	    <p>Here is a longer program that corresponds to <b>bali-phy bglobin.fasta -S function[w,gtr+x3+mut_sel_aa+dNdS[w]]+m7+Covarion.gt01 --test -Inone</b>.
+            </p>
+
+              <pre><code class="haskell"><?php include('ModulatedMarkov_dNdS.hs') ?></code></pre>
+
+                <p>You can it as <b>bali-phy -m ModulatedMarkov_dNdS.hs --iter=1000 --- bglobin.fasta</b>.
                 </p>
           </div>
 
