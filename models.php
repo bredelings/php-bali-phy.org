@@ -45,10 +45,13 @@ code {background: #f0f0f0}
           <h2>Theory: probabilistic models as programs</h2>
           <p>A PPL allows users to write a probabilistic model in the
           form of a <b>computer program</b> that samples random variables
-          from their prior.  The program incorporates data by
-          calling functions to "observe" the data.  The sequence of random
-          choices that are made during a program run is called a "trace".
-          The trace completely determines the course of a program run.
+          from their prior.  Running the model program is ordinarily random, since different random samples will be drawn from the prior each time.
+          The program incorporates data by calling functions to "observe" the data.
+          </p>
+
+
+          <p>The sequence of random choices that are made during a program run is called a <b><em>trace</em></b>.
+          The trace completely determines the course of a program run. 
           In theory a model program can be written in any language
           that allows (i) recording the trace for a program run, and
           (ii) replaying the program given a trace.
@@ -56,31 +59,30 @@ code {background: #f0f0f0}
 
           <p><b>Inference</b> under the model involves
           sampling from the posterior distribution of program traces.
+          The trace includes all the random variables that we wish to infer.
           The probability of a trace is the product of (i) the prior
           probability of the trace and (ii) the likelihood of the observed
-          data given the trace.  The trace includes all the random variables
-          that we wish to infer.</P>
+          data given the trace.
+          </P>
 
           <p>To conduct inference using <b>MCMC</b>, we need to be able to
-          (i) propose new program traces by changing a single random
-          variable, and then (ii) run the program with the new trace,
+          (i) propose new program traces by changing one or more random
+          variables, and then (ii) run the program with the new trace,
           and (iii) decide whether to accept or reject the new trace.
           However, rerunning the entire program when only a small part
           has changed is very inefficient.</p>
 
           <p>In order to perform MCMC <b>efficiently</b>, we need to be able
           to identify which parts of the program have changed so that
-          we can rerun only changed parts. Writing models in Haskell
+          we can rerun only changed parts. Writing models as Haskell programs
           allows us to efficiently determine which part of the program
-          trace has changed.  This is because Haskell can represent
-          loops and if-then statements in terms of functions.</p> 
+          run has changed.  This is because Haskell can represent control flow
+          statements, such as loops and if-then statements, as functions.</p> 
 
-          <p>Haskell program traces can be represented as a <b>trace graph</b>
-          where each function call has edges to its inputs and
-          its output.  The graph enables us to determine which parts of
-          the program depend on a variable that has changed.  This
-          graph is similar to the graph of a PGM.  However,
-          unlike a PGM, the shape of the graph is not fixed, but
+          <p>Haskell program runs can be represented as an <b>execution dependency graph</b>.
+          <!--  When the input to a function depends on the trace, this graph contains edges to the function's inputs and its output. -->
+          The graph enables us to determine which parts of the program depend on a random variable that has changed.
+          This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
           </p>
 
