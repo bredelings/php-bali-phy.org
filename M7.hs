@@ -32,12 +32,13 @@ gtr_m7_model codons = do
             ]
     return (m7_model, loggers)
 
-branch_length_dist topology b = gamma 0.5 (2.0 / intToDouble n) where n = numBranches topology
+branch_length_dist topology b = gamma 0.5 (2.0 / intToDouble n)
+    where n = numBranches topology
 
 model seq_data = do
 
-    let the_codons = codons dna standard_code
-        taxa = map sequence_name seq_data
+    let the_codons      = codons dna standard_code
+        taxa            = map sequence_name seq_data
         tip_seq_lengths = get_sequence_lengths the_codons seq_data
 
     -- Tree
@@ -54,7 +55,7 @@ model seq_data = do
     (m7_model, log_m7_smodel) <- gtr_m7_model the_codons
 
     -- Alignment
-    alignment <- random_alignment tree1 imodel tip_seq_lengths
+    alignment                 <- random_alignment tree1 imodel tip_seq_lengths
 
     -- Observation
     seq_data ~> ctmc_on_tree tree1 alignment m7_model
