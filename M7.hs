@@ -55,7 +55,7 @@ model seq_data = do
     (m7_model, log_m7_smodel) <- gtr_m7_model the_codons
 
     -- Alignment
-    alignment                 <- random_alignment tree1 imodel tip_seq_lengths
+    alignment <- random_alignment tree1 imodel tip_seq_lengths
 
     -- Observation
     seq_data ~> ctmc_on_tree tree1 alignment m7_model
