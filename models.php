@@ -45,7 +45,7 @@ code {background: #f0f0f0}
           <h2>Theory: Bayesian hierarchical models as programs</h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b> that samples random variables from their prior.  The program incorporates data by calling functions to "observe" the data.  This is a natural way to write <em>Bayesian hierarchical models</em>.
            Different values for the random variables are sampled from the prior each time a model program is run.
-           Running the program multiple times produces a collection of weighted samples, where the weight is given by the likelihood of the observed data.
+           Running the model program multiple times produces a collection of weighted samples, where the weight is given by the likelihood of the observed data.
           </p>
 
           <p>The sequence of random choices that are made during a program run is called a <b>trace</b>.
@@ -63,32 +63,42 @@ code {background: #f0f0f0}
           data given the trace.
           </p>
 
-          <p>To conduct inference using <b>MCMC</b>, we need to be able to
-          (i) propose new program traces by changing one or more random
-          variables, and then (ii) run the program with the new trace,
-          and (iii) decide whether to accept or reject the new trace.
-          However, rerunning the entire program when only a small part
-          has changed is very inefficient.</p>
+          <p>To conduct inference using <b>MCMC</b>, we need to be able to</p>
+          <ol>
+            <li> propose new program traces by modifying one or more random variables</li>
+            <li> re-execute the model program with a modified trace</li>
+            <li> decide whether to accept the proposed trace.</li>
+          </ol>
 
-          <p>In order to perform MCMC <b>efficiently</b>, we need to be able
-          to identify which parts of the program have changed so that
-          we can rerun only changed parts. Writing models as Haskell programs
-          allows us to efficiently determine which part of the program
-          run has changed.  This is because Haskell represents control flow
-          statements (such as loops and if-then statements) as functions.</p>
+          <p>These operations are performed by the <b>host environment</b>, not the model program.
+            In fact, all of these operations are invisible to the model program.
+            The host environment operates on a different level from the model program, and may
+            be written in a different language.  In BAli-Phy, the host environment
+            is written mostly in C++.</p>
 
-          <p>A Haskell program run can be represented as an <b>execution dependency graph</b>.
-          <!--  When the input to a function depends on the trace, this graph contains edges to the function's inputs and its output. -->
-          The graph enables us to determine which parts of the program depend on random variables.
+          <p>The naive approach to MCMC inference involves rerunning the entire model program
+            from scratch whenever the trace changes.  This is quite inefficient.  BAli-Phy
+            addresses this problem by determining which parts of the model program
+            execution <b>depend</b> on random variables that have changed.  Then it can rerun just the
+            the affected parts of the model program's execution, saving lots of computation time.
+          </p>
+            
+          <p>BAli-Phy uses <b>Haskell</b> as a model language, because Haskell makes it possible
+            to determine which parts of the model program execution depend on a changed random variable.
+            This is because Haskell represents control-flow statements (such as loops and if-then
+            statements) as functions.</p>
+
+          <p>We can therefore construct an <b>execution dependency graph</b>, which contains edges between
+            every function output and any inputs that might change.  The graph enables us to determine
+            which parts of the program depend on random variables. 
 
           When a random variable changes, it allows us to identify the part of the graph
           that depends on that random variable.
 
-          Then, only the affected part needs to regenerated when we rerun the program,
-
           This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
           </p>
+
 
 	  <h2>Examples</h2>
           <ol>
