@@ -131,7 +131,7 @@ code {background: #f0f0f0}
                 <li><b>sampling</b> from a distribution looks like <code class="haskell">b &lt;- normal 0.0 1.0</code>.<br/>  (This specifies a <em>prior</em> term.)</li>
                 <li><b>observing</b> data from a distribution looks like <code class="haskell">data ~> distribution</code>.<br/>  (This specifies a <em>likelihood</em> term.)</li>
                 <li><b>defining</b> a function looks like <code class="haskell">let f x = b*x + a</code>.<br/> (This defines the best fit line.)</li>
-                <li><b>logging</b> parameters iis done by the code <code class="haskell">return ["b" %=% b, "a" %=% a, ...]</code>.<br/> (This writes a corresponding JSON object each MCMC iteration.)</li>
+                <li><b>logging</b> parameters is done by the code <code class="haskell">return ["b" %=% b, "a" %=% a, ...]</code>.<br/> (This writes a corresponding JSON object each MCMC iteration.)</li>
               </ul>
             <p>Note that for each <code>x</code>, the distribution of y(x) is <code class="haskell">normal (f x) sigma</code>.  The term <code class="haskell">f x</code> is the location predicted by the best-fit line, but there is a distribution because the observed point may not fall exactly on the line.</li>
 
