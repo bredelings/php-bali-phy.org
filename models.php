@@ -50,7 +50,7 @@ code {background: #f0f0f0}
           </p>
 
 
-          <p>The sequence of random choices that are made during a program run is called a <b><em>trace</em></b>.
+          <p>The sequence of random choices that are made during a program run is called a <b>trace</b>.
           The trace completely determines the course of a program run. 
           In theory a model program can be written in any language
           that allows (i) recording the trace for a program run, and
