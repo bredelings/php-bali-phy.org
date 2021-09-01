@@ -43,7 +43,7 @@ code {background: #f0f0f0}
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
           <h2>Theory: Bayesian hierarchical models as programs</h2>
-          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and calls functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
+          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporate data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
           <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
           <p>
