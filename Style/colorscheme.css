@@ -34,6 +34,12 @@ a[href]:hover   { background: rgb(240,240,243); }
 table.backlit td { 
 	background: rgb(238,238,238); 
 }
+
+table {border-collapse: collapse}
+table.data > tbody > tr:nth-child(odd) > td { background-color: #E0E0E0;  }
+table.data > tbody > tr:nth-child(even) > td { background-color: #EEEEEE;  }
+table.data td { padding-left: 1em; padding-right: 1em }
+
 .prompt {
     font-weight: bold;
     color: green;

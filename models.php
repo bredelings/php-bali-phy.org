@@ -43,40 +43,50 @@ code {background: #f0f0f0}
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
           <h2>Theory: Bayesian hierarchical models as programs</h2>
-          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b> that samples random variables from their prior.  The program incorporates data by calling functions to "observe" the data.  This is a natural way to write <em>Bayesian hierarchical models</em>.
-           Different values for the random variables are sampled from the prior each time a model program is run.
-           Running the model program multiple times produces a collection of weighted samples from the prior, where the weight is given by the likelihood of the observed data.
+          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and calls functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
+          <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
+          <p>
+            Each time it is run, the model program will draw different values for the random variables from their prior distributions, and compute the prior probability and the likelihood of the observed data.
+          </p>
+          <table class="data" style="margin:auto">
+            <tr><th>run</th><th style="color:red">mean</th><th style="color:red">sigma</th><th>log(prior)</th><th>log(likelihood)</th></tr>
+            <tr><td>1</td><td>3.000849912</td><td>1.130289503</td><td>-3.24195035</td><td>-15.5905309</td></tr>
+            <tr><td>2</td><td>5.76676590</td><td>0.364175082</td><td>-2.049752039</td><td>-1.977179616</td></tr>
+            <tr><td>3</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+          </table>
 
           <p>The sequence of random choices that are made during a program run is called a <b>trace</b>.
-          The trace completely determines the course of a program run.
-          In theory a model program can be written in any language
-          that allows (i) recording the trace for a program run, and
-          (ii) replaying the program given a trace.
+          The trace completely determines the course of a program run, and includes all the random variables
+          that we wish to infer.  In theory a model program can be written in any language that allows
+            (i) recording the trace for a program run, and
+            (ii) replaying the program given a trace.
+            If different program runs take different branches of a conditional statement, they may include
+            different random variables.
           </p>
 
-          <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
-
-          <p><b>Inference</b> under the model involves
-          sampling from the posterior distribution of program traces.
-          The trace includes all the random variables that we wish to infer.
-          The probability of a trace is the product of (i) the prior
-          probability of the trace and (ii) the likelihood of the observed
-          data given the trace.
+          <p><b>Inference</b> under the model involves sampling from the posterior
+          distribution of program traces.  The posterior probability of a trace is the product of (i) the prior
+          probability of the trace and (ii) the likelihood of the observed data given the trace.  The simplest
+          way to approximate the posterior distribution is to run the model program many times and weight each
+          trace by the likelihood.  However, this is too inefficient in practice.
           </p>
 
-          <p>To conduct inference using <b>MCMC</b>, we need to be able to</p>
+          <p><b>MCMC</b> is a more efficient approach to inference.  To conduct inference using MCMC, we need to be able to</p>
           <ol>
             <li> propose new program traces by modifying one or more random variables</li>
             <li> re-execute the model program with a modified trace</li>
             <li> decide whether to accept the proposed trace.</li>
           </ol>
 
-          <p>These operations are performed by the <b>host environment</b>, not the model program.
-            In fact, all of these operations are invisible to the model program.
-            The host environment operates on a different level from the model program, and may
-            be written in a different language.  In BAli-Phy, the host environment
-            is written mostly in C++.</p>
+          <p>The <b>host environment</b> operates on model program traces to perform inference.
+            In contrast, the model program describes distributions on data but has no concept of inference.
+            Therefore, modifications to the model program are not controlled by the model program, and are in fact
+            invisible to it.
+            The host environment may also implement the model program language by running model programs inside an interpreter.
+            The host environment operates on a different level from the model program, and may be written in a different language.
+            In BAli-Phy, the host environment is written mostly in C++.
+          </p>
 
           <p>The naive approach to MCMC inference involves rerunning the entire model program
             from scratch whenever the trace changes.  This is quite inefficient.  BAli-Phy
@@ -99,7 +109,32 @@ code {background: #f0f0f0}
           This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
           depends on values of the random variables.
           </p>
+          <!--
+              Why do we care?
+              A1. We want to be able to combine models a modular manner.  Suppose somebody
+                  write a program that does logistic regression, and somebody else writes a
+                  program that does multivariate regression, and you want to do multivariate, logistic
+                  regression, can you combine the models?  Ordinarily you would have to write your
+                  own MCMC program from scratch.
 
+              A2. What if your population really consist of (say) two ecotypes, each of which have their
+                  own height distribution?
+                  You can encode this by drawing a random variable
+                  to say which distribution generates each observation, and select the parent distribution as follows
+
+                  height_dist p0 (mu1,sigma1) (mu2,sigma2) = do
+                     i <- bernoulli p0
+                     let mu = if i==1 then mu1 else mu2
+                     let sigma = if i==1 then sigma1 else sigma2
+                     normal mu sigma
+
+              A3. What if the population consistent some number $n$ of ecotypes, and you don't know what n is?
+
+              A4. What if you evolution on a phylogeny, where height for a node depends on the height at the parent node.
+                  However, the phylogeny is unknown, so that the parent node is unknown.  Then, the parent node can
+                  be different things in different samples.  Standard PGMs can't handle this -- the node that you depend on
+                  is a fixed thing, and can't be random.  However, (universal) PPLs can indeed handle it.
+            -->
 
 	  <h2>Examples</h2>
           <ol>
