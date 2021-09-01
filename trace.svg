@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="121.94081mm"
+   width="113.02121mm"
    height="38.822289mm"
-   viewBox="0 0 121.94081 38.822289"
+   viewBox="0 0 113.02121 38.822289"
    version="1.1"
    id="svg8"
    sodipodi:docname="trace.svg"
@@ -87,9 +87,9 @@
        inkscape:transform-center-y="-13.188603"
        style="fill:#1eb4e7;fill-opacity:1;stroke-width:1.00002;stroke-miterlimit:4;stroke-dasharray:none" />
     <rect
-       style="fill:#d6cfc5;fill-opacity:0.96078402;stroke:none;stroke-width:1.04735;stroke-opacity:1"
+       style="fill:#d6cfc5;fill-opacity:0.960784;stroke:none;stroke-width:0.991602;stroke-opacity:1"
        id="rect898"
-       width="86.077423"
+       width="77.157822"
        height="38.822289"
        x="80.901672"
        y="51.672001" />
@@ -110,7 +110,7 @@
          style="fill:#000000;fill-opacity:0.898039;stroke-width:0.264583"
          id="tspan852">    mean <tspan
    style="fill:#cdaa26;fill-opacity:1;stroke:#cdaa26;stroke-opacity:1"
-   id="tspan862">&lt;-</tspan> normal 0 1</tspan><tspan
+   id="tspan862">&lt;-</tspan> normal 5.6 2</tspan><tspan
          sodipodi:role="line"
          x="82.626923"
          y="66.868553"
@@ -129,14 +129,14 @@
          style="fill:#000000;fill-opacity:0.898039;stroke-width:0.264583"
          id="tspan858">    height1 <tspan
    style="fill:none;fill-opacity:0.960784;stroke:#cdaa26;stroke-opacity:1"
-   id="tspan1034">~&gt;</tspan> log_normal mean sigma</tspan><tspan
+   id="tspan1034">~&gt;</tspan> normal mean sigma</tspan><tspan
          sodipodi:role="line"
          x="82.626923"
          y="82.743538"
          style="fill:#000000;fill-opacity:0.898039;stroke-width:0.264583"
          id="tspan860">    height2 <tspan
    style="fill:none;stroke:#cdaa26;stroke-opacity:1"
-   id="tspan895">~&gt;</tspan> log_normal mean sigma</tspan><tspan
+   id="tspan895">~&gt;</tspan> normal mean sigma</tspan><tspan
          sodipodi:role="line"
          x="82.626923"
          y="88.035202"
