@@ -61,8 +61,8 @@ code {background: #f0f0f0}
           that we wish to infer.  In theory a model program can be written in any language that allows
             (i) recording the trace for a program run, and
             (ii) replaying the program given a trace.
-            If different program runs take different branches of a conditional statement, they may include
-            different random variables.
+            <em>If different program runs take different branches of a conditional statement, then their traces may include
+            different random variables.</em>
           </p>
 
           <p><b>Inference</b> under the model involves sampling from the posterior
