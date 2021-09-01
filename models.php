@@ -55,6 +55,8 @@ code {background: #f0f0f0}
           (ii) replaying the program given a trace.
           </p>
 
+          <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
+
           <p><b>Inference</b> under the model involves
           sampling from the posterior distribution of program traces.
           The trace includes all the random variables that we wish to infer.
