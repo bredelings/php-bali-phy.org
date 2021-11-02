@@ -21,9 +21,9 @@ model seq_data = do
     let tree1 = scale_branch_lengths scale1 tree
 
     -- Indel model
-    logLambda   <- log_laplace (-4.0) 0.707
+    indel_rate  <- log_laplace (-4.0) 0.707
     mean_length <- (1.0 +) <$> exponential 10.0
-    let imodel = rs07 logLambda mean_length tree
+    let imodel = rs07 indel_rate mean_length tree
 
     -- Substitution model
     freqs  <- symmetric_dirichlet_on ["A", "C", "G", "T"] 1.0
@@ -39,7 +39,7 @@ model seq_data = do
 
     return
         [ "tree1" %=% write_newick tree1
-        , "logLambda" %=% logLambda
+        , "log(indel_rate)" %=% log indel_rate
         , "mean_length" %=% mean_length
         , "kappa1" %=% kappa1
         , "kappa2" %=% kappa2
