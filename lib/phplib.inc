@@ -380,7 +380,7 @@ $menutree->add_children('Documentation',
 		 
 $menutree->add_children('Developer',
 			array('Developers Guide::developer/',
-			      'Graphical Models (<em>Preview</em>)::models.php' )
+			      'Probabilistic<br/>&nbsp;&nbsp;&nbsp;Programming::models.php' )
 			);
 
 $menutree->add_children('Contact',
