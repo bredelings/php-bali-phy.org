@@ -43,7 +43,20 @@ code {background: #f0f0f0}
           <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
-          <h2>Theory: Bayesian hierarchical models as programs</h2>
+          <ul>
+            <li><a href="#theory">Theory: Bayesian hierarchical models as programs</a></li>
+            <li><a href="#Examples">Examples</a>
+              <ol>
+                <li><a href="#regression">Linear regression</a></li>
+                <li><a href="#InferTreeAlignment">Jointly infer tree and alignment</a></li>
+	        <li><a href="#M7">Use GTR+M7 model to infer tree and alignment</a></li>
+              </ol>
+            </li>
+            <li><a href="#features">Language Features</a></li>
+          </ul>
+
+
+          <h2><a name="theory">Theory: Bayesian hierarchical models as programs</a></h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporates data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
           <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
@@ -138,7 +151,7 @@ code {background: #f0f0f0}
                   is a fixed thing, and can't be random.  However, (universal) PPLs can indeed handle it.
             -->
 
-	  <h2>Examples</h2>
+	  <h2><a name="Examples">Examples</a></h2>
           <ol>
             <li><a href="#regression">Linear regression</a></li>
             <li><a href="#InferTreeAlignment">Jointly infer tree and alignment</a></li>
@@ -259,7 +272,7 @@ code {background: #f0f0f0}
             </ul>
             <pre><code class="haskell"><?php include('Demo5.hs') ?></code></pre>
           </div -->
-          <h2>Language properties</h2>
+          <h2><a name="features">Language features</a></h2>
 	  <p>The modeling language is a <a href="https://en.wikipedia.org/wiki/Functional_programming">functional language</a>, and uses <a href="https://www.haskell.org">Haskell</a> syntax.  Features currently implemented include:</p>
 	  <ol>
 	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
