@@ -35,6 +35,7 @@ code {background: #f0f0f0}
 	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
               <li><b>expressivity</b>: to be expressive enough that researchers can spend their time designing models instead of designing new inference software.</li>
+              <li><b>modularity</b>: flexibly combine smaller models to create novel larger models</li>
               <li><b>automatic inference</b>: the inference should largely take care of itself after the model is specified.</li>
             </ul>
           MCMC is used for inference.
@@ -43,7 +44,7 @@ code {background: #f0f0f0}
             This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
           <h2>Theory: Bayesian hierarchical models as programs</h2>
-          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporate data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
+          <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporates data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
           <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
           <p>
@@ -82,7 +83,7 @@ code {background: #f0f0f0}
             <li> decide whether to accept the proposed trace.</li>
           </ol>
 
-          <p>The <b>host environment</b> operates on model program traces to perform inference.
+          <p>The <b>host environment</b> modifies model program traces to perform inference.
             In contrast, the model program describes distributions on data but has no concept of inference.
             Therefore, modifications to the model program are not controlled by the model program, and are in fact
             invisible to it.
@@ -98,19 +99,17 @@ code {background: #f0f0f0}
             the affected parts of the model program's execution, saving lots of computation time.
           </p>
             
-          <p>BAli-Phy uses <b>Haskell</b> as a model language, because Haskell makes it possible
-            to determine which parts of the model program execution depend on a changed random variable.
+          <p>BAli-Phy uses <b>Haskell</b> as a model language.
+            Haskell makes it possible to determine which parts of the model program execution depend on a changed random variable.
             This is because Haskell represents control-flow statements (such as loops and if-then
             statements) as functions.</p>
 
           <p>We can therefore construct an <b>execution dependency graph</b>, which contains edges between
             every function output and any inputs to that function that might change.  
+            When a random variable changes, it allows us to identify the part of the graph that depends on that random variable, and re-execute it.
 
-          When a random variable changes, it allows us to identify the part of the graph
-          that depends on that random variable, and re-execute it.
-
-          This graph is similar to the graph of a PGM.  However, unlike a PGM, the shape of the graph is not fixed, but
-          depends on values of the random variables.
+            This graph is similar to the graph of a PGM.
+            However, unlike a PGM, the shape of the graph is not fixed, but depends on values of the random variables.
           </p>
           <!--
               Why do we care?
