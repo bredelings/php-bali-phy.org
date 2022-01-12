@@ -29,10 +29,10 @@
 
 	    <div style="margin-left:1em">
 	      <p>03/02/21: <strong>New paper</strong> - <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab129/6156619?guestAccessKey=b1599c90-6c9b-4d78-9b7a-ef1af494d414">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a></p>
-              <p>04/06/21: <strong>BAli-Phy 4 (unreleased)</strong> is under development on <a href="https://github.com/bredelings/BAli-Phy">github</a>.</a><br/>
-              Contact <a href="mailto:bali-phy-users@groups.google.com">bali-phy-users@groups.google.com</a> to find out how to participate.</p>
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
-                Bug fixes (<a href="releases/3/">release notes</a>)</p>
+                Bug fixes for <a href="https://github.com/bredelings/BayesianEstimatorSelfing/">BES</a> (See <a href="releases/3/">release notes</a>)</p>
+              <p>12/20/21: <strong>BAli-Phy 4.0-alpha4</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha4">github</a>.</a><br/>
+                <em>BAli-Phy 4.0</em> is on schedule for release around Jun 2022.</p>
 	      </div>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
