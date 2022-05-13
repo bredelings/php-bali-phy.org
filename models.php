@@ -163,7 +163,7 @@ code {background: #f0f0f0}
             <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li -->
           </ol>
 
-          <div class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in mid-2022.<br/><br/>To run these examples now you can
+          <div class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in early-to-mid 2023.<br/><br/>To run these examples now you can
             <ul>
               <li>download the latest 4.0-alpha release from <a href="https://github.com/bredelings/BAli-Phy/releases/">releases page on github</a></li>
               <li>or compile from the <a href="https://github.com/bredelings/BAli-Phy/">source on github.</a></li>
@@ -283,14 +283,14 @@ code {background: #f0f0f0}
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
 	    <li><b>Packages</b> work, and allow researchers to distribute their work separately from the BAli-Phy architecture.</li>
-	    <li><b>Optimization</b> works, and speeds up the users code via techniques such as inlining.</li>
+	    <li><b>Optimization</b> works, and speeds up the model code via techniques such as inlining.</li>
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
 	  </ol>
 
-	  <p>Features that are expected to be completed by mid-2022 include:</p>
+	  <p>Features that are expected to be completed by early-to-mid 2023 include:</p>
 	  <ul>
-	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors.</li>
+	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors. (<em>in progress</em>)</li>
 	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
             <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
             <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
