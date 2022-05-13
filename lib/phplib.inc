@@ -166,29 +166,30 @@ function dirtree() {
 */
 
 class MenuEntry {
-  var $title;
-  var $url;
+  var string $title;
+  var string $url;
   var $parent;
-  var $children;
-  function MenuEntry($arg1,$arg2) {
+  var array $children;
+
+  public function __construct($arg1,$arg2) {
     $this->title = $arg1;
     if ($arg2 != "") $this->url   = $arg2;
-    $this->children = array();
+    $this->children = [];
   }
 }
 
 class Menu {
-  var $entries;
+  var array $entries;
 
   function& get_entry($title) {
     $entry =& $this->entries[$title];
     if (!isset($entry)) {
       print "<p><b>error:</b> there is no node called '{$title}'</p>\n";
-      return NULL;
+      throw new Exception("<p><b>e error:</b> there is no node called '{$title}'</p>\n");
     }
     if ($entry == "ambiguous") {
       print "<p><b>error:</b> '{$title}' is ambiguous</p>\n";
-      return NULL;
+      throw new Exception("<p><b>error:</b> '{$title}' is ambiguous</p>\n");
     }
     return $entry;
   }
@@ -233,9 +234,9 @@ class Menu {
     /*    print "<p>$id</p>"; */
   }
 
-  function Menu() {
+  public function __construct() {
     global $top;
-    $this->entries['Top'] = new MenuEntry('Top',"{$top}");
+    $this->entries =  ['Top' => new MenuEntry('Top',"{$top}")];
   }
 
   function add_children($parent,$children) {
