@@ -81,17 +81,16 @@
 	      <!-- make an expanded references page with all papers + related papers -->
 	      <h2><a name="refs">References</a></h2>
 	      <ol> 
-                <li>Redelings BD (2021) <b>BAli-Phy version 3: model-based co-estimation of alignment and phylogeny</b>.<br/>
-                  <em>Bioinformatics</em> <b>37</b>(18). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btab129">doi:10.1093/bioinformatics/btab129</a>]</li>
-		<li>Redelings BD (2014) <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>.<br/>
-                  <em>Mol. Biol. Evo.</em> <b>31</b>(8). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/molbev/msu174">doi:10.1093/molbev/msu174</a>]</li>
-		<li>Redelings BD and Suchard MA (2007) <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>.<br/>
-                  <em>BMC Evolutionary Biology</em>, <b>7</b>:40.&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1186%2F1471-2148-7-40">doi: 10.1186/1471-2148-7-40</a>]</li>
-		<li>Suchard MA and Redelings BD (2006) <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>,
-                  <em>Bioinformatics</em>, <b>22</b>:2047-2048. &nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btl175">doi:10.1093/bioinformatics/btl175</a>]</li>
-		<li>Redelings BD and Suchard MA (2005) <b>Joint Bayesian Estimation of Alignment
-		    and Phylogeny</b>.<br/>
-                  <em>Systematic Biology</em>, <b>54</b>(3):401-418&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1080/10635150590947041">doi:10.1080/10635150590947041</a>]</li>
+                <li>Redelings BD <b>BAli-Phy version 3: model-based co-estimation of alignment and phylogeny</b>.<br/>
+                  (2021) <em>Bioinformatics</em> <b>37</b>(18). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btab129">doi:10.1093/bioinformatics/btab129</a>]</li>
+		<li>Redelings BD <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>.<br/>
+                  (2014) <em>Mol. Biol. Evo.</em> <b>31</b>(8). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/molbev/msu174">doi:10.1093/molbev/msu174</a>]</li>
+		<li>Redelings BD and Suchard MA <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>.<br/>
+                  (2007) <em>BMC Evolutionary Biology</em>, <b>7</b>:40.&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1186%2F1471-2148-7-40">doi: 10.1186/1471-2148-7-40</a>]</li>
+		<li>Suchard MA and Redelings BD <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>.<br/>
+                  (2006) <em>Bioinformatics</em>, <b>22</b>:2047-2048. &nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btl175">doi:10.1093/bioinformatics/btl175</a>]</li>
+		<li>Redelings BD and Suchard MA <b>Joint Bayesian Estimation of Alignment and Phylogeny</b>.<br/>
+                  (2005) <em>Systematic Biology</em>, <b>54</b>(3):401-418&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1080/10635150590947041">doi:10.1080/10635150590947041</a>]</li>
 	      </ol>
 	      </div>
 	    </td>  
