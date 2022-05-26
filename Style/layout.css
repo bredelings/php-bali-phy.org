@@ -1,7 +1,7 @@
 
 
 html {
-  font-size: 100%;
+n  font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -143,3 +143,4 @@ ul.uncompressed li {margin-bottom:1em}
 
 .roundedbox {border: solid; border-width: 0.15em; border-radius:1.5em; padding:1em}
 .warningbox {border: solid; border-width: 0.15em; border-radius:1.5em; padding:1em; border-color: #EE9090; background-color: #FFEAEA}
+.right_ref {float: right; padding-left:1em; padding-right: 4em}
