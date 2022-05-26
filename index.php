@@ -25,7 +25,7 @@
 	    <!-- we will need a 'full news': only put recent news here -->
 	    <!-- I suppose I also need a site w/ my bio to link to -->
 
-	    <h3><a name="intro">Introduction</a></h3>
+	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
               <p>4/29/22: <strong>BAli-Phy 4.0-alpha5</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha5">github</a>.</a><br/>
@@ -33,8 +33,10 @@
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
                 Bug fixes for <a href="https://github.com/bredelings/BayesianEstimatorSelfing/">BES</a> (See <a href="releases/3/">release notes</a>)</p>
-	      <p>03/02/21: <strong>New paper</strong> - <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab129/6156619?guestAccessKey=b1599c90-6c9b-4d78-9b7a-ef1af494d414">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a></p>
+	      <p>03/02/21: <strong>Paper</strong> - <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab129/6156619?guestAccessKey=b1599c90-6c9b-4d78-9b7a-ef1af494d414">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a></p>
 	      </div>
+
+	    <h3><a name="intro">Introduction</a></h3>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
 	      It uses likelihood-based evolutionary models of substitutions and insertions and deletions to place gaps.  It has been used in published analyses on data sets up to <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117 taxa</a>.</p>
@@ -78,12 +80,18 @@
 
 	      <!-- make an expanded references page with all papers + related papers -->
 	      <h2><a name="refs">References</a></h2>
-	      <ol>
-		<li>Redelings BD and Suchard MA <b>Joint Bayesian Estimation of Alignment
-		    and Phylogeny</b>, <em>Systematic Biology</em>, <b>54</b>(3):401-418, 2005&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2005.pdf">PDF</a>]</li>
-		<li>Suchard MA and Redelings BD <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>, <em>Bioinformatics</em>, <b>22</b>:2047-2048, 2006. &nbsp; &nbsp; [<a href="Suchard_and_Redelings_2006.pdf">PDF</a>]</li>
-		<li>Redelings BD and Suchard MA. <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>. <em>BMC Evolutionary Biology</em>, <b>7</b>:40, 2007.&nbsp; &nbsp; [<a href="Redelings_and_Suchard_2007.pdf">PDF</a>]</li>
-		<li>Redelings BD. <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>. <em>Mol. Biol. Evo.</em> <b>31</b>(8), 2014. [<a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">WWW</a>]</li>
+	      <ol> 
+                <li>Redelings BD (2021) <b>BAli-Phy version 3: model-based co-estimation of alignment and phylogeny</b>.<br/>
+                  <em>Bioinformatics</em> <b>37</b>(18). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btab129">doi:10.1093/bioinformatics/btab129</a>]</li>
+		<li>Redelings BD (2014) <b>Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection</b>.<br/>
+                  <em>Mol. Biol. Evo.</em> <b>31</b>(8). &nbsp;&nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/molbev/msu174">doi:10.1093/molbev/msu174</a>]</li>
+		<li>Redelings BD and Suchard MA (2007) <b>Incorporating indel information into phylogeny estimation for rapidly emerging pathogens</b>.<br/>
+                  <em>BMC Evolutionary Biology</em>, <b>7</b>:40.&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1186%2F1471-2148-7-40">doi: 10.1186/1471-2148-7-40</a>]</li>
+		<li>Suchard MA and Redelings BD (2006) <b>BAli-Phy: simultaneous Bayesian inference of alignment and phylogeny</b>,
+                  <em>Bioinformatics</em>, <b>22</b>:2047-2048. &nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1093/bioinformatics/btl175">doi:10.1093/bioinformatics/btl175</a>]</li>
+		<li>Redelings BD and Suchard MA (2005) <b>Joint Bayesian Estimation of Alignment
+		    and Phylogeny</b>.<br/>
+                  <em>Systematic Biology</em>, <b>54</b>(3):401-418&nbsp; &nbsp;&nbsp;&nbsp; [<a href="https://doi.org/10.1080/10635150590947041">doi:10.1080/10635150590947041</a>]</li>
 	      </ol>
 	      </div>
 	    </td>  
