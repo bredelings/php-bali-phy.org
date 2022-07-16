@@ -20,8 +20,8 @@ gtr_m7_model codons = do
     let pos_sel_model w = gtr_model & x3 codons & dNdS w
 
     -- M7 model parameters
-    mu    <- uniform 0.0 1.0            -- mean of dN/dS
-    gamma <- beta 1.0 10.0              -- spread of dN/dS
+    mu    <- uniform 0 1            -- mean of dN/dS
+    gamma <- beta 1 10              -- spread of dN/dS
     let m7_model = pos_sel_model & m7 mu gamma 4
 
     let loggers =
@@ -32,7 +32,7 @@ gtr_m7_model codons = do
             ]
     return (m7_model, loggers)
 
-branch_length_dist topology b = gamma 0.5 (2.0 / intToDouble n)
+branch_length_dist topology b = gamma 0.5 (2 / intToDouble n)
     where n = numBranches topology
 
 model seq_data = do
@@ -42,13 +42,13 @@ model seq_data = do
         tip_seq_lengths = get_sequence_lengths the_codons seq_data
 
     -- Tree
-    scale1 <- gamma 0.5 2.0
+    scale1 <- gamma 0.5 2
     tree   <- uniform_labelled_tree taxa branch_length_dist
     let tree1 = scale_branch_lengths scale1 tree
 
     -- Indel model
-    logLambda   <- log_laplace (-4.0) 0.707
-    mean_length <- (1.0 +) <$> exponential 10.0
+    logLambda   <- log_laplace (-4) 0.707
+    mean_length <- (1 +) <$> exponential 10
     let imodel = rs07 logLambda mean_length tree
 
     -- Substitution model
