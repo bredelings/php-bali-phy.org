@@ -277,8 +277,8 @@ code {background: #f0f0f0}
 	  <ol>
 	    <li><b>Random control flow</b> works, allowing if-then-else and loops that depend on random variables.</li>
 	    <li><b>Composite Objects</b> work, and can be used to define random data structures.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
-            <li><span class="timepoint">[unreleased]</span> <b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
+            <li><b>Random numbers of random variables</b>. Random variables can be conditionally created, without the need for reversible-jump methods.</li>
+            <li><b>Lazy random variables</b>. Infinite lists of random variables can be created.  Random variables are only instantiated if they are accessed</li>
             <li><b>MCMC</b> works, even when the number of variables is changing.</b>
 	    <li><b>Functions</b> work, and can be used to define random variables.</li>
 	    <li><b>Modules</b> work, and allow code to be factored in a clean manner.</li>
@@ -286,14 +286,20 @@ code {background: #f0f0f0}
 	    <li><b>Optimization</b> works, and speeds up the model code via techniques such as inlining.</li>
 	    <li><b>Recursive random variables</b>. Random processes on trees that are not known in advance.</li>
 	    <li><b>JSON logging</b>. This enables logging inferred parameters when their dimension and number is not fixed.</li>
+	    <li><b>Type system</b>. Enable polymorphism and useful error messages.</li>
 	  </ol>
 
 	  <p>Features that are expected to be completed by early-to-mid 2023 include:</p>
 	  <ul>
-	    <li><b>Type checking</b>. Type checking will enable polymorphism and give useful error messages for program errors. (<em>in progress</em>)</li>
-	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
             <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
+	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
             <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
+            <li><b>Unordered computations</b>. Sets of random variables.</li>
+            <li><b>Faster alignment</b>.  Allows aligning longer sequences.</li>
+            <li><b>Non-reversible markov models</b>.</li>
+            <li><b>Improved optimization of Haskell code</b>. Specialize polymorphic functions.</li>
+            <li><b>Decrease RAM usages per node</b>.</li>
+            <li><b>Allow much larger stack</b>.</li>
 	  </ul>
 
   </div>
