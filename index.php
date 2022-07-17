@@ -28,7 +28,7 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>4/29/22: <strong>BAli-Phy 4.0-alpha5</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha5">github</a>.</a><br/>
+              <p>7/16/22: <strong>BAli-Phy 4.0-alpha6</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha5">github</a>.</a><br/>
               <em>BAli-Phy 4.0</em> will likely be released around Jan 2023.</p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
