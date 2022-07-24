@@ -12,8 +12,8 @@ gtr_m7_model codons = do
 
     -- GTR model parameters
     let nucs = getNucleotides codons
-    sym <- symmetric_dirichlet_on (letter_pair_names nucs) 1.0
-    pi  <- symmetric_dirichlet_on (letters nucs) 1.0
+    sym <- symmetric_dirichlet_on (letter_pair_names nucs) 1
+    pi  <- symmetric_dirichlet_on (letters nucs) 1
     let gtr_model = gtr' sym pi nucs
 
     -- Positive selection model based on GTR
@@ -61,7 +61,7 @@ model seq_data = do
     seq_data ~> ctmc_on_tree tree1 alignment m7_model
 
     return
-        [ "tree1" %=% write_newick tree1
+        [ "tree1" %=% write_newick (make_rooted tree1)
         , "scale" %=% scale1
         , "S1" %>% log_m7_smodel
         , "|T|" %=% tree_length tree
@@ -71,6 +71,6 @@ model seq_data = do
 main = do
     [filename] <- getArgs
 
-    let seq_data = load_sequences filename
+    seq_data <- load_sequences filename
 
     mcmc $ model seq_data
