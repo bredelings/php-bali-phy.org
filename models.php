@@ -298,7 +298,7 @@ code {background: #f0f0f0}
             <li><b>Faster alignment</b>.  Allows aligning longer sequences.</li>
             <li><b>Non-reversible markov models</b>.</li>
             <li><b>Improved optimization of Haskell code</b>. Specialize polymorphic functions.</li>
-            <li><b>Decrease RAM usages per node</b>.</li>
+            <li><b>Decrease RAM usage per node</b>.</li>
             <li><b>Allow much larger stack</b>.</li>
 	  </ul>
 

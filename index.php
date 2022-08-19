@@ -28,8 +28,8 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>7/16/22: <strong>BAli-Phy 4.0-alpha6</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha6">github</a>.</a><br/>
-              <em>BAli-Phy 4.0</em> will likely be released around Jan 2023.</p>
+              <p>7/16/22: <strong>BAli-Phy 4.0-alpha7</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-alpha7">github</a>.</a><br/>
+              <em>BAli-Phy 4.0</em> will likely be released between Jan 2023 and Jun 2023.</p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
                 Bug fixes for <a href="https://github.com/bredelings/BayesianEstimatorSelfing/">BES</a> (See <a href="releases/3/">release notes</a>)</p>
