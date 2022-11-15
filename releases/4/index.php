@@ -18,16 +18,27 @@
 	  <div class="main">
 	  <h2><a name="news">Version 4 (unreleased)</a></h2>
 
-          <p>Version 4 is under development and will contain a number of new features.  You can preview it by compiling the
-            git master branch at <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
+          <p>Version 4 is under development and will contain a number of new features.  You can preview it by
+            <a href="https://github.com/bredelings/BAli-Phy/releases">downloading a pre-release</a> or compiling the git master branch at
+            <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
+
+          <p>New features so far include:
+            <ul>
+              <li><b><a href="../../models.php">probabilistic programming language</a></b> - describe your own phylogenetic models.</li>
+              <li><b>type checking</b> for the model language</li>
+              <li><b>improved MCMC</b> - slice-sampling by doubling.</li>
+            </ul>
+          </p>
 
           <p>New features will include
             <ul>
-              <li><b>improved MCMC</b> - slice-sampling by doubling.</li>
-              <li><b>alignment constraints</b> - needed to efficiently align long sequences.</li>
-              <li><b>probabilistic programming language</b> - easily write your own phylogenetic models.</li>
+              <li><b>Non-reversible markov models</b>.</li>
+              <li><b>Faster alignment</b> for long sequences.</li>
+              <li><b>Decrease RAM usage per node</b>.</li>
+	      <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
               <li><b>more flexible models</b> - easily change dimensions without reversible jump.</li>
               <li><b>RNA stem models</b> - model RNA stems and loops (fixed alignments)</li>
+              <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
           </ul>
 
           <p>See the <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for more details</p>
