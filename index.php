@@ -39,7 +39,8 @@
 	    <h3><a name="intro">Introduction</a></h3>
 
 	      <p><em>BAli-Phy</em> is software by  <a href="http://ben-redelings.org/">Ben Redelings</a> that estimates multiple sequence alignments and evolutionary trees from DNA, amino acid, or codon sequences.
-	      It uses likelihood-based evolutionary models of substitutions and insertions and deletions to place gaps.  It has been used in published analyses on data sets up to <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117 taxa</a>.</p>
+	        It uses likelihood-based evolutionary models of substitutions and insertions and deletions to place gaps.
+                <!-- It has been used in published analyses on data sets up to <a href="http://www.biomedcentral.com/1471-2164/15/718/figure/F1?highres=y">117 taxa</a>.</p> -->
 
 	      <p><b>High alignment accuracy</b>: <a href="http://mbe.oxfordjournals.org/content/31/8/1979.long">Redelings (2014)</a> showed that <em>BAli-Phy</em> had 3.5 times fewer alignment errors than MUSCLE and MAFFT on simulated data:</p>
 	      <p><img style="margin:auto;padding-right:5em;display:block" src="error-comparison.svg" width="600em" title="Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014." alt="Figure 4. from Redelings BD. Erasing Errors Due to Alignment Ambiguity When Estimating Positive Selection. Mol. Biol. Evo. 31(8), 2014."/></p>
