@@ -27,6 +27,7 @@
               <li><b><a href="../../models.php">probabilistic programming language</a></b> - describe your own phylogenetic models.</li>
               <li><b>type checking</b> for the model language</li>
               <li><b>improved MCMC</b> - slice-sampling by doubling.</li>
+              <li><b>decreased RAM usage</b></li>
             </ul>
           </p>
 
@@ -34,11 +35,10 @@
             <ul>
               <li><b>Non-reversible markov models</b>.</li>
               <li><b>Faster alignment</b> for long sequences.</li>
-              <li><b>Decrease RAM usage per node</b>.</li>
 	      <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
-              <li><b>more flexible models</b> - easily change dimensions without reversible jump.</li>
-              <li><b>RNA stem models</b> - model RNA stems and loops (fixed alignments)</li>
+              <li><b>more flexible models</b> - easily change dimensions without reversible jump. (<em>partially implemented</em>)</li>
               <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
+              <li><b>RNA stem models</b> - model RNA stems and loops (fixed alignments)</li>
           </ul>
 
           <p>See the <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for more details</p>
