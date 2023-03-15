@@ -28,6 +28,7 @@
               <li><b>type checking</b> for the model language</li>
               <li><b>improved MCMC</b> - slice-sampling by doubling.</li>
               <li><b>decreased RAM usage</b></li>
+              <li><b>better command-line model language</b></li>
             </ul>
           </p>
 
