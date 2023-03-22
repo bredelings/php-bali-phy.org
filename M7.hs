@@ -32,7 +32,7 @@ gtr_m7_model codons = do
             ]
     return (m7_model, loggers)
 
-branch_length_dist topology b = gamma 0.5 (2 / intToDouble n)
+branch_length_dist topology b = gamma 0.5 (2 / fromIntegral n)
     where n = numBranches topology
 
 model seq_data = do
