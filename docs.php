@@ -53,11 +53,12 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <div style="padding-top:1.5em">
 	      <hr/>
-	      <h2><a name="usersguidev4tutorialv3">Tutorial for version 4.0 beta</a></h2>
+	      <h2><a name="usersguidev4tutorialv3">User's guide for 4.0-beta versions.</a></h2>
 
-	      <p><b>4.0-beta3</b>: <a href="doc/4.0-beta3/README.html">HTML</a>
-		<a href="doc/4.0-beta3/README.xhtml">XHTML</a>
-		<a href="doc/4.0-beta3/README.pdf">PDF</a></p>
+	      <p><b>4.0-beta3</b>:
+                [<a href="doc/4.0-beta3/README.html">HTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta3/README.xhtml">XHTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta3/README.pdf">PDF</a></p>]
 	    </div>
 
 	    <div style="padding-top:1.5em">
