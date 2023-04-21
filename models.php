@@ -294,11 +294,9 @@ code {background: #f0f0f0}
             <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
 	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
             <li><b>Port alignment/tree inference</b>. Move alignment and tree inference completely to the model framework.</li>
-            <li><b>Unordered computations</b>. Sets of random variables.</li>
             <li><b>Faster alignment</b>.  Allows aligning longer sequences.</li>
             <li><b>Non-reversible markov models</b>.</li>
             <li><b>Improved optimization of Haskell code</b>. Specialize polymorphic functions.</li>
-            <li><b>Decrease RAM usage per node</b>.</li>
             <li><b>Allow much larger stack</b>.</li>
 	  </ul>
 
