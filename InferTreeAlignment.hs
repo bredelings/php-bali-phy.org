@@ -21,7 +21,7 @@ model seq_data = do
 
     -- Indel model
     indel_rate   <- prior $ log_laplace (-4) 0.707
-    mean_length <- (1 +) <$> sample (exponential 10)
+    mean_length <- (1 +) <$> prior (exponential 10)
     let imodel = rs07 indel_rate mean_length tree
 
     -- Substitution model
