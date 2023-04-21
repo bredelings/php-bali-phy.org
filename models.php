@@ -59,7 +59,7 @@ code {background: #f0f0f0}
           <h2><a name="theory">Theory: Bayesian hierarchical models as programs</a></h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporates data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
-          <img src="trace.svg" style="height:9em;display:block;margin:auto"/>
+          <img src="trace2.svg" style="height:9em;display:block;margin:auto"/>
           <p>
             Each time it is run, the model program will draw different values for the random variables from their prior distributions, and compute the prior probability and the likelihood of the observed data.
           </p>
