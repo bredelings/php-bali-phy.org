@@ -52,7 +52,7 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <div style="padding-top:1.5em">
 	      <hr/>
-	      <h2><a name="usersguidev4tutorialv3">User's guide for 4.0-beta versions.</a></h2>
+	      <h2><a name="usersguide-v4beta">User's guide for 4.0-beta versions.</a></h2>
 
 	      <p><b>4.0-beta3</b>:
 		[<a href="doc/4.0-beta3/README.xhtml">HTML</a>]&nbsp;&nbsp;
