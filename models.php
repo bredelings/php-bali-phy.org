@@ -175,7 +175,7 @@ code {background: #f0f0f0}
             <p>It probably helps to know that
             </p>
               <ul class="spaced-item">
-                <li><code class="haskell">f x</code> and <code class="haskell">f $ x</code> are the function <code class="haskell">f</code> applied to <code class="haskell">x</code></li>
+                <li><code class="haskell">f x</code> and <code class="haskell">f $ x</code> both mean the function <code class="haskell">f</code> applied to <code class="haskell">x</code></li>
                 <li><code class="haskell">let x = y</code> is a simple assignment (no side-effects)</li>
                 <li><code class="haskell">do...x &lt;- y...</code> performs some kind of action and assigns the result to x.<br/>
                   The action could be random sampling, an IO operation, etc, depending on the context.</li>
