@@ -55,12 +55,9 @@ h1,h2,h3,h4 {clear: both;}
 	      <hr/>
 	      <h2><a name="usersguidev4tutorialv3">Tutorial for version 4.0 beta</a></h2>
 
-	      <p>4.0-beta3:</p>
-	      <ul class="floatlist">
-		<li><a href="doc/4.0-beta3/README.html">HTML</a></li>
-		<li><a href="doc/4.0-beta3/README.xhtml">XHTML</a></li>
-		<li><a href="doc/4.0-beta3/README.pdf">PDF</a></li>
-	      </ul>
+	      <p><b>4.0-beta3</b>: <a href="doc/4.0-beta3/README.html">HTML</a>
+		<a href="doc/4.0-beta3/README.xhtml">XHTML</a>
+		<a href="doc/4.0-beta3/README.pdf">PDF</a></p>
 	    </div>
 
 	    <div style="padding-top:1.5em">
