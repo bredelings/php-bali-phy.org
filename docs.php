@@ -26,8 +26,7 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 	    <ul class="floatlist">
-	      <li><a href="README.html">HTML</a></li>
-	      <li><a href="README.xhtml">XHTML</a> (shows math)</li>
+	      <li><a href="README.xhtml">HTML</a></li>
 	      <li><?php track_link("README.pdf","PDF")?></li>
 	    </ul>
 
@@ -56,9 +55,8 @@ h1,h2,h3,h4 {clear: both;}
 	      <h2><a name="usersguidev4tutorialv3">User's guide for 4.0-beta versions.</a></h2>
 
 	      <p><b>4.0-beta3</b>:
-                [<a href="doc/4.0-beta3/README.html">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta3/README.xhtml">XHTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta3/README.pdf">PDF</a></p>]
+		[<a href="doc/4.0-beta3/README.xhtml">HTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta3/README.pdf">PDF</a>]</p>
 	    </div>
 
 	    <div style="padding-top:1.5em">
