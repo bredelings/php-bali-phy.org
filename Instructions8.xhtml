@@ -99,16 +99,16 @@ align = ferns.fasta:865-948   # exon 3
 align = ferns.fasta:953-1312  # intron 3
 align = ferns.fasta:1329-1393 # exon 4
 
-smodel = gtr+Rates.gamma+inv  # substitution model
+smodel = gtr +&gt; Rates.gamma +&gt; inv  # substitution model
 
 name = ferns-intron-exon      # determines name for output directory
-</pre><p>It should be possible to copy and paste this text into the nano editor below
+</pre><p>It should be possible to copy and paste this text into the nano editor when running nano.  Note the instructions on the bottom of the terminal when running nano: <strong class="userinput"><code>^X</code></strong> means <strong class="userinput"><code>Control-X</code></strong>.
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>nano ferns-config1.txt           </code></strong>// Note the instructions on the bottom of the terminal: <strong class="userinput"><code>^X</code></strong> means <strong class="userinput"><code>Control-X</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>nano ferns-config1.txt</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>cat ferns-config1.txt</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config1.txt --test | less</code></strong>
 </pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm239"></a>4.2. Command line options</h3></div></div></div><p>A script file can be turned into a command-line by replacing commands like <strong class="userinput"><code>command = value</code></strong> with <strong class="userinput"><code>--command value</code></strong>.  The exception is that for <strong class="userinput"><code>align=file</code></strong> commands, you can just write the filename by itself:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy ferns.fasta:{5-8,12-444,454-596,609-844,865-948,953-1312,1329-1393} --smodel gtr+Rates.gamma+inv --name=ferns-intron-exon --test</code></strong>
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy ferns.fasta:{5-8,12-444,454-596,609-844,865-948,953-1312,1329-1393} --smodel 'gtr +&gt; Rates.gamma +&gt; inv' --name=ferns-intron-exon --test</code></strong>
 </pre><p>However, with partitioned analyses the command-line can become kind of long.  Raw command lines are more useful with a simple unpartitioned analysis:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy ferns.fasta --test</code></strong>
 </pre><p>You can see the options for bali-phy by running:
@@ -162,7 +162,7 @@ This means that all the exons share a single set of nucleotide frequencies, etc.
 We share substitution models between partitions by specifying the list of partitions
 that a substitution model applies to.</li><li class="listitem">Let's also share a single substitution model between all introns.</li><li class="listitem">Lets use the "free rates" model instead of site-rate heterogeneity.
 This means that the rate for each bin is allowed to vary independently.
-So we drop the "+inv" part of the model
+So we drop the "+&gt; inv" part of the model
 </li><li class="listitem">Lets fix the alignment for the exons.
 We can do this by specifying an insertion-deletion model of "none" for those partitions.
 </li></ul></div>
@@ -177,8 +177,8 @@ align = ferns.fasta:865-948     # exon 3
 align = ferns.fasta:953-1312    # intron 3
 align = ferns.fasta:1329-1393   # exon 4
 
-smodel = 1,3,5,7:gtr+Rates.free # substitution model
-smodel = 2,4,6:gtr+Rates.free   # substitution model
+smodel = 1,3,5,7:gtr +&gt; Rates.free # substitution model
+smodel = 2,4,6:gtr +&gt; Rates.free   # substitution model
 
 imodel = 1,3,5,7:none           # insertion-deletion model
 imodel = 2,4,6:rs07             # insertion-deletion model
@@ -207,11 +207,11 @@ align = ferns.fasta:12-444    # intron 1
 align = ferns.fasta:609-844   # intron 2
 align = ferns.fasta:953-1312  # intron 3
 
-smodel = 1:gy94[pi=f1x4]
+smodel = 1:gy94(pi=f1x4)
 #smodel = 1:m3
-#smodel = 1:gtr+x3+dNdS+mut_sel_aa
-#smodel = 1:function[w,gtr+x3+dNdS[omega=w]+mut_sel_aa]+m3
-smodel = 2,3,4:gtr+Rates.free
+#smodel = 1:gtr + &gt; x3 +&gt; dNdS +&gt; mut_sel_aa
+#smodel = 1:function(w:gtr +&gt; x3 +&gt; dNdS(omega=w) +&gt; mut_sel_aa) +&gt; m3
+smodel = 2,3,4:gtr +&gt; Rates.free
 
 imodel = 1:none
 imodel = 2,3,4:rs07
