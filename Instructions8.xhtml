@@ -47,7 +47,7 @@ Which alignment (or alignments) is most likely?  Why?
 <code class="prompt">%</code> <strong class="userinput"><code>which fasta-flip.pl				 </code></strong>// check to make sure its in your PATH
 </pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>chmod +x compare-alignments			 </code></strong>// make the file executable
 <code class="prompt">%</code> <strong class="userinput"><code>cp compare-alignments ~/bin			 </code></strong>// copy the file to ~/bin
-<code class="prompt">%</code> <strong class="userinput"><code>which compare-alignments ~/bin         	 </code></strong>// check to make sure its in your PATH
+<code class="prompt">%</code> <strong class="userinput"><code>which compare-alignments              	 </code></strong>// check to make sure its in your PATH
 </pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm123"></a>2.3. MAFFT and HoT and Seaview</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cp ferns/cleaned.fasta ferns.fasta                                          </code></strong>// make a copy of a file
 <code class="prompt">%</code> <strong class="userinput"><code>mafft --auto ferns.fasta &gt; ferns-mafft.fasta                             </code></strong>// try a simple sequence alignment 
 <code class="prompt">%</code> <strong class="userinput"><code>fasta-flip.pl ferns.fasta | mafft --auto - | fasta-flip.pl &gt; ferns-mafft-flipped.fasta</code></strong>
