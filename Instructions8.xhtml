@@ -62,7 +62,7 @@ Look at the time to perform different numbers of iterations with MAFFT:
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-info ferns-muscle.fasta | grep columns                            </code></strong>// How long is the alignment?
 <code class="prompt">%</code> <strong class="userinput"><code>compare-alignments ferns-mafft.fasta ferns-muscle.fasta &gt; ferns-compare-muscle-mafft.html</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>firefox ferns-compare-muscle-mafft.html</code></strong>
-</pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>muscle -align ferns.fasta -output ferns-muscle.efa -diversified -replicates=10</code></strong>
+</pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>muscle -align ferns.fasta -output ferns-muscle.efa -diversified -replicates 10</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>muscle -efa_explode ferns-muscle.efa</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>aliview abc.1 &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>aliview acb.2 &amp;</code></strong>
