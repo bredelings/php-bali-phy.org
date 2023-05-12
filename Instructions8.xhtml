@@ -129,7 +129,7 @@ Lets look inside one of these directories:
 <code class="prompt">%</code> <strong class="userinput"><code>less ferns-intron-exon-1/C1.P2.fastas       </code></strong>// alignment samples for partition 2
 </pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm284"></a>4.4. Monitoring an analysis</h3></div></div></div>
 You can monitor an analysis in two ways.  One way is to use the program <strong class="userinput"><code>tracer</code></strong>.
-<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tracer ferns-intron-exon-1/C1.log ferns/intron-exon-2/C1.log   </code></strong>// you may need to double-click on Tracer and load log files via the menu.
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tracer ferns-intron-exon-1/C1.log ferns-intron-exon-2/C1.log   </code></strong>// you may need to double-click on Tracer and load log files via the menu.
 </pre>We would like to see that the likelihood and posterior probability have stabilized.  Another method of monitoring is just to
 generate the summary report.
 </div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm291"></a>4.5. Interpreting parameter names</h3></div></div></div>
@@ -141,7 +141,7 @@ We can get information on what a parameter means by running <span class="command
 </div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm313"></a>4.6. Summarizing the results of a run</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon-1 ferns-intron-exon-2</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html</code></strong>
 </pre>Let's concatenate the summmary estimates for each partition to recover an alignment for the whole gene region.
-<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat Results/P{1..7}-max.fasta &gt; ferns-bali-phy.fasta</code></strong>
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat Results/P{1..7}.max.fasta &gt; ferns-bali-phy.fasta</code></strong>
 </pre>Since bali-phy is still running, we can get information on its progress by rerunning <strong class="userinput"><code>bp-analyze</code></strong>.
 </div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm325"></a>4.7. Comparing to MAFFT, FSA, and PRANK</h3></div></div></div>
 We can see how the different aligners affect the total alignment length:
