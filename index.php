@@ -22,13 +22,10 @@
 
 	  <div class="main">
 
-	    <!-- we will need a 'full news': only put recent news here -->
-	    <!-- I suppose I also need a site w/ my bio to link to -->
-
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>05/12/23: <strong>BAli-Phy 4.0-beta4</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-beta4">github</a>.<br/>
+              <p>06/27/23: <strong>BAli-Phy 4.0-beta5</strong> is available for download on <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-beta5">github</a>.<br/>
               <em>BAli-Phy 4.0</em> will likely be released around Jun 2024.</p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
