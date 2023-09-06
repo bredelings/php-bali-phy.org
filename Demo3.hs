@@ -1,3 +1,5 @@
+module Model where
+
 import           Probability
 
 model = do
@@ -7,5 +9,5 @@ model = do
     return ["i" %=% i, "x" %=% x]
 
 main = do
-  mcmc model
+  return model
       

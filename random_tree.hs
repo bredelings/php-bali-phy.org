@@ -1,7 +1,10 @@
 {-# LANGUAGE RecursiveDo #-}
+module Model where
+
 import           Probability
 import           Tree
 import           Tree.Newick
+import           Control.Monad.Fix -- should be unneeded
 
 model = do
     tree <- prior $ uniform_topology 5
@@ -18,4 +21,4 @@ model = do
     return ["tree" %=% write_newick rtree, "xs" %=% xs, "ps" %=% ps]
 
 main = do
-  mcmc model
+  return model

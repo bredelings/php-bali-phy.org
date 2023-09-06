@@ -1,3 +1,5 @@
+module Model where
+
 import           Probability
 
 -- sequence of @n points [from, next,....,to] where the distribution
@@ -20,4 +22,4 @@ model = do
     return ["xs" %=% xs]
 
 main = do
-  mcmc model
+  return model

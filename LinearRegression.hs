@@ -1,3 +1,5 @@
+module LinearRegression where
+
 import           Probability
 import           Data.Frame
 
@@ -21,5 +23,5 @@ main = do
   let xs = xy_data $$ "x" :: [Double]
       ys = xy_data $$ "y" :: [Double]
 
-  mcmc $ model xs ys
+  return $ model xs ys
 

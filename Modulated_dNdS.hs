@@ -1,33 +1,32 @@
-import           Probability
-import           Bio.Alphabet
-import           Bio.Sequence
-import           Tree
-import           Tree.Newick
-import           SModel
-import           Probability.Distribution.OnTree
-import           System.Environment  -- for getArgs
+import Bio.Alphabet
+import Bio.Sequence
+import Probability
+import Probability.Distribution.OnTree
+import SModel
+import System.Environment -- for getArgs
+import Tree
+import Tree.Newick
 
 modulated_smodel codons = do
-
     -- GTR model parameters
     let nucs = getNucleotides codons
     sym <- prior $ symmetric_dirichlet_on (letter_pair_names nucs) 1
-    pi  <- prior $ symmetric_dirichlet_on (letters nucs) 1
+    pi <- prior $ symmetric_dirichlet_on (letters nucs) 1
     let gtr_model = gtr' sym pi nucs
 
     -- fMutSel model and parameters
-    let aas       = letters (getAminoAcids codons)
+    let aas = letters (getAminoAcids codons)
     ws <- prior $ iid (length aas) (normal 0 1)
     let ss = (zip aas ws)
     let mut_sel_model = gtr_model +> x3 codons +> mut_sel_aa' ss
 
     -- M7 model parameters
-    mu    <- prior $ uniform 0 1            -- mean of dN/dS
-    gamma <- prior $ beta 1 10              -- spread of dN/dS
+    mu <- prior $ uniform 0 1 -- mean of dN/dS
+    gamma <- prior $ beta 1 10 -- spread of dN/dS
     let m7_model = (\w -> mut_sel_model +> dNdS w) +> m7 mu gamma 4
 
     -- Modulated Markov model (Galtier '01) parameters
-    nu                 <- prior $ exponential 0.1
+    nu <- prior $ exponential 0.1
     fraction_modulated <- prior $ uniform 0 1
     let modulated_model = m7_model +> galtier_01 nu fraction_modulated
 
@@ -45,10 +44,9 @@ modulated_smodel codons = do
 branch_length_dist topology b = gamma 0.5 (2 / fromIntegral n) where n = numBranches topology
 
 model seq_data = do
-
     let taxa = map sequence_name seq_data
 
-    tree   <- prior $ uniform_labelled_tree taxa branch_length_dist
+    tree <- prior $ uniform_labelled_tree taxa branch_length_dist
 
     scale1 <- prior $ gamma 0.5 2
     let tree1 = scale_branch_lengths scale1 tree

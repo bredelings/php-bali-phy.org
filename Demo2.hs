@@ -1,3 +1,5 @@
+module Model where
+
 import           Probability
 
 model = do
@@ -9,4 +11,4 @@ model = do
     return ["xs" %=% xs, "squares" %=% ys, "sum" %=% sum ys]
 
 main = do
-  mcmc model
+  return model

@@ -1,3 +1,5 @@
+module Model where
+
 import           Probability
 import           Bio.Alignment
 import           Bio.Alphabet
@@ -11,7 +13,7 @@ import           System.Environment  -- for getArgs
 branch_length_dist topology branch = gamma (1/2) (2/fromIntegral n) where n = numBranches topology
 
 model seq_data = do
-    let taxa            = map sequence_name seq_data
+    let taxa            = map sequenceName seq_data
         tip_seq_lengths = get_sequence_lengths dna seq_data
 
     -- Tree
@@ -21,7 +23,7 @@ model seq_data = do
 
     -- Indel model
     indel_rate   <- prior $ log_laplace (-4) 0.707
-    mean_length <- (1 +) <$> prior (exponential 10)
+    mean_length <- (1 +) <$> sample (exponential 10)
     let imodel = rs07 indel_rate mean_length tree
 
     -- Substitution model
@@ -37,7 +39,7 @@ model seq_data = do
     observe seq_data $ ctmc_on_tree tree1 alignment tn93_model
 
     return
-        [ "tree1" %=% write_newick (make_rooted tree1)
+        [ "tree1" %=% write_newick tree1
         , "log(indel_rate)" %=% log indel_rate
         , "mean_length" %=% mean_length
         , "kappa1" %=% kappa1
@@ -54,4 +56,4 @@ main = do
 
     seq_data <- load_sequences filename
 
-    mcmc $ model seq_data
+    return $ model seq_data
