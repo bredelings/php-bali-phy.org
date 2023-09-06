@@ -213,7 +213,7 @@ code {background: #f0f0f0}
 
                 <p>You can find this file
                 in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/infer_tree/1/">bali-phy/tests/prob_prog/infer_tree/1/</a>
-                  and run it as <b>bali-phy -m Main.hs 5d-muscle.fasta --iter=1000</b>.
+                  and run it as <b>bali-phy -m Model.hs 5d-muscle.fasta --iter=1000</b>.
                 </p>
           </div>
 
