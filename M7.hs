@@ -63,7 +63,7 @@ model seq_data = do
     observe seq_data $ ctmc_on_tree tree1 alignment m7_model
 
     return
-        [ "tree" %=% write_newick tree1,
+        [ "tree" %=% write_newick tree1
         , "scale" %=% scale1
         , "S1" %>% log_m7_smodel
         , "|T|" %=% tree_length tree
