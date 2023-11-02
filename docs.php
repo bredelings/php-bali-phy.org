@@ -60,6 +60,9 @@ h1,h2,h3,h4 {clear: both;}
 	      <p><b>4.0-beta4</b>:
 		[<a href="doc/4.0-beta4/README.xhtml">HTML</a>]&nbsp;&nbsp;
 		[<a href="doc/4.0-beta4/README.pdf">PDF</a>]</p>
+	      <p><b>4.0-beta7</b>:
+		[<a href="doc/4.0-beta7/README.xhtml">HTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta7/README.pdf">PDF</a>]</p>
 	    </div>
 
 	    <div style="padding-top:1.5em">
