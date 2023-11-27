@@ -4,7 +4,6 @@ import Bio.Alignment
 import Bio.Alphabet
 import IModel
 import Probability
-import Probability.Distribution.OnTree
 import SModel
 import System.Environment -- for getArgs
 import Tree
@@ -38,15 +37,13 @@ branch_length_dist topology b = gamma 0.5 (2 / fromIntegral n)
   where
     n = numBranches topology
 
-model seq_data = do
+model sequenceData = do
     let the_codons = codons dna standard_code
-        taxa = map sequenceName seq_data
-        tip_seq_lengths = get_sequence_lengths the_codons seq_data
+        taxa = getTaxa sequenceData
 
     -- Tree
-    scale1 <- prior $ gamma 0.5 2
+    scale <- prior $ gamma 0.5 2
     tree <- prior $ uniform_labelled_tree taxa branch_length_dist
-    let tree1 = scale_branch_lengths scale1 tree
 
     -- Indel model
     logLambda <- prior $ log_laplace (-4) 0.707
@@ -57,22 +54,30 @@ model seq_data = do
     (m7_model, log_m7_smodel) <- gtr_m7_model the_codons
 
     -- Alignment
-    alignment <- prior $ random_alignment tree1 imodel tip_seq_lengths
+    let sequence_lengths = get_sequence_lengths sequenceData
+    alignment <- prior $ phyloAlignment tree imodel scale sequence_lengths
 
     -- Observation
-    observe seq_data $ ctmc_on_tree tree1 alignment m7_model
+    observe sequenceData $ phyloCTMC tree alignment m7_model scale
+
+    let alignment_length = alignmentLength alignment
+        num_indels = totalNumIndels alignment
+        total_length_indels = totalLengthIndels alignment
 
     return
-        [ "tree" %=% write_newick tree1
-        , "scale" %=% scale1
+        [ "tree" %=% write_newick tree
+        , "scale" %=% scale
         , "S1" %>% log_m7_smodel
         , "|T|" %=% tree_length tree
-        , "scale1*|T|" %=% tree_length tree1
+        , "scale*|T|" %=% scale * tree_length tree
+        , "|A|" %=% alignment_length
+        , "#indels" %=% num_indels
+        , "|indels|" %=% total_length_indels
         ]
 
 main = do
     [filename] <- getArgs
 
-    seq_data <- load_sequences filename
+    sequenceData <- mkUnalignedCharacterData (codons dna standard_code) <$> load_sequences filename
 
-    return $ model seq_data
+    return $ model sequenceData
