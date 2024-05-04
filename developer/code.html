@@ -5,55 +5,93 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>BAli-Phy architecture and code layout</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="pandoc.css" />
 </head>
 <body>
-<header>
+<header id="title-block-header">
 <h1 class="title">BAli-Phy architecture and code layout</h1>
 </header>
 <h2 id="bali-phy-architecture">BAli-Phy architecture</h2>
-<p>In order to add functionality to BAli-Phy, it is important to understand the BAli-Phy architecture. This architecture is divided into several levels.</p>
+<p>In order to add functionality to BAli-Phy, it is important to
+understand the BAli-Phy architecture. This architecture is divided into
+several levels.</p>
 <figure>
-<img src="architecture.png" alt="Architecture diagram" /><figcaption>Architecture diagram</figcaption>
+<img src="architecture.png" alt="Architecture diagram" />
+<figcaption aria-hidden="true">Architecture diagram</figcaption>
 </figure>
-<p>In BAli-Phy, distributions, functions, and models are all implemented as functions. To add functionality to the standard BAli-Phy interface, you need to add a Haskell function (green), and a binding (blue) that makes that function visible. BAli-Phy does not use a standard Haskell compiler, but instead implements its own Haskell interpreter that has special functionality.</p>
-<p>If you are using the generic graphical modeling language, you can use the Haskell function directly, and do not need to add a binding.</p>
-<p>In some cases you might want to implement your function in C++ (yellow) and then call it from Haskell.</p>
+<p>In BAli-Phy, distributions, functions, and models are all implemented
+as functions. To add functionality to the standard BAli-Phy interface,
+you need to add a Haskell function (green), and a binding (blue) that
+makes that function visible. BAli-Phy does not use a standard Haskell
+compiler, but instead implements its own Haskell interpreter that has
+special functionality.</p>
+<p>If you are using the generic graphical modeling language, you can use
+the Haskell function directly, and do not need to add a binding.</p>
+<p>In some cases you might want to implement your function in C++
+(yellow) and then call it from Haskell.</p>
 <h2 id="source-code">Source Code</h2>
-<p>These directories contain code that affects how <code>bali-phy</code> runs: <img src="code-layout.png" alt="Code layout" /></p>
+<p>These directories contain code that affects how <code>bali-phy</code>
+runs: <img src="code-layout.png" alt="Code layout" /></p>
 <dl>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/modules">modules/</a></dt>
-<dd>Haskell code
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/modules">modules/</a></dt>
+<dd>
+Haskell code
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/src">src/</a></dt>
-<dd>C++17 code
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/src">src/</a></dt>
+<dd>
+C++17 code
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/bindings">bindings/</a></dt>
-<dd>JSON definitions of functions for the command-line interface
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/bindings">bindings/</a></dt>
+<dd>
+JSON definitions of functions for the command-line interface
 </dd>
 </dl>
 <h2 id="documentation-and-examples">Documentation and examples</h2>
 <dl>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/help">help/</a></dt>
-<dd>Help files
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/help">help/</a></dt>
+<dd>
+Help files
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/doc/">doc/</a></dt>
-<dd>Documentation
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/doc/">doc/</a></dt>
+<dd>
+Documentation
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/doc/man/">doc/man/</a></dt>
-<dd>Markdown files for generating UNIX manual pages
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/doc/man/">doc/man/</a></dt>
+<dd>
+Markdown files for generating UNIX manual pages
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/sequences/">examples/sequences/</a></dt>
-<dd>Example sequences
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/examples/sequences/">examples/sequences/</a></dt>
+<dd>
+Example sequences
 </dd>
-<dt><a href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models/">examples/models/</a></dt>
-<dd>Example files for running graphical models.
+<dt><a
+href="https://github.com/bredelings/BAli-Phy/blob/master/examples/models/">examples/models/</a></dt>
+<dd>
+Example files for running graphical models.
 </dd>
 </dl>
 </body>

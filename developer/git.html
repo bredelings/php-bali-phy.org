@@ -5,122 +5,157 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Contributing changes with Git</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {  }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="pandoc.css" />
 </head>
 <body>
-<header>
+<header id="title-block-header">
 <h1 class="title">Contributing changes with Git</h1>
 </header>
-<p>This document describes how to “fork” the BAli-Phy repository and submit a “pull request” in order to contribute changes.</p>
-<p>If instead you just want to get the source code, then you should ignore this tutorial and just “clone” the repository.</p>
-<h2 id="fork-and-download-the-source-code">Fork and download the source code</h2>
+<p>This document describes how to “fork” the BAli-Phy repository and
+submit a “pull request” in order to contribute changes.</p>
+<p>If instead you just want to get the source code, then you should
+ignore this tutorial and just “clone” the repository.</p>
+<h2 id="fork-and-download-the-source-code">Fork and download the source
+code</h2>
 <ol type="1">
-<li><p>Click the “Fork” button on <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a> to create a version of the code under your own account. (You will need a github account for this.)</p></li>
+<li><p>Click the “Fork” button on <a
+href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy/</a>
+to create a version of the code under your own account. (You will need a
+github account for this.)</p></li>
 <li><p>Download your version of the code:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">git</span> clone git@github.com:your-username/BAli-Phy.git</a></code></pre></div>
-<p>The name <code>origin</code> in your local repo will then refer to your modified version of BAli-Phy.</p></li>
-<li><p>Create a new remote called <code>upstream</code> to refer to the upstream version:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1"><span class="bu">cd</span> BAli-Phy/</a>
-<a class="sourceLine" id="cb2-2" title="2"><span class="fu">git</span> remote add upstream https://github.com/bredelings/BAli-Phy.git</a>
-<a class="sourceLine" id="cb2-3" title="3"><span class="fu">git</span> remote -v</a>
-<a class="sourceLine" id="cb2-4" title="4"><span class="fu">git</span> fetch upstream</a></code></pre></div></li>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:your-username/BAli-Phy.git</span></code></pre></div>
+<p>The name <code>origin</code> in your local repo will then refer to
+your modified version of BAli-Phy.</p></li>
+<li><p>Create a new remote called <code>upstream</code> to refer to the
+upstream version:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> BAli-Phy/</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add upstream https://github.com/bredelings/BAli-Phy.git</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote <span class="at">-v</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> fetch upstream</span></code></pre></div></li>
 <li><p>Make the <code>master</code> branch track upstream changes.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="fu">git</span> checkout master</a>
-<a class="sourceLine" id="cb3-2" title="2"><span class="fu">git</span> branch --set-upstream-to upstream/master</a></code></pre></div>
-<p>This is optional, but recommended. The plan is that you will use the <code>master</code> branch to track the upstream source, and the make other branches to hold your changes.</p></li>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout master</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">--set-upstream-to</span> upstream/master</span></code></pre></div>
+<p>This is optional, but recommended. The plan is that you will use the
+<code>master</code> branch to track the upstream source, and the make
+other branches to hold your changes.</p></li>
 </ol>
 <h2 id="make-changes-on-a-branch">Make changes on a branch</h2>
 <ol type="1">
-<li><p>Create a new branch to contain your changes. In this example the branch is called <code>my-new-feature-branch</code>, but you should pick a name that describes the changes you are making.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" title="1"><span class="fu">git</span> fetch upstream</a>
-<a class="sourceLine" id="cb4-2" title="2"><span class="fu">git</span> branch my-new-feature-branch upstream/master</a>
-<a class="sourceLine" id="cb4-3" title="3"><span class="fu">git</span> checkout my-new-feature-branch</a></code></pre></div></li>
+<li><p>Create a new branch to contain your changes. In this example the
+branch is called <code>my-new-feature-branch</code>, but you should pick
+a name that describes the changes you are making.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> fetch upstream</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch my-new-feature-branch upstream/master</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout my-new-feature-branch</span></code></pre></div></li>
 <li><p>Edit files and commit changes.</p></li>
 <li><p>Publish your changes to to github.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" title="1"><span class="fu">git</span> checkout my-new-feature-branch</a>
-<a class="sourceLine" id="cb5-2" title="2"><span class="fu">git</span> push origin my-new-feature-branch</a></code></pre></div></li>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout my-new-feature-branch</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin my-new-feature-branch</span></code></pre></div></li>
 </ol>
-<h2 id="contribute-changes-to-the-bali-phy-project">Contribute changes to the BAli-Phy project</h2>
+<h2 id="contribute-changes-to-the-bali-phy-project">Contribute changes
+to the BAli-Phy project</h2>
 <ol type="1">
-<li>Send a <a href="https://help.github.com/articles/about-pull-requests/">pull request</a> through github:
+<li>Send a <a
+href="https://help.github.com/articles/about-pull-requests/">pull
+request</a> through github:
 <ol type="1">
-<li>Go to <a href="https://github.com/bredelings/BAli-Phy" class="uri">https://github.com/bredelings/BAli-Phy</a> and click <code>New pull request</code></li>
+<li>Go to <a
+href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>
+and click <code>New pull request</code></li>
 <li>Click <code>compare across forks</code>.</li>
-<li>Select <code>your-username/BAli-Phy</code> for the <em>head repository</em>.</li>
+<li>Select <code>your-username/BAli-Phy</code> for the <em>head
+repository</em>.</li>
 <li>Select <code>compare:my-new-feature-branch</code></li>
 <li>Write a title and a short message.</li>
 <li>Click <code>Create pull request</code>.</li>
 </ol></li>
 </ol>
-<p>Tests will run automatically on the proposed changes, and we will review the changes. When everything is ready, changes will be merged to the master branch.</p>
+<p>Tests will run automatically on the proposed changes, and we will
+review the changes. When everything is ready, changes will be merged to
+the master branch.</p>
 </body>
 </html>
