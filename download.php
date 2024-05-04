@@ -23,6 +23,18 @@
 	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.</p>
 	  <!-- I should add an outline here of subsections under installation -->
 
+	  <h3>Beta (development) release</h3>
+	  <ul>
+	    <li style="padding-bottom:1em"><b>4.0-beta9</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
+
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-linux64-intel-singularity.tar.gz","Linux&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-mac-intel64.tar.gz","Mac&nbsp;64-bit&nbsp;(Big Sur)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-mac-arm64.tar.gz","Mac&nbsp;64-bit&nbsp;(Big Sur)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-win64.tar.gz","Windows&nbsp;64-bit") ?>]
+	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
+	  </ul>
+
 	  <h3>Current (stable) release</h3>
 	  <ul>
 	    <li style="padding-bottom:1em"><b>3.6.1</b> (<a href="releases/3/">Changes</a>): 
