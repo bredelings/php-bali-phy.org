@@ -28,7 +28,7 @@
 	    <li style="padding-bottom:1em"><b>4.0-beta9</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
 
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-linux64.tar.gz","Linux") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-linux64-intel-singularity.tar.gz","Linux&nbsp;(Singularity Image)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-linux64-intel-singularity.sif","Linux&nbsp;(Singularity Image)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-mac-intel64.tar.gz","Mac&nbsp;(Intel)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-mac-arm64.tar.gz","Mac&nbsp;(Apple&nbsp;Silicon)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta9/bali-phy-4.0-beta9-win64.tar.gz","Windows") ?>]
