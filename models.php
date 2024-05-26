@@ -163,11 +163,7 @@ code {background: #f0f0f0}
             <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li -->
           </ol>
 
-          <div class="warningbox"><b>Note</b>: These examples work with beta releases of version 4, not with version 3.  To run these examples, you can
-            <ul>
-              <li>download the <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-beta13">4.0-beta13</a> release, or</li>
-              <li>compile from the <a href="https://github.com/bredelings/BAli-Phy/">source on github.</a></li>
-            </ul>
+          <div class="warningbox"><b>Note</b>: These examples work with (beta releases of) version 4, but <strong>not</strong> with version 3.  To run these examples, you can download <a href="download.php">the latest 4.0-beta release</a>, or compile the latest <a href="https://github.com/bredelings/BAli-Phy/">source from github</a>.</li>
           </div>
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
