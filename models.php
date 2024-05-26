@@ -165,7 +165,7 @@ code {background: #f0f0f0}
 
           <div class="warningbox"><b>Note</b>: These examples won't work with version 3.  They will be part of version 4, which is expected to come out in early-to-mid 2023.<br/><br/>To run these examples now you can
             <ul>
-              <li>download the <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-beta6">4.0-beta6 release</a>, or</li>
+              <li>download the <a href="https://github.com/bredelings/BAli-Phy/releases/tag/4.0-beta13">4.0-beta13release</a>, or</li>
               <li>compile from the <a href="https://github.com/bredelings/BAli-Phy/">source on github.</a></li>
             </ul>
           </div>

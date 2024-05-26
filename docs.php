@@ -52,6 +52,19 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <div style="padding-top:1.5em">
 	      <hr/>
+	      <h2><a name="tutorialv3">Tutorial for version 3</a></h2>
+
+	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+
+	      <ul class="floatlist">
+		<li><a href="Tutorial4.html">HTML</a></li>
+		<li><a href="Tutorial4.xhtml">XHTML</a> (shows math)</li>
+		<li><?php track_link("Tutorial4.pdf","PDF")?></li>
+	      </ul>
+	    </div>
+
+	    <div style="padding-top:1.5em">
+	      <hr/>
 	      <h2><a name="usersguide-v4">User's guide for 4.0-beta versions.</a></h2>
 
 	      <p><b>4.0-beta13</b>:
@@ -69,15 +82,14 @@ h1,h2,h3,h4 {clear: both;}
 	    </div>
 
 	    <div style="padding-top:1.5em">
-	      <hr/>
-	      <h2><a name="tutorialv3">Tutorial for version 3</a></h2>
+	      <h2><a name="tutorialv3">Tutorial for version 4</a></h2>
 
 	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
 
 	      <ul class="floatlist">
-		<li><a href="Tutorial4.html">HTML</a></li>
-		<li><a href="Tutorial4.xhtml">XHTML</a> (shows math)</li>
-		<li><?php track_link("Tutorial4.pdf","PDF")?></li>
+		<li><a href="Tutorial6.html">HTML</a></li>
+		<li><a href="Tutorial6.xhtml">XHTML</a> (shows math)</li>
+		<li><?php track_link("Tutorial6.pdf","PDF")?></li>
 	      </ul>
 	    </div>
 
