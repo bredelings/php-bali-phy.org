@@ -25,13 +25,15 @@
 
 	  <h3>Beta (development) release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>4.0-beta11</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
+	    <li style="padding-bottom:1em"><b>4.0-beta13</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
 
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta11/bali-phy-4.0-beta11-jammy-linux64.tar.gz","Linux") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta11/bali-phy-4.0-beta11-linux64-intel-singularity.sif","Linux&nbsp;(Singularity Image)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta11/bali-phy-4.0-beta11-mac-intel64.tar.gz","Mac&nbsp;(Intel)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta11/bali-phy-4.0-beta11-mac-arm64.tar.gz","Mac&nbsp;(Apple&nbsp;Silicon)") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta11/bali-phy-4.0-beta11-win64.tar.gz","Windows") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-linux64.tar.gz","Linux (Ubuntu 24.04)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-jammy.tar.gz","Linux (Ubuntu 22.04)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-focal.tar.gz","Linux (Ubuntu 20.04)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-linux64-intel-singularity.sif","Linux&nbsp;(Singularity Image)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-mac-intel64.tar.gz","Mac&nbsp;(Intel)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-mac-arm64.tar.gz","Mac&nbsp;(Apple&nbsp;Silicon)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta13-win64.tar.gz","Windows") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
 
@@ -52,17 +54,17 @@
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
 
 	      </li>
-	      <li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>. 
+	      <!-- li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>. 
 		<pre class="screen"><code class="prompt">% </code><strong><code>conda config --add channels conda-forge</code></strong>
 <code class="prompt">% </code><strong><code>conda config --add channels bioconda</code></strong>
 <code class="prompt">% </code><strong><code>conda install bali-phy</code></strong></pre>
                 <p>Mac users will need OS X 10.13 or higher.</p>
-	      </li>
-	      <li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
+	      </li-->
+	      <!-- li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
 	      	<pre class="screen"><code class="prompt">% </code><strong><code>sudo apt-get install bali-phy</code></strong>
 <code class="prompt">% </code><strong><code>bali-phy --version</code></strong></pre>
 	      </li>
-	      <p>Check the latest version available in: [<a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all">Debian</a>] [<a href="https://launchpad.net/ubuntu/+source/bali-phy/">Ubuntu</a>]</p>
+	      <p>Check the latest version available in: [<a href="https://packages.debian.org/search?keywords=bali-phy&searchon=names&section=all">Debian</a>] [<a href="https://launchpad.net/ubuntu/+source/bali-phy/">Ubuntu</a>]</p -->
 
               <!-- p class="warningbox"><b>Note</b>: 
                 For now, Ubuntu LTS users should probably download the TAR archives above instead of using apt. (See <a href="https://github.com/bredelings/BAli-Phy/issues/9">issue #9</a>)
