@@ -26,7 +26,7 @@
 
 	    <div style="margin-left:1em">
               <p>5/17/24: <strong>BAli-Phy 4.0-beta13</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
-	      It currently has more features that v3.6.1 and takes less RAM but is not as fast.<br/>
+	      It currently has more features than v3.6 and takes less RAM but is not as fast.<br/>
               <em>BAli-Phy 4.0</em> will likely be released around Sep 2024.</p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
