@@ -35,8 +35,8 @@
                 <li>Mac:
                   &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta14-mac-intel64.tar.gz","Intel") ?>]
 	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta14-mac-arm64.tar.gz","Apple&nbsp;Silicon") ?>]</li>
-              <li>:Windows: 
-	        &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta14-win64.tar.gz","Windows") ?>]</li>
+                <li>Windows:
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta13/bali-phy-4.0-beta14-win64.tar.gz","Windows") ?>]</li>
               </ul>
 	  </ul>
 
