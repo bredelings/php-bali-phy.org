@@ -55,7 +55,7 @@
 		<pre class="screen"><code class="prompt">% </code><strong><code>brew update</code></strong>
 <code class="prompt">% </code><strong><code>brew tap brewsci/bio</code></strong>
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
-
+                (Yes, you can use <a href="https://docs.brew.sh/Homebrew-on-Linux">homebrew on linux</a>)
 	      </li>
 	      <!-- li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>. 
 		<pre class="screen"><code class="prompt">% </code><strong><code>conda config --add channels conda-forge</code></strong>
