@@ -25,7 +25,7 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>6/20/24: <strong>BAli-Phy 4.0-beta14</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
+              <p>7/25/24: <strong>BAli-Phy 4.0-beta15</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
               <em>BAli-Phy 4.0</em> will likely be released around Sep 2024.</p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>

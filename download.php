@@ -25,18 +25,18 @@
 
 	  <h3>Beta (development) release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>4.0-beta14</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
+	    <li style="padding-bottom:1em"><b>4.0-beta15</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
               <ul>
                 <li>Linux: 
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-ubuntu-20.04.tar.gz","Ubuntu 20.04") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-ubuntu-20.04.tar.gz","Ubuntu 20.04") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
                 <li>Mac:
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-mac-intel64.tar.gz","Intel") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-mac-arm64.tar.gz","Apple&nbsp;Silicon") ?>]</li>
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-mac-intel64.tar.gz","Intel") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-mac-arm64.tar.gz","Apple&nbsp;Silicon") ?>]</li>
                 <li>Windows:
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta14/bali-phy-4.0-beta14-win64.tar.gz","Windows") ?>]</li>
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta15/bali-phy-4.0-beta15-win64.tar.gz","Windows") ?>]</li>
               </ul>
 	  </ul>
 
