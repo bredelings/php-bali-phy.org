@@ -57,13 +57,13 @@
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
                 (Yes, you can use <a href="https://docs.brew.sh/Homebrew-on-Linux">homebrew on linux</a>)
 	      </li>
-	      <!-- li><b>Mac and Linux</b>: <a href="https://docs.conda.io/en/latest/">Conda</a> users can install with <em>conda</em>. 
-		<pre class="screen"><code class="prompt">% </code><strong><code>conda config --add channels conda-forge</code></strong>
-<code class="prompt">% </code><strong><code>conda config --add channels bioconda</code></strong>
-<code class="prompt">% </code><strong><code>conda install bali-phy</code></strong></pre>
+
+	      <li><b>Mac and Linux</b>: After installing <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">conda</a> and <a href="https://bioconda.github.io/">bioconda</a>, to install bali-phy do:
+		<pre class="screen"><code class="prompt">% </code><strong><code>conda install bali-phy</code></strong></pre>
                 <p>Mac users will need OS X 10.13 or higher.</p>
-	      </li-->
-	      <!-- li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
+	      <li>
+
+	        <!-- li><b>Linux</b>: Debian and Ubuntu users can install with <em>apt-get</em>.
 	      	<pre class="screen"><code class="prompt">% </code><strong><code>sudo apt-get install bali-phy</code></strong>
 <code class="prompt">% </code><strong><code>bali-phy --version</code></strong></pre>
 	      </li>
