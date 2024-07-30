@@ -22,23 +22,23 @@
             <a href="https://github.com/bredelings/BAli-Phy/releases">downloading a pre-release</a> or compiling the git master branch at
             <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
 
-          <p>New features so far include:
+            <h3>New features so far include</h3>:
             <ul>
               <li><b><a href="../../models.php">probabilistic programming language</a></b> - describe your own phylogenetic models.</li>
-              <!-- li><b>type checking</b> for the model language</li -->
-              <!-- li><b>improved MCMC</b> - slice-sampling by doubling.</li -->
-              <!-- li><b>decreased RAM usage</b></li -->
-              <!-- li><b>better command-line model language</b></li -->
               <li><b>more flexible models</b> - easily change dimensions without reversible jump. (<em>partially implemented</em>)</li>
               <li><b>Non-reversible and non-equilibrium markov models</b>.
                 <ul>
                   <li>Compositional heterogeneity model (in progress)</li>
                   <li>Non-reversible rate matrix.</li>
+                </ul>
               </li>
+              <!-- li><b>type checking</b> for the model language</li -->
+              <!-- li><b>improved MCMC</b> - slice-sampling by doubling.</li -->
+              <!-- li><b>decreased RAM usage</b></li -->
+              <!-- li><b>better command-line model language</b></li -->
             </ul>
-          </p>
 
-          <p>New features will include
+          <h3>New features will include</h3>
             <ul>
               <li><b>Faster alignment</b> for long sequences.</li>
 	      <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
