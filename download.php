@@ -51,7 +51,7 @@
 	  </ul>
 	  <p>You can now install using a package manager on some systems:
 	    <ul>
-	      <li><b>Homebrew</b>(Mac and Linux): <a href="https://brew.sh">Homebrew</a> users can install with <em>brew</em>.
+	      <li><b>Homebrew</b> (Mac and Linux): <a href="https://brew.sh">Homebrew</a> users can install with <em>brew</em>.
 		<pre class="screen"><code class="prompt">% </code><strong><code>brew update</code></strong>
 <code class="prompt">% </code><strong><code>brew tap brewsci/bio</code></strong>
 <code class="prompt">% </code><strong><code>brew install bali-phy</code></strong></pre>
