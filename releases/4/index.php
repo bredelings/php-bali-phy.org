@@ -34,6 +34,7 @@
               <li>Non-reversible rate matrix.</li>
             </ul>
             </li>
+            <li>Codon models: allow using any genetic code</li>
             <!-- li><b>type checking</b> for the model language</li -->
             <!-- li><b>improved MCMC</b> - slice-sampling by doubling.</li -->
             <!-- li><b>decreased RAM usage</b></li -->
@@ -46,7 +47,10 @@
 	    <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
             <li><b>Custom MCMC moves</b>. The ability to add custom MCMC transition kernels will be added. (<em>partially implemented</em>)</li>
             <li><b>RNA stem models</b> - model RNA stems and loops (fixed alignments)</li>
-            <li>Site and letter properties: evolutionary rate, positive selection, etc.</li>
+            <li><b>Site and letter properties</b>: evolutionary rate, positive selection, etc.</li>
+            <li><b>ascertainment bias</b>: variable sites.</li>
+            <li><b>allow simulating from phyloCTMC</b></li>
+            <li><b>Add dNdS branch models</b></li>
           </ul>
 
           
