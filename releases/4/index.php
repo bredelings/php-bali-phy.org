@@ -22,7 +22,7 @@
             <a href="https://github.com/bredelings/BAli-Phy/releases">downloading a pre-release</a> or compiling the git master branch at
             <a href="https://github.com/bredelings/BAli-Phy">https://github.com/bredelings/BAli-Phy</a>.</p>
 
-            <h3>New features so far include</h3>:
+            <h3>New features</h3>
             <ul>
               <li><b><a href="../../models.php">probabilistic programming language</a></b> - describe your own phylogenetic models.</li>
               <li><b>more flexible models</b> - easily change dimensions without reversible jump. (<em>partially implemented</em>)</li>
@@ -38,7 +38,7 @@
               <!-- li><b>better command-line model language</b></li -->
             </ul>
 
-          <h3>New features will include</h3>
+          <h3>In progress features</h3>
             <ul>
               <li><b>Faster alignment</b> for long sequences.</li>
 	      <li><b>Time Trees and the relaxed clock</b>. Rooted trees implemented as a data structure within the language. (<em>partially implemented</em>)</li>
