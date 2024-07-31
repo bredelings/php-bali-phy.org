@@ -58,7 +58,7 @@
                 (Yes, you can use <a href="https://docs.brew.sh/Homebrew-on-Linux">homebrew on linux</a>)
 	      </li>
 
-	      <li><b>Conda</b> (Mac and Linux): Conda users can install with <em>conda</em>.  First, install <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">conda</a> and <a href="https://bioconda.github.io/">bioconda</a>.  Then do:
+	      <li><b>Conda</b> (Mac and Linux): <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">Conda</a> users can install with <em>conda</em>.  After installing <a href="https://bioconda.github.io/">bioconda</a>, do:
 		<pre class="screen"><code class="prompt">% </code><strong><code>conda install bali-phy</code></strong></pre>
                 <p>Mac users will need OS X 10.13 or higher.</p>
 
