@@ -34,9 +34,11 @@ code {background: #f0f0f0}
 
 	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
-              <li><b>expressivity</b>: to be expressive enough that researchers can spend their time designing models instead of designing new inference software.</li>
-              <li><b>modularity</b>: flexibly combine smaller models to create novel larger models</li>
-              <li><b>automatic inference</b>: the inference should largely take care of itself after the model is specified.</li>
+              <li><b>modularity</b>: flexibly combine smaller models to create novel larger models.</li>
+              <li><b>dynamic model structure</b>: the dependency structure of variables is not fixed.</li>
+              <li><b>variable-dimension models</b>: just specify the model, no need for reversible-jump.</li>
+              <li><b>random data-structures</b>: random objects (e.g. trees), not just random numbers.</li>
+              <li><b>user-defined data types</b>: allow users to define their own data structures.</li>
             </ul>
           MCMC is used for inference.
 
