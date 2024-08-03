@@ -29,11 +29,11 @@ code {background: #f0f0f0}
 	  <div class="main">
 	  <h1>Probabilistic Programming</h1>
 
-         <img src="developer/architecture.png" style="float:right;width:15em"/>
+         <!-- img src="developer/architecture.png" style="float:right;width:15em"/ -->
 
 	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
-              <li><b>modularity</b>: flexibly combine smaller models to create novel larger models.</li>
+              <li><b>modularity</b>: combine smaller models to create new larger models.</li>
               <li><b>dynamic model structure</b>: the dependency structure of variables is not fixed.</li>
               <li><b>variable-dimension models</b>: just specify the model, no need for reversible-jump.</li>
               <li><b>random data-structures</b>: random objects (e.g. trees), not just random numbers.</li>
