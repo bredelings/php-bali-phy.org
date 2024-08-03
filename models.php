@@ -30,7 +30,6 @@ code {background: #f0f0f0}
 	  <h1>Probabilistic Programming</h1>
 
          <img src="developer/architecture.png" style="float:right;width:15em"/>
-	  <h2>Rapid model development</h2>
 
 	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
