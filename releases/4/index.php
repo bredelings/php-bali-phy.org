@@ -29,10 +29,10 @@
             <li><b><a href="../../models.php">Model language</a></b> - describe your own phylogenetic models.</li>
             <li><b>more flexible models</b> - easily change dimensions without reversible jump. (<em>partially implemented</em>)</li>
             <li><b>Non-reversible and non-equilibrium markov models</b>.
-            <ul>
-              <li>Compositional heterogeneity model (in progress)</li>
-              <li>Non-reversible rate matrix.</li>
-            </ul>
+              <ul>
+                <li>Compositional heterogeneity model (in progress)</li>
+                <li>Non-reversible rate matrix.</li>
+              </ul>
             </li>
             <li>Codon models: allow using any genetic code</li>
             <!-- li><b>type checking</b> for the model language</li -->
@@ -49,8 +49,8 @@
             <li><b>RNA stem models</b> - model RNA stems and loops (fixed alignments)</li>
             <li><b>Site and letter properties</b>: evolutionary rate, positive selection, etc.</li>
             <li><b>ascertainment bias</b>: variable sites.</li>
-            <li><b>allow simulating from phyloCTMC</b></li>
-            <li><b>Add dNdS branch models</b></li>
+            <li><b>Simulation from phyloCTMC/phyloAlignment</b></li>
+            <li><b>dNdS branch models</b></li>
           </ul>
 
           
