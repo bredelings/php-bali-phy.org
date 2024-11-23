@@ -67,18 +67,21 @@ h1,h2,h3,h4 {clear: both;}
 	      <hr/>
 	      <h2><a name="usersguide-v4">User's guide for 4.0-beta versions.</a></h2>
 
+	      <p><b>4.0-beta16</b>:
+		[<a href="doc/4.0-beta16/README.xhtml">HTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta16/README.pdf">PDF</a>]</p>
 	      <p><b>4.0-beta13</b>:
 		[<a href="doc/4.0-beta13/README.xhtml">HTML</a>]&nbsp;&nbsp;
 		[<a href="doc/4.0-beta13/README.pdf">PDF</a>]</p>
 	      <p><b>4.0-beta7</b>:
 		[<a href="doc/4.0-beta7/README.xhtml">HTML</a>]&nbsp;&nbsp;
 		[<a href="doc/4.0-beta7/README.pdf">PDF</a>]</p>
-	      <p><b>4.0-beta4</b>:
+	      <!-- p><b>4.0-beta4</b>:
 		[<a href="doc/4.0-beta4/README.xhtml">HTML</a>]&nbsp;&nbsp;
 		[<a href="doc/4.0-beta4/README.pdf">PDF</a>]</p>
 	      <p><b>4.0-beta3</b>:
 		[<a href="doc/4.0-beta3/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta3/README.pdf">PDF</a>]</p>
+		[<a href="doc/4.0-beta3/README.pdf">PDF</a>]</p -->
 	    </div>
 
 	    <div style="padding-top:1.5em">
