@@ -85,15 +85,15 @@ h1,h2,h3,h4 {clear: both;}
 	    </div>
 
 	    <div style="padding-top:1.5em">
-	      <h2><a name="tutorialv3">Tutorial for version 4</a></h2>
+	      <h2><a name="tutorialv3">Tutorial for version 4.0-beta versions</a></h2>
 
-	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+	      <p><b>4.0-beta16</b>:
+		[<a href="doc/4.0-beta16/Tutorial7.xhtml">HTML</a>]&nbsp;&nbsp;
+		[<a href="doc/4.0-beta16/Tutorial7.pdf">PDF</a>]</p>
+	      <p><b>4.0-beta13</b>:
+		[<a href="Tutorial6.html">HTML</a>]&nbsp;&nbsp;
+		[<a href="Tutorial6.pdf">PDF</a>]</p>
 
-	      <ul class="floatlist">
-		<li><a href="Tutorial6.html">HTML</a></li>
-		<li><a href="Tutorial6.xhtml">XHTML</a> (shows math)</li>
-		<li><?php track_link("Tutorial6.pdf","PDF")?></li>
-	      </ul>
 	    </div>
 
 	    <!-- the float:left method of getting all the <li> items on the same line with bullets means that they don't count for spacing :-( -->
