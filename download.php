@@ -28,7 +28,6 @@
 	    <li style="padding-bottom:1em"><b>4.0-beta17</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
               <ul>
                 <li>Linux: 
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta17/bali-phy-4.0-beta17-ubuntu-20.04.tar.gz","Ubuntu 20.04") ?>]
 	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta17/bali-phy-4.0-beta17-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
                   &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta17/bali-phy-4.0-beta17-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
 	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0-beta17/bali-phy-4.0-beta17-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
