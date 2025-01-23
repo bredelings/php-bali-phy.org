@@ -51,6 +51,7 @@
             <li><b>ascertainment bias</b>: variable sites.</li>
             <li><b>Simulation from phyloCTMC/phyloAlignment</b></li>
             <li><b>dNdS branch models</b></li>
+            <li><b>dNdS using Bayesian inference tutorial</b></li>
           </ul>
 
           
