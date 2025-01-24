@@ -44,7 +44,7 @@
 	    <li style="padding-bottom:1em"><b>3.6.1</b> (<a href="releases/3/">Changes</a>): 
 
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-linux64.tar.gz","Linux&nbsp;64-bit") ?>]
-	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Mavericks)") ?>]
+	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Sonoma)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
 	  </ul>
