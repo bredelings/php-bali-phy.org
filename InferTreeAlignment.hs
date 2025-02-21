@@ -14,21 +14,21 @@ branch_length_dist topology branch = gamma (1/2) (2/fromIntegral n) where n = nu
 
 model seq_data = do
     let taxa            = getTaxa seq_data
-        tip_seq_lengths = get_sequence_lengths seq_data
+        tip_seq_lengths = getSequenceLengths seq_data
 
     -- Tree
     scale <- prior $ gamma (1/2) 2
-    tree  <- prior $ uniform_labelled_tree taxa branch_length_dist
+    tree  <- prior $ uniformLabelledTree'' taxa branch_length_dist
 
     -- Indel model
-    indel_rate   <- prior $ log_laplace (-4) 0.707
+    indel_rate   <- prior $ logLaplace (-4) 0.707
     mean_length <- (1 +) <$> sample (exponential 10)
     let imodel = rs07 indel_rate mean_length tree
 
     -- Substitution model
-    freqs  <- prior $ symmetric_dirichlet_on ["A", "C", "G", "T"] 1
-    kappa1 <- prior $ log_normal 0 1
-    kappa2 <- prior $ log_normal 0 1
+    freqs  <- prior $ symmetricDirichletOn ["A", "C", "G", "T"] 1
+    kappa1 <- prior $ logNormal 0 1
+    kappa2 <- prior $ logNormal 0 1
     let tn93_model = tn93' dna kappa1 kappa2 freqs
 
     -- Alignment
@@ -38,19 +38,19 @@ model seq_data = do
     observe seq_data $ phyloCTMC tree alignment tn93_model scale
 
     return
-        [ "tree" %=% write_newick tree
+        [ "tree" %=% writeNewick tree
         , "log(indel_rate)" %=% log indel_rate
         , "mean_length" %=% mean_length
         , "kappa1" %=% kappa1
         , "kappa2" %=% kappa2
         , "frequencies" %=% freqs
         , "scale" %=% scale
-        , "|T|" %=% tree_length tree
-        , "scale*|T|" %=% tree_length tree * scale
+        , "|T|" %=% treeLength tree
+        , "scale*|T|" %=% treeLength tree * scale
         , "|A|" %=% alignmentLength alignment
         ]
 
-main = do
+main logDir = do
     [filename] <- getArgs
 
     seq_data <- mkUnalignedCharacterData dna <$> load_sequences filename

@@ -8,7 +8,7 @@ import           Control.Monad.Fix -- should be unneeded
 
 model = do
     tree <- prior $ uniformTopology 5
-    let rtree = add_root 0 tree
+    let rtree = addRoot 0 tree
 
     let ps    = map (show . parentNode rtree) [0 .. 5]
 
@@ -18,7 +18,7 @@ model = do
         xs <- prior $ independent [ normal (mu node) 1.0 | node <- nodes rtree ]
     -- can we _observe_ from this? -- why or why not?
 
-    return ["tree" %=% write_newick rtree, "xs" %=% xs, "ps" %=% ps]
+    return ["tree" %=% writeNewick rtree, "xs" %=% xs, "ps" %=% ps]
 
-main = do
+main logDir = do
   return model
