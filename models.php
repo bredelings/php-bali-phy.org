@@ -222,7 +222,7 @@ code {background: #f0f0f0}
 
               <pre><code class="haskell"><?php include('M7.hs') ?></code></pre>
                 <p>You can find this file
-                in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/m7/">bali-phy/tests/prob_prog/infer_tree/m7/</a>
+                in <a href="https://github.com/bredelings/BAli-Phy/blob/master/tests/prob_prog/infer_tree/m7/">bali-phy/tests/prob_prog/infer_tree/m7/</a>
                 and run it as <b>bali-phy -m Model bglobin.fasta --iter=100</b>.
                 </p>
           </div>
