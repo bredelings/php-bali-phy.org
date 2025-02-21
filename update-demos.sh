@@ -9,6 +9,7 @@ done
 cp ${BALIPHYDIR}/tests/prob_prog/regression/LinearRegression.hs .
 cp ${BALIPHYDIR}/tests/prob_prog/sample_tree/3/sample.hs random_tree.hs
 cp ${BALIPHYDIR}/tests/prob_prog/infer_tree/1/Model.hs InferTreeAlignment.hs
+cp ${BALIPHYDIR}/tests/prob_prog/infer_tree/m7/Model.hs M7.hs
 
 #brittany --write-mode=inplace InferTreeAlignment.hs --columns 80
 fourmolu --column-limit 120 -i M7.hs
