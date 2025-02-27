@@ -25,9 +25,8 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>1/22/25: <strong>BAli-Phy 4.0-beta17</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
-                This release speeds up the likelihood calculation and adds some new codon models.<br/>
-                <em>BAli-Phy 4.0</em> will likely be released around Apr 2025.</p>
+              <p>2/27/25: <strong>BAli-Phy 4.0</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
+              </p>
 
 	      <p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
                 Bug fixes for <a href="https://github.com/bredelings/BayesianEstimatorSelfing/">BES</a> (See <a href="releases/3/">release notes</a>)</p>
