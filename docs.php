@@ -17,20 +17,28 @@ h1,h2,h3,h4 {clear: both;}
 
     <table class="layout">
       <tr>
-      <?php dirtree(); ?>
-	  <td class="center" valign="top">
-	    <!-- ?php navbar(); ? -->
-	    <div class="main">
+        <?php dirtree(); ?>
+	<td class="center" valign="top">
+	  <!-- ?php navbar(); ? -->
+	  <div class="main">
 
-	    <h2><a name="usersguide">User's Guide for version 3</a></h2>
+	    <h2><a name="usersguide">User's Guide</a></h2>
 
-	    <h4 style="margin-bottom: 0.5em">Available formats:</h4>
+	    <p>Available formats:</p>
 	    <ul class="floatlist">
 	      <li><a href="README.xhtml">HTML</a></li>
-	      <li><?php track_link("README.pdf","PDF")?></li>
+	      <li><a href="README.pdf">PDF</a></li>
 	    </ul>
 
-	    <h4><a href="README.html">Table of Contents</a></h4>
+	    <h2><a name="tutorial">Tutorial</a></h2>
+	    <p>Available formats:</p>
+            <ul class="floatlist">
+              <li><a href="doc/4.0-beta16/Tutorial7.xhtml">HTML</a></li>
+              <li><a href="doc/4.0-beta16/Tutorial7.pdf">PDF</a></li>
+            </ul>
+            <p></p>
+
+	    <!-- h4><a href="README.html">Table of Contents</a></h4>
 	    <ol>
 	      <li><a href="README.html#intro">Introduction</a></li>
 	      <li><a href="README.html#installation">Installation</a></li>
@@ -47,59 +55,12 @@ h1,h2,h3,h4 {clear: both;}
 	      <li><a href="README.html#tree-utilities">Tree utilities</a></li>
 	      <li><a href="README.html#compilation">Compiling BAli-Phy</a></li>
 	      <li><a href="README.html#FAQ">Frequently Asked Questions (FAQ)</a></li>
-	    </ol>
+	    </ol -->
 
 
-	    <div style="padding-top:1.5em">
-	      <hr/>
-	      <h2><a name="tutorialv3">Tutorial for version 3</a></h2>
-
-	      <h4 style="margin-bottom: 0.5em">Available formats:</h4>
-
-	      <ul class="floatlist">
-		<li><a href="Tutorial4.html">HTML</a></li>
-		<li><a href="Tutorial4.xhtml">XHTML</a> (shows math)</li>
-		<li><?php track_link("Tutorial4.pdf","PDF")?></li>
-	      </ul>
-	    </div>
-
-	    <div style="padding-top:1.5em">
-	      <hr/>
-	      <h2><a name="usersguide-v4">User's guide for 4.0-beta versions.</a></h2>
-
-	      <p><b>4.0-beta16</b>:
-		[<a href="doc/4.0-beta16/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta16/README.pdf">PDF</a>]</p>
-	      <p><b>4.0-beta13</b>:
-		[<a href="doc/4.0-beta13/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta13/README.pdf">PDF</a>]</p>
-	      <p><b>4.0-beta7</b>:
-		[<a href="doc/4.0-beta7/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta7/README.pdf">PDF</a>]</p>
-	      <!-- p><b>4.0-beta4</b>:
-		[<a href="doc/4.0-beta4/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta4/README.pdf">PDF</a>]</p>
-	      <p><b>4.0-beta3</b>:
-		[<a href="doc/4.0-beta3/README.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta3/README.pdf">PDF</a>]</p -->
-	    </div>
-
-	    <div style="padding-top:1.5em">
-	      <h2><a name="tutorialv3">Tutorial for version 4.0-beta versions</a></h2>
-
-	      <p><b>4.0-beta16</b>:
-		[<a href="doc/4.0-beta16/Tutorial7.xhtml">HTML</a>]&nbsp;&nbsp;
-		[<a href="doc/4.0-beta16/Tutorial7.pdf">PDF</a>]</p>
-	      <p><b>4.0-beta13</b>:
-		[<a href="Tutorial6.html">HTML</a>]&nbsp;&nbsp;
-		[<a href="Tutorial6.pdf">PDF</a>]</p>
-
-	    </div>
 
 	    <!-- the float:left method of getting all the <li> items on the same line with bullets means that they don't count for spacing :-( -->
 
-            <div style="padding-top:3.5em">
-	      <hr/>
 	      <h2><a name="manpages">Manual pages</a></h2>
 	      <ul>
 		<li><a href="man/bali-phy.html">bali-phy</a></li>

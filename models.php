@@ -31,7 +31,7 @@ code {background: #f0f0f0}
 
          <!-- img src="developer/architecture.png" style="float:right;width:15em"/ -->
 
-	  BAli-Phy 4 (unreleased) contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
+	  BAli-Phy 4 contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
             <ul class="compressed">
               <li><b>modularity</b>: combine smaller models to create new larger models.</li>
               <li><b>dynamic model structure</b>: the dependency structure of variables is not fixed.</li>
@@ -164,8 +164,8 @@ code {background: #f0f0f0}
             <li><a href="#recursive_sampling">Recursive sampling: a Brownian Bridge</a></li -->
           </ol>
 
-          <div class="warningbox"><b>Note</b>: These examples work with (beta releases of) version 4, but <strong>not</strong> with version 3.  To run these examples, you can download <a href="download.php">the latest 4.0-beta release</a>, or compile the latest <a href="https://github.com/bredelings/BAli-Phy/">source from github</a>.</li>
-          </div>
+          <!-- div class="warningbox"><b>Note</b>: These examples work with (beta releases of) version 4, but <strong>not</strong> with version 3.  To run these examples, you can download <a href="download.php">the latest 4.0-beta release</a>, or compile the latest <a href="https://github.com/bredelings/BAli-Phy/">source from github</a>.</li>
+          </div -->
 
           <div class="roundedbox" style="border-color:#666666; margin:1em; margin-top:2em">
             <h3>Haskell syntax</h3>
@@ -192,7 +192,7 @@ code {background: #f0f0f0}
 
               <ul class="uncompressed">
                 <li><b>sampling</b> from a distribution looks like <code class="haskell">b &lt;- prior $ normal 0 1</code>.<br/>  (This specifies a <em>prior</em> term.)</li>
-                <li><b>observing</b> data from a distribution looks like <code class="haskell">observe data $ distribution</code>.<br/>  (This specifies a <em>likelihood</em> term.)</li>
+                <li><b>observing</b> data from a distribution looks like <code class="haskell">observe data distribution</code>.<br/>  (This specifies a <em>likelihood</em> term.)</li>
                 <li><b>defining</b> a function looks like <code class="haskell">let f x = b*x + a</code>.<br/> (This defines the best fit line.)</li>
                 <li><b>logging</b> parameters is done by the code <code class="haskell">return ["b" %=% b, "a" %=% a, ...]</code>.<br/> (This writes a corresponding JSON object each MCMC iteration.)</li>
               </ul>
