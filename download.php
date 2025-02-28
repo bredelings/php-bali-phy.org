@@ -23,7 +23,7 @@
 	  <p>Please see the detailed <a href="README.xhtml#installation">installation instructions</a>.</p>
 	  <!-- I should add an outline here of subsections under installation -->
 
-	  <h3>Beta (development) release</h3>
+	  <h3>Stable release</h3>
 	  <ul>
 	    <li style="padding-bottom:1em"><b>4.0</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
               <ul>
@@ -39,7 +39,7 @@
               </ul>
 	  </ul>
 
-	  <h3>Current (stable) release</h3>
+	  <!-- h3>Last stable release</h3>
 	  <ul>
 	    <li style="padding-bottom:1em"><b>3.6.1</b> (<a href="releases/3/">Changes</a>): 
 
@@ -47,8 +47,9 @@
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-mac64.tar.gz","Mac&nbsp;64-bit&nbsp;(Sonoma)") ?>]
 	    &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/3.6.1/bali-phy-3.6.1-win64.tar.gz","Windows&nbsp;64-bit") ?>]
 	    &nbsp;&nbsp;[<a href="https://github.com/bredelings/BAli-Phy">git</a>]</li>
-	  </ul>
-	  <p>You can now install using a package manager on some systems:
+	  </ul -->
+
+	    <p>You can now install using a package manager on some systems:
 	    <ul>
 	      <li><b>Homebrew</b> (Mac and Linux): <a href="https://brew.sh">Homebrew</a> users can install with <em>brew</em>.
 		<pre class="screen"><code class="prompt">% </code><strong><code>brew update</code></strong>
@@ -77,6 +78,7 @@
 
 	<h3>Older releases</h3>
 	<ul>
+	  <li><b>3</b> (<a href="releases/3/">Changes</a>)</li>
 	  <li><b>2.3</b> (<a href="releases/2.3/">Changes</a>)</li>
 	  <li><b>2.2</b> (<a href="releases/2.2/">Changes</a>)</li>
 	  <li><b>2.1</b> (<a href="releases/2.1/">Changes</a>)</li>
