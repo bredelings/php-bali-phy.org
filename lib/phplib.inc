@@ -376,12 +376,12 @@ $menutree->add_children('Welcome!',
 $menutree->add_children('Documentation',
 			array('Users Guide::docs.php#usersguide',
                               'Tutorial::docs.php#tutorial',
-			      'Manual pages::docs.php#manpages')
+			      'Manual pages::docs.php#manpages',
+			      'Model language::models.php' )
 			);
 		 
 $menutree->add_children('Developer',
-			array('Developers Guide::developer/',
-			      'Probabilistic<br/>&nbsp;&nbsp;&nbsp;Programming::models.php' )
+			array('Developers Guide::developer/')
 			);
 
 $menutree->add_children('Contact',

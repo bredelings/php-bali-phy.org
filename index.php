@@ -25,7 +25,7 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>2/27/25: <strong>BAli-Phy 4.0</strong> is available for <a href="download.php">download</a> (See <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>).<br/>
+              <p>2/27/25: <strong>BAli-Phy 4.0</strong> is available for <a href="download.php">download</a> (See <a href="releases/4/index.php">Changes</a>).<br/>
               </p>
 
 	      <!-- p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
