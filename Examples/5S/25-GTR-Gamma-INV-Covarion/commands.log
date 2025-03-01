@@ -1,0 +1,84 @@
+-----------------------------------------------------------
+'statreport' '5S-25-9/C1.log' '5S-25-10/C1.log' '5S-25-11/C1.log' '5S-25-12/C1.log' '5S-25-13/C1.log' '5S-25-14/C1.log' '5S-25-15/C1.log' '5S-25-16/C1.log' '--skip=5000' > 'Results/Report'
+'trees-consensus' '--map-tree=Results/MAP.PP.tree' '--greedy-consensus=Results/greedy.PP.tree' '--report' 'Results/consensus' '5S-25-9/C1.trees' '5S-25-10/C1.trees' '5S-25-11/C1.trees' '5S-25-12/C1.trees' '5S-25-13/C1.trees' '5S-25-14/C1.trees' '5S-25-15/C1.trees' '5S-25-16/C1.trees' '--support-levels=Results/c-levels.plot' '--skip=5000' '--consensus=0.5:Results/c50.PP.tree,0.66:Results/c66.PP.tree,0.8:Results/c80.PP.tree,0.9:Results/c90.PP.tree,0.95:Results/c95.PP.tree,0.99:Results/c99.PP.tree,1.0:Results/c100.PP.tree'
+'tree-tool' 'Results/greedy.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/greedy.tree'
+'tree-tool' 'Results/MAP.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/MAP.tree'
+'tree-tool' 'Results/c50.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c50.tree'
+'tree-tool' 'Results/c66.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c66.tree'
+'tree-tool' 'Results/c80.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c80.tree'
+'tree-tool' 'Results/c90.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c90.tree'
+'tree-tool' 'Results/c95.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c95.tree'
+'tree-tool' 'Results/c99.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c99.tree'
+'tree-tool' 'Results/c100.PP.tree' '--strip-internal-names' '--name-all-nodes' > 'Results/c100.tree'
+'draw-tree' 'c50.tree' '--layout=equal-daylight'
+'draw-tree' 'c50.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c66.tree' '--layout=equal-daylight'
+'draw-tree' 'c66.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c80.tree' '--layout=equal-daylight'
+'draw-tree' 'c80.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c90.tree' '--layout=equal-daylight'
+'draw-tree' 'c90.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c95.tree' '--layout=equal-daylight'
+'draw-tree' 'c95.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c99.tree' '--layout=equal-daylight'
+'draw-tree' 'c99.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'c100.tree' '--layout=equal-daylight'
+'draw-tree' 'c100.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'greedy.tree' '--layout=equal-daylight'
+'draw-tree' 'greedy.tree' '--layout=equal-daylight' '--output=svg'
+'draw-tree' 'MAP.tree' '--layout=equal-daylight'
+'draw-tree' 'MAP.tree' '--layout=equal-daylight' '--output=svg'
+'pickout' '--no-header' '--large' 'pi' < 'Results/consensus' > 'Results/partitions'
+'trees-bootstrap' '--pred' 'Results/partitions.pred' '--LOD-table' 'Results/LOD-table' '--pseudocount=1' '5S-25-9/C1.trees' '5S-25-10/C1.trees' '5S-25-11/C1.trees' '5S-25-12/C1.trees' '5S-25-13/C1.trees' '5S-25-14/C1.trees' '5S-25-15/C1.trees' '5S-25-16/C1.trees' '--skip=5000' > 'Results/partitions.bs'
+'/usr/bin/R' '--slave' '--vanilla' '--args' 'Results/LOD-table' 'Results/convergence-PP.pdf' < '/home/bredelings/Devel/bali-phy/current/lib/bali-phy/libexec/compare-runs.R'
+'/usr/bin/R' '--slave' '--vanilla' '--args' 'Results/LOD-table' 'Results/convergence1-PP.svg' 'Results/convergence2-PP.svg' < '/home/bredelings/Devel/bali-phy/current/lib/bali-phy/libexec/compare-runs2.R'
+'trees-to-SRQ' 'Results/partitions.pred' '--max-points=1000' '--skip=5000' '5S-25-9/C1.trees' '5S-25-10/C1.trees' '5S-25-11/C1.trees' '5S-25-12/C1.trees' '5S-25-13/C1.trees' '5S-25-14/C1.trees' '5S-25-15/C1.trees' '5S-25-16/C1.trees' > 'Results/partitions.SRQ'
+'trees-to-SRQ' 'Results/c50.tree' '--max-points=1000' '--skip=5000' '5S-25-9/C1.trees' '5S-25-10/C1.trees' '5S-25-11/C1.trees' '5S-25-12/C1.trees' '5S-25-13/C1.trees' '5S-25-14/C1.trees' '5S-25-15/C1.trees' '5S-25-16/C1.trees' > 'Results/c50.SRQ'
+'trees-distances' 'matrix' '--max=100' '--jitter=0.3' '-V' '--skip=5000' '5S-25-9/C1.trees' '5S-25-10/C1.trees' '5S-25-11/C1.trees' '5S-25-12/C1.trees' > 'Results/tree-MDS.M' 2> 'Results/tree-MDS.count'
+'/usr/bin/R' '--slave' '--vanilla' '--args' 'Results/tree-MDS.M' 'Results/tree-MDS.svg' '100' '100' '100' '100' < '/home/bredelings/Devel/bali-phy/current/lib/bali-phy/libexec/tree-plot.R'
+'/usr/bin/R' '--slave' '--vanilla' '--args' 'Results/tree-MDS.M' '100' '100' '100' '100' < '/home/bredelings/Devel/bali-phy/current/lib/bali-phy/libexec/tree-plot-3D.R'
+'alignment-cat' '-p' '-e' '5S-25-9/C1.P1.initial.fasta' > 'Results/Work/P1.initial-unordered.fasta'
+'alignment-cat' 'Results/Work/P1.initial-unordered.fasta' '--reorder-by-tree=Results/c50.tree' > 'Results/P1.initial.fasta'
+'alignment-max' > 'Results/Work/P1.max-unordered.fasta'
+  err: bare!
+
+'alignment-cat' 'Results/Work/P1.max-unordered.fasta' '--reorder-by-tree=Results/c50.tree' > 'Results/P1.max.fasta'
+'summarize-ancestors' 'Results/P1.max.fasta' '-n' 'Results/greedy.tree' '--nodes-min=0.1' '-A' '5S-25-9/C1.P1.fastas' '-T' '5S-25-9/C1.trees' '-A' '5S-25-10/C1.P1.fastas' '-T' '5S-25-10/C1.trees' '-A' '5S-25-11/C1.P1.fastas' '-T' '5S-25-11/C1.trees' '-A' '5S-25-12/C1.P1.fastas' '-T' '5S-25-12/C1.trees' '-A' '5S-25-13/C1.P1.fastas' '-T' '5S-25-13/C1.trees' '-A' '5S-25-14/C1.P1.fastas' '-T' '5S-25-14/C1.trees' '-A' '5S-25-15/C1.P1.fastas' '-T' '5S-25-15/C1.trees' '-A' '5S-25-16/C1.P1.fastas' '-T' '5S-25-16/C1.trees' > 'Results/P1.ancestors.fasta'
+  err: Node 'node_1': present in 343/500 = 68.6% of samples.
+Node 'node_7': present in 258/500 = 51.6% of samples.
+Node 'node_3': present in 136/500 = 27.2% of samples.
+Node 'node_6': present in 354/500 = 70.8% of samples.
+Node 'node_5': present in 369/500 = 73.8% of samples.
+Node 'node_2': present in 336/500 = 67.2% of samples.
+Node 'node_4': present in 479/500 = 95.8% of samples.
+Node 'node_12': present in 68/500 = 13.6% of samples.
+Node 'node_8': present in 38/500 = 7.6% of samples.
+Node 'node_11': present in 79/500 = 15.8% of samples.
+Node 'node_10': present in 78/500 = 15.6% of samples.
+Node 'node_9': present in 122/500 = 24.4% of samples.
+Node 'node_13': present in 70/500 = 14% of samples.
+Node 'node_15': present in 86/500 = 17.2% of samples.
+Node 'node_14': present in 20/500 = 4% of samples.
+Node 'node_16': present in 73/500 = 14.6% of samples.
+Node 'node_18': present in 111/500 = 22.2% of samples.
+Node 'node_17': present in 38/500 = 7.6% of samples.
+Node 'node_19': present in 230/500 = 46% of samples.
+Node 'node_20': present in 196/500 = 39.2% of samples.
+Node 'node_21': present in 299/500 = 59.8% of samples.
+Node 'node_22': present in 305/500 = 61% of samples.
+Node 'node_23': present in 52/500 = 10.4% of samples.
+
+'alignment-draw' 'Results/P1.initial.fasta' '--color-scheme' 'DNA+contrast' '--show-ruler' > 'Results/P1.initial.html'
+'alignment-draw' 'Results/P1.max.fasta' '--color-scheme' 'DNA+contrast' '--show-ruler' > 'Results/P1.max.html'
+'alignment-draw' 'Results/P1.ancestors.fasta' '--color-scheme' 'DNA+contrast' '--show-ruler' > 'Results/P1.ancestors.html'
+'alignments-diff' 'Results/P1.initial.fasta' 'Results/P1.max.fasta' > 'Results/P1.initial-diff.AU'
+'alignment-draw' 'Results/P1.initial.fasta' '--scale=identity' '--AU' 'Results/P1.initial-diff.AU' '--show-ruler' '--color-scheme=diff[1]+contrast' > 'Results/P1.initial-diff.html'
+'alignment-gild' 'Results/P1.initial.fasta' 'Results/MAP.tree' '--max-alignments=500' > 'Results/P1.initial-AU.prob'
+'alignment-draw' 'Results/P1.initial.fasta' '--color-scheme' 'DNA+contrast+fade+fade+fade+fade' '--show-ruler' '--AU' 'Results/P1.initial-AU.prob' > 'Results/P1.initial-AU.html'
+'alignment-gild' 'Results/P1.max.fasta' 'Results/MAP.tree' '--max-alignments=500' > 'Results/P1.max-AU.prob'
+'alignment-draw' 'Results/P1.max.fasta' '--color-scheme' 'DNA+contrast+fade+fade+fade+fade' '--show-ruler' '--AU' 'Results/P1.max-AU.prob' > 'Results/P1.max-AU.html'
+'/home/bredelings/bin/fourmolu' '-i' 'Results/BAliPhy.Main.hs' '--column-limit' '120'
+'alignment-info' 'Results/P1.initial.fasta'
+'alignment-info' 'Results/P1.initial.fasta'
+'alignment-info' 'Results/P1.max.fasta'
+'alignment-info' 'Results/P1.ancestors.fasta'

@@ -1,0 +1,19 @@
+{
+  "burnin": 5000,
+  "subsample": 1,
+  "until": null,
+  "prune": null,
+  "input_files": [
+    "25.fasta"
+  ],
+  "alignment_file_names": [
+    "[PosixPath('5S-25-9/C1.P1.fastas')]",
+    "[PosixPath('5S-25-10/C1.P1.fastas')]",
+    "[PosixPath('5S-25-11/C1.P1.fastas')]",
+    "[PosixPath('5S-25-12/C1.P1.fastas')]",
+    "[PosixPath('5S-25-13/C1.P1.fastas')]",
+    "[PosixPath('5S-25-14/C1.P1.fastas')]",
+    "[PosixPath('5S-25-15/C1.P1.fastas')]",
+    "[PosixPath('5S-25-16/C1.P1.fastas')]"
+  ]
+}
