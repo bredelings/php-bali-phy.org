@@ -26,15 +26,15 @@ h1,h2,h3,h4 {clear: both;}
 
 	    <p>Available formats:</p>
 	    <ul class="floatlist">
-	      <li><a href="README.xhtml">HTML</a></li>
-	      <li><a href="README.pdf">PDF</a></li>
+	      <li><a href="doc/4.0/README.xhtml">HTML</a></li>
+	      <li><a href="doc/4.0/README.pdf">PDF</a></li>
 	    </ul>
 
 	    <h2><a name="tutorial">Tutorial</a></h2>
 	    <p>Available formats:</p>
             <ul class="floatlist">
-              <li><a href="doc/4.0-beta16/Tutorial7.xhtml">HTML</a></li>
-              <li><a href="doc/4.0-beta16/Tutorial7.pdf">PDF</a></li>
+              <li><a href="doc/4.0/Tutorial.xhtml">HTML</a></li>
+              <li><a href="doc/4.0/Tutorial.pdf">PDF</a></li>
             </ul>
             <p></p>
 
