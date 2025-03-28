@@ -1,7 +1,7 @@
-align = ITS1-trimmed.fasta
-align = 5.8S.fasta
-align = ITS2-trimmed.fasta
-smodel = 1,3:tn93+Rates.free[n=3]
-smodel = 2:tn93
-imodel = 2:none
-scale = 1,3:
+:align ITS1-trimmed.fasta
+:align 5.8S.fasta
+:align ITS2-trimmed.fasta
+:smodel 1,3:tn93 +> Rates.free(n=3)
+:smodel 2:tn93
+:imodel 2:none
+:scale 1,3:

@@ -28,11 +28,11 @@
 	<ol class="padded_list">
 	  <!-- <li><a href="Examples/5S/25-log-normal-B-2">5S rRNA - 25 sequences</a><br/>% bali-phy 25-muscle.fasta --smodel GTR+log-normal[8] --iterations 400000 --name 25-log-normal-B</li> -->
 	  <li><a href="Examples/5S/25-GTR-Gamma-INV-Covarion/">5S rRNA - 25 sequences</a><br/>
-	    % bali-phy <a href="Examples/25.fasta">25.fasta</a> --smodel 'gtr +> Rates.gamma(4) +> inv +> Covarion.hb02'</li>
+	    % bali-phy <a href="Examples/25.fasta">25.fasta</a> --smodel "gtr +> Rates.gamma(4) +> inv +> Covarion.hb02"</li>
 	  <li><a href="Examples/5S/48-GTR-Gamma-INV">5S rRNA - 48 sequences</a><br/>
-	    % bali-phy <a href="Examples/48-fsa.fasta">48-fsa.fasta</a> --smodel gtr+Rates.gamma[4]+inv</li>
+	    % bali-phy <a href="Examples/48-fsa.fasta">48-fsa.fasta</a> --smodel "gtr +> Rates.gamma(4) +> inv"</li>
 	  <li><a href="Examples/Globins/few-lg08-Rates.free5">Globins - 28 sequences</a><br/>
-	    % bali-phy <a href="Examples/few-globins.fasta">few-globins.fasta</a> --smodel lg08+Rates.free[n=5]</li>
+	    % bali-phy <a href="Examples/few-globins.fasta">few-globins.fasta</a> --smodel "lg08 +> Rates.free(n=5)"</li>
 	  <li><a href="Examples/ITS/ITS12-tn93-free3">ITS1 + 5.8S + ITS2 - 68 sequences</a><br/>
 	    % bali-phy -c <a href="Examples/ITS.txt">ITS.txt</a> --name ITS-3.1.5</li>
 	</ol>
