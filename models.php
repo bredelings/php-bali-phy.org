@@ -27,11 +27,11 @@ code {background: #f0f0f0}
 	<td class="center" valign="top">
 	  <!-- ?php navbar(); ? -->
 	  <div class="main">
-	  <h1>Probabilistic Programming</h1>
+	  <h1>Model Language</h1>
 
          <!-- img src="developer/architecture.png" style="float:right;width:15em"/ -->
 
-	  BAli-Phy 4 contains a language for expressing a wide range of probabilistic models.  The goals of the language are:
+	  BAli-Phy 4 contains a language for expressing a wide range of evolutionary models.  The goals of the language are:
             <ul class="compressed">
               <li><b>modularity</b>: combine smaller models to create new larger models.</li>
               <li><b>dynamic model structure</b>: the dependency structure of variables is not fixed.</li>
