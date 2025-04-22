@@ -41,11 +41,11 @@ code {background: #f0f0f0}
             </ul>
           MCMC is used for inference.
 
-          <p>BAli-Phy implements a universal probabilistic programming language (PPL). Universal PPLs allow inferring the number and relationship of random variables (See <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>).
-            This differs from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
+          <p>BAli-Phy implements a (universal) probabilistic programming language (PPL). PPLs allow inferring the number and relationship of random variables (see <a href="https://www.nature.com/articles/s42003-021-01753-7">Ronquist et al, 2021</a>), and include languages like Church, Venture, Gen and <a href="https://treeppl.org/">TreePPL</a>.</p>
+          <p>Probablistic programming languages differ from probabilistic graphical modeling (PGM) languages, such as <a href="http://mc-stan.org">Stan</a>, <a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">BUGS</a>, and <a href="https://revbayes.github.io">RevBayes</a>, where the model structure is fixed, and cannot be changed after it is initialized.</p>
 
           <ul>
-            <li><a href="#theory">Theory: Bayesian hierarchical models as programs</a></li>
+            <li><a href="#theory">Bayesian models as programs</a></li>
             <li><a href="#Examples">Examples</a>
               <ol>
                 <li><a href="#regression">Linear regression</a></li>
@@ -57,7 +57,7 @@ code {background: #f0f0f0}
           </ul>
 
 
-          <h2><a name="theory">Theory: Bayesian hierarchical models as programs</a></h2>
+          <h2><a name="theory">Bayesian models as programs</a></h2>
           <p>A PPL allows users to write a probabilistic model in the form of a <b>computer program</b>.  The model program draws random variables from their prior distribution, and incorporates data by calling functions to "observe" data from the data distribution.  This is a natural way to write <em>Bayesian hierarchical models</em>.
           </p>
           <img src="trace2.svg" style="height:9em;display:block;margin:auto"/>
