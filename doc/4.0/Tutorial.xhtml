@@ -9,9 +9,9 @@ Before you start this tutorial, please <a class="link" href="http://www.bali-phy
 </pre><p>Go into the <code class="filename">alignment_files</code> directory:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd alignment_files</code></strong>
 </pre><p>Download the example alignment files:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>wget http:</code></strong>//www.bali-phy.org/examples.tgz
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>wget http://www.bali-phy.org/examples.tgz</code></strong>
 </pre><p>Alternatively, you can use <span class="command"><strong>curl</strong></span>
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>curl -O http:</code></strong>//www.bali-phy.org/examples.tgz
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>curl -O http://www.bali-phy.org/examples.tgz</code></strong>
 </pre><p>Extract the compressed archive:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tar -zxf examples.tgz</code></strong>
 </pre><p>Take a look inside the <code class="filename">examples</code> directory:
@@ -36,18 +36,18 @@ What version of bali-phy are you running?  When was it compiled?  Which compiler
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-cat --help  | less</code></strong>
 </pre></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="help"></a>4. Help</h2></div></div></div><p>
 You can also get help on models, distributions, functions, and command-line options:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help tn93           | less        </code></strong>// Tamura-Nei (1993) <span class="emphasis"><em>model</em></span>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help normal         | less        </code></strong>// Normal <span class="emphasis"><em>distribution</em></span>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help quantile       | less        </code></strong>// quantile <span class="emphasis"><em>function</em></span>
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help tn93           | less        </code></strong># Tamura-Nei (1993) <span class="emphasis"><em>model</em></span>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help normal         | less        </code></strong># Normal <span class="emphasis"><em>distribution</em></span>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help quantile       | less        </code></strong># quantile <span class="emphasis"><em>function</em></span>
 </pre><p>
 You can find out which models, distributions, and functions are available?
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help models         | less        </code></strong>// What models are available?
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help distributions  | less        </code></strong>// What distributions are available?
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help functions      | less        </code></strong>// What functions are available?
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help models         | less        </code></strong># What models are available?
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help distributions  | less        </code></strong># What distributions are available?
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help functions      | less        </code></strong># What functions are available?
 </pre><p>
 You can get extended help on each command line option:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help iterations     | less        </code></strong>// --iterations=&lt;num&gt; <span class="emphasis"><em>command line option</em></span>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help alphabet       | less        </code></strong>// --alphabet=&lt;a&gt; <span class="emphasis"><em>command line option</em></span>
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help iterations     | less        </code></strong># --iterations=&lt;num&gt; <span class="emphasis"><em>command line option</em></span>
+<code class="prompt">%</code> <strong class="userinput"><code>bali-phy help alphabet       | less        </code></strong># --alphabet=&lt;a&gt; <span class="emphasis"><em>command line option</em></span>
 </pre></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm120"></a>5. Analysis 1: 5S rRNA -- free alignment versus fixed alignment</h2></div></div></div><p>Let's estimate a phylogeny on a very small data set under both a free alignment and a fixed alignment to see how the alignment affects our confidence in the estimated topology.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm124"></a>5.1. Free alignment</h3></div></div></div>
 
 Let's get started by going to the examples directory:
@@ -66,7 +66,7 @@ You can take a look at jobs running in the background. There should be two bali-
 </pre>The previous command only shows jobs started by the shell you are typing in.  You can also examine
 all processes running on your computer.  bali-phy should show up near the top since it using a lot
 of the CPU:
-<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>top          </code></strong>// press 'q' to exit top
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>top          </code></strong># press 'q' to exit top
 </pre>In order to see how many iterations have completed, check the number of lines in the log files:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>wc -l 5d-*/C1.log</code></strong>
 </pre>To summarize the results generated so far, run the summary script and then view the results in a web browser:
@@ -79,10 +79,10 @@ When you have about 2000 samples from each run, summarize the latest results:
 <code class="prompt">%</code> <strong class="userinput"><code>mv Results 5d-freeA.Results</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>firefox 5d-freeA.Results/index.html &amp;</code></strong>
 </pre>Now lets kill the bali-phy processes:
-<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>top         </code></strong>// use top to find the PID (process id) for each of the bali-phy processes
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>top         </code></strong># use top to find the PID (process id) for each of the bali-phy processes
 <code class="prompt">%</code> <strong class="userinput"><code>kill <em class="replaceable"><code>pid1</code></em></code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>kill <em class="replaceable"><code>pid2</code></em></code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>top         </code></strong>// check that the jobs have stopped.
+<code class="prompt">%</code> <strong class="userinput"><code>top         </code></strong># check that the jobs have stopped.
 </pre>Now let's look at the tree in figtree:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>figtree 5d-freeA.Results/c50.PP.tree &amp;</code></strong>
 </pre><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">When it says "Please select a name for these values", enter <strong class="userinput"><code>PP</code></strong>.</li><li class="listitem">Then, enable "Branch Labels".</li><li class="listitem">Under "Branch Labels / Display", select "PP".</li><li class="listitem">You can increase the font size to make the figure more readable.</li><li class="listitem">You can also increase the font size of the tip labels.</li></ol></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm186"></a>5.1.1. Parameter questions:</h4></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">What is the meaning of <strong class="userinput"><code>inv:p_inv</code></strong> parameter?   (Run <strong class="userinput"><code>bali-phy help inv</code></strong>)</li><li class="listitem">What is the prior distribution on <strong class="userinput"><code>inv:p_inv</code></strong>?  (See <span class="emphasis"><em>Model and priors / Substitution model</em></span>)</li><li class="listitem">What is the posterior median for <strong class="userinput"><code>inv:p_inv</code></strong>? (See <span class="emphasis"><em>Scalar Variables</em></span>)</li></ul></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm199"></a>5.1.2. Alignment questions:</h4></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">Which part of the alignment is most uncertain? (See <span class="emphasis"><em>Alignment Distribution / Best (WPD) / AU</em></span>)</li></ul></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="idm205"></a>5.1.3. Tree questions (free alignment):</h4></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">How many internal branches are in the 50% consensus tree?</li><li class="listitem">What is the posterior probability for each of these internal branches?</li></ul></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm211"></a>5.2. Fixed alignment</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
@@ -160,13 +160,20 @@ character sets of the combined file:
 </pre><p>However, the command line is getting so long that it is difficult to manage.
 </p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm354"></a>7.6. Option files</h3></div></div></div><p>Instead of writing all options on the command line, We can put some of them into a
 text file that is easier to manage and edit. Let's make a text file called <code class="filename">options1.txt</code>:
-</p><pre class="programlisting">:align cleaned.fasta:5-8       # exon1
-:align cleaned.fasta:9-453     # intron1
-:align cleaned.fasta:454-596   # exon2
-:align cleaned.fasta:597-864   # intron2
-:align cleaned.fasta:865-948   # exon3
-:align cleaned.fasta:949-1328  # intron3
-:align cleaned.fasta:1329-1393 # exon4
+</p><pre class="programlisting"># exon1
+:align cleaned.fasta:5-8       
+# intron1
+:align cleaned.fasta:9-453     
+# exon2
+:align cleaned.fasta:454-596   
+# intron2
+:align cleaned.fasta:597-864   
+# exon3
+:align cleaned.fasta:865-948   
+# intron3
+:align cleaned.fasta:949-1328  
+# exon4
+:align cleaned.fasta:1329-1393 
 
 # exons
 :smodel 1,3,5,7:gtr +&gt; Rates.free(n=4)
@@ -190,8 +197,8 @@ In order to load nucleotide sequences as codons, three conditions must be met:
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p><span class="strong"><strong>Sequence lengths must be multiples of three.</strong></span></p><p><code class="code">AAA --- TTT</code> is OK</p><p><code class="code">AAA --- T--</code> is not OK.</p></li><li class="listitem"><p><span class="strong"><strong>Gaps must be codon-aligned.</strong></span></p><p><code class="code">AAA --- TTT</code> is OK</p><p><code class="code">AA- --A TT-</code> is not OK.</p></li><li class="listitem"><p><span class="strong"><strong>The sequences must be in-frame and not have stop codons.</strong></span></p><p><code class="code">ATG AAT AAA</code> is OK, because it translates to <code class="code">MNK</code>.</p><p><code class="code">AAT GAA TAA</code> is not OK, because it translates to <code class="code">NE*</code>, where<code class="code">*</code> is a stop codon.</p></li></ol></div>
 Note that spaces in FASTA files are allowed, but not required.
 <p>Let's first extract the coding data:
-</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat exon{1,2,3,4}.fasta -c2-295 &gt; coding.fasta     </code></strong>// Concatenate exons and chop off partial codons at beginning and end
-<code class="prompt">%</code> <strong class="userinput"><code>sed -i 's/-/N/g' coding.fasta                                </code></strong>// Change codons like A-- to ANN at end of sequence
+</p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat exon{1,2,3,4}.fasta -c2-295 &gt; coding.fasta     </code></strong># Concatenate exons and chop off partial codons at beginning and end
+<code class="prompt">%</code> <strong class="userinput"><code>sed -i 's/-/N/g' coding.fasta                                </code></strong># Change codons like A-- to ANN at end of sequence
 </pre><p>We can then construct an option file <code class="filename">options2.txt</code>:</p><pre class="programlisting">:align intron1.fasta
 :align intron2.fasta
 :align intron3.fasta

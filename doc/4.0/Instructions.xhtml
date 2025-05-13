@@ -267,7 +267,7 @@ In order to load nucleotide sequences as codons, three conditions must be met:
 Note that spaces in FASTA files are allowed, but not required.
 <p>Let's extract the coding data:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat -c6-8,454-596,865-948,1329-1389 ferns.fasta --strip-gaps &gt; coding.fasta</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>alignment-translate coding.fasta | less         </code></strong># check that the coding frame is correct
+<code class="prompt">%</code> <strong class="userinput"><code>alignment-translate &lt; coding.fasta | less         </code></strong># check that the coding frame is correct
 </pre><p>Now we can put the following into a configuration file called <code class="filename">ferns-config3.txt</code>.</p><pre class="programlisting"># sequence data for 7 partitions
 :align coding.fasta
 # intron 1
@@ -297,5 +297,5 @@ Note that spaces in FASTA files are allowed, but not required.
 &lt;wait a few minutes&gt;
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html &amp;</code></strong>
 </pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm490"></a>5.10. Further exploration...</h3></div></div></div><p>For more information see:
-  </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <a class="link" href="https://www.bali-phy.org/Tutorial4.xhtml" target="_top">Tutorial</a> is similar to this exercise, but covers more functionality.</li><li class="listitem">The <a class="link" href="https://www.bali-phy.org/README.xhtml" target="_top">Users Guide</a> additionally covers ancestral sequence reconstruction, setting priors, etc.</li></ul></div><p>
+  </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <a class="link" href="https://www.bali-phy.org/Tutorial.xhtml" target="_top">Tutorial</a> is similar to this exercise, but covers more functionality.</li><li class="listitem">The <a class="link" href="https://www.bali-phy.org/README.xhtml" target="_top">Users Guide</a> additionally covers ancestral sequence reconstruction, setting priors, etc.</li></ul></div><p>
 </p></div></div></div></body></html>
