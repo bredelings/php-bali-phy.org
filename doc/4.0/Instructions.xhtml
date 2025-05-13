@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Alignment Practical Exercises</title><link rel="stylesheet" type="text/css" href="docbook.css" /><meta name="generator" content="DocBook XSL Stylesheets V1.79.2" /></head><body><div xml:lang="en" class="article" lang="en"><div class="titlepage"><div><div><h1 class="title"><a id="idm1"></a>Alignment Practical Exercises</h1></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="section"><a href="#idm9">1. Exercise (Setup, AliView, alignment "by eye")</a></span></dt><dd><dl><dt><span class="section"><a href="#idm12">1.1. Download the alignment files we will use</a></span></dt><dt><span class="section"><a href="#idm36">1.2. Open a FASTA file in Aliview</a></span></dt><dt><span class="section"><a href="#idm51">1.3. Align the sequences "by eye"</a></span></dt><dt><span class="section"><a href="#idm59">1.4. Try some different programs (optional)</a></span></dt></dl></dd><dt><span class="section"><a href="#idm70">2. Exercise (MAFFT, HoT, MUSCLE)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm73">2.1. Make a <code class="filename">~/bin</code> directory (for programs) and add it to your PATH</a></span></dt><dt><span class="section"><a href="#idm112">2.2. Install <code class="filename">fasta-flip.pl</code> and <code class="filename">compare-alignments</code> to <code class="filename">~/bin</code></a></span></dt><dt><span class="section"><a href="#idm135">2.3. MAFFT and HoT and Aliview</a></span></dt><dt><span class="section"><a href="#idm155">2.4. Alignment with MUSCLE (v5)</a></span></dt></dl></dd><dt><span class="section"><a href="#idm189">3. Exercise (FSA, PRANK)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm192">3.1. Alignment with FSA</a></span></dt><dt><span class="section"><a href="#idm209">3.2. Alignment with PRANK</a></span></dt></dl></dd><dt><span class="section"><a href="#idm221">4. Aligners and Trees</a></span></dt><dt><span class="section"><a href="#idm266">5. BAli-Phy (part 2)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm285">5.1. Creating a script file</a></span></dt><dt><span class="section"><a href="#idm304">5.2. Command line options</a></span></dt><dt><span class="section"><a href="#idm326">5.3. Running an analysis</a></span></dt><dt><span class="section"><a href="#idm349">5.4. Monitoring an analysis</a></span></dt><dt><span class="section"><a href="#idm356">5.5. Interpreting parameter names</a></span></dt><dt><span class="section"><a href="#idm378">5.6. Summarizing the results of a run</a></span></dt><dt><span class="section"><a href="#idm390">5.7. Comparing to MAFFT, FSA, and PRANK</a></span></dt><dt><span class="section"><a href="#idm415">5.8. Improving the analysis</a></span></dt><dt><span class="section"><a href="#idm441">5.9. Codon models for the coding data</a></span></dt><dt><span class="section"><a href="#idm493">5.10. Further exploration...</a></span></dt></dl></dd></dl></div><p>This tutorial assumes a UNIX command line.  On Linux or Mac this is built in; on Windows install Cygwin or WSL.</p><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm9"></a>1. Exercise (Setup, AliView, alignment "by eye")</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm12"></a>1.1. Download the alignment files we will use</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd                        			 </code></strong># go to your home directory
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Alignment Practical Exercises</title><link rel="stylesheet" type="text/css" href="docbook.css" /><meta name="generator" content="DocBook XSL Stylesheets V1.79.2" /></head><body><div xml:lang="en" class="article" lang="en"><div class="titlepage"><div><div><h1 class="title"><a id="idm1"></a>Alignment Practical Exercises</h1></div><div><div class="author"><h3 class="author"><span class="firstname">Benjamin</span> <span class="surname">Redelings</span></h3></div></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="section"><a href="#idm9">1. Exercise (Setup, AliView, alignment "by eye")</a></span></dt><dd><dl><dt><span class="section"><a href="#idm12">1.1. Download the alignment files we will use</a></span></dt><dt><span class="section"><a href="#idm36">1.2. Open a FASTA file in Aliview</a></span></dt><dt><span class="section"><a href="#idm51">1.3. Align the sequences "by eye"</a></span></dt><dt><span class="section"><a href="#idm59">1.4. Try some different programs (optional)</a></span></dt></dl></dd><dt><span class="section"><a href="#idm70">2. Exercise (MAFFT, HoT, MUSCLE)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm73">2.1. Make a <code class="filename">~/bin</code> directory (for programs) and add it to your PATH</a></span></dt><dt><span class="section"><a href="#idm112">2.2. Install <code class="filename">fasta-flip.pl</code> and <code class="filename">compare-alignments</code> to <code class="filename">~/bin</code></a></span></dt><dt><span class="section"><a href="#idm135">2.3. MAFFT and HoT and Aliview</a></span></dt><dt><span class="section"><a href="#idm155">2.4. Alignment with MUSCLE (v5)</a></span></dt></dl></dd><dt><span class="section"><a href="#idm189">3. Exercise (FSA, PRANK)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm192">3.1. Alignment with FSA</a></span></dt><dt><span class="section"><a href="#idm209">3.2. Alignment with PRANK</a></span></dt></dl></dd><dt><span class="section"><a href="#idm221">4. Aligners and Trees</a></span></dt><dt><span class="section"><a href="#idm263">5. BAli-Phy (part 2)</a></span></dt><dd><dl><dt><span class="section"><a href="#idm282">5.1. Creating a script file</a></span></dt><dt><span class="section"><a href="#idm301">5.2. Command line options</a></span></dt><dt><span class="section"><a href="#idm323">5.3. Running an analysis</a></span></dt><dt><span class="section"><a href="#idm346">5.4. Monitoring an analysis</a></span></dt><dt><span class="section"><a href="#idm353">5.5. Interpreting parameter names</a></span></dt><dt><span class="section"><a href="#idm375">5.6. Summarizing the results of a run</a></span></dt><dt><span class="section"><a href="#idm387">5.7. Comparing to MAFFT, FSA, and PRANK</a></span></dt><dt><span class="section"><a href="#idm412">5.8. Improving the analysis</a></span></dt><dt><span class="section"><a href="#idm438">5.9. Codon models for the coding data</a></span></dt><dt><span class="section"><a href="#idm490">5.10. Further exploration...</a></span></dt></dl></dd></dl></div><p>This tutorial assumes a UNIX command line.  On Linux or Mac this is built in; on Windows install Cygwin or WSL.</p><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm9"></a>1. Exercise (Setup, AliView, alignment "by eye")</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm12"></a>1.1. Download the alignment files we will use</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd                        			 </code></strong># go to your home directory
 <code class="prompt">%</code> <strong class="userinput"><code>pwd                                            </code></strong># where are we? = print working directory
 <code class="prompt">%</code> <strong class="userinput"><code>mkdir alignment_files                          </code></strong># make a subdirectory
 <code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files                           </code></strong># enter the subdirectory
@@ -114,30 +114,28 @@ Try muscle:
 </pre>
 Try prank:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>prank -d=5S-25.fasta +F -o=5S-25-prank</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>cp 5S-25-prank.best.fas 5S-25-prank.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>cat 5S-25-prank.best.fas | sed 's/_/ /g' &gt; 5S-25-prank.fasta</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>FastTree -nt 5S-25-prank.fasta &gt; 5S-25-prank.tree</code></strong>
 </pre>
 Try fsa:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>fsa --fast 5S-25.fasta &gt; 5S-25-fsa.fasta</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>FastTree -nt 5S-25-fsa.fasta &gt; 5S-25-fsa.tree</code></strong>
 </pre>
-Try bali-phy:
-<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5S-25.fasta -S "gtr +&gt; Rates.free(n=4) +&gt; Covarion.hb02" --name 5S-25-gtr-R4-hb02 &amp;</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>bali-phy 5S-25.fasta -S "gtr +&gt; Rates.free(n=4) +&gt; Covarion.hb02" --name 5S-25-gtr-R4-hb02 &amp;</code></strong>
-&lt;wait some time&gt;
-<code class="prompt">%</code> <strong class="userinput"><code>bp-analyze 5S-25-gtr-R4-hb02-1 5S-25-gtr-R4-hb02-2</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html</code></strong>
-&lt;wait some more time&gt;
-<code class="prompt">%</code> <strong class="userinput"><code>bp-analyze 5S-25-gtr-R4-hb02-1 5S-25-gtr-R4-hb02-2</code></strong>
-<code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html</code></strong>
+Try a consensus tree
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>trees-consensus 5S-25-{mafft,muscle,prank,fsa}.tree &gt; 5S-maj-consensus.tree</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>figtree 5S-maj-consensus.tree</code></strong>
 </pre>
-How different are the alignments?
+Try a consensus alignment
+<pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-consensus 5S-25-{mafft,muscle,prank,fsa}.fasta &gt; 5S-consensus.fasta</code></strong>
+<code class="prompt">%</code> <strong class="userinput"><code>FastTree -nt 5S-consensus.fasta &gt; 5S-consensus.tree</code></strong>
+</pre>
+How different are the alignments? (use aliview)
 
-How different are the trees?
+How different are the trees? (use figtree)
 
-</div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm266"></a>5. BAli-Phy (part 2)</h2></div></div></div><p>This exercise offers a quick overview of bali-phy with an emphasis on concrete analysis of real datasets.  Other documentation includes:
+</div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm263"></a>5. BAli-Phy (part 2)</h2></div></div></div><p>This exercise offers a quick overview of bali-phy with an emphasis on concrete analysis of real datasets.  Other documentation includes:
   </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <a class="link" href="http://www.bali-phy.org/README.xhtml" target="_top">Users Guide</a> is much more complete.</li><li class="listitem">The <a class="link" href="http://www.bali-phy.org/Tutorial6.xhtml" target="_top">Tutorial</a> is similar to this exercise, but covers more functionality.</li><li class="listitem">You can run <strong class="userinput"><code><em class="replaceable"><code>tool</code></em> --help</code></strong> to see command line options for <em class="replaceable"><code>tool</code></em>.</li><li class="listitem">You can run <strong class="userinput"><code>man <em class="replaceable"><code>tool</code></em></code></strong> to see the manual page for <em class="replaceable"><code>tool</code></em>.</li><li class="listitem">Manual pages for bali-phy and tools are also available <a class="link" href="http://www.bali-phy.org/docs.php#manpages" target="_top">online</a>.</li></ul></div><p>
-  </p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm285"></a>5.1. Creating a script file</h3></div></div></div><p>First, go to the <code class="filename">~/alignment_files/examples</code> directory and create
+  </p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm282"></a>5.1. Creating a script file</h3></div></div></div><p>First, go to the <code class="filename">~/alignment_files/examples</code> directory and create
 a text file called <code class="filename">ferns-config1.txt</code> that looks like this:</p><pre class="programlisting"># sequence data for 7 partitions
 # exon 1
 :align ferns.fasta:5-8
@@ -154,15 +152,17 @@ a text file called <code class="filename">ferns-config1.txt</code> that looks li
 # exon 4
 :align ferns.fasta:1329-1393
 
-:smodel gtr +&gt; Rates.gamma +&gt; inv  # substitution model
+# substitution model
+:smodel gtr +&gt; Rates.gamma +&gt; inv  
 
-:name ferns-intron-exon      # determines name for output directory
+# determines name for output directory
+:name ferns-intron-exon      
 </pre><p>It should be possible to copy and paste this text into the nano editor when running nano.  Note the instructions on the bottom of the terminal when running nano: <strong class="userinput"><code>^X</code></strong> means <strong class="userinput"><code>Control-X</code></strong>.
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>cd ~/alignment_files/examples</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>nano ferns-config1.txt</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>cat ferns-config1.txt</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config1.txt --test | less</code></strong>
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm304"></a>5.2. Command line options</h3></div></div></div><p>A script file can be turned into a command-line by replacing commands like <strong class="userinput"><code>command = value</code></strong> with <strong class="userinput"><code>--command value</code></strong>.  The exception is that for <strong class="userinput"><code>align=file</code></strong> commands, you can just write the filename by itself:
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm301"></a>5.2. Command line options</h3></div></div></div><p>A script file can be turned into a command-line by replacing commands like <strong class="userinput"><code>:command value</code></strong> with <strong class="userinput"><code>--command value</code></strong>.  The exception is that for <strong class="userinput"><code>:align file</code></strong> commands, you can just write the filename by itself:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy ferns.fasta:{5-8,12-444,454-596,609-844,865-948,953-1312,1329-1393} --smodel 'gtr +&gt; Rates.gamma +&gt; inv' --name=ferns-intron-exon --test</code></strong>
 </pre><p>However, with partitioned analyses the command-line can become kind of long.  Raw command lines are more useful with a simple unpartitioned analysis:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy ferns.fasta --test</code></strong>
@@ -171,7 +171,7 @@ a text file called <code class="filename">ferns-config1.txt</code> that looks li
 </pre><p>You can also get help on particular options or models with the help command:
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help smodel                </code></strong># help on option
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy help gtr                   </code></strong># help on model
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm326"></a>5.3. Running an analysis</h3></div></div></div>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm323"></a>5.3. Running an analysis</h3></div></div></div>
 After you get the <strong class="userinput"><code>--test</code></strong> command to work, remove the <strong class="userinput"><code>--test</code></strong> option and start two copies of this analysis:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config1.txt &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config1.txt &amp;</code></strong>
@@ -182,23 +182,23 @@ Lets look inside one of these directories:
 <code class="prompt">%</code> <strong class="userinput"><code>less ferns-intron-exon-1/C1.trees           </code></strong># tree samples
 <code class="prompt">%</code> <strong class="userinput"><code>less ferns-intron-exon-1/C1.P1.fastas       </code></strong># alignment samples for partition 1
 <code class="prompt">%</code> <strong class="userinput"><code>less ferns-intron-exon-1/C1.P2.fastas       </code></strong># alignment samples for partition 2
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm349"></a>5.4. Monitoring an analysis</h3></div></div></div>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm346"></a>5.4. Monitoring an analysis</h3></div></div></div>
 You can monitor an analysis in two ways.  One way is to use the program <strong class="userinput"><code>tracer</code></strong>.
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>tracer ferns-intron-exon-1/C1.log ferns-intron-exon-2/C1.log   </code></strong># you may need to double-click on Tracer and load log files via the menu.
 </pre>We would like to see that the likelihood and posterior probability have stabilized.  Another method of monitoring is just to
 generate the summary report.
-</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm356"></a>5.5. Interpreting parameter names</h3></div></div></div>
+</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm353"></a>5.5. Interpreting parameter names</h3></div></div></div>
 The parameter estimates have names that look like context1/value or context1/model:parameter.  For example S1/gtr:pi[A] indicates
 <div class="variablelist"><table border="0" class="variablelist"><colgroup><col align="left" valign="top" /><col /></colgroup><tbody><tr><td><p><span class="term">S1</span></p></td><td>The 1st substitution model</td></tr><tr><td><p><span class="term">gtr</span></p></td><td>The GTR (general, time-reversible) nucleotide substitution model.</td></tr><tr><td><p><span class="term">pi</span></p></td><td>The nucleotide frequencies</td></tr><tr><td><p><span class="term">[A]</span></p></td><td>The frequency for A (adenine).</td></tr></tbody></table></div>
 We can get information on what a parameter means by running <span class="command"><strong>bali-phy help <em class="replaceable"><code>model</code></em></strong></span>:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy help gtr</code></strong>
 </pre>For more information on parameter names, see <a class="link" href="http://www.bali-phy.org/README.xhtml#output" target="_top">the section on Output / Field names</a> in the Users Guide.
-</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm378"></a>5.6. Summarizing the results of a run</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon-1 ferns-intron-exon-2</code></strong>
+</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm375"></a>5.6. Summarizing the results of a run</h3></div></div></div><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon-1 ferns-intron-exon-2</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html</code></strong>
 </pre>Let's concatenate the summmary estimates for each partition to recover an alignment for the whole gene region.
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat Results/P{1..7}.max.fasta &gt; ferns-bali-phy.fasta</code></strong>
 </pre>Since bali-phy is still running, we can get information on its progress by rerunning <strong class="userinput"><code>bp-analyze</code></strong>.
-</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm390"></a>5.7. Comparing to MAFFT, FSA, and PRANK</h3></div></div></div>
+</div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm387"></a>5.7. Comparing to MAFFT, FSA, and PRANK</h3></div></div></div>
 We can see how the different aligners affect the total alignment length:
 <pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-info ferns-bali-phy.fasta | grep columns</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-info ferns-prank.fasta | grep columns</code></strong>
@@ -212,7 +212,7 @@ Let's visually compare the alignment by loading all the alignments in aliview.  
 <code class="prompt">%</code> <strong class="userinput"><code>aliview ferns-fsa.fasta &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>aliview ferns-fsa0.fasta &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>aliview ferns-mafft.fasta &amp;</code></strong>
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm415"></a>5.8. Improving the analysis</h3></div></div></div><p>Lets make a few changes and improvements to our analysis.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">Lets share a single substitution model between all exon partitions.
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm412"></a>5.8. Improving the analysis</h3></div></div></div><p>Lets make a few changes and improvements to our analysis.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">Lets share a single substitution model between all exon partitions.
 This means that all the exons share a single set of nucleotide frequencies, etc.
 We share substitution models between partitions by specifying the list of partitions
 that a substitution model applies to.</li><li class="listitem">Let's also share a single substitution model between all introns.</li><li class="listitem">Lets use the "free rates" model instead of site-rate heterogeneity.
@@ -224,31 +224,43 @@ We can do this by specifying an insertion-deletion model of "none" for those par
 
 Let's put the following into a configuration file called <code class="filename">ferns-config2.txt</code>.
 <pre class="programlisting"># sequence data for 7 partitions
-align = ferns.fasta:5-8         # exon 1
-align = ferns.fasta:12-444      # intron 1
-align = ferns.fasta:454-596     # exon 2
-align = ferns.fasta:609-844     # intron 2
-align = ferns.fasta:865-948     # exon 3
-align = ferns.fasta:953-1312    # intron 3
-align = ferns.fasta:1329-1393   # exon 4
+# exon 1
+:align ferns.fasta:5-8
+# intron 1
+:align ferns.fasta:12-444
+# exon 2
+:align ferns.fasta:454-596
+# intron 2
+:align ferns.fasta:609-844
+# exon 3
+:align ferns.fasta:865-948
+# intron 3
+:align ferns.fasta:953-1312
+# exon 4
+:align ferns.fasta:1329-1393
 
-smodel = 1,3,5,7:gtr +&gt; Rates.free # substitution model
-smodel = 2,4,6:gtr +&gt; Rates.free   # substitution model
+# substitution model
+:smodel 1,3,5,7:gtr +&gt; Rates.free
+# substitution model
+:smodel 2,4,6:gtr +&gt; Rates.free
 
-imodel = 1,3,5,7:none           # insertion-deletion model
-imodel = 2,4,6:rs07             # insertion-deletion model
+# insertion-deletion model
+:imodel 1,3,5,7:none
+# insertion-deletion model
+:imodel 2,4,6:rs07
 
-name = ferns-intron-exon2       # determines name for output directory
+# determines name for output directory
+:name ferns-intron-exon2
 </pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config2.txt &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config2.txt &amp;</code></strong>
-&lt;wait a few minutes
+&lt;wait a few minutes&gt;
 <code class="prompt">%</code> <strong class="userinput"><code>wc -l ferns-intron-exon2-*/C1.log                      </code></strong># How many iterations have been completed so far?
 <code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon2-1 ferns-intron-exon2-2   </code></strong># Generate a summary of completed iterations.
-&lt;wait a few more minutes
+&lt;wait a few more minutes&gt;
 <code class="prompt">%</code> <strong class="userinput"><code>wc -l ferns-intron-exon2-*/C1.log                      </code></strong># How many iterations have been completed so far?
 <code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon2-1 ferns-intron-exon2-2   </code></strong># Generate a summary of completed iterations.
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html &amp;</code></strong>
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm441"></a>5.9. Codon models for the coding data</h3></div></div></div>
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm438"></a>5.9. Codon models for the coding data</h3></div></div></div>
 Lets concatenate the exons to form the codon data.
 In order to load nucleotide sequences as codons, three conditions must be met:
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p><span class="strong"><strong>Sequence lengths must be multiples of three.</strong></span></p><p><code class="code">AAA --- TTT</code> is OK</p><p><code class="code">AAA --- T--</code> is not OK.</p></li><li class="listitem"><p><span class="strong"><strong>Gaps must be codon-aligned.</strong></span></p><p><code class="code">AAA --- TTT</code> is OK</p><p><code class="code">AA- --A TT-</code> is not OK.</p></li><li class="listitem"><p><span class="strong"><strong>The sequences must be in-frame and not have stop codons.</strong></span></p><p><code class="code">ATG AAT AAA</code> is OK, because it translates to <code class="code">MNK</code>.</p><p><code class="code">AAT GAA TAA</code> is not OK, because it translates to <code class="code">NE*</code>, where<code class="code">*</code> is a stop codon.</p></li></ol></div>
@@ -257,30 +269,33 @@ Note that spaces in FASTA files are allowed, but not required.
 </p><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>alignment-cat -c6-8,454-596,865-948,1329-1389 ferns.fasta --strip-gaps &gt; coding.fasta</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>alignment-translate coding.fasta | less         </code></strong># check that the coding frame is correct
 </pre><p>Now we can put the following into a configuration file called <code class="filename">ferns-config3.txt</code>.</p><pre class="programlisting"># sequence data for 7 partitions
-align = coding.fasta
-align = ferns.fasta:12-444    # intron 1
-align = ferns.fasta:609-844   # intron 2
-align = ferns.fasta:953-1312  # intron 3
+:align coding.fasta
+# intron 1
+:align ferns.fasta:12-444
+# intron 2
+:align ferns.fasta:609-844
+# intron 3
+:align ferns.fasta:953-1312
 
-smodel = 1:gy94(pi=f1x4)
-#smodel = 1:m3
-#smodel = 1:gtr + &gt; x3 +&gt; dNdS +&gt; mut_sel_aa
-#smodel = 1:function(w:gtr +&gt; x3 +&gt; dNdS(omega=w) +&gt; mut_sel_aa) +&gt; m3
-smodel = 2,3,4:gtr +&gt; Rates.free
+:smodel 1:gy94(pi=f1x4)
+#:smodel 1:m3
+#:smodel 1:gtr + &gt; x3 +&gt; dNdS +&gt; mut_sel_aa
+#:smodel 1:function(w:gtr +&gt; x3 +&gt; dNdS(omega=w) +&gt; mut_sel_aa) +&gt; m3
+:smodel 2,3,4:gtr +&gt; Rates.free
 
-imodel = 1:none
-imodel = 2,3,4:rs07
+:imodel 1:none
+:imodel 2,3,4:rs07
 
-name = ferns-intron-exon3
+:name ferns-intron-exon3
 </pre><pre class="screen"><code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config3.txt &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>bali-phy -c ferns-config3.txt &amp;</code></strong>
 <code class="prompt">%</code> <strong class="userinput"><code>wc -l ferns-intron-exon3-*/C1.log                      </code></strong># How many iterations have been completed so far?
 <code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon3-1 ferns-intron-exon3-2   </code></strong># Generate a summary of completed iterations.
-&lt;wait a few more minutes
+&lt;wait a few more minutes&gt;
 <code class="prompt">%</code> <strong class="userinput"><code>wc -l ferns-intron-exon3-*/C1.log                      </code></strong># How many iterations have been completed so far?
 <code class="prompt">%</code> <strong class="userinput"><code>bp-analyze ferns-intron-exon3-1 ferns-intron-exon3-2   </code></strong># Generate a summary of completed iterations.
-&lt;wait a few minutes
+&lt;wait a few minutes&gt;
 <code class="prompt">%</code> <strong class="userinput"><code>firefox Results/index.html &amp;</code></strong>
-</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm493"></a>5.10. Further exploration...</h3></div></div></div><p>For more information see:
+</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="idm490"></a>5.10. Further exploration...</h3></div></div></div><p>For more information see:
   </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">The <a class="link" href="https://www.bali-phy.org/Tutorial4.xhtml" target="_top">Tutorial</a> is similar to this exercise, but covers more functionality.</li><li class="listitem">The <a class="link" href="https://www.bali-phy.org/README.xhtml" target="_top">Users Guide</a> additionally covers ancestral sequence reconstruction, setting priors, etc.</li></ul></div><p>
 </p></div></div></div></body></html>
