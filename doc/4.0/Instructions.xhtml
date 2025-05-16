@@ -266,7 +266,7 @@ Note that spaces in FASTA files are allowed, but not required.
 :smodel 1:gy94(pi=f1x4)
 #:smodel 1:m3
 #:smodel 1:gtr + &gt; x3 +&gt; dNdS +&gt; mut_sel_aa
-#:smodel 1:function(w:gtr +&gt; x3 +&gt; dNdS(omega=w) +&gt; mut_sel_aa) +&gt; m3
+#:smodel 1:|w:gtr +&gt; x3 +&gt; dNdS(omega=w) +&gt; mut_sel_aa| +&gt; m3
 :smodel 2,3,4:gtr +&gt; Rates.free
 
 :imodel 1:none
