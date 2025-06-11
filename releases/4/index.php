@@ -35,6 +35,7 @@
 
 	    <li>Models
 	      <ul>
+                <li><span class="timepoint-new">[4.1]</span>Conditioning on variable sites with <span class="userinput">--smodel=<em>model</em>|variable</span> (unstable)</li>
 	        <li class="heading2">Codon models:
                   <ul>
                     <li>BUSTED and BUSTED-S model</li>
