@@ -25,12 +25,9 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>2/27/25: <strong>BAli-Phy 4.0</strong> is available for <a href="download.php">download</a> (See <a href="releases/4/index.php">Changes</a>).<br/>
+              <p>6/09/25: <strong>BAli-Phy 4.1</strong> is available for <a href="download.php">download</a> (See <a href="releases/4/index.php">Changes</a>).<br/>
               </p>
 
-	      <!-- p>08/24/21: <strong>BAli-Phy 3.6.1 released</strong> - <a href="download.php">Download</a><br/>
-                Bug fixes for <a href="https://github.com/bredelings/BayesianEstimatorSelfing/">BES</a> (See <a href="releases/3/">release notes</a>)</p -->
-	      <!-- p>03/02/21: <strong>Paper</strong> - <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab129/6156619?guestAccessKey=b1599c90-6c9b-4d78-9b7a-ef1af494d414">BAli-Phy version 3: Model-based co-estimation of Alignment and Phylogeny</a></p -->
 	      </div>
 
 	    <h3><a name="intro">Introduction</a></h3>

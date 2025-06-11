@@ -23,6 +23,7 @@
 	  <div class="release_dates"><b style="font-size:125%">Version 4 (stable):</b>
           <ul>
 	    <li><b>[4.0]</b> - Feb-28-2025</li>
+	    <li><b>[4.1]</b> - Jun-09-2025</li>
           </ul>
           </div>
 

@@ -25,17 +25,17 @@
 
 	  <h3>Stable release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>4.0</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
+	    <li style="padding-bottom:1em"><b>4.1</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
               <ul>
                 <li>Linux: 
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
                 <li>Mac:
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-mac-intel64.tar.gz","Intel") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-mac-arm64.tar.gz","Apple&nbsp;Silicon") ?>]</li>
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-mac-intel64.tar.gz","Intel (MacOS 13+)") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-mac-arm64.tar.gz","Apple&nbsp;Silicon (MacOS 14+)") ?>]</li>
                 <li>Windows:
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.0/bali-phy-4.0-win64.tar.gz","Windows") ?>]</li>
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-win64.tar.gz","Windows") ?>]</li>
               </ul>
 	  </ul>
 
