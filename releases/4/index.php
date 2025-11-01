@@ -18,7 +18,7 @@
 	  <div class="main">
 	  <h2><a name="news">Release Notes</a></h2>
 
-	  <p>See the <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a> file for more information.</p>
+	  <p>See the <a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS.md">NEWS.md</a> file for more information.</p>
 
 	  <div class="release_dates"><b style="font-size:125%">Version 4 (stable):</b>
           <ul>

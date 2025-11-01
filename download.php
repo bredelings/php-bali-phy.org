@@ -25,7 +25,7 @@
 
 	  <h3>Stable release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>4.1</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS">NEWS</a>):
+	    <li style="padding-bottom:1em"><b>4.1</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS.md">NEWS.md</a>):
               <ul>
                 <li>Linux: 
 	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
