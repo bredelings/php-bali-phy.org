@@ -25,17 +25,17 @@
 
 	  <h3>Stable release</h3>
 	  <ul>
-	    <li style="padding-bottom:1em"><b>4.1</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS.md">NEWS.md</a>):
+	    <li style="padding-bottom:1em"><b>4.2</b> (<a href="https://github.com/bredelings/BAli-Phy/blob/master/NEWS.md">NEWS.md</a>):
               <ul>
                 <li>Linux: 
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-ubuntu-22.04.tar.gz","Ubuntu 22.04") ?>]
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-ubuntu-24.04.tar.gz","Ubuntu 24.04") ?>]
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-ubuntu-24.04-arm.tar.gz","Ubuntu 24.04 (ARM)") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-linux64-intel-singularity.sif","Singularity Image") ?>]</li>
                 <li>Mac:
-                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-mac-intel64.tar.gz","Intel (MacOS 13+)") ?>]
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-mac-arm64.tar.gz","Apple&nbsp;Silicon (MacOS 14+)") ?>]</li>
+                  &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-mac-intel64.tar.gz","Intel (MacOS 15+)") ?>]
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-mac-arm64.tar.gz","Apple&nbsp;Silicon (MacOS 16+)") ?>]</li>
                 <li>Windows:
-	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.1/bali-phy-4.1-win64.tar.gz","Windows") ?>]</li>
+	          &nbsp;&nbsp;[<?php track_link("https://github.com/bredelings/BAli-Phy/releases/download/4.2/bali-phy-4.2-win64.tar.gz","Windows") ?>]</li>
               </ul>
 	  </ul>
 

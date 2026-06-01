@@ -25,7 +25,7 @@
 	    <h3><a name="news">News</a></h3>
 
 	    <div style="margin-left:1em">
-              <p>6/09/25: <strong>BAli-Phy 4.1</strong> is available for <a href="download.php">download</a> (See <a href="releases/4/index.php">Changes</a>).<br/>
+              <p>5/27/26: <strong>BAli-Phy 4.2</strong> is available for <a href="download.php">download</a> (See <a href="releases/4/index.php">Changes</a>).<br/>
               </p>
 
 	      </div>
